@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-07-31T15:07:28.892882+00:00",
+  "prediction": {
+    "within_5h": 0.1684,
+    "within_24h": 0.5873,
+    "within_48h": 0.8297
+  },
+  "confidence": "medium",
+  "signals": {
+    "tweet_count": 6,
+    "hours_since_last_reset": null,
+    "average_reset_interval": null,
+    "time_ratio": null,
+    "hazard_rate": 0.036206,
+    "tibo_signal": 0.485,
+    "community_signal": 0.1667,
+    "release_signal": 0.2,
+    "llm_scores": {
+      "reset_signal": 0.44166666666666665,
+      "limit_discussion": 0.5499999999999999,
+      "release_signal": 0.19999999999999998,
+      "community_pressure": 0.16666666666666666,
+      "confidence": 0.6999999999999998,
+      "reason": [
+        "检测到重置相关关键词",
+        "检测到限制/额度相关关键词",
+        "检测到重置相关关键词",
+        "检测到限制/额度相关关键词",
+        "检测到重置相关关键词"
+      ]
+    }
+  },
+  "reasons": [
+    "无历史 reset 记录，基于默认基线 hazard 预测",
+    "检测到少量 reset/limit 相关讨论（信号强度 0.49）"
+  ]
+}

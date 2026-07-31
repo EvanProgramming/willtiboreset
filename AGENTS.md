@@ -10,10 +10,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
 
+# One-command prediction (collect → analyze → predict → output/prediction.json)
+python predict.py
+
 # Run data collection + LLM signal analysis (collect → save tweets.json → analyze signals)
 python -m collectors
 
-# Run the full prediction pipeline (collect → analyze → LLM signals → survival model → output)
+# Run the full prediction pipeline with verbose output
 python main.py
 
 # Run specific modes
@@ -29,6 +32,8 @@ python -m pytest tests/test_survival_model.py -v
 python -m pytest tests/test_llm_signal.py -v
 ```
 
+GitHub Actions workflow at `.github/workflows/predict.yml` runs `python predict.py` every 10 minutes via cron and auto-commits `output/prediction.json`. Also supports `workflow_dispatch` for manual triggers.
+
 ## Architecture
 
 The project has two pipelines sharing the same data models:
@@ -39,10 +44,12 @@ RSS feeds / mock data → collectors → Tweet[] → save tweets.json
                                               → LLMAnalyzer → SignalScores[]
 ```
 
-**Prediction pipeline** (`python main.py`):
+**Prediction pipeline** (`python predict.py` or `python main.py`):
 ```
-collectors → analyzer (statistical) → LLMAnalyzer → build_features → ResetPredictor → output
+collectors → analyzer (statistical) → LLMAnalyzer → build_features → ResetPredictor → output/prediction.json
 ```
+
+`predict.py` is the unified entry point used by GitHub Actions. `main.py` provides the same pipeline with verbose CLI output and additional modes (`--status`, `--analyze`, `--predict`).
 
 ### Data flow
 
@@ -74,7 +81,8 @@ collectors → analyzer (statistical) → LLMAnalyzer → build_features → Res
 - `data/sample_tweets.json` — mock data for testing (6 cases: reset discussions, product updates, irrelevant)
 - `data/reset_history.json` — historical ResetEvent objects
 - `output/signal_analysis.json` — LLM signal analysis results (gitignored)
-- `output/prediction_latest.json` — latest prediction output with features and explanation (gitignored)
+- `output/prediction_latest.json` — latest prediction output from `main.py --predict` (gitignored)
+- `output/prediction.json` — final prediction output from `predict.py`, **tracked by git** (auto-committed by GitHub Actions). Format: `{updated_at, prediction: {within_5h, within_24h, within_48h}, confidence, signals, reasons}`
 
 ### Environment variables
 
