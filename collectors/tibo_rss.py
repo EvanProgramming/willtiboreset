@@ -26,4 +26,5 @@ class TiboRSSCollector(BaseRSSCollector):
             feed_urls=feed_urls,
             source_name="tibo_rss",
             timeout=timeout,
+            authority_score=1.0,
         )

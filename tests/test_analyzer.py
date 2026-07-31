@@ -69,6 +69,12 @@ class TestSignalAnalyzer:
         assert features.hours_since_last_reset == pytest_approx(24.0)
         # 间隔 = 72 - 24 = 48 小时
         assert features.avg_reset_interval_hours == pytest_approx(48.0)
+        assert features.median_reset_interval_hours == pytest_approx(48.0)
+        assert features.min_reset_interval_hours == pytest_approx(48.0)
+        assert features.max_reset_interval_hours == pytest_approx(48.0)
+        assert features.std_reset_interval_hours == pytest_approx(0.0)
+        assert features.reset_interval_count == 1
+        assert features.interval_confidence > 0.0
 
     def test_signal_descriptions(self):
         """信号描述列表生成"""

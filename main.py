@@ -25,12 +25,26 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from analyzer import MockLLMAnalyzer, SignalAnalyzer
+from analyzer import SignalAnalyzer
+from analyzer.llm_signal import GeminiAnalyzer
 from collectors import ResetHistoryCollector, TweetCollector
 from config import config
 from model.data_models import PredictionResult
+from model.model_state import ModelStateManager
 from model.survival_model import ResetPredictor, build_features
 from output import OutputFormatter
+
+
+def _validate_prediction_config() -> None:
+    """运行预测前校验必须配置项。"""
+    if not config.has_gemini_credentials:
+        raise RuntimeError(
+            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+        )
+    if not config.rss_feeds.get("tibo"):
+        raise RuntimeError(
+            "TIBO_RSS_URLS 未配置。Tibo 是核心数据源，必须至少配置一个 RSS URL。"
+        )
 
 
 def print_separator(title: str = "") -> None:
@@ -134,6 +148,7 @@ def run_prediction(tweets=None, events=None) -> None:
     print()
 
     config.ensure_dirs()
+    _validate_prediction_config()
 
     # 加载数据（如果未传入）
     if tweets is None or events is None:
@@ -162,7 +177,10 @@ def run_prediction(tweets=None, events=None) -> None:
 
     # Step 2: LLM 信号分析
     print_separator("Step 2: LLM 信号分析")
-    llm_analyzer = MockLLMAnalyzer()
+    llm_analyzer = GeminiAnalyzer(
+        api_key=config.gemini_api_key,
+        model=config.gemini_model,
+    )
     print(f"  分析器: {llm_analyzer.__class__.__name__}")
     if tweets:
         signal_scores = llm_analyzer.analyze_tweets(tweets)
@@ -178,13 +196,21 @@ def run_prediction(tweets=None, events=None) -> None:
         print("  无推文可分析")
     print()
 
-    # Step 3: 构建预测特征
+    # Step 3: 加载模型状态并构建预测特征
     print_separator("Step 3: 特征构建")
+    state_manager = ModelStateManager(config.model_state_path)
+    model_state = state_manager.load()
+    if model_state is not None:
+        print(f"  已加载 model_state: {model_state.sample_count} 个 interval")
+    else:
+        print("  未找到 model_state.json，使用默认先验参数")
+
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
         interval_count=analysis_features.reset_interval_count,
+        model_state=model_state,
     )
     print(f"  hours_since_last_reset: {pred_features.hours_since_last_reset}")
     print(f"  average_reset_interval: {pred_features.average_reset_interval}")
@@ -198,6 +224,7 @@ def run_prediction(tweets=None, events=None) -> None:
     predictor = ResetPredictor(
         horizons=config.prediction_horizons,
         default_interval=config.default_reset_interval_hours,
+        model_state=model_state,
     )
     print(f"  模型: {predictor.model_version}")
     explanation = predictor.predict(pred_features)

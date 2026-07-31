@@ -86,6 +86,10 @@ class Tweet(BaseModel):
     url: Optional[str] = Field(
         default=None, description="原始链接"
     )
+    authority_score: float = Field(
+        default=1.0, ge=0.0, le=1.0,
+        description="数据来源权威性评分（Tibo=1.0, OpenAI=0.9, Community=0.5）"
+    )
 
 
 # ──────────────────────────────────────────────

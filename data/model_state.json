@@ -1,0 +1,18 @@
+{
+  "average_interval_hours": 58.96,
+  "median_interval_hours": 42.92,
+  "std_interval_hours": 83.5,
+  "min_interval_hours": 0.0,
+  "max_interval_hours": 269.5,
+  "sample_count": 10,
+  "interval_confidence": 0.6,
+  "prior_weight": 0.5,
+  "params": {
+    "alpha": -4.0,
+    "beta_time": 1.62,
+    "beta_tibo": 1.0,
+    "beta_community": 0.8,
+    "beta_release": 0.5
+  },
+  "updated_at": "2026-07-31T17:02:21.704634Z"
+}

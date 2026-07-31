@@ -50,9 +50,11 @@ WillTiboReset - 核心预测引擎
 from __future__ import annotations
 
 import math
+from pathlib import Path
 from typing import Optional
 
 from model.data_models import PredictionExplanation, PredictionFeatures
+from model.model_state import ModelState, ModelStateManager
 
 
 # ──────────────────────────────────────────────
@@ -130,6 +132,7 @@ def build_features(
     average_reset_interval: Optional[float],
     signal_scores: Optional[list] = None,
     interval_count: Optional[int] = None,
+    model_state: Optional[ModelState] = None,
 ) -> PredictionFeatures:
     """
     从分析特征和 LLM 信号分数构建 PredictionFeatures。
@@ -140,6 +143,7 @@ def build_features(
         signal_scores: SignalScores 列表，将取平均值后融合
         interval_count: 用于计算 average_reset_interval 的间隔数量，
                         用于 Bayesian shrinkage
+        model_state: 可选的已加载模型状态，包含后验平均间隔和参数
 
     Returns:
         PredictionFeatures 可直接传给 ResetPredictor.predict()
@@ -157,10 +161,14 @@ def build_features(
         community_signal = sum(s.community_pressure for s in signal_scores) / n
         release_signal = sum(s.release_signal for s in signal_scores) / n
 
-    # Bayesian 后验平均间隔：无历史时退化为先验
-    posterior_interval = _compute_posterior_interval(
-        average_reset_interval, interval_count
-    )
+    # 若提供了 model_state，直接使用其计算好的后验平均间隔
+    if model_state is not None:
+        posterior_interval = model_state.average_interval_hours
+    else:
+        # Bayesian 后验平均间隔：无历史时退化为先验
+        posterior_interval = _compute_posterior_interval(
+            average_reset_interval, interval_count
+        )
 
     # 时间因素必须始终参与：无历史时假设距上次 reset 为一个先验周期
     hours_since = (
@@ -213,6 +221,8 @@ class ResetPredictor:
         params: Optional[dict[str, float]] = None,
         horizons: Optional[list[int]] = None,
         default_interval: float = DEFAULT_RESET_INTERVAL_HOURS,
+        model_state: Optional[ModelState] = None,
+        model_state_path: Optional[Path] = None,
     ):
         """
         Args:
@@ -220,16 +230,41 @@ class ResetPredictor:
                     beta_community, beta_release
             horizons: 预测时间窗口列表（小时），默认 [5, 24, 48]
             default_interval: 无历史数据时使用的先验默认周期
+            model_state: 已加载的模型状态（优先使用）
+            model_state_path: model_state.json 路径，若提供则自动加载
         """
+        self._default_interval = default_interval
+        self._model_state = self._load_model_state(model_state, model_state_path)
+
+        # 参数优先级：传入 params > model_state.params > DEFAULT_PARAMS
         self._params = {**DEFAULT_PARAMS}
+        if self._model_state is not None and self._model_state.params:
+            self._params.update(self._model_state.params)
         if params:
             self._params.update(params)
+
         self._horizons = horizons if horizons is not None else list(PREDICTION_HORIZONS)
-        self._default_interval = default_interval
+
+    def _load_model_state(
+        self,
+        model_state: Optional[ModelState],
+        model_state_path: Optional[Path],
+    ) -> Optional[ModelState]:
+        """解析 model_state 来源：直接对象优先，否则从路径加载。"""
+        if model_state is not None:
+            return model_state
+        if model_state_path is not None:
+            return ModelStateManager(model_state_path).load()
+        return None
 
     @property
     def model_version(self) -> str:
-        return "bayesian-survival-2.0.0"
+        return "adaptive-bayesian-survival-2.1.0"
+
+    @property
+    def model_state(self) -> Optional[ModelState]:
+        """返回当前使用的模型状态（可能为 None）"""
+        return self._model_state
 
     @property
     def params(self) -> dict[str, float]:
@@ -266,10 +301,13 @@ class ResetPredictor:
         reasons = self._generate_reasons(features, time_ratio, hazard, logit)
 
         # 记录是否使用了先验默认周期
-        prior_applied = (
-            features.average_reset_interval is None
-            or features.average_reset_interval == self._default_interval
-        )
+        if self._model_state is not None:
+            prior_applied = self._model_state.prior_weight > 0.0
+        else:
+            prior_applied = (
+                features.average_reset_interval is None
+                or features.average_reset_interval == self._default_interval
+            )
 
         return PredictionExplanation(
             probability=probability,

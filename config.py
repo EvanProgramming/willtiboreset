@@ -119,6 +119,11 @@ class Config:
         return self.data_dir / "sample_tweets.json"
 
     @property
+    def model_state_path(self) -> Path:
+        """模型状态 JSON 路径"""
+        return self.data_dir / "model_state.json"
+
+    @property
     def has_gemini_credentials(self) -> bool:
         """是否已配置 Gemini 凭证"""
         return bool(self.gemini_api_key)

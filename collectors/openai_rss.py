@@ -26,4 +26,5 @@ class OpenAIRSSCollector(BaseRSSCollector):
             feed_urls=feed_urls,
             source_name="openai_rss",
             timeout=timeout,
+            authority_score=0.9,
         )

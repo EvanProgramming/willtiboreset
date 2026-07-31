@@ -72,10 +72,12 @@ class BaseRSSCollector(BaseCollector):
         feed_urls: list[str],
         source_name: str,
         timeout: int = 30,
+        authority_score: float = 1.0,
     ):
         self._feed_urls = feed_urls
         self._source_name = source_name
         self._timeout = timeout
+        self._authority_score = authority_score
 
     def collect(self) -> list[Tweet]:
         """从所有配置的 RSS URL 收集数据"""
@@ -129,6 +131,7 @@ class BaseRSSCollector(BaseCollector):
             text=text,
             source=self._source_name,
             url=link,
+            authority_score=self._authority_score,
         )
 
     def _deduplicate(self, tweets: list[Tweet]) -> list[Tweet]:

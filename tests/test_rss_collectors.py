@@ -186,6 +186,7 @@ class TestCommunityCollector:
         collector = CommunityCollector(
             feed_urls=[],
             mock_data_path=mock_path,
+            use_mock=True,
         )
         tweets = collector.collect()
         assert len(tweets) == 1
@@ -197,6 +198,7 @@ class TestCommunityCollector:
         collector = CommunityCollector(
             feed_urls=[],
             mock_data_path=tmp_path / "nonexistent.json",
+            use_mock=True,
         )
         tweets = collector.collect()
         assert tweets == []
@@ -223,6 +225,7 @@ class TestCommunityCollector:
         collector = CommunityCollector(
             feed_urls=[],
             mock_data_path=mock_path,
+            use_mock=True,
         )
         tweets = collector.collect()
         assert len(tweets) == 2
@@ -245,6 +248,7 @@ class TestCommunityCollector:
         collector = CommunityCollector(
             feed_urls=[],
             mock_data_path=mock_path,
+            use_mock=True,
         )
         tweets = collector.collect()
         assert len(tweets) == 1

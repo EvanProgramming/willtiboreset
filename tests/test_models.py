@@ -127,18 +127,39 @@ class TestTweet:
         )
         assert tweet.source == "tibo_rss"
 
+    def test_authority_score_default(self):
+        """authority_score 默认为 1.0"""
+        tweet = Tweet(
+            timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
+            author="user",
+            text="hello",
+        )
+        assert tweet.authority_score == 1.0
+
+    def test_authority_score_range(self):
+        """authority_score 超出 [0, 1] 应报错"""
+        with pytest.raises(ValidationError):
+            Tweet(
+                timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
+                author="user",
+                text="hello",
+                authority_score=1.5,
+            )
+
     def test_json_roundtrip_with_source(self):
-        """包含 source 字段的 JSON 往返"""
+        """包含 source 和 authority_score 的 JSON 往返"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
             text="hello",
             source="openai_rss",
             url="https://example.com",
+            authority_score=0.9,
         )
         json_str = tweet.model_dump_json()
         restored = Tweet.model_validate_json(json_str)
         assert restored.source == "openai_rss"
+        assert restored.authority_score == 0.9
 
 
 class TestSignalScores:

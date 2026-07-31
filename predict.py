@@ -6,9 +6,9 @@ WillTiboReset - 一键预测脚本
 输出: output/prediction.json
 
 自动完成：
-  1. 获取最新数据（RSS + 社区 mock）
-  2. 分析文本信号（LLM / Mock）
-  3. 运行预测模型（Discrete-Time Survival Model）
+  1. 获取最新数据（Tibo / OpenAI / Community RSS）
+  2. 分析文本信号（Gemini LLM）
+  3. 运行预测模型（Adaptive Bayesian Survival Model）
   4. 生成最终预测文件 output/prediction.json
 
 输出格式：
@@ -38,7 +38,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from analyzer import SignalAnalyzer
-from analyzer.llm_signal import GeminiAnalyzer, LLMAnalyzer, MockLLMAnalyzer
+from analyzer.llm_signal import GeminiAnalyzer, LLMAnalyzer
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -49,6 +49,7 @@ from collectors import (
 from collectors.rss_base import _build_dedup_key
 from config import config
 from model.data_models import Tweet
+from model.model_state import ModelStateManager
 from model.survival_model import ResetPredictor, build_features
 
 
@@ -89,13 +90,27 @@ def collect_data() -> list[Tweet]:
 
 
 def create_analyzer() -> LLMAnalyzer:
-    """根据配置创建 LLM 分析器（有 Gemini key 用 Gemini，否则用 Mock）"""
-    if config.has_gemini_credentials:
-        return GeminiAnalyzer(
-            api_key=config.gemini_api_key,
-            model=config.gemini_model,
+    """根据配置创建 Gemini LLM 分析器。GEMINI_API_KEY 为必须配置。"""
+    if not config.has_gemini_credentials:
+        raise RuntimeError(
+            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
         )
-    return MockLLMAnalyzer()
+    return GeminiAnalyzer(
+        api_key=config.gemini_api_key,
+        model=config.gemini_model,
+    )
+
+
+def validate_configuration() -> None:
+    """在运行前校验必须配置项。缺失时直接报错，禁止静默 fallback。"""
+    if not config.has_gemini_credentials:
+        raise RuntimeError(
+            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+        )
+    if not config.rss_feeds.get("tibo"):
+        raise RuntimeError(
+            "TIBO_RSS_URLS 未配置。Tibo 是核心数据源，必须至少配置一个 RSS URL。"
+        )
 
 
 # ──────────────────────────────────────────────
@@ -134,6 +149,7 @@ def compute_confidence(
 
 def main() -> int:
     config.ensure_dirs()
+    validate_configuration()
 
     print("WillTiboReset — 预测引擎")
     print("=" * 50)
@@ -178,18 +194,29 @@ def main() -> int:
     else:
         print("  距上次重置: 无历史记录")
 
-    # ── 3. 运行预测模型 ──
+    # ── 3. 加载模型状态并运行预测模型 ──
+    print("\n[3/4] 加载模型状态...")
+    state_manager = ModelStateManager(config.model_state_path)
+    model_state = state_manager.load()
+    if model_state is not None:
+        print(f"  已加载 model_state: {model_state.sample_count} 个 interval")
+        print(f"  后验平均间隔: {model_state.average_interval_hours:.1f}h")
+    else:
+        print("  未找到 model_state.json，将使用默认先验参数")
+
     print("\n[3/4] 运行预测模型...")
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
         interval_count=analysis_features.reset_interval_count,
+        model_state=model_state,
     )
 
     predictor = ResetPredictor(
         horizons=config.prediction_horizons,
         default_interval=config.default_reset_interval_hours,
+        model_state=model_state,
     )
     explanation = predictor.predict(pred_features)
 
@@ -224,6 +251,11 @@ def main() -> int:
             "tweet_count": len(tweets),
             "hours_since_last_reset": pred_features.hours_since_last_reset,
             "average_reset_interval": pred_features.average_reset_interval,
+            "median_reset_interval": analysis_features.median_reset_interval_hours,
+            "std_reset_interval": analysis_features.std_reset_interval_hours,
+            "min_reset_interval": analysis_features.min_reset_interval_hours,
+            "max_reset_interval": analysis_features.max_reset_interval_hours,
+            "interval_confidence": analysis_features.interval_confidence,
             "time_ratio": explanation.time_ratio,
             "hazard_rate": explanation.hazard_rate,
             "tibo_signal": round(pred_features.tibo_signal, 4),
