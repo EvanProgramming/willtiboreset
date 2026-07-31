@@ -2,8 +2,13 @@
 collectors 模块 - 数据收集器
 
 负责从各公开互联网信号源收集原始数据。
-当前提供框架和文件存储实现，
-后续将接入 Twitter API 等真实数据源。
+当前支持 RSS Feed 和社区 mock 数据，
+后续可扩展为 API 等数据源。
+
+所有 Collector 遵循统一接口：
+    collect() -> list[Tweet]
+
+后续模块只依赖 Tweet 结构，不依赖具体数据来源。
 """
 
 from __future__ import annotations
@@ -108,4 +113,16 @@ __all__ = [
     "BaseCollector",
     "TweetCollector",
     "ResetHistoryCollector",
+    # RSS 收集器
+    "BaseRSSCollector",
+    "TiboRSSCollector",
+    "OpenAIRSSCollector",
+    "CommunityCollector",
 ]
+
+
+# RSS 收集器导出（放在末尾避免循环导入）
+from collectors.rss_base import BaseRSSCollector
+from collectors.tibo_rss import TiboRSSCollector
+from collectors.openai_rss import OpenAIRSSCollector
+from collectors.community import CommunityCollector

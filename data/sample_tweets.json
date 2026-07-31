@@ -3,42 +3,42 @@
     "timestamp": "2025-07-30T10:00:00Z",
     "author": "tibo_user",
     "text": "ChatGPT Codex 额度终于重置了！又可以用了，感觉是批量 reset",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet1"
   },
   {
     "timestamp": "2025-07-30T10:30:00Z",
     "author": "codex_fan",
     "text": "My Codex usage limit got reset today. Seems like OpenAI is doing a bulk reset for everyone.",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet2"
   },
   {
     "timestamp": "2025-07-30T11:00:00Z",
     "author": "frustrated_dev",
     "text": "Codex 额度用完了，什么时候重置啊？有人知道吗？急需用",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet3"
   },
   {
     "timestamp": "2025-07-30T12:00:00Z",
     "author": "openai",
     "text": "We're excited to announce new improvements to GPT-4o including better reasoning capabilities and faster response times.",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet4"
   },
   {
     "timestamp": "2025-07-30T13:00:00Z",
     "author": "tech_news",
     "text": "Apple announces new MacBook Pro with M5 chip, available next month with improved battery life.",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet5"
   },
   {
     "timestamp": "2025-07-30T14:00:00Z",
     "author": "ai_researcher",
     "text": "Reached the rate limit on Codex again. The usage quota is really restrictive for heavy users. Hoping for a reset soon.",
-    "source": "community_mock",
+    "source": "sample",
     "url": "https://example.com/tweet6"
   }
 ]

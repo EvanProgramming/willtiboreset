@@ -9,6 +9,7 @@ from model.data_models import (
     HorizonPrediction,
     PredictionResult,
     ResetEvent,
+    SignalScores,
     SignalSource,
     Tweet,
 )
@@ -106,6 +107,110 @@ class TestTweet:
             text="hello",
         )
         assert tweet.url is None
+
+    def test_source_default(self):
+        """source 默认为 unknown"""
+        tweet = Tweet(
+            timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
+            author="user",
+            text="hello",
+        )
+        assert tweet.source == "unknown"
+
+    def test_source_custom(self):
+        """可以指定 source"""
+        tweet = Tweet(
+            timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
+            author="user",
+            text="hello",
+            source="tibo_rss",
+        )
+        assert tweet.source == "tibo_rss"
+
+    def test_json_roundtrip_with_source(self):
+        """包含 source 字段的 JSON 往返"""
+        tweet = Tweet(
+            timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
+            author="user",
+            text="hello",
+            source="openai_rss",
+            url="https://example.com",
+        )
+        json_str = tweet.model_dump_json()
+        restored = Tweet.model_validate_json(json_str)
+        assert restored.source == "openai_rss"
+
+
+class TestSignalScores:
+    """SignalScores 模型测试"""
+
+    def test_create_valid_scores(self):
+        """创建有效的信号分数"""
+        scores = SignalScores(
+            reset_signal=0.8,
+            limit_discussion=0.6,
+            release_signal=0.2,
+            community_pressure=0.7,
+            confidence=0.9,
+            reason=["检测到重置关键词", "检测到限制关键词"],
+        )
+        assert scores.reset_signal == 0.8
+        assert scores.confidence == 0.9
+        assert len(scores.reason) == 2
+
+    def test_scores_out_of_range(self):
+        """分数超出 [0, 1] 范围应报错"""
+        with pytest.raises(ValidationError):
+            SignalScores(
+                reset_signal=1.5,
+                limit_discussion=0.0,
+                release_signal=0.0,
+                community_pressure=0.0,
+                confidence=0.5,
+            )
+
+    def test_default_reason(self):
+        """reason 默认为空列表"""
+        scores = SignalScores(
+            reset_signal=0.5,
+            limit_discussion=0.5,
+            release_signal=0.5,
+            community_pressure=0.5,
+            confidence=0.5,
+        )
+        assert scores.reason == []
+
+    def test_to_features(self):
+        """to_features 返回特征字典"""
+        scores = SignalScores(
+            reset_signal=0.8,
+            limit_discussion=0.6,
+            release_signal=0.2,
+            community_pressure=0.7,
+            confidence=0.9,
+        )
+        features = scores.to_features()
+        assert isinstance(features, dict)
+        assert features["reset_signal"] == 0.8
+        assert features["limit_discussion"] == 0.6
+        assert features["release_signal"] == 0.2
+        assert features["community_pressure"] == 0.7
+        assert features["confidence"] == 0.9
+
+    def test_json_roundtrip(self):
+        """JSON 序列化/反序列化"""
+        scores = SignalScores(
+            reset_signal=0.8,
+            limit_discussion=0.6,
+            release_signal=0.2,
+            community_pressure=0.7,
+            confidence=0.9,
+            reason=["测试原因"],
+        )
+        json_str = scores.model_dump_json()
+        restored = SignalScores.model_validate_json(json_str)
+        assert restored.reset_signal == 0.8
+        assert restored.reason == ["测试原因"]
 
 
 class TestPredictionResult:

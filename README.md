@@ -4,9 +4,15 @@
 
 通过公开互联网信号预测 Tibo/OpenAI 是否会在未来 **5 小时**、**24 小时**、**48 小时** 内重置 ChatGPT/Codex 使用额度。
 
-## 当前状态：Phase 1
+## 当前状态：Phase 2
 
-Phase 1 已实现完整的**数据收集 + 信号分析管道**框架，预测逻辑接口已定义但留空（不包含任何假逻辑），为后续接入 LLM 分析和统计预测模型做好准备。
+- **Phase 1** ✅ 项目结构、数据模型、收集/分析/输出管道框架
+- **Phase 2** ✅ RSS 数据采集层 + LLM 信号分析层
+  - RSS 收集器（TiboRSSCollector、OpenAIRSSCollector、CommunityCollector）
+  - LLM 信号分析器（GeminiAnalyzer + MockLLMAnalyzer）
+  - 统一 Tweet 数据结构（含 source 字段）
+  - SignalScores 结构化特征输出
+  - 预测逻辑接口已定义但留空（不包含任何假逻辑）
 
 ---
 
@@ -15,57 +21,84 @@ Phase 1 已实现完整的**数据收集 + 信号分析管道**框架，预测�
 ```
 willtiboreset/
 ├── main.py                 # 入口文件，CLI 命令
-├── config.py               # 配置系统（.env / 环境变量）
+├── config.py               # 配置系统（.env / 环境变量 / RSS_CONFIG）
 ├── requirements.txt        # 运行依赖
 ├── requirements-dev.txt    # 开发依赖（pytest）
 ├── .env.example            # 环境变量示例
 │
 ├── model/                  # 数据模型与预测器
 │   ├── __init__.py         # 统一导出
-│   ├── data_models.py      # ResetEvent, Tweet, PredictionResult
+│   ├── data_models.py      # ResetEvent, Tweet, SignalScores, PredictionResult
 │   └── predictor.py        # 预测器框架（BasePredictor + 占位实现）
 │
 ├── collectors/             # 数据收集器
-│   └── __init__.py         # TweetCollector, ResetHistoryCollector
+│   ├── __init__.py         # BaseCollector, TweetCollector, ResetHistoryCollector
+│   ├── rss_base.py         # RSS 基础收集器（解析/去重）
+│   ├── tibo_rss.py         # Tibo RSS 收集器
+│   ├── openai_rss.py       # OpenAI RSS 收集器
+│   ├── community.py        # 社区信号收集器（RSS + mock）
+│   └── __main__.py         # 入口: python -m collectors
 │
 ├── analyzer/               # 信号分析器
-│   └── __init__.py         # SignalAnalyzer, AnalysisFeatures
+│   ├── __init__.py         # SignalAnalyzer, AnalysisFeatures
+│   └── llm_signal.py       # LLM 信号分析器（Gemini + Mock）
 │
 ├── output/                 # 输出格式化
 │   └── __init__.py         # OutputFormatter（JSON + 文本）
 │
 ├── data/                   # 数据存储
 │   ├── reset_history.json  # 历史重置事件
-│   └── tweets.json         # 收集的推文
+│   ├── tweets.json         # 收集的推文（运行后生成）
+│   └── sample_tweets.json  # 测试/mock 数据
 │
 └── tests/                  # 测试
     ├── test_models.py
     ├── test_config.py
     ├── test_analyzer.py
-    └── test_collectors.py
+    ├── test_collectors.py
+    ├── test_rss_collectors.py
+    └── test_llm_signal.py
 ```
 
 ## 架构概览
 
+### 数据采集 & LLM 信号分析（`python -m collectors`）
+
 ```
-数据源 (Twitter/X, 社区报告, OpenAI Status)
+RSS Feeds / Mock 数据
         │
         ▼
   ┌─────────────┐
-  │  collectors  │  收集原始信号 → Tweet / ResetEvent
-  └──────┬──────┘
+  │  collectors  │  TiboRSS / OpenAIRSS / Community
+  └──────┬──────┘  → list[Tweet] (统一结构)
+         │
+    保存 tweets.json
          │
          ▼
   ┌─────────────┐
-  │   analyzer   │  提取特征 → AnalysisFeatures
-  └──────┬──────┘
+  │ LLMAnalyzer  │  Gemini / Mock
+  └──────┬──────┘  → list[SignalScores]
          │
+         ▼
+  SignalScores: reset_signal, limit_discussion,
+                release_signal, community_pressure
+```
+
+### 预测管道（`python main.py`）
+
+```
+  ┌─────────────┐
+  │  collectors  │  收集原始信号 → Tweet / ResetEvent
+  └──────┬──────┘
+         ▼
+  ┌─────────────┐
+  │   analyzer   │  提取统计特征 → AnalysisFeatures
+  └──────┬──────┘
          ▼
   ┌─────────────┐
   │    model     │  预测 → PredictionResult
-  │ (predictor)  │  (Phase 1: 接口已定义，逻辑待实现)
+  │ (predictor)  │  (接口已定义，逻辑待实现)
   └──────┬──────┘
-         │
          ▼
   ┌─────────────┐
   │   output     │  格式化输出 → JSON + 文本
@@ -85,14 +118,27 @@ willtiboreset/
 | `notes` | `str` | 补充说明 |
 
 ### Tweet
-Tibo/OpenAI 相关推文。
+统一信号数据单元（所有 Collector 输出）。
 
 | 字段 | 类型 | 说明 |
 |------|------|------|
-| `timestamp` | `datetime` | 推文发布时间（UTC） |
-| `author` | `str` | 作者用户名 |
-| `text` | `str` | 推文正文 |
-| `url` | `str?` | 推文链接（可选） |
+| `timestamp` | `datetime` | 发布时间（UTC） |
+| `author` | `str` | 作者用户名或站点名 |
+| `text` | `str` | 正文内容（标题 + 摘要） |
+| `source` | `str` | 数据来源标识（tibo_rss / openai_rss / community_mock 等） |
+| `url` | `str?` | 原始链接（可选） |
+
+### SignalScores
+LLM 信号分析输出（供 survival_model.py 使用）。
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `reset_signal` | `float` | 讨论额度重置的信号强度 0.0–1.0 |
+| `limit_discussion` | `float` | 讨论使用限制/额度耗尽的信号强度 0.0–1.0 |
+| `release_signal` | `float` | 暗示即将发布更新或变更的信号强度 0.0–1.0 |
+| `community_pressure` | `float` | 社区对重置的压力或期待程度 0.0–1.0 |
+| `confidence` | `float` | LLM 对以上评分的整体置信度 0.0–1.0 |
+| `reason` | `list[str]` | 评分依据列表 |
 
 ### PredictionResult
 预测结果，包含多个时间窗口。
@@ -126,7 +172,10 @@ cp .env.example .env
 ### 3. 运行
 
 ```bash
-# 完整管道（收集 → 分析 → 预测 → 输出）
+# 数据采集 + LLM 信号分析（收集 → 保存 tweets.json → 信号分析）
+python -m collectors
+
+# 完整预测管道（收集 → 分析 → 预测 → 输出）
 python main.py
 
 # 仅查看项目状态
@@ -174,8 +223,8 @@ class MyPredictor(BasePredictor):
 | Phase | 内容 |
 |-------|------|
 | **Phase 1** ✅ | 项目结构、数据模型、收集/分析/输出管道框架 |
-| Phase 2 | 接入 Twitter/X API 实时推文收集 |
-| Phase 3 | 实现 `LLMPredictor` — LLM 语义分析预测 |
+| **Phase 2** ✅ | RSS 数据采集层 + LLM 信号分析层（Gemini/Mock） |
+| Phase 3 | 实现 `model/survival_model.py` — 基于 SignalScores 的生存分析预测 |
 | Phase 4 | 实现 `StatisticalPredictor` — 统计模型预测 |
 | Phase 5 | 前端展示（网站） |
 

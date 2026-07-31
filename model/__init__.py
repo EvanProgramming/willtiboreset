@@ -10,6 +10,7 @@ from model.data_models import (
     PredictionHorizon,
     PredictionResult,
     ResetEvent,
+    SignalScores,
     SignalSource,
     Tweet,
 )
@@ -26,6 +27,7 @@ __all__ = [
     "Tweet",
     "PredictionResult",
     "HorizonPrediction",
+    "SignalScores",
     "SignalSource",
     "PredictionHorizon",
     # 预测器

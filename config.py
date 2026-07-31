@@ -13,6 +13,12 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+def _parse_csv_env(key: str) -> list[str]:
+    """将逗号分隔的环境变量解析为列表"""
+    raw = os.getenv(key, "")
+    return [url.strip() for url in raw.split(",") if url.strip()]
+
+
 # 加载 .env 文件（如果存在）
 load_dotenv()
 
@@ -38,6 +44,27 @@ class Config:
     )
     openai_model: str = field(
         default_factory=lambda: os.getenv("OPENAI_MODEL", "gpt-4o")
+    )
+
+    # --- Gemini API (LLM 信号分析) ---
+    gemini_api_key: str = field(
+        default_factory=lambda: os.getenv("GEMINI_API_KEY", "")
+    )
+    gemini_model: str = field(
+        default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+    )
+
+    # --- RSS Feed 配置 (RSS_CONFIG) ---
+    # 不硬编码 URL，通过环境变量配置，逗号分隔
+    rss_feeds: dict[str, list[str]] = field(
+        default_factory=lambda: {
+            "tibo": _parse_csv_env("TIBO_RSS_URLS"),
+            "openai": _parse_csv_env("OPENAI_RSS_URLS"),
+            "community": _parse_csv_env("COMMUNITY_RSS_URLS"),
+        }
+    )
+    rss_request_timeout: int = field(
+        default_factory=lambda: int(os.getenv("RSS_REQUEST_TIMEOUT", "30"))
     )
 
     # --- 预测模型配置 ---
@@ -75,6 +102,21 @@ class Config:
     def tweets_path(self) -> Path:
         """推文 JSON 路径"""
         return self.data_dir / "tweets.json"
+
+    @property
+    def sample_tweets_path(self) -> Path:
+        """样本推文 JSON 路径（用于测试/mock）"""
+        return self.data_dir / "sample_tweets.json"
+
+    @property
+    def has_gemini_credentials(self) -> bool:
+        """是否已配置 Gemini 凭证"""
+        return bool(self.gemini_api_key)
+
+    @property
+    def has_rss_feeds(self) -> bool:
+        """是否已配置任何 RSS Feed URL"""
+        return any(urls for urls in self.rss_feeds.values())
 
     @property
     def has_twitter_credentials(self) -> bool:

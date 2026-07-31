@@ -65,23 +65,76 @@ class ResetEvent(BaseModel):
 
 class Tweet(BaseModel):
     """
-    Tibo / OpenAI 相关推文。
+    统一信号数据单元。
 
-    从 Twitter/X 收集的原始信号数据，
-    作为预测模型的输入特征之一。
+    所有 Collector（RSS、社区、API 等）输出的统一数据结构。
+    后续模块只依赖此结构，不依赖具体数据来源。
     """
     timestamp: datetime = Field(
-        ..., description="推文发布时间（UTC）"
+        ..., description="发布时间（UTC）"
     )
     author: str = Field(
-        ..., min_length=1, description="推文作者用户名"
+        ..., min_length=1, description="作者用户名或站点名"
     )
     text: str = Field(
-        ..., min_length=1, description="推文正文"
+        ..., min_length=1, description="正文内容（标题 + 摘要）"
+    )
+    source: str = Field(
+        default="unknown",
+        description="数据来源标识，如 tibo_rss / openai_rss / community_mock"
     )
     url: Optional[str] = Field(
-        default=None, description="推文链接"
+        default=None, description="原始链接"
     )
+
+
+# ──────────────────────────────────────────────
+# LLM 信号分析模型
+# ──────────────────────────────────────────────
+
+class SignalScores(BaseModel):
+    """
+    LLM 信号分析输出。
+
+    将自然语言文本转换为结构化机器学习特征。
+    这些特征将传递给 model/survival_model.py 作为预测输入。
+
+    LLM 不负责直接预测 reset，只负责信号提取。
+    """
+    reset_signal: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="讨论额度重置的信号强度"
+    )
+    limit_discussion: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="讨论使用限制/额度耗尽的信号强度"
+    )
+    release_signal: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="暗示即将发布更新或变更的信号强度"
+    )
+    community_pressure: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="社区对重置的压力或期待程度"
+    )
+    confidence: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="LLM 对以上评分的整体置信度"
+    )
+    reason: list[str] = Field(
+        default_factory=list,
+        description="评分依据列表"
+    )
+
+    def to_features(self) -> dict[str, float]:
+        """转换为特征字典，供 survival_model.py 使用"""
+        return {
+            "reset_signal": self.reset_signal,
+            "limit_discussion": self.limit_discussion,
+            "release_signal": self.release_signal,
+            "community_pressure": self.community_pressure,
+            "confidence": self.confidence,
+        }
 
 
 # ──────────────────────────────────────────────
