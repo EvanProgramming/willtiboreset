@@ -1,0 +1,261 @@
+CONFIRMED RESET
+Usage depletion compensation
+Scope
+Paid Codex users
+Source
+OpenAI Status
+Compensation
+View source
+Jun 29
+00:00 UTC
+CONFIRMED RESET
+GPT-5.6 launch double-reset window
+Scope
+Paid Codex users
+Source
+Tibo / Codex Radar
+View source
+Jul 10
+05:30 UTC
+CONFIRMED RESET
+Global Codex quota reset
+RT @thsottiaux: Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the da…
+Scope
+Shared usage limits across Codex and ChatGPT Work
+Source
+OpenAI on X
+Replies:
+0
+Reposts:
+831
+Likes:
+0
+Views:
+52.6K
+View source
+Jul 10
+19:03 UTC
+CONFIRMED RESET
+6M active users forced reset
+Tibo announced a new usage reset while temporarily removing the five-hour restriction for Plus, Business, and Pro plans.
+Scope
+All paid plans
+Source
+Tibo on X
+View source
+Jul 12
+17:59 UTC
+CONFIRMED RESET
+8M active users celebration reset
+Tibo announced that Codex and ChatGPT Work had reached 8M active users and that usage limits were being reset for all.
+Scope
+All paid plans
+Source
+Tibo on X
+View source
+Jul 14
+19:34 UTC
+CONFIRMED RESET
+9M active users hard reset
+Tibo confirmed a new Codex and ChatGPT Work reset after reaching 9M active users and said weekly usage should return to 100% within minutes.
+Scope
+Codex and ChatGPT Work users
+Source
+Tibo on X
+View source
+Jul 16
+04:14 UTC
+CONFIRMED RESET
+Global Codex quota reset
+Oops... I did it again. Enjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever. Enjoy the weekend! https://t.co/WIuS07doKA
+Scope
+Shared/global usage limits for all paid Codex and ChatGPT Work users
+Source
+Tibo on X
+Replies:
+2.6K
+Reposts:
+835
+Likes:
+15.9K
+Views:
+1.4M
+View source
+Jul 18
+03:28 UTC
+CONFIRMED RESET
+Global Codex quota reset
+10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy. https://t.co/VUJ4S3vKDG
+Scope
+Paid users of Codex and ChatGPT Work
+Source
+Tibo on X
+Replies:
+3.1K
+Reposts:
+1.2K
+Likes:
+21.1K
+Views:
+2.6M
+View source
+Jul 21
+17:47 UTC
+Tibo
+@thsottiaux
+REPLY
+Shikhar · @xikhar
+View full parent
+No Codex or Claude resets today. The most disappointing last 2 days in AI.
+Archived signal
+@xikhar There is still time
+Replies:
+177
+Reposts:
+26
+Likes:
+1K
+Views:
+38K
+24h +21.0 pts
+48h +17.0 pts
+View reply
+Jul 25
+03:37 UTC
+CONFIRMED RESET
+Global Codex compensation reset
+We have reset usage limits for all Codex and ChatGPT Work users. Last night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next. We learn. We reset. Enjoy.
+Scope
+All Codex and ChatGPT Work users
+Source
+Tibo on X
+Replies:
+2.2K
+Reposts:
+953
+Likes:
+17K
+Views:
+2.4M
+Compensation
+View source
+Jul 25
+19:17 UTC
+Tibo
+@thsottiaux
+REPLY
+Shikhar · @xikhar
+View full parent
+Hey Tibo, can we get a Claude reset as well?
+Archived signal
+@xikhar Trying, but not sure this time
+Replies:
+88
+Reposts:
+14
+Likes:
+2.2K
+Views:
+104.2K
+24h +3.0 pts
+48h +3.0 pts
+View reply
+Jul 26
+18:26 UTC
+Tibo
+@thsottiaux
+REPLY
+Nish · @nisxant
+View full parent
+@thsottiaux me reading tibo’s message &gt;tracing word “ reset “ &gt;no match found &gt;get back to work…
+Archived signal
+@nisxant That’s right, get back to Work
+Replies:
+20
+Reposts:
+2
+Likes:
+367
+Views:
+34.9K
+24h -1.0 pts
+48h -1.0 pts
+View reply
+Jul 26
+18:31 UTC
+CONFIRMED RESET
+Global Codex quota reset
+Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work. Weeeeeeeee. It's a good day!
+Scope
+All paid users of Codex and ChatGPT Work
+Source
+Tibo on X
+Replies:
+1.6K
+Reposts:
+597
+Likes:
+13.1K
+Views:
+1.2M
+View source
+Jul 28
+03:09 UTC
+CONFIRMED RESET
+Global Codex quota reset
+Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans. We’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating. Here’s what we found: - GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended. - Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5. - Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected. - This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient. - The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage. Sol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it. You keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.
+Scope
+All ChatGPT Work and Codex users
+Source
+Tibo on X
+Replies:
+3.4K
+Reposts:
+1.2K
+Likes:
+21.2K
+Views:
+3M
+View source
+Jul 29
+04:09 UTC
+OpenAI
+@OpenAI
+Downward signal
+We are committed to pushing the model frontier across cost efficiency, capability, and speed. Starting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20% , and offering a faster option for GPT-5.6 Sol in the API. Luna and Terra’s lower prices are reflected in how usage is counted in Codex and ChatGPT Work, so your usage goes further.
+Replies:
+1.1K
+Reposts:
+1.7K
+Likes:
+17K
+Views:
+7M
+24h -1.0 pts
+48h -2.0 pts
+Downward signal
+View source
+Jul 30
+17:17 UTC
+Tibo
+@thsottiaux
+REPLY
+Matthew Berman · @MatthewBerman
+View full parent
+We should celebrate with a quota reset!! @thsottiaux 🤣
+Downward signal
+@MatthewBerman Calm down, calm down
+Replies:
+204
+Reposts:
+19
+Likes:
+1.9K
+Views:
+104K
+24h -3.0 pts
+48h -4.0 pts
+Downward signal
+View reply
+Jul 30
+18:24 UTC

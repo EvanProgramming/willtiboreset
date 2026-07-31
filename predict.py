@@ -184,9 +184,13 @@ def main() -> int:
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
+        interval_count=analysis_features.reset_interval_count,
     )
 
-    predictor = ResetPredictor(horizons=config.prediction_horizons)
+    predictor = ResetPredictor(
+        horizons=config.prediction_horizons,
+        default_interval=config.default_reset_interval_hours,
+    )
     explanation = predictor.predict(pred_features)
 
     print(f"  模型: {predictor.model_version}")
@@ -206,6 +210,7 @@ def main() -> int:
     has_history = analysis_features.hours_since_last_reset is not None
     llm_conf = batch_scores.confidence if batch_scores else 0.0
     confidence = compute_confidence(prob_24h, has_history, llm_conf)
+    prior_applied = analysis_features.avg_reset_interval_hours is None
 
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -227,6 +232,8 @@ def main() -> int:
             "llm_scores": (
                 batch_scores.model_dump(mode="json") if batch_scores else None
             ),
+            "prior_applied": prior_applied,
+            "interval_count": analysis_features.reset_interval_count,
         },
         "reasons": explanation.reasons,
     }

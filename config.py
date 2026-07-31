@@ -80,6 +80,16 @@ class Config:
             os.getenv("CONFIDENCE_THRESHOLD", "0.5")
         )
     )
+    default_reset_interval_hours: float = field(
+        default_factory=lambda: float(
+            os.getenv("DEFAULT_RESET_INTERVAL_HOURS", "48")
+        )
+    )
+    interval_prior_strength: float = field(
+        default_factory=lambda: float(
+            os.getenv("INTERVAL_PRIOR_STRENGTH", "1")
+        )
+    )
 
     # --- 数据路径 ---
     data_dir: Path = field(

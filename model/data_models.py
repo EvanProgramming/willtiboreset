@@ -191,6 +191,14 @@ class PredictionExplanation(BaseModel):
         default=None,
         description="hours_since_last_reset / average_reset_interval，None 表示无历史"
     )
+    average_interval_used: Optional[float] = Field(
+        default=None,
+        description="模型实际使用的平均 reset 周期（含先验）"
+    )
+    prior_applied: bool = Field(
+        default=False,
+        description="是否使用了先验默认周期"
+    )
 
 
 # ──────────────────────────────────────────────

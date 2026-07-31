@@ -39,6 +39,7 @@ class AnalysisFeatures:
     last_reset_time: Optional[datetime] = None
     hours_since_last_reset: Optional[float] = None
     avg_reset_interval_hours: Optional[float] = None
+    reset_interval_count: int = 0
 
     # 元信息
     analysis_timestamp: datetime = field(
@@ -115,6 +116,7 @@ class SignalAnalyzer:
         last_reset_time: Optional[datetime] = None
         hours_since: Optional[float] = None
         avg_interval: Optional[float] = None
+        interval_count = 0
 
         if reset_events:
             sorted_events = sorted(
@@ -135,6 +137,7 @@ class SignalAnalyzer:
                     )
                     intervals.append(delta.total_seconds() / 3600.0)
                 avg_interval = sum(intervals) / len(intervals)
+                interval_count = len(intervals)
 
         return AnalysisFeatures(
             tweet_count=tweet_count,
@@ -145,6 +148,7 @@ class SignalAnalyzer:
             last_reset_time=last_reset_time,
             hours_since_last_reset=hours_since,
             avg_reset_interval_hours=avg_interval,
+            reset_interval_count=interval_count,
             analysis_timestamp=now,
         )
 

@@ -8,6 +8,7 @@ from pydantic import ValidationError
 from model.data_models import PredictionExplanation, PredictionFeatures, SignalScores
 from model.survival_model import (
     DEFAULT_PARAMS,
+    DEFAULT_RESET_INTERVAL_HOURS,
     PREDICTION_HORIZONS,
     ResetPredictor,
     _prob_within_window,
@@ -149,10 +150,10 @@ class TestBuildFeatures:
     """build_features 辅助函数测试"""
 
     def test_no_signals(self):
-        """无信号时信号字段全为 0"""
-        features = build_features(20.0, 24.0, signal_scores=None)
+        """无信号时信号字段全为 0，观测充足时 posterior 接近经验均值"""
+        features = build_features(20.0, 24.0, signal_scores=None, interval_count=100)
         assert features.hours_since_last_reset == 20.0
-        assert features.average_reset_interval == 24.0
+        assert features.average_reset_interval == pytest.approx(24.0, rel=1e-2)
         assert features.tibo_signal == 0.0
         assert features.community_signal == 0.0
         assert features.release_signal == 0.0
@@ -184,10 +185,12 @@ class TestBuildFeatures:
         assert features.release_signal == pytest.approx(0.15)
 
     def test_no_history(self):
-        """无历史数据时时间字段为 None"""
+        """无历史数据时使用先验默认周期补齐，time_ratio 不空"""
         features = build_features(None, None)
-        assert features.hours_since_last_reset is None
-        assert features.average_reset_interval is None
+        default_interval = DEFAULT_RESET_INTERVAL_HOURS
+        assert features.hours_since_last_reset == pytest.approx(default_interval)
+        assert features.average_reset_interval == pytest.approx(default_interval)
+        assert features.hours_since_last_reset / features.average_reset_interval == pytest.approx(1.0)
 
 
 # ──────────────────────────────────────────────
@@ -338,6 +341,25 @@ class TestResetPredictorScenarios:
         assert any("reset" in r.lower() or "limit" in r.lower() or "讨论" in r
                       for r in signal_result.reasons)
 
+    def test_time_pressure_progression(self):
+        """时间压力递进：刚 reset < 接近平均 < 超过平均"""
+        base = dict(average_reset_interval=24.0, tibo_signal=0.0)
+        just_reset = PredictionFeatures(hours_since_last_reset=1.0, **base)
+        near_average = PredictionFeatures(hours_since_last_reset=20.0, **base)
+        exceed_average = PredictionFeatures(hours_since_last_reset=36.0, **base)
+
+        p_just = self.predictor.predict(just_reset).probability["24h"]
+        p_near = self.predictor.predict(near_average).probability["24h"]
+        p_exceed = self.predictor.predict(exceed_average).probability["24h"]
+
+        assert p_just < p_near < p_exceed, (
+            f"时间压力递进失败: just={p_just:.3f}, near={p_near:.3f}, exceed={p_exceed:.3f}"
+        )
+        # 刚 reset 后概率应较低
+        assert p_just < 0.40
+        # 超过平均间隔后概率应较高
+        assert p_exceed > 0.70
+
     def test_scenario_4_no_history(self):
         """场景 4：无历史 reset 记录，仍能输出合理概率"""
         features = PredictionFeatures(
@@ -354,8 +376,11 @@ class TestResetPredictorScenarios:
         # 所有概率在合理范围
         for prob in result.probability.values():
             assert 0.0 < prob < 1.0
-        # time_ratio 应为 None
-        assert result.time_ratio is None
+        # time_ratio 应使用先验周期计算，不为空
+        assert result.time_ratio is not None
+        assert result.time_ratio == pytest.approx(1.0, rel=1e-2)
+        # 使用了先验
+        assert result.prior_applied is True
         # 原因应提到"无历史"
         assert any("无历史" in r or "默认" in r for r in result.reasons)
 
@@ -545,12 +570,15 @@ class TestEdgeCases:
         assert result.probability["5h"] > 0.5
 
     def test_no_history_no_signals(self):
-        """无历史且无信号"""
+        """无历史且无信号：使用先验周期，time_ratio 不空"""
         features = PredictionFeatures()
         result = self.predictor.predict(features)
-        # 基线 hazard，概率较低但非零
-        assert result.probability["5h"] < 0.15
-        assert result.time_ratio is None
+        # 基线 hazard，概率处于中等偏低水平但非零
+        assert 0.0 < result.probability["5h"] < 0.50
+        # time_ratio 使用先验默认周期计算
+        assert result.time_ratio is not None
+        assert result.time_ratio == pytest.approx(1.0, rel=1e-2)
+        assert result.prior_applied is True
 
     def test_hours_zero(self):
         """hours_since_last_reset = 0（刚刚 reset）"""

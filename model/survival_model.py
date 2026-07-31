@@ -1,13 +1,17 @@
 """
 WillTiboReset - 核心预测引擎
 
-基于 Discrete-Time Survival Model 的可解释概率模型。
+基于 Bayesian / Survival-inspired 的可解释概率模型。
 不使用大型神经网络，适合历史数据较少的场景。
 
 模型原理：
-    1. 基线 hazard 由"距上次 reset 的时间比率"驱动
+    1. 时间压力（time_ratio）始终参与预测：
        time_ratio = hours_since_last_reset / average_reset_interval
-       当 time_ratio > 1（超过平均间隔）时 hazard 显著上升
+
+       当历史记录不足时，使用先验默认周期 DEFAULT_RESET_INTERVAL_HOURS，
+       令 time_ratio 永远不会为空。先验与观测间隔通过 Bayesian shrinkage
+       融合：posterior = (prior_strength * prior + n * empirical_mean)
+                         / (prior_strength + n)
 
     2. LLM 信号通过 logistic 线性组合调整 hazard：
        tibo_signal      → reset/limit 讨论，直接推高 hazard
@@ -35,7 +39,9 @@ WillTiboReset - 核心预测引擎
         probability: {"5h": 0.42, "24h": 0.76, "48h": 0.91},
         reasons: ["Reset interval longer than average", "Tibo mentioned limits"],
         hazard_rate: 0.12,
-        time_ratio: 1.8
+        time_ratio: 1.8,
+        average_interval_used: 48.0,
+        prior_applied: False
     }
 
 所有概率范围：0-1。
@@ -61,7 +67,8 @@ DEFAULT_PARAMS: dict[str, float] = {
     "beta_release": 0.5,    # 产品发布信号权重
 }
 
-DEFAULT_INTERVAL_HOURS: float = 24.0  # 无历史数据时的默认平均间隔
+DEFAULT_RESET_INTERVAL_HOURS: float = 48.0  # 无历史数据时的先验默认周期
+INTERVAL_PRIOR_STRENGTH: float = 1.0        # 先验伪样本数，控制 shrinkage 强度
 PREDICTION_HORIZONS: list[int] = [5, 24, 48]
 
 
@@ -94,18 +101,45 @@ def _prob_within_window(hazard: float, hours: int) -> float:
 # 特征构建器
 # ──────────────────────────────────────────────
 
+def _compute_posterior_interval(
+    empirical_interval: Optional[float],
+    interval_count: Optional[int] = None,
+) -> float:
+    """
+    用 Bayesian shrinkage 融合先验与观测到的平均 reset 间隔。
+
+    posterior = (prior_strength * prior + n * empirical_mean)
+                / (prior_strength + n)
+
+    无观测时直接返回先验；有观测时观测越多先验权重越小。
+    """
+    prior = DEFAULT_RESET_INTERVAL_HOURS
+
+    if empirical_interval is None:
+        return prior
+
+    # 若提供了观测间隔但未给出计数，保守地视为 1 次观测
+    n = interval_count if interval_count is not None and interval_count > 0 else 1
+    return (
+        INTERVAL_PRIOR_STRENGTH * prior + n * empirical_interval
+    ) / (INTERVAL_PRIOR_STRENGTH + n)
+
+
 def build_features(
     hours_since_last_reset: Optional[float],
     average_reset_interval: Optional[float],
     signal_scores: Optional[list] = None,
+    interval_count: Optional[int] = None,
 ) -> PredictionFeatures:
     """
     从分析特征和 LLM 信号分数构建 PredictionFeatures。
 
     Args:
         hours_since_last_reset: 距上次 reset 的小时数（None = 无历史）
-        average_reset_interval: 平均 reset 间隔小时数（None = 无历史）
+        average_reset_interval: 观测到的平均 reset 间隔小时数（None = 无历史）
         signal_scores: SignalScores 列表，将取平均值后融合
+        interval_count: 用于计算 average_reset_interval 的间隔数量，
+                        用于 Bayesian shrinkage
 
     Returns:
         PredictionFeatures 可直接传给 ResetPredictor.predict()
@@ -123,9 +157,21 @@ def build_features(
         community_signal = sum(s.community_pressure for s in signal_scores) / n
         release_signal = sum(s.release_signal for s in signal_scores) / n
 
+    # Bayesian 后验平均间隔：无历史时退化为先验
+    posterior_interval = _compute_posterior_interval(
+        average_reset_interval, interval_count
+    )
+
+    # 时间因素必须始终参与：无历史时假设距上次 reset 为一个先验周期
+    hours_since = (
+        hours_since_last_reset
+        if hours_since_last_reset is not None
+        else posterior_interval
+    )
+
     return PredictionFeatures(
-        hours_since_last_reset=hours_since_last_reset,
-        average_reset_interval=average_reset_interval,
+        hours_since_last_reset=hours_since,
+        average_reset_interval=posterior_interval,
         tibo_signal=min(tibo_signal, 1.0),
         community_signal=min(community_signal, 1.0),
         release_signal=min(release_signal, 1.0),
@@ -166,14 +212,14 @@ class ResetPredictor:
         self,
         params: Optional[dict[str, float]] = None,
         horizons: Optional[list[int]] = None,
-        default_interval: float = DEFAULT_INTERVAL_HOURS,
+        default_interval: float = DEFAULT_RESET_INTERVAL_HOURS,
     ):
         """
         Args:
             params: 模型参数覆盖， keys: alpha, beta_time, beta_tibo,
                     beta_community, beta_release
             horizons: 预测时间窗口列表（小时），默认 [5, 24, 48]
-            default_interval: 无历史数据时使用的默认平均间隔
+            default_interval: 无历史数据时使用的先验默认周期
         """
         self._params = {**DEFAULT_PARAMS}
         if params:
@@ -183,7 +229,7 @@ class ResetPredictor:
 
     @property
     def model_version(self) -> str:
-        return "survival-logistic-1.0.0"
+        return "bayesian-survival-2.0.0"
 
     @property
     def params(self) -> dict[str, float]:
@@ -198,9 +244,10 @@ class ResetPredictor:
             features: PredictionFeatures 包含时间特征和信号特征
 
         Returns:
-            PredictionExplanation 包含概率、原因、hazard rate 和 time_ratio
+            PredictionExplanation 包含概率、原因、hazard rate、time_ratio
+            以及使用的平均间隔
         """
-        # 1. 计算 time_ratio
+        # 1. 计算 time_ratio（始终非空）
         time_ratio = self._compute_time_ratio(features)
 
         # 2. 计算线性预测值（logit）
@@ -218,39 +265,51 @@ class ResetPredictor:
         # 5. 生成解释
         reasons = self._generate_reasons(features, time_ratio, hazard, logit)
 
+        # 记录是否使用了先验默认周期
+        prior_applied = (
+            features.average_reset_interval is None
+            or features.average_reset_interval == self._default_interval
+        )
+
         return PredictionExplanation(
             probability=probability,
             reasons=reasons,
             hazard_rate=round(hazard, 6),
-            time_ratio=round(time_ratio, 4) if time_ratio is not None else None,
+            time_ratio=round(time_ratio, 4),
+            average_interval_used=round(features.average_reset_interval, 2)
+            if features.average_reset_interval is not None
+            else None,
+            prior_applied=prior_applied,
         )
 
     # ──────────────────────────────────────────
     # 内部方法
     # ──────────────────────────────────────────
 
-    def _compute_time_ratio(self, features: PredictionFeatures) -> Optional[float]:
-        """计算 time_ratio = hours_since_last_reset / average_reset_interval"""
-        if features.hours_since_last_reset is None:
-            return None
+    def _compute_time_ratio(self, features: PredictionFeatures) -> float:
+        """
+        计算 time_ratio = hours_since_last_reset / average_reset_interval。
+
+        任一输入缺失时使用先验默认周期补齐，确保时间因素始终参与。
+        """
+        hours_since = features.hours_since_last_reset
+        if hours_since is None or hours_since < 0:
+            hours_since = self._default_interval
 
         interval = features.average_reset_interval
         if interval is None or interval <= 0:
             interval = self._default_interval
 
-        return features.hours_since_last_reset / interval
+        return hours_since / interval
 
     def _compute_logit(
-        self, features: PredictionFeatures, time_ratio: Optional[float]
+        self, features: PredictionFeatures, time_ratio: float
     ) -> float:
-        """计算线性预测值（logit）"""
+        """计算线性预测值（logit），time_ratio 始终参与"""
         p = self._params
 
         logit = p["alpha"]
-
-        if time_ratio is not None:
-            logit += p["beta_time"] * time_ratio
-
+        logit += p["beta_time"] * time_ratio
         logit += p["beta_tibo"] * features.tibo_signal
         logit += p["beta_community"] * features.community_signal
         logit += p["beta_release"] * features.release_signal
@@ -260,7 +319,7 @@ class ResetPredictor:
     def _generate_reasons(
         self,
         features: PredictionFeatures,
-        time_ratio: Optional[float],
+        time_ratio: float,
         hazard: float,
         logit: float,
     ) -> list[str]:
@@ -268,8 +327,14 @@ class ResetPredictor:
         reasons: list[str] = []
 
         # --- 时间相关原因 ---
-        if time_ratio is None:
-            reasons.append("无历史 reset 记录，基于默认基线 hazard 预测")
+        if (
+            features.hours_since_last_reset is None
+            and features.average_reset_interval is None
+        ):
+            reasons.append(
+                f"无历史 reset 记录，使用先验默认周期 {self._default_interval:.0f}h "
+                f"作为基线（time_ratio={time_ratio:.2f}）"
+            )
         elif time_ratio > 1.5:
             reasons.append(
                 f"距上次 reset 已 {features.hours_since_last_reset:.1f} 小时，"
@@ -345,4 +410,6 @@ __all__ = [
     "build_features",
     "DEFAULT_PARAMS",
     "PREDICTION_HORIZONS",
+    "DEFAULT_RESET_INTERVAL_HOURS",
+    "INTERVAL_PRIOR_STRENGTH",
 ]

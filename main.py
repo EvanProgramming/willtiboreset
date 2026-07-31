@@ -184,6 +184,7 @@ def run_prediction(tweets=None, events=None) -> None:
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
+        interval_count=analysis_features.reset_interval_count,
     )
     print(f"  hours_since_last_reset: {pred_features.hours_since_last_reset}")
     print(f"  average_reset_interval: {pred_features.average_reset_interval}")
@@ -194,7 +195,10 @@ def run_prediction(tweets=None, events=None) -> None:
 
     # Step 4: 生存模型预测
     print_separator("Step 4: 生存模型预测")
-    predictor = ResetPredictor(horizons=config.prediction_horizons)
+    predictor = ResetPredictor(
+        horizons=config.prediction_horizons,
+        default_interval=config.default_reset_interval_hours,
+    )
     print(f"  模型: {predictor.model_version}")
     explanation = predictor.predict(pred_features)
     print(f"  Hazard rate: {explanation.hazard_rate:.4f}/h")
@@ -218,11 +222,16 @@ def run_prediction(tweets=None, events=None) -> None:
     import json
     from datetime import datetime, timezone
 
+    prior_applied = analysis_features.avg_reset_interval_hours is None
     output_data = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "model_version": predictor.model_version,
         "features": pred_features.model_dump(mode="json"),
         "prediction": explanation.model_dump(mode="json"),
+        "meta": {
+            "prior_applied": prior_applied,
+            "interval_count": analysis_features.reset_interval_count,
+        },
     }
     json_path = config.output_dir / "prediction_latest.json"
     json_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
