@@ -4,15 +4,15 @@
 
 通过公开互联网信号预测 Tibo/OpenAI 是否会在未来 **5 小时**、**24 小时**、**48 小时** 内重置 ChatGPT/Codex 使用额度。
 
-## 当前状态：Phase 2
+## 当前状态：Phase 3
 
 - **Phase 1** ✅ 项目结构、数据模型、收集/分析/输出管道框架
 - **Phase 2** ✅ RSS 数据采集层 + LLM 信号分析层
-  - RSS 收集器（TiboRSSCollector、OpenAIRSSCollector、CommunityCollector）
-  - LLM 信号分析器（GeminiAnalyzer + MockLLMAnalyzer）
-  - 统一 Tweet 数据结构（含 source 字段）
-  - SignalScores 结构化特征输出
-  - 预测逻辑接口已定义但留空（不包含任何假逻辑）
+- **Phase 3** ✅ 核心预测引擎（Discrete-Time Survival Model）
+  - 可解释的 logistic hazard rate 模型
+  - 输入：时间特征 + LLM 信号 → 输出：5h/24h/48h reset 概率
+  - 模型解释：返回驱动概率的关键原因
+  - 可自定义参数和预测窗口
 
 ---
 
@@ -28,8 +28,9 @@ willtiboreset/
 │
 ├── model/                  # 数据模型与预测器
 │   ├── __init__.py         # 统一导出
-│   ├── data_models.py      # ResetEvent, Tweet, SignalScores, PredictionResult
-│   └── predictor.py        # 预测器框架（BasePredictor + 占位实现）
+│   ├── data_models.py      # ResetEvent, Tweet, SignalScores, PredictionFeatures, PredictionExplanation
+│   ├── predictor.py        # 预测器框架（BasePredictor + 占位实现）
+│   └── survival_model.py   # ResetPredictor — 核心生存模型预测引擎
 │
 ├── collectors/             # 数据收集器
 │   ├── __init__.py         # BaseCollector, TweetCollector, ResetHistoryCollector
@@ -57,7 +58,8 @@ willtiboreset/
     ├── test_analyzer.py
     ├── test_collectors.py
     ├── test_rss_collectors.py
-    └── test_llm_signal.py
+    ├── test_llm_signal.py
+    └── test_survival_model.py
 ```
 
 ## 架构概览
@@ -92,18 +94,48 @@ RSS Feeds / Mock 数据
   └──────┬──────┘
          ▼
   ┌─────────────┐
-  │   analyzer   │  提取统计特征 → AnalysisFeatures
+  │   analyzer   │  统计特征 → AnalysisFeatures
+  │ (statistical)│  (hours_since_reset, avg_interval)
   └──────┬──────┘
          ▼
   ┌─────────────┐
-  │    model     │  预测 → PredictionResult
-  │ (predictor)  │  (接口已定义，逻辑待实现)
+  │ LLMAnalyzer  │  信号分析 → SignalScores
+  │ (Gemini/Mock)│  (reset_signal, limit_discussion, ...)
   └──────┬──────┘
          ▼
   ┌─────────────┐
-  │   output     │  格式化输出 → JSON + 文本
+  │ build_features│ 合并 → PredictionFeatures
+  └──────┬──────┘
+         ▼
+  ┌─────────────┐
+  │ResetPredictor│  生存模型 → PredictionExplanation
+  │(survival)    │  (5h/24h/48h 概率 + 解释)
+  └──────┬──────┘
+         ▼
+  ┌─────────────┐
+  │   output     │  格式化输出 → JSON
   └─────────────┘
 ```
+
+### 生存模型原理
+
+模型使用 **Discrete-Time Survival Model**（离散时间生存模型），基于 logistic hazard rate：
+
+1. **基线 hazard**：由时间比率驱动
+   - `time_ratio = hours_since_last_reset / average_reset_interval`
+   - 比率 > 1（超过平均间隔）→ hazard 显著上升
+
+2. **信号调整**：LLM 信号通过 logistic 线性组合调整 hazard
+   - `tibo_signal` → reset/limit 讨论，直接推高 hazard
+   - `community_signal` → 社区压力，间接推高 hazard
+   - `release_signal` → 产品发布信号，轻微推高 hazard
+
+3. **每小时 hazard rate**：
+   `h = sigmoid(α + β_time × time_ratio + β_tibo × s_tibo + β_community × s_community + β_release × s_release)`
+
+4. **窗口概率**：`P(reset within T hours) = 1 - (1 - h)^T`
+
+默认参数：α=-4.0, β_time=1.5, β_tibo=1.0, β_community=0.8, β_release=0.5
 
 ## 数据模型
 
@@ -140,8 +172,29 @@ LLM 信号分析输出（供 survival_model.py 使用）。
 | `confidence` | `float` | LLM 对以上评分的整体置信度 0.0–1.0 |
 | `reason` | `list[str]` | 评分依据列表 |
 
+### PredictionFeatures
+生存模型预测输入特征（由统计特征 + LLM 信号合并）。
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `hours_since_last_reset` | `float?` | 距上次 reset 的小时数，None = 无历史 |
+| `average_reset_interval` | `float?` | 平均 reset 间隔（小时），None = 无历史 |
+| `tibo_signal` | `float` | Tibo/Reset 相关信号强度 0.0–1.0 |
+| `community_signal` | `float` | 社区压力信号强度 0.0–1.0 |
+| `release_signal` | `float` | 产品发布信号强度 0.0–1.0 |
+
+### PredictionExplanation
+生存模型预测输出（含可解释说明）。
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `probability` | `dict[str, float]` | 各窗口概率，如 `{"5h": 0.42, "24h": 0.76, "48h": 0.91}` |
+| `reasons` | `list[str]` | 驱动概率的关键原因（人类可读） |
+| `hazard_rate` | `float` | 当前每小时 hazard rate |
+| `time_ratio` | `float?` | hours_since_last_reset / average_reset_interval |
+
 ### PredictionResult
-预测结果，包含多个时间窗口。
+预测结果（Phase 1 兼容格式），包含多个时间窗口。
 
 | 字段 | 类型 | 说明 |
 |------|------|------|
@@ -175,13 +228,16 @@ cp .env.example .env
 # 数据采集 + LLM 信号分析（收集 → 保存 tweets.json → 信号分析）
 python -m collectors
 
-# 完整预测管道（收集 → 分析 → 预测 → 输出）
+# 完整预测管道（收集 → 统计分析 → LLM 信号 → 生存模型预测）
 python main.py
+
+# 仅运行预测（使用已收集的数据）
+python main.py --predict
 
 # 仅查看项目状态
 python main.py --status
 
-# 仅运行信号分析
+# 仅运行信号分析（不含预测）
 python main.py --analyze
 ```
 
@@ -191,32 +247,53 @@ python main.py --analyze
 python -m pytest tests/ -v
 ```
 
-## 预测器扩展指南
+## 预测引擎使用
 
-预测逻辑通过 `BasePredictor` 抽象基类定义，后续 Phase 实现新预测器只需继承并实现 `predict` 方法：
+### 基本用法
 
 ```python
-from model.predictor import BasePredictor
-from model.data_models import PredictionResult, ResetEvent, Tweet
+from model.survival_model import ResetPredictor
+from model.data_models import PredictionFeatures
 
-class MyPredictor(BasePredictor):
-    @property
-    def model_version(self) -> str:
-        return "my-model-1.0"
+predictor = ResetPredictor()
+features = PredictionFeatures(
+    hours_since_last_reset=20.0,
+    average_reset_interval=24.0,
+    tibo_signal=0.8,
+    community_signal=0.3,
+    release_signal=0.1,
+)
+result = predictor.predict(features)
 
-    def predict(
-        self,
-        tweets: list[Tweet],
-        reset_events: list[ResetEvent],
-        horizons: list[int],
-    ) -> PredictionResult:
-        # 实现预测逻辑
-        ...
+print(result.probability)  # {"5h": 0.33, "24h": 0.86, "48h": 0.98}
+print(result.reasons)      # ["距上次 reset 20.0 小时...", "Tibo/社区讨论 reset..."]
+print(result.hazard_rate)  # 0.079
 ```
 
-已有预留接口：
-- **`LLMPredictor`** — 使用 OpenAI API 进行自然语言推理分析
-- **`StatisticalPredictor`** — 基于历史重置事件的时间序列统计模型
+### 从分析结果构建特征
+
+```python
+from model.survival_model import build_features
+
+# analysis_features 来自 SignalAnalyzer
+# signal_scores 来自 LLMAnalyzer
+features = build_features(
+    hours_since_last_reset=analysis_features.hours_since_last_reset,
+    average_reset_interval=analysis_features.avg_reset_interval_hours,
+    signal_scores=signal_scores,
+)
+result = predictor.predict(features)
+```
+
+### 自定义模型参数
+
+```python
+predictor = ResetPredictor(
+    params={"alpha": -3.0, "beta_time": 2.0},  # 覆盖默认参数
+    horizons=[3, 12, 72],                        # 自定义预测窗口
+    default_interval=48.0,                        # 无历史时的默认间隔
+)
+```
 
 ## 后续 Roadmap
 
@@ -224,7 +301,7 @@ class MyPredictor(BasePredictor):
 |-------|------|
 | **Phase 1** ✅ | 项目结构、数据模型、收集/分析/输出管道框架 |
 | **Phase 2** ✅ | RSS 数据采集层 + LLM 信号分析层（Gemini/Mock） |
-| Phase 3 | 实现 `model/survival_model.py` — 基于 SignalScores 的生存分析预测 |
+| **Phase 3** ✅ | 核心预测引擎 — Discrete-Time Survival Model |
 | Phase 4 | 实现 `StatisticalPredictor` — 统计模型预测 |
 | Phase 5 | 前端展示（网站） |
 

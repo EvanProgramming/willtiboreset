@@ -13,19 +13,20 @@ pip install -r requirements.txt -r requirements-dev.txt
 # Run data collection + LLM signal analysis (collect → save tweets.json → analyze signals)
 python -m collectors
 
-# Run the full prediction pipeline (collect → analyze → predict → output)
+# Run the full prediction pipeline (collect → analyze → LLM signals → survival model → output)
 python main.py
 
 # Run specific modes
 python main.py --status     # Show config and data file status
-python main.py --analyze    # Run signal analysis only
+python main.py --analyze    # Run signal analysis only (no prediction)
+python main.py --predict    # Run prediction only (uses collected data)
 
 # Run all tests
 python -m pytest tests/ -v
 
 # Run a single test file or test
+python -m pytest tests/test_survival_model.py -v
 python -m pytest tests/test_llm_signal.py -v
-python -m pytest tests/test_rss_collectors.py::TestBaseRSSCollector::test_entry_to_tweet -v
 ```
 
 ## Architecture
@@ -40,16 +41,18 @@ RSS feeds / mock data → collectors → Tweet[] → save tweets.json
 
 **Prediction pipeline** (`python main.py`):
 ```
-collectors → analyzer (statistical) → model (predictor) → output
+collectors → analyzer (statistical) → LLMAnalyzer → build_features → ResetPredictor → output
 ```
 
 ### Data flow
 
-`collectors` gather raw signals from RSS feeds and mock data into `Tweet` objects. Each Tweet carries a `source` field identifying its origin (`tibo_rss`, `openai_rss`, `community_mock`, etc.). The `analyzer` layer has two components: `SignalAnalyzer` extracts statistical features (counts, time intervals), while `LLMAnalyzer` (Gemini or Mock) converts text into `SignalScores` — structured 0-1 floats for `reset_signal`, `limit_discussion`, `release_signal`, `community_pressure`. The LLM does **not** predict reset; it only extracts features for the future `model/survival_model.py`.
+`collectors` gather raw signals from RSS feeds and mock data into `Tweet` objects. Each Tweet carries a `source` field identifying its origin (`tibo_rss`, `openai_rss`, `community_mock`, etc.). The `analyzer` layer has two components: `SignalAnalyzer` extracts statistical features (counts, time intervals), while `LLMAnalyzer` (Gemini or Mock) converts text into `SignalScores` — structured 0-1 floats for `reset_signal`, `limit_discussion`, `release_signal`, `community_pressure`. The LLM does **not** predict reset; it only extracts features.
+
+`model/survival_model.py` contains `ResetPredictor`, a Discrete-Time Survival Model that takes `PredictionFeatures` (time ratio + LLM signals combined via `build_features()`) and outputs `PredictionExplanation` with 5h/24h/48h probabilities and human-readable reasons. The model uses a logistic hazard rate: `h = sigmoid(α + β_time × time_ratio + β_tibo × s_tibo + β_community × s_community + β_release × s_release)`, then `P(within T) = 1 - (1-h)^T`. Default parameters: α=-4.0, β_time=1.5, β_tibo=1.0, β_community=0.8, β_release=0.5. Parameters and horizons are customizable in the constructor.
 
 ### Key design decisions
 
-- **No fake prediction logic**: `PlaceholderPredictor.predict()` raises `NotImplementedError`. `LLMPredictor` and `StatisticalPredictor` are stub classes with the same behavior. Never add hardcoded/random prediction results.
+- **No fake prediction logic**: `PlaceholderPredictor.predict()` raises `NotImplementedError`. The real prediction is in `ResetPredictor` (survival_model.py) which uses a principled logistic hazard model — not hardcoded/random results.
 
 - **Unified Collector interface**: All collectors inherit `BaseCollector` and return `list[Tweet]`. Downstream modules never depend on specific data sources. `BaseRSSCollector` provides shared RSS parsing/dedup logic; `TiboRSSCollector`, `OpenAIRSSCollector`, and `CommunityCollector` are thin subclasses.
 
@@ -71,6 +74,7 @@ collectors → analyzer (statistical) → model (predictor) → output
 - `data/sample_tweets.json` — mock data for testing (6 cases: reset discussions, product updates, irrelevant)
 - `data/reset_history.json` — historical ResetEvent objects
 - `output/signal_analysis.json` — LLM signal analysis results (gitignored)
+- `output/prediction_latest.json` — latest prediction output with features and explanation (gitignored)
 
 ### Environment variables
 
@@ -82,3 +86,5 @@ See `.env.example`. Key variables: `GEMINI_API_KEY`, `GEMINI_MODEL`, `TIBO_RSS_U
 - The user expects automatic git commit and push after completing work in this repository.
 - No frontend code — prediction system only. A website is planned for a later phase.
 - X/Twitter API is intentionally not used as a primary data source. RSS feeds and public web feeds are preferred.
+- The survival model (`ResetPredictor`) is intentionally interpretable (logistic hazard, not neural network) because historical reset data is sparse. Each factor's contribution can be traced in `reasons`.
+- `build_features()` maps `SignalScores` to `PredictionFeatures`: `tibo_signal = 0.6 × reset_signal + 0.4 × limit_discussion`, `community_signal = community_pressure`, `release_signal = release_signal`. Values are averaged across all SignalScores.

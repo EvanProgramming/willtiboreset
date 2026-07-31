@@ -7,6 +7,8 @@ model 模块 - 数据模型与预测器
 
 from model.data_models import (
     HorizonPrediction,
+    PredictionExplanation,
+    PredictionFeatures,
     PredictionHorizon,
     PredictionResult,
     ResetEvent,
@@ -20,6 +22,12 @@ from model.predictor import (
     PlaceholderPredictor,
     StatisticalPredictor,
 )
+from model.survival_model import (
+    DEFAULT_PARAMS,
+    PREDICTION_HORIZONS,
+    ResetPredictor,
+    build_features,
+)
 
 __all__ = [
     # 数据模型
@@ -30,9 +38,16 @@ __all__ = [
     "SignalScores",
     "SignalSource",
     "PredictionHorizon",
+    "PredictionFeatures",
+    "PredictionExplanation",
     # 预测器
     "BasePredictor",
     "PlaceholderPredictor",
     "LLMPredictor",
     "StatisticalPredictor",
+    # 生存模型
+    "ResetPredictor",
+    "build_features",
+    "DEFAULT_PARAMS",
+    "PREDICTION_HORIZONS",
 ]

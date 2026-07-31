@@ -138,6 +138,62 @@ class SignalScores(BaseModel):
 
 
 # ──────────────────────────────────────────────
+# 生存模型特征与输出
+# ──────────────────────────────────────────────
+
+class PredictionFeatures(BaseModel):
+    """
+    生存模型预测输入特征。
+
+    由 AnalysisFeatures（统计特征）和 SignalScores（LLM 信号）
+    合并而成，作为 ResetPredictor.predict() 的输入。
+    """
+    hours_since_last_reset: Optional[float] = Field(
+        default=None, ge=0.0,
+        description="距上次 reset 的小时数，None 表示无历史记录"
+    )
+    average_reset_interval: Optional[float] = Field(
+        default=None, gt=0.0,
+        description="历史平均 reset 间隔（小时），None 表示无历史记录"
+    )
+    tibo_signal: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="Tibo/Reset 相关信号强度（reset_signal + limit_discussion 融合）"
+    )
+    community_signal: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="社区压力信号强度（community_pressure）"
+    )
+    release_signal: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="产品发布/更新信号强度（release_signal）"
+    )
+
+
+class PredictionExplanation(BaseModel):
+    """
+    生存模型预测输出（含可解释说明）。
+
+    返回各时间窗口的 reset 概率及驱动概率的关键原因列表。
+    """
+    probability: dict[str, float] = Field(
+        ..., description='各时间窗口的 reset 概率，如 {"5h": 0.42, "24h": 0.76, "48h": 0.91}'
+    )
+    reasons: list[str] = Field(
+        default_factory=list,
+        description="驱动概率的关键原因（人类可读）"
+    )
+    hazard_rate: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="当前每小时 hazard rate（模型内部状态）"
+    )
+    time_ratio: Optional[float] = Field(
+        default=None,
+        description="hours_since_last_reset / average_reset_interval，None 表示无历史"
+    )
+
+
+# ──────────────────────────────────────────────
 # 预测相关模型
 # ──────────────────────────────────────────────
 

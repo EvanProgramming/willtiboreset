@@ -5,13 +5,13 @@ WillTiboReset - 主入口
 预测 Tibo/OpenAI 是否会在未来 5h / 24h / 48h 内
 重置 ChatGPT/Codex 使用额度。
 
-Phase 1：数据收集 + 信号分析管道
-预测逻辑将在后续 Phase 中接入 LLM / 统计模型。
+Phase 3：完整预测管道（收集 → 分析 → LLM 信号 → 生存模型预测）
 
 用法:
-    python main.py              # 运行完整管道（收集→分析→输出）
+    python main.py              # 运行完整预测管道
     python main.py --status     # 仅显示项目状态
-    python main.py --analyze    # 仅运行信号分析
+    python main.py --analyze    # 仅运行信号分析（不含预测）
+    python main.py --predict    # 仅运行预测（使用已收集数据）
 """
 
 from __future__ import annotations
@@ -25,11 +25,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from analyzer import SignalAnalyzer
+from analyzer import MockLLMAnalyzer, SignalAnalyzer
 from collectors import ResetHistoryCollector, TweetCollector
 from config import config
 from model.data_models import PredictionResult
-from model.predictor import PlaceholderPredictor
+from model.survival_model import ResetPredictor, build_features
 from output import OutputFormatter
 
 
@@ -121,16 +121,128 @@ def run_analysis() -> None:
     print()
 
 
-def run_pipeline() -> None:
+def run_prediction(tweets=None, events=None) -> None:
     """
-    运行完整管道：收集 → 分析 → 预测 → 输出
+    运行预测步骤：LLM 信号分析 → 特征构建 → 生存模型预测。
 
-    预测步骤使用 PlaceholderPredictor，当前会报告
-    预测逻辑尚未实现，管道其余部分正常执行。
+    如果未提供 tweets/events，则从数据文件加载。
     """
     print()
     print("=" * 60)
-    print("  WillTiboReset - 预测管道")
+    print("  WillTiboReset - 预测引擎")
+    print("=" * 60)
+    print()
+
+    config.ensure_dirs()
+
+    # 加载数据（如果未传入）
+    if tweets is None or events is None:
+        print_separator("数据加载")
+        tweet_collector = TweetCollector(config.tweets_path)
+        reset_collector = ResetHistoryCollector(config.reset_history_path)
+        tweets = tweet_collector.collect()
+        events = reset_collector.collect()
+        print(f"  推文:      {len(tweets)} 条")
+        print(f"  重置事件:  {len(events)} 条")
+        print()
+
+    # Step 1: 统计特征提取
+    print_separator("Step 1: 统计特征提取")
+    analyzer = SignalAnalyzer()
+    analysis_features = analyzer.analyze(tweets, events)
+    print(f"  推文总数:          {analysis_features.tweet_count}")
+    print(f"  最近 24h 推文:     {analysis_features.recent_tweet_count}")
+    if analysis_features.hours_since_last_reset is not None:
+        print(f"  距上次重置:        {analysis_features.hours_since_last_reset:.1f} 小时")
+    else:
+        print(f"  距上次重置:        无历史记录")
+    if analysis_features.avg_reset_interval_hours is not None:
+        print(f"  平均重置间隔:      {analysis_features.avg_reset_interval_hours:.1f} 小时")
+    print()
+
+    # Step 2: LLM 信号分析
+    print_separator("Step 2: LLM 信号分析")
+    llm_analyzer = MockLLMAnalyzer()
+    print(f"  分析器: {llm_analyzer.__class__.__name__}")
+    if tweets:
+        signal_scores = llm_analyzer.analyze_tweets(tweets)
+        batch_scores = llm_analyzer.analyze_batch([t.text for t in tweets])
+        print(f"  分析推文数:        {len(signal_scores)}")
+        print(f"  聚合 reset_signal:    {batch_scores.reset_signal:.2f}")
+        print(f"  聚合 limit_discussion: {batch_scores.limit_discussion:.2f}")
+        print(f"  聚合 release_signal:   {batch_scores.release_signal:.2f}")
+        print(f"  聚合 community_pressure: {batch_scores.community_pressure:.2f}")
+    else:
+        signal_scores = []
+        batch_scores = None
+        print("  无推文可分析")
+    print()
+
+    # Step 3: 构建预测特征
+    print_separator("Step 3: 特征构建")
+    pred_features = build_features(
+        hours_since_last_reset=analysis_features.hours_since_last_reset,
+        average_reset_interval=analysis_features.avg_reset_interval_hours,
+        signal_scores=signal_scores if signal_scores else None,
+    )
+    print(f"  hours_since_last_reset: {pred_features.hours_since_last_reset}")
+    print(f"  average_reset_interval: {pred_features.average_reset_interval}")
+    print(f"  tibo_signal:            {pred_features.tibo_signal:.3f}")
+    print(f"  community_signal:       {pred_features.community_signal:.3f}")
+    print(f"  release_signal:         {pred_features.release_signal:.3f}")
+    print()
+
+    # Step 4: 生存模型预测
+    print_separator("Step 4: 生存模型预测")
+    predictor = ResetPredictor(horizons=config.prediction_horizons)
+    print(f"  模型: {predictor.model_version}")
+    explanation = predictor.predict(pred_features)
+    print(f"  Hazard rate: {explanation.hazard_rate:.4f}/h")
+    if explanation.time_ratio is not None:
+        print(f"  Time ratio:  {explanation.time_ratio:.2f}x")
+    print()
+    print("  预测概率:")
+    for horizon, prob in explanation.probability.items():
+        bar_len = int(prob * 30)
+        bar = "█" * bar_len + "░" * (30 - bar_len)
+        print(f"    {horizon:>4s}: {prob:.2%}  {bar}")
+    print()
+
+    print_separator("解释")
+    for reason in explanation.reasons:
+        print(f"  • {reason}")
+    print()
+
+    # Step 5: 保存结果
+    print_separator("Step 5: 保存结果")
+    import json
+    from datetime import datetime, timezone
+
+    output_data = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "model_version": predictor.model_version,
+        "features": pred_features.model_dump(mode="json"),
+        "prediction": explanation.model_dump(mode="json"),
+    }
+    json_path = config.output_dir / "prediction_latest.json"
+    json_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  已保存: {json_path}")
+    print()
+
+    print_separator("完成")
+    print("  预测管道执行完毕。")
+    print()
+    print("=" * 60)
+    print()
+
+
+def run_pipeline() -> None:
+    """
+    运行完整管道：收集 → 分析 → 预测 → 输出
+    """
+    print()
+    print("=" * 60)
+    print("  WillTiboReset - 完整预测管道")
     print("=" * 60)
     print()
 
@@ -146,49 +258,16 @@ def run_pipeline() -> None:
     print(f"  重置事件:  {len(events)} 条")
     print()
 
-    # 2. 分析
+    # 2. 统计信号分析
     print_separator("Step 2: 信号分析")
     analyzer = SignalAnalyzer()
     features = analyzer.analyze(tweets, events)
-    signals = features.to_signal_descriptions()
-    for desc in signals:
+    for desc in features.to_signal_descriptions():
         print(f"  • {desc}")
     print()
 
     # 3. 预测
-    print_separator("Step 3: 预测")
-    predictor = PlaceholderPredictor()
-    print(f"  预测器: {predictor.model_version}")
-    try:
-        result = predictor.predict(tweets, events, config.prediction_horizons)
-        # 如果预测成功，输出结果
-        formatter = OutputFormatter(config.output_dir)
-        json_path = formatter.save(result)
-        print(formatter.to_text(result))
-        print(f"  结果已保存: {json_path}")
-    except NotImplementedError:
-        print("  ⚠ 预测逻辑尚未实现（Phase 1）")
-        print("  后续 Phase 将接入 LLM 分析器或统计预测模型。")
-        print()
-
-        # 仍然输出分析摘要
-        summary = PredictionResult(
-            predictions=[],
-            signals_used=signals,
-            model_version=predictor.model_version,
-            notes="Phase 1: 预测逻辑尚未实现，仅输出信号分析摘要。",
-        )
-        formatter = OutputFormatter(config.output_dir)
-        json_path = formatter.save(summary)
-        print(f"  信号分析摘要已保存: {json_path}")
-    print()
-
-    # 4. 完成
-    print_separator("完成")
-    print("  管道执行完毕。")
-    print()
-    print("=" * 60)
-    print()
+    run_prediction(tweets=tweets, events=events)
 
 
 def main() -> int:
@@ -204,7 +283,12 @@ def main() -> int:
     parser.add_argument(
         "--analyze",
         action="store_true",
-        help="仅运行信号分析",
+        help="仅运行信号分析（不含预测）",
+    )
+    parser.add_argument(
+        "--predict",
+        action="store_true",
+        help="仅运行预测（使用已收集数据）",
     )
 
     args = parser.parse_args()
@@ -213,6 +297,8 @@ def main() -> int:
         show_status()
     elif args.analyze:
         run_analysis()
+    elif args.predict:
+        run_prediction()
     else:
         run_pipeline()
 
