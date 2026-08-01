@@ -35,11 +35,20 @@ Thumbs.db
 htmlcov/
 .tox/
 
+# Frontend build artifacts
+node_modules/
+dist/
+public/data/
+
+# Trae planning artifacts
+.trae/
+
 # Output data (keep structure, ignore generated outputs)
 output/*.json
 output/*.csv
 output/*.txt
 !output/.gitkeep
 !output/__init__.py
-# prediction.json is auto-committed by GitHub Actions and must be tracked
+# prediction.json and model_performance.json are auto-committed by GitHub Actions and must be tracked
 !output/prediction.json
+!output/model_performance.json
