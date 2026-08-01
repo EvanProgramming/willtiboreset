@@ -1041,5 +1041,49 @@
     },
     "actual_result": true,
     "resolved_at": "2026-08-01T12:20:52.765534Z"
+  },
+  {
+    "prediction_time": "2026-08-01T12:40:52.882240Z",
+    "prediction": {
+      "within_5h": 1.0,
+      "within_24h": 1.0,
+      "within_48h": 1.0
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 105.53135514638889,
+      "average_reset_interval": 58.96,
+      "median_reset_interval": 42.92,
+      "interval_uncertainty": 26.4,
+      "std_reset_interval": 83.4963011859112,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.7899,
+      "time_pressure": 0.9146,
+      "hazard_rate": 0.066816,
+      "evidence_score": 0.6575,
+      "tibo_signal": 0.1722,
+      "community_signal": 0.021,
+      "release_signal": 0.1836,
+      "llm_scores": {
+        "reset_intent": 0.12,
+        "limit_complaint": 0.034999999999999996,
+        "official_change": 0.17250000000000001,
+        "reset_confirmation": 0.11000000000000001,
+        "confidence": 0.8625,
+        "reason": [
+          "Text is a generic motivational phrase with no mention of limits or resets.",
+          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' from an official source.",
+          "Mentions 'Resets' as a sign of model improvement but not a specific reset event.",
+          "Asks for improvement suggestions, unrelated to resets.",
+          "Focuses on company culture and recruitment, no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 10
+    },
+    "actual_result": true,
+    "resolved_at": "2026-08-01T12:40:52.884186Z"
   }
 ]
