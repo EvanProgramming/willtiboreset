@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T08:00:54.736731+00:00",
+  "updated_at": "2026-08-01T08:05:10.874786+00:00",
   "prediction": {
-    "within_5h": 0.5518,
-    "within_24h": 0.8397,
-    "within_48h": 0.9046
+    "within_5h": 0.5563,
+    "within_24h": 0.8422,
+    "within_48h": 0.9062
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 100.86520444361112,
+    "hours_since_last_reset": 100.9363539175,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.7107,
-    "time_pressure": 0.8998,
-    "hazard_rate": 0.073443,
-    "evidence_score": 0.823,
-    "tibo_signal": 0.2048,
-    "community_signal": 0.0227,
-    "release_signal": 0.1929,
+    "time_ratio": 1.7119,
+    "time_pressure": 0.9,
+    "hazard_rate": 0.074049,
+    "evidence_score": 0.839,
+    "tibo_signal": 0.2161,
+    "community_signal": 0.0281,
+    "release_signal": 0.2224,
     "llm_scores": {
-      "reset_intent": 0.15,
+      "reset_intent": 0.155,
       "limit_complaint": 0.034999999999999996,
-      "official_change": 0.21749999999999997,
-      "reset_confirmation": 0.1275,
-      "confidence": 0.85375,
+      "official_change": 0.23500000000000001,
+      "reset_confirmation": 0.135,
+      "confidence": 0.86,
       "reason": [
         "The text is a generic motivational phrase with no mention of usage limits or resets.",
         "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' from an official source.",
         "Mentions 'Resets' as a sign of model improvement but does not confirm a specific reset.",
         "Asks for improvement suggestions on Codex, unrelated to resets.",
-        "Focuses on company culture and mission, no mention of usage limits."
+        "Focuses on company culture and mission, no mention of limits or resets."
       ]
     },
     "prior_applied": false,
@@ -49,17 +49,17 @@
     {
       "factor": "Some reset discussion detected",
       "impact": "+4%",
-      "score": 0.2
+      "score": 0.22
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.02
+      "score": 0.03
     }
   ],
   "reasons": [
     "100.9 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Strong reset evidence detected (evidence_score=0.82), probability rises significantly",
+    "Strong reset evidence detected (evidence_score=0.84), probability rises significantly",
     "Main factor: 100.9 hours since last reset (+10%)"
   ]
 }
