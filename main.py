@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-WillTiboReset - 主入口
+WillTiboReset - Main entry point
 
-预测 Tibo/OpenAI 是否会在未来 5h / 24h / 48h 内
-重置 ChatGPT/Codex 使用额度。
+Predict whether Tibo/OpenAI will reset ChatGPT/Codex usage quota
+within the next 5h / 24h / 48h.
 
-Phase 3：完整预测管道（收集 → 分析 → LLM 信号 → 生存模型预测）
+Phase 3: full prediction pipeline (collect → analyze → LLM signals → survival model prediction)
 
-用法:
-    python main.py              # 运行完整预测管道
-    python main.py --status     # 仅显示项目状态
-    python main.py --analyze    # 仅运行信号分析（不含预测）
-    python main.py --predict    # 仅运行预测（使用已收集数据）
+Usage:
+    python main.py              # Run the full prediction pipeline
+    python main.py --status     # Show project status only
+    python main.py --analyze    # Run signal analysis only (no prediction)
+    python main.py --predict    # Run prediction only (using already collected data)
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ import argparse
 import sys
 from pathlib import Path
 
-# 确保项目根目录在 sys.path 中
+# Ensure the project root is in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -36,19 +36,19 @@ from output import OutputFormatter
 
 
 def _validate_prediction_config() -> None:
-    """运行预测前校验必须配置项。"""
+    """Validate required configuration before running prediction."""
     if not config.has_deepseek_credentials:
         raise RuntimeError(
-            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+            "DEEPSEEK_API_KEY is not configured. Set it in .env or GitHub Actions Secrets."
         )
     if not config.rss_feeds.get("tibo"):
         raise RuntimeError(
-            "TIBO_RSS_URLS 未配置。Tibo 是核心数据源，必须至少配置一个 RSS URL。"
+            "TIBO_RSS_URLS is not configured. Tibo is the core data source; at least one RSS URL is required."
         )
 
 
 def print_separator(title: str = "") -> None:
-    """打印分隔线"""
+    """Print a separator line"""
     width = 60
     if title:
         pad = (width - len(title) - 2) // 2
@@ -58,35 +58,35 @@ def print_separator(title: str = "") -> None:
 
 
 def show_status() -> None:
-    """显示项目状态"""
+    """Display project status"""
     print()
     print("=" * 60)
-    print("  WillTiboReset - 项目状态")
+    print("  WillTiboReset - Project Status")
     print("=" * 60)
     print()
 
-    # 配置
-    print_separator("配置")
-    print(f"  预测窗口:    {config.prediction_horizons} 小时")
-    print(f"  置信度阈值:  {config.confidence_threshold}")
-    print(f"  数据目录:    {config.data_dir}")
-    print(f"  输出目录:    {config.output_dir}")
+    # Configuration
+    print_separator("Configuration")
+    print(f"  Prediction horizons: {config.prediction_horizons} hours")
+    print(f"  Confidence threshold: {config.confidence_threshold}")
+    print(f"  Data directory: {config.data_dir}")
+    print(f"  Output directory: {config.output_dir}")
     print()
 
-    # API 凭证状态
-    print_separator("API 凭证")
-    print(f"  Twitter:  {'✓ 已配置' if config.has_twitter_credentials else '✗ 未配置'}")
-    print(f"  OpenAI:   {'✓ 已配置' if config.has_openai_credentials else '✗ 未配置'}")
+    # API credentials
+    print_separator("API Credentials")
+    print(f"  Twitter:  {'✓ configured' if config.has_twitter_credentials else '✗ not configured'}")
+    print(f"  OpenAI:   {'✓ configured' if config.has_openai_credentials else '✗ not configured'}")
     print()
 
-    # 数据文件
-    print_separator("数据文件")
+    # Data files
+    print_separator("Data Files")
     tweet_collector = TweetCollector(config.tweets_path)
     reset_collector = ResetHistoryCollector(config.reset_history_path)
     tweets = tweet_collector.collect()
     events = reset_collector.collect()
-    print(f"  推文:        {len(tweets)} 条")
-    print(f"  重置事件:    {len(events)} 条")
+    print(f"  Tweets:       {len(tweets)} tweets")
+    print(f"  Reset events: {len(events)} events")
     print()
 
     print("=" * 60)
@@ -94,39 +94,39 @@ def show_status() -> None:
 
 
 def run_analysis() -> None:
-    """运行信号分析并打印结果"""
+    """Run signal analysis and print results"""
     print()
     print("=" * 60)
-    print("  WillTiboReset - 信号分析")
+    print("  WillTiboReset - Signal Analysis")
     print("=" * 60)
     print()
 
-    # 1. 收集数据
-    print_separator("数据收集")
+    # 1. Load data
+    print_separator("Data Collection")
     tweet_collector = TweetCollector(config.tweets_path)
     reset_collector = ResetHistoryCollector(config.reset_history_path)
     tweets = tweet_collector.collect()
     events = reset_collector.collect()
-    print(f"  加载推文:      {len(tweets)} 条")
-    print(f"  加载重置事件:  {len(events)} 条")
+    print(f"  Loaded tweets:      {len(tweets)} tweets")
+    print(f"  Loaded reset events: {len(events)} events")
     print()
 
-    # 2. 分析信号
-    print_separator("特征提取")
+    # 2. Analyze signals
+    print_separator("Feature Extraction")
     analyzer = SignalAnalyzer()
     features = analyzer.analyze(tweets, events)
-    print(f"  推文总数:          {features.tweet_count}")
-    print(f"  最近 24h 推文:     {features.recent_tweet_count}")
-    print(f"  独立作者数:        {features.unique_authors}")
-    print(f"  历史重置事件:      {features.total_reset_events}")
+    print(f"  Total tweets:          {features.tweet_count}")
+    print(f"  Tweets in last 24h:    {features.recent_tweet_count}")
+    print(f"  Unique authors:        {features.unique_authors}")
+    print(f"  Historical reset events: {features.total_reset_events}")
     if features.hours_since_last_reset is not None:
-        print(f"  距上次重置:        {features.hours_since_last_reset:.1f} 小时")
+        print(f"  Hours since last reset: {features.hours_since_last_reset:.1f} hours")
     if features.avg_reset_interval_hours is not None:
-        print(f"  平均重置间隔:      {features.avg_reset_interval_hours:.1f} 小时")
+        print(f"  Average reset interval: {features.avg_reset_interval_hours:.1f} hours")
     print()
 
-    # 3. 信号描述
-    print_separator("信号摘要")
+    # 3. Signal descriptions
+    print_separator("Signal Summary")
     for desc in features.to_signal_descriptions():
         print(f"  • {desc}")
     print()
@@ -137,73 +137,73 @@ def run_analysis() -> None:
 
 def run_prediction(tweets=None, events=None) -> None:
     """
-    运行预测步骤：LLM 信号分析 → 特征构建 → 生存模型预测。
+    Run the prediction step: LLM signal analysis → feature building → survival model prediction.
 
-    如果未提供 tweets/events，则从数据文件加载。
+    If tweets/events are not provided, load them from data files.
     """
     print()
     print("=" * 60)
-    print("  WillTiboReset - 预测引擎")
+    print("  WillTiboReset - Prediction Engine")
     print("=" * 60)
     print()
 
     config.ensure_dirs()
     _validate_prediction_config()
 
-    # 加载数据（如果未传入）
+    # Load data if not provided
     if tweets is None or events is None:
-        print_separator("数据加载")
+        print_separator("Data Loading")
         tweet_collector = TweetCollector(config.tweets_path)
         reset_collector = ResetHistoryCollector(config.reset_history_path)
         tweets = tweet_collector.collect()
         events = reset_collector.collect()
-        print(f"  推文:      {len(tweets)} 条")
-        print(f"  重置事件:  {len(events)} 条")
+        print(f"  Tweets:      {len(tweets)} tweets")
+        print(f"  Reset events: {len(events)} events")
         print()
 
-    # Step 1: 统计特征提取
-    print_separator("Step 1: 统计特征提取")
+    # Step 1: Statistical feature extraction
+    print_separator("Step 1: Statistical Feature Extraction")
     analyzer = SignalAnalyzer()
     analysis_features = analyzer.analyze(tweets, events)
-    print(f"  推文总数:          {analysis_features.tweet_count}")
-    print(f"  最近 24h 推文:     {analysis_features.recent_tweet_count}")
+    print(f"  Total tweets:          {analysis_features.tweet_count}")
+    print(f"  Tweets in last 24h:    {analysis_features.recent_tweet_count}")
     if analysis_features.hours_since_last_reset is not None:
-        print(f"  距上次重置:        {analysis_features.hours_since_last_reset:.1f} 小时")
+        print(f"  Hours since last reset: {analysis_features.hours_since_last_reset:.1f} hours")
     else:
-        print(f"  距上次重置:        无历史记录")
+        print(f"  Hours since last reset: no historical record")
     if analysis_features.avg_reset_interval_hours is not None:
-        print(f"  平均重置间隔:      {analysis_features.avg_reset_interval_hours:.1f} 小时")
+        print(f"  Average reset interval: {analysis_features.avg_reset_interval_hours:.1f} hours")
     print()
 
-    # Step 2: LLM 信号分析
-    print_separator("Step 2: LLM 信号分析")
+    # Step 2: LLM signal analysis
+    print_separator("Step 2: LLM Signal Analysis")
     llm_analyzer = DeepSeekAnalyzer(
         api_key=config.deepseek_api_key,
         model=config.deepseek_model,
     )
-    print(f"  分析器: {llm_analyzer.__class__.__name__}")
+    print(f"  Analyzer: {llm_analyzer.__class__.__name__}")
     if tweets:
         signal_scores = llm_analyzer.analyze_tweets(tweets)
         batch_scores = llm_analyzer.analyze_batch([t.text for t in tweets])
-        print(f"  分析推文数:        {len(signal_scores)}")
-        print(f"  聚合 reset_intent:       {batch_scores.reset_intent:.2f}")
-        print(f"  聚合 reset_confirmation: {batch_scores.reset_confirmation:.2f}")
-        print(f"  聚合 limit_complaint:    {batch_scores.limit_complaint:.2f}")
-        print(f"  聚合 official_change:    {batch_scores.official_change:.2f}")
+        print(f"  Analyzed tweets:       {len(signal_scores)}")
+        print(f"  Aggregated reset_intent:       {batch_scores.reset_intent:.2f}")
+        print(f"  Aggregated reset_confirmation: {batch_scores.reset_confirmation:.2f}")
+        print(f"  Aggregated limit_complaint:    {batch_scores.limit_complaint:.2f}")
+        print(f"  Aggregated official_change:    {batch_scores.official_change:.2f}")
     else:
         signal_scores = []
         batch_scores = None
-        print("  无推文可分析")
+        print("  No tweets to analyze")
     print()
 
-    # Step 3: 加载模型状态并构建预测特征
-    print_separator("Step 3: 特征构建")
+    # Step 3: Load model state and build prediction features
+    print_separator("Step 3: Feature Building")
     state_manager = ModelStateManager(config.model_state_path)
     model_state = state_manager.load()
     if model_state is not None:
-        print(f"  已加载 model_state: {model_state.sample_count} 个 interval")
+        print(f"  Loaded model_state: {model_state.sample_count} intervals")
     else:
-        print("  未找到 model_state.json，使用默认先验参数")
+        print("  model_state.json not found, using default prior parameters")
 
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
@@ -224,34 +224,34 @@ def run_prediction(tweets=None, events=None) -> None:
     print(f"  release_signal:         {pred_features.release_signal:.3f}")
     print()
 
-    # Step 4: 生存模型预测
-    print_separator("Step 4: 生存模型预测")
+    # Step 4: Survival model prediction
+    print_separator("Step 4: Survival Model Prediction")
     predictor = ResetPredictor(
         horizons=config.prediction_horizons,
         default_interval=config.default_reset_interval_hours,
         model_state=model_state,
     )
-    print(f"  模型: {predictor.model_version}")
+    print(f"  Model: {predictor.model_version}")
     explanation = predictor.predict(pred_features)
     print(f"  Hazard rate:   {explanation.hazard_rate:.4f}/h")
     print(f"  Time pressure: {explanation.time_pressure:.2f}")
     if explanation.time_ratio is not None:
         print(f"  Time ratio:    {explanation.time_ratio:.2f}x")
     print()
-    print("  预测概率:")
+    print("  Predicted probabilities:")
     for horizon, prob in explanation.probability.items():
         bar_len = int(prob * 30)
         bar = "█" * bar_len + "░" * (30 - bar_len)
         print(f"    {horizon:>4s}: {prob:.2%}  {bar}")
     print()
 
-    print_separator("解释")
+    print_separator("Explanation")
     for reason in explanation.reasons:
         print(f"  • {reason}")
     print()
 
-    # Step 5: 保存结果
-    print_separator("Step 5: 保存结果")
+    # Step 5: Save results
+    print_separator("Step 5: Save Results")
     import json
     from datetime import datetime, timezone
 
@@ -268,11 +268,11 @@ def run_prediction(tweets=None, events=None) -> None:
     }
     json_path = config.output_dir / "prediction_latest.json"
     json_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"  已保存: {json_path}")
+    print(f"  Saved: {json_path}")
     print()
 
-    print_separator("完成")
-    print("  预测管道执行完毕。")
+    print_separator("Done")
+    print("  Prediction pipeline complete.")
     print()
     print("=" * 60)
     print()
@@ -280,57 +280,57 @@ def run_prediction(tweets=None, events=None) -> None:
 
 def run_pipeline() -> None:
     """
-    运行完整管道：收集 → 分析 → 预测 → 输出
+    Run the full pipeline: collect → analyze → predict → output
     """
     print()
     print("=" * 60)
-    print("  WillTiboReset - 完整预测管道")
+    print("  WillTiboReset - Full Prediction Pipeline")
     print("=" * 60)
     print()
 
     config.ensure_dirs()
 
-    # 1. 收集
-    print_separator("Step 1: 数据收集")
+    # 1. Collect
+    print_separator("Step 1: Data Collection")
     tweet_collector = TweetCollector(config.tweets_path)
     reset_collector = ResetHistoryCollector(config.reset_history_path)
     tweets = tweet_collector.collect()
     events = reset_collector.collect()
-    print(f"  推文:      {len(tweets)} 条")
-    print(f"  重置事件:  {len(events)} 条")
+    print(f"  Tweets:      {len(tweets)} tweets")
+    print(f"  Reset events: {len(events)} events")
     print()
 
-    # 2. 统计信号分析
-    print_separator("Step 2: 信号分析")
+    # 2. Statistical signal analysis
+    print_separator("Step 2: Signal Analysis")
     analyzer = SignalAnalyzer()
     features = analyzer.analyze(tweets, events)
     for desc in features.to_signal_descriptions():
         print(f"  • {desc}")
     print()
 
-    # 3. 预测
+    # 3. Predict
     run_prediction(tweets=tweets, events=events)
 
 
 def main() -> int:
-    """CLI 入口"""
+    """CLI entry point"""
     parser = argparse.ArgumentParser(
-        description="WillTiboReset - AI 预测 Tibo/OpenAI 额度重置",
+        description="WillTiboReset - AI prediction for Tibo/OpenAI quota resets",
     )
     parser.add_argument(
         "--status",
         action="store_true",
-        help="仅显示项目状态",
+        help="Show project status only",
     )
     parser.add_argument(
         "--analyze",
         action="store_true",
-        help="仅运行信号分析（不含预测）",
+        help="Run signal analysis only (no prediction)",
     )
     parser.add_argument(
         "--predict",
         action="store_true",
-        help="仅运行预测（使用已收集数据）",
+        help="Run prediction only (using already collected data)",
     )
 
     args = parser.parse_args()

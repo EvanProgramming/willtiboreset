@@ -1,4 +1,4 @@
-"""测试数据收集器"""
+"""Tests for data collectors"""
 
 import json
 from datetime import datetime, timezone
@@ -9,15 +9,15 @@ from model.data_models import ResetEvent, SignalSource, Tweet
 
 
 class TestTweetCollector:
-    """TweetCollector 测试"""
+    """Tests for TweetCollector"""
 
     def test_collect_empty(self, tmp_path):
-        """文件不存在时返回空列表"""
+        """Return empty list when file does not exist"""
         collector = TweetCollector(tmp_path / "tweets.json")
         assert collector.collect() == []
 
     def test_save_and_collect(self, tmp_path):
-        """保存后重新加载"""
+        """Reload after saving"""
         path = tmp_path / "tweets.json"
         collector = TweetCollector(path)
         tweets = [
@@ -41,7 +41,7 @@ class TestTweetCollector:
         assert loaded[1].text == "world"
 
     def test_json_format(self, tmp_path):
-        """保存的 JSON 格式正确"""
+        """Saved JSON format is correct"""
         path = tmp_path / "tweets.json"
         collector = TweetCollector(path)
         collector.save([
@@ -58,15 +58,15 @@ class TestTweetCollector:
 
 
 class TestResetHistoryCollector:
-    """ResetHistoryCollector 测试"""
+    """Tests for ResetHistoryCollector"""
 
     def test_collect_empty(self, tmp_path):
-        """文件不存在时返回空列表"""
+        """Return empty list when file does not exist"""
         collector = ResetHistoryCollector(tmp_path / "reset_history.json")
         assert collector.collect() == []
 
     def test_add_event(self, tmp_path):
-        """添加事件并持久化"""
+        """Add event and persist"""
         path = tmp_path / "reset_history.json"
         collector = ResetHistoryCollector(path)
 
@@ -74,18 +74,18 @@ class TestResetHistoryCollector:
             reset_time=datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc),
             source=SignalSource.TWITTER,
             confidence=0.85,
-            notes="测试事件",
+            notes="Test event",
         )
         assert event.confidence == 0.85
 
-        # 重新加载验证
+        # Reload and verify
         loaded = collector.collect()
         assert len(loaded) == 1
         assert loaded[0].source == SignalSource.TWITTER
-        assert loaded[0].notes == "测试事件"
+        assert loaded[0].notes == "Test event"
 
     def test_add_multiple_events(self, tmp_path):
-        """多次添加事件"""
+        """Add multiple events"""
         path = tmp_path / "reset_history.json"
         collector = ResetHistoryCollector(path)
 

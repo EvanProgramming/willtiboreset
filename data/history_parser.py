@@ -1,19 +1,19 @@
 """
-WillTiboReset - 历史重置数据解析模块
+WillTiboReset - Historical reset data parser
 
-将自然语言 / 半结构化文本解析为标准 reset_history.json。
+Parses natural-language / semi-structured text into standard reset_history.json.
 
-支持的输入格式：
-    1. 半结构化日志（用户提供的格式）：
-       每个事件包含日期、时间、CONFIRMED RESET 标记、Scope、Source 等字段
+Supported input formats:
+    1. Semi-structured logs (user-provided format):
+       Each event contains date, time, CONFIRMED RESET marker, Scope, Source, etc.
 
-    2. 纯自然语言：
-       "2026年7月10日，Tibo在X表示limit已经reset"
+    2. Plain natural language:
+       "On July 10, 2026, Tibo said on X that the limit has reset"
 
-解析策略：
-    - 优先匹配结构化标记（CONFIRMED RESET 等）
-    - 对自然语言使用日期和关键词启发式
-    - 不确定的事件标记 confidence 并存入 uncertain_events.json
+Parsing strategy:
+    - Prefer structured markers (CONFIRMED RESET, etc.)
+    - Use date and keyword heuristics for natural language
+    - Mark uncertain events with confidence and store them in uncertain_events.json
 """
 
 from __future__ import annotations
@@ -28,51 +28,43 @@ from typing import Optional
 
 
 # ──────────────────────────────────────────────
-# 月份映射
+# Month mapping
 # ──────────────────────────────────────────────
 
 _MONTH_MAP: dict[str, int] = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
     "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
-    # 中文月份
-    "1月": 1, "2月": 2, "3月": 3, "4月": 4, "5月": 5, "6月": 6,
-    "7月": 7, "8月": 8, "9月": 9, "10月": 10, "11月": 11, "12月": 12,
 }
 
-# 结构化日期模式：Jun 29, Jul 10
+# Structured date pattern: Jun 29, Jul 10
 _DATE_PATTERN = re.compile(
     r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})$",
     re.IGNORECASE | re.MULTILINE,
 )
 
-# 时间模式：00:00 UTC, 05:30 UTC
+# Time pattern: 00:00 UTC, 05:30 UTC
 _TIME_PATTERN = re.compile(r"^(\d{1,2}):(\d{2})\s*UTC\s*$", re.IGNORECASE)
 
-# 中文日期模式：2026年7月10日
-_CN_DATE_PATTERN = re.compile(
-    r"(\d{4})年(\d{1,2})月(\d{1,2})日"
-)
-
-# 确认重置标记
+# Confirmed reset markers
 _CONFIRMED_MARKERS = ["CONFIRMED RESET", "confirmed reset"]
 
-# 非重置标记（回复、下行信号等）
+# Non-reset markers (replies, downward signals, etc.)
 _NON_RESET_MARKERS = [
     "REPLY", "Downward signal", "Archived signal",
     "UPWARD SIGNAL",
 ]
 
-# 元数据行，不进入 title / notes
+# Metadata lines; not included in title / notes
 _METADATA_KEYS = {"SCOPE", "SOURCE", "COMPENSATION", "VIEW SOURCE", "VIEW REPLY"}
 
 
 # ──────────────────────────────────────────────
-# 数据结构
+# Data structures
 # ──────────────────────────────────────────────
 
 @dataclass
 class ParsedEvent:
-    """解析出的事件（未分类）"""
+    """Parsed event (not yet classified)"""
     reset_time: Optional[datetime] = None
     title: str = ""
     description: str = ""
@@ -84,11 +76,11 @@ class ParsedEvent:
 
 
 # ──────────────────────────────────────────────
-# 源映射
+# Source mapping
 # ──────────────────────────────────────────────
 
 def _map_source(source_text: str) -> str:
-    """将源文本映射为标准 SignalSource 值"""
+    """Map source text to a standard SignalSource value"""
     s = source_text.lower()
     if "openai status" in s or "status page" in s:
         return "openai_status"
@@ -102,16 +94,16 @@ def _map_source(source_text: str) -> str:
 
 
 # ──────────────────────────────────────────────
-# 工具函数
+# Utility functions
 # ──────────────────────────────────────────────
 
 def _is_metadata_line(line_upper: str) -> bool:
-    """判断是否为结构化元数据键"""
+    """Check whether the line is a structured metadata key"""
     return line_upper in _METADATA_KEYS
 
 
 def _is_noise_line(line: str) -> bool:
-    """判断是否为可忽略的社交媒体统计/评分行"""
+    """Check whether the line is ignorable social-media stats/rating text"""
     line_upper = line.upper()
     if re.match(r"^(Replies|Reposts|Likes|Views):\s", line, re.IGNORECASE):
         return True
@@ -123,17 +115,17 @@ def _is_noise_line(line: str) -> bool:
 
 
 def _infer_source_from_block(block: list[str]) -> str:
-    """从整个 block 推断来源"""
+    """Infer source from the entire block"""
     text = "\n".join(block).lower()
     return _map_source(text)
 
 
 # ──────────────────────────────────────────────
-# 结构化解析器
+# Structured parser
 # ──────────────────────────────────────────────
 
 def _find_date_time_pairs(lines: list[str]) -> list[tuple[int, int, datetime]]:
-    """找出所有 (日期行索引, 时间行索引, datetime) 三元组"""
+    """Find all (date line index, time line index, datetime) triples"""
     pairs: list[tuple[int, int, datetime]] = []
     i = 0
     while i < len(lines):
@@ -141,7 +133,7 @@ def _find_date_time_pairs(lines: list[str]) -> list[tuple[int, int, datetime]]:
         if date_match and i + 1 < len(lines):
             time_match = _TIME_PATTERN.match(lines[i + 1])
             if time_match:
-                # 默认年份由调用方传入，这里用占位，后续替换
+                # Default year is provided by the caller; use a placeholder here and replace later
                 pairs.append((i, i + 1, date_match, time_match))
                 i += 2
                 continue
@@ -158,7 +150,7 @@ def _find_date_time_pairs(lines: list[str]) -> list[tuple[int, int, datetime]]:
 
 
 def _is_content_line(line: str) -> bool:
-    """判断是否为代表事件实质内容的行（非噪声、非日期时间）"""
+    """Check whether the line represents substantive event content (not noise, not date/time)"""
     if _is_noise_line(line):
         return False
     if _DATE_PATTERN.match(line) or _TIME_PATTERN.match(line):
@@ -167,7 +159,7 @@ def _is_content_line(line: str) -> bool:
 
 
 def _chunk_lines(lines: list[str]) -> list[list[str]]:
-    """按 'View source' / 'View reply' 将日志分割为事件块"""
+    """Split logs into event blocks by 'View source' / 'View reply'"""
     chunks: list[list[str]] = []
     current: list[str] = []
     for line in lines:
@@ -184,8 +176,8 @@ def _extract_date_time_pair(
     lines: list[str], default_year: int
 ) -> tuple[Optional[datetime], list[str]]:
     """
-    从块开头提取日期+时间，返回 (datetime, 剩余行)。
-    如果开头不是日期+时间，返回 (None, 原列表)。
+    Extract date+time from the start of a block, returning (datetime, remaining lines).
+    If the start is not date+time, return (None, original lines).
     """
     if len(lines) < 2:
         return None, lines
@@ -206,11 +198,11 @@ def _extract_date_time_pair(
 
 def _parse_structured(text: str, default_year: int = 2026) -> list[ParsedEvent]:
     """
-    解析半结构化日志格式。
+    Parse semi-structured log format.
 
-    每个事件以 'View source' / 'View reply' 结尾。
-    大部分块以日期+时间开头，后面跟元数据；第一个块没有日期，
-    需要使用下一个块的日期+时间。
+    Each event ends with 'View source' / 'View reply'.
+    Most blocks start with date+time followed by metadata; the first block has no date,
+    so use the next block's date+time.
     """
     raw_lines = [line.strip() for line in text.splitlines() if line.strip()]
     chunks = _chunk_lines(raw_lines)
@@ -218,35 +210,35 @@ def _parse_structured(text: str, default_year: int = 2026) -> list[ParsedEvent]:
     events: list[ParsedEvent] = []
 
     for idx, chunk in enumerate(chunks):
-        # 尝试从当前块开头提取日期+时间
+        # Try to extract date+time from the start of the current block
         dt, metadata_lines = _extract_date_time_pair(chunk, default_year)
 
         if dt is None:
-            # 当前块无日期：使用下一个块开头的日期+时间
+            # Current block has no date: use the date+time from the next block's start
             if idx + 1 >= len(chunks):
                 continue
             next_dt, _ = _extract_date_time_pair(chunks[idx + 1], default_year)
             if next_dt is None:
                 continue
             dt = next_dt
-            # 当前块整体作为元数据
+            # Treat the entire current block as metadata
             metadata_lines = chunk
         else:
-            # 当前块以日期+时间开头：元数据是剩余部分
-            # 但如果剩余部分为空（文件末尾只有日期），则跳过
+            # Current block starts with date+time: metadata is the remaining part
+            # Skip if the remaining part is empty (only a date at the end of the file)
             if not metadata_lines:
                 continue
 
-        # 剔除噪声行
+        # Remove noise lines
         clean = [line for line in metadata_lines if not _is_noise_line(line)]
         if not clean:
             continue
 
-        # 确认重置判断
+        # Determine whether this is a confirmed reset
         text_upper = "\n".join(line.upper() for line in clean)
         is_confirmed = any(marker.upper() in text_upper for marker in _CONFIRMED_MARKERS)
 
-        # 提取 title
+        # Extract title
         title = ""
         if is_confirmed:
             for i, line in enumerate(clean):
@@ -265,7 +257,7 @@ def _parse_structured(text: str, default_year: int = 2026) -> list[ParsedEvent]:
                 (line for line in clean if not _is_metadata_line(line.upper())), ""
             )
 
-        # 提取 Scope / Source
+        # Extract Scope / Source
         scope = ""
         source_text = ""
         for i, line in enumerate(clean):
@@ -302,35 +294,59 @@ def _parse_structured(text: str, default_year: int = 2026) -> list[ParsedEvent]:
 
 
 # ──────────────────────────────────────────────
-# 自然语言解析器（简化版）
+# Natural-language parser (simplified)
 # ──────────────────────────────────────────────
 
 def _parse_natural_language(text: str, default_year: int = 2026) -> list[ParsedEvent]:
     """
-    解析自然语言文本中的重置事件。
+    Parse reset events from natural-language text.
 
-    例如："2026年7月10日，Tibo在X表示limit已经reset"
+    Example: "On July 10, 2026, Tibo said on X that the limit has reset"
     """
     events: list[ParsedEvent] = []
 
-    # 按行或按句分割
-    sentences = re.split(r"[。\n]", text)
+    # English date patterns
+    date_patterns = [
+        # "July 10, 2026" or "Jul 10, 2026"
+        re.compile(
+            r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{1,2}),?\s+(\d{4})",
+            re.IGNORECASE,
+        ),
+        # "2026-07-10" or "2026/07/10"
+        re.compile(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})"),
+    ]
+
+    # Split by line or sentence
+    sentences = re.split(r"[.!?]\s+|\n", text)
 
     for sentence in sentences:
         sentence = sentence.strip()
         if not sentence:
             continue
 
-        # 提取日期
-        cn_date_match = _CN_DATE_PATTERN.search(sentence)
-        if not cn_date_match:
+        # Extract date
+        year: Optional[int] = None
+        month: Optional[int] = None
+        day: Optional[int] = None
+        for pattern in date_patterns:
+            match = pattern.search(sentence)
+            if match:
+                groups = match.groups()
+                if len(groups) == 3:
+                    if groups[0].isdigit():
+                        # ISO format: year, month, day
+                        year, month, day = int(groups[0]), int(groups[1]), int(groups[2])
+                    else:
+                        # Month name format: month_name, day, year
+                        month = _MONTH_MAP[groups[0].lower()[:3]]
+                        day = int(groups[1])
+                        year = int(groups[2])
+                break
+
+        if year is None or month is None or day is None:
             continue
 
-        year = int(cn_date_match.group(1))
-        month = int(cn_date_match.group(2))
-        day = int(cn_date_match.group(3))
-
-        # 尝试提取时间（如果有）
+        # Try to extract time (if any)
         time_match = re.search(r"(\d{1,2}):(\d{2})", sentence)
         hour = int(time_match.group(1)) if time_match else 0
         minute = int(time_match.group(2)) if time_match else 0
@@ -343,23 +359,23 @@ def _parse_natural_language(text: str, default_year: int = 2026) -> list[ParsedE
         except ValueError:
             continue
 
-        # 判断是否是重置事件
-        reset_keywords = ["reset", "重置", "恢复", "额度"]
+        # Determine whether this is a reset event
+        reset_keywords = ["reset", "limit reset", "usage reset", "quota reset"]
         is_reset = any(kw in sentence.lower() for kw in reset_keywords)
 
-        # 判断来源
+        # Determine source
         if "tibo" in sentence.lower():
             source = "twitter"
         elif "openai" in sentence.lower():
             source = "openai_status"
-        elif "社区" in sentence or "reddit" in sentence.lower():
+        elif "reddit" in sentence.lower():
             source = "reddit"
         else:
             source = "other"
 
-        # 置信度
+        # Confidence
         if is_reset:
-            confirm_keywords = ["确认", "confirmed", "宣布", "announced", "表示"]
+            confirm_keywords = ["confirmed", "announced", "said"]
             confidence = 0.8 if any(kw in sentence.lower() for kw in confirm_keywords) else 0.5
         else:
             confidence = 0.2
@@ -377,17 +393,17 @@ def _parse_natural_language(text: str, default_year: int = 2026) -> list[ParsedE
 
 
 # ──────────────────────────────────────────────
-# 主接口
+# Main interface
 # ──────────────────────────────────────────────
 
 @dataclass
 class ParseResult:
-    """解析结果"""
+    """Parse result"""
     confirmed: list[dict] = field(default_factory=list)
     uncertain: list[dict] = field(default_factory=list)
 
     def to_json(self) -> dict:
-        """返回可序列化的 JSON 结构"""
+        """Return a JSON-serializable structure"""
         return {
             "confirmed": self.confirmed,
             "uncertain": self.uncertain,
@@ -396,19 +412,19 @@ class ParseResult:
 
 def parse_history_text(text: str, default_year: int = 2026) -> ParseResult:
     """
-    解析历史重置文本。
+    Parse historical reset text.
 
-    自动检测输入格式（结构化日志 or 自然语言），
-    分类为 confirmed / uncertain 两个列表。
+    Automatically detects input format (structured log or natural language)
+    and classifies events into confirmed / uncertain lists.
 
     Args:
-        text: 原始文本
-        default_year: 结构化日期缺省年份
+        text: Raw input text
+        default_year: Default year for structured dates
 
     Returns:
-        ParseResult 包含 confirmed 和 uncertain 事件列表
+        ParseResult containing confirmed and uncertain event lists
     """
-    # 尝试结构化解析
+    # Try structured parsing first
     has_structured = bool(_DATE_PATTERN.search(text, re.MULTILINE))
     events: list[ParsedEvent] = []
 
@@ -444,12 +460,12 @@ def save_parsed_history(
     uncertain_path: Path,
 ) -> None:
     """
-    将解析结果保存到 JSON 文件。
+    Save parse results to JSON files.
 
     Args:
-        result: 解析结果
-        history_path: reset_history.json 路径
-        uncertain_path: uncertain_events.json 路径
+        result: Parse result
+        history_path: Path to reset_history.json
+        uncertain_path: Path to uncertain_events.json
     """
     history_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -471,13 +487,13 @@ def parse_and_save(
     default_year: int = 2026,
 ) -> ParseResult:
     """
-    一步完成：解析文本 + 保存到文件。
+    One-step parse text and save to files.
 
     Args:
-        text: 原始文本
-        history_path: reset_history.json 路径
-        uncertain_path: uncertain_events.json 路径（默认为同目录下）
-        default_year: 结构化日期缺省年份
+        text: Raw input text
+        history_path: Path to reset_history.json
+        uncertain_path: Path to uncertain_events.json (defaults to same directory)
+        default_year: Default year for structured dates
 
     Returns:
         ParseResult
@@ -491,41 +507,41 @@ def parse_and_save(
 
 
 def main() -> int:
-    """CLI 入口：解析 history.txt 并写入 reset_history.json"""
+    """CLI entry point: parse history.txt and write to reset_history.json"""
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="将自然语言/半结构化历史记录解析为 reset_history.json",
+        description="Parse natural-language/semi-structured history into reset_history.json",
     )
     parser.add_argument(
         "--input",
         type=Path,
         default=Path("history.txt"),
-        help="输入历史记录文件路径（默认: history.txt）",
+        help="Input history file path (default: history.txt)",
     )
     parser.add_argument(
         "--output",
         type=Path,
         default=Path("data/reset_history.json"),
-        help="输出 reset_history.json 路径（默认: data/reset_history.json）",
+        help="Output reset_history.json path (default: data/reset_history.json)",
     )
     parser.add_argument(
         "--uncertain",
         type=Path,
         default=Path("data/uncertain_events.json"),
-        help="输出 uncertain_events.json 路径（默认: data/uncertain_events.json）",
+        help="Output uncertain_events.json path (default: data/uncertain_events.json)",
     )
     parser.add_argument(
         "--year",
         type=int,
         default=2026,
-        help="缺省年份（默认: 2026）",
+        help="Default year (default: 2026)",
     )
 
     args = parser.parse_args()
 
     if not args.input.exists():
-        print(f"错误：输入文件不存在 {args.input}", file=sys.stderr)
+        print(f"Error: input file does not exist {args.input}", file=sys.stderr)
         return 1
 
     text = args.input.read_text(encoding="utf-8")
@@ -536,9 +552,9 @@ def main() -> int:
         default_year=args.year,
     )
 
-    print(f"已解析 {args.input}")
-    print(f"  确认事件: {len(result.confirmed)} 条 → {args.output}")
-    print(f"  不确定事件: {len(result.uncertain)} 条 → {args.uncertain}")
+    print(f"Parsed {args.input}")
+    print(f"  Confirmed events: {len(result.confirmed)} -> {args.output}")
+    print(f"  Uncertain events: {len(result.uncertain)} -> {args.uncertain}")
     return 0
 
 

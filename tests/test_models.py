@@ -1,4 +1,4 @@
-"""测试数据模型"""
+"""Tests for data models"""
 
 from datetime import datetime, timezone
 
@@ -16,22 +16,22 @@ from model.data_models import (
 
 
 class TestResetEvent:
-    """ResetEvent 模型测试"""
+    """Tests for ResetEvent model"""
 
     def test_create_valid_event(self):
-        """创建有效的重置事件"""
+        """Create a valid reset event"""
         event = ResetEvent(
             reset_time=datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc),
             source=SignalSource.TWITTER,
             confidence=0.9,
-            notes="用户报告额度重置",
+            notes="User reported quota reset",
         )
         assert event.source == SignalSource.TWITTER
         assert event.confidence == 0.9
-        assert event.notes == "用户报告额度重置"
+        assert event.notes == "User reported quota reset"
 
     def test_default_confidence(self):
-        """未指定 confidence 时默认为 1.0"""
+        """Default confidence is 1.0 when not specified"""
         event = ResetEvent(
             reset_time=datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc),
             source=SignalSource.MANUAL,
@@ -39,7 +39,7 @@ class TestResetEvent:
         assert event.confidence == 1.0
 
     def test_confidence_out_of_range(self):
-        """confidence 超出 [0, 1] 范围应报错"""
+        """Confidence outside [0, 1] should raise validation error"""
         with pytest.raises(ValidationError):
             ResetEvent(
                 reset_time=datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc),
@@ -54,7 +54,7 @@ class TestResetEvent:
             )
 
     def test_json_roundtrip(self):
-        """JSON 序列化/反序列化"""
+        """JSON serialization/deserialization"""
         event = ResetEvent(
             reset_time=datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc),
             source=SignalSource.OPENAI_STATUS,
@@ -68,21 +68,21 @@ class TestResetEvent:
 
 
 class TestTweet:
-    """Tweet 模型测试"""
+    """Tests for Tweet model"""
 
     def test_create_valid_tweet(self):
-        """创建有效的推文"""
+        """Create a valid tweet"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="tibo_user",
-            text="Codex 额度好像重置了！",
+            text="Codex quota seems to have reset!",
             url="https://twitter.com/tibo_user/status/123",
         )
         assert tweet.author == "tibo_user"
-        assert tweet.text == "Codex 额度好像重置了！"
+        assert tweet.text == "Codex quota seems to have reset!"
 
     def test_empty_author_rejected(self):
-        """空作者名应报错"""
+        """Empty author name should be rejected"""
         with pytest.raises(ValidationError):
             Tweet(
                 timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
@@ -91,7 +91,7 @@ class TestTweet:
             )
 
     def test_empty_text_rejected(self):
-        """空文本应报错"""
+        """Empty text should be rejected"""
         with pytest.raises(ValidationError):
             Tweet(
                 timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
@@ -100,7 +100,7 @@ class TestTweet:
             )
 
     def test_url_optional(self):
-        """url 为可选字段"""
+        """url is optional"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
@@ -109,7 +109,7 @@ class TestTweet:
         assert tweet.url is None
 
     def test_source_default(self):
-        """source 默认为 unknown"""
+        """source defaults to unknown"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
@@ -118,7 +118,7 @@ class TestTweet:
         assert tweet.source == "unknown"
 
     def test_source_custom(self):
-        """可以指定 source"""
+        """Custom source can be specified"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
@@ -128,7 +128,7 @@ class TestTweet:
         assert tweet.source == "tibo_rss"
 
     def test_authority_score_default(self):
-        """authority_score 默认为 1.0"""
+        """authority_score defaults to 1.0"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
@@ -137,7 +137,7 @@ class TestTweet:
         assert tweet.authority_score == 1.0
 
     def test_authority_score_range(self):
-        """authority_score 超出 [0, 1] 应报错"""
+        """authority_score outside [0, 1] should raise validation error"""
         with pytest.raises(ValidationError):
             Tweet(
                 timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
@@ -147,7 +147,7 @@ class TestTweet:
             )
 
     def test_json_roundtrip_with_source(self):
-        """包含 source 和 authority_score 的 JSON 往返"""
+        """JSON round-trip including source and authority_score"""
         tweet = Tweet(
             timestamp=datetime(2025, 7, 1, 10, 30, tzinfo=timezone.utc),
             author="user",
@@ -163,24 +163,24 @@ class TestTweet:
 
 
 class TestSignalScores:
-    """SignalScores 模型测试"""
+    """Tests for SignalScores model"""
 
     def test_create_valid_scores(self):
-        """创建有效的信号分数"""
+        """Create valid signal scores"""
         scores = SignalScores(
             reset_intent=0.8,
             limit_complaint=0.6,
             official_change=0.2,
             reset_confirmation=0.7,
             confidence=0.9,
-            reason=["检测到重置关键词", "检测到限制关键词"],
+            reason=["Reset keyword detected", "Limit keyword detected"],
         )
         assert scores.reset_intent == 0.8
         assert scores.confidence == 0.9
         assert len(scores.reason) == 2
 
     def test_scores_out_of_range(self):
-        """分数超出 [0, 1] 范围应报错"""
+        """Scores outside [0, 1] should raise validation error"""
         with pytest.raises(ValidationError):
             SignalScores(
                 reset_intent=1.5,
@@ -191,7 +191,7 @@ class TestSignalScores:
             )
 
     def test_default_reason(self):
-        """reason 默认为空列表"""
+        """reason defaults to empty list"""
         scores = SignalScores(
             reset_intent=0.5,
             limit_complaint=0.5,
@@ -202,7 +202,7 @@ class TestSignalScores:
         assert scores.reason == []
 
     def test_to_features(self):
-        """to_features 返回特征字典"""
+        """to_features returns feature dict"""
         scores = SignalScores(
             reset_intent=0.8,
             limit_complaint=0.6,
@@ -219,40 +219,40 @@ class TestSignalScores:
         assert features["confidence"] == 0.9
 
     def test_json_roundtrip(self):
-        """JSON 序列化/反序列化"""
+        """JSON serialization/deserialization"""
         scores = SignalScores(
             reset_intent=0.8,
             limit_complaint=0.6,
             official_change=0.2,
             reset_confirmation=0.7,
             confidence=0.9,
-            reason=["测试原因"],
+            reason=["test reason"],
         )
         json_str = scores.model_dump_json()
         restored = SignalScores.model_validate_json(json_str)
         assert restored.reset_intent == 0.8
-        assert restored.reason == ["测试原因"]
+        assert restored.reason == ["test reason"]
 
 
 class TestPredictionResult:
-    """PredictionResult 模型测试"""
+    """Tests for PredictionResult model"""
 
     def test_empty_result(self):
-        """空预测结果"""
+        """Empty prediction result"""
         result = PredictionResult()
         assert result.predictions == []
         assert result.signals_used == []
         assert result.timestamp is not None
 
     def test_with_predictions(self):
-        """包含多个时间窗口的预测"""
+        """Prediction with multiple time horizons"""
         result = PredictionResult(
             predictions=[
                 HorizonPrediction(horizon_hours=5, will_reset=True, confidence=0.7),
                 HorizonPrediction(horizon_hours=24, will_reset=False, confidence=0.6),
                 HorizonPrediction(horizon_hours=48, will_reset=False, confidence=0.8),
             ],
-            signals_used=["推文信号", "历史模式"],
+            signals_used=["tweet signal", "historical pattern"],
             model_version="test-1.0",
         )
         assert len(result.predictions) == 3
@@ -260,7 +260,7 @@ class TestPredictionResult:
         assert result.get_prediction(24).will_reset is False
 
     def test_duplicate_horizons_rejected(self):
-        """重复时间窗口应报错"""
+        """Duplicate time horizons should be rejected"""
         with pytest.raises(ValidationError):
             PredictionResult(
                 predictions=[
@@ -270,24 +270,24 @@ class TestPredictionResult:
             )
 
     def test_get_prediction_not_found(self):
-        """查询不存在的时间窗口返回 None"""
+        """Querying non-existent horizon returns None"""
         result = PredictionResult()
         assert result.get_prediction(99) is None
 
     def test_json_roundtrip(self):
-        """JSON 序列化/反序列化"""
+        """JSON serialization/deserialization"""
         result = PredictionResult(
             predictions=[
                 HorizonPrediction(
                     horizon_hours=5, will_reset=True, confidence=0.65,
-                    reasoning="大量推文报告重置",
+                    reasoning="Many tweets report reset",
                 ),
             ],
-            signals_used=["推文激增"],
+            signals_used=["tweet surge"],
             model_version="test-1.0",
-            notes="测试",
+            notes="test",
         )
         json_str = result.model_dump_json()
         restored = PredictionResult.model_validate_json(json_str)
         assert len(restored.predictions) == 1
-        assert restored.predictions[0].reasoning == "大量推文报告重置"
+        assert restored.predictions[0].reasoning == "Many tweets report reset"

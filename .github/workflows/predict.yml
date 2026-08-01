@@ -3,7 +3,7 @@ name: WillTiboReset Prediction
 on:
   workflow_dispatch:
   schedule:
-    # 每 20 分钟运行一次
+    # Run every 20 minutes
     - cron: '*/20 * * * *'
 
 permissions:

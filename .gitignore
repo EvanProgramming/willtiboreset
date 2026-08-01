@@ -41,5 +41,5 @@ output/*.csv
 output/*.txt
 !output/.gitkeep
 !output/__init__.py
-# prediction.json 被 GitHub Actions 自动提交，需要跟踪
+# prediction.json is auto-committed by GitHub Actions and must be tracked
 !output/prediction.json

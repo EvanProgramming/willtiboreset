@@ -1,4 +1,4 @@
-"""测试模型状态管理"""
+"""Tests for model state management"""
 
 from datetime import datetime, timezone
 from pathlib import Path
@@ -8,10 +8,10 @@ from model.survival_model import DEFAULT_RESET_INTERVAL_HOURS, ResetPredictor
 
 
 class TestModelState:
-    """ModelState 数据模型测试"""
+    """Tests for the ModelState data model"""
 
     def test_create_minimal(self):
-        """创建最小 model_state"""
+        """Create a minimal model_state"""
         state = ModelState(
             average_interval_hours=48.0,
             sample_count=0,
@@ -21,7 +21,7 @@ class TestModelState:
         assert state.prior_weight == 1.0
 
     def test_get_param_default(self):
-        """读取不存在的参数返回默认值"""
+        """Reading a missing parameter returns the default value"""
         state = ModelState(
             average_interval_hours=48.0,
             sample_count=0,
@@ -29,7 +29,7 @@ class TestModelState:
         assert state.get_param("time_adjustment_strength", 0.30) == 0.30
 
     def test_get_param_from_state(self):
-        """读取已存在的参数"""
+        """Reading an existing parameter"""
         state = ModelState(
             average_interval_hours=48.0,
             sample_count=5,
@@ -39,10 +39,10 @@ class TestModelState:
 
 
 class TestModelStateManager:
-    """ModelStateManager 读写测试"""
+    """Tests for ModelStateManager read/write"""
 
     def test_save_and_load(self, tmp_path):
-        """保存并加载 model_state"""
+        """Save and load model_state"""
         state_path = tmp_path / "model_state.json"
         manager = ModelStateManager(state_path)
 
@@ -65,16 +65,16 @@ class TestModelStateManager:
         assert loaded.get_param("time_adjustment_strength", 0.30) == 0.35
 
     def test_load_missing(self, tmp_path):
-        """文件不存在时返回 None"""
+        """Return None when file does not exist"""
         manager = ModelStateManager(tmp_path / "missing.json")
         assert manager.load() is None
 
 
 class TestResetPredictorWithModelState:
-    """ResetPredictor 使用 model_state 的测试"""
+    """Tests for ResetPredictor using model_state"""
 
     def test_uses_state_interval(self):
-        """优先使用 model_state 中的间隔统计量"""
+        """Prefer interval statistics from model_state"""
         state = ModelState(
             average_interval_hours=36.0,
             median_interval_hours=34.0,
@@ -86,7 +86,7 @@ class TestResetPredictorWithModelState:
         assert predictor.model_state.average_interval_hours == 36.0
 
     def test_load_from_path(self, tmp_path):
-        """从路径自动加载 model_state"""
+        """Auto-load model_state from path"""
         state = ModelState(
             average_interval_hours=36.0,
             sample_count=20,

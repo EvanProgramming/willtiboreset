@@ -1,9 +1,9 @@
 """
-WillTiboReset - 数据模型定义
+WillTiboReset - Data model definitions
 
-使用 pydantic v2 定义所有核心数据结构。
-这些模型贯穿收集、分析、预测和输出全流程，
-为后续 LLM 分析和预测模型提供统一的类型契约。
+Defines all core data structures using pydantic v2.
+These models are used throughout collection, analysis, prediction, and output,
+providing a unified type contract for LLM analysis and prediction models.
 """
 
 from __future__ import annotations
@@ -16,11 +16,11 @@ from pydantic import BaseModel, Field, field_validator
 
 
 # ──────────────────────────────────────────────
-# 枚举
+# Enums
 # ──────────────────────────────────────────────
 
 class SignalSource(str, Enum):
-    """信号来源类型"""
+    """Signal source type"""
     TWITTER = "twitter"
     REDDIT = "reddit"
     MANUAL = "manual"
@@ -29,109 +29,109 @@ class SignalSource(str, Enum):
 
 
 class PredictionHorizon(int, Enum):
-    """预测时间窗口（小时）"""
+    """Prediction time horizon (hours)"""
     HOURS_5 = 5
     HOURS_24 = 24
     HOURS_48 = 48
 
 
 # ──────────────────────────────────────────────
-# 核心数据模型
+# Core data models
 # ──────────────────────────────────────────────
 
 class ResetEvent(BaseModel):
     """
-    历史重置事件记录。
+    Historical reset event record.
 
-    表示一次已确认或疑似的使用额度重置事件，
-    用于训练预测模型和建立历史基线模式。
+    Represents a confirmed or suspected usage quota reset event,
+    used to train the prediction model and establish historical baseline patterns.
     """
     reset_time: datetime = Field(
-        ..., description="重置发生的时间（UTC）"
+        ..., description="Time the reset occurred (UTC)"
     )
     source: SignalSource = Field(
-        ..., description="该事件的信息来源"
+        ..., description="Information source of this event"
     )
     confidence: float = Field(
         default=1.0,
         ge=0.0,
         le=1.0,
-        description="该重置事件的可信度，1.0 = 完全确认，0.0 = 纯猜测"
+        description="Confidence of this reset event, 1.0 = fully confirmed, 0.0 = pure guess"
     )
     notes: str = Field(
-        default="", description="补充说明"
+        default="", description="Additional notes"
     )
 
 
 class Tweet(BaseModel):
     """
-    统一信号数据单元。
+    Unified signal data unit.
 
-    所有 Collector（RSS、社区、API 等）输出的统一数据结构。
-    后续模块只依赖此结构，不依赖具体数据来源。
+    The common data structure output by all Collectors (RSS, community, API, etc.).
+    Downstream modules only depend on this structure, not on specific data sources.
     """
     timestamp: datetime = Field(
-        ..., description="发布时间（UTC）"
+        ..., description="Publication time (UTC)"
     )
     author: str = Field(
-        ..., min_length=1, description="作者用户名或站点名"
+        ..., min_length=1, description="Author username or site name"
     )
     text: str = Field(
-        ..., min_length=1, description="正文内容（标题 + 摘要）"
+        ..., min_length=1, description="Body content (title + summary)"
     )
     source: str = Field(
         default="unknown",
-        description="数据来源标识，如 tibo_rss / openai_rss / community_mock"
+        description="Data source identifier, e.g. tibo_rss / openai_rss / community_mock"
     )
     url: Optional[str] = Field(
-        default=None, description="原始链接"
+        default=None, description="Original link"
     )
     authority_score: float = Field(
         default=1.0, ge=0.0, le=1.0,
-        description="数据来源权威性评分（Tibo=1.0, OpenAI=0.9, Community=0.5）"
+        description="Data source authority score (Tibo=1.0, OpenAI=0.9, Community=0.5)"
     )
 
 
 # ──────────────────────────────────────────────
-# LLM 信号分析模型
+# LLM signal analysis models
 # ──────────────────────────────────────────────
 
 class SignalScores(BaseModel):
     """
-    LLM 信号分析输出（V1.5）。
+    LLM signal analysis output (V1.5).
 
-    将自然语言文本转换为结构化机器学习特征。
-    这些特征将传递给 model/survival_model.py 作为预测输入。
+    Converts natural language text into structured machine-learning features.
+    These features are passed to model/survival_model.py as prediction input.
 
-    LLM 不负责直接预测 reset，只负责信号提取。
+    The LLM does not directly predict reset; it only extracts signals.
     """
     reset_intent: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="文本讨论/暗示即将发生额度重置的信号强度"
+        description="Signal strength that the text discusses/implies an upcoming quota reset"
     )
     limit_complaint: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="用户抱怨使用限制/额度耗尽的信号强度"
+        description="Signal strength of user complaints about usage limits/quota exhaustion"
     )
     official_change: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="官方发布产品变更、更新或政策调整的信号强度"
+        description="Signal strength of official product changes, updates, or policy adjustments"
     )
     reset_confirmation: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="明确确认 reset 已经发生或即将发生的信号强度（最高权重）"
+        description="Signal strength of explicit confirmation that reset has occurred or will occur (highest weight)"
     )
     confidence: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="LLM 对以上评分的整体置信度"
+        description="Overall confidence of the LLM in the above scores"
     )
     reason: list[str] = Field(
         default_factory=list,
-        description="评分依据列表"
+        description="List of scoring rationales"
     )
 
     def to_features(self) -> dict[str, float]:
-        """转换为特征字典，供 survival_model.py 使用"""
+        """Convert to a feature dict for survival_model.py"""
         return {
             "reset_intent": self.reset_intent,
             "limit_complaint": self.limit_complaint,
@@ -142,177 +142,177 @@ class SignalScores(BaseModel):
 
 
 # ──────────────────────────────────────────────
-# 生存模型特征与输出
+# Survival model features and outputs
 # ──────────────────────────────────────────────
 
 class PredictionFeatures(BaseModel):
     """
-    生存模型预测输入特征（V1.5）。
+    Survival model prediction input features (V1.5).
 
-    由 AnalysisFeatures（统计特征）和 SignalScores（LLM 信号）
-    合并而成，作为 ResetPredictor.predict() 的输入。
+    Merged from AnalysisFeatures (statistical features) and SignalScores (LLM signals),
+    used as input to ResetPredictor.predict().
     """
     hours_since_last_reset: Optional[float] = Field(
         default=None, ge=0.0,
-        description="距上次 reset 的小时数，None 表示无历史记录"
+        description="Hours since last reset, None means no historical record"
     )
     average_reset_interval: Optional[float] = Field(
         default=None, gt=0.0,
-        description="历史平均 reset 间隔（小时），None 表示无历史记录"
+        description="Historical average reset interval (hours), None means no historical record"
     )
     median_reset_interval: Optional[float] = Field(
         default=None, gt=0.0,
-        description="历史中位 reset 间隔（小时），None 表示无历史记录"
+        description="Historical median reset interval (hours), None means no historical record"
     )
     interval_uncertainty: Optional[float] = Field(
         default=None, ge=0.0,
-        description="reset 间隔估计的不确定性（小时），用于平滑 time_pressure"
+        description="Uncertainty of reset interval estimate (hours), used to smooth time_pressure"
     )
     time_pressure: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="基于 median interval 的平滑时间压力（0=刚 reset，1=明显超期）"
+        description="Smoothed time pressure based on median interval (0=just reset, 1=significantly overdue)"
     )
     tibo_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="Tibo/Reset 相关信号强度（reset_confirmation + reset_intent 加权）"
+        description="Tibo/Reset related signal strength (weighted reset_confirmation + reset_intent)"
     )
     community_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="社区压力信号强度（limit_complaint 加权）"
+        description="Community pressure signal strength (weighted limit_complaint)"
     )
     release_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="官方变更信号强度（official_change 加权）"
+        description="Official change signal strength (weighted official_change)"
     )
     evidence_score: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="综合证据强度（V2，由 LLM 信号与来源权重聚合得到）"
+        description="Combined evidence strength (V2, aggregated from LLM signals and source weights)"
     )
 
 
 class FactorImpact(BaseModel):
     """
-    影响最终概率的单一因素。
+    A single factor influencing the final probability.
 
-    用于 prediction.json 中的 main_factors，让用户理解预测依据。
+    Used in main_factors of prediction.json to help users understand the prediction rationale.
     """
-    factor: str = Field(..., description="因素描述")
-    impact: str = Field(..., description="对概率的影响，如 +35% / -10%")
+    factor: str = Field(..., description="Factor description")
+    impact: str = Field(..., description="Impact on probability, e.g. +35% / -10%")
     score: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="该因素的原始强度（0-1）"
+        description="Raw strength of this factor (0-1)"
     )
 
 
 class PredictionExplanation(BaseModel):
     """
-    生存模型预测输出（含可解释说明，V2）。
+    Survival model prediction output (with explanations, V2).
 
-    返回各时间窗口的 reset 概率、驱动概率的关键原因列表
-    以及结构化的 main_factors。
+    Returns reset probabilities per time window, a list of key reasons driving the probability,
+    and structured main_factors.
     """
     probability: dict[str, float] = Field(
-        ..., description='各时间窗口的 reset 概率，如 {"5h": 0.42, "24h": 0.76, "48h": 0.91}'
+        ..., description='Reset probability per time window, e.g. {"5h": 0.42, "24h": 0.76, "48h": 0.91}'
     )
     reasons: list[str] = Field(
         default_factory=list,
-        description="驱动概率的关键原因（人类可读）"
+        description="Key reasons driving the probability (human-readable)"
     )
     main_factors: list[FactorImpact] = Field(
         default_factory=list,
-        description="对最终概率影响最大的结构化因素列表"
+        description="Structured list of factors with the largest impact on the final probability"
     )
     evidence_score: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="综合证据强度（0=无证据，1=非常强证据）"
+        description="Combined evidence strength (0=no evidence, 1=very strong evidence)"
     )
     hazard_rate: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="当前每小时 hazard rate（模型内部状态，V2 保留用于兼容性）"
+        description="Current hourly hazard rate (model internal state, kept in V2 for compatibility)"
     )
     time_pressure: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="平滑后的时间压力（0=刚 reset，1=明显超期）"
+        description="Smoothed time pressure (0=just reset, 1=significantly overdue)"
     )
     time_ratio: Optional[float] = Field(
         default=None,
-        description="hours_since_last_reset / average_reset_interval，None 表示无历史"
+        description="hours_since_last_reset / average_reset_interval, None means no history"
     )
     average_interval_used: Optional[float] = Field(
         default=None,
-        description="模型实际使用的平均 reset 周期（含先验）"
+        description="Average reset interval actually used by the model (including prior)"
     )
     median_interval_used: Optional[float] = Field(
         default=None,
-        description="模型实际使用的中位 reset 周期（含先验）"
+        description="Median reset interval actually used by the model (including prior)"
     )
     prior_applied: bool = Field(
         default=False,
-        description="是否使用了先验默认周期"
+        description="Whether the prior default interval was used"
     )
 
 
 # ──────────────────────────────────────────────
-# 预测相关模型
+# Prediction-related models
 # ──────────────────────────────────────────────
 
 class HorizonPrediction(BaseModel):
     """
-    单一时间窗口的预测结果。
+    Prediction result for a single time window.
 
-    对应一个具体的预测时间跨度（如 5 小时）。
+    Corresponds to a specific prediction horizon (e.g. 5 hours).
     """
     horizon_hours: int = Field(
-        ..., description="预测时间窗口（小时）"
+        ..., description="Prediction time horizon (hours)"
     )
     will_reset: bool = Field(
-        ..., description="预测是否会发生重置"
+        ..., description="Whether a reset is predicted to occur"
     )
     confidence: float = Field(
-        ..., ge=0.0, le=1.0, description="预测置信度"
+        ..., ge=0.0, le=1.0, description="Prediction confidence"
     )
     reasoning: str = Field(
-        default="", description="预测依据（LLM 分析或模型特征说明）"
+        default="", description="Prediction rationale (LLM analysis or model feature explanation)"
     )
 
 
 class PredictionResult(BaseModel):
     """
-    完整预测结果。
+    Complete prediction result.
 
-    包含多个时间窗口的预测、使用的信号列表、
-    以及模型版本等元信息。
+    Contains predictions for multiple time windows, the list of signals used,
+    and metadata such as model version.
     """
     timestamp: datetime = Field(
         default_factory=lambda: datetime.now(timezone.utc),
-        description="预测生成时间（UTC）"
+        description="Prediction generation time (UTC)"
     )
     predictions: list[HorizonPrediction] = Field(
         default_factory=list,
-        description="各时间窗口的预测结果列表"
+        description="List of prediction results per time window"
     )
     signals_used: list[str] = Field(
         default_factory=list,
-        description="本次预测使用的信号描述列表"
+        description="List of signal descriptions used in this prediction"
     )
     model_version: str = Field(
-        default="unknown", description="生成此预测的模型版本标识"
+        default="unknown", description="Model version identifier that generated this prediction"
     )
     notes: str = Field(
-        default="", description="额外说明"
+        default="", description="Additional notes"
     )
 
     @field_validator("predictions")
     @classmethod
     def validate_predictions(cls, v: list[HorizonPrediction]) -> list[HorizonPrediction]:
-        """确保每个时间窗口只出现一次"""
+        """Ensure each time window appears only once"""
         horizons = [p.horizon_hours for p in v]
         if len(horizons) != len(set(horizons)):
-            raise ValueError("存在重复的预测时间窗口")
+            raise ValueError("Duplicate prediction time windows")
         return v
 
     def get_prediction(self, horizon_hours: int) -> Optional[HorizonPrediction]:
-        """按时间窗口获取预测结果"""
+        """Get prediction result by time window"""
         for p in self.predictions:
             if p.horizon_hours == horizon_hours:
                 return p
@@ -320,89 +320,89 @@ class PredictionResult(BaseModel):
 
 
 # ──────────────────────────────────────────────
-# 预测历史与校准模型（V2）
+# Prediction history and calibration models (V2)
 # ──────────────────────────────────────────────
 
 class PredictionHistoryEntry(BaseModel):
     """
-    单次预测的历史记录。
+    Historical record of a single prediction.
 
-    用于后续校准、性能评估以及未来训练数据收集。
+    Used for subsequent calibration, performance evaluation, and future training data collection.
     """
     prediction_time: datetime = Field(
         default_factory=lambda: datetime.now(timezone.utc),
-        description="预测生成时间（UTC）"
+        description="Prediction generation time (UTC)"
     )
     prediction: dict[str, float] = Field(
-        ..., description='各窗口预测概率，如 {"within_5h": 0.2, "within_24h": 0.5, "within_48h": 0.7}'
+        ..., description='Prediction probabilities per window, e.g. {"within_5h": 0.2, "within_24h": 0.5, "within_48h": 0.7}'
     )
     signals: dict = Field(
         default_factory=dict,
-        description="本次预测使用的信号快照"
+        description="Signal snapshot used for this prediction"
     )
     actual_result: Optional[bool] = Field(
         default=None,
-        description="实际是否发生 reset（True=发生，False=未发生，None=未确认）"
+        description="Whether reset actually occurred (True=occurred, False=did not occur, None=unconfirmed)"
     )
     resolved_at: Optional[datetime] = Field(
         default=None,
-        description="结果确认时间（UTC）"
+        description="Time the result was confirmed (UTC)"
     )
 
 
 class CalibrationBin(BaseModel):
-    """概率校准分箱"""
-    bin_start: float = Field(..., ge=0.0, le=1.0, description="概率区间起点")
-    bin_end: float = Field(..., ge=0.0, le=1.0, description="概率区间终点")
-    predicted_mean: float = Field(..., ge=0.0, le=1.0, description="区间内平均预测概率")
+    """Probability calibration bin"""
+    bin_start: float = Field(..., ge=0.0, le=1.0, description="Start of probability interval")
+    bin_end: float = Field(..., ge=0.0, le=1.0, description="End of probability interval")
+    predicted_mean: float = Field(..., ge=0.0, le=1.0, description="Mean predicted probability within interval")
     actual_frequency: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="区间内实际发生频率"
+        description="Actual occurrence frequency within interval"
     )
-    count: int = Field(..., ge=0, description="区间内样本数")
+    count: int = Field(..., ge=0, description="Sample count within interval")
 
 
 class HorizonPerformance(BaseModel):
-    """单个时间窗口的性能指标"""
-    horizon_hours: int = Field(..., description="时间窗口（小时）")
-    total: int = Field(..., ge=0, description="已确认结果的总预测数")
+    """Performance metrics for a single time window"""
+    horizon_hours: int = Field(..., description="Time horizon (hours)")
+    total: int = Field(..., ge=0, description="Total predictions with confirmed outcomes")
     brier_score: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="Brier score（越小越好）"
+        description="Brier score (lower is better)"
     )
     accuracy: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="二分类准确率（以 0.5 为阈值）"
+        description="Binary classification accuracy (threshold 0.5)"
     )
     calibration_error: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="平均校准误差"
+        description="Mean calibration error"
     )
     bins: list[CalibrationBin] = Field(
-        default_factory=list, description="校准分箱明细"
+        default_factory=list, description="Calibration bin details"
     )
 
 
 class ModelPerformance(BaseModel):
     """
-    模型整体性能报告。
+    Overall model performance report.
 
-    由 calibration.py 根据 prediction_history.json 生成。
+    Generated by calibration.py from prediction_history.json.
     """
-    total_predictions: int = Field(..., ge=0, description="历史预测总条数")
-    resolved_predictions: int = Field(..., ge=0, description="已确认结果的预测条数")
+    total_predictions: int = Field(..., ge=0, description="Total historical predictions")
+    resolved_predictions: int = Field(..., ge=0, description="Predictions with confirmed outcomes")
     overall_brier_score: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="所有窗口平均 Brier score"
+        description="Average Brier score across all windows"
     )
     overall_accuracy: Optional[float] = Field(
         default=None, ge=0.0, le=1.0,
-        description="所有窗口平均准确率"
+        description="Average accuracy across all windows"
     )
     horizons: list[HorizonPerformance] = Field(
-        default_factory=list, description="各窗口性能指标"
+        default_factory=list, description="Performance metrics per window"
     )
     updated_at: datetime = Field(
         default_factory=lambda: datetime.now(timezone.utc),
-        description="报告更新时间（UTC）"
+        description="Report update time (UTC)"
     )

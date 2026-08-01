@@ -1,8 +1,8 @@
 """
-model 模块 - 数据模型与预测器
+model module - data models and predictors
 
-统一导出所有数据模型和预测器类，
-供其他模块引用。
+Re-exports all data models and predictor classes
+for use by other modules.
 """
 
 from model.data_models import (
@@ -32,7 +32,7 @@ from model.survival_model import (
 )
 
 __all__ = [
-    # 数据模型
+    # Data models
     "ResetEvent",
     "Tweet",
     "PredictionResult",
@@ -42,12 +42,12 @@ __all__ = [
     "PredictionHorizon",
     "PredictionFeatures",
     "PredictionExplanation",
-    # 预测器
+    # Predictors
     "BasePredictor",
     "PlaceholderPredictor",
     "LLMPredictor",
     "StatisticalPredictor",
-    # 生存模型
+    # Survival model
     "ResetPredictor",
     "build_features",
     "BASE_PROBABILITY",

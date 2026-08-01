@@ -1,8 +1,8 @@
 """
-OpenAI RSS 收集器。
+OpenAI RSS collector.
 
-通过 RSS Feed 获取 OpenAI 官方相关新闻和公告。
-RSS URL 从 config.rss_feeds["openai"] 读取，不在代码中硬编码。
+Fetches official OpenAI news and announcements via RSS feed.
+RSS URLs are read from config.rss_feeds["openai"] and are not hardcoded.
 """
 
 from __future__ import annotations
@@ -12,10 +12,10 @@ from collectors.rss_base import BaseRSSCollector
 
 class OpenAIRSSCollector(BaseRSSCollector):
     """
-    OpenAI RSS 收集器。
+    OpenAI RSS collector.
 
-    从配置的 OpenAI 相关 RSS Feed 收集官方新闻和公告。
-    URL 列表通过环境变量 OPENAI_RSS_URLS 配置。
+    Collects official OpenAI news and announcements from configured RSS feeds.
+    URL list is configured via the OPENAI_RSS_URLS environment variable.
     """
 
     def __init__(self, feed_urls: list[str] | None = None, timeout: int = 30):

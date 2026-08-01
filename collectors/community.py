@@ -1,13 +1,14 @@
 """
-社区信号收集器。
+Community signal collector.
 
-设计为可扩展接口，用于未来接入 Reddit、HackerNews 等社区信号。
-当前支持：
-  - RSS Feed（通过 COMMUNITY_RSS_URLS 配置）
-  - Mock 数据（仅在 USE_MOCK_DATA=true 或显式启用时加载，用于测试）
+Designed as an extensible interface for future integration with community signals
+such as Reddit, HackerNews, etc.
+Currently supports:
+  - RSS feeds (configured via COMMUNITY_RSS_URLS)
+  - Mock data (loaded only when USE_MOCK_DATA=true or explicitly enabled, for testing)
 
-后续可继承 BaseCollector 添加新的社区数据源，
-无需修改下游 analyzer / model 模块。
+New community data sources can be added by inheriting from BaseCollector,
+without modifying downstream analyzer / model modules.
 """
 
 from __future__ import annotations
@@ -24,13 +25,13 @@ from model.data_models import Tweet
 
 class CommunityCollector(BaseCollector):
     """
-    社区信号收集器。
+    Community signal collector.
 
-    聚合多个社区数据源：
-    1. RSS Feed（从配置读取 URL，生产环境主要来源）
-    2. Mock 数据（仅在显式启用时加载，用于测试）
+    Aggregates multiple community data sources:
+    1. RSS feeds (URLs read from config, main source in production)
+    2. Mock data (loaded only when explicitly enabled, for testing)
 
-    返回统一的 Tweet 列表，下游模块无需关心数据来源。
+    Returns a unified Tweet list; downstream modules do not need to know the source.
     """
 
     def __init__(
@@ -54,36 +55,36 @@ class CommunityCollector(BaseCollector):
             authority_score=0.5,
         )
         self._mock_data_path = mock_data_path
-        # use_mock 显式为 None 时，读取环境变量 USE_MOCK_DATA
+        # When use_mock is explicitly None, read the USE_MOCK_DATA environment variable
         if use_mock is None:
             use_mock = os.getenv("USE_MOCK_DATA", "false").lower() == "true"
         self._use_mock = use_mock
 
     def collect(self) -> list[Tweet]:
-        """收集社区信号（RSS + 可选 Mock）"""
+        """Collect community signals (RSS + optional mock)"""
         tweets: list[Tweet] = []
 
-        # 1. RSS Feed
+        # 1. RSS feeds
         if self._rss._feed_urls:
             tweets.extend(self._rss.collect())
 
-        # 2. Mock 数据（仅在测试或显式启用时）
+        # 2. Mock data (only in tests or when explicitly enabled)
         if self._use_mock:
             mock_tweets = self._load_mock_data()
             tweets.extend(mock_tweets)
 
-        # 去重
+        # Deduplicate
         return self._deduplicate(tweets)
 
     def _load_mock_data(self) -> list[Tweet]:
-        """从本地 JSON 文件加载 mock 数据"""
+        """Load mock data from a local JSON file"""
         if not self._mock_data_path or not self._mock_data_path.exists():
             return []
         raw = json.loads(self._mock_data_path.read_text(encoding="utf-8"))
         tweets: list[Tweet] = []
         for item in raw:
             try:
-                # 确保 mock 数据标记来源和权威性
+                # Ensure mock data is tagged with source and authority
                 if "source" not in item or item["source"] == "sample":
                     item["source"] = "community_mock"
                 if "authority_score" not in item:
@@ -94,7 +95,7 @@ class CommunityCollector(BaseCollector):
         return tweets
 
     def _deduplicate(self, tweets: list[Tweet]) -> list[Tweet]:
-        """去重"""
+        """Deduplicate"""
         seen: set[str] = set()
         result: list[Tweet] = []
         for tweet in tweets:

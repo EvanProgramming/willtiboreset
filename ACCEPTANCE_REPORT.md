@@ -71,9 +71,9 @@ COMMUNITY_RSS_URLS: ***
 GitHub Actions run `30677688995`:
 
 ```text
-[1/4] 获取最新数据...
-  收集信号: 25 条
-  历史重置事件: 11 条
+[1/4] Fetching latest data...
+  Signals collected: 25
+  Historical reset events: 11
 ```
 
 ### Assessment
@@ -95,8 +95,8 @@ GitHub Actions run `30677688995`:
 GitHub Actions run `30677688995`:
 
 ```text
-[2/4] 分析文本信号...
-  分析器: DeepSeekAnalyzer
+[2/4] Analyzing text signals...
+  Analyzer: DeepSeekAnalyzer
   reset_signal:       0.00
   limit_discussion:   0.02
   release_signal:     0.01
@@ -119,11 +119,11 @@ Real reasons from `output/prediction.json`:
 
 ```json
 [
-  "文本讨论的是社区管理规则变更，与使用额度重置无关。",
-  "没有提及任何使用限制或额度问题。",
-  "文本是OpenAI官方发布新图像生成功能的帖子，与额度重置无关。",
-  "没有讨论使用限制或额度耗尽。",
-  "文本是用户分享图像生成提示词，与额度重置无关。"
+  "The text discusses community management rule changes and is unrelated to usage-quota resets.",
+  "No usage limits or quota issues are mentioned.",
+  "The text is an official OpenAI post about a new image-generation feature and is unrelated to quota resets.",
+  "No usage limits or quota exhaustion is discussed.",
+  "The text is a user sharing image-generation prompts and is unrelated to quota resets."
 ]
 ```
 
@@ -174,32 +174,32 @@ GitHub Actions run `30677688995` executed `python predict.py`.
 ### Output
 
 ```text
-[1/4] 获取最新数据...
-  收集信号: 25 条
-  历史重置事件: 11 条
+[1/4] Fetching latest data...
+  Signals collected: 25
+  Historical reset events: 11
 
-[2/4] 分析文本信号...
-  分析器: DeepSeekAnalyzer
+[2/4] Analyzing text signals...
+  Analyzer: DeepSeekAnalyzer
   reset_signal:       0.00
   limit_discussion:   0.02
   release_signal:     0.01
   community_pressure: 0.00
   llm_confidence:     0.92
 
-[3/4] 加载模型状态...
-  已加载 model_state: 10 个 interval
-  后验平均间隔: 59.0h
+[3/4] Loading model state...
+  Loaded model_state: 10 intervals
+  Posterior average interval: 59.0h
 
-[3/4] 运行预测模型...
-  模型: adaptive-bayesian-survival-2.1.0
+[3/4] Running prediction model...
+  Model: adaptive-bayesian-survival-2.1.0
   Hazard rate: 0.2027/h
   Time ratio:  1.60x
     5h: 67.8%  ████████████████████░░░░░░░░░░
    24h: 99.6%  █████████████████████████████░
    48h: 100.0%  ██████████████████████████████
 
-[4/4] 生成预测文件...
-  已保存: output/prediction.json
+[4/4] Generating prediction file...
+  Saved: output/prediction.json
 ```
 
 ### Generated `output/prediction.json`
@@ -226,8 +226,8 @@ GitHub Actions run `30677688995` executed `python predict.py`.
     "interval_count": 10
   },
   "reasons": [
-    "距上次 reset 已 94.2 小时，远超平均间隔 59 小时（比率 1.6x）",
-    "综合 hazard rate 较高（19.8%/h），短期内 reset 概率显著"
+    "94.2 hours since the last reset, far exceeding the average interval of 59 hours (ratio 1.6x).",
+    "Combined hazard rate is high (19.8%/h), so the short-term reset probability is significant."
   ]
 }
 ```
@@ -260,13 +260,13 @@ python update_model.py
 ### Output
 
 ```text
-样本 interval 数: 10
-后验平均间隔: 58.96h
-中位间隔: 42.92
-标准差: 83.5
-间隔置信度: 60%
-先验权重: 50.00%
-参数: {'alpha': -4.0, 'beta_time': 1.62, 'beta_tibo': 1.0, 'beta_community': 0.8, 'beta_release': 0.5}
+Sample interval count: 10
+Posterior average interval: 58.96h
+Median interval: 42.92
+Std dev: 83.5
+Interval confidence: 60%
+Prior weight: 50.00%
+Parameters: {'alpha': -4.0, 'beta_time': 1.62, 'beta_tibo': 1.0, 'beta_community': 0.8, 'beta_release': 0.5}
 ```
 
 ### Verdict

@@ -1,13 +1,13 @@
 """
-collectors 模块入口。
+Entry point for the collectors module.
 
-运行: python -m collectors
+Run: python -m collectors
 
-流程:
-  1. 运行所有 Collector（Tibo RSS、OpenAI RSS、Community）
-  2. 合并、去重，保存到 data/tweets.json
-  3. 运行 LLM 信号分析（Mock 或 Gemini）
-  4. 输出结构化信号分数
+Pipeline:
+  1. Run all collectors (Tibo RSS, OpenAI RSS, Community)
+  2. Merge, deduplicate, and save to data/tweets.json
+  3. Run LLM signal analysis (Mock or Gemini)
+  4. Output structured signal scores
 """
 
 from __future__ import annotations
@@ -16,7 +16,7 @@ import json
 import sys
 from pathlib import Path
 
-# 确保项目根目录在 sys.path 中
+# Ensure the project root is in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -42,7 +42,7 @@ def _print_sep(title: str = "") -> None:
 
 
 def _deduplicate(tweets: list[Tweet]) -> list[Tweet]:
-    """全局去重"""
+    """Global deduplication"""
     from collectors.rss_base import _build_dedup_key
     seen: set[str] = set()
     result: list[Tweet] = []
@@ -55,82 +55,82 @@ def _deduplicate(tweets: list[Tweet]) -> list[Tweet]:
 
 
 def _create_analyzer() -> LLMAnalyzer:
-    """根据配置创建 LLM 分析器"""
+    """Create an LLM analyzer based on configuration"""
     if config.has_gemini_credentials:
-        print("  使用 Gemini API 进行信号分析")
+        print("  Using Gemini API for signal analysis")
         return GeminiAnalyzer(
             api_key=config.gemini_api_key,
             model=config.gemini_model,
         )
     else:
-        print("  使用 Mock 分析器（基于关键词匹配）")
-        print("  配置 GEMINI_API_KEY 可启用 Gemini API")
+        print("  Using Mock analyzer (keyword matching)")
+        print("  Set GEMINI_API_KEY to enable Gemini API")
         return MockLLMAnalyzer()
 
 
 def main() -> int:
     print()
     print("=" * 60)
-    print("  WillTiboReset - 数据采集 & 信号分析")
+    print("  WillTiboReset - Data Collection & Signal Analysis")
     print("=" * 60)
     print()
 
     config.ensure_dirs()
 
-    # ── Step 1: 数据采集 ──
-    _print_sep("Step 1: 数据采集")
+    # ── Step 1: Data collection ──
+    _print_sep("Step 1: Data Collection")
     all_tweets: list[Tweet] = []
 
     # Tibo RSS
     tibo = TiboRSSCollector(timeout=config.rss_request_timeout)
     tibo_tweets = tibo.collect()
-    print(f"  TiboRSS:       {len(tibo_tweets)} 条")
+    print(f"  TiboRSS:       {len(tibo_tweets)} tweets")
     all_tweets.extend(tibo_tweets)
 
     # OpenAI RSS
     openai = OpenAIRSSCollector(timeout=config.rss_request_timeout)
     openai_tweets = openai.collect()
-    print(f"  OpenAI RSS:    {len(openai_tweets)} 条")
+    print(f"  OpenAI RSS:    {len(openai_tweets)} tweets")
     all_tweets.extend(openai_tweets)
 
     # Community (RSS + Mock)
     community = CommunityCollector(timeout=config.rss_request_timeout)
     community_tweets = community.collect()
-    print(f"  Community:     {len(community_tweets)} 条")
+    print(f"  Community:     {len(community_tweets)} tweets")
     all_tweets.extend(community_tweets)
 
-    # 合并去重
+    # Merge and deduplicate
     all_tweets = _deduplicate(all_tweets)
-    print(f"  去重后总计:    {len(all_tweets)} 条")
+    print(f"  Total after dedup: {len(all_tweets)} tweets")
     print()
 
-    # ── Step 2: 保存到 tweets.json ──
-    _print_sep("Step 2: 保存数据")
+    # ── Step 2: Save to tweets.json ──
+    _print_sep("Step 2: Save Data")
     tweet_collector = TweetCollector(config.tweets_path)
     tweet_collector.save(all_tweets)
-    print(f"  已保存到: {config.tweets_path}")
+    print(f"  Saved to: {config.tweets_path}")
     print()
 
-    # ── Step 3: LLM 信号分析 ──
-    _print_sep("Step 3: LLM 信号分析")
+    # ── Step 3: LLM signal analysis ──
+    _print_sep("Step 3: LLM Signal Analysis")
     if not all_tweets:
-        print("  ⚠ 无数据可分析")
+        print("  ⚠ No data to analyze")
         print()
         print("=" * 60)
         return 0
 
     analyzer = _create_analyzer()
-    print(f"  分析 {len(all_tweets)} 条文本...")
+    print(f"  Analyzing {len(all_tweets)} tweets...")
     print()
 
-    # 逐条分析
+    # Analyze tweet by tweet
     scores = analyzer.analyze_tweets(all_tweets)
 
-    _print_sep("逐条信号分数")
+    _print_sep("Per-tweet Signal Scores")
     for i, (tweet, score) in enumerate(zip(all_tweets, scores), 1):
         preview = tweet.text[:60].replace("\n", " ")
         print(f"  [{i}] {preview}...")
-        print(f"      来源: {tweet.source} | 作者: {tweet.author}")
+        print(f"      source: {tweet.source} | author: {tweet.author}")
         print(
             f"      reset={score.reset_signal:.2f}  "
             f"limit={score.limit_discussion:.2f}  "
@@ -139,11 +139,11 @@ def main() -> int:
             f"conf={score.confidence:.2f}"
         )
         if score.reason:
-            print(f"      依据: {'; '.join(score.reason[:2])}")
+            print(f"      reasons: {'; '.join(score.reason[:2])}")
         print()
 
-    # 聚合信号
-    _print_sep("聚合信号")
+    # Aggregate signals
+    _print_sep("Aggregated Signals")
     batch = analyzer.analyze_batch([t.text for t in all_tweets])
     print(f"  reset_signal:       {batch.reset_signal:.2f}")
     print(f"  limit_discussion:   {batch.limit_discussion:.2f}")
@@ -151,10 +151,10 @@ def main() -> int:
     print(f"  community_pressure: {batch.community_pressure:.2f}")
     print(f"  confidence:         {batch.confidence:.2f}")
     if batch.reason:
-        print(f"  依据: {'; '.join(batch.reason[:3])}")
+        print(f"  reasons: {'; '.join(batch.reason[:3])}")
     print()
 
-    # 保存分析结果
+    # Save analysis results
     analysis_path = config.output_dir / "signal_analysis.json"
     analysis_data = {
         "timestamp": __import__("datetime").datetime.now(
@@ -174,11 +174,11 @@ def main() -> int:
         json.dumps(analysis_data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"  分析结果已保存: {analysis_path}")
+    print(f"  Analysis saved: {analysis_path}")
     print()
 
-    _print_sep("完成")
-    print("  数据采集和信号分析完毕。")
+    _print_sep("Done")
+    print("  Data collection and signal analysis complete.")
     print()
     print("=" * 60)
     return 0

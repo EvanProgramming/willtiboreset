@@ -1,8 +1,8 @@
 """
-WillTiboReset - 配置系统
+WillTiboReset - Configuration system
 
-从环境变量 / .env 文件加载配置，
-提供全局配置单例 config。
+Loads configuration from environment variables / .env file,
+provides the global config singleton.
 """
 
 from __future__ import annotations
@@ -14,23 +14,23 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 def _parse_csv_env(key: str) -> list[str]:
-    """将逗号分隔的环境变量解析为列表"""
+    """Parse a comma-separated environment variable into a list"""
     raw = os.getenv(key, "")
     return [url.strip() for url in raw.split(",") if url.strip()]
 
 
 def _env_or_default(key: str, default: str) -> str:
-    """读取环境变量；若未设置或为空字符串，则返回默认值。"""
+    """Read environment variable; return default if unset or empty."""
     return os.getenv(key, default) or default
 
 
-# 加载 .env 文件（如果存在）
+# Load .env file if it exists
 load_dotenv()
 
 
 @dataclass
 class Config:
-    """全局配置"""
+    """Global configuration"""
 
     # --- Twitter/X API ---
     twitter_bearer_token: str = field(
@@ -51,7 +51,7 @@ class Config:
         default_factory=lambda: _env_or_default("OPENAI_MODEL", "gpt-4o")
     )
 
-    # --- Gemini API (LLM 信号分析，已废弃) ---
+    # --- Gemini API (LLM signal analysis, deprecated) ---
     gemini_api_key: str = field(
         default_factory=lambda: os.getenv("GEMINI_API_KEY", "")
     )
@@ -59,7 +59,7 @@ class Config:
         default_factory=lambda: _env_or_default("GEMINI_MODEL", "gemini-2.0-flash")
     )
 
-    # --- DeepSeek API (LLM 信号分析，当前优先使用) ---
+    # --- DeepSeek API (LLM signal analysis, currently preferred) ---
     deepseek_api_key: str = field(
         default_factory=lambda: os.getenv("DEEPSEEK_API_KEY", "")
     )
@@ -67,8 +67,8 @@ class Config:
         default_factory=lambda: _env_or_default("DEEPSEEK_MODEL", "deepseek-chat")
     )
 
-    # --- RSS Feed 配置 (RSS_CONFIG) ---
-    # 不硬编码 URL，通过环境变量配置，逗号分隔
+    # --- RSS feed configuration (RSS_CONFIG) ---
+    # URLs are not hardcoded; configured via environment variables, comma-separated
     rss_feeds: dict[str, list[str]] = field(
         default_factory=lambda: {
             "tibo": _parse_csv_env("TIBO_RSS_URLS"),
@@ -80,7 +80,7 @@ class Config:
         default_factory=lambda: int(os.getenv("RSS_REQUEST_TIMEOUT", "30"))
     )
 
-    # --- 预测模型配置 ---
+    # --- Prediction model configuration ---
     prediction_horizons: list[int] = field(
         default_factory=lambda: [
             int(h.strip())
@@ -104,7 +104,7 @@ class Config:
         )
     )
 
-    # --- 数据路径 ---
+    # --- Data paths ---
     data_dir: Path = field(
         default_factory=lambda: Path(
             os.getenv("DATA_DIR", "data")
@@ -118,64 +118,64 @@ class Config:
 
     @property
     def reset_history_path(self) -> Path:
-        """历史重置事件 JSON 路径"""
+        """Path to the historical reset events JSON"""
         return self.data_dir / "reset_history.json"
 
     @property
     def tweets_path(self) -> Path:
-        """推文 JSON 路径"""
+        """Path to the tweets JSON"""
         return self.data_dir / "tweets.json"
 
     @property
     def sample_tweets_path(self) -> Path:
-        """样本推文 JSON 路径（用于测试/mock）"""
+        """Path to the sample tweets JSON (used for testing / mock)"""
         return self.data_dir / "sample_tweets.json"
 
     @property
     def model_state_path(self) -> Path:
-        """模型状态 JSON 路径"""
+        """Path to the model state JSON"""
         return self.data_dir / "model_state.json"
 
     @property
     def prediction_history_path(self) -> Path:
-        """预测历史 JSON 路径"""
+        """Path to the prediction history JSON"""
         return self.data_dir / "prediction_history.json"
 
     @property
     def model_performance_path(self) -> Path:
-        """模型性能报告 JSON 路径"""
+        """Path to the model performance report JSON"""
         return self.output_dir / "model_performance.json"
 
     @property
     def has_gemini_credentials(self) -> bool:
-        """是否已配置 Gemini 凭证"""
+        """Whether Gemini credentials are configured"""
         return bool(self.gemini_api_key)
 
     @property
     def has_deepseek_credentials(self) -> bool:
-        """是否已配置 DeepSeek 凭证"""
+        """Whether DeepSeek credentials are configured"""
         return bool(self.deepseek_api_key)
 
     @property
     def has_rss_feeds(self) -> bool:
-        """是否已配置任何 RSS Feed URL"""
+        """Whether any RSS feed URL is configured"""
         return any(urls for urls in self.rss_feeds.values())
 
     @property
     def has_twitter_credentials(self) -> bool:
-        """是否已配置 Twitter 凭证"""
+        """Whether Twitter credentials are configured"""
         return bool(self.twitter_bearer_token or self.twitter_api_key)
 
     @property
     def has_openai_credentials(self) -> bool:
-        """是否已配置 OpenAI 凭证"""
+        """Whether OpenAI credentials are configured"""
         return bool(self.openai_api_key)
 
     def ensure_dirs(self) -> None:
-        """确保数据目录和输出目录存在"""
+        """Ensure data and output directories exist"""
         self.data_dir.mkdir(parents=True, exist_ok=True)
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
 
-# 全局配置单例
+# Global config singleton
 config = Config()
