@@ -1,6 +1,6 @@
 """Tests for V2 Adaptive Bayesian Evidence Model"""
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import pytest
 from pydantic import ValidationError
@@ -165,6 +165,77 @@ class TestEvidenceAggregation:
             [community_tweet], [score], now=now
         )
         assert tibo_result["overall"] > community_result["overall"]
+
+    def test_past_tense_confirmation_dampened_after_reset(self):
+        """A tweet confirming a reset that ALREADY happened must not raise future probability."""
+        now = datetime.now(timezone.utc)
+        reset_time = now - timedelta(hours=12)
+        tweet = Tweet(
+            timestamp=reset_time + timedelta(seconds=37),
+            author="tibo",
+            text="I have reset usage limits",
+            source="tibo_rss",
+            authority_score=1.0,
+        )
+        score = SignalScores(
+            reset_intent=0.9,
+            limit_complaint=0.1,
+            official_change=0.8,
+            reset_confirmation=0.95,
+            confidence=0.95,
+        )
+        dampened = _aggregate_weighted_evidence(
+            [tweet], [score], now=now, recent_reset_time=reset_time
+        )
+        not_dampened = _aggregate_weighted_evidence(
+            [tweet], [score], now=now, recent_reset_time=None
+        )
+        assert dampened["overall"] < not_dampened["overall"] / 5.0
+
+    def test_future_intent_signal_not_dampened(self):
+        """A tweet announcing a FUTURE reset (long after the last reset) keeps its weight."""
+        now = datetime.now(timezone.utc)
+        reset_time = now - timedelta(hours=48)
+        tweet = Tweet(
+            timestamp=now - timedelta(hours=2),
+            author="tibo",
+            text="We will reset usage limits soon",
+            source="tibo_rss",
+            authority_score=1.0,
+        )
+        score = SignalScores(
+            reset_intent=0.95,
+            limit_complaint=0.1,
+            official_change=0.7,
+            reset_confirmation=0.9,
+            confidence=0.95,
+        )
+        dampened = _aggregate_weighted_evidence(
+            [tweet], [score], now=now, recent_reset_time=reset_time
+        )
+        assert dampened["overall"] > 0.5
+
+    def test_unrelated_teaser_no_evidence(self):
+        """A vague science teaser (no reset mention) should contribute ~zero evidence."""
+        now = datetime.now(timezone.utc)
+        tweet = Tweet(
+            timestamp=now - timedelta(hours=1),
+            author="tibo",
+            text="The weekend is for 10 major breakthroughs in science. There will be signs.",
+            source="tibo_rss",
+            authority_score=1.0,
+        )
+        score = SignalScores(
+            reset_intent=0.1,
+            limit_complaint=0.05,
+            official_change=0.3,
+            reset_confirmation=0.15,
+            confidence=0.6,
+        )
+        result = _aggregate_weighted_evidence(
+            [tweet], [score], now=now, recent_reset_time=now - timedelta(hours=12)
+        )
+        assert result["overall"] < 0.15
 
 
 # ──────────────────────────────────────────────

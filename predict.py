@@ -223,6 +223,12 @@ def main() -> int:
     else:
         print("  model_state.json not found; will use default prior parameters")
 
+    # Most recent confirmed reset time, used to dampen past-tense reset
+    # confirmations ("I have reset...") so they don't inflate future probability.
+    recent_reset_time = (
+        max((e.reset_time for e in events), default=None) if events else None
+    )
+
     print("\n[3/4] Running prediction model...")
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
@@ -233,6 +239,7 @@ def main() -> int:
         tweets=tweets if tweets else None,
         interval_count=analysis_features.reset_interval_count,
         model_state=model_state,
+        recent_reset_time=recent_reset_time,
     )
 
     predictor = ResetPredictor(

@@ -7,10 +7,34 @@ function classifySource(source) {
   return { category: "Other", strength: 0.3 };
 }
 
+// Estimate how much a single tweet's CONTENT actually signals a reset.
+// Source authority alone is not signal strength: an unrelated Tibo post
+// (e.g. a science teaser) must not be shown as a strong reset signal.
+const RESET_PHRASES = [
+  "reset",
+  "usage limit",
+  "quota",
+  "limits have been",
+  "will reset",
+  "about to reset",
+  "resetting",
+];
+
+function contentStrength(text) {
+  if (!text) return 0;
+  const lower = String(text).toLowerCase();
+  const hits = RESET_PHRASES.filter((p) => lower.includes(p)).length;
+  if (hits >= 3) return 0.9;
+  if (hits === 2) return 0.7;
+  if (hits === 1) return 0.5;
+  return 0.15;
+}
+
 function strengthLabel(score) {
   if (score >= 0.9) return "High";
   if (score >= 0.6) return "Medium";
-  return "Low";
+  if (score >= 0.4) return "Low";
+  return "None";
 }
 
 function truncate(text, maxLength = 120) {
@@ -33,10 +57,10 @@ export default function EvidenceSources({ tweets }) {
   const list = Array.isArray(tweets) ? tweets : [];
 
   const latestByCategory = list.reduce((acc, tweet) => {
-    const { category, strength } = classifySource(tweet.source);
+    const { category } = classifySource(tweet.source);
     const existing = acc[category];
     if (!existing || new Date(tweet.timestamp) > new Date(existing.timestamp)) {
-      acc[category] = { ...tweet, strength };
+      acc[category] = { ...tweet };
     }
     return acc;
   }, {});
@@ -90,7 +114,7 @@ export default function EvidenceSources({ tweets }) {
                   }}
                 >
                   <span className="muted">Signal strength</span>
-                  <span className="mono accent">{strengthLabel(item.strength)}</span>
+                  <span className="mono accent">{strengthLabel(contentStrength(item.text))}</span>
                 </div>
               </div>
             );
