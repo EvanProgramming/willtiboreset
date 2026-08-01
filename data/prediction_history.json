@@ -1307,263 +1307,30 @@
     "resolved_at": null
   },
   {
-    "prediction_time": "2026-08-01T14:40:53.236308Z",
+    "prediction_time": "2026-08-01T16:25:32.325583Z",
     "prediction": {
-      "within_5h": 0.4007,
-      "within_24h": 0.7189,
-      "within_48h": 0.8272
+      "within_5h": 0.0461,
+      "within_24h": 0.1661,
+      "within_48h": 0.2584
     },
     "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 11.148120800555555,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
+      "tweet_count": 0,
+      "hours_since_last_reset": 12.892312267777777,
+      "average_reset_interval": 58.96,
+      "median_reset_interval": 42.92,
+      "interval_uncertainty": 26.4,
       "std_reset_interval": 79.61254615354608,
       "min_reset_interval": 0.0,
       "max_reset_interval": 269.5,
       "interval_confidence": 0.6,
-      "time_ratio": 0.1816,
-      "time_pressure": 0.1838,
-      "hazard_rate": 0.051503,
-      "evidence_score": 0.5459,
-      "tibo_signal": 0.1202,
-      "community_signal": 0.0459,
+      "time_ratio": 0.2187,
+      "time_pressure": 0.2428,
+      "hazard_rate": 0.00754,
+      "evidence_score": 0.0,
+      "tibo_signal": 0.0,
+      "community_signal": 0.0,
       "release_signal": 0.0,
-      "llm_scores": {
-        "reset_intent": 0.09,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.14250000000000002,
-        "reset_confirmation": 0.075,
-        "confidence": 0.89,
-        "reason": [
-          "Text discusses scientific breakthroughs and model capabilities, not quota resets.",
-          "Mentions 'Astra' model and proofs, indicating product development but no reset info.",
-          "Generic motivational quote with no relevance to usage limits or resets.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "Official source (likely Tibo) confirms reset for weekend event."
-        ]
-      },
-      "prior_applied": false,
-      "interval_count": 11
-    },
-    "actual_result": null,
-    "resolved_at": null
-  },
-  {
-    "prediction_time": "2026-08-01T15:01:14.730229Z",
-    "prediction": {
-      "within_5h": 0.4445,
-      "within_24h": 0.7667,
-      "within_48h": 0.8514
-    },
-    "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 11.487424730833334,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
-      "std_reset_interval": 79.61254615354608,
-      "min_reset_interval": 0.0,
-      "max_reset_interval": 269.5,
-      "interval_confidence": 0.6,
-      "time_ratio": 0.1872,
-      "time_pressure": 0.1859,
-      "hazard_rate": 0.058841,
-      "evidence_score": 0.6611,
-      "tibo_signal": 0.1507,
-      "community_signal": 0.0458,
-      "release_signal": 0.2493,
-      "llm_scores": {
-        "reset_intent": 0.10500000000000001,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.23500000000000001,
-        "reset_confirmation": 0.08,
-        "confidence": 0.8675,
-        "reason": [
-          "Mentions '10 major breakthroughs' and 'Astra proofs' but no explicit reset discussion.",
-          "Official announcement of new model results, not about usage limits.",
-          "Generic motivational phrase with no relevance to resets or limits.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "Official announcement from Tibo confirming reset."
-        ]
-      },
-      "prior_applied": false,
-      "interval_count": 11
-    },
-    "actual_result": null,
-    "resolved_at": null
-  },
-  {
-    "prediction_time": "2026-08-01T15:20:57.546334Z",
-    "prediction": {
-      "within_5h": 0.4538,
-      "within_24h": 0.7734,
-      "within_48h": 0.8562
-    },
-    "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 11.815984625,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
-      "std_reset_interval": 79.61254615354608,
-      "min_reset_interval": 0.0,
-      "max_reset_interval": 269.5,
-      "interval_confidence": 0.6,
-      "time_ratio": 0.1925,
-      "time_pressure": 0.188,
-      "hazard_rate": 0.059983,
-      "evidence_score": 0.6876,
-      "tibo_signal": 0.1517,
-      "community_signal": 0.0451,
-      "release_signal": 0.2779,
-      "llm_scores": {
-        "reset_intent": 0.08249999999999999,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.10500000000000001,
-        "reset_confirmation": 0.08499999999999999,
-        "confidence": 0.8724999999999999,
-        "reason": [
-          "The text mentions 'signs' and 'breakthroughs' but does not discuss quota resets.",
-          "It references a new model and proofs, indicating product development but not reset.",
-          "The text is a generic motivational phrase with no relevance to usage limits or resets.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "The context is a celebration, indicating an official action by a representative."
-        ]
-      },
-      "prior_applied": false,
-      "interval_count": 11
-    },
-    "actual_result": null,
-    "resolved_at": null
-  },
-  {
-    "prediction_time": "2026-08-01T15:40:57.099427Z",
-    "prediction": {
-      "within_5h": 0.4026,
-      "within_24h": 0.7241,
-      "within_48h": 0.8285
-    },
-    "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 12.149193815277778,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
-      "std_reset_interval": 79.61254615354608,
-      "min_reset_interval": 0.0,
-      "max_reset_interval": 269.5,
-      "interval_confidence": 0.6,
-      "time_ratio": 0.1979,
-      "time_pressure": 0.1901,
-      "hazard_rate": 0.052241,
-      "evidence_score": 0.5494,
-      "tibo_signal": 0.1182,
-      "community_signal": 0.0451,
-      "release_signal": 0.0,
-      "llm_scores": {
-        "reset_intent": 0.09,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.1325,
-        "reset_confirmation": 0.08499999999999999,
-        "confidence": 0.8700000000000001,
-        "reason": [
-          "Mentions upcoming scientific breakthroughs and Astra model proofs, not related to quota resets.",
-          "No mention of usage limits or resets.",
-          "Generic motivational phrase with no relevance to quota resets.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "Official source (Tibo) confirming reset."
-        ]
-      },
-      "prior_applied": false,
-      "interval_count": 11
-    },
-    "actual_result": null,
-    "resolved_at": null
-  },
-  {
-    "prediction_time": "2026-08-01T16:04:18.310525Z",
-    "prediction": {
-      "within_5h": 0.4254,
-      "within_24h": 0.7526,
-      "within_48h": 0.8414
-    },
-    "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 12.538419135555555,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
-      "std_reset_interval": 79.61254615354608,
-      "min_reset_interval": 0.0,
-      "max_reset_interval": 269.5,
-      "interval_confidence": 0.6,
-      "time_ratio": 0.2043,
-      "time_pressure": 0.1926,
-      "hazard_rate": 0.056537,
-      "evidence_score": 0.6071,
-      "tibo_signal": 0.1526,
-      "community_signal": 0.0486,
-      "release_signal": 0.2805,
-      "llm_scores": {
-        "reset_intent": 0.0925,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.215,
-        "reset_confirmation": 0.08249999999999999,
-        "confidence": 0.8550000000000001,
-        "reason": [
-          "Mentions 'signs' and 'resets' but not explicitly about a quota reset.",
-          "Focuses on scientific breakthroughs and model capabilities, not usage limits.",
-          "Generic motivational quote with no relevance to quota resets.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "Official source (likely Tibo) confirming reset."
-        ]
-      },
-      "prior_applied": false,
-      "interval_count": 11
-    },
-    "actual_result": null,
-    "resolved_at": null
-  },
-  {
-    "prediction_time": "2026-08-01T16:20:58.795494Z",
-    "prediction": {
-      "within_5h": 0.4279,
-      "within_24h": 0.7545,
-      "within_48h": 0.8428
-    },
-    "signals": {
-      "tweet_count": 40,
-      "hours_since_last_reset": 12.816331696944445,
-      "average_reset_interval": 61.38,
-      "median_reset_interval": 46.93,
-      "interval_uncertainty": 24.0,
-      "std_reset_interval": 79.61254615354608,
-      "min_reset_interval": 0.0,
-      "max_reset_interval": 269.5,
-      "interval_confidence": 0.6,
-      "time_ratio": 0.2088,
-      "time_pressure": 0.1944,
-      "hazard_rate": 0.05684,
-      "evidence_score": 0.6135,
-      "tibo_signal": 0.1421,
-      "community_signal": 0.0386,
-      "release_signal": 0.2487,
-      "llm_scores": {
-        "reset_intent": 0.0925,
-        "limit_complaint": 0.06000000000000001,
-        "official_change": 0.215,
-        "reset_confirmation": 0.08249999999999999,
-        "confidence": 0.8925000000000001,
-        "reason": [
-          "Text announces release of 10 proofs by Astra, a major model, indicating official product announcement.",
-          "No mention of usage limits or resets.",
-          "Generic motivational quote with no relevance to resets or limits.",
-          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-          "Official source (likely Tibo) confirming reset."
-        ]
-      },
+      "llm_scores": null,
       "prior_applied": false,
       "interval_count": 11
     },

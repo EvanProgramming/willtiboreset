@@ -1,65 +1,47 @@
 {
-  "updated_at": "2026-08-01T16:20:58.794697+00:00",
+  "updated_at": "2026-08-01T16:25:32.325014+00:00",
   "prediction": {
-    "within_5h": 0.4279,
-    "within_24h": 0.7545,
-    "within_48h": 0.8428
+    "within_5h": 0.0461,
+    "within_24h": 0.1661,
+    "within_48h": 0.2584
   },
   "confidence": "high",
   "signals": {
-    "tweet_count": 40,
-    "hours_since_last_reset": 12.816331696944445,
-    "average_reset_interval": 61.38,
-    "median_reset_interval": 46.93,
-    "interval_uncertainty": 24.0,
+    "tweet_count": 0,
+    "hours_since_last_reset": 12.892312267777777,
+    "average_reset_interval": 58.96,
+    "median_reset_interval": 42.92,
+    "interval_uncertainty": 26.4,
     "std_reset_interval": 79.61254615354608,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.2088,
-    "time_pressure": 0.1944,
-    "hazard_rate": 0.05684,
-    "evidence_score": 0.6135,
-    "tibo_signal": 0.1421,
-    "community_signal": 0.0386,
-    "release_signal": 0.2487,
-    "llm_scores": {
-      "reset_intent": 0.0925,
-      "limit_complaint": 0.06000000000000001,
-      "official_change": 0.215,
-      "reset_confirmation": 0.08249999999999999,
-      "confidence": 0.8925000000000001,
-      "reason": [
-        "Text announces release of 10 proofs by Astra, a major model, indicating official product announcement.",
-        "No mention of usage limits or resets.",
-        "Generic motivational quote with no relevance to resets or limits.",
-        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-        "Official source (likely Tibo) confirming reset."
-      ]
-    },
+    "time_ratio": 0.2187,
+    "time_pressure": 0.2428,
+    "hazard_rate": 0.00754,
+    "evidence_score": 0.0,
+    "tibo_signal": 0.0,
+    "community_signal": 0.0,
+    "release_signal": 0.0,
+    "llm_scores": null,
     "prior_applied": false,
     "interval_count": 11
   },
   "main_factors": [
     {
-      "factor": "12.8 hours since last reset",
-      "impact": "-5%",
-      "score": 0.19
-    },
-    {
-      "factor": "Some reset discussion detected",
-      "impact": "+2%",
-      "score": 0.14
-    },
-    {
-      "factor": "Minor community limit complaints",
+      "factor": "12.9 hours since last reset",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.24
+    },
+    {
+      "factor": "No significant reset signal",
+      "impact": "Probability constrained by time prior",
+      "score": null
     }
   ],
   "reasons": [
-    "Recently reset (12.8 hours ago), low time pressure (0.19)",
-    "Moderate reset evidence detected (evidence_score=0.61)",
-    "Main factor: 12.8 hours since last reset (-5%)"
+    "12.9 hours since last reset, close to historical median interval 43 hours",
+    "No significant reset signal detected; probability constrained by time prior",
+    "Main factor: 12.9 hours since last reset (+0%)"
   ]
 }
