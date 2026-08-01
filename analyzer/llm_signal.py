@@ -63,10 +63,10 @@ class LLMAnalyzer(ABC):
         scores = self.analyze(texts)
         if not scores:
             return SignalScores(
-                reset_signal=0.0,
-                limit_discussion=0.0,
-                release_signal=0.0,
-                community_pressure=0.0,
+                reset_intent=0.0,
+                limit_complaint=0.0,
+                official_change=0.0,
+                reset_confirmation=0.0,
                 confidence=0.0,
                 reason=["无输入文本"],
             )
@@ -245,10 +245,10 @@ class GeminiAnalyzer(LLMAnalyzer):
                 results.append(_dict_to_scores(raw_list[i]))
             else:
                 results.append(SignalScores(
-                    reset_signal=0.0,
-                    limit_discussion=0.0,
-                    release_signal=0.0,
-                    community_pressure=0.0,
+                    reset_intent=0.0,
+                    limit_complaint=0.0,
+                    official_change=0.0,
+                    reset_confirmation=0.0,
                     confidence=0.0,
                     reason=["LLM 响应不完整"],
                 ))
@@ -324,10 +324,10 @@ class DeepSeekAnalyzer(LLMAnalyzer):
                 results.append(_dict_to_scores(raw_list[i]))
             else:
                 results.append(SignalScores(
-                    reset_signal=0.0,
-                    limit_discussion=0.0,
-                    release_signal=0.0,
-                    community_pressure=0.0,
+                    reset_intent=0.0,
+                    limit_complaint=0.0,
+                    official_change=0.0,
+                    reset_confirmation=0.0,
                     confidence=0.0,
                     reason=["LLM 响应不完整"],
                 ))

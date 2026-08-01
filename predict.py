@@ -39,6 +39,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from analyzer import SignalAnalyzer
 from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer, MockLLMAnalyzer
+from calibration import append_prediction, update_performance
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -229,6 +230,10 @@ def main() -> int:
         bar = "█" * bar_len + "░" * (30 - bar_len)
         print(f"  {horizon:>4s}: {prob:.1%}  {bar}")
 
+    print("\n  主要因素:")
+    for factor in explanation.main_factors:
+        print(f"    • {factor.factor}: {factor.impact}")
+
     # ── 4. 生成预测文件 ──
     print("\n[4/4] 生成预测文件...")
 
@@ -238,36 +243,44 @@ def main() -> int:
     confidence = compute_confidence(prob_24h, has_history, llm_conf)
     prior_applied = analysis_features.avg_reset_interval_hours is None
 
+    prediction_dict = {
+        "within_5h": explanation.probability.get("5h", 0.0),
+        "within_24h": explanation.probability.get("24h", 0.0),
+        "within_48h": explanation.probability.get("48h", 0.0),
+    }
+
+    signals_snapshot = {
+        "tweet_count": len(tweets),
+        "hours_since_last_reset": pred_features.hours_since_last_reset,
+        "average_reset_interval": pred_features.average_reset_interval,
+        "median_reset_interval": pred_features.median_reset_interval,
+        "interval_uncertainty": pred_features.interval_uncertainty,
+        "std_reset_interval": analysis_features.std_reset_interval_hours,
+        "min_reset_interval": analysis_features.min_reset_interval_hours,
+        "max_reset_interval": analysis_features.max_reset_interval_hours,
+        "interval_confidence": analysis_features.interval_confidence,
+        "time_ratio": explanation.time_ratio,
+        "time_pressure": explanation.time_pressure,
+        "hazard_rate": explanation.hazard_rate,
+        "evidence_score": explanation.evidence_score,
+        "tibo_signal": round(pred_features.tibo_signal, 4),
+        "community_signal": round(pred_features.community_signal, 4),
+        "release_signal": round(pred_features.release_signal, 4),
+        "llm_scores": (
+            batch_scores.model_dump(mode="json") if batch_scores else None
+        ),
+        "prior_applied": prior_applied,
+        "interval_count": analysis_features.reset_interval_count,
+    }
+
     output = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "prediction": {
-            "within_5h": explanation.probability.get("5h", 0.0),
-            "within_24h": explanation.probability.get("24h", 0.0),
-            "within_48h": explanation.probability.get("48h", 0.0),
-        },
+        "prediction": prediction_dict,
         "confidence": confidence,
-        "signals": {
-            "tweet_count": len(tweets),
-            "hours_since_last_reset": pred_features.hours_since_last_reset,
-            "average_reset_interval": pred_features.average_reset_interval,
-            "median_reset_interval": pred_features.median_reset_interval,
-            "interval_uncertainty": pred_features.interval_uncertainty,
-            "std_reset_interval": analysis_features.std_reset_interval_hours,
-            "min_reset_interval": analysis_features.min_reset_interval_hours,
-            "max_reset_interval": analysis_features.max_reset_interval_hours,
-            "interval_confidence": analysis_features.interval_confidence,
-            "time_ratio": explanation.time_ratio,
-            "time_pressure": explanation.time_pressure,
-            "hazard_rate": explanation.hazard_rate,
-            "tibo_signal": round(pred_features.tibo_signal, 4),
-            "community_signal": round(pred_features.community_signal, 4),
-            "release_signal": round(pred_features.release_signal, 4),
-            "llm_scores": (
-                batch_scores.model_dump(mode="json") if batch_scores else None
-            ),
-            "prior_applied": prior_applied,
-            "interval_count": analysis_features.reset_interval_count,
-        },
+        "signals": signals_snapshot,
+        "main_factors": [
+            f.model_dump(mode="json") for f in explanation.main_factors
+        ],
         "reasons": explanation.reasons,
     }
 
@@ -277,6 +290,22 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"  已保存: {output_path}")
+
+    # ── 5. 更新预测历史与性能报告 ──
+    print("\n[5/4] 更新预测历史与校准报告...")
+    append_prediction(
+        config.prediction_history_path,
+        prediction_dict,
+        signals_snapshot,
+        actual_result=None,
+    )
+    print(f"  已保存: {config.prediction_history_path}")
+
+    update_performance(
+        config.prediction_history_path,
+        config.model_performance_path,
+    )
+    print(f"  已保存: {config.model_performance_path}")
 
     print("\n" + "=" * 50)
     print("预测完成。")

@@ -26,7 +26,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from analyzer import SignalAnalyzer
-from analyzer.llm_signal import DeepSeekAnalyzer
+from analyzer.llm_signal import DeepSeekAnalyzer, MockLLMAnalyzer
 from collectors import ResetHistoryCollector, TweetCollector
 from config import config
 from model.data_models import PredictionResult
@@ -186,10 +186,10 @@ def run_prediction(tweets=None, events=None) -> None:
         signal_scores = llm_analyzer.analyze_tweets(tweets)
         batch_scores = llm_analyzer.analyze_batch([t.text for t in tweets])
         print(f"  分析推文数:        {len(signal_scores)}")
-        print(f"  聚合 reset_signal:    {batch_scores.reset_signal:.2f}")
-        print(f"  聚合 limit_discussion: {batch_scores.limit_discussion:.2f}")
-        print(f"  聚合 release_signal:   {batch_scores.release_signal:.2f}")
-        print(f"  聚合 community_pressure: {batch_scores.community_pressure:.2f}")
+        print(f"  聚合 reset_intent:       {batch_scores.reset_intent:.2f}")
+        print(f"  聚合 reset_confirmation: {batch_scores.reset_confirmation:.2f}")
+        print(f"  聚合 limit_complaint:    {batch_scores.limit_complaint:.2f}")
+        print(f"  聚合 official_change:    {batch_scores.official_change:.2f}")
     else:
         signal_scores = []
         batch_scores = None

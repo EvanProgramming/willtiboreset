@@ -20,7 +20,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from config import config
 from model.model_state import ModelState, ModelStateManager
-from model.survival_model import DEFAULT_PARAMS, DEFAULT_RESET_INTERVAL_HOURS
+from model.survival_model import DEFAULT_RESET_INTERVAL_HOURS
 
 
 def _to_aware(dt: datetime) -> datetime:
@@ -75,18 +75,16 @@ def _compute_prior_weight(sample_count: int) -> float:
 
 def _compute_adaptive_params(
     interval_confidence: float,
-    base_params: dict[str, float],
 ) -> dict[str, float]:
     """
-    根据 interval 置信度微调模型参数。
+    根据 interval 置信度微调模型参数（V2 保留参数字段供未来使用）。
 
     当历史数据足够时，略微增强时间压力信号；
     当历史数据不足时，保持保守参数。
     """
-    params = dict(base_params)
-    # interval 越可信，beta_time 略微提高（但不能过大）
-    time_boost = 0.2 * interval_confidence
-    params["beta_time"] = round(params.get("beta_time", 1.5) + time_boost, 4)
+    params: dict[str, float] = {}
+    # interval 越可信，时间因素的可信度略微提高
+    params["time_adjustment_strength"] = round(0.30 + 0.1 * interval_confidence, 4)
     return params
 
 
@@ -106,7 +104,7 @@ def update_model_state(reset_history_path: Optional[Path] = None) -> ModelState:
             average_interval_hours=DEFAULT_RESET_INTERVAL_HOURS,
             sample_count=0,
             prior_weight=1.0,
-            params=DEFAULT_PARAMS,
+            params={},
         )
 
     import json
@@ -127,7 +125,7 @@ def update_model_state(reset_history_path: Optional[Path] = None) -> ModelState:
             average_interval_hours=DEFAULT_RESET_INTERVAL_HOURS,
             sample_count=0,
             prior_weight=1.0,
-            params=DEFAULT_PARAMS,
+            params={},
         )
 
     intervals: list[float] = []
@@ -155,7 +153,7 @@ def update_model_state(reset_history_path: Optional[Path] = None) -> ModelState:
         + (1.0 - prior_weight) * avg
     )
 
-    params = _compute_adaptive_params(interval_conf, DEFAULT_PARAMS)
+    params = _compute_adaptive_params(interval_conf)
 
     state = ModelState(
         average_interval_hours=round(posterior_avg, 2),
