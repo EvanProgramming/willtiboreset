@@ -1,31 +1,44 @@
 {
-  "updated_at": "2026-08-01T00:49:27.028069+00:00",
+  "updated_at": "2026-08-01T01:21:16.856390+00:00",
   "prediction": {
-    "within_5h": 0.6592,
-    "within_24h": 0.9943,
+    "within_5h": 0.6676,
+    "within_24h": 0.9949,
     "within_48h": 1.0
   },
   "confidence": "high",
   "signals": {
-    "tweet_count": 0,
-    "hours_since_last_reset": 93.67417435222222,
+    "tweet_count": 25,
+    "hours_since_last_reset": 94.20468217111112,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.916666666666664,
     "std_reset_interval": 83.4963011859112,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5888,
-    "hazard_rate": 0.193694,
-    "tibo_signal": 0.0,
-    "community_signal": 0.0,
-    "release_signal": 0.0,
-    "llm_scores": null,
+    "time_ratio": 1.5978,
+    "hazard_rate": 0.197688,
+    "tibo_signal": 0.0016,
+    "community_signal": 0.004,
+    "release_signal": 0.012,
+    "llm_scores": {
+      "reset_signal": 0.0,
+      "limit_discussion": 0.004,
+      "release_signal": 0.012000000000000002,
+      "community_pressure": 0.0,
+      "confidence": 0.884,
+      "reason": [
+        "文本讨论的是社区管理规则变更，与使用额度重置无关。",
+        "没有提及任何使用限制或额度问题。",
+        "文本是OpenAI官方发布新图像生成功能的帖子，与额度重置无关。",
+        "没有讨论使用限制或额度耗尽。",
+        "文本是用户分享图像生成提示词，与额度重置无关。"
+      ]
+    },
     "prior_applied": false,
     "interval_count": 10
   },
   "reasons": [
-    "距上次 reset 已 93.7 小时，远超平均间隔 59 小时（比率 1.6x）",
-    "综合 hazard rate 较高（19.4%/h），短期内 reset 概率显著"
+    "距上次 reset 已 94.2 小时，远超平均间隔 59 小时（比率 1.6x）",
+    "综合 hazard rate 较高（19.8%/h），短期内 reset 概率显著"
   ]
 }
