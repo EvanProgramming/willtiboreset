@@ -26,7 +26,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from analyzer import SignalAnalyzer
-from analyzer.llm_signal import GeminiAnalyzer
+from analyzer.llm_signal import DeepSeekAnalyzer
 from collectors import ResetHistoryCollector, TweetCollector
 from config import config
 from model.data_models import PredictionResult
@@ -37,9 +37,9 @@ from output import OutputFormatter
 
 def _validate_prediction_config() -> None:
     """运行预测前校验必须配置项。"""
-    if not config.has_gemini_credentials:
+    if not config.has_deepseek_credentials:
         raise RuntimeError(
-            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
         )
     if not config.rss_feeds.get("tibo"):
         raise RuntimeError(
@@ -177,9 +177,9 @@ def run_prediction(tweets=None, events=None) -> None:
 
     # Step 2: LLM 信号分析
     print_separator("Step 2: LLM 信号分析")
-    llm_analyzer = GeminiAnalyzer(
-        api_key=config.gemini_api_key,
-        model=config.gemini_model,
+    llm_analyzer = DeepSeekAnalyzer(
+        api_key=config.deepseek_api_key,
+        model=config.deepseek_model,
     )
     print(f"  分析器: {llm_analyzer.__class__.__name__}")
     if tweets:

@@ -245,6 +245,85 @@ class GeminiAnalyzer(LLMAnalyzer):
 
 
 # ──────────────────────────────────────────────
+# DeepSeek 实现（OpenAI 兼容 API）
+# ──────────────────────────────────────────────
+
+class DeepSeekAnalyzer(LLMAnalyzer):
+    """
+    DeepSeek API 信号分析器。
+
+    通过 OpenAI 兼容接口调用 DeepSeek 模型。
+    需要配置 DEEPSEEK_API_KEY 环境变量。
+    openai 包为延迟导入，未安装时给出清晰错误。
+    """
+
+    def __init__(
+        self,
+        api_key: str,
+        model: str = "deepseek-chat",
+        base_url: str = "https://api.deepseek.com/v1",
+    ):
+        self._api_key = api_key
+        self._model = model
+        self._base_url = base_url
+        self._client = None
+
+    def _ensure_client(self):
+        """延迟初始化 DeepSeek 客户端"""
+        if self._client is not None:
+            return
+        try:
+            from openai import OpenAI
+        except ImportError:
+            raise ImportError(
+                "openai 未安装。请运行: pip install openai"
+            )
+        self._client = OpenAI(
+            api_key=self._api_key,
+            base_url=self._base_url,
+        )
+
+    def analyze(self, texts: list[str]) -> list[SignalScores]:
+        """调用 DeepSeek API 分析文本"""
+        if not texts:
+            return []
+
+        self._ensure_client()
+
+        lines = []
+        for i, text in enumerate(texts, 1):
+            lines.append(f"[{i}] {text}")
+        user_input = "\n".join(lines)
+
+        response = self._client.chat.completions.create(
+            model=self._model,
+            messages=[
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": user_input},
+            ],
+            temperature=0.1,
+        )
+        response_text = response.choices[0].message.content or ""
+
+        raw_list = _extract_json_array(response_text)
+
+        results: list[SignalScores] = []
+        for i, text in enumerate(texts):
+            if i < len(raw_list):
+                results.append(_dict_to_scores(raw_list[i]))
+            else:
+                results.append(SignalScores(
+                    reset_signal=0.0,
+                    limit_discussion=0.0,
+                    release_signal=0.0,
+                    community_pressure=0.0,
+                    confidence=0.0,
+                    reason=["LLM 响应不完整"],
+                ))
+        return results
+
+
+# ──────────────────────────────────────────────
 # Mock 实现（用于测试和无 API key 环境）
 # ──────────────────────────────────────────────
 
@@ -328,5 +407,6 @@ class MockLLMAnalyzer(LLMAnalyzer):
 __all__ = [
     "LLMAnalyzer",
     "GeminiAnalyzer",
+    "DeepSeekAnalyzer",
     "MockLLMAnalyzer",
 ]

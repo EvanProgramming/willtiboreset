@@ -51,12 +51,20 @@ class Config:
         default_factory=lambda: _env_or_default("OPENAI_MODEL", "gpt-4o")
     )
 
-    # --- Gemini API (LLM 信号分析) ---
+    # --- Gemini API (LLM 信号分析，已废弃) ---
     gemini_api_key: str = field(
         default_factory=lambda: os.getenv("GEMINI_API_KEY", "")
     )
     gemini_model: str = field(
         default_factory=lambda: _env_or_default("GEMINI_MODEL", "gemini-2.0-flash")
+    )
+
+    # --- DeepSeek API (LLM 信号分析，当前优先使用) ---
+    deepseek_api_key: str = field(
+        default_factory=lambda: os.getenv("DEEPSEEK_API_KEY", "")
+    )
+    deepseek_model: str = field(
+        default_factory=lambda: _env_or_default("DEEPSEEK_MODEL", "deepseek-chat")
     )
 
     # --- RSS Feed 配置 (RSS_CONFIG) ---
@@ -132,6 +140,11 @@ class Config:
     def has_gemini_credentials(self) -> bool:
         """是否已配置 Gemini 凭证"""
         return bool(self.gemini_api_key)
+
+    @property
+    def has_deepseek_credentials(self) -> bool:
+        """是否已配置 DeepSeek 凭证"""
+        return bool(self.deepseek_api_key)
 
     @property
     def has_rss_feeds(self) -> bool:
