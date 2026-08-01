@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T06:11:15.410491+00:00",
+  "updated_at": "2026-08-01T07:12:38.962748+00:00",
   "prediction": {
-    "within_5h": 0.2,
-    "within_24h": 0.5,
-    "within_48h": 0.7
+    "within_5h": 0.5506,
+    "within_24h": 0.8391,
+    "within_48h": 0.9042
   },
-  "confidence": "medium",
+  "confidence": "high",
   "signals": {
-    "tweet_count": 25,
-    "hours_since_last_reset": 99.03761379999999,
+    "tweet_count": 40,
+    "hours_since_last_reset": 100.06082278666668,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6797,
-    "time_pressure": 0.8934,
-    "hazard_rate": 0.028468,
-    "evidence_score": 0.3367,
-    "tibo_signal": 0.0984,
-    "community_signal": 0.008,
-    "release_signal": 0.0262,
+    "time_ratio": 1.6971,
+    "time_pressure": 0.897,
+    "hazard_rate": 0.073299,
+    "evidence_score": 0.8197,
+    "tibo_signal": 0.1845,
+    "community_signal": 0.0291,
+    "release_signal": 0.0,
     "llm_scores": {
-      "reset_intent": 0.07200000000000001,
-      "limit_complaint": 0.008,
-      "official_change": 0.064,
-      "reset_confirmation": 0.07200000000000001,
-      "confidence": 0.88,
+      "reset_intent": 0.13999999999999999,
+      "limit_complaint": 0.04,
+      "official_change": 0.185,
+      "reset_confirmation": 0.1325,
+      "confidence": 0.8975,
       "reason": [
-        "The post is about a subreddit policy change (Text Tuesdays), not about quota resets.",
-        "Mentions complaints about AI image content but not about usage limits.",
-        "Official OpenAI post announcing new image generation features.",
-        "No mention of quota resets or usage limits.",
-        "User shares detailed prompts for AI headshots, unrelated to resets."
+        "The text is a generic motivational phrase with no mention of usage limits or resets.",
+        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' from an official source.",
+        "Mentions 'Resets' as a sign of model improvement but does not confirm a specific reset.",
+        "Asks for improvement suggestions on Codex, unrelated to usage limits or resets.",
+        "Focuses on company culture and mission, no mention of usage limits."
       ]
     },
     "prior_applied": false,
@@ -42,24 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "99.0 hours since last reset",
+      "factor": "100.1 hours since last reset",
       "impact": "+10%",
-      "score": 0.89
+      "score": 0.9
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+1%",
-      "score": 0.1
+      "impact": "+3%",
+      "score": 0.18
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.03
     }
   ],
   "reasons": [
-    "99.0 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.34), insufficient to confirm",
-    "Main factor: 99.0 hours since last reset (+10%)"
+    "100.1 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "Strong reset evidence detected (evidence_score=0.82), probability rises significantly",
+    "Main factor: 100.1 hours since last reset (+10%)"
   ]
 }
