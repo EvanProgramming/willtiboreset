@@ -137,6 +137,16 @@ class Config:
         return self.data_dir / "model_state.json"
 
     @property
+    def prediction_history_path(self) -> Path:
+        """预测历史 JSON 路径"""
+        return self.data_dir / "prediction_history.json"
+
+    @property
+    def model_performance_path(self) -> Path:
+        """模型性能报告 JSON 路径"""
+        return self.output_dir / "model_performance.json"
+
+    @property
     def has_gemini_credentials(self) -> bool:
         """是否已配置 Gemini 凭证"""
         return bool(self.gemini_api_key)

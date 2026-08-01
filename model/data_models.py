@@ -184,13 +184,32 @@ class PredictionFeatures(BaseModel):
         default=0.0, ge=0.0, le=1.0,
         description="官方变更信号强度（official_change 加权）"
     )
+    evidence_score: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="综合证据强度（V2，由 LLM 信号与来源权重聚合得到）"
+    )
+
+
+class FactorImpact(BaseModel):
+    """
+    影响最终概率的单一因素。
+
+    用于 prediction.json 中的 main_factors，让用户理解预测依据。
+    """
+    factor: str = Field(..., description="因素描述")
+    impact: str = Field(..., description="对概率的影响，如 +35% / -10%")
+    score: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="该因素的原始强度（0-1）"
+    )
 
 
 class PredictionExplanation(BaseModel):
     """
-    生存模型预测输出（含可解释说明，V1.5）。
+    生存模型预测输出（含可解释说明，V2）。
 
-    返回各时间窗口的 reset 概率及驱动概率的关键原因列表。
+    返回各时间窗口的 reset 概率、驱动概率的关键原因列表
+    以及结构化的 main_factors。
     """
     probability: dict[str, float] = Field(
         ..., description='各时间窗口的 reset 概率，如 {"5h": 0.42, "24h": 0.76, "48h": 0.91}'
@@ -199,9 +218,17 @@ class PredictionExplanation(BaseModel):
         default_factory=list,
         description="驱动概率的关键原因（人类可读）"
     )
+    main_factors: list[FactorImpact] = Field(
+        default_factory=list,
+        description="对最终概率影响最大的结构化因素列表"
+    )
+    evidence_score: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="综合证据强度（0=无证据，1=非常强证据）"
+    )
     hazard_rate: float = Field(
-        ..., ge=0.0, le=1.0,
-        description="当前每小时 hazard rate（模型内部状态）"
+        default=0.0, ge=0.0, le=1.0,
+        description="当前每小时 hazard rate（模型内部状态，V2 保留用于兼容性）"
     )
     time_pressure: float = Field(
         default=0.0, ge=0.0, le=1.0,
@@ -290,3 +317,92 @@ class PredictionResult(BaseModel):
             if p.horizon_hours == horizon_hours:
                 return p
         return None
+
+
+# ──────────────────────────────────────────────
+# 预测历史与校准模型（V2）
+# ──────────────────────────────────────────────
+
+class PredictionHistoryEntry(BaseModel):
+    """
+    单次预测的历史记录。
+
+    用于后续校准、性能评估以及未来训练数据收集。
+    """
+    prediction_time: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc),
+        description="预测生成时间（UTC）"
+    )
+    prediction: dict[str, float] = Field(
+        ..., description='各窗口预测概率，如 {"within_5h": 0.2, "within_24h": 0.5, "within_48h": 0.7}'
+    )
+    signals: dict = Field(
+        default_factory=dict,
+        description="本次预测使用的信号快照"
+    )
+    actual_result: Optional[bool] = Field(
+        default=None,
+        description="实际是否发生 reset（True=发生，False=未发生，None=未确认）"
+    )
+    resolved_at: Optional[datetime] = Field(
+        default=None,
+        description="结果确认时间（UTC）"
+    )
+
+
+class CalibrationBin(BaseModel):
+    """概率校准分箱"""
+    bin_start: float = Field(..., ge=0.0, le=1.0, description="概率区间起点")
+    bin_end: float = Field(..., ge=0.0, le=1.0, description="概率区间终点")
+    predicted_mean: float = Field(..., ge=0.0, le=1.0, description="区间内平均预测概率")
+    actual_frequency: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="区间内实际发生频率"
+    )
+    count: int = Field(..., ge=0, description="区间内样本数")
+
+
+class HorizonPerformance(BaseModel):
+    """单个时间窗口的性能指标"""
+    horizon_hours: int = Field(..., description="时间窗口（小时）")
+    total: int = Field(..., ge=0, description="已确认结果的总预测数")
+    brier_score: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="Brier score（越小越好）"
+    )
+    accuracy: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="二分类准确率（以 0.5 为阈值）"
+    )
+    calibration_error: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="平均校准误差"
+    )
+    bins: list[CalibrationBin] = Field(
+        default_factory=list, description="校准分箱明细"
+    )
+
+
+class ModelPerformance(BaseModel):
+    """
+    模型整体性能报告。
+
+    由 calibration.py 根据 prediction_history.json 生成。
+    """
+    total_predictions: int = Field(..., ge=0, description="历史预测总条数")
+    resolved_predictions: int = Field(..., ge=0, description="已确认结果的预测条数")
+    overall_brier_score: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="所有窗口平均 Brier score"
+    )
+    overall_accuracy: Optional[float] = Field(
+        default=None, ge=0.0, le=1.0,
+        description="所有窗口平均准确率"
+    )
+    horizons: list[HorizonPerformance] = Field(
+        default_factory=list, description="各窗口性能指标"
+    )
+    updated_at: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc),
+        description="报告更新时间（UTC）"
+    )

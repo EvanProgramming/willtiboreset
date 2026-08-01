@@ -23,7 +23,9 @@ from model.predictor import (
     StatisticalPredictor,
 )
 from model.survival_model import (
-    DEFAULT_PARAMS,
+    BASE_PROBABILITY,
+    DEFAULT_RESET_INTERVAL_HOURS,
+    MAX_EVIDENCE_MULTIPLIER,
     PREDICTION_HORIZONS,
     ResetPredictor,
     build_features,
@@ -48,6 +50,8 @@ __all__ = [
     # 生存模型
     "ResetPredictor",
     "build_features",
-    "DEFAULT_PARAMS",
+    "BASE_PROBABILITY",
+    "DEFAULT_RESET_INTERVAL_HOURS",
+    "MAX_EVIDENCE_MULTIPLIER",
     "PREDICTION_HORIZONS",
 ]

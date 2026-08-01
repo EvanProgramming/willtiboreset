@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T02:09:20.258406+00:00",
+  "updated_at": "2026-08-01T02:49:45.256218+00:00",
   "prediction": {
-    "within_5h": 0.3409,
-    "within_24h": 0.8,
-    "within_48h": 0.92
+    "within_5h": 0.0557,
+    "within_24h": 0.2006,
+    "within_48h": 0.312
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 0,
-    "hours_since_last_reset": 95.00562697138889,
+    "hours_since_last_reset": 95.67923749,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,9 +16,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6114,
-    "time_pressure": 0.8779,
-    "hazard_rate": 0.08,
+    "time_ratio": 1.6228,
+    "time_pressure": 0.8806,
+    "hazard_rate": 0.009286,
+    "evidence_score": 0.0,
     "tibo_signal": 0.0,
     "community_signal": 0.0,
     "release_signal": 0.0,
@@ -26,8 +27,21 @@
     "prior_applied": false,
     "interval_count": 10
   },
+  "main_factors": [
+    {
+      "factor": "距上次 reset 95.7 小时",
+      "impact": "+10%",
+      "score": 0.88
+    },
+    {
+      "factor": "无显著 reset 信号",
+      "impact": "概率受时间先验限制",
+      "score": null
+    }
+  ],
   "reasons": [
-    "距上次 reset 已 95.0 小时，明显超过历史中位间隔 43 小时（time_pressure=0.88）",
-    "综合 hazard rate 达到上限（8.0%/h），长期概率受 cap 限制"
+    "距上次 reset 已 95.7 小时，明显超过历史中位间隔 43 小时，时间因素小幅提升基线概率",
+    "未检测到显著 reset 信号，概率受时间先验限制",
+    "主要因素：距上次 reset 95.7 小时（+10%）"
   ]
 }
