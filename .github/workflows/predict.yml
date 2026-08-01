@@ -9,11 +9,21 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs when a manual dispatch happens close to a scheduled run.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   predict:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Print trigger info
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "Run at: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
       - name: Checkout
         uses: actions/checkout@v4
 
