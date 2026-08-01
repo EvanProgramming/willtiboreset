@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-01T02:49:45.256218+00:00",
+  "updated_at": "2026-08-01T16:25:32.325014+00:00",
   "prediction": {
-    "within_5h": 0.0557,
-    "within_24h": 0.2006,
-    "within_48h": 0.312
+    "within_5h": 0.0461,
+    "within_24h": 0.1661,
+    "within_48h": 0.2584
   },
-  "confidence": "medium",
+  "confidence": "high",
   "signals": {
     "tweet_count": 0,
-    "hours_since_last_reset": 95.67923749,
+    "hours_since_last_reset": 12.892312267777777,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
-    "std_reset_interval": 83.4963011859112,
+    "std_reset_interval": 79.61254615354608,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6228,
-    "time_pressure": 0.8806,
-    "hazard_rate": 0.009286,
+    "time_ratio": 0.2187,
+    "time_pressure": 0.2428,
+    "hazard_rate": 0.00754,
     "evidence_score": 0.0,
     "tibo_signal": 0.0,
     "community_signal": 0.0,
     "release_signal": 0.0,
     "llm_scores": null,
     "prior_applied": false,
-    "interval_count": 10
+    "interval_count": 11
   },
   "main_factors": [
     {
-      "factor": "距上次 reset 95.7 小时",
-      "impact": "+10%",
-      "score": 0.88
+      "factor": "12.9 hours since last reset",
+      "impact": "+0%",
+      "score": 0.24
     },
     {
-      "factor": "无显著 reset 信号",
-      "impact": "概率受时间先验限制",
+      "factor": "No significant reset signal",
+      "impact": "Probability constrained by time prior",
       "score": null
     }
   ],
   "reasons": [
-    "距上次 reset 已 95.7 小时，明显超过历史中位间隔 43 小时，时间因素小幅提升基线概率",
-    "未检测到显著 reset 信号，概率受时间先验限制",
-    "主要因素：距上次 reset 95.7 小时（+10%）"
+    "12.9 hours since last reset, close to historical median interval 43 hours",
+    "No significant reset signal detected; probability constrained by time prior",
+    "Main factor: 12.9 hours since last reset (+0%)"
   ]
 }

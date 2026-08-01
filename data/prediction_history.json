@@ -1305,5 +1305,36 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T16:25:32.325583Z",
+    "prediction": {
+      "within_5h": 0.0461,
+      "within_24h": 0.1661,
+      "within_48h": 0.2584
+    },
+    "signals": {
+      "tweet_count": 0,
+      "hours_since_last_reset": 12.892312267777777,
+      "average_reset_interval": 58.96,
+      "median_reset_interval": 42.92,
+      "interval_uncertainty": 26.4,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2187,
+      "time_pressure": 0.2428,
+      "hazard_rate": 0.00754,
+      "evidence_score": 0.0,
+      "tibo_signal": 0.0,
+      "community_signal": 0.0,
+      "release_signal": 0.0,
+      "llm_scores": null,
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
