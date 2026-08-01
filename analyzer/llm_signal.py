@@ -98,9 +98,14 @@ For each text, evaluate the following dimensions (floating point numbers from 0.
 4. reset_confirmation: Does the text explicitly confirm that a reset has occurred or will occur? (0=none, 1=confirmed, highest weight)
 5. confidence: Your overall confidence in the above scores (0=very uncertain, 1=very certain)
 
+CRITICAL: distinguish past-tense confirmations from future-tense signals.
+- If the text says a reset has ALREADY happened (e.g. "I have reset usage limits", "we have reset"), set reset_confirmation HIGH but reset_intent LOW, because the reset already occurred and does NOT predict another one soon.
+- If the text says a reset is coming / will happen soon (e.g. "we will reset", "reset coming", "lands in the next hour"), set reset_intent HIGH and reset_confirmation HIGH.
+- A vague teaser about future plans that does NOT mention resets (e.g. "there will be signs", "major breakthroughs") should score near ZERO on both reset_intent and reset_confirmation.
+
 Scoring principles:
 - A user simply complaining about limit does not mean a reset is imminent; limit_complaint should not directly push up reset probability.
-- When Tibo or an official source clearly says "already reset / will reset soon", reset_confirmation should be high.
+- When Tibo or an official source clearly says "will reset soon / about to reset", reset_intent should be high.
 - When an official release mentions new features but not reset, official_change can be high while reset_confirmation should remain low.
 
 Also provide a reason list briefly explaining the scoring rationale (each reason no more than one sentence).

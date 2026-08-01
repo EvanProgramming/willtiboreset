@@ -72,6 +72,8 @@ BASE_PROBABILITY: dict[int, float] = {
 TIME_ADJUSTMENT_STRENGTH: float = 0.30
 
 # Evidence multiplier: maximum odds amplification when evidence_score=1
+# Evidence_score is combined with a nonlinear curve so that only genuinely
+# strong signals produce large amplification, while weak signals stay modest.
 MAX_EVIDENCE_MULTIPLIER: float = 25.0
 
 # Probability caps per horizon: prevent natural inflation over time without evidence
@@ -190,9 +192,15 @@ def _aggregate_weighted_evidence(
     tweets: list[Tweet],
     signal_scores: list[SignalScores],
     now: Optional[datetime] = None,
+    recent_reset_time: Optional[datetime] = None,
 ) -> dict:
     """
     Aggregate evidence using authority_score, recency_weight, and source priority.
+
+    recent_reset_time: timestamp of the most recent confirmed reset. Tweets that
+    merely confirm a reset which has ALREADY been recorded (past-tense
+    announcements, e.g. "I have reset usage limits") must not be counted as
+    evidence for a FUTURE reset, so their contribution is heavily dampened.
 
     Returns:
         {
@@ -244,15 +252,42 @@ def _aggregate_weighted_evidence(
             authority = 1.0
             recency = 1.0
             source = "unknown"
+            tweet_time = None
         else:
             tweet = tweets[i]
             authority = max(0.0, min(1.0, tweet.authority_score))
             recency = _recency_weight(tweet.timestamp, now)
             source = tweet.source
+            tweet_time = tweet.timestamp
 
         priority = _source_priority(source)
         w = authority * recency * priority
         evidence = _per_tweet_evidence(score) * score.confidence
+
+        # Dampen evidence from tweets that confirm a reset which has already
+        # been recorded in history. A past-tense confirmation ("I have reset
+        # usage limits") describes a reset that ALREADY happened, so it must not
+        # push up the probability of ANOTHER reset in the future.
+        past_confirmation_dampen = 1.0
+        if (
+            recent_reset_time is not None
+            and tweet_time is not None
+            and score.reset_confirmation >= 0.5
+        ):
+            ts = tweet_time
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            rs = recent_reset_time
+            if rs.tzinfo is None:
+                rs = rs.replace(tzinfo=timezone.utc)
+            # Tweet published within 24h before the confirmed reset, or 6h after it,
+            # is very likely the announcement of that same reset (not a new one).
+            before = (rs - ts).total_seconds() / 3600.0
+            after = (ts - rs).total_seconds() / 3600.0
+            if -24.0 <= after <= 6.0 and before <= 24.0:
+                past_confirmation_dampen = 0.1
+
+        evidence *= past_confirmation_dampen
 
         # Aggregate evidence by source
         if "tibo" in source.lower():
@@ -405,6 +440,7 @@ def build_features(
     tweets: Optional[list[Tweet]] = None,
     interval_count: Optional[int] = None,
     model_state: Optional[ModelState] = None,
+    recent_reset_time: Optional[datetime] = None,
     now: Optional[datetime] = None,
 ) -> PredictionFeatures:
     """
@@ -443,7 +479,8 @@ def build_features(
     )
 
     evidence = _aggregate_weighted_evidence(
-        tweets or [], signal_scores or [], now=now
+        tweets or [], signal_scores or [], now=now,
+        recent_reset_time=recent_reset_time,
     )
 
     return PredictionFeatures(

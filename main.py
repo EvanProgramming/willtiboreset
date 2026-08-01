@@ -214,6 +214,9 @@ def run_prediction(tweets=None, events=None) -> None:
         tweets=tweets if tweets else None,
         interval_count=analysis_features.reset_interval_count,
         model_state=model_state,
+        recent_reset_time=(
+            max((e.reset_time for e in events), default=None) if events else None
+        ),
     )
     print(f"  hours_since_last_reset: {pred_features.hours_since_last_reset}")
     print(f"  average_reset_interval: {pred_features.average_reset_interval}")
