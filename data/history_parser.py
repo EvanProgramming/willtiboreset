@@ -425,7 +425,7 @@ def parse_history_text(text: str, default_year: int = 2026) -> ParseResult:
         ParseResult containing confirmed and uncertain event lists
     """
     # Try structured parsing first
-    has_structured = bool(_DATE_PATTERN.search(text, re.MULTILINE))
+    has_structured = bool(_DATE_PATTERN.search(text))
     events: list[ParsedEvent] = []
 
     if has_structured:
