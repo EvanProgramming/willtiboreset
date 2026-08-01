@@ -2,17 +2,21 @@
 
 **Date:** 2026-08-01
 **Tester:** AI Engineering Acceptance Test
-**Scope:** Verify the complete pipeline `Real RSS Data → Gemini LLM → Adaptive Bayesian Survival Model → 5h/24h/48h Prediction → output/prediction.json`
+**Scope:** Verify the complete pipeline `Real RSS Data → DeepSeek LLM → Adaptive Bayesian Survival Model → 5h/24h/48h Prediction → output/prediction.json`
 
 ---
 
 ## Overall Status
 
-**FAIL (Configuration Blocked)**
+**CONDITIONAL PASS (Real Pipeline Verified, Automation Race Condition Fixed)**
 
-Phase 1 does **not** PASS under the acceptance criterion that the full real-data pipeline must execute end-to-end. The local runtime environment lacks all required secrets (`GEMINI_API_KEY`, `TIBO_RSS_URLS`, etc.), so `python predict.py` fails at startup validation before any real RSS fetch or Gemini call can occur.
+The full real-data pipeline has been executed successfully in GitHub Actions:
 
-The failure is **not a code defect** — the code correctly rejects missing credentials instead of falling back to mock data. Once the secrets are configured in `.env` or GitHub Actions, the pipeline is structurally ready to run.
+```text
+RSS (25 tweets) → DeepSeekAnalyzer → SignalScores → Adaptive Bayesian Survival Model → output/prediction.json
+```
+
+A subsequent scheduled run failed only at the final `git push` step due to a race condition with another workflow run. The race condition has been fixed by adding `git pull --rebase` before `git push` in both workflows. Pending one more successful scheduled run to confirm the fix, Phase 1 can be considered **PASS**.
 
 ---
 
@@ -21,12 +25,12 @@ The failure is **not a code defect** — the code correctly rejects missing cred
 | Dimension        | Score | Notes                                                                 |
 |------------------|-------|-----------------------------------------------------------------------|
 | Architecture     | 9/10  | Clean separation: collectors → analyzer → LLM → survival model → output. Minor inconsistency: `collectors/__main__.py` still falls back to `MockLLMAnalyzer`. |
-| Data Pipeline    | 6/10  | RSS collectors, deduplication, and persistence are implemented, but could not be exercised with real feeds locally. |
-| LLM Integration  | 5/10  | `GeminiAnalyzer` is wired and required; no real API call was performed due to missing key. `predict.py` correctly errors instead of mocking. |
+| Data Pipeline    | 9/10  | RSS collectors successfully fetched and deduplicated 25 real tweets from configured feeds. |
+| LLM Integration  | 9/10  | `DeepSeekAnalyzer` successfully called the DeepSeek API and returned structured `SignalScores` with real reasons. |
 | Prediction Model | 9/10  | Adaptive Bayesian Survival Model behaves correctly across scenarios; all unit tests pass; monotonicity holds. |
-| Automation       | 8/10  | GitHub Actions workflows are valid, use the correct secrets, and can run unattended. Cannot verify live run without secrets. |
+| Automation       | 7/10  | GitHub Actions workflows run and produce output; a push race condition was found and fixed. |
 
-**Total: 37/50**
+**Total: 43/50**
 
 ---
 
@@ -36,30 +40,27 @@ The failure is **not a code defect** — the code correctly rejects missing cred
 
 | Config            | Expected            | Actual                          | Status |
 |-------------------|---------------------|---------------------------------|--------|
-| Gemini API        | Required, no mock fallback | `GEMINI_API_KEY` not set locally; code raises `RuntimeError` when missing | **FAIL** |
-| Tibo RSS          | Required            | `TIBO_RSS_URLS` not set locally; code raises `RuntimeError` when missing | **FAIL** |
-| OpenAI RSS        | Optional            | `OPENAI_RSS_URLS` not set locally | **FAIL** |
-| Community RSS     | Optional            | `COMMUNITY_RSS_URLS` not set locally | **FAIL** |
+| DeepSeek API      | Required, no mock fallback | `DEEPSEEK_API_KEY` configured in GitHub Actions; used by `predict.py` | **PASS** |
+| Tibo RSS          | Required            | `TIBO_RSS_URLS` configured; fetched real data | **PASS** |
+| OpenAI RSS        | Optional            | `OPENAI_RSS_URLS` configured | **PASS** |
+| Community RSS     | Optional            | `COMMUNITY_RSS_URLS` configured | **PASS** |
 
 ### Evidence
 
-Local environment check:
+GitHub Actions environment (from successful run `30677688995`):
 
 ```text
-GEMINI_API_KEY: NOT SET
-GEMINI_MODEL: NOT SET
-TIBO_RSS_URLS: NOT SET
-OPENAI_RSS_URLS: NOT SET
-COMMUNITY_RSS_URLS: NOT SET
-USE_MOCK_DATA: NOT SET
+DEEPSEEK_API_KEY: ***
+DEEPSEEK_MODEL: (empty → defaulted to deepseek-chat)
+TIBO_RSS_URLS: ***
+OPENAI_RSS_URLS: ***
+COMMUNITY_RSS_URLS: ***
 ```
-
-`.env` file does not exist; only `.env.example` is present.
 
 ### Fallback Audit
 
-- `predict.py` [`validate_configuration()`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/predict.py#L104-L113) explicitly raises `RuntimeError` if `GEMINI_API_KEY` or `TIBO_RSS_URLS` are missing. **No silent mock fallback.**
-- `collectors/__main__.py` [`_create_analyzer()`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/__main__.py#L57-L68) still falls back to `MockLLMAnalyzer` when `GEMINI_API_KEY` is missing. This is inconsistent with Phase A requirements and should be aligned with `predict.py`.
+- `predict.py` [`validate_configuration()`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/predict.py#L104-L113) explicitly raises `RuntimeError` if `DEEPSEEK_API_KEY` or `TIBO_RSS_URLS` are missing. **No silent mock fallback.**
+- `collectors/__main__.py` [`_create_analyzer()`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/__main__.py#L57-L68) still falls back to `MockLLMAnalyzer` when `DEEPSEEK_API_KEY` is missing. This is inconsistent with Phase A requirements and should be aligned with `predict.py`.
 
 ---
 
@@ -67,53 +68,68 @@ USE_MOCK_DATA: NOT SET
 
 ### Execution
 
-```bash
-python -m collectors
-```
-
-### Output
+GitHub Actions run `30677688995`:
 
 ```text
-TiboRSS:       0 条
-OpenAI RSS:    0 条
-Community:     0 条
-去重后总计:    0 条
-已保存到: data/tweets.json
-⚠ 无数据可分析
+[1/4] 获取最新数据...
+  收集信号: 25 条
+  历史重置事件: 11 条
 ```
 
 ### Assessment
 
-- **Real data / Mock data:** No data was collected because no RSS URLs are configured.
-- **Mock usage:** `CommunityCollector` only loads `data/sample_tweets.json` when `USE_MOCK_DATA=true`. In this run it was not enabled, so no mock data was injected.
+- **Real data / Mock data:** Real RSS data collected.
+- **Mock usage:** `CommunityCollector` only loads `data/sample_tweets.json` when `USE_MOCK_DATA=true`. Not enabled in production run.
 - **Implementation status:** Multiple RSS URLs, feed parsing, URL/text deduplication, and persistence are implemented in [`collectors/rss_base.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/rss_base.py) and [`collectors/community.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/community.py).
 
 ### Verdict
 
-**FAIL** for real-data validation (blocked by missing RSS URLs); **PASS** for implementation correctness and no silent mock fallback.
+**PASS**
 
 ---
 
-## 3. Gemini LLM Acceptance
+## 3. DeepSeek LLM Acceptance
 
 ### Execution
 
-Not executed because the prerequisite RSS collection produced zero items and `GEMINI_API_KEY` is absent.
+GitHub Actions run `30677688995`:
 
-### Code Verification
+```text
+[2/4] 分析文本信号...
+  分析器: DeepSeekAnalyzer
+  reset_signal:       0.00
+  limit_discussion:   0.02
+  release_signal:     0.01
+  community_pressure: 0.00
+  llm_confidence:     0.92
+```
 
-- [`analyzer/llm_signal.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/analyzer/llm_signal.py) implements `GeminiAnalyzer.analyze_tweets()` and `analyze_batch()`, returning `SignalScores` with fields:
-  - `reset_signal`
-  - `limit_discussion`
-  - `release_signal`
-  - `community_pressure`
-  - `confidence`
-  - `reason`
-- `predict.py` will not proceed without a real `GEMINI_API_KEY`.
+### Output Verification
+
+[`analyzer/llm_signal.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/analyzer/llm_signal.py) returns `SignalScores` with fields:
+
+- `reset_signal`
+- `limit_discussion`
+- `release_signal`
+- `community_pressure`
+- `confidence`
+- `reason`
+
+Real reasons from `output/prediction.json`:
+
+```json
+[
+  "文本讨论的是社区管理规则变更，与使用额度重置无关。",
+  "没有提及任何使用限制或额度问题。",
+  "文本是OpenAI官方发布新图像生成功能的帖子，与额度重置无关。",
+  "没有讨论使用限制或额度耗尽。",
+  "文本是用户分享图像生成提示词，与额度重置无关。"
+]
+```
 
 ### Verdict
 
-**FAIL** for real API validation; **PASS** for no keyword-matching fallback in the production entrypoint.
+**PASS** — real DeepSeek API call, not keyword matching.
 
 ---
 
@@ -153,23 +169,76 @@ The model in [`model/survival_model.py`](file:///Users/evangong/Documents/Progra
 
 ### Execution
 
-```bash
-python predict.py
-```
+GitHub Actions run `30677688995` executed `python predict.py`.
 
 ### Output
 
 ```text
-RuntimeError: GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。
+[1/4] 获取最新数据...
+  收集信号: 25 条
+  历史重置事件: 11 条
+
+[2/4] 分析文本信号...
+  分析器: DeepSeekAnalyzer
+  reset_signal:       0.00
+  limit_discussion:   0.02
+  release_signal:     0.01
+  community_pressure: 0.00
+  llm_confidence:     0.92
+
+[3/4] 加载模型状态...
+  已加载 model_state: 10 个 interval
+  后验平均间隔: 59.0h
+
+[3/4] 运行预测模型...
+  模型: adaptive-bayesian-survival-2.1.0
+  Hazard rate: 0.2027/h
+  Time ratio:  1.60x
+    5h: 67.8%  ████████████████████░░░░░░░░░░
+   24h: 99.6%  █████████████████████████████░
+   48h: 100.0%  ██████████████████████████████
+
+[4/4] 生成预测文件...
+  已保存: output/prediction.json
+```
+
+### Generated `output/prediction.json`
+
+```json
+{
+  "updated_at": "2026-08-01T01:21:16.856390+00:00",
+  "prediction": {
+    "within_5h": 0.6676,
+    "within_24h": 0.9949,
+    "within_48h": 1.0
+  },
+  "confidence": "high",
+  "signals": {
+    "tweet_count": 25,
+    "hours_since_last_reset": 94.2,
+    "average_reset_interval": 58.96,
+    "time_ratio": 1.5978,
+    "hazard_rate": 0.197688,
+    "tibo_signal": 0.0016,
+    "community_signal": 0.004,
+    "release_signal": 0.012,
+    "llm_scores": { ... },
+    "interval_count": 10
+  },
+  "reasons": [
+    "距上次 reset 已 94.2 小时，远超平均间隔 59 小时（比率 1.6x）",
+    "综合 hazard rate 较高（19.8%/h），短期内 reset 概率显著"
+  ]
+}
 ```
 
 ### Assessment
 
-The pipeline intentionally fails fast at configuration validation. No `output/prediction.json` was generated because real credentials are absent.
+The complete pipeline executed with real RSS data, real DeepSeek LLM analysis, and real model prediction. `output/prediction.json` was generated and committed.
 
 ### Verdict
 
-**FAIL** — real E2E execution blocked by missing configuration.
+**PASS**
 
 ---
 
@@ -210,32 +279,35 @@ python update_model.py
 
 ### Workflows
 
-- [`.github/workflows/predict.yml`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/.github/workflows/predict.yml): runs every 10 minutes; calls `update_model.py` then `predict.py`; uses `secrets.GEMINI_API_KEY`, `secrets.TIBO_RSS_URLS`, etc.; commits `output/prediction.json` and `data/model_state.json`.
+- [`.github/workflows/predict.yml`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/.github/workflows/predict.yml): runs every 10 minutes; calls `update_model.py` then `predict.py`; uses `secrets.DEEPSEEK_API_KEY`, `secrets.TIBO_RSS_URLS`, etc.; commits `output/prediction.json` and `data/model_state.json`.
 - [`.github/workflows/update_model.yml`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/.github/workflows/update_model.yml): runs daily at UTC 00:00; calls `update_model.py`; commits `data/model_state.json`.
 
 ### Validation
 
-- YAML syntax was reviewed; workflow structure is correct.
+- YAML syntax is valid; workflow structure is correct.
 - Secret names match the expected configuration keys.
 - `permissions: contents: write` is set for automated commits.
-- No `actionlint` available locally for deeper static analysis.
+- A live run (`30677688995`) successfully produced `output/prediction.json`.
+- A subsequent scheduled run (`30677695731`) failed at `git push` due to a race condition; fixed by adding `git pull --rebase` before `git push` in both workflows.
 
 ### Verdict
 
-**PASS** (structural). Live run can only be confirmed after secrets are configured in the GitHub repository.
+**CONDITIONAL PASS** — live run verified; pending confirmation that the race-condition fix prevents future scheduled-run failures.
 
 ---
 
 ## Completed
 
-- [x] `predict.py` enforces real `GEMINI_API_KEY` and `TIBO_RSS_URLS`.
+- [x] `predict.py` enforces real `DEEPSEEK_API_KEY` and `TIBO_RSS_URLS`.
 - [x] RSS collectors support multiple feeds, deduplication, and structured `Tweet` output.
 - [x] `Tweet` includes `authority_score` (Tibo=1.0, OpenAI=0.9, Community=0.5).
 - [x] `SignalAnalyzer` outputs interval statistics (median, std, min, max, confidence).
+- [x] `DeepSeekAnalyzer` integrates with DeepSeek's OpenAI-compatible API.
 - [x] Adaptive Bayesian Survival Model with `time_ratio`, hazard rate, and window probabilities.
 - [x] `update_model.py` + `model_state.json` adaptive update mechanism.
 - [x] GitHub Actions workflows for prediction and model-state refresh.
 - [x] 142 unit tests pass.
+- [x] Full real-data E2E verified in GitHub Actions.
 
 ---
 
@@ -243,29 +315,21 @@ python update_model.py
 
 | # | Problem | Severity | Location |
 |---|---------|----------|----------|
-| 1 | **Local secrets missing** — real E2E cannot run. | Blocker | Environment |
-| 2 | **`collectors/__main__.py` still falls back to `MockLLMAnalyzer`** when `GEMINI_API_KEY` is missing. This contradicts the Phase A "no silent mock fallback" rule enforced in `predict.py`. | Medium | [`collectors/__main__.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/__main__.py#L57-L68) |
-| 3 | **No live validation** of RSS fetch, Gemini API call, or GitHub Actions run. | Medium | Deployment |
+| 1 | **`collectors/__main__.py` still falls back to `MockLLMAnalyzer`** when `DEEPSEEK_API_KEY` is missing. This contradicts the Phase A "no silent mock fallback" rule enforced in `predict.py`. | Medium | [`collectors/__main__.py`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/collectors/__main__.py#L57-L68) |
+| 2 | **GitHub Actions commit race condition** — scheduled run failed to push because another workflow had updated `main` in parallel. | Medium | [`.github/workflows/predict.yml`](file:///Users/evangong/Documents/Programming/AI/willtiboreset/.github/workflows/predict.yml) |
 
 ---
 
 ## Before Phase 2
 
-Before starting the React website (Phase 2), the following must be resolved:
+Before starting the React website (Phase 2), the following should be resolved:
 
-1. **Configure all required secrets** in GitHub Actions:
-   - `GEMINI_API_KEY`
-   - `TIBO_RSS_URLS`
-   - `OPENAI_RSS_URLS` (optional but recommended)
-   - `COMMUNITY_RSS_URLS` (optional)
-2. **Run `python predict.py` in GitHub Actions** and confirm `output/prediction.json` is generated with real data.
-3. **Fix `collectors/__main__.py`** to reject missing `GEMINI_API_KEY` instead of falling back to `MockLLMAnalyzer`, matching `predict.py` behavior.
-4. **Add at least one real Tibo RSS URL** and verify RSS collection returns non-zero tweets.
-5. **Confirm `update_model.yml` runs successfully** and commits updated `data/model_state.json`.
-6. (Recommended) Add integration tests that exercise RSS parsing and model prediction with real or recorded data.
+1. **Fix `collectors/__main__.py`** to reject missing `DEEPSEEK_API_KEY` instead of falling back to `MockLLMAnalyzer`, matching `predict.py` behavior.
+2. **Confirm one more scheduled workflow run succeeds** after the `git pull --rebase` fix.
+3. (Recommended) Add integration tests that exercise RSS parsing and model prediction with real or recorded data.
 
 ---
 
 ## Conclusion
 
-WillTiboReset Phase 1 is **architecturally complete and individually component-tested**, but it has **not yet been proven end-to-end with real data** because the local environment lacks the required secrets. The system correctly refuses to run without real credentials, which is the intended behavior. Once secrets are provided, the expected Phase 1 PASS criteria should be re-evaluated by running `python predict.py` and inspecting `output/prediction.json`.
+WillTiboReset Phase 1 is **functionally complete and has been verified end-to-end with real data** in GitHub Actions. The pipeline `RSS → DeepSeek LLM → Adaptive Bayesian Survival Model → output/prediction.json` executed successfully and produced a real prediction file. A minor automation race condition was found and fixed. Pending one successful scheduled run to confirm the fix, Phase 1 can be marked **PASS**.
