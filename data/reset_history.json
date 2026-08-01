@@ -64,5 +64,11 @@
     "source": "twitter",
     "confidence": 1.0,
     "notes": "Global Codex quota reset"
+  },
+  {
+    "reset_time": "2026-08-01T03:32:00+00:00",
+    "source": "twitter",
+    "confidence": 1.0,
+    "notes": "Global Codex quota reset"
   }
 ]

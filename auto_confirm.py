@@ -4,8 +4,10 @@ WillTiboReset - Auto-confirmation of reset events from Tibo's announcements.
 When Tibo explicitly announces on X that usage limits have been reset,
 this module automatically:
   1. Records the reset in history.txt and reset_history.json
-  2. Flags the current prediction as 100% confirmed
-  3. Allows calibration to mark recent predictions as true positives
+  2. Lets the model treat the reset as "just occurred", which naturally
+     lowers short-term probabilities (a reset right after a reset is rare)
+  3. Enables calibration to resolve recent predictions against the
+     newly confirmed reset event
 """
 
 from __future__ import annotations

@@ -423,8 +423,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T08:13:40.944355Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T08:20:55.441179Z",
@@ -467,8 +467,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T08:20:55.442213Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T08:26:18.628285Z",
@@ -511,8 +511,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T08:26:18.629578Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T08:40:58.030506Z",
@@ -555,8 +555,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T08:40:58.031656Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T09:01:04.301146Z",
@@ -599,8 +599,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T09:01:04.302067Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T09:20:52.018802Z",
@@ -643,8 +643,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T09:20:52.020239Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T09:40:51.037565Z",
@@ -687,8 +687,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T09:40:51.047102Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T10:00:58.471777Z",
@@ -731,8 +731,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T10:00:58.473379Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T10:20:50.816427Z",
@@ -775,8 +775,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T10:20:50.818101Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T10:40:56.299165Z",
@@ -819,8 +819,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T10:40:56.300871Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T11:00:55.179912Z",
@@ -863,8 +863,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T11:00:55.181502Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T11:20:55.742439Z",
@@ -907,8 +907,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T11:20:55.744125Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T11:40:59.441540Z",
@@ -951,8 +951,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T11:40:59.443287Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T12:00:57.550354Z",
@@ -995,8 +995,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T12:00:57.552215Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T12:20:52.763698Z",
@@ -1039,8 +1039,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T12:20:52.765534Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T12:40:52.882240Z",
@@ -1083,8 +1083,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T12:40:52.884186Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T13:01:00.453425Z",
@@ -1127,8 +1127,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T13:01:00.455448Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T13:21:01.056371Z",
@@ -1171,8 +1171,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T13:21:01.058499Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T13:41:01.114204Z",
@@ -1215,8 +1215,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T13:41:01.116358Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T14:00:57.511197Z",
@@ -1259,8 +1259,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T14:00:57.513440Z"
+    "actual_result": null,
+    "resolved_at": null
   },
   {
     "prediction_time": "2026-08-01T14:21:02.426404Z",
@@ -1303,7 +1303,7 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": true,
-    "resolved_at": "2026-08-01T14:21:02.428440Z"
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
