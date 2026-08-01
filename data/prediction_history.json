@@ -1481,5 +1481,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T16:04:18.310525Z",
+    "prediction": {
+      "within_5h": 0.4254,
+      "within_24h": 0.7526,
+      "within_48h": 0.8414
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 12.538419135555555,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2043,
+      "time_pressure": 0.1926,
+      "hazard_rate": 0.056537,
+      "evidence_score": 0.6071,
+      "tibo_signal": 0.1526,
+      "community_signal": 0.0486,
+      "release_signal": 0.2805,
+      "llm_scores": {
+        "reset_intent": 0.0925,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.215,
+        "reset_confirmation": 0.08249999999999999,
+        "confidence": 0.8550000000000001,
+        "reason": [
+          "Mentions 'signs' and 'resets' but not explicitly about a quota reset.",
+          "Focuses on scientific breakthroughs and model capabilities, not usage limits.",
+          "Generic motivational quote with no relevance to quota resets.",
+          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
+          "Official source (likely Tibo) confirming reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
