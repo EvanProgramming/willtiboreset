@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T11:40:59.438527+00:00",
+  "updated_at": "2026-08-01T12:00:57.547219+00:00",
   "prediction": {
     "within_5h": 1.0,
     "within_24h": 1.0,
@@ -8,7 +8,7 @@
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 104.53317717750001,
+    "hours_since_last_reset": 104.86598514416667,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.773,
-    "time_pressure": 0.9116,
-    "hazard_rate": 0.067873,
-    "evidence_score": 0.682,
-    "tibo_signal": 0.1981,
-    "community_signal": 0.0419,
-    "release_signal": 0.1834,
+    "time_ratio": 1.7786,
+    "time_pressure": 0.9127,
+    "hazard_rate": 0.066127,
+    "evidence_score": 0.6428,
+    "tibo_signal": 0.1851,
+    "community_signal": 0.0402,
+    "release_signal": 0.1808,
     "llm_scores": {
-      "reset_intent": 0.155,
-      "limit_complaint": 0.0425,
-      "official_change": 0.2225,
-      "reset_confirmation": 0.135,
-      "confidence": 0.8875,
+      "reset_intent": 0.14750000000000002,
+      "limit_complaint": 0.0375,
+      "official_change": 0.21749999999999997,
+      "reset_confirmation": 0.125,
+      "confidence": 0.86,
       "reason": [
-        "The text is a generic motivational phrase with no mention of usage limits or resets.",
-        "No official or user context related to quota resets.",
-        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-        "Official source (likely Tibo) confirming the reset.",
-        "Mentions 'Resets' as a sign of model improvement, implying future resets."
+        "Text is a generic motivational phrase with no mention of resets or limits.",
+        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' from an official source.",
+        "Mentions 'Resets' as a sign of model improvement but not explicitly confirming a reset.",
+        "Asks for improvement suggestions, unrelated to resets.",
+        "Focuses on company culture and mission, no reset context."
       ]
     },
     "prior_applied": false,
@@ -42,14 +42,14 @@
   },
   "main_factors": [
     {
-      "factor": "104.5 hours since last reset",
+      "factor": "104.9 hours since last reset",
       "impact": "+10%",
       "score": 0.91
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+3%",
-      "score": 0.2
+      "score": 0.19
     },
     {
       "factor": "Minor community limit complaints",
@@ -59,9 +59,9 @@
   ],
   "reasons": [
     "Auto-confirmed reset announced by Tibo at 2026-08-01T03:32:37+00:00",
-    "104.5 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Moderate reset evidence detected (evidence_score=0.68)",
-    "Main factor: 104.5 hours since last reset (+10%)"
+    "104.9 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "Moderate reset evidence detected (evidence_score=0.64)",
+    "Main factor: 104.9 hours since last reset (+10%)"
   ],
   "auto_confirmed": true,
   "confirmed_reset_time": "2026-08-01T03:32:37+00:00"
