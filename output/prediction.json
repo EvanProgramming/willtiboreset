@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T02:56:47.436181+00:00",
+  "updated_at": "2026-08-01T05:19:40.218964+00:00",
   "prediction": {
-    "within_5h": 0.0557,
-    "within_24h": 0.2006,
-    "within_48h": 0.312
+    "within_5h": 0.2,
+    "within_24h": 0.5,
+    "within_48h": 0.7
   },
-  "confidence": "high",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 95.79650984583334,
+    "hours_since_last_reset": 98.17783841,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6248,
-    "time_pressure": 0.8811,
-    "hazard_rate": 0.009286,
-    "evidence_score": 0.0,
-    "tibo_signal": 0.0012,
-    "community_signal": 0.0,
-    "release_signal": 0.0119,
+    "time_ratio": 1.6652,
+    "time_pressure": 0.8902,
+    "hazard_rate": 0.028468,
+    "evidence_score": 0.3394,
+    "tibo_signal": 0.099,
+    "community_signal": 0.0123,
+    "release_signal": 0.0179,
     "llm_scores": {
-      "reset_intent": 0.0,
-      "limit_complaint": 0.027999999999999997,
-      "official_change": 0.032,
-      "reset_confirmation": 0.0,
-      "confidence": 0.93,
+      "reset_intent": 0.07200000000000001,
+      "limit_complaint": 0.032,
+      "official_change": 0.048,
+      "reset_confirmation": 0.07200000000000001,
+      "confidence": 0.88,
       "reason": [
-        "Text discusses a subreddit policy change (Text Tuesdays), not usage limits or resets.",
-        "Mentions complaints about AI image content, but not about usage limits.",
+        "The post is about a subreddit policy change (Text Tuesdays), not about quota resets.",
+        "Mentions complaints about AI image content but not about usage limits.",
         "Official OpenAI post announcing new image generation capabilities.",
-        "No mention of usage limits or resets.",
-        "User shares detailed prompts for AI headshots, unrelated to limits or resets."
+        "No mention of quota resets or usage limits.",
+        "User shares detailed prompts for AI headshots, unrelated to resets."
       ]
     },
     "prior_applied": false,
@@ -42,19 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "距上次 reset 95.8 小时",
+      "factor": "98.2 hours since last reset",
       "impact": "+10%",
-      "score": 0.88
+      "score": 0.89
     },
     {
-      "factor": "存在一定 reset 讨论",
+      "factor": "Some reset discussion detected",
+      "impact": "+1%",
+      "score": 0.1
+    },
+    {
+      "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.0
+      "score": 0.01
     }
   ],
   "reasons": [
-    "距上次 reset 已 95.8 小时，明显超过历史中位间隔 43 小时，时间因素小幅提升基线概率",
-    "检测到微弱 reset 证据（evidence_score=0.00），不足以确认",
-    "主要因素：距上次 reset 95.8 小时（+10%）"
+    "98.2 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.34), insufficient to confirm",
+    "Main factor: 98.2 hours since last reset (+10%)"
   ]
 }
