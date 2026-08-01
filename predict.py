@@ -38,7 +38,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from analyzer import SignalAnalyzer
-from analyzer.llm_signal import GeminiAnalyzer, LLMAnalyzer
+from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -90,22 +90,22 @@ def collect_data() -> list[Tweet]:
 
 
 def create_analyzer() -> LLMAnalyzer:
-    """根据配置创建 Gemini LLM 分析器。GEMINI_API_KEY 为必须配置。"""
-    if not config.has_gemini_credentials:
+    """根据配置创建 DeepSeek LLM 分析器。DEEPSEEK_API_KEY 为必须配置。"""
+    if not config.has_deepseek_credentials:
         raise RuntimeError(
-            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
         )
-    return GeminiAnalyzer(
-        api_key=config.gemini_api_key,
-        model=config.gemini_model,
+    return DeepSeekAnalyzer(
+        api_key=config.deepseek_api_key,
+        model=config.deepseek_model,
     )
 
 
 def validate_configuration() -> None:
     """在运行前校验必须配置项。缺失时直接报错，禁止静默 fallback。"""
-    if not config.has_gemini_credentials:
+    if not config.has_deepseek_credentials:
         raise RuntimeError(
-            "GEMINI_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
         )
     if not config.rss_feeds.get("tibo"):
         raise RuntimeError(
