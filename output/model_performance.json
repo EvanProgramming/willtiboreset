@@ -1,12 +1,12 @@
 {
-  "total_predictions": 11,
-  "resolved_predictions": 2,
+  "total_predictions": 12,
+  "resolved_predictions": 3,
   "overall_brier_score": 0.0,
   "overall_accuracy": 1.0,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 2,
+      "total": 3,
       "brier_score": 0.0,
       "accuracy": 1.0,
       "calibration_error": 0.0,
@@ -79,13 +79,13 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 1.0,
-          "count": 2
+          "count": 3
         }
       ]
     },
     {
       "horizon_hours": 24,
-      "total": 2,
+      "total": 3,
       "brier_score": 0.0,
       "accuracy": 1.0,
       "calibration_error": 0.0,
@@ -158,13 +158,13 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 1.0,
-          "count": 2
+          "count": 3
         }
       ]
     },
     {
       "horizon_hours": 48,
-      "total": 2,
+      "total": 3,
       "brier_score": 0.0,
       "accuracy": 1.0,
       "calibration_error": 0.0,
@@ -237,10 +237,10 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 1.0,
-          "count": 2
+          "count": 3
         }
       ]
     }
   ],
-  "updated_at": "2026-08-01T08:20:55.443734Z"
+  "updated_at": "2026-08-01T08:26:18.631041Z"
 }
