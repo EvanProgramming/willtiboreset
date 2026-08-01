@@ -1820,5 +1820,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T20:01:03.052383Z",
+    "prediction": {
+      "within_5h": 0.1165,
+      "within_24h": 0.3517,
+      "within_48h": 0.4866
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 16.48418069722222,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2686,
+      "time_pressure": 0.2195,
+      "hazard_rate": 0.017896,
+      "evidence_score": 0.0729,
+      "tibo_signal": 0.0753,
+      "community_signal": 0.0584,
+      "release_signal": 0.1149,
+      "llm_scores": {
+        "reset_intent": 0.005,
+        "limit_complaint": 0.0475,
+        "official_change": 0.05,
+        "reset_confirmation": 0.075,
+        "confidence": 0.8700000000000001,
+        "reason": [
+          "Text mentions 'signs' and 'major breakthroughs' but no explicit reset discussion.",
+          "Official source (Sebastien Bubeck) discusses new model proofs, not quota resets.",
+          "Text is a generic motivational phrase with no relevance to resets.",
+          "No mention of limits, official changes, or confirmations.",
+          "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
