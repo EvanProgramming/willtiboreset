@@ -11,7 +11,7 @@ Based on records in prediction_history.json with confirmed actual_result:
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -20,6 +20,7 @@ from model.data_models import (
     HorizonPerformance,
     ModelPerformance,
     PredictionHistoryEntry,
+    ResetEvent,
 )
 
 
@@ -261,6 +262,62 @@ def mark_actual_result(
     return updated
 
 
+def resolve_history(
+    history_path: Path,
+    reset_events: list[ResetEvent],
+    now: Optional[datetime] = None,
+) -> tuple[int, int]:
+    """
+    Resolve pending predictions against confirmed reset events.
+
+    A prediction is marked True if a reset event occurred within its largest
+    prediction window (5h/24h/48h). It is marked False once the largest window
+    has elapsed without a matching reset event.
+
+    Returns:
+        (resolved_count, newly_resolved_count)
+    """
+    if now is None:
+        now = datetime.now(timezone.utc)
+
+    history = load_history(history_path)
+    horizon_map = {"within_5h": 5, "within_24h": 24, "within_48h": 48}
+
+    newly_resolved = 0
+    for entry in history:
+        if entry.actual_result is not None:
+            continue
+
+        # Largest prediction horizon determines the observation window
+        max_horizon = 0
+        for key in entry.prediction.keys():
+            horizon = horizon_map.get(key)
+            if horizon is not None and horizon > max_horizon:
+                max_horizon = horizon
+        if max_horizon == 0:
+            max_horizon = 48
+
+        deadline = entry.prediction_time + timedelta(hours=max_horizon)
+        if now < deadline:
+            continue
+
+        actual = False
+        for event in reset_events:
+            if entry.prediction_time <= event.reset_time <= deadline:
+                actual = True
+                break
+
+        entry.actual_result = actual
+        entry.resolved_at = now
+        newly_resolved += 1
+
+    if newly_resolved > 0:
+        save_history(history_path, history)
+
+    resolved = _resolved_entries(history)
+    return len(resolved), newly_resolved
+
+
 __all__ = [
     "load_history",
     "save_history",
@@ -268,4 +325,5 @@ __all__ = [
     "update_performance",
     "evaluate_performance",
     "mark_actual_result",
+    "resolve_history",
 ]
