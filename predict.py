@@ -39,7 +39,14 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from analyzer import SignalAnalyzer
 from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer, MockLLMAnalyzer
-from calibration import append_prediction, resolve_history, update_performance
+from auto_confirm import auto_confirm_reset
+from calibration import (
+    append_prediction,
+    load_history,
+    resolve_history,
+    save_history,
+    update_performance,
+)
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -291,8 +298,43 @@ def main() -> int:
     )
     print(f"  Saved: {output_path}")
 
-    # ── 5. Update prediction history and performance report ──
-    print("\n[5/4] Updating prediction history and calibration report...")
+    # ── 5. Auto-confirm reset from Tibo's explicit announcements ──
+    print("\n[5/4] Checking for auto-confirmation...")
+    confirmed_event = auto_confirm_reset(tweets)
+    if confirmed_event:
+        print(
+            f"  AUTO-CONFIRMED reset at {confirmed_event.reset_time.isoformat()}"
+        )
+        print(f"  Reason: {confirmed_event.notes[:100]}")
+
+        prediction_dict = {
+            "within_5h": 1.0,
+            "within_24h": 1.0,
+            "within_48h": 1.0,
+        }
+        output["prediction"] = prediction_dict
+        output["confidence"] = "high"
+        output["auto_confirmed"] = True
+        output["confirmed_reset_time"] = confirmed_event.reset_time.isoformat()
+        output["reasons"].insert(
+            0,
+            f"Auto-confirmed reset announced by Tibo at "
+            f"{confirmed_event.reset_time.isoformat()}",
+        )
+        output_path.write_text(
+            json.dumps(output, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        print(f"  Updated: {output_path} (probabilities set to 100%)")
+
+        # Reload events so the new reset is available for calibration
+        reset_collector = ResetHistoryCollector(config.reset_history_path)
+        events = reset_collector.collect()
+    else:
+        print("  No explicit reset announcement detected")
+
+    # ── 6. Update prediction history and performance report ──
+    print("\n[6/4] Updating prediction history and calibration report...")
     append_prediction(
         config.prediction_history_path,
         prediction_dict,
@@ -300,6 +342,15 @@ def main() -> int:
         actual_result=None,
     )
     print(f"  Saved: {config.prediction_history_path}")
+
+    if confirmed_event:
+        # Mark the just-appended prediction as a true positive
+        history = load_history(config.prediction_history_path)
+        if history:
+            history[-1].actual_result = True
+            history[-1].resolved_at = datetime.now(timezone.utc)
+            save_history(config.prediction_history_path, history)
+            print("  Marked current prediction as actual_result=True")
 
     resolved, newly_resolved = resolve_history(
         config.prediction_history_path,
