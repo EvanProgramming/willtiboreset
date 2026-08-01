@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T14:40:53.235545+00:00",
+  "updated_at": "2026-08-01T15:01:14.729557+00:00",
   "prediction": {
-    "within_5h": 0.4007,
-    "within_24h": 0.7189,
-    "within_48h": 0.8272
+    "within_5h": 0.4445,
+    "within_24h": 0.7667,
+    "within_48h": 0.8514
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 11.148120800555555,
+    "hours_since_last_reset": 11.487424730833334,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.1816,
-    "time_pressure": 0.1838,
-    "hazard_rate": 0.051503,
-    "evidence_score": 0.5459,
-    "tibo_signal": 0.1202,
-    "community_signal": 0.0459,
-    "release_signal": 0.0,
+    "time_ratio": 0.1872,
+    "time_pressure": 0.1859,
+    "hazard_rate": 0.058841,
+    "evidence_score": 0.6611,
+    "tibo_signal": 0.1507,
+    "community_signal": 0.0458,
+    "release_signal": 0.2493,
     "llm_scores": {
-      "reset_intent": 0.09,
+      "reset_intent": 0.10500000000000001,
       "limit_complaint": 0.06000000000000001,
-      "official_change": 0.14250000000000002,
-      "reset_confirmation": 0.075,
-      "confidence": 0.89,
+      "official_change": 0.23500000000000001,
+      "reset_confirmation": 0.08,
+      "confidence": 0.8675,
       "reason": [
-        "Text discusses scientific breakthroughs and model capabilities, not quota resets.",
-        "Mentions 'Astra' model and proofs, indicating product development but no reset info.",
-        "Generic motivational quote with no relevance to usage limits or resets.",
+        "Mentions '10 major breakthroughs' and 'Astra proofs' but no explicit reset discussion.",
+        "Official announcement of new model results, not about usage limits.",
+        "Generic motivational phrase with no relevance to resets or limits.",
         "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-        "Official source (likely Tibo) confirms reset for weekend event."
+        "Official announcement from Tibo confirming reset."
       ]
     },
     "prior_applied": false,
@@ -42,14 +42,14 @@
   },
   "main_factors": [
     {
-      "factor": "11.1 hours since last reset",
+      "factor": "11.5 hours since last reset",
       "impact": "-5%",
-      "score": 0.18
+      "score": 0.19
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+2%",
-      "score": 0.12
+      "impact": "+3%",
+      "score": 0.15
     },
     {
       "factor": "Minor community limit complaints",
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "Recently reset (11.1 hours ago), low time pressure (0.18)",
-    "Moderate reset evidence detected (evidence_score=0.55)",
-    "Main factor: 11.1 hours since last reset (-5%)"
+    "Recently reset (11.5 hours ago), low time pressure (0.19)",
+    "Moderate reset evidence detected (evidence_score=0.66)",
+    "Main factor: 11.5 hours since last reset (-5%)"
   ]
 }

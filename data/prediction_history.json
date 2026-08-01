@@ -1349,5 +1349,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T15:01:14.730229Z",
+    "prediction": {
+      "within_5h": 0.4445,
+      "within_24h": 0.7667,
+      "within_48h": 0.8514
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 11.487424730833334,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.1872,
+      "time_pressure": 0.1859,
+      "hazard_rate": 0.058841,
+      "evidence_score": 0.6611,
+      "tibo_signal": 0.1507,
+      "community_signal": 0.0458,
+      "release_signal": 0.2493,
+      "llm_scores": {
+        "reset_intent": 0.10500000000000001,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.23500000000000001,
+        "reset_confirmation": 0.08,
+        "confidence": 0.8675,
+        "reason": [
+          "Mentions '10 major breakthroughs' and 'Astra proofs' but no explicit reset discussion.",
+          "Official announcement of new model results, not about usage limits.",
+          "Generic motivational phrase with no relevance to resets or limits.",
+          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
+          "Official announcement from Tibo confirming reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]

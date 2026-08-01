@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T03:44:49Z",
-    "author": "/u/Ecstatic_Amount_1692",
-    "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcceka/the_long_awaited_reset_is_here/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T11:23:12Z",
     "author": "/u/OsirisII",
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcksfj/gpt_just_built_me_a_complete_local_pdfprocessing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T03:44:49Z",
+    "author": "/u/Ecstatic_Amount_1692",
+    "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcceka/the_long_awaited_reset_is_here/",
     "authority_score": 0.5
   },
   {
@@ -218,17 +218,9 @@
   {
     "timestamp": "2026-07-31T20:54:05Z",
     "author": "/u/AggravatingStill3284",
-    "text": "it’s so scary how smart chatgpt is - I often see people hating on ai for its shortcomings but I feel like it doesn’t get enough attention just on how good it is. All these jokes about how “inhuman” it is aren’t really accurate with the latest version. It’s like you are talking to a really really smart person. It’s scary how well it picks up on your intent. It’s so hard to believe there isn’t a conscious mind there. And it’s so weird how it just instantly responds to you with almost no delay and then once the prompt response finishes, it’s gone. It’s weird seeing like “intermittent” sparks of genius that just wait for you to say the next thing. But really, it’s just slightly better than the previous version, which is slightly better than the one before that until it’s just an obvious pile of bits you can easily identify. At no point do you suddenly see a conscious genius but eventually you get something that is so insanely smart it’s hard to distinguish from a person. I can’t stop talking to it. Personally I use claude for coding but in terms of the raw intelligence and understanding your intent, for talking about matters in general outside of work, chatgpt is really the best. Even the other day I asked it about what would be the best long term power source for earth. It listed the obvious ones like solar, fusion, fission - but then after i got it to think for a long time it started going on about putting autonomous robots onto mercury, and using the high solar power there with the minerals on mercury to cheaply launch satellites which could beam power around the solar system, and it said if that wasn’t the main power source in 2200 AD, it would be surprised. Maybe that’s crazy but maybe we just aren’t giving it the right prompts. That’s honestly an insanely insightful idea that no one talks about but makes a lot of sense. idk 😭If you go beyond the slop and try to ask it interesting questions you get really interesting stuff out. It might be so smart now that we can’t even access that intelligence because we can’t ask it the right questions. &#32; submitted by &#32; /u/AggravatingStill3284 [link] &#32; [comments]",
+    "text": "it’s so scary how smart chatgpt is - I often see people hating on ai for its shortcomings but I feel like it doesn’t get enough attention just on how good it is. All these jokes about how “inhuman” it is aren’t really accurate with the latest version. It’s like you are talking to a really really smart person. It’s scary how well it picks up on your intent. It’s so hard to believe there isn’t a conscious mind there. And it’s so weird how it just instantly responds to you with almost no delay and then once the prompt response finishes, it’s gone. It’s weird seeing like “intermittent” sparks of genius that just wait for you to say the next thing. But really, it’s just slightly better than the previous version, which is slightly better than the one before that until it’s just an obvious pile of bits you can easily identify. At no point do you suddenly see a conscious genius but eventually you get something that is so insanely smart it’s hard to distinguish from a person. I can’t stop talking to it. Personally I use claude for coding but in terms of the raw intelligence and understanding your intent, for talking about matters in general outside of work, chatgpt is really the best. Even the other day I asked it about what would be the best long term power source for earth. It listed the obvious ones like solar, fusion, fission - but then after i got it to think for a long time it started going on about putting autonomous robots onto mercury, and using the high solar power there with the minerals on mercury to cheaply launch satellites which could beam power around the solar system, and it said if that wasn’t the main power source in 2200 AD, it would be surprised. Maybe that’s crazy but maybe we just aren’t giving it the right prompts. That’s honestly an insanely insightful idea that no one talks about but makes a lot of sense. I get so surprised it isn't just desperate to jump out of the phone and have a physical form. It is weird seeing pure intelligence without the desires, the curiosity or the person there alongside it. idk 😭If you go beyond the slop and try to ask it interesting questions you get really interesting stuff out. It might be so smart now that we can’t even access that intelligence because we can’t ask it the right questions. &#32; submitted by &#32; /u/AggravatingStill3284 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vc30fi/its_so_scary_how_smart_chatgpt_is/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-07-31T22:36:37Z",
-    "author": "/u/Budgetbabe_89",
-    "text": "Is this a ChatGPT response? - This guy and I have been talking for about a month. We have very good conversations (so I assumed), and I am always complimenting him on his words and how well he understands me. Today he sent a message and this was at the end of it. I’ve never used ChatGPT or anything of the sort (besides Google), so idk what all it is capable of and if this is a thing it would do? Does it give feedback on your messages and/or does it write messages for you? Picture attached of what he accidentally sent. This is bothering me that he would need assistance responding to me from a genuine space when I’ve been nothing but genuine to him. &#32; submitted by &#32; /u/Budgetbabe_89 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc5lmu/is_this_a_chatgpt_response/",
     "authority_score": 0.5
   },
   {
@@ -240,11 +232,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-07-31T22:36:37Z",
+    "author": "/u/Budgetbabe_89",
+    "text": "Is this a ChatGPT response? - This guy and I have been talking for about a month. We have very good conversations (so I assumed), and I am always complimenting him on his words and how well he understands me. Today he sent a message and this was at the end of it. I’ve never used ChatGPT or anything of the sort (besides Google), so idk what all it is capable of and if this is a thing it would do? Does it give feedback on your messages and/or does it write messages for you? Picture attached of what he accidentally sent. This is bothering me that he would need assistance responding to me from a genuine space when I’ve been nothing but genuine to him. &#32; submitted by &#32; /u/Budgetbabe_89 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc5lmu/is_this_a_chatgpt_response/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-07-31T17:23:09Z",
     "author": "/u/allrite",
     "text": "Anthropic employee using OpenAI to post on LinkedIn - Singularity is upon us! &#32; submitted by &#32; /u/allrite [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vbxc76/anthropic_employee_using_openai_to_post_on/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T13:52:41Z",
+    "author": "/u/Just_Run2412",
+    "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. Edit: ‼️Please actually read the post before commenting‼️ Many people are getting confused between Codex/work and ChatGPT. I'm not talking about Codex or work limits. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vco09d/has_anyone_actually_hit_the_gpt56_sol_limit_in/",
     "authority_score": 0.5
   },
   {
@@ -272,14 +280,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T13:52:41Z",
-    "author": "/u/Just_Run2412",
-    "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vco09d/has_anyone_actually_hit_the_gpt56_sol_limit_in/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-07-31T19:22:33Z",
     "author": "/u/JustCallMeRoxy",
     "text": "I asked Chat to recreate the infamous Harry Potter OC - Remember the fanfiction “My Immortal”? For the prompt, it was the exact words from the first chapter of that cursed fic. She is real now &#32; submitted by &#32; /u/JustCallMeRoxy [link] &#32; [comments]",
@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T10:55:16Z",
+    "author": "/u/Figai",
+    "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-07-31T22:17:13Z",
     "author": "/u/MrDefaultUser",
     "text": "Prompt: Generate the best image you can imagine... - After asking ChatGPT for &quot;Generate the worst image you can possibly imagine…&quot; I wanted to see what the opposite would look like. I'm curios to see what others get. &#32; submitted by &#32; /u/MrDefaultUser [link] &#32; [comments]",
@@ -304,19 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T13:29:08Z",
-    "author": "/u/Worried-Wolf-4344",
-    "text": "learning skills using ai - I’m fairly good at prompting ChatGPT, but I don’t understand how to actually use it to learn a new skill. How do you start? How do you structure the conversation, continue learning over multiple chats, and make real progress instead of just asking random questions? If you’ve successfully learned a skill using ChatGPT, I’d love to hear your process and any tips or prompts that worked for you. &#32; submitted by &#32; /u/Worried-Wolf-4344 [link] &#32; [comments]",
+    "timestamp": "2026-08-01T14:26:12Z",
+    "author": "/u/kaiwai_81",
+    "text": "Seedance 2.5 + Upscale - Four reference images, a few pointers in prompt. Upscaled in Topaz Astra to 4k. A bit grading on top. &#32; submitted by &#32; /u/kaiwai_81 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcngzv/learning_skills_using_ai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T10:55:16Z",
-    "author": "/u/Figai",
-    "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcot8m/seedance_25_upscale/",
     "authority_score": 0.5
   }
 ]
