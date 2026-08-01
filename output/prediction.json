@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T05:19:40.218964+00:00",
+  "updated_at": "2026-08-01T06:11:15.410491+00:00",
   "prediction": {
     "within_5h": 0.2,
     "within_24h": 0.5,
@@ -8,7 +8,7 @@
   "confidence": "medium",
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 98.17783841,
+    "hours_since_last_reset": 99.03761379999999,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,23 +16,23 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6652,
-    "time_pressure": 0.8902,
+    "time_ratio": 1.6797,
+    "time_pressure": 0.8934,
     "hazard_rate": 0.028468,
-    "evidence_score": 0.3394,
-    "tibo_signal": 0.099,
-    "community_signal": 0.0123,
-    "release_signal": 0.0179,
+    "evidence_score": 0.3367,
+    "tibo_signal": 0.0984,
+    "community_signal": 0.008,
+    "release_signal": 0.0262,
     "llm_scores": {
       "reset_intent": 0.07200000000000001,
-      "limit_complaint": 0.032,
-      "official_change": 0.048,
+      "limit_complaint": 0.008,
+      "official_change": 0.064,
       "reset_confirmation": 0.07200000000000001,
       "confidence": 0.88,
       "reason": [
         "The post is about a subreddit policy change (Text Tuesdays), not about quota resets.",
         "Mentions complaints about AI image content but not about usage limits.",
-        "Official OpenAI post announcing new image generation capabilities.",
+        "Official OpenAI post announcing new image generation features.",
         "No mention of quota resets or usage limits.",
         "User shares detailed prompts for AI headshots, unrelated to resets."
       ]
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "98.2 hours since last reset",
+      "factor": "99.0 hours since last reset",
       "impact": "+10%",
       "score": 0.89
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "98.2 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "99.0 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.34), insufficient to confirm",
-    "Main factor: 98.2 hours since last reset (+10%)"
+    "Main factor: 99.0 hours since last reset (+10%)"
   ]
 }

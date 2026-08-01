@@ -73,5 +73,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T06:11:15.410962Z",
+    "prediction": {
+      "within_5h": 0.2,
+      "within_24h": 0.5,
+      "within_48h": 0.7
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 99.03761379999999,
+      "average_reset_interval": 58.96,
+      "median_reset_interval": 42.92,
+      "interval_uncertainty": 26.4,
+      "std_reset_interval": 83.4963011859112,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.6797,
+      "time_pressure": 0.8934,
+      "hazard_rate": 0.028468,
+      "evidence_score": 0.3367,
+      "tibo_signal": 0.0984,
+      "community_signal": 0.008,
+      "release_signal": 0.0262,
+      "llm_scores": {
+        "reset_intent": 0.07200000000000001,
+        "limit_complaint": 0.008,
+        "official_change": 0.064,
+        "reset_confirmation": 0.07200000000000001,
+        "confidence": 0.88,
+        "reason": [
+          "The post is about a subreddit policy change (Text Tuesdays), not about quota resets.",
+          "Mentions complaints about AI image content but not about usage limits.",
+          "Official OpenAI post announcing new image generation features.",
+          "No mention of quota resets or usage limits.",
+          "User shares detailed prompts for AI headshots, unrelated to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 10
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
