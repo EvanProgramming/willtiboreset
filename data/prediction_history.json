@@ -1556,5 +1556,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T18:01:04.163425Z",
+    "prediction": {
+      "within_5h": 0.104,
+      "within_24h": 0.3229,
+      "within_48h": 0.4544
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 14.484489359444446,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.236,
+      "time_pressure": 0.2056,
+      "hazard_rate": 0.016116,
+      "evidence_score": 0.0596,
+      "tibo_signal": 0.0749,
+      "community_signal": 0.0356,
+      "release_signal": 0.0524,
+      "llm_scores": {
+        "reset_intent": 0.0075,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.175,
+        "reset_confirmation": 0.08,
+        "confidence": 0.8875,
+        "reason": [
+          "The text mentions '10 major breakthroughs' and 'signs' but does not explicitly discuss a quota reset.",
+          "It is an official announcement about scientific achievements, not about usage limits.",
+          "The text is a short motivational phrase with no mention of resets or limits.",
+          "No official or user context related to quota resets.",
+          "The text explicitly states 'I have reset usage limits for Codex and ChatGPT Work' in past tense."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
