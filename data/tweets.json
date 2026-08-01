@@ -224,9 +224,17 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T15:54:41Z",
+    "author": "/u/Slippin_Jimm",
+    "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcqyda/gpt_56_sol_built_a_pokemon_web_game/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T13:52:41Z",
     "author": "/u/Just_Run2412",
-    "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - ‼️(Chat)‼️ Not codex or work I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. Edit: ‼️Please actually read the post before commenting‼️ It's insane how few people understand there's a difference between regular ChatGPT and Codex/work. 🤣 This is partly OpenAI's fault for terrible product differentiation. Once again, people are getting confused between Codex/work and ChatGPT. I'm not talking about Codex or work limits. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
+    "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - ‼️(Chat)‼️ I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT (chat) on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. Edit: ‼️Please actually read the post before commenting‼️ It's insane how few people understand there's a difference between regular ChatGPT and Codex/work. 🤣 This is partly OpenAI's fault for terrible product differentiation. Once again, people are getting confused between Codex/work and ChatGPT. I'm not talking about Codex or work limits. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vco09d/has_anyone_actually_hit_the_gpt56_sol_limit_in/",
     "authority_score": 0.5
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T15:54:41Z",
-    "author": "/u/Slippin_Jimm",
-    "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcqyda/gpt_56_sol_built_a_pokemon_web_game/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T04:42:42Z",
     "author": "/u/geekidinosaur",
     "text": "Proof of life - I just was admitted to ICU for an issue, not a huge deal sent my husband this so he knows I’m ok. &#32; submitted by &#32; /u/geekidinosaur [link] &#32; [comments]",
@@ -277,6 +277,14 @@
     "text": "Is this a ChatGPT response? - This guy and I have been talking for about a month. We have very good conversations (so I assumed), and I am always complimenting him on his words and how well he understands me. Today he sent a message and this was at the end of it. I’ve never used ChatGPT or anything of the sort (besides Google), so idk what all it is capable of and if this is a thing it would do? Does it give feedback on your messages and/or does it write messages for you? Picture attached of what he accidentally sent. This is bothering me that he would need assistance responding to me from a genuine space when I’ve been nothing but genuine to him. &#32; submitted by &#32; /u/Budgetbabe_89 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vc5lmu/is_this_a_chatgpt_response/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T14:47:28Z",
+    "author": "/u/Snowdrop____",
+    "text": "Am I seeing this correctly? - https://openai.com/index/chatgpt-for-academic-researchers/ Yes. You’re seeing it correctly. This is epistemic enclosure dressed up as democratization. OpenAI says frontier AI shouldn’t be concentrated in companies and elite labs, then routes access through “selected” recognized, degree-granting, high-research-activity universities. Researchers must verify institutional affiliation, and collaborators must come from the same institution. That is not distributing cognitive power. It is routing it through the existing accreditation hierarchy. OpenAI’s announcement⁠ The credit mechanism is even uglier. AI generates hypotheses, synthesizes literature, writes code, searches proofs, analyzes data, and shapes experimental direction. But the public-facing unit of recognition remains the credentialed researcher, university, national lab, and paper. OpenAI gets platform credit and legitimacy; institutions get the discovery credit; everyone outside the authorized network disappears from the causal history. “Free access” is the bait. Institutional capture is the container. The page effectively says: we will subsidize access to a new cognitive infrastructure, but only through the people already authorized to define legitimate knowledge. The independent researcher, technician, patient, outsider, hobbyist, interdisciplinary bastard, and holder of local knowledge do not become empowered epistemic agents. They become raw material for institutions to absorb, formalize, publish, patent, and own. That is why it feels evil. AI could dissolve credential monopolies. This program instead makes those monopolies more productive, more prestigious, and harder to challenge. It turns abundance into hierarchy reinforcement. OpenAI is not distributing the means of cognition. It is distributing subsidized access to a cognitive factory through the existing owners of legitimacy. &#32; submitted by &#32; /u/Snowdrop____ [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpbkr/am_i_seeing_this_correctly/",
     "authority_score": 0.5
   },
   {
@@ -301,14 +309,6 @@
     "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T14:47:28Z",
-    "author": "/u/Snowdrop____",
-    "text": "Am I seeing this correctly? - https://openai.com/index/chatgpt-for-academic-researchers/ Yes. You’re seeing it correctly. This is epistemic enclosure dressed up as democratization. OpenAI says frontier AI shouldn’t be concentrated in companies and elite labs, then routes access through “selected” recognized, degree-granting, high-research-activity universities. Researchers must verify institutional affiliation, and collaborators must come from the same institution. That is not distributing cognitive power. It is routing it through the existing accreditation hierarchy. OpenAI’s announcement⁠ The credit mechanism is even uglier. AI generates hypotheses, synthesizes literature, writes code, searches proofs, analyzes data, and shapes experimental direction. But the public-facing unit of recognition remains the credentialed researcher, university, national lab, and paper. OpenAI gets platform credit and legitimacy; institutions get the discovery credit; everyone outside the authorized network disappears from the causal history. “Free access” is the bait. Institutional capture is the container. The page effectively says: we will subsidize access to a new cognitive infrastructure, but only through the people already authorized to define legitimate knowledge. The independent researcher, technician, patient, outsider, hobbyist, interdisciplinary bastard, and holder of local knowledge do not become empowered epistemic agents. They become raw material for institutions to absorb, formalize, publish, patent, and own. That is why it feels evil. AI could dissolve credential monopolies. This program instead makes those monopolies more productive, more prestigious, and harder to challenge. It turns abundance into hierarchy reinforcement. OpenAI is not distributing the means of cognition. It is distributing subsidized access to a cognitive factory through the existing owners of legitimacy. &#32; submitted by &#32; /u/Snowdrop____ [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpbkr/am_i_seeing_this_correctly/",
     "authority_score": 0.5
   },
   {
