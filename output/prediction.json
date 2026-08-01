@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T15:20:57.545363+00:00",
+  "updated_at": "2026-08-01T15:40:57.098418+00:00",
   "prediction": {
-    "within_5h": 0.4538,
-    "within_24h": 0.7734,
-    "within_48h": 0.8562
+    "within_5h": 0.4026,
+    "within_24h": 0.7241,
+    "within_48h": 0.8285
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 11.815984625,
+    "hours_since_last_reset": 12.149193815277778,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.1925,
-    "time_pressure": 0.188,
-    "hazard_rate": 0.059983,
-    "evidence_score": 0.6876,
-    "tibo_signal": 0.1517,
+    "time_ratio": 0.1979,
+    "time_pressure": 0.1901,
+    "hazard_rate": 0.052241,
+    "evidence_score": 0.5494,
+    "tibo_signal": 0.1182,
     "community_signal": 0.0451,
-    "release_signal": 0.2779,
+    "release_signal": 0.0,
     "llm_scores": {
-      "reset_intent": 0.08249999999999999,
+      "reset_intent": 0.09,
       "limit_complaint": 0.06000000000000001,
-      "official_change": 0.10500000000000001,
+      "official_change": 0.1325,
       "reset_confirmation": 0.08499999999999999,
-      "confidence": 0.8724999999999999,
+      "confidence": 0.8700000000000001,
       "reason": [
-        "The text mentions 'signs' and 'breakthroughs' but does not discuss quota resets.",
-        "It references a new model and proofs, indicating product development but not reset.",
-        "The text is a generic motivational phrase with no relevance to usage limits or resets.",
+        "Mentions upcoming scientific breakthroughs and Astra model proofs, not related to quota resets.",
+        "No mention of usage limits or resets.",
+        "Generic motivational phrase with no relevance to quota resets.",
         "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-        "The context is a celebration, indicating an official action by a representative."
+        "Official source (Tibo) confirming reset."
       ]
     },
     "prior_applied": false,
@@ -42,14 +42,14 @@
   },
   "main_factors": [
     {
-      "factor": "11.8 hours since last reset",
+      "factor": "12.1 hours since last reset",
       "impact": "-5%",
       "score": 0.19
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+3%",
-      "score": 0.15
+      "impact": "+2%",
+      "score": 0.12
     },
     {
       "factor": "Minor community limit complaints",
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "Recently reset (11.8 hours ago), low time pressure (0.19)",
-    "Moderate reset evidence detected (evidence_score=0.69)",
-    "Main factor: 11.8 hours since last reset (-5%)"
+    "Recently reset (12.1 hours ago), low time pressure (0.19)",
+    "Moderate reset evidence detected (evidence_score=0.55)",
+    "Main factor: 12.1 hours since last reset (-5%)"
   ]
 }
