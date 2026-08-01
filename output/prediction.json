@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T22:41:03.719346+00:00",
+  "updated_at": "2026-08-01T23:01:07.119434+00:00",
   "prediction": {
-    "within_5h": 0.12,
-    "within_24h": 0.3595,
-    "within_48h": 0.4954
+    "within_5h": 0.1317,
+    "within_24h": 0.3844,
+    "within_48h": 0.522
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 19.151032946388888,
+    "hours_since_last_reset": 19.485310761666668,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.312,
-    "time_pressure": 0.2391,
-    "hazard_rate": 0.018392,
-    "evidence_score": 0.0759,
-    "tibo_signal": 0.0829,
-    "community_signal": 0.062,
-    "release_signal": 0.1339,
+    "time_ratio": 0.3175,
+    "time_pressure": 0.2417,
+    "hazard_rate": 0.020012,
+    "evidence_score": 0.089,
+    "tibo_signal": 0.0831,
+    "community_signal": 0.0582,
+    "release_signal": 0.1328,
     "llm_scores": {
-      "reset_intent": 0.01,
-      "limit_complaint": 0.08,
-      "official_change": 0.045,
-      "reset_confirmation": 0.07,
-      "confidence": 0.8825000000000001,
+      "reset_intent": 0.0,
+      "limit_complaint": 0.042499999999999996,
+      "official_change": 0.0775,
+      "reset_confirmation": 0.075,
+      "confidence": 0.8724999999999999,
       "reason": [
-        "The text is a vague teaser about scientific breakthroughs and signs, with no mention of resets.",
-        "It references Astra proofs and model capabilities, not usage limits or resets.",
-        "The text is a short motivational phrase with no relevance to resets or limits.",
-        "No mention of usage, quotas, or official changes.",
-        "Explicitly states 'I have reset usage limits' indicating a reset has already occurred."
+        "Text mentions 'There will be signs' but does not explicitly discuss a quota reset.",
+        "Focus is on scientific breakthroughs and model capabilities, not usage limits.",
+        "Text is a generic motivational phrase with no mention of resets or limits.",
+        "No official or user content related to quota changes.",
+        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' indicating a reset has already occurred."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "19.2 hours since last reset",
+      "factor": "19.5 hours since last reset",
       "impact": "+0%",
       "score": 0.24
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "19.2 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
-    "Main factor: 19.2 hours since last reset (+0%)"
+    "19.5 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.09), insufficient to confirm",
+    "Main factor: 19.5 hours since last reset (+0%)"
   ]
 }
