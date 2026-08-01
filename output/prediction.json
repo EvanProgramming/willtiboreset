@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T20:21:08.244496+00:00",
+  "updated_at": "2026-08-01T20:41:06.071561+00:00",
   "prediction": {
-    "within_5h": 0.1032,
-    "within_24h": 0.3212,
-    "within_48h": 0.4526
+    "within_5h": 0.1005,
+    "within_24h": 0.3148,
+    "within_48h": 0.4453
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 16.818956605,
+    "hours_since_last_reset": 17.151686374166665,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,13 +16,13 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.274,
-    "time_pressure": 0.2219,
-    "hazard_rate": 0.016013,
-    "evidence_score": 0.0581,
-    "tibo_signal": 0.0647,
-    "community_signal": 0.0427,
-    "release_signal": 0.0,
+    "time_ratio": 0.2794,
+    "time_pressure": 0.2243,
+    "hazard_rate": 0.015628,
+    "evidence_score": 0.0551,
+    "tibo_signal": 0.0724,
+    "community_signal": 0.0354,
+    "release_signal": 0.0773,
     "llm_scores": {
       "reset_intent": 0.0,
       "limit_complaint": 0.0,
@@ -31,9 +31,9 @@
       "confidence": 0.93875,
       "reason": [
         "The text is a vague teaser about scientific breakthroughs and signs, with no mention of usage limits or resets.",
-        "It mentions 'signs' but does not specify any reset-related events, so reset_intent and reset_confirmation are low.",
+        "It mentions 'signs' but does not specify any reset-related event, so reset_intent and reset_confirmation are low.",
         "The text is a short motivational phrase about curiosity, with no relevance to usage limits or resets.",
-        "No mention of any official changes or reset events.",
+        "No official or user content related to quota changes is present.",
         "The text explicitly states 'I have reset usage limits for Codex and ChatGPT Work', confirming a reset has already occurred."
       ]
     },
@@ -42,14 +42,14 @@
   },
   "main_factors": [
     {
-      "factor": "16.8 hours since last reset",
+      "factor": "17.2 hours since last reset",
       "impact": "+0%",
       "score": 0.22
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+1%",
-      "score": 0.06
+      "score": 0.07
     },
     {
       "factor": "Minor community limit complaints",
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "16.8 hours since last reset, close to historical median interval 47 hours",
+    "17.2 hours since last reset, close to historical median interval 47 hours",
     "Weak reset evidence detected (evidence_score=0.06), insufficient to confirm",
-    "Main factor: 16.8 hours since last reset (+0%)"
+    "Main factor: 17.2 hours since last reset (+0%)"
   ]
 }
