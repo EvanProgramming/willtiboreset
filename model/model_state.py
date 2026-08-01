@@ -37,6 +37,10 @@ class ModelState(BaseModel):
     max_interval_hours: Optional[float] = Field(
         default=None, description="最大 reset 间隔（小时）"
     )
+    interval_uncertainty: Optional[float] = Field(
+        default=None, ge=0.0,
+        description="reset 间隔估计的不确定性（小时），用于平滑 time_pressure"
+    )
     sample_count: int = Field(
         ..., ge=0, description="用于估计的 interval 样本数"
     )

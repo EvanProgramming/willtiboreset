@@ -75,10 +75,10 @@ class LLMAnalyzer(ABC):
         for s in scores:
             all_reasons.extend(s.reason[:2])
         return SignalScores(
-            reset_signal=sum(s.reset_signal for s in scores) / n,
-            limit_discussion=sum(s.limit_discussion for s in scores) / n,
-            release_signal=sum(s.release_signal for s in scores) / n,
-            community_pressure=sum(s.community_pressure for s in scores) / n,
+            reset_intent=sum(s.reset_intent for s in scores) / n,
+            limit_complaint=sum(s.limit_complaint for s in scores) / n,
+            official_change=sum(s.official_change for s in scores) / n,
+            reset_confirmation=sum(s.reset_confirmation for s in scores) / n,
             confidence=sum(s.confidence for s in scores) / n,
             reason=all_reasons[:5] if all_reasons else ["批量聚合"],
         )
@@ -92,21 +92,26 @@ _SYSTEM_PROMPT = """你是一个信号分析助手，专门分析关于 ChatGPT/
 
 对于每条文本，请评估以下维度（0.0 到 1.0 的浮点数）：
 
-1. reset_signal: 文本是否讨论了使用额度/限制的重置（0=完全不相关，1=明确讨论重置发生）
-2. limit_discussion: 文本是否讨论了使用限制/额度耗尽（0=完全不相关，1=明确讨论限制问题）
-3. release_signal: 文本是否暗示即将发布更新或变更（0=完全不相关，1=明确暗示即将发布）
-4. community_pressure: 文本是否反映了社区对重置的压力或期待（0=无压力，1=强烈压力）
+1. reset_intent: 文本是否讨论或暗示即将发生额度重置（0=完全不相关，1=明确讨论 reset 即将发生）
+2. limit_complaint: 文本是否反映用户对使用限制/额度耗尽的抱怨（0=无，1=明确抱怨 limit）
+3. official_change: 文本是否来自官方或暗示产品/政策变更（0=无，1=明确官方变更）
+4. reset_confirmation: 文本是否明确确认 reset 已经发生或即将发生（0=无，1=确认，权重最高）
 5. confidence: 你对以上评分的整体置信度（0=非常不确定，1=非常确定）
+
+评分原则：
+- 用户单纯抱怨 limit 不等于 reset 即将发生，limit_complaint 不应直接推高 reset 概率。
+- Tibo 或官方明确说“已经 reset / 即将 reset”时，reset_confirmation 应该高。
+- 官方发布新功能但不提 reset 时，official_change 可以高，但 reset_confirmation 应保持低。
 
 同时提供 reason 列表，简述评分依据（每个理由不超过一句话）。
 
 请严格以 JSON 格式返回结果。返回一个 JSON 数组，每个元素对应一条输入文本：
 [
   {
-    "reset_signal": 0.0,
-    "limit_discussion": 0.0,
-    "release_signal": 0.0,
-    "community_pressure": 0.0,
+    "reset_intent": 0.0,
+    "limit_complaint": 0.0,
+    "official_change": 0.0,
+    "reset_confirmation": 0.0,
     "confidence": 0.0,
     "reason": ["原因1", "原因2"]
   }
@@ -151,13 +156,19 @@ def _extract_json_array(text: str) -> list[dict]:
 
 
 def _dict_to_scores(d: dict) -> SignalScores:
-    """将字典转换为 SignalScores，处理类型和默认值"""
-    def _get_float(key: str) -> float:
-        val = d.get(key, 0.0)
-        try:
-            return max(0.0, min(1.0, float(val)))
-        except (TypeError, ValueError):
-            return 0.0
+    """将字典转换为 SignalScores，处理类型和默认值，兼容旧字段名"""
+    def _get_float(key: str, fallback_keys: Optional[list[str]] = None) -> float:
+        keys = [key]
+        if fallback_keys:
+            keys.extend(fallback_keys)
+        for k in keys:
+            if k in d:
+                val = d[k]
+                try:
+                    return max(0.0, min(1.0, float(val)))
+                except (TypeError, ValueError):
+                    return 0.0
+        return 0.0
 
     def _get_reasons() -> list[str]:
         val = d.get("reason", [])
@@ -168,10 +179,10 @@ def _dict_to_scores(d: dict) -> SignalScores:
         return []
 
     return SignalScores(
-        reset_signal=_get_float("reset_signal"),
-        limit_discussion=_get_float("limit_discussion"),
-        release_signal=_get_float("release_signal"),
-        community_pressure=_get_float("community_pressure"),
+        reset_intent=_get_float("reset_intent", ["reset_signal"]),
+        limit_complaint=_get_float("limit_complaint", ["limit_discussion"]),
+        official_change=_get_float("official_change", ["release_signal"]),
+        reset_confirmation=_get_float("reset_confirmation"),
         confidence=_get_float("confidence"),
         reason=_get_reasons(),
     )
@@ -394,10 +405,10 @@ class MockLLMAnalyzer(LLMAnalyzer):
                 reasons.append("未检测到相关关键词，可能为无关内容")
 
             results.append(SignalScores(
-                reset_signal=reset,
-                limit_discussion=limit,
-                release_signal=release,
-                community_pressure=pressure,
+                reset_intent=reset,
+                limit_complaint=limit,
+                official_change=release,
+                reset_confirmation=reset if "reset" in text_lower or "重置" in text_lower else 0.0,
                 confidence=confidence,
                 reason=reasons,
             ))

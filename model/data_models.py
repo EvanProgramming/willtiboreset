@@ -98,31 +98,31 @@ class Tweet(BaseModel):
 
 class SignalScores(BaseModel):
     """
-    LLM 信号分析输出。
+    LLM 信号分析输出（V1.5）。
 
     将自然语言文本转换为结构化机器学习特征。
     这些特征将传递给 model/survival_model.py 作为预测输入。
 
     LLM 不负责直接预测 reset，只负责信号提取。
     """
-    reset_signal: float = Field(
-        ..., ge=0.0, le=1.0,
-        description="讨论额度重置的信号强度"
+    reset_intent: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="文本讨论/暗示即将发生额度重置的信号强度"
     )
-    limit_discussion: float = Field(
-        ..., ge=0.0, le=1.0,
-        description="讨论使用限制/额度耗尽的信号强度"
+    limit_complaint: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="用户抱怨使用限制/额度耗尽的信号强度"
     )
-    release_signal: float = Field(
-        ..., ge=0.0, le=1.0,
-        description="暗示即将发布更新或变更的信号强度"
+    official_change: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="官方发布产品变更、更新或政策调整的信号强度"
     )
-    community_pressure: float = Field(
-        ..., ge=0.0, le=1.0,
-        description="社区对重置的压力或期待程度"
+    reset_confirmation: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="明确确认 reset 已经发生或即将发生的信号强度（最高权重）"
     )
     confidence: float = Field(
-        ..., ge=0.0, le=1.0,
+        default=0.0, ge=0.0, le=1.0,
         description="LLM 对以上评分的整体置信度"
     )
     reason: list[str] = Field(
@@ -133,10 +133,10 @@ class SignalScores(BaseModel):
     def to_features(self) -> dict[str, float]:
         """转换为特征字典，供 survival_model.py 使用"""
         return {
-            "reset_signal": self.reset_signal,
-            "limit_discussion": self.limit_discussion,
-            "release_signal": self.release_signal,
-            "community_pressure": self.community_pressure,
+            "reset_intent": self.reset_intent,
+            "limit_complaint": self.limit_complaint,
+            "official_change": self.official_change,
+            "reset_confirmation": self.reset_confirmation,
             "confidence": self.confidence,
         }
 
@@ -147,7 +147,7 @@ class SignalScores(BaseModel):
 
 class PredictionFeatures(BaseModel):
     """
-    生存模型预测输入特征。
+    生存模型预测输入特征（V1.5）。
 
     由 AnalysisFeatures（统计特征）和 SignalScores（LLM 信号）
     合并而成，作为 ResetPredictor.predict() 的输入。
@@ -160,23 +160,35 @@ class PredictionFeatures(BaseModel):
         default=None, gt=0.0,
         description="历史平均 reset 间隔（小时），None 表示无历史记录"
     )
+    median_reset_interval: Optional[float] = Field(
+        default=None, gt=0.0,
+        description="历史中位 reset 间隔（小时），None 表示无历史记录"
+    )
+    interval_uncertainty: Optional[float] = Field(
+        default=None, ge=0.0,
+        description="reset 间隔估计的不确定性（小时），用于平滑 time_pressure"
+    )
+    time_pressure: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="基于 median interval 的平滑时间压力（0=刚 reset，1=明显超期）"
+    )
     tibo_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="Tibo/Reset 相关信号强度（reset_signal + limit_discussion 融合）"
+        description="Tibo/Reset 相关信号强度（reset_confirmation + reset_intent 加权）"
     )
     community_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="社区压力信号强度（community_pressure）"
+        description="社区压力信号强度（limit_complaint 加权）"
     )
     release_signal: float = Field(
         default=0.0, ge=0.0, le=1.0,
-        description="产品发布/更新信号强度（release_signal）"
+        description="官方变更信号强度（official_change 加权）"
     )
 
 
 class PredictionExplanation(BaseModel):
     """
-    生存模型预测输出（含可解释说明）。
+    生存模型预测输出（含可解释说明，V1.5）。
 
     返回各时间窗口的 reset 概率及驱动概率的关键原因列表。
     """
@@ -191,6 +203,10 @@ class PredictionExplanation(BaseModel):
         ..., ge=0.0, le=1.0,
         description="当前每小时 hazard rate（模型内部状态）"
     )
+    time_pressure: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="平滑后的时间压力（0=刚 reset，1=明显超期）"
+    )
     time_ratio: Optional[float] = Field(
         default=None,
         description="hours_since_last_reset / average_reset_interval，None 表示无历史"
@@ -198,6 +214,10 @@ class PredictionExplanation(BaseModel):
     average_interval_used: Optional[float] = Field(
         default=None,
         description="模型实际使用的平均 reset 周期（含先验）"
+    )
+    median_interval_used: Optional[float] = Field(
+        default=None,
+        description="模型实际使用的中位 reset 周期（含先验）"
     )
     prior_applied: bool = Field(
         default=False,

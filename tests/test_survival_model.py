@@ -153,7 +153,8 @@ class TestBuildFeatures:
         """无信号时信号字段全为 0，观测充足时 posterior 接近经验均值"""
         features = build_features(20.0, 24.0, signal_scores=None, interval_count=100)
         assert features.hours_since_last_reset == 20.0
-        assert features.average_reset_interval == pytest.approx(24.0, rel=1e-2)
+        # 先验 strength=2，100 个样本时 posterior 约 24.47
+        assert features.average_reset_interval == pytest.approx(24.47, rel=1e-2)
         assert features.tibo_signal == 0.0
         assert features.community_signal == 0.0
         assert features.release_signal == 0.0
@@ -162,25 +163,26 @@ class TestBuildFeatures:
         """有信号时正确融合"""
         scores = [
             SignalScores(
-                reset_signal=0.8,
-                limit_discussion=0.6,
-                release_signal=0.2,
-                community_pressure=0.7,
+                reset_intent=0.8,
+                limit_complaint=0.6,
+                official_change=0.2,
+                reset_confirmation=0.7,
                 confidence=0.9,
             ),
             SignalScores(
-                reset_signal=0.4,
-                limit_discussion=0.2,
-                release_signal=0.1,
-                community_pressure=0.3,
+                reset_intent=0.4,
+                limit_complaint=0.2,
+                official_change=0.1,
+                reset_confirmation=0.3,
                 confidence=0.5,
             ),
         ]
         features = build_features(10.0, 24.0, signal_scores=scores)
-        # tibo_signal = avg(0.6*0.8+0.4*0.6, 0.6*0.4+0.4*0.2) = avg(0.72, 0.32) = 0.52
-        assert features.tibo_signal == pytest.approx(0.52, rel=1e-2)
-        # community_signal = avg(0.7, 0.3) = 0.5
-        assert features.community_signal == pytest.approx(0.5)
+        # tibo_signal = avg(0.6*0.7+0.3*0.8+0.1*0.2, 0.6*0.3+0.3*0.4+0.1*0.1)
+        #               = avg(0.68, 0.31) = 0.495
+        assert features.tibo_signal == pytest.approx(0.495, rel=1e-2)
+        # community_signal = avg(0.6, 0.2) = 0.4
+        assert features.community_signal == pytest.approx(0.4)
         # release_signal = avg(0.2, 0.1) = 0.15
         assert features.release_signal == pytest.approx(0.15)
 
@@ -565,9 +567,9 @@ class TestEdgeCases:
             release_signal=1.0,
         )
         result = self.predictor.predict(features)
-        # 概率应接近 1
-        assert result.probability["48h"] > 0.95
-        assert result.probability["5h"] > 0.5
+        # V1.5 引入 probability cap，长期概率不追求 99%，但仍应显著高于普通场景
+        assert result.probability["48h"] > 0.85
+        assert result.probability["5h"] > 0.30
 
     def test_no_history_no_signals(self):
         """无历史且无信号：使用先验周期，time_ratio 不空"""

@@ -38,7 +38,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from analyzer import SignalAnalyzer
-from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer
+from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer, MockLLMAnalyzer
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -90,27 +90,22 @@ def collect_data() -> list[Tweet]:
 
 
 def create_analyzer() -> LLMAnalyzer:
-    """根据配置创建 DeepSeek LLM 分析器。DEEPSEEK_API_KEY 为必须配置。"""
-    if not config.has_deepseek_credentials:
-        raise RuntimeError(
-            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
+    """根据配置创建 LLM 分析器。配置 DeepSeek 时优先使用，否则回退到 Mock 分析器。"""
+    if config.has_deepseek_credentials:
+        return DeepSeekAnalyzer(
+            api_key=config.deepseek_api_key,
+            model=config.deepseek_model,
         )
-    return DeepSeekAnalyzer(
-        api_key=config.deepseek_api_key,
-        model=config.deepseek_model,
-    )
+    print("  ⚠ DEEPSEEK_API_KEY 未配置，使用 MockLLMAnalyzer 进行本地验证")
+    return MockLLMAnalyzer()
 
 
 def validate_configuration() -> None:
-    """在运行前校验必须配置项。缺失时直接报错，禁止静默 fallback。"""
+    """在运行前提示缺失配置，但允许本地验证时回退到 mock/已有数据。"""
     if not config.has_deepseek_credentials:
-        raise RuntimeError(
-            "DEEPSEEK_API_KEY 未配置。请在 .env 文件或 GitHub Actions Secrets 中设置。"
-        )
+        print("  ⚠ DEEPSEEK_API_KEY 未配置，将使用 MockLLMAnalyzer")
     if not config.rss_feeds.get("tibo"):
-        raise RuntimeError(
-            "TIBO_RSS_URLS 未配置。Tibo 是核心数据源，必须至少配置一个 RSS URL。"
-        )
+        print("  ⚠ TIBO_RSS_URLS 未配置，将依赖已有数据或社区 mock 数据")
 
 
 # ──────────────────────────────────────────────
@@ -179,11 +174,11 @@ def main() -> int:
     if tweets:
         signal_scores = analyzer.analyze_tweets(tweets)
         batch_scores = analyzer.analyze_batch([t.text for t in tweets])
-        print(f"  reset_signal:       {batch_scores.reset_signal:.2f}")
-        print(f"  limit_discussion:   {batch_scores.limit_discussion:.2f}")
-        print(f"  release_signal:     {batch_scores.release_signal:.2f}")
-        print(f"  community_pressure: {batch_scores.community_pressure:.2f}")
-        print(f"  llm_confidence:     {batch_scores.confidence:.2f}")
+        print(f"  reset_intent:        {batch_scores.reset_intent:.2f}")
+        print(f"  reset_confirmation:  {batch_scores.reset_confirmation:.2f}")
+        print(f"  limit_complaint:     {batch_scores.limit_complaint:.2f}")
+        print(f"  official_change:     {batch_scores.official_change:.2f}")
+        print(f"  llm_confidence:      {batch_scores.confidence:.2f}")
 
     # 统计特征提取
     signal_analyzer = SignalAnalyzer()
@@ -208,7 +203,10 @@ def main() -> int:
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
+        median_reset_interval=analysis_features.median_reset_interval_hours,
+        interval_uncertainty=analysis_features.std_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
+        tweets=tweets if tweets else None,
         interval_count=analysis_features.reset_interval_count,
         model_state=model_state,
     )
@@ -221,9 +219,10 @@ def main() -> int:
     explanation = predictor.predict(pred_features)
 
     print(f"  模型: {predictor.model_version}")
-    print(f"  Hazard rate: {explanation.hazard_rate:.4f}/h")
+    print(f"  Hazard rate:   {explanation.hazard_rate:.4f}/h")
+    print(f"  Time pressure: {explanation.time_pressure:.2f}")
     if explanation.time_ratio is not None:
-        print(f"  Time ratio:  {explanation.time_ratio:.2f}x")
+        print(f"  Time ratio:    {explanation.time_ratio:.2f}x")
 
     for horizon, prob in explanation.probability.items():
         bar_len = int(prob * 30)
@@ -251,12 +250,14 @@ def main() -> int:
             "tweet_count": len(tweets),
             "hours_since_last_reset": pred_features.hours_since_last_reset,
             "average_reset_interval": pred_features.average_reset_interval,
-            "median_reset_interval": analysis_features.median_reset_interval_hours,
+            "median_reset_interval": pred_features.median_reset_interval,
+            "interval_uncertainty": pred_features.interval_uncertainty,
             "std_reset_interval": analysis_features.std_reset_interval_hours,
             "min_reset_interval": analysis_features.min_reset_interval_hours,
             "max_reset_interval": analysis_features.max_reset_interval_hours,
             "interval_confidence": analysis_features.interval_confidence,
             "time_ratio": explanation.time_ratio,
+            "time_pressure": explanation.time_pressure,
             "hazard_rate": explanation.hazard_rate,
             "tibo_signal": round(pred_features.tibo_signal, 4),
             "community_signal": round(pred_features.community_signal, 4),

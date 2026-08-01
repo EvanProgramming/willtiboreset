@@ -1,40 +1,33 @@
 {
-  "updated_at": "2026-07-31T16:46:00.096266+00:00",
+  "updated_at": "2026-08-01T02:09:20.258406+00:00",
   "prediction": {
-    "within_5h": 0.6708,
-    "within_24h": 0.9952,
-    "within_48h": 1.0
+    "within_5h": 0.3409,
+    "within_24h": 0.8,
+    "within_48h": 0.92
   },
-  "confidence": "high",
+  "confidence": "medium",
   "signals": {
-    "tweet_count": 6,
-    "hours_since_last_reset": 85.61669328111111,
-    "average_reset_interval": 67.92272727272726,
-    "time_ratio": 1.2605,
-    "hazard_rate": 0.199262,
-    "tibo_signal": 0.485,
-    "community_signal": 0.1667,
-    "release_signal": 0.2,
-    "llm_scores": {
-      "reset_signal": 0.44166666666666665,
-      "limit_discussion": 0.5499999999999999,
-      "release_signal": 0.19999999999999998,
-      "community_pressure": 0.16666666666666666,
-      "confidence": 0.6999999999999998,
-      "reason": [
-        "检测到重置相关关键词",
-        "检测到限制/额度相关关键词",
-        "检测到重置相关关键词",
-        "检测到限制/额度相关关键词",
-        "检测到重置相关关键词"
-      ]
-    },
+    "tweet_count": 0,
+    "hours_since_last_reset": 95.00562697138889,
+    "average_reset_interval": 58.96,
+    "median_reset_interval": 42.92,
+    "interval_uncertainty": 26.4,
+    "std_reset_interval": 83.4963011859112,
+    "min_reset_interval": 0.0,
+    "max_reset_interval": 269.5,
+    "interval_confidence": 0.6,
+    "time_ratio": 1.6114,
+    "time_pressure": 0.8779,
+    "hazard_rate": 0.08,
+    "tibo_signal": 0.0,
+    "community_signal": 0.0,
+    "release_signal": 0.0,
+    "llm_scores": null,
     "prior_applied": false,
     "interval_count": 10
   },
   "reasons": [
-    "距上次 reset 已 85.6 小时，超过平均间隔 68 小时（比率 1.3x）",
-    "检测到少量 reset/limit 相关讨论（信号强度 0.49）",
-    "综合 hazard rate 较高（19.9%/h），短期内 reset 概率显著"
+    "距上次 reset 已 95.0 小时，明显超过历史中位间隔 43 小时（time_pressure=0.88）",
+    "综合 hazard rate 达到上限（8.0%/h），长期概率受 cap 限制"
   ]
 }
