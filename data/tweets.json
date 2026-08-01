@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T22:57:17Z",
+    "author": "/u/Conscious_Bend_8647",
+    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T07:08:09Z",
     "author": "/u/Content_Dimension626",
     "text": "Prompt idea: Make up a random word and have ChatGPT draw it - Make up a completely new and random word and then have ChatGPT draw your word. My exact prompt: Draw what you think a &quot;tontopo&quot; is. &#32; submitted by &#32; /u/Content_Dimension626 [link] &#32; [comments]",
@@ -173,14 +181,6 @@
     "text": "Please give me a popular meme but in the form of a 1990s cartoon. - &#32; submitted by &#32; /u/guysitsausername [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vc85st/please_give_me_a_popular_meme_but_in_the_form_of/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T22:57:17Z",
-    "author": "/u/Conscious_Bend_8647",
-    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
     "authority_score": 0.5
   },
   {
@@ -296,14 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T21:02:55Z",
-    "author": "/u/IntellectuallyDriven",
-    "text": "Here's a question... - Another thing is that we are going to be spending considerable amount of time and resources fact checking and making sure it's not a hallucination. But to do that we will employ the same mechanism that produced that which we are verifying. So the &quot;fact&quot; that it was cross checked with could also be a hallucination that'd been generated and put out there as fact that was never questioned because it didn't cause an observable problem to suspect, until now, which means we now have to not also verify that, but also revisit and comb through the things we built based on that info since, if it turned out there are indeed components of it that are based on hallucinations, it's just a house of cards. &#32; submitted by &#32; /u/IntellectuallyDriven [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcyorc/heres_a_question/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T10:31:32Z",
     "author": "/u/NyraReh",
     "text": "Tiny reminder: your personalization settings actually matter - Tiny reminder because I keep seeing people complain about the same interaction problems with ChatGPT: Check your personalization/custom instructions. ⚠️ I realized I kept getting annoyed because ChatGPT would sometimes go full TED Talk when I was literally just trying to say “this sucks.” Or it would immediately start analyzing, fixing, balancing both sides, and suddenly I’m defending my own feelings. Great. Love that for me. 😶 So I actually wrote down what I want from the interaction: listen before analyzing don’t assume the worst interpretation don’t automatically take the other person’s side if I’m clearly upset, ask what I need before launching Operation Fix Everything Then I asked ChatGPT to help me edit the instructions so they wouldn’t make every conversation feel scripted. And honestly? It helped a lot. Less friction, especially between new chats, and less “we have literally discussed this before 😭”. It’s not magic, but if you keep having the same annoying interaction over and over, maybe check the settings before declaring the model spiritually incompatible with you. (Edit: English isn’t my first language and my English grammar sucks 😂 So I often write what I actually want to say in my own language, let ChatGPT translate it, and then we work on the wording together until it sounds like something I would actually say.) &#32; submitted by &#32; /u/NyraReh [link] &#32; [comments]",
@@ -317,6 +309,14 @@
     "text": "Which model are you actually using the most rn, and why? - Which model are you actually using the most rn, and why? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcsq89/which_model_are_you_actually_using_the_most_rn/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T10:55:16Z",
+    "author": "/u/Figai",
+    "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
     "authority_score": 0.5
   }
 ]
