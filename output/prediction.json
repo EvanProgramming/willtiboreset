@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T14:00:57.507971+00:00",
+  "updated_at": "2026-08-01T14:21:02.423692+00:00",
   "prediction": {
     "within_5h": 1.0,
     "within_24h": 1.0,
@@ -8,7 +8,7 @@
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 106.8659742561111,
+    "hours_since_last_reset": 107.2006730725,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.8125,
-    "time_pressure": 0.9185,
-    "hazard_rate": 0.062404,
-    "evidence_score": 0.5914,
-    "tibo_signal": 0.1701,
-    "community_signal": 0.0232,
-    "release_signal": 0.1776,
+    "time_ratio": 1.8182,
+    "time_pressure": 0.9194,
+    "hazard_rate": 0.068785,
+    "evidence_score": 0.7013,
+    "tibo_signal": 0.1634,
+    "community_signal": 0.0432,
+    "release_signal": 0.3048,
     "llm_scores": {
-      "reset_intent": 0.1275,
-      "limit_complaint": 0.0375,
-      "official_change": 0.22000000000000003,
-      "reset_confirmation": 0.11000000000000001,
-      "confidence": 0.8512500000000001,
+      "reset_intent": 0.10500000000000001,
+      "limit_complaint": 0.05500000000000001,
+      "official_change": 0.25,
+      "reset_confirmation": 0.08,
+      "confidence": 0.8825000000000001,
       "reason": [
-        "Text is a generic motivational phrase with no mention of resets or limits.",
-        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
-        "Mentions 'Resets' as a sign of model improvement but not explicitly confirming a reset.",
-        "Asks for improvement suggestions, unrelated to resets.",
-        "Focuses on company culture and mission, no reset context."
+        "Text announces major scientific breakthroughs and new model proofs, not quota resets.",
+        "Official source (Sebastien Bubeck) discusses model capabilities, not usage limits.",
+        "Generic motivational phrase with no mention of resets or limits.",
+        "No official or user context related to quota.",
+        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'."
       ]
     },
     "prior_applied": false,
@@ -42,26 +42,26 @@
   },
   "main_factors": [
     {
-      "factor": "106.9 hours since last reset",
+      "factor": "107.2 hours since last reset",
       "impact": "+10%",
       "score": 0.92
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+3%",
-      "score": 0.17
+      "score": 0.16
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.02
+      "score": 0.04
     }
   ],
   "reasons": [
     "Auto-confirmed reset announced by Tibo at 2026-08-01T03:32:37+00:00",
-    "106.9 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Moderate reset evidence detected (evidence_score=0.59)",
-    "Main factor: 106.9 hours since last reset (+10%)"
+    "107.2 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "Strong reset evidence detected (evidence_score=0.70), probability rises significantly",
+    "Main factor: 107.2 hours since last reset (+10%)"
   ],
   "auto_confirmed": true,
   "confirmed_reset_time": "2026-08-01T03:32:37+00:00"
