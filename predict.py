@@ -39,7 +39,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from analyzer import SignalAnalyzer
 from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer, MockLLMAnalyzer
-from calibration import append_prediction, update_performance
+from calibration import append_prediction, resolve_history, update_performance
 from collectors import (
     CommunityCollector,
     OpenAIRSSCollector,
@@ -300,6 +300,15 @@ def main() -> int:
         actual_result=None,
     )
     print(f"  Saved: {config.prediction_history_path}")
+
+    resolved, newly_resolved = resolve_history(
+        config.prediction_history_path,
+        events,
+    )
+    print(
+        f"  Resolved predictions: {resolved} total, "
+        f"{newly_resolved} newly closed"
+    )
 
     update_performance(
         config.prediction_history_path,
