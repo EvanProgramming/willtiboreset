@@ -40,12 +40,9 @@ jobs:
         run: python predict.py
 
       - name: Commit prediction and model state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/prediction.json data/model_state.json
-          git diff --staged --quiet || (
-            git commit -m "chore: auto-prediction and model-state update"
-            git pull --rebase
-            git push
-          )
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-prediction and model-state update"
+          file_pattern: "output/prediction.json data/model_state.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
