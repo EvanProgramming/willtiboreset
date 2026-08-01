@@ -1996,5 +1996,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T21:21:00.600833Z",
+    "prediction": {
+      "within_5h": 0.0988,
+      "within_24h": 0.3108,
+      "within_48h": 0.4408
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 17.816833054444444,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2903,
+      "time_pressure": 0.2292,
+      "hazard_rate": 0.01539,
+      "evidence_score": 0.0532,
+      "tibo_signal": 0.0712,
+      "community_signal": 0.0317,
+      "release_signal": 0.0764,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.0625,
+        "official_change": 0.0,
+        "reset_confirmation": 0.075,
+        "confidence": 0.9025000000000001,
+        "reason": [
+          "Text discusses scientific breakthroughs and model capabilities, not usage resets.",
+          "No mention of quota limits or reset events.",
+          "Generic motivational phrase with no reference to resets or limits.",
+          "No relevant content for scoring dimensions.",
+          "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
