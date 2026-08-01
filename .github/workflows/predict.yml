@@ -73,7 +73,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-prediction and model-state update"
-          file_pattern: "output/prediction.json output/model_performance.json data/model_state.json data/prediction_history.json"
+          file_pattern: "output/prediction.json output/model_performance.json data/model_state.json data/prediction_history.json history.txt data/reset_history.json data/uncertain_events.json data/tweets.json"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
 
