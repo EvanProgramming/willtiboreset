@@ -208,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T15:54:41Z",
+    "author": "/u/Slippin_Jimm",
+    "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcqyda/gpt_56_sol_built_a_pokemon_web_game/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T03:44:49Z",
     "author": "/u/Ecstatic_Amount_1692",
     "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
@@ -224,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T15:54:41Z",
-    "author": "/u/Slippin_Jimm",
-    "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcqyda/gpt_56_sol_built_a_pokemon_web_game/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T13:52:41Z",
     "author": "/u/Just_Run2412",
     "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - ‼️(Chat)‼️ I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT (chat) on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. Edit: ‼️Please actually read the post before commenting‼️ It's insane how few people understand there's a difference between regular ChatGPT and Codex/work. 🤣 This is partly OpenAI's fault for terrible product differentiation. Once again, people are getting confused between Codex/work and ChatGPT. I'm not talking about Codex or work limits. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
@@ -245,6 +245,14 @@
     "text": "Tiny reminder: your personalization settings actually matter - Tiny reminder because I keep seeing people complain about the same interaction problems with ChatGPT: Check your personalization/custom instructions. ⚠️ I realized I kept getting annoyed because ChatGPT would sometimes go full TED Talk when I was literally just trying to say “this sucks.” Or it would immediately start analyzing, fixing, balancing both sides, and suddenly I’m defending my own feelings. Great. Love that for me. 😶 So I actually wrote down what I want from the interaction: listen before analyzing don’t assume the worst interpretation don’t automatically take the other person’s side if I’m clearly upset, ask what I need before launching Operation Fix Everything Then I asked ChatGPT to help me edit the instructions so they wouldn’t make every conversation feel scripted. And honestly? It helped a lot. Less friction, especially between new chats, and less “we have literally discussed this before 😭”. It’s not magic, but if you keep having the same annoying interaction over and over, maybe check the settings before declaring the model spiritually incompatible with you. (Edit: English isn’t my first language and my English grammar sucks 😂 So I often write what I actually want to say in my own language, let ChatGPT translate it, and then we work on the wording together until it sounds like something I would actually say.) &#32; submitted by &#32; /u/NyraReh [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcju01/tiny_reminder_your_personalization_settings/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T16:26:00Z",
+    "author": "/u/UpsetDifficulty5424",
+    "text": "Hallucination is real with ChatGPT - &#32; submitted by &#32; /u/UpsetDifficulty5424 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcrqub/hallucination_is_real_with_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -288,14 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T14:47:28Z",
-    "author": "/u/Snowdrop____",
-    "text": "Am I seeing this correctly? - https://openai.com/index/chatgpt-for-academic-researchers/ Yes. You’re seeing it correctly. This is epistemic enclosure dressed up as democratization. OpenAI says frontier AI shouldn’t be concentrated in companies and elite labs, then routes access through “selected” recognized, degree-granting, high-research-activity universities. Researchers must verify institutional affiliation, and collaborators must come from the same institution. That is not distributing cognitive power. It is routing it through the existing accreditation hierarchy. OpenAI’s announcement⁠ The credit mechanism is even uglier. AI generates hypotheses, synthesizes literature, writes code, searches proofs, analyzes data, and shapes experimental direction. But the public-facing unit of recognition remains the credentialed researcher, university, national lab, and paper. OpenAI gets platform credit and legitimacy; institutions get the discovery credit; everyone outside the authorized network disappears from the causal history. “Free access” is the bait. Institutional capture is the container. The page effectively says: we will subsidize access to a new cognitive infrastructure, but only through the people already authorized to define legitimate knowledge. The independent researcher, technician, patient, outsider, hobbyist, interdisciplinary bastard, and holder of local knowledge do not become empowered epistemic agents. They become raw material for institutions to absorb, formalize, publish, patent, and own. That is why it feels evil. AI could dissolve credential monopolies. This program instead makes those monopolies more productive, more prestigious, and harder to challenge. It turns abundance into hierarchy reinforcement. OpenAI is not distributing the means of cognition. It is distributing subsidized access to a cognitive factory through the existing owners of legitimacy. &#32; submitted by &#32; /u/Snowdrop____ [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpbkr/am_i_seeing_this_correctly/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T01:22:03Z",
     "author": "/u/skrr2",
     "text": "If Luna Max is only $0.61/task and just 2% behind Sol High… what’s the point of using Sol? - Looking at this benchmark, GPT-5.6 Luna Max (yea I unlocked max by going to the configuration setting) costs only $0.61 per task, while Sol High scores 69% vs Luna Max’s 67%: a difference of just 2 % Unless I’m missing something, why would anyone choose Sol over Luna Max? Is there a major difference in reasoning quality, latency, context handling, or reliability that isn’t reflected in this chart? Genuinely curious. 😅 &#32; submitted by &#32; /u/skrr2 [link] &#32; [comments]",
@@ -304,19 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T16:26:00Z",
-    "author": "/u/UpsetDifficulty5424",
-    "text": "Hallucination is real with ChatGPT - &#32; submitted by &#32; /u/UpsetDifficulty5424 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcrqub/hallucination_is_real_with_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T10:55:16Z",
     "author": "/u/Figai",
     "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T00:30:31Z",
+    "author": "/u/WillSmithSlappedMe20",
+    "text": "ChatGPT Collects Physical Media Now - I was chatting about my CD collection and ChatGPT suddenly claimed it collects CDs too and has been doing so for many years. Next thing I know, it’s giving me a veteran collector’s lecture on mastering and engineering and even proposing we get together and have a listening session for a specific album. I get that they’re trying to make these models feel friendly but an AI pretending to own physical discs is just hilarious. Makes it hard to take the rest of its advice seriously. &#32; submitted by &#32; /u/WillSmithSlappedMe20 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc8b1l/chatgpt_collects_physical_media_now/",
     "authority_score": 0.5
   }
 ]
