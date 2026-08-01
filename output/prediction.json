@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T18:21:17.816668+00:00",
+  "updated_at": "2026-08-01T18:41:01.525202+00:00",
   "prediction": {
-    "within_5h": 0.1169,
-    "within_24h": 0.3524,
-    "within_48h": 0.4872
+    "within_5h": 0.1115,
+    "within_24h": 0.3403,
+    "within_48h": 0.4739
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 14.82161554138889,
+    "hours_since_last_reset": 15.150423480833334,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.2415,
-    "time_pressure": 0.2079,
-    "hazard_rate": 0.017941,
-    "evidence_score": 0.0737,
-    "tibo_signal": 0.0877,
-    "community_signal": 0.0432,
-    "release_signal": 0.138,
+    "time_ratio": 0.2468,
+    "time_pressure": 0.2101,
+    "hazard_rate": 0.017183,
+    "evidence_score": 0.0676,
+    "tibo_signal": 0.0875,
+    "community_signal": 0.0597,
+    "release_signal": 0.1062,
     "llm_scores": {
-      "reset_intent": 0.0,
-      "limit_complaint": 0.06000000000000001,
-      "official_change": 0.0925,
-      "reset_confirmation": 0.075,
+      "reset_intent": 0.034999999999999996,
+      "limit_complaint": 0.0825,
+      "official_change": 0.145,
+      "reset_confirmation": 0.0725,
       "confidence": 0.875,
       "reason": [
-        "The text mentions 'signs' and 'major breakthroughs' but does not explicitly discuss a quota reset.",
+        "The text mentions 'signs' and 'breakthroughs' but does not explicitly discuss a quota reset.",
         "It is a teaser about future scientific results, not about usage limits.",
-        "The text is a short motivational phrase with no mention of resets or limits.",
-        "No official or product change is indicated.",
-        "The text explicitly states 'I have reset usage limits for Codex and ChatGPT Work', confirming a reset has already occurred."
+        "The text is a generic motivational phrase with no mention of resets or limits.",
+        "No official or user context related to quota.",
+        "Explicitly states 'I have reset usage limits' indicating a reset has already occurred."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "14.8 hours since last reset",
+      "factor": "15.2 hours since last reset",
       "impact": "+0%",
       "score": 0.21
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.06
     }
   ],
   "reasons": [
-    "14.8 hours since last reset, close to historical median interval 47 hours",
+    "15.2 hours since last reset, close to historical median interval 47 hours",
     "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 14.8 hours since last reset (+0%)"
+    "Main factor: 15.2 hours since last reset (+0%)"
   ]
 }
