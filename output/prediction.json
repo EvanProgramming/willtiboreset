@@ -1,44 +1,33 @@
 {
-  "updated_at": "2026-08-01T01:34:59.409263+00:00",
+  "updated_at": "2026-08-01T02:09:20.258406+00:00",
   "prediction": {
-    "within_5h": 0.6756,
-    "within_24h": 0.9955,
-    "within_48h": 1.0
+    "within_5h": 0.3409,
+    "within_24h": 0.8,
+    "within_48h": 0.92
   },
-  "confidence": "high",
+  "confidence": "medium",
   "signals": {
-    "tweet_count": 25,
-    "hours_since_last_reset": 94.4331691011111,
+    "tweet_count": 0,
+    "hours_since_last_reset": 95.00562697138889,
     "average_reset_interval": 58.96,
-    "median_reset_interval": 42.916666666666664,
+    "median_reset_interval": 42.92,
+    "interval_uncertainty": 26.4,
     "std_reset_interval": 83.4963011859112,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6016,
-    "hazard_rate": 0.201631,
-    "tibo_signal": 0.0096,
-    "community_signal": 0.012,
-    "release_signal": 0.02,
-    "llm_scores": {
-      "reset_signal": 0.0,
-      "limit_discussion": 0.004,
-      "release_signal": 0.012000000000000002,
-      "community_pressure": 0.0,
-      "confidence": 0.884,
-      "reason": [
-        "文本讨论的是子版块规则变更，与使用额度重置无关。",
-        "没有提及任何使用限制或额度问题。",
-        "文本是OpenAI官方发布新图像生成器的公告。",
-        "没有讨论使用限制或额度。",
-        "文本是详细的图像生成提示词分享，与重置无关。"
-      ]
-    },
+    "time_ratio": 1.6114,
+    "time_pressure": 0.8779,
+    "hazard_rate": 0.08,
+    "tibo_signal": 0.0,
+    "community_signal": 0.0,
+    "release_signal": 0.0,
+    "llm_scores": null,
     "prior_applied": false,
     "interval_count": 10
   },
   "reasons": [
-    "距上次 reset 已 94.4 小时，远超平均间隔 59 小时（比率 1.6x）",
-    "综合 hazard rate 较高（20.2%/h），短期内 reset 概率显著"
+    "距上次 reset 已 95.0 小时，明显超过历史中位间隔 43 小时（time_pressure=0.88）",
+    "综合 hazard rate 达到上限（8.0%/h），长期概率受 cap 限制"
   ]
 }

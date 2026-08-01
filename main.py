@@ -208,12 +208,17 @@ def run_prediction(tweets=None, events=None) -> None:
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
+        median_reset_interval=analysis_features.median_reset_interval_hours,
+        interval_uncertainty=analysis_features.std_reset_interval_hours,
         signal_scores=signal_scores if signal_scores else None,
+        tweets=tweets if tweets else None,
         interval_count=analysis_features.reset_interval_count,
         model_state=model_state,
     )
     print(f"  hours_since_last_reset: {pred_features.hours_since_last_reset}")
     print(f"  average_reset_interval: {pred_features.average_reset_interval}")
+    print(f"  median_reset_interval:  {pred_features.median_reset_interval}")
+    print(f"  time_pressure:          {pred_features.time_pressure:.3f}")
     print(f"  tibo_signal:            {pred_features.tibo_signal:.3f}")
     print(f"  community_signal:       {pred_features.community_signal:.3f}")
     print(f"  release_signal:         {pred_features.release_signal:.3f}")
@@ -228,9 +233,10 @@ def run_prediction(tweets=None, events=None) -> None:
     )
     print(f"  模型: {predictor.model_version}")
     explanation = predictor.predict(pred_features)
-    print(f"  Hazard rate: {explanation.hazard_rate:.4f}/h")
+    print(f"  Hazard rate:   {explanation.hazard_rate:.4f}/h")
+    print(f"  Time pressure: {explanation.time_pressure:.2f}")
     if explanation.time_ratio is not None:
-        print(f"  Time ratio:  {explanation.time_ratio:.2f}x")
+        print(f"  Time ratio:    {explanation.time_ratio:.2f}x")
     print()
     print("  预测概率:")
     for horizon, prob in explanation.probability.items():

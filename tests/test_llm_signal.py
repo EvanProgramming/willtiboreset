@@ -16,36 +16,37 @@ class TestMockLLMAnalyzer:
     """MockLLMAnalyzer 测试"""
 
     def test_analyze_reset_text(self):
-        """重置相关文本得到高 reset_signal"""
+        """重置相关文本得到高 reset_intent / reset_confirmation"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["Codex 额度终于重置了！reset confirmed"])
         assert len(scores) == 1
-        assert scores[0].reset_signal > 0.5
+        assert scores[0].reset_intent > 0.5
+        assert scores[0].reset_confirmation > 0.5
         assert scores[0].confidence > 0.5
 
     def test_analyze_limit_text(self):
-        """限制相关文本得到高 limit_discussion"""
+        """限制相关文本得到高 limit_complaint"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["I hit the rate limit, quota exhausted"])
         assert len(scores) == 1
-        assert scores[0].limit_discussion > 0.5
+        assert scores[0].limit_complaint > 0.5
 
     def test_analyze_release_text(self):
-        """发布相关文本得到高 release_signal"""
+        """发布相关文本得到高 official_change"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["OpenAI announces new update, version release"])
         assert len(scores) == 1
-        assert scores[0].release_signal > 0.5
+        assert scores[0].official_change > 0.5
 
     def test_analyze_irrelevant_text(self):
         """无关文本所有分数接近 0"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["The weather in San Francisco is sunny today"])
         assert len(scores) == 1
-        assert scores[0].reset_signal == 0.0
-        assert scores[0].limit_discussion == 0.0
-        assert scores[0].release_signal == 0.0
-        assert scores[0].community_pressure == 0.0
+        assert scores[0].reset_intent == 0.0
+        assert scores[0].limit_complaint == 0.0
+        assert scores[0].official_change == 0.0
+        assert scores[0].reset_confirmation == 0.0
         assert scores[0].confidence < 0.5
 
     def test_analyze_multiple_texts(self):
@@ -58,9 +59,9 @@ class TestMockLLMAnalyzer:
         ]
         scores = analyzer.analyze(texts)
         assert len(scores) == 3
-        assert scores[0].reset_signal > 0
-        assert scores[1].release_signal > 0
-        assert scores[2].reset_signal == 0.0
+        assert scores[0].reset_intent > 0
+        assert scores[1].official_change > 0
+        assert scores[2].reset_intent == 0.0
 
     def test_analyze_empty_list(self):
         """空列表返回空列表"""
@@ -72,7 +73,7 @@ class TestMockLLMAnalyzer:
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["test text"])
         assert isinstance(scores[0], SignalScores)
-        assert 0.0 <= scores[0].reset_signal <= 1.0
+        assert 0.0 <= scores[0].reset_intent <= 1.0
         assert 0.0 <= scores[0].confidence <= 1.0
         assert isinstance(scores[0].reason, list)
 
@@ -89,7 +90,7 @@ class TestMockLLMAnalyzer:
         ]
         scores = analyzer.analyze_tweets(tweets)
         assert len(scores) == 1
-        assert scores[0].reset_signal > 0.5
+        assert scores[0].reset_intent > 0.5
 
     def test_analyze_batch(self):
         """批量聚合分析"""
@@ -101,16 +102,16 @@ class TestMockLLMAnalyzer:
         ]
         batch = analyzer.analyze_batch(texts)
         assert isinstance(batch, SignalScores)
-        assert 0.0 <= batch.reset_signal <= 1.0
+        assert 0.0 <= batch.reset_intent <= 1.0
         assert isinstance(batch.reason, list)
-        # 有 2 条相关，1 条无关，reset_signal 应该 > 0
-        assert batch.reset_signal > 0
+        # 有 2 条相关，1 条无关，reset_intent 应该 > 0
+        assert batch.reset_intent > 0
 
     def test_analyze_batch_empty(self):
         """空输入的批量分析"""
         analyzer = MockLLMAnalyzer()
         batch = analyzer.analyze_batch([])
-        assert batch.reset_signal == 0.0
+        assert batch.reset_intent == 0.0
         assert batch.confidence == 0.0
 
     def test_to_features_compatibility(self):
@@ -120,8 +121,8 @@ class TestMockLLMAnalyzer:
         features = scores.to_features()
         assert isinstance(features, dict)
         assert set(features.keys()) == {
-            "reset_signal", "limit_discussion",
-            "release_signal", "community_pressure", "confidence",
+            "reset_intent", "limit_complaint",
+            "official_change", "reset_confirmation", "confidence",
         }
         for v in features.values():
             assert isinstance(v, float)
@@ -132,18 +133,18 @@ class TestExtractJsonArray:
     """JSON 解析辅助函数测试"""
 
     def test_plain_json(self):
-        text = '[{"reset_signal": 0.8, "confidence": 0.9}]'
+        text = '[{"reset_intent": 0.8, "confidence": 0.9}]'
         result = _extract_json_array(text)
         assert len(result) == 1
-        assert result[0]["reset_signal"] == 0.8
+        assert result[0]["reset_intent"] == 0.8
 
     def test_markdown_code_block(self):
-        text = '```json\n[{"reset_signal": 0.5}]\n```'
+        text = '```json\n[{"reset_intent": 0.5}]\n```'
         result = _extract_json_array(text)
         assert len(result) == 1
 
     def test_with_surrounding_text(self):
-        text = 'Here is the result:\n[{"reset_signal": 0.7}]\nDone.'
+        text = 'Here is the result:\n[{"reset_intent": 0.7}]\nDone.'
         result = _extract_json_array(text)
         assert len(result) == 1
 
@@ -159,47 +160,60 @@ class TestDictToScores:
 
     def test_valid_dict(self):
         d = {
-            "reset_signal": 0.8,
-            "limit_discussion": 0.6,
-            "release_signal": 0.2,
-            "community_pressure": 0.7,
+            "reset_intent": 0.8,
+            "limit_complaint": 0.6,
+            "official_change": 0.2,
+            "reset_confirmation": 0.7,
             "confidence": 0.9,
             "reason": ["reason1", "reason2"],
         }
         scores = _dict_to_scores(d)
-        assert scores.reset_signal == 0.8
+        assert scores.reset_intent == 0.8
         assert scores.reason == ["reason1", "reason2"]
 
     def test_clamp_values(self):
         """超出范围的值被截断到 [0, 1]"""
         d = {
-            "reset_signal": 1.5,
-            "limit_discussion": -0.5,
-            "release_signal": 0.5,
-            "community_pressure": 0.5,
+            "reset_intent": 1.5,
+            "limit_complaint": -0.5,
+            "official_change": 0.5,
+            "reset_confirmation": 0.5,
             "confidence": 0.5,
         }
         scores = _dict_to_scores(d)
-        assert scores.reset_signal == 1.0
-        assert scores.limit_discussion == 0.0
+        assert scores.reset_intent == 1.0
+        assert scores.limit_complaint == 0.0
 
     def test_missing_fields_default_zero(self):
         d = {"confidence": 0.5}
         scores = _dict_to_scores(d)
-        assert scores.reset_signal == 0.0
+        assert scores.reset_intent == 0.0
         assert scores.confidence == 0.5
 
     def test_reason_as_string(self):
         d = {
-            "reset_signal": 0.5,
-            "limit_discussion": 0.5,
-            "release_signal": 0.5,
-            "community_pressure": 0.5,
+            "reset_intent": 0.5,
+            "limit_complaint": 0.5,
+            "official_change": 0.5,
+            "reset_confirmation": 0.5,
             "confidence": 0.5,
             "reason": "single reason string",
         }
         scores = _dict_to_scores(d)
         assert scores.reason == ["single reason string"]
+
+    def test_backward_compatible_old_field_names(self):
+        """旧字段名仍可被解析"""
+        d = {
+            "reset_signal": 0.8,
+            "limit_discussion": 0.6,
+            "release_signal": 0.2,
+            "confidence": 0.9,
+        }
+        scores = _dict_to_scores(d)
+        assert scores.reset_intent == 0.8
+        assert scores.limit_complaint == 0.6
+        assert scores.official_change == 0.2
 
 
 class TestGeminiAnalyzer:

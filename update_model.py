@@ -146,6 +146,8 @@ def update_model_state(reset_history_path: Optional[Path] = None) -> ModelState:
     max_interval = max(intervals)
     interval_conf = _interval_confidence(sample_count, std, avg)
     prior_weight = _compute_prior_weight(sample_count)
+    # uncertainty: 用 std 除以 sqrt(sample_count) 表示均值的估计不确定性
+    interval_uncertainty = std / (sample_count ** 0.5) if sample_count > 0 else std
 
     # 后验平均间隔：先验与观测的加权融合
     posterior_avg = (
@@ -161,6 +163,7 @@ def update_model_state(reset_history_path: Optional[Path] = None) -> ModelState:
         std_interval_hours=round(std, 2),
         min_interval_hours=round(min_interval, 2),
         max_interval_hours=round(max_interval, 2),
+        interval_uncertainty=round(interval_uncertainty, 2),
         sample_count=sample_count,
         interval_confidence=interval_conf,
         prior_weight=round(prior_weight, 4),
@@ -184,6 +187,7 @@ def main() -> int:
     print(f"后验平均间隔: {state.average_interval_hours:.2f}h")
     print(f"中位间隔: {state.median_interval_hours}")
     print(f"标准差: {state.std_interval_hours}")
+    print(f"间隔不确定性: {state.interval_uncertainty}")
     print(f"间隔置信度: {state.interval_confidence:.0%}")
     print(f"先验权重: {state.prior_weight:.2%}")
     print(f"参数: {state.params}")

@@ -168,14 +168,14 @@ class TestSignalScores:
     def test_create_valid_scores(self):
         """创建有效的信号分数"""
         scores = SignalScores(
-            reset_signal=0.8,
-            limit_discussion=0.6,
-            release_signal=0.2,
-            community_pressure=0.7,
+            reset_intent=0.8,
+            limit_complaint=0.6,
+            official_change=0.2,
+            reset_confirmation=0.7,
             confidence=0.9,
             reason=["检测到重置关键词", "检测到限制关键词"],
         )
-        assert scores.reset_signal == 0.8
+        assert scores.reset_intent == 0.8
         assert scores.confidence == 0.9
         assert len(scores.reason) == 2
 
@@ -183,20 +183,20 @@ class TestSignalScores:
         """分数超出 [0, 1] 范围应报错"""
         with pytest.raises(ValidationError):
             SignalScores(
-                reset_signal=1.5,
-                limit_discussion=0.0,
-                release_signal=0.0,
-                community_pressure=0.0,
+                reset_intent=1.5,
+                limit_complaint=0.0,
+                official_change=0.0,
+                reset_confirmation=0.0,
                 confidence=0.5,
             )
 
     def test_default_reason(self):
         """reason 默认为空列表"""
         scores = SignalScores(
-            reset_signal=0.5,
-            limit_discussion=0.5,
-            release_signal=0.5,
-            community_pressure=0.5,
+            reset_intent=0.5,
+            limit_complaint=0.5,
+            official_change=0.5,
+            reset_confirmation=0.5,
             confidence=0.5,
         )
         assert scores.reason == []
@@ -204,33 +204,33 @@ class TestSignalScores:
     def test_to_features(self):
         """to_features 返回特征字典"""
         scores = SignalScores(
-            reset_signal=0.8,
-            limit_discussion=0.6,
-            release_signal=0.2,
-            community_pressure=0.7,
+            reset_intent=0.8,
+            limit_complaint=0.6,
+            official_change=0.2,
+            reset_confirmation=0.7,
             confidence=0.9,
         )
         features = scores.to_features()
         assert isinstance(features, dict)
-        assert features["reset_signal"] == 0.8
-        assert features["limit_discussion"] == 0.6
-        assert features["release_signal"] == 0.2
-        assert features["community_pressure"] == 0.7
+        assert features["reset_intent"] == 0.8
+        assert features["limit_complaint"] == 0.6
+        assert features["official_change"] == 0.2
+        assert features["reset_confirmation"] == 0.7
         assert features["confidence"] == 0.9
 
     def test_json_roundtrip(self):
         """JSON 序列化/反序列化"""
         scores = SignalScores(
-            reset_signal=0.8,
-            limit_discussion=0.6,
-            release_signal=0.2,
-            community_pressure=0.7,
+            reset_intent=0.8,
+            limit_complaint=0.6,
+            official_change=0.2,
+            reset_confirmation=0.7,
             confidence=0.9,
             reason=["测试原因"],
         )
         json_str = scores.model_dump_json()
         restored = SignalScores.model_validate_json(json_str)
-        assert restored.reset_signal == 0.8
+        assert restored.reset_intent == 0.8
         assert restored.reason == ["测试原因"]
 
 
