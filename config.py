@@ -19,6 +19,11 @@ def _parse_csv_env(key: str) -> list[str]:
     return [url.strip() for url in raw.split(",") if url.strip()]
 
 
+def _env_or_default(key: str, default: str) -> str:
+    """读取环境变量；若未设置或为空字符串，则返回默认值。"""
+    return os.getenv(key, default) or default
+
+
 # 加载 .env 文件（如果存在）
 load_dotenv()
 
@@ -43,7 +48,7 @@ class Config:
         default_factory=lambda: os.getenv("OPENAI_API_KEY", "")
     )
     openai_model: str = field(
-        default_factory=lambda: os.getenv("OPENAI_MODEL", "gpt-4o")
+        default_factory=lambda: _env_or_default("OPENAI_MODEL", "gpt-4o")
     )
 
     # --- Gemini API (LLM 信号分析) ---
@@ -51,7 +56,7 @@ class Config:
         default_factory=lambda: os.getenv("GEMINI_API_KEY", "")
     )
     gemini_model: str = field(
-        default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+        default_factory=lambda: _env_or_default("GEMINI_MODEL", "gemini-2.0-flash")
     )
 
     # --- RSS Feed 配置 (RSS_CONFIG) ---
