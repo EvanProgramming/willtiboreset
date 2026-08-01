@@ -288,11 +288,13 @@ python update_model.py
 - Secret names match the expected configuration keys.
 - `permissions: contents: write` is set for automated commits.
 - A live run (`30677688995`) successfully produced `output/prediction.json`.
-- A subsequent scheduled run (`30677695731`) failed at `git push` due to a race condition; fixed by adding `git pull --rebase` before `git push` in both workflows.
+- A subsequent scheduled run (`30677695731`) failed at `git push` due to a race condition.
+- Another manual run (`30677988089`) failed at `git pull --rebase` because the manual shell script left unstaged changes in the working tree.
+- Both issues were fixed by replacing the manual commit/push shell scripts with `stefanzweifel/git-auto-commit-action@v5`, which handles rebase, retries, and race conditions.
 
 ### Verdict
 
-**CONDITIONAL PASS** — live run verified; pending confirmation that the race-condition fix prevents future scheduled-run failures.
+**CONDITIONAL PASS** — live run verified; pending one successful scheduled run to confirm `git-auto-commit-action` handles concurrency cleanly.
 
 ---
 
@@ -325,7 +327,7 @@ python update_model.py
 Before starting the React website (Phase 2), the following should be resolved:
 
 1. **Fix `collectors/__main__.py`** to reject missing `DEEPSEEK_API_KEY` instead of falling back to `MockLLMAnalyzer`, matching `predict.py` behavior.
-2. **Confirm one more scheduled workflow run succeeds** after the `git pull --rebase` fix.
+2. **Confirm one more scheduled workflow run succeeds** after switching to `git-auto-commit-action`.
 3. (Recommended) Add integration tests that exercise RSS parsing and model prediction with real or recorded data.
 
 ---
