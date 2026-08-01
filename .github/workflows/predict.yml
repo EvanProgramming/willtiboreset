@@ -46,5 +46,6 @@ jobs:
           git add output/prediction.json data/model_state.json
           git diff --staged --quiet || (
             git commit -m "chore: auto-prediction and model-state update"
+            git pull --rebase
             git push
           )
