@@ -9,11 +9,7 @@
   "interval_confidence": 0.6,
   "prior_weight": 0.5,
   "params": {
-    "alpha": -4.5,
-    "beta_time": 2.62,
-    "beta_tibo": 1.2,
-    "beta_community": 0.4,
-    "beta_release": 0.3
+    "time_adjustment_strength": 0.36
   },
-  "updated_at": "2026-08-01T02:09:14.904666Z"
+  "updated_at": "2026-08-01T02:56:13.648292Z"
 }

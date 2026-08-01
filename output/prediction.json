@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-01T02:49:45.256218+00:00",
+  "updated_at": "2026-08-01T02:56:47.436181+00:00",
   "prediction": {
     "within_5h": 0.0557,
     "within_24h": 0.2006,
     "within_48h": 0.312
   },
-  "confidence": "medium",
+  "confidence": "high",
   "signals": {
-    "tweet_count": 0,
-    "hours_since_last_reset": 95.67923749,
+    "tweet_count": 25,
+    "hours_since_last_reset": 95.79650984583334,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,32 +16,45 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6228,
-    "time_pressure": 0.8806,
+    "time_ratio": 1.6248,
+    "time_pressure": 0.8811,
     "hazard_rate": 0.009286,
     "evidence_score": 0.0,
-    "tibo_signal": 0.0,
+    "tibo_signal": 0.0012,
     "community_signal": 0.0,
-    "release_signal": 0.0,
-    "llm_scores": null,
+    "release_signal": 0.0119,
+    "llm_scores": {
+      "reset_intent": 0.0,
+      "limit_complaint": 0.027999999999999997,
+      "official_change": 0.032,
+      "reset_confirmation": 0.0,
+      "confidence": 0.93,
+      "reason": [
+        "Text discusses a subreddit policy change (Text Tuesdays), not usage limits or resets.",
+        "Mentions complaints about AI image content, but not about usage limits.",
+        "Official OpenAI post announcing new image generation capabilities.",
+        "No mention of usage limits or resets.",
+        "User shares detailed prompts for AI headshots, unrelated to limits or resets."
+      ]
+    },
     "prior_applied": false,
     "interval_count": 10
   },
   "main_factors": [
     {
-      "factor": "距上次 reset 95.7 小时",
+      "factor": "距上次 reset 95.8 小时",
       "impact": "+10%",
       "score": 0.88
     },
     {
-      "factor": "无显著 reset 信号",
-      "impact": "概率受时间先验限制",
-      "score": null
+      "factor": "存在一定 reset 讨论",
+      "impact": "+0%",
+      "score": 0.0
     }
   ],
   "reasons": [
-    "距上次 reset 已 95.7 小时，明显超过历史中位间隔 43 小时，时间因素小幅提升基线概率",
-    "未检测到显著 reset 信号，概率受时间先验限制",
-    "主要因素：距上次 reset 95.7 小时（+10%）"
+    "距上次 reset 已 95.8 小时，明显超过历史中位间隔 43 小时，时间因素小幅提升基线概率",
+    "检测到微弱 reset 证据（evidence_score=0.00），不足以确认",
+    "主要因素：距上次 reset 95.8 小时（+10%）"
   ]
 }
