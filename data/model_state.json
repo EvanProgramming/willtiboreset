@@ -1,15 +1,15 @@
 {
-  "average_interval_hours": 58.96,
-  "median_interval_hours": 42.92,
-  "std_interval_hours": 83.5,
+  "average_interval_hours": 61.38,
+  "median_interval_hours": 46.93,
+  "std_interval_hours": 79.61,
   "min_interval_hours": 0.0,
   "max_interval_hours": 269.5,
-  "interval_uncertainty": 26.4,
-  "sample_count": 10,
+  "interval_uncertainty": 24.0,
+  "sample_count": 11,
   "interval_confidence": 0.6,
-  "prior_weight": 0.5,
+  "prior_weight": 0.45,
   "params": {
     "time_adjustment_strength": 0.36
   },
-  "updated_at": "2026-08-01T14:20:21.987884Z"
+  "updated_at": "2026-08-01T14:40:17.584234Z"
 }

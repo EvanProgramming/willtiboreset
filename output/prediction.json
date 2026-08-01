@@ -1,68 +1,65 @@
 {
-  "updated_at": "2026-08-01T14:21:02.423692+00:00",
+  "updated_at": "2026-08-01T14:40:53.235545+00:00",
   "prediction": {
-    "within_5h": 1.0,
-    "within_24h": 1.0,
-    "within_48h": 1.0
+    "within_5h": 0.4007,
+    "within_24h": 0.7189,
+    "within_48h": 0.8272
   },
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 107.2006730725,
-    "average_reset_interval": 58.96,
-    "median_reset_interval": 42.92,
-    "interval_uncertainty": 26.4,
-    "std_reset_interval": 83.4963011859112,
+    "hours_since_last_reset": 11.148120800555555,
+    "average_reset_interval": 61.38,
+    "median_reset_interval": 46.93,
+    "interval_uncertainty": 24.0,
+    "std_reset_interval": 79.61254615354608,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.8182,
-    "time_pressure": 0.9194,
-    "hazard_rate": 0.068785,
-    "evidence_score": 0.7013,
-    "tibo_signal": 0.1634,
-    "community_signal": 0.0432,
-    "release_signal": 0.3048,
+    "time_ratio": 0.1816,
+    "time_pressure": 0.1838,
+    "hazard_rate": 0.051503,
+    "evidence_score": 0.5459,
+    "tibo_signal": 0.1202,
+    "community_signal": 0.0459,
+    "release_signal": 0.0,
     "llm_scores": {
-      "reset_intent": 0.10500000000000001,
-      "limit_complaint": 0.05500000000000001,
-      "official_change": 0.25,
-      "reset_confirmation": 0.08,
-      "confidence": 0.8825000000000001,
+      "reset_intent": 0.09,
+      "limit_complaint": 0.06000000000000001,
+      "official_change": 0.14250000000000002,
+      "reset_confirmation": 0.075,
+      "confidence": 0.89,
       "reason": [
-        "Text announces major scientific breakthroughs and new model proofs, not quota resets.",
-        "Official source (Sebastien Bubeck) discusses model capabilities, not usage limits.",
-        "Generic motivational phrase with no mention of resets or limits.",
-        "No official or user context related to quota.",
-        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'."
+        "Text discusses scientific breakthroughs and model capabilities, not quota resets.",
+        "Mentions 'Astra' model and proofs, indicating product development but no reset info.",
+        "Generic motivational quote with no relevance to usage limits or resets.",
+        "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work'.",
+        "Official source (likely Tibo) confirms reset for weekend event."
       ]
     },
     "prior_applied": false,
-    "interval_count": 10
+    "interval_count": 11
   },
   "main_factors": [
     {
-      "factor": "107.2 hours since last reset",
-      "impact": "+10%",
-      "score": 0.92
+      "factor": "11.1 hours since last reset",
+      "impact": "-5%",
+      "score": 0.18
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+3%",
-      "score": 0.16
+      "impact": "+2%",
+      "score": 0.12
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.05
     }
   ],
   "reasons": [
-    "Auto-confirmed reset announced by Tibo at 2026-08-01T03:32:37+00:00",
-    "107.2 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Strong reset evidence detected (evidence_score=0.70), probability rises significantly",
-    "Main factor: 107.2 hours since last reset (+10%)"
-  ],
-  "auto_confirmed": true,
-  "confirmed_reset_time": "2026-08-01T03:32:37+00:00"
+    "Recently reset (11.1 hours ago), low time pressure (0.18)",
+    "Moderate reset evidence detected (evidence_score=0.55)",
+    "Main factor: 11.1 hours since last reset (-5%)"
+  ]
 }
