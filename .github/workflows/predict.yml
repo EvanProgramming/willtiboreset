@@ -3,8 +3,8 @@ name: WillTiboReset Prediction
 on:
   workflow_dispatch:
   schedule:
-    # 每 10 分钟运行一次
-    - cron: '*/10 * * * *'
+    # 每 20 分钟运行一次
+    - cron: '*/20 * * * *'
 
 permissions:
   contents: write
@@ -43,6 +43,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-prediction and model-state update"
-          file_pattern: "output/prediction.json data/model_state.json"
+          file_pattern: "output/prediction.json data/model_state.json data/prediction_history.json"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
