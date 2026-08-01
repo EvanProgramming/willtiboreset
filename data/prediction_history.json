@@ -1424,5 +1424,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-01T17:01:13.359349Z",
+    "prediction": {
+      "within_5h": 0.1295,
+      "within_24h": 0.3794,
+      "within_48h": 0.5162
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 13.4870437675,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2197,
+      "time_pressure": 0.1989,
+      "hazard_rate": 0.019682,
+      "evidence_score": 0.0884,
+      "tibo_signal": 0.0852,
+      "community_signal": 0.0427,
+      "release_signal": 0.1294,
+      "llm_scores": {
+        "reset_intent": 0.034999999999999996,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.145,
+        "reset_confirmation": 0.0725,
+        "confidence": 0.875,
+        "reason": [
+          "The text mentions 'signs' and 'major breakthroughs' but does not explicitly discuss a quota reset.",
+          "It is a teaser about future scientific achievements, not about usage limits.",
+          "The text is a generic motivational phrase with no reference to resets or limits.",
+          "No official or user context related to quota.",
+          "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' indicating a reset has already occurred."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
