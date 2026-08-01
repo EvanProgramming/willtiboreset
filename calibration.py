@@ -1,11 +1,11 @@
 """
-WillTiboReset - 模型校准与性能评估。
+WillTiboReset - Model calibration and performance evaluation.
 
-根据 prediction_history.json 中已确认 actual_result 的记录：
-    - 计算 Brier Score
-    - 计算二分类准确率
-    - 计算校准误差（calibration error）
-    - 输出 model_performance.json
+Based on records in prediction_history.json with confirmed actual_result:
+    - Compute Brier score
+    - Compute binary classification accuracy
+    - Compute calibration error
+    - Output model_performance.json
 """
 
 from __future__ import annotations
@@ -23,12 +23,12 @@ from model.data_models import (
 )
 
 
-# 校准分箱边界
+# Calibration bin boundaries
 _BIN_BOUNDS = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
 
 def load_history(history_path: Path) -> list[PredictionHistoryEntry]:
-    """加载预测历史。"""
+    """Load prediction history."""
     if not history_path.exists():
         return []
 
@@ -45,7 +45,7 @@ def save_history(
     history_path: Path,
     history: list[PredictionHistoryEntry],
 ) -> None:
-    """保存预测历史。"""
+    """Save prediction history."""
     history_path.parent.mkdir(parents=True, exist_ok=True)
     history_path.write_text(
         json.dumps(
@@ -63,7 +63,7 @@ def append_prediction(
     signals: dict,
     actual_result: Optional[bool] = None,
 ) -> PredictionHistoryEntry:
-    """向历史记录追加一条新预测。"""
+    """Append a new prediction to the history."""
     history = load_history(history_path)
     entry = PredictionHistoryEntry(
         prediction_time=datetime.now(timezone.utc),
@@ -79,12 +79,12 @@ def append_prediction(
 def _resolved_entries(
     history: list[PredictionHistoryEntry],
 ) -> list[PredictionHistoryEntry]:
-    """过滤出已确认结果的记录。"""
+    """Filter entries with confirmed outcomes."""
     return [h for h in history if h.actual_result is not None]
 
 
 def _brier_score(probs: list[float], actuals: list[bool]) -> Optional[float]:
-    """计算 Brier score。"""
+    """Compute Brier score."""
     if not probs:
         return None
     actual_floats = [1.0 if a else 0.0 for a in actuals]
@@ -92,7 +92,7 @@ def _brier_score(probs: list[float], actuals: list[bool]) -> Optional[float]:
 
 
 def _accuracy(probs: list[float], actuals: list[bool]) -> Optional[float]:
-    """以 0.5 为阈值计算准确率。"""
+    """Compute accuracy at 0.5 threshold."""
     if not probs:
         return None
     correct = sum(
@@ -106,7 +106,7 @@ def _calibration_bins(
     probs: list[float],
     actuals: list[bool],
 ) -> tuple[list[CalibrationBin], Optional[float]]:
-    """计算校准分箱及平均校准误差。"""
+    """Compute calibration bins and mean calibration error."""
     bins: list[CalibrationBin] = []
     total_error = 0.0
     total_count = 0
@@ -115,7 +115,7 @@ def _calibration_bins(
         start = _BIN_BOUNDS[i]
         end = _BIN_BOUNDS[i + 1]
 
-        # 左闭右开，最后一个区间包含 1.0
+        # Left-closed, right-open; the last bin includes 1.0
         if i == len(_BIN_BOUNDS) - 2:
             indices = [
                 j for j, p in enumerate(probs)
@@ -166,7 +166,7 @@ def evaluate_horizon(
     key: str,
     horizon_hours: int,
 ) -> HorizonPerformance:
-    """评估单个时间窗口的性能。"""
+    """Evaluate performance for a single time horizon."""
     resolved = _resolved_entries(history)
     probs = [h.prediction.get(key, 0.0) for h in resolved]
     actuals = [bool(h.actual_result) for h in resolved]
@@ -186,10 +186,11 @@ def evaluate_horizon(
 def evaluate_performance(
     history: list[PredictionHistoryEntry],
 ) -> ModelPerformance:
-    """评估整体模型性能。"""
+    """Evaluate overall model performance."""
+
     resolved = _resolved_entries(history)
 
-    # 跨所有窗口计算平均 Brier score 和准确率
+    # Compute average Brier score and accuracy across all windows
     all_probs: list[float] = []
     all_actuals: list[bool] = []
     for h in resolved:
@@ -221,9 +222,9 @@ def update_performance(
     performance_path: Path,
 ) -> ModelPerformance:
     """
-    根据历史记录更新并保存模型性能报告。
+    Update and save the model performance report based on historical records.
 
-    如果还没有已确认结果的记录，则生成空报告。
+    Generates an empty report if no confirmed records exist yet.
     """
     history = load_history(history_path)
     performance = evaluate_performance(history)
@@ -242,9 +243,9 @@ def mark_actual_result(
     actual_result: bool,
 ) -> bool:
     """
-    为某条历史预测标记实际结果。
+    Mark the actual result for a historical prediction.
 
-    返回是否找到并更新该记录。
+    Returns whether the record was found and updated.
     """
     history = load_history(history_path)
     updated = False

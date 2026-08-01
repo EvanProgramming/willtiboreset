@@ -1,4 +1,4 @@
-"""测试 V2 Adaptive Bayesian Evidence Model"""
+"""Tests for V2 Adaptive Bayesian Evidence Model"""
 
 from datetime import datetime, timezone
 
@@ -24,11 +24,11 @@ from model.survival_model import (
 
 
 # ──────────────────────────────────────────────
-# 辅助函数测试
+# Helper function tests
 # ──────────────────────────────────────────────
 
 class TestSigmoid:
-    """sigmoid 函数测试"""
+    """Tests for sigmoid function"""
 
     def test_zero(self):
         assert _sigmoid(0.0) == pytest.approx(0.5)
@@ -41,10 +41,10 @@ class TestSigmoid:
 
 
 class TestBayesianHelpers:
-    """V2 Bayesian 辅助函数测试"""
+    """Tests for V2 Bayesian helper functions"""
 
     def test_base_probability_time_pressure_monotonic(self):
-        """时间压力越高，基线概率越高，但不超过 cap"""
+        """Higher time pressure raises baseline probability but stays within cap"""
         for horizon in PREDICTION_HORIZONS:
             p_low = _base_probability(horizon, 0.0)
             p_mid = _base_probability(horizon, 0.5)
@@ -69,14 +69,14 @@ class TestBayesianHelpers:
         assert prob["5h"] <= prob["24h"] <= prob["48h"]
 
     def test_probabilities_no_signal_caps(self):
-        """无信号时概率受 cap 限制"""
+        """Probability is capped when no signal is present"""
         prob = _probabilities(1.0, 0.0, PREDICTION_HORIZONS)
         assert prob["5h"] <= MAX_PROBABILITY_NO_SIGNAL[5]
         assert prob["24h"] <= MAX_PROBABILITY_NO_SIGNAL[24]
         assert prob["48h"] <= MAX_PROBABILITY_NO_SIGNAL[48]
 
     def test_probabilities_evidence_boost(self):
-        """证据提升概率"""
+        """Evidence boosts probability"""
         base = _probabilities(0.5, 0.0, PREDICTION_HORIZONS)
         strong = _probabilities(0.5, 0.9, PREDICTION_HORIZONS)
         for h in PREDICTION_HORIZONS:
@@ -84,11 +84,11 @@ class TestBayesianHelpers:
 
 
 # ──────────────────────────────────────────────
-# 数据模型测试
+# Data model tests
 # ──────────────────────────────────────────────
 
 class TestPredictionFeatures:
-    """PredictionFeatures 模型测试"""
+    """Tests for PredictionFeatures model"""
 
     def test_create_with_all_fields(self):
         features = PredictionFeatures(
@@ -110,12 +110,12 @@ class TestPredictionFeatures:
 
 
 class TestPredictionExplanation:
-    """PredictionExplanation 模型测试"""
+    """Tests for PredictionExplanation model"""
 
     def test_create_valid(self):
         exp = PredictionExplanation(
             probability={"5h": 0.12, "24h": 0.45, "48h": 0.62},
-            reasons=["原因1"],
+            reasons=["reason1"],
             evidence_score=0.5,
             hazard_rate=0.05,
         )
@@ -124,11 +124,11 @@ class TestPredictionExplanation:
 
 
 # ──────────────────────────────────────────────
-# 证据聚合测试
+# Evidence aggregation tests
 # ──────────────────────────────────────────────
 
 class TestEvidenceAggregation:
-    """证据聚合与来源权重测试"""
+    """Tests for evidence aggregation and source weighting"""
 
     def test_no_signals_zero_evidence(self):
         result = _aggregate_weighted_evidence([], [])
@@ -168,11 +168,11 @@ class TestEvidenceAggregation:
 
 
 # ──────────────────────────────────────────────
-# build_features 测试
+# build_features tests
 # ──────────────────────────────────────────────
 
 class TestBuildFeatures:
-    """build_features 辅助函数测试"""
+    """Tests for build_features helper"""
 
     def test_no_signals(self):
         features = build_features(20.0, 24.0, signal_scores=None, interval_count=100)
@@ -203,11 +203,11 @@ class TestBuildFeatures:
 
 
 # ──────────────────────────────────────────────
-# ResetPredictor 核心测试
+# ResetPredictor core tests
 # ──────────────────────────────────────────────
 
 class TestResetPredictorBasic:
-    """ResetPredictor 基础功能测试"""
+    """Tests for ResetPredictor basic functionality"""
 
     def setup_method(self):
         self.predictor = ResetPredictor()
@@ -248,17 +248,17 @@ class TestResetPredictorBasic:
 
 
 # ──────────────────────────────────────────────
-# V2 场景测试
+# V2 scenario tests
 # ──────────────────────────────────────────────
 
 class TestResetPredictorScenarios:
-    """V2 用户要求的测试案例"""
+    """V2 user-requested scenario tests"""
 
     def setup_method(self):
         self.predictor = ResetPredictor()
 
     def test_case_1_no_signal_long_interval(self):
-        """没有任何信号，只是距离 reset 很久：概率不能过高"""
+        """No signal, just long since reset: probability must not be too high"""
         features = PredictionFeatures(
             hours_since_last_reset=100.0,
             average_reset_interval=24.0,
@@ -269,7 +269,7 @@ class TestResetPredictorScenarios:
         assert result.probability["48h"] <= MAX_PROBABILITY_NO_SIGNAL[48]
 
     def test_case_2_tibo_strong_confirmation(self):
-        """Tibo 明确宣布 reset：概率快速升高"""
+        """Tibo explicitly announces reset: probability rises quickly"""
         features = PredictionFeatures(
             hours_since_last_reset=10.0,
             average_reset_interval=24.0,
@@ -282,7 +282,7 @@ class TestResetPredictorScenarios:
         assert result.evidence_score > 0.0
 
     def test_case_3_only_community_complaints(self):
-        """只有社区抱怨：中等增加，不应接近确认"""
+        """Only community complaints: moderate increase, should not approach confirmation"""
         features = PredictionFeatures(
             hours_since_last_reset=20.0,
             average_reset_interval=24.0,
@@ -290,11 +290,11 @@ class TestResetPredictorScenarios:
             community_signal=0.7,
         )
         result = self.predictor.predict(features)
-        # 24h 应比无信号高，但不应超过 0.70
+        # 24h should be higher than no-signal but not exceed 0.70
         assert 0.15 < result.probability["24h"] < 0.70
 
     def test_case_4_just_reset_no_signal(self):
-        """刚 reset + 没信号：低概率"""
+        """Just reset + no signal: low probability"""
         features = PredictionFeatures(
             hours_since_last_reset=1.0,
             average_reset_interval=24.0,
@@ -304,7 +304,7 @@ class TestResetPredictorScenarios:
         assert result.probability["24h"] < 0.50
 
     def test_evidence_dominates_time(self):
-        """强证据应主导弱时间先验：刚 reset + 强信号 > 超时 + 无信号"""
+        """Strong evidence should dominate weak time prior: recent reset + strong signal > overdue + no signal"""
         recent_strong = PredictionFeatures(
             hours_since_last_reset=2.0,
             average_reset_interval=24.0,
@@ -321,7 +321,7 @@ class TestResetPredictorScenarios:
         assert recent_result.probability["24h"] > overdue_result.probability["24h"]
 
     def test_tibo_signal_boosts_probability(self):
-        """Tibo 信号比无信号时概率更高"""
+        """Tibo signal yields higher probability than no signal"""
         base = PredictionFeatures(
             hours_since_last_reset=15.0,
             average_reset_interval=24.0,
@@ -339,11 +339,11 @@ class TestResetPredictorScenarios:
 
 
 # ──────────────────────────────────────────────
-# 边界情况测试
+# Edge-case tests
 # ──────────────────────────────────────────────
 
 class TestEdgeCases:
-    """边界情况测试"""
+    """Tests for edge cases"""
 
     def setup_method(self):
         self.predictor = ResetPredictor()

@@ -1,18 +1,18 @@
 """
-WillTiboReset - 核心预测引擎 V2
+WillTiboReset - Core Prediction Engine V2
 
-Adaptive Bayesian Evidence Model。
+Adaptive Bayesian Evidence Model.
 
-V2 核心变化：
-    1. 从"时间驱动"改为"证据驱动 + 弱时间先验"。
-    2. LLM 信号按来源权威性（authority_score）和时效性（recency_weight）聚合，
-       生成综合 evidence_score。
-    3. 使用 Bayesian odds update 将先验基线概率提升为后验概率。
-    4. 时间因素仅作为弱先验修正：刚 reset 降低概率，超期小幅提升，
-       但无信号时不会导致高概率。
-    5. 输出结构化 main_factors，说明每个因素对概率的贡献。
+V2 core changes:
+    1. Switched from "time-driven" to "evidence-driven + weak time prior".
+    2. LLM signals are aggregated by source authority (authority_score) and recency (recency_weight),
+       producing a combined evidence_score.
+    3. Uses Bayesian odds update to lift the prior baseline probability to a posterior probability.
+    4. Time factor only serves as a weak prior correction: recent reset lowers probability, overdue slightly raises it,
+       but without signals it will not cause high probability.
+    5. Outputs structured main_factors explaining each factor's contribution to the probability.
 
-输入：
+Inputs:
     PredictionFeatures {
         hours_since_last_reset,
         average_reset_interval,
@@ -25,7 +25,7 @@ V2 核心变化：
         evidence_score
     }
 
-输出：
+Outputs:
     PredictionExplanation {
         probability: {"5h": 0.12, "24h": 0.45, "48h": 0.62},
         reasons: [...],
@@ -54,51 +54,51 @@ from model.model_state import ModelState, ModelStateManager
 
 
 # ──────────────────────────────────────────────
-# 模型默认参数
+# Model default parameters
 # ──────────────────────────────────────────────
 
 DEFAULT_RESET_INTERVAL_HOURS: float = 48.0
 INTERVAL_PRIOR_STRENGTH: float = 2.0
 PREDICTION_HORIZONS: list[int] = [5, 24, 48]
 
-# 无信号时的先验基线概率（弱时间先验）
+# Prior baseline probability when no signal is present (weak time prior)
 BASE_PROBABILITY: dict[int, float] = {
     5: 0.05,
     24: 0.18,
     48: 0.28,
 }
 
-# 时间因素对基线的最大调整幅度（±30%）
+# Maximum adjustment range of time factor on baseline (±30%)
 TIME_ADJUSTMENT_STRENGTH: float = 0.30
 
-# 证据乘数：evidence_score=1 时，odds 最大放大倍数
+# Evidence multiplier: maximum odds amplification when evidence_score=1
 MAX_EVIDENCE_MULTIPLIER: float = 25.0
 
-# 各窗口概率上限：避免无证据时因时间自然膨胀
+# Probability caps per horizon: prevent natural inflation over time without evidence
 MAX_PROBABILITY_NO_SIGNAL: dict[int, float] = {
     5: 0.20,
     24: 0.50,
     48: 0.70,
 }
 
-# 强证据情况下的上限
+# Upper limits under strong evidence
 MAX_PROBABILITY_STRONG_EVIDENCE: dict[int, float] = {
     5: 0.75,
     24: 0.95,
     48: 0.98,
 }
 
-# recency 衰减参数
+# Recency decay parameters
 RECENCY_DECAY_HOURS: float = 24.0
 MIN_UNCERTAINTY_HOURS: float = 6.0
 
 
 # ──────────────────────────────────────────────
-# 辅助函数
+# Helper functions
 # ──────────────────────────────────────────────
 
 def _sigmoid(x: float) -> float:
-    """数值稳定的 sigmoid 函数"""
+    """Numerically stable sigmoid function"""
     if x >= 0:
         return 1.0 / (1.0 + math.exp(-x))
     exp_x = math.exp(x)
@@ -110,7 +110,7 @@ def _compute_posterior_value(
     prior_value: float,
     interval_count: Optional[int] = None,
 ) -> float:
-    """用 Bayesian shrinkage 融合先验与观测值。"""
+    """Blend prior and observed values using Bayesian shrinkage."""
     if empirical_value is None:
         return prior_value
     n = interval_count if interval_count is not None and interval_count > 0 else 1
@@ -125,11 +125,11 @@ def _compute_time_pressure(
     uncertainty: float,
 ) -> float:
     """
-    平滑时间压力函数。
+    Smooth time pressure function.
 
-    当 hours_since 远小于 median 时 → 0
-    当 hours_since 接近 median 时 → 0.5
-    当 hours_since 远大于 median 时 → 1
+    When hours_since is much smaller than median → 0
+    When hours_since is close to median → 0.5
+    When hours_since is much larger than median → 1
     """
     if median_interval <= 0:
         return 0.0
@@ -139,7 +139,7 @@ def _compute_time_pressure(
 
 
 def _recency_weight(tweet_timestamp: datetime, now: datetime) -> float:
-    """根据消息年龄计算 recency weight。"""
+    """Compute recency weight based on message age."""
     if tweet_timestamp.tzinfo is None:
         tweet_timestamp = tweet_timestamp.replace(tzinfo=timezone.utc)
     if now.tzinfo is None:
@@ -151,7 +151,7 @@ def _recency_weight(tweet_timestamp: datetime, now: datetime) -> float:
 
 
 def _source_priority(source: str) -> float:
-    """来源优先级权重：Tibo > OpenAI > Community。"""
+    """Source priority weights: Tibo > OpenAI > Community."""
     source_lower = source.lower()
     if "tibo" in source_lower:
         return 1.0
@@ -162,9 +162,9 @@ def _source_priority(source: str) -> float:
 
 def _per_tweet_evidence(score: SignalScores) -> float:
     """
-    根据单条 LLM 信号计算证据强度（0-1）。
+    Compute evidence strength (0-1) from a single LLM signal.
 
-    强调 reset_confirmation，抑制 limit_complaint。
+    Emphasizes reset_confirmation and suppresses limit_complaint.
     """
     evidence = 0.0
 
@@ -179,7 +179,7 @@ def _per_tweet_evidence(score: SignalScores) -> float:
     if score.official_change >= 0.5:
         evidence += 0.05 + 0.1 * score.official_change
 
-    # 用户抱怨 limit 本身不是 reset 证据，但大量抱怨可微弱提升证据
+    # User complaints about limit themselves are not reset evidence, but many complaints can slightly raise evidence
     if score.limit_complaint >= 0.7:
         evidence += 0.05 + 0.05 * score.limit_complaint
 
@@ -192,9 +192,9 @@ def _aggregate_weighted_evidence(
     now: Optional[datetime] = None,
 ) -> dict:
     """
-    使用 authority_score、recency_weight 和来源优先级聚合证据。
+    Aggregate evidence using authority_score, recency_weight, and source priority.
 
-    返回：
+    Returns:
         {
             "tibo": float,
             "openai": float,
@@ -254,7 +254,7 @@ def _aggregate_weighted_evidence(
         w = authority * recency * priority
         evidence = _per_tweet_evidence(score) * score.confidence
 
-        # 按来源聚合证据
+        # Aggregate evidence by source
         if "tibo" in source.lower():
             category = "tibo"
         elif "openai" in source.lower():
@@ -265,7 +265,7 @@ def _aggregate_weighted_evidence(
         category_sums[category] += evidence * w
         category_weights[category] += w
 
-        # 同时保留语义信号（用于解释和兼容）
+        # Also retain semantic signals (for explanation and compatibility)
         tibo = (
             0.6 * score.reset_confirmation
             + 0.3 * score.reset_intent
@@ -280,10 +280,10 @@ def _aggregate_weighted_evidence(
 
     category_scores: dict[str, float] = {}
     for cat in ["tibo", "openai", "community"]:
-        # 保留来源优先级的影响：使用加权证据和，而非按权重归一化
+        # Preserve source priority effect: use weighted evidence sum rather than normalizing by weight
         category_scores[cat] = min(category_sums[cat], 1.0)
 
-    # 综合证据：按来源优先级加权，并仅按实际存在的来源归一化
+    # Combined evidence: weighted by source priority and normalized only by active sources
     source_weights = {
         "tibo": 1.0,
         "openai": 0.8,
@@ -325,26 +325,26 @@ def _aggregate_weighted_evidence(
 
 def _base_probability(horizon: int, time_pressure: float) -> float:
     """
-    无信号时的弱时间先验概率。
+    Weak time prior probability when no signal is present.
 
-    时间压力低 → 概率降低；时间压力高 → 概率小幅提升。
-    但 24h/48h 不会因此超过 0.5/0.7。
+    Low time pressure → lower probability; high time pressure → slightly higher probability.
+    However 24h/48h will not exceed 0.5/0.7 because of this.
     """
     base = BASE_PROBABILITY.get(horizon, 0.1)
-    # time_pressure ∈ [0,1]，调整幅度 ±TIME_ADJUSTMENT_STRENGTH
+    # time_pressure ∈ [0,1]; adjustment range ±TIME_ADJUSTMENT_STRENGTH
     adjustment = TIME_ADJUSTMENT_STRENGTH * (time_pressure - 0.5)
     adjusted = base * (1.0 + adjustment)
     return max(0.01, min(adjusted, MAX_PROBABILITY_NO_SIGNAL[horizon]))
 
 
 def _evidence_multiplier(evidence_score: float) -> float:
-    """证据分数 → odds 乘数。"""
+    """Evidence score → odds multiplier."""
     return 1.0 + evidence_score * (MAX_EVIDENCE_MULTIPLIER - 1.0)
 
 
 def _bayesian_update(prior: float, evidence_score: float) -> float:
     """
-    Bayesian odds update。
+    Bayesian odds update.
 
     posterior_odds = prior_odds * evidence_multiplier
     """
@@ -364,13 +364,13 @@ def _probabilities(
     evidence_score: float,
     horizons: list[int],
 ) -> dict[str, float]:
-    """计算各时间窗口的后验概率。"""
+    """Compute posterior probability for each time horizon."""
     probability: dict[str, float] = {}
     for h in horizons:
         prior = _base_probability(h, time_pressure)
         posterior = _bayesian_update(prior, evidence_score)
 
-        # 根据证据强度选择 cap
+        # Choose cap based on evidence strength
         if evidence_score >= 0.7:
             cap = MAX_PROBABILITY_STRONG_EVIDENCE[h]
         elif evidence_score >= 0.4:
@@ -386,14 +386,14 @@ def _probabilities(
 
 
 def _format_interval(interval: Optional[float], default: float) -> str:
-    """格式化间隔显示。"""
+    """Format interval for display."""
     if interval is not None and interval > 0:
-        return f"{interval:.0f} 小时"
-    return f"{default:.0f} 小时（默认）"
+        return f"{interval:.0f} hours"
+    return f"{default:.0f} hours (default)"
 
 
 # ──────────────────────────────────────────────
-# 特征构建器
+# Feature builder
 # ──────────────────────────────────────────────
 
 def build_features(
@@ -408,7 +408,7 @@ def build_features(
     now: Optional[datetime] = None,
 ) -> PredictionFeatures:
     """
-    从分析特征和 LLM 信号分数构建 PredictionFeatures（V2）。
+    Build PredictionFeatures (V2) from analysis features and LLM signal scores.
     """
     prior_interval = DEFAULT_RESET_INTERVAL_HOURS
 
@@ -460,14 +460,14 @@ def build_features(
 
 
 # ──────────────────────────────────────────────
-# 核心预测器
+# Core predictor
 # ──────────────────────────────────────────────
 
 class ResetPredictor:
     """
-    Adaptive Bayesian Evidence Model 预测器（V2）。
+    Adaptive Bayesian Evidence Model predictor (V2).
 
-    信号证据主导，时间因素仅作为弱先验修正。
+    Signal evidence dominates; time factor only serves as a weak prior correction.
     """
 
     def __init__(
@@ -487,7 +487,7 @@ class ResetPredictor:
         model_state: Optional[ModelState],
         model_state_path: Optional[Path],
     ) -> Optional[ModelState]:
-        """解析 model_state 来源：直接对象优先，否则从路径加载。"""
+        """Resolve model_state source: direct object takes priority, otherwise load from path."""
         if model_state is not None:
             return model_state
         if model_state_path is not None:
@@ -500,11 +500,11 @@ class ResetPredictor:
 
     @property
     def model_state(self) -> Optional[ModelState]:
-        """返回当前使用的模型状态（可能为 None）"""
+        """Return the currently used model state (may be None)."""
         return self._model_state
 
     def predict(self, features: PredictionFeatures) -> PredictionExplanation:
-        """根据输入特征预测各时间窗口的 reset 概率。"""
+        """Predict reset probability for each time window based on input features."""
         self._ensure_time_features(features)
 
         time_ratio = self._compute_time_ratio(features)
@@ -525,7 +525,7 @@ class ResetPredictor:
                 or features.average_reset_interval == self._default_interval
             )
 
-        # hazard_rate 保留用于兼容性，用 posterior 24h 概率反推等效每小时 hazard
+        # hazard_rate kept for compatibility: back out equivalent hourly hazard from 24h posterior probability
         prob_24h = probability.get("24h", 0.0)
         hazard = self._equivalent_hazard(prob_24h, 24)
 
@@ -547,7 +547,7 @@ class ResetPredictor:
         )
 
     def _ensure_time_features(self, features: PredictionFeatures) -> None:
-        """补齐 median / uncertainty / time_pressure。"""
+        """Fill in median / uncertainty / time_pressure."""
         median = features.median_reset_interval
         if median is None or median <= 0:
             median = features.average_reset_interval
@@ -574,7 +574,7 @@ class ResetPredictor:
         )
 
     def _compute_time_ratio(self, features: PredictionFeatures) -> Optional[float]:
-        """计算 time_ratio（仅用于展示），无历史时使用先验默认值。"""
+        """Compute time_ratio (for display only); use prior default when no history."""
         hours_since = features.hours_since_last_reset
         interval = features.average_reset_interval
         if interval is None or interval <= 0:
@@ -584,7 +584,7 @@ class ResetPredictor:
         return hours_since / interval
 
     def _equivalent_hazard(self, prob: float, hours: int) -> float:
-        """从 T 小时概率反推等效恒定每小时 hazard。"""
+        """Back out equivalent constant hourly hazard from T-hour probability."""
         if prob <= 0.0:
             return 0.0
         if prob >= 1.0:
@@ -592,15 +592,15 @@ class ResetPredictor:
         return 1.0 - (1.0 - prob) ** (1.0 / hours)
 
     def _build_main_factors(self, features: PredictionFeatures) -> list[FactorImpact]:
-        """构建对最终概率影响最大的结构化因素列表。"""
+        """Build a structured list of factors with the largest impact on the final probability."""
         factors: list[FactorImpact] = []
 
-        # 时间因素
+        # Time factor
         if features.hours_since_last_reset is None:
             factors.append(
                 FactorImpact(
-                    factor="无历史 reset 记录",
-                    impact="使用默认先验周期",
+                    factor="No historical reset record",
+                    impact="Using default prior interval",
                 )
             )
         else:
@@ -614,18 +614,18 @@ class ResetPredictor:
                 impact = "+10%"
             factors.append(
                 FactorImpact(
-                    factor=f"距上次 reset {features.hours_since_last_reset:.1f} 小时",
+                    factor=f"{features.hours_since_last_reset:.1f} hours since last reset",
                     impact=impact,
                     score=round(features.time_pressure, 2),
                 )
             )
 
-        # 信号因素
+        # Signal factors
         if features.evidence_score > 0.0:
             if features.tibo_signal >= 0.5:
                 factors.append(
                     FactorImpact(
-                        factor="Tibo/Reset 确认信号强",
+                        factor="Strong Tibo/Reset confirmation signal",
                         impact=f"+{int(min(features.tibo_signal * 50, 50))}%",
                         score=round(features.tibo_signal, 2),
                     )
@@ -633,7 +633,7 @@ class ResetPredictor:
             elif features.tibo_signal > 0.0:
                 factors.append(
                     FactorImpact(
-                        factor="存在一定 reset 讨论",
+                        factor="Some reset discussion detected",
                         impact=f"+{int(features.tibo_signal * 20)}%",
                         score=round(features.tibo_signal, 2),
                     )
@@ -642,7 +642,7 @@ class ResetPredictor:
             if features.community_signal >= 0.5:
                 factors.append(
                     FactorImpact(
-                        factor="社区 limit 抱怨较高",
+                        factor="High community limit complaints",
                         impact=f"+{int(min(features.community_signal * 15, 15))}%",
                         score=round(features.community_signal, 2),
                     )
@@ -650,7 +650,7 @@ class ResetPredictor:
             elif features.community_signal > 0.0:
                 factors.append(
                     FactorImpact(
-                        factor="社区存在少量 limit 抱怨",
+                        factor="Minor community limit complaints",
                         impact=f"+{int(features.community_signal * 8)}%",
                         score=round(features.community_signal, 2),
                     )
@@ -659,7 +659,7 @@ class ResetPredictor:
             if features.release_signal >= 0.5:
                 factors.append(
                     FactorImpact(
-                        factor="官方发布/变更信号",
+                        factor="Official release/change signal",
                         impact=f"+{int(min(features.release_signal * 20, 20))}%",
                         score=round(features.release_signal, 2),
                     )
@@ -667,8 +667,8 @@ class ResetPredictor:
         else:
             factors.append(
                 FactorImpact(
-                    factor="无显著 reset 信号",
-                    impact="概率受时间先验限制",
+                    factor="No significant reset signal",
+                    impact="Probability constrained by time prior",
                 )
             )
 
@@ -680,56 +680,56 @@ class ResetPredictor:
         time_ratio: Optional[float],
         main_factors: list[FactorImpact],
     ) -> list[str]:
-        """生成人类可读的预测原因列表。"""
+        """Generate human-readable prediction reasons."""
         reasons: list[str] = []
 
         if features.hours_since_last_reset is None:
             reasons.append(
-                f"无历史 reset 记录，使用先验默认周期 {self._default_interval:.0f}h 作为基线"
+                f"No historical reset record; using prior default interval {self._default_interval:.0f}h as baseline"
             )
         elif features.time_pressure < 0.2:
             reasons.append(
-                f"刚 reset 不久（{features.hours_since_last_reset:.1f} 小时），"
-                f"时间压力较低（{features.time_pressure:.2f}）"
+                f"Recently reset ({features.hours_since_last_reset:.1f} hours ago), "
+                f"low time pressure ({features.time_pressure:.2f})"
             )
         elif features.time_pressure < 0.5:
             reasons.append(
-                f"距上次 reset {features.hours_since_last_reset:.1f} 小时，"
-                f"接近历史中位间隔 {_format_interval(features.median_reset_interval, self._default_interval)}"
+                f"{features.hours_since_last_reset:.1f} hours since last reset, "
+                f"close to historical median interval {_format_interval(features.median_reset_interval, self._default_interval)}"
             )
         elif features.time_pressure < 0.8:
             reasons.append(
-                f"距上次 reset 已 {features.hours_since_last_reset:.1f} 小时，"
-                f"超过历史中位间隔 {_format_interval(features.median_reset_interval, self._default_interval)}，"
-                f"但概率仍由信号证据主导"
+                f"{features.hours_since_last_reset:.1f} hours since last reset, "
+                f"exceeds historical median interval {_format_interval(features.median_reset_interval, self._default_interval)}, "
+                f"but probability is still dominated by signal evidence"
             )
         else:
             reasons.append(
-                f"距上次 reset 已 {features.hours_since_last_reset:.1f} 小时，"
-                f"明显超过历史中位间隔 {_format_interval(features.median_reset_interval, self._default_interval)}，"
-                f"时间因素小幅提升基线概率"
+                f"{features.hours_since_last_reset:.1f} hours since last reset, "
+                f"well beyond historical median interval {_format_interval(features.median_reset_interval, self._default_interval)}, "
+                f"time factor slightly raises baseline probability"
             )
 
         if features.evidence_score >= 0.7:
             reasons.append(
-                f"检测到强 reset 证据（evidence_score={features.evidence_score:.2f}），"
-                f"概率显著上升"
+                f"Strong reset evidence detected (evidence_score={features.evidence_score:.2f}), "
+                f"probability rises significantly"
             )
         elif features.evidence_score >= 0.4:
             reasons.append(
-                f"检测到中等 reset 证据（evidence_score={features.evidence_score:.2f}）"
+                f"Moderate reset evidence detected (evidence_score={features.evidence_score:.2f})"
             )
         elif features.evidence_score > 0.0:
             reasons.append(
-                f"检测到微弱 reset 证据（evidence_score={features.evidence_score:.2f}），"
-                f"不足以确认"
+                f"Weak reset evidence detected (evidence_score={features.evidence_score:.2f}), "
+                f"insufficient to confirm"
             )
         else:
-            reasons.append("未检测到显著 reset 信号，概率受时间先验限制")
+            reasons.append("No significant reset signal detected; probability constrained by time prior")
 
         if main_factors:
             top = main_factors[0]
-            reasons.append(f"主要因素：{top.factor}（{top.impact}）")
+            reasons.append(f"Main factor: {top.factor} ({top.impact})")
 
         return reasons
 

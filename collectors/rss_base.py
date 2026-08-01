@@ -1,9 +1,9 @@
 """
-RSS 基础收集器。
+Base RSS collector.
 
-提供通用的 RSS Feed 解析、条目转换、去重逻辑。
-所有 RSS 类收集器（TiboRSSCollector、OpenAIRSSCollector 等）
-继承此类以复用公共逻辑。
+Provides common RSS feed parsing, entry conversion, and deduplication logic.
+All RSS-based collectors (TiboRSSCollector, OpenAIRSSCollector, etc.)
+inherit from this class to reuse shared logic.
 """
 
 from __future__ import annotations
@@ -20,17 +20,17 @@ from model.data_models import Tweet
 
 
 def _strip_html(text: str) -> str:
-    """移除 HTML 标签，保留纯文本"""
+    """Remove HTML tags and keep plain text"""
     clean = re.sub(r"<[^>]+>", "", text)
     return re.sub(r"\s+", " ", clean).strip()
 
 
 def _parse_entry_time(entry: Any) -> datetime:
     """
-    从 RSS 条目解析发布时间。
+    Parse the publication time from an RSS entry.
 
-    优先使用 published_parsed（time.struct_time），
-    回退到 updated_parsed，最后使用当前时间。
+    Prefer published_parsed (time.struct_time),
+    fall back to updated_parsed, and finally use the current time.
     """
     for field_name in ("published_parsed", "updated_parsed"):
         st = getattr(entry, field_name, None)
@@ -48,9 +48,9 @@ def _parse_entry_time(entry: Any) -> datetime:
 
 def _build_dedup_key(tweet: Tweet) -> str:
     """
-    生成去重键。
+    Generate a deduplication key.
 
-    优先使用 URL，否则使用正文哈希。
+    Prefer URL; otherwise use the text hash.
     """
     if tweet.url:
         return tweet.url
@@ -59,12 +59,12 @@ def _build_dedup_key(tweet: Tweet) -> str:
 
 class BaseRSSCollector(BaseCollector):
     """
-    RSS 基础收集器。
+    Base RSS collector.
 
-    支持配置多个 RSS URL，自动解析发布时间，
-    提取标题和正文，去除重复内容。
+    Supports configuring multiple RSS URLs, automatically parses publication time,
+    extracts title and summary, and removes duplicate content.
 
-    子类只需指定 feed_urls 和 source_name。
+    Subclasses only need to specify feed_urls and source_name.
     """
 
     def __init__(
@@ -80,18 +80,18 @@ class BaseRSSCollector(BaseCollector):
         self._authority_score = authority_score
 
     def collect(self) -> list[Tweet]:
-        """从所有配置的 RSS URL 收集数据"""
+        """Collect data from all configured RSS URLs"""
         all_tweets: list[Tweet] = []
         for url in self._feed_urls:
             try:
                 tweets = self._fetch_feed(url)
                 all_tweets.extend(tweets)
             except Exception as e:
-                print(f"  ⚠ RSS 获取失败 [{url}]: {e}")
+                print(f"  ⚠ RSS fetch failed [{url}]: {e}")
         return self._deduplicate(all_tweets)
 
     def _fetch_feed(self, url: str) -> list[Tweet]:
-        """获取并解析单个 RSS Feed"""
+        """Fetch and parse a single RSS feed"""
         feed = feedparser.parse(
             url,
             request_headers={"User-Agent": "WillTiboReset/1.0"},
@@ -104,7 +104,7 @@ class BaseRSSCollector(BaseCollector):
         return tweets
 
     def _entry_to_tweet(self, entry: Any) -> Optional[Tweet]:
-        """将 feedparser 条目转换为 Tweet"""
+        """Convert a feedparser entry into a Tweet"""
         title = getattr(entry, "title", "") or ""
         summary = (
             getattr(entry, "summary", "")
@@ -135,7 +135,7 @@ class BaseRSSCollector(BaseCollector):
         )
 
     def _deduplicate(self, tweets: list[Tweet]) -> list[Tweet]:
-        """基于 URL 或正文哈希去重"""
+        """Deduplicate based on URL or text hash"""
         seen: set[str] = set()
         result: list[Tweet] = []
         for tweet in tweets:

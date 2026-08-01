@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-WillTiboReset - 一键预测脚本
+WillTiboReset - One-click prediction script
 
-运行: python predict.py
-输出: output/prediction.json
+Run: python predict.py
+Output: output/prediction.json
 
-自动完成：
-  1. 获取最新数据（Tibo / OpenAI / Community RSS）
-  2. 分析文本信号（Gemini LLM）
-  3. 运行预测模型（Adaptive Bayesian Survival Model）
-  4. 生成最终预测文件 output/prediction.json
+Automatically completes:
+  1. Fetch latest data (Tibo / OpenAI / Community RSS)
+  2. Analyze text signals (Gemini LLM)
+  3. Run prediction model (Adaptive Bayesian Survival Model)
+  4. Generate final prediction file output/prediction.json
 
-输出格式：
+Output format:
 {
   "updated_at": "2025-07-31T12:00:00+00:00",
   "prediction": {
@@ -32,7 +32,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# 确保项目根目录在 sys.path 中
+# Ensure the project root is in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -55,17 +55,17 @@ from model.survival_model import ResetPredictor, build_features
 
 
 # ──────────────────────────────────────────────
-# 数据采集
+# Data collection
 # ──────────────────────────────────────────────
 
 def collect_data() -> list[Tweet]:
     """
-    获取最新数据：运行所有 Collector 并去重。
+    Fetch latest data: run all collectors and deduplicate.
 
-    采集源：
-      - TiboRSSCollector: Tibo 相关 RSS Feed
-      - OpenAIRSSCollector: OpenAI 官方 RSS Feed
-      - CommunityCollector: 社区 RSS + mock 数据
+    Sources:
+      - TiboRSSCollector: Tibo-related RSS feeds
+      - OpenAIRSSCollector: OpenAI official RSS feeds
+      - CommunityCollector: community RSS + mock data
     """
     all_tweets: list[Tweet] = []
 
@@ -78,7 +78,7 @@ def collect_data() -> list[Tweet]:
     community = CommunityCollector(timeout=config.rss_request_timeout)
     all_tweets.extend(community.collect())
 
-    # 全局去重
+    # Global deduplication
     seen: set[str] = set()
     result: list[Tweet] = []
     for t in all_tweets:
@@ -91,26 +91,26 @@ def collect_data() -> list[Tweet]:
 
 
 def create_analyzer() -> LLMAnalyzer:
-    """根据配置创建 LLM 分析器。配置 DeepSeek 时优先使用，否则回退到 Mock 分析器。"""
+    """Create an LLM analyzer based on configuration. DeepSeek is preferred when configured; otherwise fall back to Mock."""
     if config.has_deepseek_credentials:
         return DeepSeekAnalyzer(
             api_key=config.deepseek_api_key,
             model=config.deepseek_model,
         )
-    print("  ⚠ DEEPSEEK_API_KEY 未配置，使用 MockLLMAnalyzer 进行本地验证")
+    print("  ⚠ DEEPSEEK_API_KEY not configured; using MockLLMAnalyzer for local validation")
     return MockLLMAnalyzer()
 
 
 def validate_configuration() -> None:
-    """在运行前提示缺失配置，但允许本地验证时回退到 mock/已有数据。"""
+    """Warn about missing configuration before running, allowing local validation to fall back to mock/existing data."""
     if not config.has_deepseek_credentials:
-        print("  ⚠ DEEPSEEK_API_KEY 未配置，将使用 MockLLMAnalyzer")
+        print("  ⚠ DEEPSEEK_API_KEY not configured; will use MockLLMAnalyzer")
     if not config.rss_feeds.get("tibo"):
-        print("  ⚠ TIBO_RSS_URLS 未配置，将依赖已有数据或社区 mock 数据")
+        print("  ⚠ TIBO_RSS_URLS not configured; will rely on existing data or community mock data")
 
 
 # ──────────────────────────────────────────────
-# 置信度计算
+# Confidence computation
 # ──────────────────────────────────────────────
 
 def compute_confidence(
@@ -119,12 +119,12 @@ def compute_confidence(
     llm_confidence: float,
 ) -> str:
     """
-    计算预测置信度。
+    Compute prediction confidence.
 
-    综合 3 个因素：
-      - 概率清晰度（距离 0.5 越远越确定）
-      - LLM 置信度
-      - 是否有历史数据
+    Combines 3 factors:
+      - Probability clarity (farther from 0.5 is more certain)
+      - LLM confidence
+      - Whether historical data exists
     """
     clarity = abs(prob_24h - 0.5) * 2  # 0-1
     score = clarity * 0.6 + llm_confidence * 0.3
@@ -140,34 +140,34 @@ def compute_confidence(
 
 
 # ──────────────────────────────────────────────
-# 主流程
+# Main pipeline
 # ──────────────────────────────────────────────
 
 def main() -> int:
     config.ensure_dirs()
     validate_configuration()
 
-    print("WillTiboReset — 预测引擎")
+    print("WillTiboReset — Prediction Engine")
     print("=" * 50)
 
-    # ── 1. 获取最新数据 ──
-    print("\n[1/4] 获取最新数据...")
+    # ── 1. Fetch latest data ──
+    print("\n[1/4] Fetching latest data...")
     tweets = collect_data()
 
-    # 保存到 tweets.json
+    # Save to tweets.json
     tweet_collector = TweetCollector(config.tweets_path)
     tweet_collector.save(tweets)
-    print(f"  收集信号: {len(tweets)} 条")
+    print(f"  Signals collected: {len(tweets)} tweets")
 
-    # 加载历史 reset 事件
+    # Load historical reset events
     reset_collector = ResetHistoryCollector(config.reset_history_path)
     events = reset_collector.collect()
-    print(f"  历史重置事件: {len(events)} 条")
+    print(f"  Historical reset events: {len(events)} events")
 
-    # ── 2. 分析文本信号 ──
-    print("\n[2/4] 分析文本信号...")
+    # ── 2. Analyze text signals ──
+    print("\n[2/4] Analyzing text signals...")
     analyzer = create_analyzer()
-    print(f"  分析器: {analyzer.__class__.__name__}")
+    print(f"  Analyzer: {analyzer.__class__.__name__}")
 
     signal_scores = []
     batch_scores = None
@@ -181,26 +181,26 @@ def main() -> int:
         print(f"  official_change:     {batch_scores.official_change:.2f}")
         print(f"  llm_confidence:      {batch_scores.confidence:.2f}")
 
-    # 统计特征提取
+    # Statistical feature extraction
     signal_analyzer = SignalAnalyzer()
     analysis_features = signal_analyzer.analyze(tweets, events)
 
     if analysis_features.hours_since_last_reset is not None:
-        print(f"  距上次重置: {analysis_features.hours_since_last_reset:.1f}h")
+        print(f"  Hours since last reset: {analysis_features.hours_since_last_reset:.1f}h")
     else:
-        print("  距上次重置: 无历史记录")
+        print("  Hours since last reset: no historical record")
 
-    # ── 3. 加载模型状态并运行预测模型 ──
-    print("\n[3/4] 加载模型状态...")
+    # ── 3. Load model state and run prediction model ──
+    print("\n[3/4] Loading model state...")
     state_manager = ModelStateManager(config.model_state_path)
     model_state = state_manager.load()
     if model_state is not None:
-        print(f"  已加载 model_state: {model_state.sample_count} 个 interval")
-        print(f"  后验平均间隔: {model_state.average_interval_hours:.1f}h")
+        print(f"  Loaded model_state: {model_state.sample_count} intervals")
+        print(f"  Posterior average interval: {model_state.average_interval_hours:.1f}h")
     else:
-        print("  未找到 model_state.json，将使用默认先验参数")
+        print("  model_state.json not found; will use default prior parameters")
 
-    print("\n[3/4] 运行预测模型...")
+    print("\n[3/4] Running prediction model...")
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
         average_reset_interval=analysis_features.avg_reset_interval_hours,
@@ -219,7 +219,7 @@ def main() -> int:
     )
     explanation = predictor.predict(pred_features)
 
-    print(f"  模型: {predictor.model_version}")
+    print(f"  Model: {predictor.model_version}")
     print(f"  Hazard rate:   {explanation.hazard_rate:.4f}/h")
     print(f"  Time pressure: {explanation.time_pressure:.2f}")
     if explanation.time_ratio is not None:
@@ -230,12 +230,12 @@ def main() -> int:
         bar = "█" * bar_len + "░" * (30 - bar_len)
         print(f"  {horizon:>4s}: {prob:.1%}  {bar}")
 
-    print("\n  主要因素:")
+    print("\n  Main factors:")
     for factor in explanation.main_factors:
         print(f"    • {factor.factor}: {factor.impact}")
 
-    # ── 4. 生成预测文件 ──
-    print("\n[4/4] 生成预测文件...")
+    # ── 4. Generate prediction file ──
+    print("\n[4/4] Generating prediction file...")
 
     prob_24h = explanation.probability.get("24h", 0.0)
     has_history = analysis_features.hours_since_last_reset is not None
@@ -289,26 +289,26 @@ def main() -> int:
         json.dumps(output, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    print(f"  已保存: {output_path}")
+    print(f"  Saved: {output_path}")
 
-    # ── 5. 更新预测历史与性能报告 ──
-    print("\n[5/4] 更新预测历史与校准报告...")
+    # ── 5. Update prediction history and performance report ──
+    print("\n[5/4] Updating prediction history and calibration report...")
     append_prediction(
         config.prediction_history_path,
         prediction_dict,
         signals_snapshot,
         actual_result=None,
     )
-    print(f"  已保存: {config.prediction_history_path}")
+    print(f"  Saved: {config.prediction_history_path}")
 
     update_performance(
         config.prediction_history_path,
         config.model_performance_path,
     )
-    print(f"  已保存: {config.model_performance_path}")
+    print(f"  Saved: {config.model_performance_path}")
 
     print("\n" + "=" * 50)
-    print("预测完成。")
+    print("Prediction complete.")
     return 0
 
 

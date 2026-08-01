@@ -1,4 +1,4 @@
-"""测试模型状态更新脚本"""
+"""Tests for model state update script"""
 
 import json
 from datetime import datetime, timedelta, timezone
@@ -10,10 +10,10 @@ from update_model import update_model_state
 
 
 class TestUpdateModelState:
-    """update_model_state 测试"""
+    """Tests for update_model_state"""
 
     def test_no_history_file(self, tmp_path):
-        """无历史数据时使用先验"""
+        """Use prior when there is no history"""
         history_path = tmp_path / "reset_history.json"
 
         state = update_model_state(reset_history_path=history_path)
@@ -22,7 +22,7 @@ class TestUpdateModelState:
         assert state.average_interval_hours == 48.0
 
     def test_with_history(self, tmp_path):
-        """有历史数据时计算统计量"""
+        """Compute statistics when history exists"""
         history_path = tmp_path / "reset_history.json"
         base = datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc)
         events = [
@@ -41,7 +41,7 @@ class TestUpdateModelState:
         assert state.interval_confidence > 0.0
 
     def test_prior_weight_decreases_with_samples(self, tmp_path):
-        """样本越多先验权重越低"""
+        """Prior weight decreases as sample count increases"""
         history_path = tmp_path / "reset_history.json"
         base = datetime(2025, 7, 1, 0, 0, tzinfo=timezone.utc)
         events = [

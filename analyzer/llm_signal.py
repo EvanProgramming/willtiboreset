@@ -1,17 +1,17 @@
 """
-LLM 信号分析器。
+LLM signal analyzer.
 
-将自然语言文本（推文、新闻）转换为结构化机器学习特征。
-LLM 不负责直接预测 reset，只负责信号提取。
-输出 SignalScores 将传递给 model/survival_model.py 作为预测输入。
+Converts natural language text (tweets, news) into structured machine-learning features.
+The LLM does not directly predict reset; it only extracts signals.
+Output SignalScores are passed to model/survival_model.py as prediction input.
 
-通用接口：
+Common interface:
     class LLMAnalyzer:
         analyze(texts: list[str]) -> list[SignalScores]
 
-当前实现：
-    - GeminiAnalyzer: 使用 Gemini API（优先）
-    - MockLLMAnalyzer: 基于关键词匹配（无需 API key，用于测试）
+Current implementations:
+    - GeminiAnalyzer: Uses Gemini API (preferred)
+    - MockLLMAnalyzer: Keyword matching (no API key needed, for testing)
 """
 
 from __future__ import annotations
@@ -25,40 +25,40 @@ from model.data_models import SignalScores, Tweet
 
 
 # ──────────────────────────────────────────────
-# 通用接口
+# Common interface
 # ──────────────────────────────────────────────
 
 class LLMAnalyzer(ABC):
     """
-    LLM 信号分析器抽象基类。
+    Abstract base class for LLM signal analyzers.
 
-    所有分析器（Gemini、OpenAI、Mock 等）继承此类。
-    核心方法 analyze() 接收文本列表，返回每条文本的 SignalScores。
+    All analyzers (Gemini, OpenAI, Mock, etc.) inherit from this class.
+    The core method analyze() receives a list of texts and returns SignalScores for each.
     """
 
     @abstractmethod
     def analyze(self, texts: list[str]) -> list[SignalScores]:
         """
-        分析文本列表，返回结构化信号分数。
+        Analyze a list of texts and return structured signal scores.
 
         Args:
-            texts: 待分析的自然语言文本列表
+            texts: List of natural language texts to analyze
 
         Returns:
-            与输入等长的 SignalScores 列表，每个元素对应一条文本
+            A list of SignalScores with the same length as the input, one per text
         """
         ...
 
     def analyze_tweets(self, tweets: list[Tweet]) -> list[SignalScores]:
-        """便捷方法：直接分析 Tweet 对象列表"""
+        """Convenience method: analyze a list of Tweet objects directly"""
         return self.analyze([t.text for t in tweets])
 
     def analyze_batch(self, texts: list[str]) -> SignalScores:
         """
-        批量分析并返回聚合信号分数。
+        Batch analyze and return aggregated signal scores.
 
-        对所有文本的 SignalScores 取平均值，
-        适用于需要整体信号概览的场景。
+        Averages SignalScores across all texts,
+        suitable for scenarios requiring an overall signal overview.
         """
         scores = self.analyze(texts)
         if not scores:
@@ -68,7 +68,7 @@ class LLMAnalyzer(ABC):
                 official_change=0.0,
                 reset_confirmation=0.0,
                 confidence=0.0,
-                reason=["无输入文本"],
+                reason=["No input texts"],
             )
         n = len(scores)
         all_reasons: list[str] = []
@@ -80,32 +80,32 @@ class LLMAnalyzer(ABC):
             official_change=sum(s.official_change for s in scores) / n,
             reset_confirmation=sum(s.reset_confirmation for s in scores) / n,
             confidence=sum(s.confidence for s in scores) / n,
-            reason=all_reasons[:5] if all_reasons else ["批量聚合"],
+            reason=all_reasons[:5] if all_reasons else ["Batch aggregation"],
         )
 
 
 # ──────────────────────────────────────────────
-# Gemini 实现
+# Gemini implementation
 # ──────────────────────────────────────────────
 
-_SYSTEM_PROMPT = """你是一个信号分析助手，专门分析关于 ChatGPT/Codex 使用额度重置的社交媒体帖子和新闻。
+_SYSTEM_PROMPT = """You are a signal analysis assistant specialized in analyzing social media posts and news about ChatGPT/Codex usage quota resets.
 
-对于每条文本，请评估以下维度（0.0 到 1.0 的浮点数）：
+For each text, evaluate the following dimensions (floating point numbers from 0.0 to 1.0):
 
-1. reset_intent: 文本是否讨论或暗示即将发生额度重置（0=完全不相关，1=明确讨论 reset 即将发生）
-2. limit_complaint: 文本是否反映用户对使用限制/额度耗尽的抱怨（0=无，1=明确抱怨 limit）
-3. official_change: 文本是否来自官方或暗示产品/政策变更（0=无，1=明确官方变更）
-4. reset_confirmation: 文本是否明确确认 reset 已经发生或即将发生（0=无，1=确认，权重最高）
-5. confidence: 你对以上评分的整体置信度（0=非常不确定，1=非常确定）
+1. reset_intent: Does the text discuss or imply an upcoming quota reset? (0=completely irrelevant, 1=explicitly discusses an imminent reset)
+2. limit_complaint: Does the text reflect user complaints about usage limits/quota exhaustion? (0=none, 1=explicit limit complaint)
+3. official_change: Does the text come from an official source or imply a product/policy change? (0=none, 1=explicit official change)
+4. reset_confirmation: Does the text explicitly confirm that a reset has occurred or will occur? (0=none, 1=confirmed, highest weight)
+5. confidence: Your overall confidence in the above scores (0=very uncertain, 1=very certain)
 
-评分原则：
-- 用户单纯抱怨 limit 不等于 reset 即将发生，limit_complaint 不应直接推高 reset 概率。
-- Tibo 或官方明确说“已经 reset / 即将 reset”时，reset_confirmation 应该高。
-- 官方发布新功能但不提 reset 时，official_change 可以高，但 reset_confirmation 应保持低。
+Scoring principles:
+- A user simply complaining about limit does not mean a reset is imminent; limit_complaint should not directly push up reset probability.
+- When Tibo or an official source clearly says "already reset / will reset soon", reset_confirmation should be high.
+- When an official release mentions new features but not reset, official_change can be high while reset_confirmation should remain low.
 
-同时提供 reason 列表，简述评分依据（每个理由不超过一句话）。
+Also provide a reason list briefly explaining the scoring rationale (each reason no more than one sentence).
 
-请严格以 JSON 格式返回结果。返回一个 JSON 数组，每个元素对应一条输入文本：
+Return results strictly in JSON format. Return a JSON array where each element corresponds to one input text:
 [
   {
     "reset_intent": 0.0,
@@ -113,16 +113,16 @@ _SYSTEM_PROMPT = """你是一个信号分析助手，专门分析关于 ChatGPT/
     "official_change": 0.0,
     "reset_confirmation": 0.0,
     "confidence": 0.0,
-    "reason": ["原因1", "原因2"]
+    "reason": ["reason1", "reason2"]
   }
 ]
 
-不要包含任何其他文字，只返回 JSON 数组。"""
+Do not include any other text; return only the JSON array."""
 
 
 def _extract_json_array(text: str) -> list[dict]:
-    """从 LLM 响应中提取 JSON 数组"""
-    # 尝试直接解析
+    """Extract JSON array from LLM response"""
+    # Try direct parsing first
     text = text.strip()
     try:
         result = json.loads(text)
@@ -131,7 +131,7 @@ def _extract_json_array(text: str) -> list[dict]:
     except json.JSONDecodeError:
         pass
 
-    # 尝试从 markdown 代码块中提取
+    # Try extracting from markdown code block
     match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
     if match:
         try:
@@ -141,7 +141,7 @@ def _extract_json_array(text: str) -> list[dict]:
         except json.JSONDecodeError:
             pass
 
-    # 尝试找到第一个 [ 和最后一个 ]
+    # Try finding the first [ and last ]
     start = text.find("[")
     end = text.rfind("]")
     if start != -1 and end != -1 and end > start:
@@ -156,7 +156,7 @@ def _extract_json_array(text: str) -> list[dict]:
 
 
 def _dict_to_scores(d: dict) -> SignalScores:
-    """将字典转换为 SignalScores，处理类型和默认值，兼容旧字段名"""
+    """Convert dict to SignalScores, handling types, defaults, and legacy field names"""
     def _get_float(key: str, fallback_keys: Optional[list[str]] = None) -> float:
         keys = [key]
         if fallback_keys:
@@ -190,11 +190,11 @@ def _dict_to_scores(d: dict) -> SignalScores:
 
 class GeminiAnalyzer(LLMAnalyzer):
     """
-    Gemini API 信号分析器。
+    Gemini API signal analyzer.
 
-    使用 Google Gemini API 进行自然语言分析。
-    需要配置 GEMINI_API_KEY 环境变量。
-    google-generativeai 包为延迟导入，未安装时给出清晰错误。
+    Uses the Google Gemini API for natural language analysis.
+    Requires GEMINI_API_KEY environment variable.
+    The google-generativeai package is lazily imported; a clear error is raised if not installed.
     """
 
     def __init__(self, api_key: str, model: str = "gemini-2.0-flash"):
@@ -203,15 +203,15 @@ class GeminiAnalyzer(LLMAnalyzer):
         self._client = None
 
     def _ensure_client(self):
-        """延迟初始化 Gemini 客户端"""
+        """Lazily initialize the Gemini client"""
         if self._client is not None:
             return
         try:
             import google.generativeai as genai
         except ImportError:
             raise ImportError(
-                "google-generativeai 未安装。"
-                "请运行: pip install google-generativeai"
+                "google-generativeai is not installed. "
+                "Please run: pip install google-generativeai"
             )
         genai.configure(api_key=self._api_key)
         self._client = genai.GenerativeModel(
@@ -220,13 +220,13 @@ class GeminiAnalyzer(LLMAnalyzer):
         )
 
     def analyze(self, texts: list[str]) -> list[SignalScores]:
-        """调用 Gemini API 分析文本"""
+        """Call Gemini API to analyze texts"""
         if not texts:
             return []
 
         self._ensure_client()
 
-        # 构造用户输入
+        # Build user input
         lines = []
         for i, text in enumerate(texts, 1):
             lines.append(f"[{i}] {text}")
@@ -235,10 +235,10 @@ class GeminiAnalyzer(LLMAnalyzer):
         response = self._client.generate_content(user_input)
         response_text = response.text
 
-        # 解析 JSON 响应
+        # Parse JSON response
         raw_list = _extract_json_array(response_text)
 
-        # 确保返回长度与输入一致
+        # Ensure output length matches input
         results: list[SignalScores] = []
         for i, text in enumerate(texts):
             if i < len(raw_list):
@@ -250,22 +250,22 @@ class GeminiAnalyzer(LLMAnalyzer):
                     official_change=0.0,
                     reset_confirmation=0.0,
                     confidence=0.0,
-                    reason=["LLM 响应不完整"],
+                    reason=["LLM response incomplete"],
                 ))
         return results
 
 
 # ──────────────────────────────────────────────
-# DeepSeek 实现（OpenAI 兼容 API）
+# DeepSeek implementation (OpenAI-compatible API)
 # ──────────────────────────────────────────────
 
 class DeepSeekAnalyzer(LLMAnalyzer):
     """
-    DeepSeek API 信号分析器。
+    DeepSeek API signal analyzer.
 
-    通过 OpenAI 兼容接口调用 DeepSeek 模型。
-    需要配置 DEEPSEEK_API_KEY 环境变量。
-    openai 包为延迟导入，未安装时给出清晰错误。
+    Calls the DeepSeek model via an OpenAI-compatible interface.
+    Requires DEEPSEEK_API_KEY environment variable.
+    The openai package is lazily imported; a clear error is raised if not installed.
     """
 
     def __init__(
@@ -280,14 +280,14 @@ class DeepSeekAnalyzer(LLMAnalyzer):
         self._client = None
 
     def _ensure_client(self):
-        """延迟初始化 DeepSeek 客户端"""
+        """Lazily initialize the DeepSeek client"""
         if self._client is not None:
             return
         try:
             from openai import OpenAI
         except ImportError:
             raise ImportError(
-                "openai 未安装。请运行: pip install openai"
+                "openai is not installed. Please run: pip install openai"
             )
         self._client = OpenAI(
             api_key=self._api_key,
@@ -295,7 +295,7 @@ class DeepSeekAnalyzer(LLMAnalyzer):
         )
 
     def analyze(self, texts: list[str]) -> list[SignalScores]:
-        """调用 DeepSeek API 分析文本"""
+        """Call DeepSeek API to analyze texts"""
         if not texts:
             return []
 
@@ -329,36 +329,36 @@ class DeepSeekAnalyzer(LLMAnalyzer):
                     official_change=0.0,
                     reset_confirmation=0.0,
                     confidence=0.0,
-                    reason=["LLM 响应不完整"],
+                    reason=["LLM response incomplete"],
                 ))
         return results
 
 
 # ──────────────────────────────────────────────
-# Mock 实现（用于测试和无 API key 环境）
+# Mock implementation (for testing and environments without API keys)
 # ──────────────────────────────────────────────
 
-# 关键词映射表
+# Keyword mapping tables (English only)
 _RESET_KEYWORDS = [
-    "reset", "重置", "额度重置", "usage reset", "limit reset",
-    "quota reset", "resetted", "has been reset",
+    "reset", "usage reset", "limit reset", "quota reset",
+    "resetted", "has been reset",
 ]
 _LIMIT_KEYWORDS = [
-    "limit", "限制", "额度", "quota", "用完", "exhausted",
-    "rate limit", "usage limit", "capacity", "上限", "达到上限",
+    "limit", "quota", "exhausted", "rate limit", "usage limit",
+    "capacity", "capacity limit", "hit the cap",
 ]
 _RELEASE_KEYWORDS = [
-    "release", "发布", "update", "更新", "announce", "公告",
-    "launch", "推出", "new version", "rollout", "deploy",
+    "release", "update", "announce", "launch",
+    "new version", "rollout", "deploy",
 ]
 _PRESSURE_KEYWORDS = [
-    "please", "需要", "希望", "want", "when", "什么时候",
-    "waiting", "等待", "急需", "anyone", "有人", "谁知道",
+    "please", "want", "when", "waiting", "anyone",
+    "urgent", "anyone knows", "does anyone",
 ]
 
 
 def _keyword_score(text_lower: str, keywords: list[str]) -> float:
-    """基于关键词匹配计算分数"""
+    """Compute score based on keyword matching"""
     matches = sum(1 for kw in keywords if kw in text_lower)
     if matches == 0:
         return 0.0
@@ -371,11 +371,11 @@ def _keyword_score(text_lower: str, keywords: list[str]) -> float:
 
 class MockLLMAnalyzer(LLMAnalyzer):
     """
-    Mock LLM 分析器。
+    Mock LLM analyzer.
 
-    基于关键词匹配，无需 API key 或网络连接。
-    用于测试、开发和无网络环境。
-    评分逻辑简单但输出格式与 GeminiAnalyzer 完全一致。
+    Based on keyword matching; no API key or network connection required.
+    Used for testing, development, and offline environments.
+    Scoring logic is simple but output format is fully consistent with GeminiAnalyzer.
     """
 
     def analyze(self, texts: list[str]) -> list[SignalScores]:
@@ -388,27 +388,27 @@ class MockLLMAnalyzer(LLMAnalyzer):
             release = _keyword_score(text_lower, _RELEASE_KEYWORDS)
             pressure = _keyword_score(text_lower, _PRESSURE_KEYWORDS)
 
-            # 如果完全无匹配，置信度低
+            # Low confidence if there is no match at all
             has_any = any([reset, limit, release, pressure])
             confidence = 0.7 if has_any else 0.3
 
             reasons: list[str] = []
             if reset:
-                reasons.append("检测到重置相关关键词")
+                reasons.append("Reset-related keywords detected")
             if limit:
-                reasons.append("检测到限制/额度相关关键词")
+                reasons.append("Limit/quota-related keywords detected")
             if release:
-                reasons.append("检测到发布/更新相关关键词")
+                reasons.append("Release/update-related keywords detected")
             if pressure:
-                reasons.append("检测到社区压力/期待相关关键词")
+                reasons.append("Community pressure/expectation keywords detected")
             if not has_any:
-                reasons.append("未检测到相关关键词，可能为无关内容")
+                reasons.append("No relevant keywords detected; possibly unrelated content")
 
             results.append(SignalScores(
                 reset_intent=reset,
                 limit_complaint=limit,
                 official_change=release,
-                reset_confirmation=reset if "reset" in text_lower or "重置" in text_lower else 0.0,
+                reset_confirmation=reset if "reset" in text_lower else 0.0,
                 confidence=confidence,
                 reason=reasons,
             ))

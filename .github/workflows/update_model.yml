@@ -3,7 +3,7 @@ name: Update Model State
 on:
   workflow_dispatch:
   schedule:
-    # 每天 UTC 00:00 运行一次
+    # Run daily at UTC 00:00
     - cron: '0 0 * * *'
 
 permissions:

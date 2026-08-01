@@ -1,4 +1,4 @@
-"""测试 LLM 信号分析器"""
+"""Tests for the LLM signal analyzer"""
 
 from datetime import datetime, timezone
 
@@ -13,33 +13,33 @@ from model.data_models import SignalScores, Tweet
 
 
 class TestMockLLMAnalyzer:
-    """MockLLMAnalyzer 测试"""
+    """Tests for MockLLMAnalyzer"""
 
     def test_analyze_reset_text(self):
-        """重置相关文本得到高 reset_intent / reset_confirmation"""
+        """Reset-related text yields high reset_intent / reset_confirmation"""
         analyzer = MockLLMAnalyzer()
-        scores = analyzer.analyze(["Codex 额度终于重置了！reset confirmed"])
+        scores = analyzer.analyze(["Codex usage limit has been reset! reset confirmed"])
         assert len(scores) == 1
         assert scores[0].reset_intent > 0.5
         assert scores[0].reset_confirmation > 0.5
         assert scores[0].confidence > 0.5
 
     def test_analyze_limit_text(self):
-        """限制相关文本得到高 limit_complaint"""
+        """Limit-related text yields high limit_complaint"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["I hit the rate limit, quota exhausted"])
         assert len(scores) == 1
         assert scores[0].limit_complaint > 0.5
 
     def test_analyze_release_text(self):
-        """发布相关文本得到高 official_change"""
+        """Release-related text yields high official_change"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["OpenAI announces new update, version release"])
         assert len(scores) == 1
         assert scores[0].official_change > 0.5
 
     def test_analyze_irrelevant_text(self):
-        """无关文本所有分数接近 0"""
+        """Irrelevant text has all scores near 0"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["The weather in San Francisco is sunny today"])
         assert len(scores) == 1
@@ -50,10 +50,10 @@ class TestMockLLMAnalyzer:
         assert scores[0].confidence < 0.5
 
     def test_analyze_multiple_texts(self):
-        """分析多条文本"""
+        """Analyze multiple texts"""
         analyzer = MockLLMAnalyzer()
         texts = [
-            "Codex 额度重置了",
+            "Codex usage has been reset",
             "OpenAI announces GPT-5",
             "The weather is nice today",
         ]
@@ -64,12 +64,12 @@ class TestMockLLMAnalyzer:
         assert scores[2].reset_intent == 0.0
 
     def test_analyze_empty_list(self):
-        """空列表返回空列表"""
+        """Empty list returns empty list"""
         analyzer = MockLLMAnalyzer()
         assert analyzer.analyze([]) == []
 
     def test_output_is_signal_scores(self):
-        """输出类型为 SignalScores"""
+        """Output type is SignalScores"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["test text"])
         assert isinstance(scores[0], SignalScores)
@@ -78,13 +78,13 @@ class TestMockLLMAnalyzer:
         assert isinstance(scores[0].reason, list)
 
     def test_analyze_tweets(self):
-        """直接分析 Tweet 对象"""
+        """Analyze Tweet objects directly"""
         analyzer = MockLLMAnalyzer()
         tweets = [
             Tweet(
                 timestamp=datetime(2025, 7, 30, tzinfo=timezone.utc),
                 author="user",
-                text="Codex 额度重置了 reset",
+                text="Codex usage has been reset",
                 source="community_mock",
             ),
         ]
@@ -93,10 +93,10 @@ class TestMockLLMAnalyzer:
         assert scores[0].reset_intent > 0.5
 
     def test_analyze_batch(self):
-        """批量聚合分析"""
+        """Batch aggregation analysis"""
         analyzer = MockLLMAnalyzer()
         texts = [
-            "Codex 额度重置了 reset",
+            "Codex usage has been reset",
             "rate limit quota exhausted",
             "The weather is nice today",
         ]
@@ -104,18 +104,18 @@ class TestMockLLMAnalyzer:
         assert isinstance(batch, SignalScores)
         assert 0.0 <= batch.reset_intent <= 1.0
         assert isinstance(batch.reason, list)
-        # 有 2 条相关，1 条无关，reset_intent 应该 > 0
+        # 2 relevant and 1 irrelevant, so reset_intent should be > 0
         assert batch.reset_intent > 0
 
     def test_analyze_batch_empty(self):
-        """空输入的批量分析"""
+        """Batch analysis with empty input"""
         analyzer = MockLLMAnalyzer()
         batch = analyzer.analyze_batch([])
         assert batch.reset_intent == 0.0
         assert batch.confidence == 0.0
 
     def test_to_features_compatibility(self):
-        """to_features 输出兼容 survival_model.py"""
+        """to_features output is compatible with survival_model.py"""
         analyzer = MockLLMAnalyzer()
         scores = analyzer.analyze(["Codex reset limit quota"])[0]
         features = scores.to_features()
@@ -130,7 +130,7 @@ class TestMockLLMAnalyzer:
 
 
 class TestExtractJsonArray:
-    """JSON 解析辅助函数测试"""
+    """Tests for JSON extraction helper"""
 
     def test_plain_json(self):
         text = '[{"reset_intent": 0.8, "confidence": 0.9}]'
@@ -156,7 +156,7 @@ class TestExtractJsonArray:
 
 
 class TestDictToScores:
-    """字典转 SignalScores 测试"""
+    """Tests for dict-to-SignalScores conversion"""
 
     def test_valid_dict(self):
         d = {
@@ -172,7 +172,7 @@ class TestDictToScores:
         assert scores.reason == ["reason1", "reason2"]
 
     def test_clamp_values(self):
-        """超出范围的值被截断到 [0, 1]"""
+        """Out-of-range values are clamped to [0, 1]"""
         d = {
             "reset_intent": 1.5,
             "limit_complaint": -0.5,
@@ -203,7 +203,7 @@ class TestDictToScores:
         assert scores.reason == ["single reason string"]
 
     def test_backward_compatible_old_field_names(self):
-        """旧字段名仍可被解析"""
+        """Legacy field names can still be parsed"""
         d = {
             "reset_signal": 0.8,
             "limit_discussion": 0.6,
@@ -217,7 +217,7 @@ class TestDictToScores:
 
 
 class TestGeminiAnalyzer:
-    """GeminiAnalyzer 测试（不调用真实 API）"""
+    """Tests for GeminiAnalyzer (no real API calls)"""
 
     def test_init(self):
         analyzer = GeminiAnalyzer(api_key="fake_key", model="gemini-2.0-flash")
@@ -230,13 +230,13 @@ class TestGeminiAnalyzer:
         assert isinstance(analyzer, LLMAnalyzer)
 
     def test_analyze_empty(self):
-        """空列表不触发 API 调用"""
+        """Empty list does not trigger API call"""
         analyzer = GeminiAnalyzer(api_key="fake_key")
         assert analyzer.analyze([]) == []
 
 
 class TestLLMAnalyzerInterface:
-    """LLMAnalyzer 接口测试"""
+    """Tests for LLMAnalyzer interface"""
 
     def test_mock_is_llm_analyzer(self):
         analyzer = MockLLMAnalyzer()

@@ -1,9 +1,9 @@
 """
-analyzer 模块 - 信号分析器
+analyzer module - signal analyzer
 
-负责对收集到的原始信号进行预处理和特征提取，
-为预测器提供结构化的分析输入。
-当前提供框架实现，后续将接入 LLM 语义分析。
+Responsible for preprocessing and feature extraction on collected raw signals,
+providing structured analysis input for predictors.
+Currently provides a framework implementation; LLM semantic analysis will be integrated later.
 """
 
 from __future__ import annotations
@@ -23,18 +23,18 @@ from analyzer.llm_signal import (
 @dataclass
 class AnalysisFeatures:
     """
-    从原始信号中提取的分析特征。
+    Analysis features extracted from raw signals.
 
-    这些特征将作为预测器的输入，
-    后续可按需扩展更多维度。
+    These features serve as input to predictors;
+    additional dimensions can be extended as needed.
     """
-    # 推文特征
+    # Tweet features
     tweet_count: int = 0
-    recent_tweet_count: int = 0  # 最近 24 小时内的推文数
+    recent_tweet_count: int = 0  # Number of tweets within the last 24 hours
     unique_authors: int = 0
     sample_texts: list[str] = field(default_factory=list)
 
-    # 重置历史特征
+    # Reset history features
     total_reset_events: int = 0
     last_reset_time: Optional[datetime] = None
     hours_since_last_reset: Optional[float] = None
@@ -46,50 +46,50 @@ class AnalysisFeatures:
     reset_interval_count: int = 0
     interval_confidence: float = 0.0
 
-    # 元信息
+    # Metadata
     analysis_timestamp: datetime = field(
         default_factory=lambda: datetime.now(timezone.utc)
     )
 
     def to_signal_descriptions(self) -> list[str]:
-        """转换为人类可读的信号描述列表（供预测器引用）"""
+        """Convert to a human-readable list of signal descriptions (for predictor reference)."""
         signals: list[str] = []
-        signals.append(f"收集到 {self.tweet_count} 条相关推文（{self.unique_authors} 位作者）")
-        signals.append(f"最近 24 小时内有 {self.recent_tweet_count} 条推文")
+        signals.append(f"Collected {self.tweet_count} relevant tweets ({self.unique_authors} authors)")
+        signals.append(f"{self.recent_tweet_count} tweets in the last 24 hours")
 
         if self.hours_since_last_reset is not None:
             signals.append(
-                f"距上次重置已 {self.hours_since_last_reset:.1f} 小时"
+                f"{self.hours_since_last_reset:.1f} hours since last reset"
             )
         else:
-            signals.append("无已知历史重置记录")
+            signals.append("No known historical reset record")
 
         if self.avg_reset_interval_hours is not None:
             signals.append(
-                f"历史平均重置间隔约 {self.avg_reset_interval_hours:.1f} 小时"
+                f"Historical average reset interval ~{self.avg_reset_interval_hours:.1f} hours"
             )
         if self.median_reset_interval_hours is not None:
             signals.append(
-                f"历史中位重置间隔约 {self.median_reset_interval_hours:.1f} 小时"
+                f"Historical median reset interval ~{self.median_reset_interval_hours:.1f} hours"
             )
         if self.interval_confidence > 0:
             signals.append(
-                f"历史间隔估计置信度 {self.interval_confidence:.0%}"
+                f"Historical interval estimate confidence {self.interval_confidence:.0%}"
             )
 
         if self.sample_texts:
             preview = self.sample_texts[:3]
-            signals.append(f"代表性推文摘要: {' | '.join(preview)}")
+            signals.append(f"Representative tweet summaries: {' | '.join(preview)}")
 
         return signals
 
 
 class SignalAnalyzer:
     """
-    信号分析器。
+    Signal analyzer.
 
-    接收原始推文和历史重置事件，
-    提取结构化特征供预测器使用。
+    Receives raw tweets and historical reset events,
+    extracting structured features for predictors.
     """
 
     def analyze(
@@ -99,20 +99,20 @@ class SignalAnalyzer:
         now: Optional[datetime] = None,
     ) -> AnalysisFeatures:
         """
-        分析原始信号并提取特征。
+        Analyze raw signals and extract features.
 
         Args:
-            tweets: 收集到的推文列表
-            reset_events: 历史重置事件列表
-            now: 参考时间点（默认为当前 UTC 时间）
+            tweets: List of collected tweets
+            reset_events: List of historical reset events
+            now: Reference time point (defaults to current UTC time)
 
         Returns:
-            AnalysisFeatures 包含提取出的特征
+            AnalysisFeatures containing extracted features
         """
         if now is None:
             now = datetime.now(timezone.utc)
 
-        # --- 推文特征 ---
+        # --- Tweet features ---
         tweet_count = len(tweets)
         recent_cutoff = now - timedelta(hours=24)
         recent_tweets = [
@@ -124,7 +124,7 @@ class SignalAnalyzer:
             t.text[:120] for t in recent_tweets[:5]
         ]
 
-        # --- 重置历史特征 ---
+        # --- Reset history features ---
         total = len(reset_events)
         last_reset_time: Optional[datetime] = None
         hours_since: Optional[float] = None
@@ -160,7 +160,7 @@ class SignalAnalyzer:
                 min_interval = min(intervals)
                 max_interval = max(intervals)
                 interval_count = len(intervals)
-                # 样本量越大、变异系数越小，置信度越高
+                # Larger sample size and smaller coefficient of variation yield higher confidence
                 interval_confidence = _interval_confidence(
                     interval_count, std_interval, avg_interval
                 )
@@ -185,7 +185,7 @@ class SignalAnalyzer:
 
 
 def _median(values: list[float]) -> float:
-    """计算中位数"""
+    """Compute median"""
     sorted_vals = sorted(values)
     n = len(sorted_vals)
     mid = n // 2
@@ -195,7 +195,7 @@ def _median(values: list[float]) -> float:
 
 
 def _std(values: list[float]) -> float:
-    """计算样本标准差"""
+    """Compute sample standard deviation"""
     n = len(values)
     if n < 2:
         return 0.0
@@ -210,9 +210,9 @@ def _interval_confidence(
     mean: Optional[float],
 ) -> float:
     """
-    基于样本量和变异系数计算 interval 置信度。
+    Compute interval confidence based on sample size and coefficient of variation.
 
-    样本越多、相对波动越小，对平均间隔的估计越可信。
+    More samples and smaller relative variation make the average interval estimate more reliable.
     """
     if count < 1 or not mean or mean <= 0:
         return 0.0
@@ -223,7 +223,7 @@ def _interval_confidence(
 
 
 def _to_aware(dt: datetime) -> datetime:
-    """将 naive datetime 转换为 UTC aware datetime"""
+    """Convert naive datetime to UTC aware datetime"""
     if dt.tzinfo is None:
         return dt.replace(tzinfo=timezone.utc)
     return dt
@@ -232,7 +232,7 @@ def _to_aware(dt: datetime) -> datetime:
 __all__ = [
     "AnalysisFeatures",
     "SignalAnalyzer",
-    # LLM 信号分析
+    # LLM signal analysis
     "LLMAnalyzer",
     "GeminiAnalyzer",
     "MockLLMAnalyzer",

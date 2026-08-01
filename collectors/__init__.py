@@ -1,14 +1,14 @@
 """
-collectors 模块 - 数据收集器
+collectors module - data collectors
 
-负责从各公开互联网信号源收集原始数据。
-当前支持 RSS Feed 和社区 mock 数据，
-后续可扩展为 API 等数据源。
+Responsible for collecting raw data from various public internet signal sources.
+Currently supports RSS feeds and community mock data;
+may be extended to API data sources in the future.
 
-所有 Collector 遵循统一接口：
+All Collectors follow a unified interface:
     collect() -> list[Tweet]
 
-后续模块只依赖 Tweet 结构，不依赖具体数据来源。
+Downstream modules only depend on the Tweet structure, not on specific data sources.
 """
 
 from __future__ import annotations
@@ -23,37 +23,37 @@ from model.data_models import ResetEvent, SignalSource, Tweet
 
 
 class BaseCollector(ABC):
-    """数据收集器抽象基类"""
+    """Abstract base class for data collectors"""
 
     @abstractmethod
     def collect(self) -> list[Any]:
         """
-        收集数据并返回模型对象列表。
-        子类必须实现此方法。
+        Collect data and return a list of model objects.
+        Subclasses must implement this method.
         """
         ...
 
 
 class TweetCollector(BaseCollector):
     """
-    推文收集器。
+    Tweet collector.
 
-    当前实现：从本地 JSON 文件加载已存储的推文。
-    后续扩展：接入 Twitter/X API 实时收集。
+    Current implementation: loads stored tweets from a local JSON file.
+    Future extension: connect to Twitter/X API for real-time collection.
     """
 
     def __init__(self, data_path: Path):
         self._data_path = data_path
 
     def collect(self) -> list[Tweet]:
-        """从本地文件加载推文"""
+        """Load tweets from local file"""
         if not self._data_path.exists():
             return []
         raw = json.loads(self._data_path.read_text(encoding="utf-8"))
         return [Tweet(**item) for item in raw]
 
     def save(self, tweets: list[Tweet]) -> None:
-        """将推文保存到本地文件"""
+        """Save tweets to local file"""
         self._data_path.parent.mkdir(parents=True, exist_ok=True)
         data = [t.model_dump(mode="json") for t in tweets]
         self._data_path.write_text(
@@ -64,24 +64,24 @@ class TweetCollector(BaseCollector):
 
 class ResetHistoryCollector(BaseCollector):
     """
-    重置历史收集器。
+    Reset history collector.
 
-    当前实现：从本地 JSON 文件加载历史重置事件。
-    后续扩展：支持手动录入、社区报告自动归档等。
+    Current implementation: loads historical reset events from a local JSON file.
+    Future extension: support manual entry, automatic archival of community reports, etc.
     """
 
     def __init__(self, data_path: Path):
         self._data_path = data_path
 
     def collect(self) -> list[ResetEvent]:
-        """从本地文件加载重置历史"""
+        """Load reset history from local file"""
         if not self._data_path.exists():
             return []
         raw = json.loads(self._data_path.read_text(encoding="utf-8"))
         return [ResetEvent(**item) for item in raw]
 
     def save(self, events: list[ResetEvent]) -> None:
-        """将重置事件保存到本地文件"""
+        """Save reset events to local file"""
         self._data_path.parent.mkdir(parents=True, exist_ok=True)
         data = [e.model_dump(mode="json") for e in events]
         self._data_path.write_text(
@@ -96,7 +96,7 @@ class ResetHistoryCollector(BaseCollector):
         confidence: float = 1.0,
         notes: str = "",
     ) -> ResetEvent:
-        """添加一条新的重置事件并持久化"""
+        """Add a new reset event and persist it"""
         events = self.collect()
         event = ResetEvent(
             reset_time=reset_time,
@@ -113,7 +113,7 @@ __all__ = [
     "BaseCollector",
     "TweetCollector",
     "ResetHistoryCollector",
-    # RSS 收集器
+    # RSS collectors
     "BaseRSSCollector",
     "TiboRSSCollector",
     "OpenAIRSSCollector",
@@ -121,7 +121,7 @@ __all__ = [
 ]
 
 
-# RSS 收集器导出（放在末尾避免循环导入）
+# RSS collector exports (placed at the end to avoid circular imports)
 from collectors.rss_base import BaseRSSCollector
 from collectors.tibo_rss import TiboRSSCollector
 from collectors.openai_rss import OpenAIRSSCollector
