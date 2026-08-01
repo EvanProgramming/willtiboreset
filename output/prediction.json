@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T09:40:51.022824+00:00",
+  "updated_at": "2026-08-01T10:00:58.469002+00:00",
   "prediction": {
     "within_5h": 1.0,
     "within_24h": 1.0,
@@ -8,7 +8,7 @@
   "confidence": "high",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 102.5308395011111,
+    "hours_since_last_reset": 102.86624119277778,
     "average_reset_interval": 58.96,
     "median_reset_interval": 42.92,
     "interval_uncertainty": 26.4,
@@ -16,23 +16,23 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.739,
-    "time_pressure": 0.9053,
-    "hazard_rate": 0.070764,
-    "evidence_score": 0.7525,
-    "tibo_signal": 0.2095,
-    "community_signal": 0.0411,
-    "release_signal": 0.2258,
+    "time_ratio": 1.7447,
+    "time_pressure": 0.9064,
+    "hazard_rate": 0.071561,
+    "evidence_score": 0.772,
+    "tibo_signal": 0.2137,
+    "community_signal": 0.0466,
+    "release_signal": 0.2072,
     "llm_scores": {
-      "reset_intent": 0.15,
-      "limit_complaint": 0.05500000000000001,
-      "official_change": 0.1975,
-      "reset_confirmation": 0.13,
-      "confidence": 0.8550000000000001,
+      "reset_intent": 0.155,
+      "limit_complaint": 0.057499999999999996,
+      "official_change": 0.215,
+      "reset_confirmation": 0.135,
+      "confidence": 0.8875,
       "reason": [
         "Text is a generic motivational phrase with no mention of resets or limits.",
         "Explicitly states 'I have reset usage limits for Codex and ChatGPT Work' from an official source.",
-        "Mentions 'Resets' as a sign of model improvement but not explicitly confirming a reset.",
+        "Mentions 'Resets' as a sign of model improvement but does not confirm an actual reset.",
         "Asks for improvement suggestions, unrelated to resets or limits.",
         "Focuses on company culture and mission, no mention of resets."
       ]
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "102.5 hours since last reset",
+      "factor": "102.9 hours since last reset",
       "impact": "+10%",
       "score": 0.91
     },
@@ -54,14 +54,14 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.05
     }
   ],
   "reasons": [
     "Auto-confirmed reset announced by Tibo at 2026-08-01T03:32:37+00:00",
-    "102.5 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
-    "Strong reset evidence detected (evidence_score=0.75), probability rises significantly",
-    "Main factor: 102.5 hours since last reset (+10%)"
+    "102.9 hours since last reset, well beyond historical median interval 43 hours, time factor slightly raises baseline probability",
+    "Strong reset evidence detected (evidence_score=0.77), probability rises significantly",
+    "Main factor: 102.9 hours since last reset (+10%)"
   ],
   "auto_confirmed": true,
   "confirmed_reset_time": "2026-08-01T03:32:37+00:00"
