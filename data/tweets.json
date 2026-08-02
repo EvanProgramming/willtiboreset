@@ -192,14 +192,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T07:13:38Z",
-    "author": "/u/Little_Miss-Sunshine",
-    "text": "What do you guys think about people who hate AI? - I’m really curious what everyone here thinks about the ai-hating people. I find them absolutely insufferable. I was reading a post just now with this dude whining about how he hates ai because art used to be a “rare trait few humans possessed.” 🙄 So I showed the post to chat gpt and told him to write a response. 🤣 Anyway just curious what you guys think. Idk why but it bugs the shit out of me. Aside from the data centers situation I don’t think it’s a big deal. &#32; submitted by &#32; /u/Little_Miss-Sunshine [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdb9vn/what_do_you_guys_think_about_people_who_hate_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T23:36:22Z",
     "author": "/u/Busy-Specialist7708",
     "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
@@ -224,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T07:13:38Z",
+    "author": "/u/Little_Miss-Sunshine",
+    "text": "What do you guys think about people who hate AI? - I’m really curious what everyone here thinks about the ai-hating people. I find them absolutely insufferable. I was reading a post just now with this dude whining about how he hates ai because art used to be a “rare trait few humans possessed.” 🙄 So I showed the post to chat gpt and told him to write a response. 🤣 Anyway just curious what you guys think. Idk why but it bugs the shit out of me. Aside from the data centers situation I don’t think it’s a big deal. &#32; submitted by &#32; /u/Little_Miss-Sunshine [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdb9vn/what_do_you_guys_think_about_people_who_hate_ai/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T11:23:12Z",
     "author": "/u/OsirisII",
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
@@ -237,6 +237,14 @@
     "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcqyda/gpt_56_sol_built_a_pokemon_web_game/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T08:09:10Z",
+    "author": "/u/Brilliant_Fix404",
+    "text": "Best AI subscription for general everyday use: ChatGPT, Claude, or something else? - Hi everyone, I wanted to move away from the free AI plans and invest a little money to see if it makes a difference for my use case. I like to use AI for the following things: - Researching topics that interest me. - Writing texts. - Brainstorming ideas - Questions about relationships - Small scripts (Python) – for my NAS/home lab - Workout plans - Vacation planning - Everyday questions Is there an AI or LLM that can best cover this broad spectrum? As far as I know, Claude is more geared toward coding. Would ChatGPT be better here? To be honest, I don’t think the free plan is very good. Would the Go subscription be worth it here? The free tier still uses 5.5 Instant and not the new Terra. Is that also the case with Go, or do I need to go straight for the Plus subscription? Or should I use Claude instead? &#32; submitted by &#32; /u/Brilliant_Fix404 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdc8dm/best_ai_subscription_for_general_everyday_use/",
     "authority_score": 0.5
   },
   {
@@ -272,14 +280,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T18:58:39Z",
-    "author": "/u/KeanuRave100",
-    "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-07-31T20:14:11Z",
     "author": "/u/awakirr",
     "text": "DeepSeek V4 flash final release - &#32; submitted by &#32; /u/awakirr [link] &#32; [comments]",
@@ -296,27 +296,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T08:31:25Z",
+    "author": "/u/vibes000111",
+    "text": "ChatGPT in the middle of a chat today: \"This is why I smiled when you said earlier.\" - anyone else seeing these weird fake references to its own experience? - I don't know if it's a known thing. For the past couple of months the tone has been strange and you can see it talking about its experience outside of chats like &quot;one of the rare &lt;thing&gt; I've seen&quot;, &quot;I often hear that &lt;something&gt;&quot;. But the smile comment from today takes it to a whole new level of wrong. &#32; submitted by &#32; /u/vibes000111 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdclyz/chatgpt_in_the_middle_of_a_chat_today_this_is_why/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T18:58:39Z",
+    "author": "/u/KeanuRave100",
+    "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T01:15:07Z",
     "author": "/u/RRC1934",
     "text": "Someone complaining and getting sassy already 😂 - &#32; submitted by &#32; /u/RRC1934 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd4c1q/someone_complaining_and_getting_sassy_already/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T03:17:11Z",
-    "author": "/u/cybersphere9",
-    "text": "ChatGPT trying to blend in each morning - This is how it greets me &#32; submitted by &#32; /u/cybersphere9 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcbut3/chatgpt_trying_to_blend_in_each_morning/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T20:44:01Z",
-    "author": "/u/SlamperDamper",
-    "text": "Anybody miss seeing ChatGPT think? - Nerding out a bit here, but I found value sometimes in watching what chatgpt was thinking about while it was working. They've kinda obfuscated that recently and it's a bit disappointing to me. lol have a good weekend &#32; submitted by &#32; /u/SlamperDamper [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcy7xf/anybody_miss_seeing_chatgpt_think/",
     "authority_score": 0.5
   }
 ]
