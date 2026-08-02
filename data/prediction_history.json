@@ -3228,5 +3228,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T04:21:08.349280Z",
+    "prediction": {
+      "within_5h": 0.1292,
+      "within_24h": 0.3796,
+      "within_48h": 0.5175
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 24.81898524972222,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.4043,
+      "time_pressure": 0.2847,
+      "hazard_rate": 0.019695,
+      "evidence_score": 0.0843,
+      "tibo_signal": 0.0709,
+      "community_signal": 0.0283,
+      "release_signal": 0.1421,
+      "llm_scores": {
+        "reset_intent": 0.04,
+        "limit_complaint": 0.045,
+        "official_change": 0.13999999999999999,
+        "reset_confirmation": 0.0725,
+        "confidence": 0.8762500000000001,
+        "reason": [
+          "The text is a casual observation about user behavior on weekends, not related to quota resets.",
+          "No mention of limits, resets, or official changes.",
+          "Mentions 'signs' and 'major breakthroughs' but does not explicitly discuss resets.",
+          "Official announcement of new model results, but no reset confirmation.",
+          "Text is a generic motivational phrase with no relevance to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
