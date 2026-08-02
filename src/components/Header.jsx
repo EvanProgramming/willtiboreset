@@ -1,4 +1,4 @@
-export default function Header({ updatedAt }) {
+export default function Header({ updatedAt, alertEnabled, onToggleAlert }) {
   const formatted = updatedAt
     ? new Date(updatedAt).toLocaleString("en-US", {
         month: "short",
@@ -63,6 +63,40 @@ export default function Header({ updatedAt }) {
           </span>
           <span className="mono muted">Last update: {formatted}</span>
         </div>
+        <button
+          onClick={onToggleAlert}
+          style={{
+            marginTop: "12px",
+            padding: "6px 12px",
+            fontSize: "13px",
+            fontWeight: 500,
+            color: alertEnabled ? "#0f0f0f" : "#e8e8e8",
+            background: alertEnabled ? "#22c55e" : "rgba(255,255,255,0.08)",
+            border: "1px solid",
+            borderColor: alertEnabled ? "#22c55e" : "rgba(255,255,255,0.15)",
+            borderRadius: "999px",
+            cursor: "pointer",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "6px",
+            transition: "background 0.2s ease, border-color 0.2s ease, color 0.2s ease",
+          }}
+          onMouseEnter={(e) => {
+            if (!alertEnabled) {
+              e.currentTarget.style.background = "rgba(255,255,255,0.14)";
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (!alertEnabled) {
+              e.currentTarget.style.background = "rgba(255,255,255,0.08)";
+            }
+          }}
+        >
+          <span style={{ fontSize: "14px" }}>{alertEnabled ? "🔔" : "🔕"}</span>
+          {alertEnabled
+            ? "Tibo Alarm is ON — I'll scream if reset looks likely"
+            : "Enable Tibo Alarm (burn your Codex credits in time)"}
+        </button>
       </div>
       <div style={{ flex: "0 0 auto" }}>
         <img
