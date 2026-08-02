@@ -3096,5 +3096,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T03:21:02.606284Z",
+    "prediction": {
+      "within_5h": 0.1437,
+      "within_24h": 0.409,
+      "within_48h": 0.548
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 23.81739013138889,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.388,
+      "time_pressure": 0.2763,
+      "hazard_rate": 0.021676,
+      "evidence_score": 0.1012,
+      "tibo_signal": 0.0696,
+      "community_signal": 0.0446,
+      "release_signal": 0.1412,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0775,
+        "official_change": 0.1675,
+        "reset_confirmation": 0.0725,
+        "confidence": 0.865,
+        "reason": [
+          "The text is a casual observation about usage patterns, not about resets.",
+          "No mention of limits, official changes, or reset confirmations.",
+          "Mentions 'signs' and 'major breakthroughs' but does not explicitly discuss resets.",
+          "Official announcement of new model results, but no reset confirmation.",
+          "Short motivational phrase with no relevance to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
