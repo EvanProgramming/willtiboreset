@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T07:08:09Z",
-    "author": "/u/Content_Dimension626",
-    "text": "Prompt idea: Make up a random word and have ChatGPT draw it - Make up a completely new and random word and then have ChatGPT draw your word. My exact prompt: Draw what you think a &quot;tontopo&quot; is. &#32; submitted by &#32; /u/Content_Dimension626 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcgb9m/prompt_idea_make_up_a_random_word_and_have/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T00:32:50Z",
     "author": "/u/shouldIworkremote",
     "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T07:08:09Z",
+    "author": "/u/Content_Dimension626",
+    "text": "Prompt idea: Make up a random word and have ChatGPT draw it - Make up a completely new and random word and then have ChatGPT draw your word. My exact prompt: Draw what you think a &quot;tontopo&quot; is. &#32; submitted by &#32; /u/Content_Dimension626 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcgb9m/prompt_idea_make_up_a_random_word_and_have/",
     "authority_score": 0.5
   },
   {
@@ -264,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T04:19:18Z",
-    "author": "/u/Ok-Function-3113",
-    "text": "Weirdest thing just happened - So my brother texted me out of the blue showing me how he prompted ChatGpt to generate a photo of itself, and for some strange reason it looks A lot like me from 5 years ago, same haircut I use to have, inside the same room I use to live in at my moms house, same closet, so f**** strange… &#32; submitted by &#32; /u/Ok-Function-3113 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd82d0/weirdest_thing_just_happened/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T14:26:12Z",
     "author": "/u/kaiwai_81",
     "text": "Seedance 2.5 + Upscale - Four reference images, a few pointers in prompt. Upscaled in Topaz Astra to 4k. A bit grading on top. &#32; submitted by &#32; /u/kaiwai_81 [link] &#32; [comments]",
@@ -285,6 +277,14 @@
     "text": "ChatGPT trying to blend in each morning - This is how it greets me &#32; submitted by &#32; /u/cybersphere9 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcbut3/chatgpt_trying_to_blend_in_each_morning/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T18:58:39Z",
+    "author": "/u/KeanuRave100",
+    "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
     "authority_score": 0.5
   },
   {
@@ -304,19 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T18:58:39Z",
-    "author": "/u/KeanuRave100",
-    "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T01:30:08Z",
     "author": "/u/Jannis_Chelsea",
     "text": "New to AI & overwhelmed by hype. What’s the single best bookmarkable website/dashboard to check top LLM rankings? - I’m pretty new to AI and completely overwhelmed by the constant marketing, where every company claims their model is the best one. I’m looking for one highly trusted, scientifically backed website or dashboard that I can bookmark and check every few days for a quick, reliable overview of top performing models without having to read dense research papers. What is your go to bookmark for the latest LLM rankings? &#32; submitted by &#32; /u/Jannis_Chelsea [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd4n9t/new_to_ai_overwhelmed_by_hype_whats_the_single/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T04:48:04Z",
+    "author": "/u/0_2_Hero",
+    "text": "What happens when a ChatGPT conversation exceeds the context window? - Does ChatGPT Web automatically summarize/compact older messages like Codex? I have noticed I can have some massively long conversations, and its not clear if its compacting, truncating, or what its doing. I found a 2023 OpenAI comment mentioning an “importance-based truncation algorithm,” but that was from 2023. is there any OpenAI guidance on how their web context works? &#32; submitted by &#32; /u/0_2_Hero [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd8m2x/what_happens_when_a_chatgpt_conversation_exceeds/",
     "authority_score": 0.5
   }
 ]
