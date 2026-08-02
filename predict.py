@@ -122,24 +122,44 @@ def compute_confidence(
     prob_24h: float,
     has_history: bool,
     llm_confidence: float,
+    evidence_score: float = 0.0,
 ) -> str:
     """
     Compute prediction confidence.
 
-    Combines 3 factors:
-      - Probability clarity (farther from 0.5 is more certain)
+    Combines 4 factors:
+      - Probability clarity (closer to 0 or 1 is more certain)
       - LLM confidence
+      - Strength of reset evidence
       - Whether historical data exists
+
+    Low-probability predictions without strong signals must not be labeled
+    "high", because that only reflects certainty that a reset is NOT imminent.
     """
-    clarity = abs(prob_24h - 0.5) * 2  # 0-1
-    score = clarity * 0.6 + llm_confidence * 0.3
+    # Clarity: 1 when prob is 0 or 1, 0 when prob is 0.5
+    clarity = abs(prob_24h - 0.5) * 2
+
+    # Weighted combination. Evidence score has the largest weight so that
+    # low-probability, no-signal scenarios are not labeled high confidence.
+    score = clarity * 0.2 + llm_confidence * 0.25 + evidence_score * 0.45
     if has_history:
         score += 0.1
-    score = min(score, 1.0)
 
-    if score > 0.5:
+    # Strong reset evidence combined with elevated probability further raises
+    # confidence that the prediction direction is correct.
+    if evidence_score >= 0.5 and prob_24h >= 0.5:
+        score += 0.15
+
+    # Penalize very low probability without meaningful evidence; clarity alone
+    # is not enough to claim medium confidence when nothing signals a reset.
+    if evidence_score < 0.15 and prob_24h <= 0.25:
+        score -= 0.15
+
+    score = max(0.0, min(score, 1.0))
+
+    if score > 0.7:
         return "high"
-    elif score > 0.25:
+    elif score > 0.35:
         return "medium"
     return "low"
 
@@ -270,7 +290,9 @@ def main() -> int:
     prob_24h = explanation.probability.get("24h", 0.0)
     has_history = analysis_features.hours_since_last_reset is not None
     llm_conf = batch_scores.confidence if batch_scores else 0.0
-    confidence = compute_confidence(prob_24h, has_history, llm_conf)
+    confidence = compute_confidence(
+        prob_24h, has_history, llm_conf, explanation.evidence_score
+    )
     prior_applied = analysis_features.avg_reset_interval_hours is None
 
     prediction_dict = {
