@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-02T20:21:03.714686+00:00",
+  "updated_at": "2026-08-02T20:41:04.880871+00:00",
   "prediction": {
-    "within_5h": 0.0984,
-    "within_24h": 0.3121,
-    "within_48h": 0.4448
+    "within_5h": 0.0841,
+    "within_24h": 0.2763,
+    "within_48h": 0.4028
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 40.817698316944444,
+    "hours_since_last_reset": 41.15135560472223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,24 +16,24 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.665,
-    "time_pressure": 0.4367,
-    "hazard_rate": 0.015467,
-    "evidence_score": 0.0465,
-    "tibo_signal": 0.0332,
+    "time_ratio": 0.6704,
+    "time_pressure": 0.4401,
+    "hazard_rate": 0.013384,
+    "evidence_score": 0.0324,
+    "tibo_signal": 0.0293,
     "community_signal": 0.0016,
-    "release_signal": 0.0847,
+    "release_signal": 0.0524,
     "llm_scores": {
-      "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.02,
+      "reset_intent": 0.0075000000000000015,
+      "limit_complaint": 0.05,
       "official_change": 0.125,
       "reset_confirmation": 0.05,
-      "confidence": 0.8800000000000001,
+      "confidence": 0.865,
       "reason": [
-        "The text is a casual observation about usage patterns, not about resets.",
-        "No mention of limits, official changes, or resets.",
-        "Mentions 'signs' and 'breakthroughs' but not resets.",
-        "Official source hints at model release but no reset discussion.",
+        "The text is a casual observation about user behavior, not related to quota resets.",
+        "No mention of limits, resets, or official changes.",
+        "Mentions 'signs' and 'breakthroughs' but not explicitly about resets.",
+        "Official source hints at future announcements but no reset specifics.",
         "Short motivational phrase with no relevance to resets or limits."
       ]
     },
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "40.8 hours since last reset",
+      "factor": "41.2 hours since last reset",
       "impact": "+0%",
       "score": 0.44
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "40.8 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
-    "Main factor: 40.8 hours since last reset (+0%)"
+    "41.2 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
+    "Main factor: 41.2 hours since last reset (+0%)"
   ]
 }
