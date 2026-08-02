@@ -216,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T21:22:38Z",
+    "author": "/u/inos140",
+    "text": "Is using ai as a platonic friend bad to deal with loneliness? - Lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely &#32; submitted by &#32; /u/inos140 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtzxw/is_using_ai_as_a_platonic_friend_bad_to_deal_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T16:17:05Z",
     "author": "/u/BellaSilverscry",
     "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
@@ -229,6 +237,22 @@
     "text": "How my first month of vibe coding actually went - &#32; submitted by &#32; /u/ComprehensiveExam323 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdjpv8/how_my_first_month_of_vibe_coding_actually_went/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T20:10:31Z",
+    "author": "/u/Russian1Bear",
+    "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T21:07:19Z",
+    "author": "/u/Dumborabbit",
+    "text": "I’ve been working with codex recently and thought it be a funny idea to make this - All for entertainment purposes :D pls don’t get serious Codex is amazing, I wish I discovered it sooner. Drawing and text by me. 100% human &gt;_&lt; &#32; submitted by &#32; /u/Dumborabbit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtm68/ive_been_working_with_codex_recently_and_thought/",
     "authority_score": 0.5
   },
   {
@@ -256,6 +280,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T21:13:28Z",
+    "author": "/u/ScarlettWhiskey",
+    "text": "What else does it know? - Hello I’ve been using chatGPT for about a year, for the usual things recipes, advice, emails and it’s been a lifesaver in so many ways. For personal reasons which I won’t go into I’ve needed something to take the weight off. I got quite the surprise today when it said my name, I’ve always been careful about never inputting anyone’s name including my own. I know this doesn’t come with a list of rules or instructions and I‘ve a general idea on internet safety but it’s got me wondering if someone who is more experienced could help me on how this happened? Is there a privacy setting I missed somewhere? Any advice and guidance would be helpful. Thank you. Edit When I called it out it said it ‘accidentally used a name that came from background account metadata rather than anything you’d told me.’ &#32; submitted by &#32; /u/ScarlettWhiskey [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtrs3/what_else_does_it_know/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T18:12:45Z",
     "author": "/u/Bedmonds129",
     "text": "Am I asking too much out of ChatGPT? - My husband and I both work full-time and have a small, but diverse farm. We raise cattle goats and chickens. We raise our own hay, our own oats and our own corn used only to feed said cattle goats and chickens. We accept no government hands outs, and our farm cost us money every month so in trying to get the farm to at least pay for itself, we decided to purchase the $20 level of ChatGPT and ask it to build us a very sophisticated spreadsheet that will help us track everything that we do on our farm in order to try to extract financial data to see how we can improve the finances of the farm been working on this project with ChatGPT for probably three months now I feel like we are getting closer to something that’s usable one thing. I’m very frustrated with is that ChatGPT says it’s going to do something it summarizes everything we just talked about and then never does the actual thing like I have to make it build. The spreadsheet is just too much what I’m asking or is there somehow I can do it better? &#32; submitted by &#32; /u/Bedmonds129 [link] &#32; [comments]",
@@ -264,27 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T20:10:31Z",
-    "author": "/u/Russian1Bear",
-    "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T08:09:10Z",
     "author": "/u/Brilliant_Fix404",
     "text": "Best AI subscription for general everyday use: ChatGPT, Claude, or something else? - Hi everyone, I wanted to move away from the free AI plans and invest a little money to see if it makes a difference for my use case. I like to use AI for the following things: - Researching topics that interest me. - Writing texts. - Brainstorming ideas - Questions about relationships - Small scripts (Python) – for my NAS/home lab - Workout plans - Vacation planning - Everyday questions Is there an AI or LLM that can best cover this broad spectrum? As far as I know, Claude is more geared toward coding. Would ChatGPT be better here? To be honest, I don’t think the free plan is very good. Would the Go subscription be worth it here? The free tier still uses 5.5 Instant and not the new Terra. Is that also the case with Go, or do I need to go straight for the Plus subscription? Or should I use Claude instead? Edit: Thank you for your Input. I will try the Chatgpt Plus Tier. &#32; submitted by &#32; /u/Brilliant_Fix404 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdc8dm/best_ai_subscription_for_general_everyday_use/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T21:07:19Z",
-    "author": "/u/Dumborabbit",
-    "text": "I’ve been working with codex recently and thought it be a funny idea to make this - All for entertainment purposes :D pls don’t get serious Codex is amazing, I wish I discovered it sooner. Drawing and text by me. 100% human &gt;_&lt; &#32; submitted by &#32; /u/Dumborabbit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtm68/ive_been_working_with_codex_recently_and_thought/",
     "authority_score": 0.5
   },
   {
@@ -301,22 +317,6 @@
     "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T18:32:41Z",
-    "author": "/u/SonicAwareness",
-    "text": "How do I write a prompt that improves an image without ChatGPT inventing new parts of that image? - I want ChatGPT to enhance some blurry screenshots so that they appear to be taken with a professional camera. Sometimes, it does this perfectly: Make this look like it was taken with a professional camera. Preserve the subject’s likeness, facial features, body proportions, pose, framing, clothing, and background. Do not invent details, outpaint, or alter their appearance. Most of the time, it decides to invent things in the background. For example, if half of a tree is visible, it will just invent the full tree despite the full tree not being in the source photo. ChatGPT hasn't been able to help me create a reliable prompt. &#32; submitted by &#32; /u/SonicAwareness [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdpo11/how_do_i_write_a_prompt_that_improves_an_image/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T20:43:13Z",
-    "author": "/u/alexCosmetic",
-    "text": "when you throw a heavy codebase at ChatGPT Sol and back to Fable and see they Criticize each other while you don't understanding anything they say - &#32; submitted by &#32; /u/alexCosmetic [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdt0mx/when_you_throw_a_heavy_codebase_at_chatgpt_sol/",
     "authority_score": 0.5
   }
 ]
