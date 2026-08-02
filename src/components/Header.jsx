@@ -102,11 +102,15 @@ export default function Header({ updatedAt, alertEnabled, onToggleAlert }) {
         <img
           src="/HOnd3JraIAAhSeg.jpeg"
           alt="Saint Tibo of OpenAI — Patron of safe token resets"
+          width="220"
+          height="330"
+          fetchpriority="high"
+          decoding="async"
           style={{
             display: "block",
             maxWidth: "220px",
             maxHeight: "280px",
-            width: "auto",
+            width: "100%",
             height: "auto",
             borderRadius: "12px",
             objectFit: "contain",
