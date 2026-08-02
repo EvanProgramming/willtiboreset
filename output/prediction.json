@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-02T08:01:01.590563+00:00",
+  "updated_at": "2026-08-02T08:20:58.951382+00:00",
   "prediction": {
-    "within_5h": 0.0973,
-    "within_24h": 0.3082,
-    "within_48h": 0.4389
+    "within_5h": 0.0873,
+    "within_24h": 0.2834,
+    "within_48h": 0.4098
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 28.4837749575,
+    "hours_since_last_reset": 28.816375167777778,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.4641,
-    "time_pressure": 0.3168,
-    "hazard_rate": 0.015235,
-    "evidence_score": 0.0489,
-    "tibo_signal": 0.0474,
-    "community_signal": 0.0025,
-    "release_signal": 0.0817,
+    "time_ratio": 0.4695,
+    "time_pressure": 0.3198,
+    "hazard_rate": 0.013789,
+    "evidence_score": 0.0386,
+    "tibo_signal": 0.049,
+    "community_signal": 0.0164,
+    "release_signal": 0.0591,
     "llm_scores": {
-      "reset_intent": 0.0,
-      "limit_complaint": 0.02,
-      "official_change": 0.0475,
-      "reset_confirmation": 0.05,
-      "confidence": 0.91875,
+      "reset_intent": 0.0125,
+      "limit_complaint": 0.03,
+      "official_change": 0.12,
+      "reset_confirmation": 0.052500000000000005,
+      "confidence": 0.9075,
       "reason": [
-        "The text is a casual observation about weekend usage patterns, not related to resets.",
-        "No mention of limits, official changes, or reset confirmations.",
-        "The text teases future breakthroughs and signs but does not mention resets.",
-        "Official_change is slightly elevated due to mention of a new model and releases, but no reset context.",
-        "The text is a generic motivational phrase with no relevance to resets or limits."
+        "The text is a casual observation about usage patterns, not about resets.",
+        "No mention of limits, resets, or official changes.",
+        "Mentions 'signs' and 'breakthroughs' but not resets explicitly.",
+        "Official source hints at future releases but no reset confirmation.",
+        "Generic motivational phrase with no relevance to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "28.5 hours since last reset",
+      "factor": "28.8 hours since last reset",
       "impact": "+0%",
       "score": 0.32
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.0
+      "score": 0.02
     }
   ],
   "reasons": [
-    "28.5 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
-    "Main factor: 28.5 hours since last reset (+0%)"
+    "28.8 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
+    "Main factor: 28.8 hours since last reset (+0%)"
   ]
 }
