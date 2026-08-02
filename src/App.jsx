@@ -1,4 +1,5 @@
 import { useJsonData } from "./hooks/useJsonData";
+import useCodexAlert from "./hooks/useCodexAlert";
 import Header from "./components/Header";
 import PredictionHero from "./components/PredictionHero";
 import AIReasoning from "./components/AIReasoning";
@@ -20,6 +21,8 @@ export default function App() {
   const performance = useJsonData(`${base}data/model_performance.json`, REFRESH_INTERVAL_MS);
   const history = useJsonData(`${base}data/prediction_history.json`, REFRESH_INTERVAL_MS);
   const tweets = useJsonData(`${base}data/tweets.json`, REFRESH_INTERVAL_MS);
+
+  const { enabled: alertEnabled, toggle: toggleAlert } = useCodexAlert(prediction.data);
 
   const isLoading =
     prediction.loading || performance.loading || history.loading || tweets.loading;
@@ -44,7 +47,11 @@ export default function App() {
 
   return (
     <div className="app">
-      <Header updatedAt={prediction.data?.updated_at} />
+      <Header
+        updatedAt={prediction.data?.updated_at}
+        alertEnabled={alertEnabled}
+        onToggleAlert={toggleAlert}
+      />
       <PredictionHero prediction={prediction.data?.prediction} />
       <AIReasoning
         mainFactors={prediction.data?.main_factors}
