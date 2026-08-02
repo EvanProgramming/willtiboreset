@@ -216,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T23:36:22Z",
-    "author": "/u/Busy-Specialist7708",
-    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T12:08:03Z",
+    "author": "/u/HorrorLocal5745",
+    "text": "Generated this split screen image to see if the image generator model could keep the proportions consistent between one artistic and a photorealistic rendering of the same landscape in one generated image - Prompt: make a 16:9 split screen image divided by one perfectly smooth vertical white line in the middle into two image frames. The line needs to be placed in the exact middle. Both the images features the same lake, the surrounding pine forest around the lake and snow-topped mountains in the distance behind the pine forest. Beneath the point of view there's a rocky shoreline of granite and in the shoreline water there's a reedbed. Time of the day is 16:23 and the point of view is looking in a 150 degree direction relative to north. The difference between these image frames are photorealism compared to artistic style. On the left there's a rendering of the image with visible brush strokes in a late 19th century impressionist style. On the right is a photorealistic rendering of the same image from the perspective of a 85 mm lens at f/1.8. It is important that the corresponding features in both frames keeps the same proportion in order for the comparison to work. &#32; submitted by &#32; /u/HorrorLocal5745 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdgf6v/generated_this_split_screen_image_to_see_if_the/",
     "authority_score": 0.5
   },
   {
@@ -229,6 +229,22 @@
     "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T23:36:22Z",
+    "author": "/u/Busy-Specialist7708",
+    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T11:25:44Z",
+    "author": "/u/Mimo456",
+    "text": "I asked ChatGPT to describe our relationship and it absolutely cooked me - &#32; submitted by &#32; /u/Mimo456 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdflt1/i_asked_chatgpt_to_describe_our_relationship_and/",
     "authority_score": 0.5
   },
   {
@@ -245,14 +261,6 @@
     "text": "Image prompt: Serious work in absurd places work: Place: - Inspired by another thread using objects out of context in serious sitation. &#32; submitted by &#32; /u/Accomplished_Tea7781 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd46by/image_prompt_serious_work_in_absurd_places_work/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T11:25:44Z",
-    "author": "/u/Mimo456",
-    "text": "I asked ChatGPT to describe our relationship and it absolutely cooked me - &#32; submitted by &#32; /u/Mimo456 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdflt1/i_asked_chatgpt_to_describe_our_relationship_and/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Seedance 2.5 + Upscale - Four reference images, a few pointers in prompt. Upscaled in Topaz Astra to 4k. A bit grading on top. &#32; submitted by &#32; /u/kaiwai_81 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcot8m/seedance_25_upscale/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-07-31T20:14:11Z",
-    "author": "/u/awakirr",
-    "text": "DeepSeek V4 flash final release - &#32; submitted by &#32; /u/awakirr [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
     "authority_score": 0.5
   }
 ]
