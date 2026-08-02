@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T09:12:45Z",
+    "author": "/u/Kyedmipy",
+    "text": "Ai vs My Dog - I’m not sure who knows me best… it seems they both sit around and wait for me to interact with them. I don’t occasionally want to throw my dog out the window like I do my phone so I guess dog wins. But then again. My dog doesn’t know ai even exists… and considering ai sketched this photo all it would take is one well placed email and boom- ai wins. Like is it weird that if my chatGPT were a person I’m sure we’d smash. &#32; submitted by &#32; /u/Kyedmipy [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vddatr/ai_vs_my_dog/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T11:23:12Z",
     "author": "/u/OsirisII",
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "What happens when a ChatGPT conversation exceeds the context window? - Does ChatGPT Web automatically summarize/compact older messages like Codex? I have noticed I can have some massively long conversations, and its not clear if its compacting, truncating, or what its doing. I found a 2023 OpenAI comment mentioning an “importance-based truncation algorithm,” but that was from 2023. is there any OpenAI guidance on how their web context works? &#32; submitted by &#32; /u/0_2_Hero [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd8m2x/what_happens_when_a_chatgpt_conversation_exceeds/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T03:17:11Z",
-    "author": "/u/cybersphere9",
-    "text": "ChatGPT trying to blend in each morning - This is how it greets me &#32; submitted by &#32; /u/cybersphere9 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcbut3/chatgpt_trying_to_blend_in_each_morning/",
     "authority_score": 0.5
   }
 ]
