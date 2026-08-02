@@ -200,19 +200,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:17:22Z",
-    "author": "/u/forahellofafit",
-    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T19:44:55Z",
     "author": "/u/groovinhighness",
     "text": "I'm totally blind and Chat GPT is a life changer when it comes to secretarial tasks like formatting files. - I just wanted to share something very cool. So I am a totally blind guy, as in a screen reader user. I know at this stage of Chat GPT, this stuff is hardly ground breaking, but it is only recently that it is able to do these things reasonably consistently. In the past, whenever I needed to submit any documents, research papers, cover letters etc, I'll need help from a sighted friend, family or volunteer. You could format with a screen reader. Its just never fullprooft. Somewhat recently, GPT have been good enough to do that consistently. I would paste a chunk of text in the chat and ask it to give me a PDF in a so and so format. Then I would open up another chat, give it that file for it to critique, go back to the old chat, paste that critique in and have it generate another file according to that. I do that until its good, and according to my sighted folks who have given them a once over. it has done a very good job catching most of the nuances very well. I will be going to law school soon and that profession is very anal about formats and citations. AI will be such a helper. The autonomy it gives me is just amazing. &#32; submitted by &#32; /u/groovinhighness [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrj8r/im_totally_blind_and_chat_gpt_is_a_life_changer/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T19:17:22Z",
+    "author": "/u/forahellofafit",
+    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +248,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T20:01:46Z",
+    "author": "/u/FlawlessArc",
+    "text": "Funny MeatCanyon style prompt - Prompt: No clear sense of composition. Clean 2D anime linework with soft Impressionist brushwork, delicate contours, pale water-lily greens and sun-washed lavender. Slight motion blur around, mildly overexposed, faded cel paint, obscure 1989 broadcast frame, no text or watermark, [insert scene] anime screen-cap, manga panel, meat canyon art style &#32; submitted by &#32; /u/FlawlessArc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrymh/funny_meatcanyon_style_prompt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T18:12:45Z",
     "author": "/u/Bedmonds129",
     "text": "Am I asking too much out of ChatGPT? - My husband and I both work full-time and have a small, but diverse farm. We raise cattle goats and chickens. We raise our own hay, our own oats and our own corn used only to feed said cattle goats and chickens. We accept no government hands outs, and our farm cost us money every month so in trying to get the farm to at least pay for itself, we decided to purchase the $20 level of ChatGPT and ask it to build us a very sophisticated spreadsheet that will help us track everything that we do on our farm in order to try to extract financial data to see how we can improve the finances of the farm been working on this project with ChatGPT for probably three months now I feel like we are getting closer to something that’s usable one thing. I’m very frustrated with is that ChatGPT says it’s going to do something it summarizes everything we just talked about and then never does the actual thing like I have to make it build. The spreadsheet is just too much what I’m asking or is there somehow I can do it better? &#32; submitted by &#32; /u/Bedmonds129 [link] &#32; [comments]",
@@ -256,19 +264,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T18:46:35Z",
-    "author": "/u/Flashy_Translator661",
-    "text": "''create an image of how i treat you'' result - https://preview.redd.it/9vbyj3clb0hh1.png?width=727&amp;format=png&amp;auto=webp&amp;s=e5e7b393c3db2c3d76b05f90a3042246fc64b0ca not gonna lie, this is adorable. i expected chatgpt to be whipped or treated like dirt, but got this instead. if you do/have asked this please show me your results? &#32; submitted by &#32; /u/Flashy_Translator661 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T20:10:31Z",
+    "author": "/u/Russian1Bear",
+    "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdq0yb/create_an_image_of_how_i_treat_you_result/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T18:32:41Z",
-    "author": "/u/SonicAwareness",
-    "text": "How do I write a prompt that improves an image without ChatGPT inventing new parts of that image? - I want ChatGPT to enhance some blurry screenshots so that they appear to be taken with a professional camera. Sometimes, it does this perfectly: Make this look like it was taken with a professional camera. Preserve the subject’s likeness, facial features, body proportions, pose, framing, clothing, and background. Do not invent details, outpaint, or alter their appearance. Most of the time, it decides to invent things in the background. For example, if half of a tree is visible, it will just invent the full tree despite the full tree not being in the source photo. ChatGPT hasn't been able to help me create a reliable prompt. &#32; submitted by &#32; /u/SonicAwareness [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdpo11/how_do_i_write_a_prompt_that_improves_an_image/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
     "authority_score": 0.5
   },
   {
@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T18:46:35Z",
+    "author": "/u/Flashy_Translator661",
+    "text": "''create an image of how i treat you'' result - https://preview.redd.it/9vbyj3clb0hh1.png?width=727&amp;format=png&amp;auto=webp&amp;s=e5e7b393c3db2c3d76b05f90a3042246fc64b0ca not gonna lie, this is adorable. i expected chatgpt to be whipped or treated like dirt, but got this instead. if you do/have asked this please show me your results? &#32; submitted by &#32; /u/Flashy_Translator661 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdq0yb/create_an_image_of_how_i_treat_you_result/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T00:32:50Z",
     "author": "/u/shouldIworkremote",
     "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T20:01:46Z",
-    "author": "/u/FlawlessArc",
-    "text": "Funny MeatCanyon style prompt - Prompt: No clear sense of composition. Clean 2D anime linework with soft Impressionist brushwork, delicate contours, pale water-lily greens and sun-washed lavender. Slight motion blur around, mildly overexposed, faded cel paint, obscure 1989 broadcast frame, no text or watermark, [insert scene] anime screen-cap, manga panel, meat canyon art style &#32; submitted by &#32; /u/FlawlessArc [link] &#32; [comments]",
+    "timestamp": "2026-08-02T18:32:41Z",
+    "author": "/u/SonicAwareness",
+    "text": "How do I write a prompt that improves an image without ChatGPT inventing new parts of that image? - I want ChatGPT to enhance some blurry screenshots so that they appear to be taken with a professional camera. Sometimes, it does this perfectly: Make this look like it was taken with a professional camera. Preserve the subject’s likeness, facial features, body proportions, pose, framing, clothing, and background. Do not invent details, outpaint, or alter their appearance. Most of the time, it decides to invent things in the background. For example, if half of a tree is visible, it will just invent the full tree despite the full tree not being in the source photo. ChatGPT hasn't been able to help me create a reliable prompt. &#32; submitted by &#32; /u/SonicAwareness [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrymh/funny_meatcanyon_style_prompt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdpo11/how_do_i_write_a_prompt_that_improves_an_image/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T12:08:03Z",
-    "author": "/u/HorrorLocal5745",
-    "text": "Generated this split screen image to see if the image generator model could keep the proportions consistent between one artistic and a photorealistic rendering of the same landscape in one generated image - Prompt: make a 16:9 split screen image divided by one perfectly smooth vertical white line in the middle into two image frames. The line needs to be placed in the exact middle. Both the images features the same lake, the surrounding pine forest around the lake and snow-topped mountains in the distance behind the pine forest. Beneath the point of view there's a rocky shoreline of granite and in the shoreline water there's a reedbed. Time of the day is 16:23 and the point of view is looking in a 150 degree direction relative to north. The difference between these image frames are photorealism compared to artistic style. On the left there's a rendering of the image with visible brush strokes in a late 19th century impressionist style. On the right is a photorealistic rendering of the same image from the perspective of a 85 mm lens at f/1.8. It is important that the corresponding features in both frames keeps the same proportion in order for the comparison to work. &#32; submitted by &#32; /u/HorrorLocal5745 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T20:05:40Z",
+    "author": "/u/rhiever",
+    "text": "OpenAI reports ten new results on open problems in mathematics and theoretical computer science - &#32; submitted by &#32; /u/rhiever [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdgf6v/generated_this_split_screen_image_to_see_if_the/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T17:10:45Z",
-    "author": "/u/Chris-AI-Studio",
-    "text": "How to Use the /visualize Slash Command for Complete Infographics - If you need high-impact visual graphics for Pinterest pins or social posts, the /visualize command in ChatGPT allows you to turn raw text into detailed, ready-to-use infographics. While /stickynotes creates a clean layout of notes, /visualize goes a step further by building a complete data visualization with a clear visual hierarchy. How it works: Activates image generation: It triggers ChatGPT’s image generator to create flat infographics or Pinterest pins directly from your text. Creates visual hierarchy: The output naturally moves the reader's eye from top to bottom, going from bold headlines to detailed section points. Easy content repurposing: You can paste a section of a blog post, add the /visualize command, and instantly get an image ready to publish. Customizable: If you want a specific tone or look, you just add extra details to the prompt—like specifying your topic, key facts, or design style. It’s an ideal command when you want to transform text-heavy ideas into structured visual content without manual design work. &#32; submitted by &#32; /u/Chris-AI-Studio [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdnk5z/how_to_use_the_visualize_slash_command_for/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds296/openai_reports_ten_new_results_on_open_problems/",
     "authority_score": 0.5
   }
 ]
