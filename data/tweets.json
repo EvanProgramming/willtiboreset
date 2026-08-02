@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-01T23:42:19Z",
+    "author": "Tibo",
+    "text": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model. - Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2083699879650463756",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-01T14:13:07Z",
     "author": "Tibo",
     "text": "The week was for efficiency. The weekend is for 10 major breakthroughs in science. There will be signs. - The week was for efficiency. The weekend is for 10 major breakthroughs in science.There will be signs.Sebastien Bubeck: yes, nonsofic groups exist: this statement is one of many new beautiful results proved by Astra, our next major model.We're releasing 10 such Astra proofs, complete with lean certificates and CoT walkthroughs for each of them. The results are wide-ranging, from von Neumann",
@@ -109,14 +117,6 @@
     "text": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Sc... - More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.https://github.com/openai/codex-security",
     "source": "tibo_rss",
     "url": "https://x.com/thsottiaux/status/2082241164850364555",
-    "authority_score": 1.0
-  },
-  {
-    "timestamp": "2026-07-28T05:44:17Z",
-    "author": "Tibo",
-    "text": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week. - Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2081979033261412537",
     "authority_score": 1.0
   },
   {
@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T23:36:22Z",
+    "author": "/u/Busy-Specialist7708",
+    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T14:26:12Z",
     "author": "/u/kaiwai_81",
     "text": "Seedance 2.5 + Upscale - Four reference images, a few pointers in prompt. Upscaled in Topaz Astra to 4k. A bit grading on top. &#32; submitted by &#32; /u/kaiwai_81 [link] &#32; [comments]",
@@ -248,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T03:44:49Z",
-    "author": "/u/Ecstatic_Amount_1692",
-    "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcceka/the_long_awaited_reset_is_here/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T20:44:01Z",
     "author": "/u/SlamperDamper",
     "text": "Anybody miss seeing ChatGPT think? - Nerding out a bit here, but I found value sometimes in watching what chatgpt was thinking about while it was working. They've kinda obfuscated that recently and it's a bit disappointing to me. lol have a good weekend &#32; submitted by &#32; /u/SlamperDamper [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcy7xf/anybody_miss_seeing_chatgpt_think/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T03:44:49Z",
+    "author": "/u/Ecstatic_Amount_1692",
+    "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcceka/the_long_awaited_reset_is_here/",
     "authority_score": 0.5
   },
   {
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T21:04:23Z",
+    "author": "/u/Smartykey",
+    "text": "One more reset and I’m done. - https://preview.redd.it/y3moktakvtgh1.png?width=1254&amp;format=png&amp;auto=webp&amp;s=b85593ddad6fad01f369a507fc1a595a7536e823 I swear I only need one more reset. The last one. Please! &#32; submitted by &#32; /u/Smartykey [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcyq1y/one_more_reset_and_im_done/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T10:31:32Z",
     "author": "/u/NyraReh",
     "text": "Tiny reminder: your personalization settings actually matter - Tiny reminder because I keep seeing people complain about the same interaction problems with ChatGPT: Check your personalization/custom instructions. ⚠️ I realized I kept getting annoyed because ChatGPT would sometimes go full TED Talk when I was literally just trying to say “this sucks.” Or it would immediately start analyzing, fixing, balancing both sides, and suddenly I’m defending my own feelings. Great. Love that for me. 😶 So I actually wrote down what I want from the interaction: listen before analyzing don’t assume the worst interpretation don’t automatically take the other person’s side if I’m clearly upset, ask what I need before launching Operation Fix Everything Then I asked ChatGPT to help me edit the instructions so they wouldn’t make every conversation feel scripted. And honestly? It helped a lot. Less friction, especially between new chats, and less “we have literally discussed this before 😭”. It’s not magic, but if you keep having the same annoying interaction over and over, maybe check the settings before declaring the model spiritually incompatible with you. (Edit: English isn’t my first language and my English grammar sucks 😂 So I often write what I actually want to say in my own language, let ChatGPT translate it, and then we work on the wording together until it sounds like something I would actually say.) &#32; submitted by &#32; /u/NyraReh [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcju01/tiny_reminder_your_personalization_settings/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T17:05:36Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "Which model are you actually using the most rn, and why? - Which model are you actually using the most rn, and why? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcsq89/which_model_are_you_actually_using_the_most_rn/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T10:55:16Z",
-    "author": "/u/Figai",
-    "text": "wtf I’ve never had CGPT swear at me - &#32; submitted by &#32; /u/Figai [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vck950/wtf_ive_never_had_cgpt_swear_at_me/",
     "authority_score": 0.5
   }
 ]
