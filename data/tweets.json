@@ -256,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T14:47:17Z",
-    "author": "/u/life-v2",
-    "text": "Welcome to LinkedIn Park - &#32; submitted by &#32; /u/life-v2 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpbfa/welcome_to_linkedin_park/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T12:08:03Z",
     "author": "/u/HorrorLocal5745",
     "text": "Generated this split screen image to see if the image generator model could keep the proportions consistent between one artistic and a photorealistic rendering of the same landscape in one generated image - Prompt: make a 16:9 split screen image divided by one perfectly smooth vertical white line in the middle into two image frames. The line needs to be placed in the exact middle. Both the images features the same lake, the surrounding pine forest around the lake and snow-topped mountains in the distance behind the pine forest. Beneath the point of view there's a rocky shoreline of granite and in the shoreline water there's a reedbed. Time of the day is 16:23 and the point of view is looking in a 150 degree direction relative to north. The difference between these image frames are photorealism compared to artistic style. On the left there's a rendering of the image with visible brush strokes in a late 19th century impressionist style. On the right is a photorealistic rendering of the same image from the perspective of a 85 mm lens at f/1.8. It is important that the corresponding features in both frames keeps the same proportion in order for the comparison to work. &#32; submitted by &#32; /u/HorrorLocal5745 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdgf6v/generated_this_split_screen_image_to_see_if_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T14:47:17Z",
+    "author": "/u/life-v2",
+    "text": "Welcome to LinkedIn Park - &#32; submitted by &#32; /u/life-v2 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcpbfa/welcome_to_linkedin_park/",
     "authority_score": 0.5
   },
   {
@@ -285,6 +285,14 @@
     "text": "Prompt idea: Make up a random word and have ChatGPT draw it - Make up a completely new and random word and then have ChatGPT draw your word. My exact prompt: Draw what you think a &quot;tontopo&quot; is. &#32; submitted by &#32; /u/Content_Dimension626 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcgb9m/prompt_idea_make_up_a_random_word_and_have/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T17:35:52Z",
+    "author": "/u/Excellent-Passage-36",
+    "text": "Does anyone know how to stop responses that involve dialogue like this? - When trying to create narratives with dialogue, it annoyingly spits out conversations that have excessive banter without dialogue tags. a copied example: “You.” “For being rear-ended?” “For reckless braking.” “There is no such claim.” “There absolutely is.” “There is not.” “My attorney would disagree.” This is somewhat new and very annoying, I'm not sure what instruction to give to avoid this. &#32; submitted by &#32; /u/Excellent-Passage-36 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdo77q/does_anyone_know_how_to_stop_responses_that/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T16:31:35Z",
-    "author": "/u/Comfortable-Cause-93",
-    "text": "Weird limit after messagingques - I don't know why, but lately, after chatting for a little (around 20 messages or less), a pop-up shows up that says &quot;Chat with attachments paused. You've run out of Instant messaging until later. Upgrade to continue working with files and images here, or start a new chat to continue with a lower-quality template&quot;. Which is very weird, because I haven't sent any attachments or pictures, just texts - and when i start a new chat, i am able to send text messages to the new one. Does anybody else have this issue? Is there a way I can solve it? &#32; submitted by &#32; /u/Comfortable-Cause-93 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmkvy/weird_limit_after_messagingques/",
     "authority_score": 0.5
   }
 ]
