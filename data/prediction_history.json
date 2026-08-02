@@ -5780,5 +5780,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T23:40:57.678998Z",
+    "prediction": {
+      "within_5h": 0.0943,
+      "within_24h": 0.3026,
+      "within_48h": 0.4342
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 44.149354358055554,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.7193,
+      "time_pressure": 0.4711,
+      "hazard_rate": 0.014904,
+      "evidence_score": 0.0416,
+      "tibo_signal": 0.0295,
+      "community_signal": 0.035,
+      "release_signal": 0.0734,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.1125,
+        "reset_confirmation": 0.05,
+        "confidence": 0.875,
+        "reason": [
+          "Text is a casual observation about usage patterns, not about resets.",
+          "No mention of limits, official changes, or resets.",
+          "Mentions upcoming scientific breakthroughs and signs, but not resets.",
+          "Official source hints at model release, but no reset language.",
+          "Generic motivational phrase with no relevance to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]

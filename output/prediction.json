@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-02T23:20:55.523526+00:00",
+  "updated_at": "2026-08-02T23:40:57.676445+00:00",
   "prediction": {
-    "within_5h": 0.0736,
-    "within_24h": 0.2487,
-    "within_48h": 0.3693
+    "within_5h": 0.0943,
+    "within_24h": 0.3026,
+    "within_48h": 0.4342
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 43.81542299722222,
+    "hours_since_last_reset": 44.149354358055554,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.7138,
-    "time_pressure": 0.4676,
-    "hazard_rate": 0.011844,
-    "evidence_score": 0.0219,
-    "tibo_signal": 0.0228,
-    "community_signal": 0.0,
-    "release_signal": 0.0055,
+    "time_ratio": 0.7193,
+    "time_pressure": 0.4711,
+    "hazard_rate": 0.014904,
+    "evidence_score": 0.0416,
+    "tibo_signal": 0.0295,
+    "community_signal": 0.035,
+    "release_signal": 0.0734,
     "llm_scores": {
       "reset_intent": 0.0,
       "limit_complaint": 0.06000000000000001,
-      "official_change": 0.1675,
+      "official_change": 0.1125,
       "reset_confirmation": 0.05,
-      "confidence": 0.90625,
+      "confidence": 0.875,
       "reason": [
-        "The text is a casual observation about usage patterns, not about resets.",
-        "No mention of limits, complaints, or official changes.",
-        "Mentions 'major breakthroughs' and 'signs' but does not explicitly discuss resets.",
-        "Official context about Astra model results, but no reset information.",
-        "Short motivational phrase with no relevance to resets or limits."
+        "Text is a casual observation about usage patterns, not about resets.",
+        "No mention of limits, official changes, or resets.",
+        "Mentions upcoming scientific breakthroughs and signs, but not resets.",
+        "Official source hints at model release, but no reset language.",
+        "Generic motivational phrase with no relevance to resets."
       ]
     },
     "prior_applied": false,
@@ -42,19 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "43.8 hours since last reset",
+      "factor": "44.1 hours since last reset",
       "impact": "+0%",
       "score": 0.47
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.02
+      "score": 0.03
+    },
+    {
+      "factor": "Minor community limit complaints",
+      "impact": "+0%",
+      "score": 0.04
     }
   ],
   "reasons": [
-    "43.8 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 43.8 hours since last reset (+0%)"
+    "44.1 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
+    "Main factor: 44.1 hours since last reset (+0%)"
   ]
 }
