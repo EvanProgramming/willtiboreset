@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:06:32Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T12:17:07Z",
     "author": "/u/ForsakenOven6666",
     "text": "Soooo.. Iwas asking ChatGPT about a spider in my room... And then it just said this... 😳 - Wh.... What &#32; submitted by &#32; /u/ForsakenOven6666 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdglop/soooo_iwas_asking_chatgpt_about_a_spider_in_my/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T19:06:32Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
     "authority_score": 0.5
   },
   {
@@ -184,14 +184,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T09:05:11Z",
-    "author": "/u/Ornery_Job_7275",
-    "text": "(My first post in this subreddit) Bro what the heck.... - This is a real CHATGPT response I promise (no edits) (I hope this doesn't get removed for being inappropriate) &#32; submitted by &#32; /u/Ornery_Job_7275 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdd68v/my_first_post_in_this_subreddit_bro_what_the_heck/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T14:37:09Z",
     "author": "/u/ComprehensiveExam323",
     "text": "How my first month of vibe coding actually went - &#32; submitted by &#32; /u/ComprehensiveExam323 [link] &#32; [comments]",
@@ -200,11 +192,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T09:05:11Z",
+    "author": "/u/Ornery_Job_7275",
+    "text": "(My first post in this subreddit) Bro what the heck.... - This is a real CHATGPT response I promise (no edits) (I hope this doesn't get removed for being inappropriate) &#32; submitted by &#32; /u/Ornery_Job_7275 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdd68v/my_first_post_in_this_subreddit_bro_what_the_heck/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T16:09:12Z",
     "author": "/u/UndefinedCurve",
     "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T16:17:05Z",
+    "author": "/u/BellaSilverscry",
+    "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T15:59:47Z",
+    "author": "/u/TenaciousWeen",
+    "text": "At what point do I let the AI clock out and see it's family? - &#32; submitted by &#32; /u/TenaciousWeen [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdlrp4/at_what_point_do_i_let_the_ai_clock_out_and_see/",
     "authority_score": 0.5
   },
   {
@@ -221,14 +237,6 @@
     "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T15:59:47Z",
-    "author": "/u/TenaciousWeen",
-    "text": "At what point do I let the AI clock out and see it's family? - &#32; submitted by &#32; /u/TenaciousWeen [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdlrp4/at_what_point_do_i_let_the_ai_clock_out_and_see/",
     "authority_score": 0.5
   },
   {
@@ -264,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:06:30Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "ChatGPT feature you discovered way too late? - ChatGPT feature you discovered way too late? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdly34/chatgpt_feature_you_discovered_way_too_late/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T15:16:42Z",
     "author": "/u/Sad_Sell3571",
     "text": "Random but is there like refferal codes for chatgpt plus users like lcaudr has to shsre with others? If so where? - &#32; submitted by &#32; /u/Sad_Sell3571 [link] &#32; [comments]",
@@ -304,19 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T23:36:22Z",
-    "author": "/u/Busy-Specialist7708",
-    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T10:57:35Z",
     "author": "/u/Bayou13",
     "text": "Chat linked to Apple Health? - I got a notification that Chat can now link to Apple Health. On the one hand, that seems so incredibly helpful in a lot of ways. On the other….well…..this could go terribly wrong in so many terrible ways. If I’m already giving the information to Apple and my health insurance company, that I trust exactly as much as I trust Facebook, does it even matter if I give it to Chat??? Is anyone using this feature? &#32; submitted by &#32; /u/Bayou13 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdf33z/chat_linked_to_apple_health/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T23:36:22Z",
+    "author": "/u/Busy-Specialist7708",
+    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
     "authority_score": 0.5
   }
 ]
