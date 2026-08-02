@@ -248,6 +248,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T11:25:44Z",
+    "author": "/u/Mimo456",
+    "text": "I asked ChatGPT to describe our relationship and it absolutely cooked me - &#32; submitted by &#32; /u/Mimo456 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdflt1/i_asked_chatgpt_to_describe_our_relationship_and/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T15:54:41Z",
     "author": "/u/Slippin_Jimm",
     "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "DeepSeek V4 flash final release - &#32; submitted by &#32; /u/awakirr [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T04:48:04Z",
-    "author": "/u/0_2_Hero",
-    "text": "What happens when a ChatGPT conversation exceeds the context window? - Does ChatGPT Web automatically summarize/compact older messages like Codex? I have noticed I can have some massively long conversations, and its not clear if its compacting, truncating, or what its doing. I found a 2023 OpenAI comment mentioning an “importance-based truncation algorithm,” but that was from 2023. is there any OpenAI guidance on how their web context works? &#32; submitted by &#32; /u/0_2_Hero [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd8m2x/what_happens_when_a_chatgpt_conversation_exceeds/",
     "authority_score": 0.5
   }
 ]
