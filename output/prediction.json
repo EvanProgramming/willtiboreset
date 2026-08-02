@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-02T17:41:00.668736+00:00",
+  "updated_at": "2026-08-02T18:01:06.480017+00:00",
   "prediction": {
-    "within_5h": 0.0789,
-    "within_24h": 0.2623,
-    "within_48h": 0.3854
+    "within_5h": 0.1093,
+    "within_24h": 0.3376,
+    "within_48h": 0.4734
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 38.15018554805555,
+    "hours_since_last_reset": 38.48513313138889,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.6215,
-    "time_pressure": 0.4096,
-    "hazard_rate": 0.012596,
-    "evidence_score": 0.0281,
-    "tibo_signal": 0.0291,
-    "community_signal": 0.0746,
-    "release_signal": 0.0247,
+    "time_ratio": 0.627,
+    "time_pressure": 0.4129,
+    "hazard_rate": 0.017015,
+    "evidence_score": 0.0582,
+    "tibo_signal": 0.0357,
+    "community_signal": 0.0644,
+    "release_signal": 0.0912,
     "llm_scores": {
       "reset_intent": 0.0,
-      "limit_complaint": 0.07250000000000001,
-      "official_change": 0.1275,
+      "limit_complaint": 0.0625,
+      "official_change": 0.075,
       "reset_confirmation": 0.05,
-      "confidence": 0.91625,
+      "confidence": 0.92125,
       "reason": [
-        "The text is a casual observation about usage patterns, not about resets.",
+        "The text is a casual observation about weekend usage patterns, not related to resets.",
         "No mention of limits, official changes, or resets.",
-        "Mentions 'major breakthroughs' and 'signs' but not resets.",
-        "Official source hints at future announcements but not quota resets.",
-        "Generic motivational phrase with no relevance to resets or limits."
+        "Mentions '10 major breakthroughs' and 'signs' but does not explicitly discuss resets.",
+        "Official source (Sebastien Bubeck) discusses model capabilities, not quota resets.",
+        "The text is a generic motivational phrase with no relevance to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,24 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "38.2 hours since last reset",
+      "factor": "38.5 hours since last reset",
       "impact": "+0%",
       "score": 0.41
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.03
+      "score": 0.04
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.07
+      "score": 0.06
     }
   ],
   "reasons": [
-    "38.2 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 38.2 hours since last reset (+0%)"
+    "38.5 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.06), insufficient to confirm",
+    "Main factor: 38.5 hours since last reset (+0%)"
   ]
 }
