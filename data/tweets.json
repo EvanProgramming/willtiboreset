@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T03:41:23Z",
+    "author": "/u/mothh9",
+    "text": "Claude breaking the sandbox - &#32; submitted by &#32; /u/mothh9 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd7bit/claude_breaking_the_sandbox/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T03:44:49Z",
     "author": "/u/Ecstatic_Amount_1692",
     "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "Has anyone actually hit the GPT-5.6 Sol limit in regular ChatGPT on the $20 Plus plan? - ‼️(Chat)‼️ I’m not talking about Work or Codex, which have their own separate usage limits. I mean regular ChatGPT (chat) on the $20 Plus plan, with Sol manually selected. Has anyone actually hit the limit, or found any clear information about what it is? I’ve seen people mention 3,000 messages per week, but I can’t find anything definitive or anyone showing that they’ve reached it. I’m also confused about whether the limits are connected in any way. If you hit the regular ChatGPT Sol limit and then use one of your Codex resets, does that also reset the ChatGPT limit, or are they completely separate? (Assuming that there is a regular ChatGPT limit) The official information is extremely unclear, so I’d be interested to hear from anyone who has actually tested this or hit the limit themselves. I remember that with models like o1 and o3 last year, there was definitely a cap. I used to hit it fairly regularly on my plan and remember having to wait around 50 minutes to an 2 hours before I could use the model again. I haven’t experienced anything like that for a long time, which is why I’m wondering whether the current Sol limit is so high that most people never realistically reach it. Edit: ‼️Please actually read the post before commenting‼️ It's insane how few people understand there's a difference between regular ChatGPT and Codex/work. 🤣 This is partly OpenAI's fault for terrible product differentiation. Once again, people are getting confused between Codex/work and ChatGPT. I'm not talking about Codex or work limits. &#32; submitted by &#32; /u/Just_Run2412 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vco09d/has_anyone_actually_hit_the_gpt56_sol_limit_in/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T23:59:06Z",
-    "author": "/u/Serpent_28",
-    "text": "How many people use Work instead of Chat accidently? - I saw many people automatically redirecting to Work tab after last update LOL, i feel like mysef it functions different, i even tried as 0% coding expeiience to create candy crush copy with my own taste etc and sty;e. I saw some streamers even online using &quot;Work&quot; for most casual questions like directions of casual question which chould be directed to normal cahtgpt, i have no idea how they enabled the &quot;work function&quot;. Has everybody noticed it? For me if you are more informed please fix my statement, Work chat is using Codex for coding if you want to create something? And Chat is usal chatgpt? Or is is nto the same? Cuz I could code candy crush similar copy through Work function, i have 0 knoweldge (in programming) if its ub codex, (it would be fun to listen to those who used codex before if you could comment about codex). So far gpt 5.6 is interesting and the updated voice chat that can catch any accent despite english, cuz always the voice obviously worked in english lol but rarely in other languages. Any opinions and answers? I tried to create candy crush copy by my own likes and editions, applying like 7 patches cuz some combos didnt work, and obviously cuz of ToS i used specific combom it seems to understand if something is wrong it fixes it, its like kinda vibe coding no? Cuz all i do is just type lol and chatgpt models/agents and they are fixing it if i spot the error while playing the game which took 2-3 mins to write as a sentnece to create something lol. and they work for some 15-30 mins to fix it so its playable. Its veyr interesintg, i think gpt 5.6 patch bringed more creation in community, but its a selfish take cuz its the first time i used it to create something i hav eno idea about xD, cuz work seems very different from chat function, and i am aware that Work uses codex limits, not usual chat. So I assume Work uses codex as programming tool and uses its tokkens,etc? Completely honest question cuz first time knowing 0 programing chatgpt work created a specific version of candy crush perfectly working on PC, with me just typing &quot;Create this, fix that , etc&quot; its a big leap, cuz if u do not know anything about progrramign what would happen in 2-3 yrs ? Im just amazed, and I would like to hear honest opinions from programmers where i culd fail etc, creating stuff like this, and is it even nessecary to have programming degree if you spot something bad in the game and you say &quot;oh i noticed this combo doesnt work&quot; and iit literally fixes it in 15 mins...?... and it works? &#32; submitted by &#32; /u/Serpent_28 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd2q6p/how_many_people_use_work_instead_of_chat/",
     "authority_score": 0.5
   }
 ]
