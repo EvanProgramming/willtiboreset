@@ -59,6 +59,20 @@ export default function Header({ updatedAt }) {
         <div className="mono muted" style={{ fontSize: "13px" }}>
           Last update: {formatted}
         </div>
+        <img
+          src="/HOnd3JraIAAhSeg.jpeg"
+          alt="Saint Tibo of OpenAI — Patron of safe token resets"
+          style={{
+            marginTop: "16px",
+            maxWidth: "160px",
+            maxHeight: "220px",
+            width: "auto",
+            height: "auto",
+            borderRadius: "12px",
+            objectFit: "contain",
+            boxShadow: "0 4px 20px rgba(0,0,0,0.25)",
+          }}
+        />
       </div>
     </header>
   );
