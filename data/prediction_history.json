@@ -2964,5 +2964,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T03:00:54.614479Z",
+    "prediction": {
+      "within_5h": 0.1012,
+      "within_24h": 0.317,
+      "within_48h": 0.4485
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 23.481836729444442,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3826,
+      "time_pressure": 0.2735,
+      "hazard_rate": 0.01576,
+      "evidence_score": 0.0543,
+      "tibo_signal": 0.0603,
+      "community_signal": 0.0411,
+      "release_signal": 0.0873,
+      "llm_scores": {
+        "reset_intent": 0.0125,
+        "limit_complaint": 0.05500000000000001,
+        "official_change": 0.095,
+        "reset_confirmation": 0.07,
+        "confidence": 0.9087500000000001,
+        "reason": [
+          "The text is a casual observation about weekend usage patterns, not related to resets.",
+          "No mention of limits, complaints, or official changes.",
+          "Mentions 'signs' and 'breakthroughs' but does not explicitly discuss a reset.",
+          "Official context about Astra model but no reset confirmation.",
+          "Short motivational phrase with no relevance to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
