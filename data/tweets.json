@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T22:57:17Z",
-    "author": "/u/Conscious_Bend_8647",
-    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T16:40:56Z",
     "author": "/u/Bedroom-Old",
     "text": "Hypocrisy of chatgpt😭 - &#32; submitted by &#32; /u/Bedroom-Old [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmt51/hypocrisy_of_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T22:57:17Z",
+    "author": "/u/Conscious_Bend_8647",
+    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
     "authority_score": 0.5
   },
   {
@@ -184,6 +184,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T16:09:12Z",
+    "author": "/u/UndefinedCurve",
+    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T19:17:22Z",
     "author": "/u/forahellofafit",
     "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
@@ -192,11 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:09:12Z",
-    "author": "/u/UndefinedCurve",
-    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
+    "timestamp": "2026-08-02T16:17:05Z",
+    "author": "/u/BellaSilverscry",
+    "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/",
     "authority_score": 0.5
   },
   {
@@ -216,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:17:05Z",
-    "author": "/u/BellaSilverscry",
-    "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T15:59:47Z",
     "author": "/u/TenaciousWeen",
     "text": "At what point do I let the AI clock out and see it's family? - &#32; submitted by &#32; /u/TenaciousWeen [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdlrp4/at_what_point_do_i_let_the_ai_clock_out_and_see/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T17:16:21Z",
+    "author": "/u/crell_peterson",
+    "text": "2024 vs 2026 - Using ChatGPT to create visuals from DnD Campaign - I’ve been playing DnD for 2.5 years with the same group and we recently started our third campaign. We use AI for exactly two things: We record audio of each session and have ChatGPT create detailed summaries of each session. I pick 4-5 key moments from each session and use ChatGPT to create visuals. Back in mid/late 2024, this was fun and novel and I got really into it, but getting consistent output of specific characters was non-existent, even when using reference portraits, persistent style/aesthetic also felt nearly impossible, and creating anything close to a graphic novel type depiction was a fantasy. Two year laters and it’s such a different world, it’s incredible. I’ve really gotten into this and find a ton of enjoyment in doing this. I’ve been able to nail down a specific style, the character persistence is incredible and easy, and the prompts required to get anything close to my desired output have been reduced from multiple paragraphs to just a few sentences. Just wanted to share some past/present, 2024 vs 2026 examples of how far this has come, as I’m constantly in awe. It should be fairly obvious where the 2024/2026 split occurs in the attached images. &#32; submitted by &#32; /u/crell_peterson [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdnpae/2024_vs_2026_using_chatgpt_to_create_visuals_from/",
     "authority_score": 0.5
   },
   {
@@ -296,14 +304,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:31:35Z",
-    "author": "/u/Comfortable-Cause-93",
-    "text": "Weird limit after messagingques - I don't know why, but lately, after chatting for a little (around 20 messages or less), a pop-up shows up that says &quot;Chat with attachments paused. You've run out of Instant messaging until later. Upgrade to continue working with files and images here, or start a new chat to continue with a lower-quality template&quot;. Which is very weird, because I haven't sent any attachments or pictures, just texts - and when i start a new chat, i am able to send text messages to the new one. Does anybody else have this issue? Is there a way I can solve it? &#32; submitted by &#32; /u/Comfortable-Cause-93 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmkvy/weird_limit_after_messagingques/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T18:58:39Z",
     "author": "/u/KeanuRave100",
     "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T14:48:21Z",
-    "author": "/u/ManWithNoVision",
-    "text": "78 percent of usage left yet it says I've hit my limit - Hey, Been using ChatGPT for a couple of months now without any issues. To my understanding, daily limits were recently removed. I now have 76% of Weekly usage left, yet it states I've hit my limit. How? I don't think it's possible I've used up my usage as an hour ago I just reset my usage back to 100% and submitted 10 prompts at most. I have the Plus plan. Thanks! EDIT: I restarted ChatGPT and now it works fine. I had this issue earlier today too. Is anybody else facing anything similar? &#32; submitted by &#32; /u/ManWithNoVision [link] &#32; [comments]",
+    "timestamp": "2026-08-02T16:31:35Z",
+    "author": "/u/Comfortable-Cause-93",
+    "text": "Weird limit after messagingques - I don't know why, but lately, after chatting for a little (around 20 messages or less), a pop-up shows up that says &quot;Chat with attachments paused. You've run out of Instant messaging until later. Upgrade to continue working with files and images here, or start a new chat to continue with a lower-quality template&quot;. Which is very weird, because I haven't sent any attachments or pictures, just texts - and when i start a new chat, i am able to send text messages to the new one. Does anybody else have this issue? Is there a way I can solve it? &#32; submitted by &#32; /u/Comfortable-Cause-93 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdjznr/78_percent_of_usage_left_yet_it_says_ive_hit_my/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdmkvy/weird_limit_after_messagingques/",
     "authority_score": 0.5
   }
 ]
