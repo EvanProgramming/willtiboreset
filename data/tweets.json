@@ -216,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:17:22Z",
-    "author": "/u/forahellofafit",
-    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T21:49:12Z",
     "author": "/u/BountyKraken",
     "text": "Asked Gemini how much it would cost to make a knife out of blood - &#32; submitted by &#32; /u/BountyKraken [link] &#32; [comments]",
@@ -232,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T20:10:31Z",
-    "author": "/u/Russian1Bear",
-    "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
+    "timestamp": "2026-08-01T19:17:22Z",
+    "author": "/u/forahellofafit",
+    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
     "authority_score": 0.5
   },
   {
@@ -245,6 +237,14 @@
     "text": "I’ve been working with codex recently and thought it be a funny idea to make this - All for entertainment purposes :D pls don’t get serious Codex is amazing, I wish I discovered it sooner. Drawing and text by me. 100% human &gt;_&lt; &#32; submitted by &#32; /u/Dumborabbit [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtm68/ive_been_working_with_codex_recently_and_thought/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T20:10:31Z",
+    "author": "/u/Russian1Bear",
+    "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
     "authority_score": 0.5
   },
   {
@@ -264,6 +264,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T20:01:46Z",
+    "author": "/u/FlawlessArc",
+    "text": "Funny MeatCanyon style prompt - Prompt: No clear sense of composition. Clean 2D anime linework with soft Impressionist brushwork, delicate contours, pale water-lily greens and sun-washed lavender. Slight motion blur around, mildly overexposed, faded cel paint, obscure 1989 broadcast frame, no text or watermark, [insert scene] anime screen-cap, manga panel, meat canyon art style &#32; submitted by &#32; /u/FlawlessArc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrymh/funny_meatcanyon_style_prompt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T09:05:11Z",
     "author": "/u/Ornery_Job_7275",
     "text": "(My first post in this subreddit) Bro what the heck.... - This is a real CHATGPT response I promise (no edits) (I hope this doesn't get removed for being inappropriate) &#32; submitted by &#32; /u/Ornery_Job_7275 [link] &#32; [comments]",
@@ -280,11 +288,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T20:01:46Z",
-    "author": "/u/FlawlessArc",
-    "text": "Funny MeatCanyon style prompt - Prompt: No clear sense of composition. Clean 2D anime linework with soft Impressionist brushwork, delicate contours, pale water-lily greens and sun-washed lavender. Slight motion blur around, mildly overexposed, faded cel paint, obscure 1989 broadcast frame, no text or watermark, [insert scene] anime screen-cap, manga panel, meat canyon art style &#32; submitted by &#32; /u/FlawlessArc [link] &#32; [comments]",
+    "timestamp": "2026-08-02T18:12:45Z",
+    "author": "/u/Bedmonds129",
+    "text": "Am I asking too much out of ChatGPT? - My husband and I both work full-time and have a small, but diverse farm. We raise cattle goats and chickens. We raise our own hay, our own oats and our own corn used only to feed said cattle goats and chickens. We accept no government hands outs, and our farm cost us money every month so in trying to get the farm to at least pay for itself, we decided to purchase the $20 level of ChatGPT and ask it to build us a very sophisticated spreadsheet that will help us track everything that we do on our farm in order to try to extract financial data to see how we can improve the finances of the farm been working on this project with ChatGPT for probably three months now I feel like we are getting closer to something that’s usable one thing. I’m very frustrated with is that ChatGPT says it’s going to do something it summarizes everything we just talked about and then never does the actual thing like I have to make it build. The spreadsheet is just too much what I’m asking or is there somehow I can do it better? &#32; submitted by &#32; /u/Bedmonds129 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrymh/funny_meatcanyon_style_prompt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdp5dg/am_i_asking_too_much_out_of_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T18:12:45Z",
-    "author": "/u/Bedmonds129",
-    "text": "Am I asking too much out of ChatGPT? - My husband and I both work full-time and have a small, but diverse farm. We raise cattle goats and chickens. We raise our own hay, our own oats and our own corn used only to feed said cattle goats and chickens. We accept no government hands outs, and our farm cost us money every month so in trying to get the farm to at least pay for itself, we decided to purchase the $20 level of ChatGPT and ask it to build us a very sophisticated spreadsheet that will help us track everything that we do on our farm in order to try to extract financial data to see how we can improve the finances of the farm been working on this project with ChatGPT for probably three months now I feel like we are getting closer to something that’s usable one thing. I’m very frustrated with is that ChatGPT says it’s going to do something it summarizes everything we just talked about and then never does the actual thing like I have to make it build. The spreadsheet is just too much what I’m asking or is there somehow I can do it better? &#32; submitted by &#32; /u/Bedmonds129 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T22:22:20Z",
+    "author": "/u/Barachan_Isles",
+    "text": "Is there an AI model that will stop telling me \"no\"? - For instance, I sat down with the paid version of ChatGPT and had it go through the entire process of helping me write a living will for the state that I live in. I spent two hours answering all of it's questions and narrowing down things that I wanted in my will and then I asked it to output this will so I could have it notarized, and it said it won't do it. It says, &quot;Take this output to a lawyer and have them write your will for you&quot;. Except I live in a state where you can write your will in blood on the bottom of your car if it accidentally rolls over you and that will be accepted in court. Literally, you can write that shit on a napkin with bacon grease in a Waffle House and have it notarized and it's legal here, but ChatGPT insists I need to pay a lawyer $800 to turn our conversation into a &quot;real will&quot;. This isn't the first time I've spent hours working through an issue with this AI model and then had it tell me &quot;No, Dave, I can't do that&quot; at the end, and honestly I'm sick of paying for a product that tells me no this frequently. Are there any paid models out there without all the bullshit restrictions, helicopter AI'ing, smothering mothering and hand-holding? &#32; submitted by &#32; /u/Barachan_Isles [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdp5dg/am_i_asking_too_much_out_of_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdvfp0/is_there_an_ai_model_that_will_stop_telling_me_no/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Best AI subscription for general everyday use: ChatGPT, Claude, or something else? - Hi everyone, I wanted to move away from the free AI plans and invest a little money to see if it makes a difference for my use case. I like to use AI for the following things: - Researching topics that interest me. - Writing texts. - Brainstorming ideas - Questions about relationships - Small scripts (Python) – for my NAS/home lab - Workout plans - Vacation planning - Everyday questions Is there an AI or LLM that can best cover this broad spectrum? As far as I know, Claude is more geared toward coding. Would ChatGPT be better here? To be honest, I don’t think the free plan is very good. Would the Go subscription be worth it here? The free tier still uses 5.5 Instant and not the new Terra. Is that also the case with Go, or do I need to go straight for the Plus subscription? Or should I use Claude instead? Edit: Thank you for your Input. I will try the Chatgpt Plus Tier. &#32; submitted by &#32; /u/Brilliant_Fix404 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdc8dm/best_ai_subscription_for_general_everyday_use/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T00:32:50Z",
-    "author": "/u/shouldIworkremote",
-    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
     "authority_score": 0.5
   }
 ]
