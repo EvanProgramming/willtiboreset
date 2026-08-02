@@ -1,5 +1,5 @@
 {
-  "total_predictions": 114,
+  "total_predictions": 115,
   "resolved_predictions": 0,
   "overall_brier_score": null,
   "overall_accuracy": null,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-02T17:21:06.752485Z"
+  "updated_at": "2026-08-02T17:41:00.680551Z"
 }

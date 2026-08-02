@@ -160,6 +160,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T16:09:12Z",
+    "author": "/u/UndefinedCurve",
+    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T19:06:32Z",
     "author": "/u/ExpensiveCoat8912",
     "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
@@ -184,27 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:09:12Z",
-    "author": "/u/UndefinedCurve",
-    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T19:17:22Z",
     "author": "/u/forahellofafit",
     "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T16:17:05Z",
-    "author": "/u/BellaSilverscry",
-    "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/",
     "authority_score": 0.5
   },
   {
@@ -216,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T16:17:05Z",
+    "author": "/u/BellaSilverscry",
+    "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T09:05:11Z",
     "author": "/u/Ornery_Job_7275",
     "text": "(My first post in this subreddit) Bro what the heck.... - This is a real CHATGPT response I promise (no edits) (I hope this doesn't get removed for being inappropriate) &#32; submitted by &#32; /u/Ornery_Job_7275 [link] &#32; [comments]",
@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T15:59:47Z",
-    "author": "/u/TenaciousWeen",
-    "text": "At what point do I let the AI clock out and see it's family? - &#32; submitted by &#32; /u/TenaciousWeen [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdlrp4/at_what_point_do_i_let_the_ai_clock_out_and_see/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T17:16:21Z",
     "author": "/u/crell_peterson",
     "text": "2024 vs 2026 - Using ChatGPT to create visuals from DnD Campaign - I’ve been playing DnD for 2.5 years with the same group and we recently started our third campaign. We use AI for exactly two things: We record audio of each session and have ChatGPT create detailed summaries of each session. I pick 4-5 key moments from each session and use ChatGPT to create visuals. Back in mid/late 2024, this was fun and novel and I got really into it, but getting consistent output of specific characters was non-existent, even when using reference portraits, persistent style/aesthetic also felt nearly impossible, and creating anything close to a graphic novel type depiction was a fantasy. Two year laters and it’s such a different world, it’s incredible. I’ve really gotten into this and find a ton of enjoyment in doing this. I’ve been able to nail down a specific style, the character persistence is incredible and easy, and the prompts required to get anything close to my desired output have been reduced from multiple paragraphs to just a few sentences. Just wanted to share some past/present, 2024 vs 2026 examples of how far this has come, as I’m constantly in awe. It should be fairly obvious where the 2024/2026 split occurs in the attached images. &#32; submitted by &#32; /u/crell_peterson [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdnpae/2024_vs_2026_using_chatgpt_to_create_visuals_from/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T15:59:47Z",
+    "author": "/u/TenaciousWeen",
+    "text": "At what point do I let the AI clock out and see it's family? - &#32; submitted by &#32; /u/TenaciousWeen [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdlrp4/at_what_point_do_i_let_the_ai_clock_out_and_see/",
     "authority_score": 0.5
   },
   {
@@ -280,19 +280,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T15:04:06Z",
-    "author": "/u/ytruhg",
-    "text": "Best way to share ChatGPT business context without keeping every chat in one project? - I've been using chatgpt pro for personal heavy over the past two years for my business. I am now getting my assistant to strart using chatgpt as well. So I exported/imported the history into projects in a new business workspace so I can share it. Thr question is that it don't want to have every question that either of us ask be in that workspace, or else it will get crowded. But I need that even in the general space chatgpt has access to the information that was imported into the workspace. What is the best way to do that? According to chatgpt, information that is in the workspace is not available out of it. Thank you &#32; submitted by &#32; /u/ytruhg [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkdos/best_way_to_share_chatgpt_business_context/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T12:08:03Z",
     "author": "/u/HorrorLocal5745",
     "text": "Generated this split screen image to see if the image generator model could keep the proportions consistent between one artistic and a photorealistic rendering of the same landscape in one generated image - Prompt: make a 16:9 split screen image divided by one perfectly smooth vertical white line in the middle into two image frames. The line needs to be placed in the exact middle. Both the images features the same lake, the surrounding pine forest around the lake and snow-topped mountains in the distance behind the pine forest. Beneath the point of view there's a rocky shoreline of granite and in the shoreline water there's a reedbed. Time of the day is 16:23 and the point of view is looking in a 150 degree direction relative to north. The difference between these image frames are photorealism compared to artistic style. On the left there's a rendering of the image with visible brush strokes in a late 19th century impressionist style. On the right is a photorealistic rendering of the same image from the perspective of a 85 mm lens at f/1.8. It is important that the corresponding features in both frames keeps the same proportion in order for the comparison to work. &#32; submitted by &#32; /u/HorrorLocal5745 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdgf6v/generated_this_split_screen_image_to_see_if_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T15:04:06Z",
+    "author": "/u/ytruhg",
+    "text": "Best way to share ChatGPT business context without keeping every chat in one project? - I've been using chatgpt pro for personal heavy over the past two years for my business. I am now getting my assistant to strart using chatgpt as well. So I exported/imported the history into projects in a new business workspace so I can share it. Thr question is that it don't want to have every question that either of us ask be in that workspace, or else it will get crowded. But I need that even in the general space chatgpt has access to the information that was imported into the workspace. What is the best way to do that? According to chatgpt, information that is in the workspace is not available out of it. Thank you &#32; submitted by &#32; /u/ytruhg [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkdos/best_way_to_share_chatgpt_business_context/",
     "authority_score": 0.5
   },
   {
