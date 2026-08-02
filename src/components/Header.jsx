@@ -17,10 +17,10 @@ export default function Header({ updatedAt }) {
         alignItems: "flex-start",
         flexWrap: "wrap",
         gap: "24px",
-        paddingBottom: "48px",
+        paddingBottom: "32px",
       }}
     >
-      <div>
+      <div style={{ flex: "1 1 280px", minWidth: 0 }}>
         <h1
           style={{
             margin: "0 0 8px",
@@ -33,7 +33,7 @@ export default function Header({ updatedAt }) {
         </h1>
         <p
           style={{
-            margin: 0,
+            margin: "0 0 12px",
             color: "var(--muted)",
             fontSize: "15px",
             maxWidth: "420px",
@@ -41,36 +41,42 @@ export default function Header({ updatedAt }) {
         >
           AI-powered prediction system for ChatGPT/Codex reset events
         </p>
-      </div>
-      <div style={{ textAlign: "right" }}>
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "flex-end",
-            fontSize: "14px",
-            fontWeight: 500,
-            marginBottom: "8px",
+            flexWrap: "wrap",
+            gap: "16px",
+            fontSize: "13px",
           }}
         >
-          <span className="status-dot"></span>
-          System Online
+          <span
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              fontWeight: 500,
+            }}
+          >
+            <span className="status-dot"></span>
+            System Online
+          </span>
+          <span className="mono muted">Last update: {formatted}</span>
         </div>
-        <div className="mono muted" style={{ fontSize: "13px" }}>
-          Last update: {formatted}
-        </div>
+      </div>
+      <div style={{ flex: "0 0 auto" }}>
         <img
           src="/HOnd3JraIAAhSeg.jpeg"
           alt="Saint Tibo of OpenAI — Patron of safe token resets"
           style={{
-            marginTop: "16px",
-            maxWidth: "160px",
-            maxHeight: "220px",
+            display: "block",
+            maxWidth: "220px",
+            maxHeight: "280px",
             width: "auto",
             height: "auto",
             borderRadius: "12px",
             objectFit: "contain",
-            boxShadow: "0 4px 20px rgba(0,0,0,0.25)",
+            boxShadow: "0 4px 24px rgba(0,0,0,0.28)",
           }}
         />
       </div>
