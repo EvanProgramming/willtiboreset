@@ -248,6 +248,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T15:16:42Z",
+    "author": "/u/Sad_Sell3571",
+    "text": "Random but is there like refferal codes for chatgpt plus users like lcaudr has to shsre with others? If so where? - &#32; submitted by &#32; /u/Sad_Sell3571 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkp4o/random_but_is_there_like_refferal_codes_for/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T15:04:06Z",
+    "author": "/u/ytruhg",
+    "text": "Best way to share ChatGPT business context without keeping every chat in one project? - I've been using chatgpt pro for personal heavy over the past two years for my business. I am now getting my assistant to strart using chatgpt as well. So I exported/imported the history into projects in a new business workspace so I can share it. Thr question is that it don't want to have every question that either of us ask be in that workspace, or else it will get crowded. But I need that even in the general space chatgpt has access to the information that was imported into the workspace. What is the best way to do that? According to chatgpt, information that is in the workspace is not available out of it. Thank you &#32; submitted by &#32; /u/ytruhg [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkdos/best_way_to_share_chatgpt_business_context/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T14:44:19Z",
     "author": "/u/vinzsancho",
     "text": "why is my chatgpt and whop not working? - my chatgpt and whop not working in my pc, ive tried everything but nothing fixes it, its forever loading and i cant send chats to chatgpt &#32; submitted by &#32; /u/vinzsancho [link] &#32; [comments]",
@@ -280,19 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T15:16:42Z",
-    "author": "/u/Sad_Sell3571",
-    "text": "Random but is there like refferal codes for chatgpt plus users like lcaudr has to shsre with others? If so where? - &#32; submitted by &#32; /u/Sad_Sell3571 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T15:26:25Z",
+    "author": "/u/KeanuRave100",
+    "text": "Hill Democrats want answers on recent disclosures from OpenAI and Anthropic that their AI models escaped testing environments, accessed the internet and hacked other firms. - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkp4o/random_but_is_there_like_refferal_codes_for/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T15:04:06Z",
-    "author": "/u/ytruhg",
-    "text": "Best way to share ChatGPT business context without keeping every chat in one project? - I've been using chatgpt pro for personal heavy over the past two years for my business. I am now getting my assistant to strart using chatgpt as well. So I exported/imported the history into projects in a new business workspace so I can share it. Thr question is that it don't want to have every question that either of us ask be in that workspace, or else it will get crowded. But I need that even in the general space chatgpt has access to the information that was imported into the workspace. What is the best way to do that? According to chatgpt, information that is in the workspace is not available out of it. Thank you &#32; submitted by &#32; /u/ytruhg [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkdos/best_way_to_share_chatgpt_business_context/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdkxp1/hill_democrats_want_answers_on_recent_disclosures/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcksfj/gpt_just_built_me_a_complete_local_pdfprocessing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T14:48:21Z",
-    "author": "/u/ManWithNoVision",
-    "text": "78 percent of usage left yet it says I've hit my limit - Hey, Been using ChatGPT for a couple of months now without any issues. To my understanding, daily limits were recently removed. I now have 76% of Weekly usage left, yet it states I've hit my limit. How? I don't think it's possible I've used up my usage as an hour ago I just reset my usage back to 100% and submitted 10 prompts at most. I have the Plus plan. Thanks! EDIT: I restarted ChatGPT and now it works fine. I had this issue earlier today too. Is anybody else facing anything similar? &#32; submitted by &#32; /u/ManWithNoVision [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdjznr/78_percent_of_usage_left_yet_it_says_ive_hit_my/",
     "authority_score": 0.5
   }
 ]
