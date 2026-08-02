@@ -2832,5 +2832,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T02:40:59.750350Z",
+    "prediction": {
+      "within_5h": 0.1428,
+      "within_24h": 0.4073,
+      "within_48h": 0.5462
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 23.149930039444442,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3772,
+      "time_pressure": 0.2707,
+      "hazard_rate": 0.021559,
+      "evidence_score": 0.1005,
+      "tibo_signal": 0.0623,
+      "community_signal": 0.0442,
+      "release_signal": 0.1392,
+      "llm_scores": {
+        "reset_intent": 0.0125,
+        "limit_complaint": 0.0675,
+        "official_change": 0.1125,
+        "reset_confirmation": 0.07,
+        "confidence": 0.86,
+        "reason": [
+          "The text is a casual observation about usage patterns, not related to resets.",
+          "Mentions 'signs' and 'breakthroughs' but no explicit reset discussion.",
+          "Generic motivational phrase with no reset relevance.",
+          "Explicitly states 'I have reset usage limits' indicating a past reset, not an upcoming one.",
+          "Mentions 'resets' as a sign but vague and not confirming a specific reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
