@@ -8,13 +8,18 @@ import ModelPerformance from "./components/ModelPerformance";
 import AboutModel from "./components/AboutModel";
 import Footer from "./components/Footer";
 
+// The GitHub Actions prediction workflow runs every 20 minutes.
+// Poll every 5 minutes so the dashboard picks up new data quickly
+// without generating excessive requests on GitHub Pages.
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+
 export default function App() {
   const base = import.meta.env.BASE_URL || "/";
 
-  const prediction = useJsonData(`${base}data/prediction.json`);
-  const performance = useJsonData(`${base}data/model_performance.json`);
-  const history = useJsonData(`${base}data/prediction_history.json`);
-  const tweets = useJsonData(`${base}data/tweets.json`);
+  const prediction = useJsonData(`${base}data/prediction.json`, REFRESH_INTERVAL_MS);
+  const performance = useJsonData(`${base}data/model_performance.json`, REFRESH_INTERVAL_MS);
+  const history = useJsonData(`${base}data/prediction_history.json`, REFRESH_INTERVAL_MS);
+  const tweets = useJsonData(`${base}data/tweets.json`, REFRESH_INTERVAL_MS);
 
   const isLoading =
     prediction.loading || performance.loading || history.loading || tweets.loading;
