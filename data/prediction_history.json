@@ -4900,5 +4900,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T17:01:03.714026Z",
+    "prediction": {
+      "within_5h": 0.1088,
+      "within_24h": 0.3363,
+      "within_48h": 0.4719
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 37.484364121666665,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.6107,
+      "time_pressure": 0.4029,
+      "hazard_rate": 0.016935,
+      "evidence_score": 0.058,
+      "tibo_signal": 0.0396,
+      "community_signal": 0.1018,
+      "release_signal": 0.0877,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.06000000000000001,
+        "official_change": 0.0875,
+        "reset_confirmation": 0.05,
+        "confidence": 0.91375,
+        "reason": [
+          "The text is a casual observation about usage patterns, not about resets.",
+          "No mention of limits, official changes, or resets.",
+          "Mentions 'major breakthroughs' and 'signs' but not resets.",
+          "Official source (Sebastien Bubeck) discussing model capabilities, not resets.",
+          "Generic motivational phrase with no relevance to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
