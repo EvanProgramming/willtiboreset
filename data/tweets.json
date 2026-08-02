@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:06:32Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T22:57:17Z",
     "author": "/u/Conscious_Bend_8647",
     "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T19:06:32Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
     "authority_score": 0.5
   },
   {
@@ -184,6 +184,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T00:32:50Z",
+    "author": "/u/shouldIworkremote",
+    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T15:54:41Z",
     "author": "/u/Slippin_Jimm",
     "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
@@ -197,14 +205,6 @@
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcksfj/gpt_just_built_me_a_complete_local_pdfprocessing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T00:32:50Z",
-    "author": "/u/shouldIworkremote",
-    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
     "authority_score": 0.5
   },
   {
@@ -232,19 +232,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-07-31T20:14:11Z",
-    "author": "/u/awakirr",
-    "text": "DeepSeek V4 flash final release - &#32; submitted by &#32; /u/awakirr [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T01:07:24Z",
     "author": "/u/Accomplished_Tea7781",
     "text": "Image prompt: Serious work in absurd places work: Place: - Inspired by another thread using objects out of context in serious sitation. &#32; submitted by &#32; /u/Accomplished_Tea7781 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vd46by/image_prompt_serious_work_in_absurd_places_work/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-07-31T20:14:11Z",
+    "author": "/u/awakirr",
+    "text": "DeepSeek V4 flash final release - &#32; submitted by &#32; /u/awakirr [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vc1y86/deepseek_v4_flash_final_release/",
     "authority_score": 0.5
   },
   {
