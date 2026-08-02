@@ -208,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-01T23:36:22Z",
+    "author": "/u/Busy-Specialist7708",
+    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-01T15:54:41Z",
     "author": "/u/Slippin_Jimm",
     "text": "GPT 5.6 Sol built a pokemon web game - Tower Arena style pokemon game. Those easily offended may want to scroll on as I anticipate the death threats... &#32; submitted by &#32; /u/Slippin_Jimm [link] &#32; [comments]",
@@ -221,14 +229,6 @@
     "text": "GPT just built me a complete local PDF-processing system, and I’m honestly amazed - Let me preface. I am just a warehouse worker. 0 technical experience with AI “doing work” for me. I knew AI could write code, but this was the first time I really understood how powerful this technology has become. I had hundreds of PDF manuals that I wanted to make searchable and readable by a local LLM. Some contained normal text, others had screenshots, diagrams, and scanned pages. I am not a programmer, and I had only a rough idea of what the final result should look like. I basically supplied the documents and explained what I needed. There was some back and forth about the desired structure and output, but I did not write some enormous technical prompt. I used the planning function, GPT examined the problem, designed the workflow, and then started building it. It wrote the scripts, set up the OCR tools, downloaded and configured a local Qwen model, processed the PDFs, extracted and cleaned the text, organised everything into a usable structure, and created the output for me. The whole thing is running locally on my PC through LM Studio. The documents stay on my machine, and my RTX 5090 is doing the processing. My contribution was basically: “Here are the documents. This is what I need the result to do.” The GPT figured out how to get from one to the other. It is one thing to see chatbots answer questions or generate a small Python script. It is completely different to watch one plan and assemble an entire working pipeline using your own hardware and files. This genuinely feels like having a programmer and technical project manager sitting next to me. Not perfect, obviously, and I still had to explain the goal and correct things along the way. But I could never have built this system by myself. A screenshot of the process is attached. We are living in a pretty fucking interesting time. &#32; submitted by &#32; /u/OsirisII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcksfj/gpt_just_built_me_a_complete_local_pdfprocessing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T23:36:22Z",
-    "author": "/u/Busy-Specialist7708",
-    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
     "authority_score": 0.5
   },
   {
@@ -264,19 +264,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T03:17:11Z",
-    "author": "/u/cybersphere9",
-    "text": "ChatGPT trying to blend in each morning - This is how it greets me &#32; submitted by &#32; /u/cybersphere9 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcbut3/chatgpt_trying_to_blend_in_each_morning/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T14:26:12Z",
     "author": "/u/kaiwai_81",
     "text": "Seedance 2.5 + Upscale - Four reference images, a few pointers in prompt. Upscaled in Topaz Astra to 4k. A bit grading on top. &#32; submitted by &#32; /u/kaiwai_81 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcot8m/seedance_25_upscale/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T03:17:11Z",
+    "author": "/u/cybersphere9",
+    "text": "ChatGPT trying to blend in each morning - This is how it greets me &#32; submitted by &#32; /u/cybersphere9 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcbut3/chatgpt_trying_to_blend_in_each_morning/",
     "authority_score": 0.5
   },
   {
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T18:58:39Z",
-    "author": "/u/KeanuRave100",
-    "text": "Well that's awkward - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "timestamp": "2026-08-01T23:59:06Z",
+    "author": "/u/Serpent_28",
+    "text": "How many people use Work instead of Chat accidently? - I saw many people automatically redirecting to Work tab after last update LOL, i feel like mysef it functions different, i even tried as 0% coding expeiience to create candy crush copy with my own taste etc and sty;e. I saw some streamers even online using &quot;Work&quot; for most casual questions like directions of casual question which chould be directed to normal cahtgpt, i have no idea how they enabled the &quot;work function&quot;. Has everybody noticed it? For me if you are more informed please fix my statement, Work chat is using Codex for coding if you want to create something? And Chat is usal chatgpt? Or is is nto the same? Cuz I could code candy crush similar copy through Work function, i have 0 knoweldge (in programming) if its ub codex, (it would be fun to listen to those who used codex before if you could comment about codex). So far gpt 5.6 is interesting and the updated voice chat that can catch any accent despite english, cuz always the voice obviously worked in english lol but rarely in other languages. Any opinions and answers? I tried to create candy crush copy by my own likes and editions, applying like 7 patches cuz some combos didnt work, and obviously cuz of ToS i used specific combom it seems to understand if something is wrong it fixes it, its like kinda vibe coding no? Cuz all i do is just type lol and chatgpt models/agents and they are fixing it if i spot the error while playing the game which took 2-3 mins to write as a sentnece to create something lol. and they work for some 15-30 mins to fix it so its playable. Its veyr interesintg, i think gpt 5.6 patch bringed more creation in community, but its a selfish take cuz its the first time i used it to create something i hav eno idea about xD, cuz work seems very different from chat function, and i am aware that Work uses codex limits, not usual chat. So I assume Work uses codex as programming tool and uses its tokkens,etc? Completely honest question cuz first time knowing 0 programing chatgpt work created a specific version of candy crush perfectly working on PC, with me just typing &quot;Create this, fix that , etc&quot; its a big leap, cuz if u do not know anything about progrramign what would happen in 2-3 yrs ? Im just amazed, and I would like to hear honest opinions from programmers where i culd fail etc, creating stuff like this, and is it even nessecary to have programming degree if you spot something bad in the game and you say &quot;oh i noticed this combo doesnt work&quot; and iit literally fixes it in 15 mins...?... and it works? &#32; submitted by &#32; /u/Serpent_28 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvkcc/well_thats_awkward/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd2q6p/how_many_people_use_work_instead_of_chat/",
     "authority_score": 0.5
   }
 ]

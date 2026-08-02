@@ -3140,5 +3140,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-02T03:40:56.071696Z",
+    "prediction": {
+      "within_5h": 0.0887,
+      "within_24h": 0.2866,
+      "within_48h": 0.4131
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 24.14890818027778,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3934,
+      "time_pressure": 0.279,
+      "hazard_rate": 0.013973,
+      "evidence_score": 0.0412,
+      "tibo_signal": 0.0543,
+      "community_signal": 0.0534,
+      "release_signal": 0.058,
+      "llm_scores": {
+        "reset_intent": 0.01,
+        "limit_complaint": 0.06999999999999999,
+        "official_change": 0.1325,
+        "reset_confirmation": 0.075,
+        "confidence": 0.9049999999999999,
+        "reason": [
+          "Text is a casual observation about weekend usage patterns, no mention of resets or limits.",
+          "Mentions upcoming breakthroughs and signs but does not explicitly discuss quota resets.",
+          "Short motivational phrase with no relevance to resets or limits.",
+          "Explicitly states 'I have reset usage limits' indicating a reset has already occurred, so reset_intent is low.",
+          "Mentions 'Resets' as a sign of progress but does not confirm an imminent reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
