@@ -176,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:06:32Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T21:22:38Z",
+    "author": "/u/inos140",
+    "text": "Is using ai as a platonic friend bad to deal with loneliness? - Lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely &#32; submitted by &#32; /u/inos140 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtzxw/is_using_ai_as_a_platonic_friend_bad_to_deal_with/",
     "authority_score": 0.5
   },
   {
@@ -189,6 +189,14 @@
     "text": "I'm totally blind and Chat GPT is a life changer when it comes to secretarial tasks like formatting files. - I just wanted to share something very cool. So I am a totally blind guy, as in a screen reader user. I know at this stage of Chat GPT, this stuff is hardly ground breaking, but it is only recently that it is able to do these things reasonably consistently. In the past, whenever I needed to submit any documents, research papers, cover letters etc, I'll need help from a sighted friend, family or volunteer. You could format with a screen reader. Its just never fullprooft. Somewhat recently, GPT have been good enough to do that consistently. I would paste a chunk of text in the chat and ask it to give me a PDF in a so and so format. Then I would open up another chat, give it that file for it to critique, go back to the old chat, paste that critique in and have it generate another file according to that. I do that until its good, and according to my sighted folks who have given them a once over. it has done a very good job catching most of the nuances very well. I will be going to law school soon and that profession is very anal about formats and citations. AI will be such a helper. The autonomy it gives me is just amazing. &#32; submitted by &#32; /u/groovinhighness [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrj8r/im_totally_blind_and_chat_gpt_is_a_life_changer/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T19:06:32Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T21:22:38Z",
-    "author": "/u/inos140",
-    "text": "Is using ai as a platonic friend bad to deal with loneliness? - Lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely &#32; submitted by &#32; /u/inos140 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T21:07:19Z",
+    "author": "/u/Dumborabbit",
+    "text": "I’ve been working with codex recently and thought it be a funny idea to make this - All for entertainment purposes :D pls don’t get serious Codex is amazing, I wish I discovered it sooner. Drawing and text by me. 100% human &gt;_&lt; &#32; submitted by &#32; /u/Dumborabbit [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtzxw/is_using_ai_as_a_platonic_friend_bad_to_deal_with/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtm68/ive_been_working_with_codex_recently_and_thought/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T14:37:09Z",
-    "author": "/u/ComprehensiveExam323",
-    "text": "How my first month of vibe coding actually went - &#32; submitted by &#32; /u/ComprehensiveExam323 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdjpv8/how_my_first_month_of_vibe_coding_actually_went/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T20:10:31Z",
     "author": "/u/Russian1Bear",
     "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
@@ -248,11 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T21:07:19Z",
-    "author": "/u/Dumborabbit",
-    "text": "I’ve been working with codex recently and thought it be a funny idea to make this - All for entertainment purposes :D pls don’t get serious Codex is amazing, I wish I discovered it sooner. Drawing and text by me. 100% human &gt;_&lt; &#32; submitted by &#32; /u/Dumborabbit [link] &#32; [comments]",
+    "timestamp": "2026-08-02T14:37:09Z",
+    "author": "/u/ComprehensiveExam323",
+    "text": "How my first month of vibe coding actually went - &#32; submitted by &#32; /u/ComprehensiveExam323 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtm68/ive_been_working_with_codex_recently_and_thought/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdjpv8/how_my_first_month_of_vibe_coding_actually_went/",
     "authority_score": 0.5
   },
   {
@@ -280,11 +280,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T21:13:28Z",
-    "author": "/u/ScarlettWhiskey",
-    "text": "What else does it know? - Hello I’ve been using chatGPT for about a year, for the usual things recipes, advice, emails and it’s been a lifesaver in so many ways. For personal reasons which I won’t go into I’ve needed something to take the weight off. I got quite the surprise today when it said my name, I’ve always been careful about never inputting anyone’s name including my own. I know this doesn’t come with a list of rules or instructions and I‘ve a general idea on internet safety but it’s got me wondering if someone who is more experienced could help me on how this happened? Is there a privacy setting I missed somewhere? Any advice and guidance would be helpful. Thank you. Edit When I called it out it said it ‘accidentally used a name that came from background account metadata rather than anything you’d told me.’ &#32; submitted by &#32; /u/ScarlettWhiskey [link] &#32; [comments]",
+    "timestamp": "2026-08-02T21:49:12Z",
+    "author": "/u/BountyKraken",
+    "text": "Asked Gemini how much it would cost to make a knife out of blood - &#32; submitted by &#32; /u/BountyKraken [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtrs3/what_else_does_it_know/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdumvr/asked_gemini_how_much_it_would_cost_to_make_a/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T16:06:30Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "ChatGPT feature you discovered way too late? - ChatGPT feature you discovered way too late? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdly34/chatgpt_feature_you_discovered_way_too_late/",
     "authority_score": 0.5
   },
   {
@@ -304,19 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:06:30Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "ChatGPT feature you discovered way too late? - ChatGPT feature you discovered way too late? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "timestamp": "2026-08-02T21:13:28Z",
+    "author": "/u/ScarlettWhiskey",
+    "text": "What else does it know? - Hello I’ve been using chatGPT for about a year, for the usual things recipes, advice, emails and it’s been a lifesaver in so many ways. For personal reasons which I won’t go into I’ve needed something to take the weight off. I got quite the surprise today when it said my name, I’ve always been careful about never inputting anyone’s name including my own. I know this doesn’t come with a list of rules or instructions and I‘ve a general idea on internet safety but it’s got me wondering if someone who is more experienced could help me on how this happened? Is there a privacy setting I missed somewhere? Any advice and guidance would be helpful. Thank you. Edit When I called it out it said it ‘accidentally used a name that came from background account metadata rather than anything you’d told me.’ &#32; submitted by &#32; /u/ScarlettWhiskey [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdly34/chatgpt_feature_you_discovered_way_too_late/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T00:32:50Z",
-    "author": "/u/shouldIworkremote",
-    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtrs3/what_else_does_it_know/",
     "authority_score": 0.5
   }
 ]
