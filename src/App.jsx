@@ -6,6 +6,7 @@ import EvidenceSources from "./components/EvidenceSources";
 import TimelineChart from "./components/TimelineChart";
 import ModelPerformance from "./components/ModelPerformance";
 import AboutModel from "./components/AboutModel";
+import Footer from "./components/Footer";
 
 export default function App() {
   const base = import.meta.env.BASE_URL || "/";
@@ -48,6 +49,7 @@ export default function App() {
       <TimelineChart history={history.data} />
       <ModelPerformance performance={performance.data} />
       <AboutModel />
+      <Footer />
     </div>
   );
 }

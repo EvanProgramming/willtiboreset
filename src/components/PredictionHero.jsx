@@ -26,6 +26,7 @@ export default function PredictionHero({ prediction }) {
   return (
     <section className="section">
       <div className="section-title">Next Reset Probability</div>
+      <h2 className="section-heading">When will Tibo reset?</h2>
       <div className="grid-3">
         <ProbabilityCard label="Within 5 hours" probability={prediction?.within_5h} />
         <ProbabilityCard label="Within 24 hours" probability={prediction?.within_24h} />
