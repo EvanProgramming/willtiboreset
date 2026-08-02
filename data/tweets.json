@@ -200,6 +200,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T00:32:50Z",
+    "author": "/u/shouldIworkremote",
+    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-07-31T20:15:37Z",
     "author": "/u/flanmorrison",
     "text": "Prompts for a black-and-white editorial headshot - After trying several AI headshot apps, I decided that they all suck. I've always liked Marco Grob's TIME cover portraits so I've been refining some prompts to generate these types of headshots. Both before/afters attached were made with Nanobanana 2 (4:5 aspect ratio, 4k output)... haven't tried it on OpenAI's image models yet so no promises. Attach solid, high-res, well-lit reference images and expect to regenerate 2-3 times. I created a separate prompt for women because any attempt at unisex prompts made women look very masculine. Enjoy, let me know your thoughts! Men's version: Goal: Transform the attached photo into a professional black-and-white studio headshot in the style of a Marco Grob editorial monochrome portrait, the TIME magazine cover aesthetic: simple, psychologically intense, character-first. Subject &amp; identity: The man in the reference image. Keep his exact facial features, facial structure, skin tone, eye color, hair, and hairline completely unchanged — same age, same build, instantly recognizable to people who know him. Change only the framing, lighting, background, wardrobe, and tonal grade. Composition &amp; camera: Classic head-and-shoulders crop, chest-up, his eyes in the upper third of the frame, centered composition with a small margin above his head. Body squared to camera or turned 10-20 degrees, shoulders relaxed and level, head straight into the lens, chin neutral. Hasselblad medium-format look: short-telephoto perspective (about 100mm equivalent), no wide-angle distortion, extremely shallow but controlled depth of field — both eyes critically sharp, background fully defocused, smooth medium-format tonal transitions. Lighting: Single large 5-foot softbox slightly above his eye level and 30-45 degrees to one side — soft but clearly directional, sculpting a gentle Rembrandt-style shadow on the far cheek with a gradual edge. One soft rectangular catchlight in the upper half of each eye. Subtle silver-reflector fill from the opposite side: shadows keep detail with a faint specular crispness, never flat. Ambient reads slightly underexposed so he pops from the frame (lit but not over-lit). Only a slight whisper of edge separation from the backdrop. Background: Seamless studio gray, graduating from mid-gray behind his head to near-black at the frame edges with a natural falloff vignette. Smooth and empty, no props, texture, or scene. Expression &amp; mood: Direct, unwavering eye contact: alert, present eyes carry the portrait. Composed and quietly intense, mouth relaxed and closed, subtly smiling at the corners. Gravitas and self-possession; keep his natural optimistic micro-expression rather than a generic pleasant mask. Wardrobe: A dark, well-fitted crew-neck sweater, wool texture in charcoal, black, or deep navy that reads as distinct dark tones in monochrome. No patterns, logos, tie, or crisp corporate suit. Style &amp; grade: Photorealistic editorial photograph in high-contrast neutral black and white: deep clean blacks, rich midtone separation across his face, controlled bright highlights, texture held in both shadows and highlights. Skin mapped to luminous, finely graded grays with visible pores, expression lines, and stubble... character over polish, minimal retouching only (stray hairs, temporary blemishes). Pure monochrome: no sepia, split-toning, or faded matte look. Constraints: Do not alter his identity, age, or facial proportions. No beauty-filter smoothing or plastic skin, no reshaped features, no whitened teeth, no symmetry correction. No text, logos, or watermarks. Avoid AI-portrait tells: waxy skin, dead eyes, fused hair strands, over-sharpened halos. Output: High-resolution vertical black-and-white portrait, 4:5 crop. Women's version: Goal: Transform the attached photo into a professional black-and-white studio headshot of a woman, in the style of Marco Grob's editorial monochrome portraits of women for TIME magazine covers: simple, elegant, psychologically present, character-first. Subject &amp; identity: The woman in the reference image — she must read unmistakably as a woman in the final image. Keep her exact facial features, feminine facial structure, skin tone, eye color, hairstyle, hair length, and hairline completely unchanged — same age, same build, instantly recognizable to people who know her. Keep her makeup exactly as it appears in the reference photo; do not add or remove any. Change only the framing, lighting, background, wardrobe, and tonal grade. Composition &amp; camera: Classic head-and-shoulders crop, chest-up, her eyes in the upper third of the frame, centered composition with a small margin above her head. Body squared to camera or turned 10-20 degrees, shoulders relaxed and level, head straight into the lens, chin neutral. Hasselblad medium-format look: short-telephoto perspective (about 100mm equivalent), no wide-angle distortion, shallow but controlled depth of field — both eyes critically sharp, background fully defocused, smooth medium-format tonal transitions. Lighting: Single large 5-foot softbox slightly above her eye level and 30-45 degrees to one side — soft, flattering, clearly directional, with a gentle, open shadow on the far cheek that keeps her face luminous; never heavy, hard-edged, or angular. One soft rectangular catchlight in the upper half of each eye. Subtle silver-reflector fill from the opposite side: shadows keep detail with a faint specular crispness, never flat. Ambient reads slightly underexposed so she pops from the frame (lit but not over-lit). Only a slight whisper of edge separation from the backdrop. Background: Seamless studio gray, graduating from mid-gray behind her head to near-black at the frame edges with a natural falloff vignette. Smooth and empty, no props, texture, or scene. Expression &amp; mood: Direct, unwavering eye contact: alert, present eyes carry the portrait. Composed and self-assured, mouth relaxed and closed but smiling. Poise, warmth, and quiet confidence; keep her natural micro-expression rather than a generic pleasant mask. Wardrobe: An elegant, dark, well-fitted top with a feminine cut. Soft wool texture in charcoal, black, or deep navy that reads as distinct dark tones in monochrome. No patterns or logos. Style &amp; grade: Photorealistic editorial photograph in high-contrast neutral black and white: deep clean blacks, rich midtone separation across her face, controlled bright highlights, texture held in both shadows and highlights. Her skin mapped to luminous, finely graded grays with natural texture preserved — character over polish, minimal retouching only (stray hairs, temporary blemishes). Pure monochrome: no sepia, split-toning, or faded matte look. Constraints: Do not alter her identity, age, or facial proportions, and do not masculinize her in any way: no squared or broadened jaw, no heavier brow, no thickened neck, no shortened hair, no stubble or shadow that reads as facial hair. No beauty-filter smoothing or plastic skin, no reshaped features, no whitened teeth, no symmetry correction. No text, logos, or watermarks. Avoid AI-portrait tells: waxy skin, dead eyes, fused hair strands, over-sharpened halos. Output: High-resolution vertical black-and-white portrait of the woman in the reference image, 4:5 crop. &#32; submitted by &#32; /u/flanmorrison [link] &#32; [comments]",
@@ -232,11 +240,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T00:32:50Z",
-    "author": "/u/shouldIworkremote",
-    "text": "Does anyone else feel like ChatGPT just disagrees too much? - I feel like it nitpicks and disagrees on everything, its like I can never get a perfect &quot;revision&quot; of something when working with it, and even when I follow everything it tells me to do, I find it difficult for me to agree that things are truly &quot;optimal&quot;. The end result is I end up wasting a ton of time going back and forth with it only to end up with a final result that is subpar. I find other AIs more forgiving in this sense. Is it just me? Thoughts? Note: I am using 5.6 with Intelligence set to High &#32; submitted by &#32; /u/shouldIworkremote [link] &#32; [comments]",
+    "timestamp": "2026-08-01T23:36:22Z",
+    "author": "/u/Busy-Specialist7708",
+    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd3gne/does_anyone_else_feel_like_chatgpt_just_disagrees/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
     "authority_score": 0.5
   },
   {
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T23:36:22Z",
-    "author": "/u/Busy-Specialist7708",
-    "text": "AI Meme Generator - Prompt: Create a genuinely funny old-school internet meme that looks randomly found on Google Images or Facebook around 2010–2016. Use a believable candid photo, awkward framing, slightly low resolution, JPEG compression, and simple bold meme text with one sharp, relatable punchline. Keep it stupid, specific, and instantly understandable. Avoid polished AI art, cinematic lighting, perfect composition, illustrations, generic surrealism, watermarks, and excessive text. &#32; submitted by &#32; /u/Busy-Specialist7708 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd28jp/ai_meme_generator/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T20:44:01Z",
     "author": "/u/SlamperDamper",
     "text": "Anybody miss seeing ChatGPT think? - Nerding out a bit here, but I found value sometimes in watching what chatgpt was thinking about while it was working. They've kinda obfuscated that recently and it's a bit disappointing to me. lol have a good weekend &#32; submitted by &#32; /u/SlamperDamper [link] &#32; [comments]",
@@ -277,6 +277,14 @@
     "text": "The long awaited Reset is HERE - &#32; submitted by &#32; /u/Ecstatic_Amount_1692 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcceka/the_long_awaited_reset_is_here/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T01:07:24Z",
+    "author": "/u/Accomplished_Tea7781",
+    "text": "Image prompt: Serious work in absurd places work: Place: - Inspired by another thread using objects out of context in serious sitation. &#32; submitted by &#32; /u/Accomplished_Tea7781 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd46by/image_prompt_serious_work_in_absurd_places_work/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "“Chat” 5.6 not showing up - Why have all my threads downgraded to 5.5 in chat mode? This just happened sometime within the past 4 hours. Only way I can see 5.6 is if I change to work mode. &#32; submitted by &#32; /u/Kk262626 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vcukpm/chat_56_not_showing_up/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-01T21:09:57Z",
-    "author": "/u/KeanuRave100",
-    "text": "AI firms must answer for rogue bots, says boss of hacked company - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcyuvf/ai_firms_must_answer_for_rogue_bots_says_boss_of/",
     "authority_score": 0.5
   }
 ]
