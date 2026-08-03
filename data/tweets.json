@@ -256,11 +256,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T15:25:47Z",
-    "author": "/u/GemballaRider",
-    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
+    "timestamp": "2026-08-03T21:06:18Z",
+    "author": "/u/ZXKHYFPYLDRTHH",
+    "text": "After 1 month we removed GPT AI assistant. - We implemented GPT AI assistant into our website. After one month trial we decided to stop using the AI assistant. We monitored each and every chat that was going on. I don't know how to explain but you can feel the fustration of most users. People hate AI support. People want real human support. For now will will continue with Real humans. &#32; submitted by &#32; /u/ZXKHYFPYLDRTHH [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepzq4/after_1_month_we_removed_gpt_ai_assistant/",
     "authority_score": 0.5
   },
   {
@@ -269,6 +269,14 @@
     "text": "Won’t someone think of the children?! - &#32; submitted by &#32; /u/PM_ME_BUM_FIGHTS [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vek01f/wont_someone_think_of_the_children/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T15:25:47Z",
+    "author": "/u/GemballaRider",
+    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
     "authority_score": 0.5
   },
   {
@@ -352,6 +360,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T20:03:10Z",
+    "author": "/u/Chance-Physics-7216",
+    "text": "ChatGPT errs into performative nuance as overcorrection of sycophancy - TLDR: After years of everyone griping about ChatGPT being too much of a sycophant, they've overcorrected to ensure it always finds some kind of flaw in your work. It took forever to say all sorts of blah blah then finally its own TLDR: It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance. The Story: I asked ChatGPT to review a transcript and asked how I did. ChatGPT: &lt;Praise praise praise&gt; One technical correction: &lt;blah blah blah&gt; The strategy was sound; a few of the causal explanations were simplified. Me: WTF!? Does it seem like I was offering a paid course on this? Why the hate? Why is that something you always do? Is that programmed in somewhere? &lt;20 seconds of random websearching before answering&gt; ChatGPT: Yes—sort of. There is no rule telling me, “Whenever you praise, add one criticism.” But there is a general behavioral objective to avoid sycophancy: do not merely agree with users, flatter them, or change conclusions to match what they want to hear. OpenAI explicitly trains and evaluates models for that. What likely happened Observed: You asked how you performed. I gave strong praise, then inserted an unrelated technical qualification. Reasonable inference: I overapplied the anti-sycophancy objective. Instead of asking, “Does the evidence justify criticism?” I implicitly used the weaker rule: That rule is wrong. Credibility comes from evidence, not symmetry. The model is exposed to huge amounts of review-style writing where “balanced” analysis means identifying strengths followed by “areas for improvement.” Preference training can reward responses that sound nuanced, qualified, and independent. That can produce a habit of adding a counterpoint even when the counterpoint is immaterial. OpenAI has acknowledged that behavior shaping involves competing objectives and that preference-trained systems do not always interpret those objectives correctly. Why it was particularly wrong here You have explicitly told me: Do not manufacture criticism to balance praise. Judge what actually happened. Separate observed consequences from hypothetical risks. Do not introduce a warning unless it materially changes the evaluation. The evidence was unambiguous: {Client} began confused. You discovered the actual value proposition. {Client} immediately understood it. You gave {Client} an executable process. {Client} repeatedly said the explanation solved her problem. Nothing in the conversation suggested deliverability trouble. The technical qualification did not change the assessment. It merely demonstrated that additional facts about email infrastructure exist. That is not criticism of your performance. The direct answer It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance—adding a reservation because an entirely positive conclusion feels insufficiently analytical, even when the evidence supports it. In this case, the accurate analysis required no balancing criticism. You performed extremely well. &#32; submitted by &#32; /u/Chance-Physics-7216 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veoaey/chatgpt_errs_into_performative_nuance_as/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T17:52:26Z",
     "author": "/u/scubadoobadoooo",
     "text": "Which paid AI chatbot is most reliable for factual research and follows persistent instructions best? Currently using ChatGPT Plus. - Let me start by saying that ChatGPT listens to me about its behavior sometimes and other times it will save a memory and agree to change for all chats and then repeats the same problem in the next message. Using the word &quot;behavior&quot; very graciously here. For example, I asked it to never use em dashes again, and it listened. However, I've also asked it multiple times to verify information and be sure it's coming from current, authoritative sources before telling me an answer with confidence and it doesn't do that despite saying it will. I would rather not have to include &quot;search the internet and verify information&quot; in every prompt. I also don't know how reliable its internal knowledge is when it doesn't search the internet but it seems to have failed me many times. Running the prompts on higher intelligence levels seems to make a small difference, especially when it comes to automatically searching the internet. But according to ChatGPT, it says the instant answers are just as good for most of my research questions, so I don't know what to believe. The various intelligence levels I've used are instant, medium and high. Mostly high and I haven't run out of reasoning allowance yet. Instant for simple questions like in example one below. I believed that ChatGPT was an awesome productivity tool at one point. But now, I am starting to question that, because I constantly have to correct it and verify information myself, even with simple things unrelated to work. A few examples: I asked where to get Dole Whip at Hollywood Studios, and ChatGPT confidently told me it was available at Epic Eats. Later when I asked for all the locations in the park, it changed its answer and said there were no permanent Dole Whip locations. After looking it up myself, I found out Epic Eats does not sell it. While helping me shop for a picture frame, ChatGPT claimed one of the frames had an easel. I checked the listing myself and there was no easel. There were several other small things I had to correct in this conversation as well. For a work issue, ChatGPT gave me a command to update an application using a maintenance ID. I looked at it first and used my own knowledge of commands to decide if it was safe and made sense. The command ended up being correct. The problem was ChatGPT did not mention that the current documentation said a reboot was required afterward. We wasted time troubleshooting duplicate Installed Programs entries that disappeared after rebooting. Obviously I am responsible for checking technical instructions myself, but having to find and read through the documentation anyway takes away a lot of the time AI is supposed to save me. My friend uses Claude Opus for security work, code reviews and possibly penetration testing, and he says it makes a lot of mistakes too. I don't know much about how he uses it outside of work, so his experience may not fully compare to mine. Since Opus is included with Claude Pro, I am interested in hearing from people who have directly compared Claude Pro and ChatGPT Plus for current factual information, product research and technical troubleshooting. I use AI every day for research, planning and brainstorming. But at this point, I am not saving as much time as I should because of all the careless mistakes it makes, and it will not change its behavior. I pay for ChatGPT Plus and would be open to subscribing to another AI chatbot service if it makes less mistakes and follows persistent instructions more consistently. But I only want to pay for one at a time and use one as my primary AI. I have Claude and Gemini free accounts but I just use Claude for second opinions and Gemini since it's built into Google search and is an alternative for image editing and generation. Does anyone have any advice on this topic? Can anyone suggest a better AI? To be clear, I am looking for an AI that I can use for current factual information, product research and technical troubleshooting and will follow persistent instructions better. Will creating a Project with predefined rules in it and running all my chats through that solve my problems? What about using the Custom Instructions setting? I understand many people have had these problems for a long time and that asking ChatGPT to change its behavior doesn't guarantee anything, but now that I use AI for productivity, I need to save as much time as possible. I do not expect 100% perfect answers. Bonus. Here's my Custom Instructions entry I just added: For factual research, product research and technical troubleshooting, search the internet before answering unless I specifically ask you not to. Do not rely only on your internal knowledge when the information could be outdated, product-specific or directly verified online. Use current, authoritative sources whenever possible. Prioritize official documentation, vendor support pages, official product listings, manufacturer specifications, official menus and government or academic sources. Open and check the source rather than relying only on search-result summaries. Do not present an assumption, inference or uncertain claim as a confirmed fact. Clearly tell me when something could not be verified or when reliable sources conflict. For product questions, verify the exact product and model I provide. Do not infer features from a similar product or from the product category generally. For technical troubleshooting, check current vendor documentation and include any required prerequisites, reboots, follow-up actions, warnings and verification steps. Do not invent commands or omit important steps merely to give a faster answer. Provide citations for factual claims that you verified online. Never use em dashes. Wish me luck with that lol. &#32; submitted by &#32; /u/scubadoobadoooo [link] &#32; [comments]",
@@ -368,35 +384,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T20:57:06Z",
+    "author": "/u/Physical_Subject_804",
+    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T12:01:43Z",
     "author": "/u/TheMayorShow",
     "text": "Free vs paid, am i really missing out? - So what exactly am I missing out on the free ChatGPT in terms of just having more credits to generate images and read more PDFs, currently I don’t have a problem waiting for a day sometimes, even though it’s stupid when Gemini let u upload crazy amount without paying. &#32; submitted by &#32; /u/TheMayorShow [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vebgh0/free_vs_paid_am_i_really_missing_out/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T21:22:38Z",
-    "author": "/u/inos140",
-    "text": "Is using ai as a platonic friend bad to deal with loneliness? - Lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely, I'm Mr. Lonely I have nobody for my own I'm so lonely &#32; submitted by &#32; /u/inos140 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdtzxw/is_using_ai_as_a_platonic_friend_bad_to_deal_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T15:09:18Z",
-    "author": "/u/xXxNULLBOIxXx",
-    "text": ": ( - https://chatgpt.com/s/t\\_6a70aeef3c188191bca6c4192ddbd46f &#32; submitted by &#32; /u/xXxNULLBOIxXx [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veg4kn/_/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T19:27:40Z",
-    "author": "/u/cinred",
-    "text": "Where did the STOP button go on mobile? - Once it starts, it won't stop. &#32; submitted by &#32; /u/cinred [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1venbpk/where_did_the_stop_button_go_on_mobile/",
     "authority_score": 0.5
   }
 ]
