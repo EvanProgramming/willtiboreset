@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T21:41:11.749126+00:00",
+  "updated_at": "2026-08-03T22:01:05.831771+00:00",
   "prediction": {
-    "within_5h": 0.0626,
-    "within_24h": 0.2195,
-    "within_48h": 0.3348
+    "within_5h": 0.0738,
+    "within_24h": 0.2513,
+    "within_48h": 0.3752
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 50,
-    "hours_since_last_reset": 66.15326344916666,
+    "hours_since_last_reset": 66.48495308833333,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.0778,
-    "time_pressure": 0.6902,
-    "hazard_rate": 0.010273,
-    "evidence_score": 0.0082,
-    "tibo_signal": 0.0079,
-    "community_signal": 0.0,
-    "release_signal": 0.0022,
+    "time_ratio": 1.0832,
+    "time_pressure": 0.6931,
+    "hazard_rate": 0.011987,
+    "evidence_score": 0.0178,
+    "tibo_signal": 0.0095,
+    "community_signal": 0.024,
+    "release_signal": 0.0095,
     "llm_scores": {
       "reset_intent": 0.0,
       "limit_complaint": 0.0,
       "official_change": 0.01,
       "reset_confirmation": 0.04,
-      "confidence": 0.9,
+      "confidence": 0.898,
       "reason": [
-        "The text is a casual anecdote about using Codex to ship improvements, with no mention of resets or limits.",
+        "Text is a casual anecdote about using Codex to ship improvements, no mention of resets or limits.",
         "No official or user discussion of quota resets.",
-        "The text is a fun fact about user behavior on weekends, unrelated to resets.",
+        "Text is a fun fact about weekend usage patterns, unrelated to resets.",
         "No mention of limits or official changes.",
-        "The text teases major breakthroughs and signs but does not mention resets."
+        "Mentions '10 major breakthroughs' and 'signs' but does not explicitly discuss resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "66.2 hours since last reset",
+      "factor": "66.5 hours since last reset",
       "impact": "+5%",
       "score": 0.69
     },
@@ -50,11 +50,16 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.01
+    },
+    {
+      "factor": "Minor community limit complaints",
+      "impact": "+0%",
+      "score": 0.02
     }
   ],
   "reasons": [
-    "66.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 66.2 hours since last reset (+5%)"
+    "66.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
+    "Main factor: 66.5 hours since last reset (+5%)"
   ]
 }

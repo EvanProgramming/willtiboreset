@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T14:19:20Z",
-    "author": "/u/Reyvan16",
-    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T20:07:27Z",
     "author": "/u/wrighteghe7",
     "text": "Absolute cinema - &#32; submitted by &#32; /u/wrighteghe7 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veoeoh/absolute_cinema/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T14:19:20Z",
+    "author": "/u/Reyvan16",
+    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
     "authority_score": 0.5
   },
   {
@@ -248,19 +248,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T08:28:42Z",
-    "author": "/u/Ripamon",
-    "text": "I think it's time we consider turning off memory for these tools - &#32; submitted by &#32; /u/Ripamon [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve7jch/i_think_its_time_we_consider_turning_off_memory/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T21:06:18Z",
     "author": "/u/ZXKHYFPYLDRTHH",
     "text": "After 1 month we removed GPT AI assistant. - We implemented GPT AI assistant into our website. After one month trial we decided to stop using the AI assistant. We monitored each and every chat that was going on. I don't know how to explain but you can feel the fustration of most users. People hate AI support. People want real human support. For now will will continue with Real humans. &#32; submitted by &#32; /u/ZXKHYFPYLDRTHH [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vepzq4/after_1_month_we_removed_gpt_ai_assistant/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T08:28:42Z",
+    "author": "/u/Ripamon",
+    "text": "I think it's time we consider turning off memory for these tools - &#32; submitted by &#32; /u/Ripamon [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve7jch/i_think_its_time_we_consider_turning_off_memory/",
     "authority_score": 0.5
   },
   {
@@ -352,6 +352,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T20:57:06Z",
+    "author": "/u/Physical_Subject_804",
+    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T15:22:10Z",
     "author": "/u/RouhSam1998",
     "text": "chatgpt cybersecurity safeguards are so dumb and excessive - I switched from claude to chatgpt because people said the safeguards are less strict, but now even asking GPT 5.5 to explain a &quot;PUBLIC SECURITY REPORT&quot; for you triggers a cybersecurity risk. Time to cancel this bullshit chatgpt piece of garbage and switch to claude again I hope opensource models will soon cause your stupid company to fall &#32; submitted by &#32; /u/RouhSam1998 [link] &#32; [comments]",
@@ -368,14 +376,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T17:52:26Z",
-    "author": "/u/scubadoobadoooo",
-    "text": "Which paid AI chatbot is most reliable for factual research and follows persistent instructions best? Currently using ChatGPT Plus. - Let me start by saying that ChatGPT listens to me about its behavior sometimes and other times it will save a memory and agree to change for all chats and then repeats the same problem in the next message. Using the word &quot;behavior&quot; very graciously here. For example, I asked it to never use em dashes again, and it listened. However, I've also asked it multiple times to verify information and be sure it's coming from current, authoritative sources before telling me an answer with confidence and it doesn't do that despite saying it will. I would rather not have to include &quot;search the internet and verify information&quot; in every prompt. I also don't know how reliable its internal knowledge is when it doesn't search the internet but it seems to have failed me many times. Running the prompts on higher intelligence levels seems to make a small difference, especially when it comes to automatically searching the internet. But according to ChatGPT, it says the instant answers are just as good for most of my research questions, so I don't know what to believe. The various intelligence levels I've used are instant, medium and high. Mostly high and I haven't run out of reasoning allowance yet. Instant for simple questions like in example one below. I believed that ChatGPT was an awesome productivity tool at one point. But now, I am starting to question that, because I constantly have to correct it and verify information myself, even with simple things unrelated to work. A few examples: I asked where to get Dole Whip at Hollywood Studios, and ChatGPT confidently told me it was available at Epic Eats. Later when I asked for all the locations in the park, it changed its answer and said there were no permanent Dole Whip locations. After looking it up myself, I found out Epic Eats does not sell it. While helping me shop for a picture frame, ChatGPT claimed one of the frames had an easel. I checked the listing myself and there was no easel. There were several other small things I had to correct in this conversation as well. For a work issue, ChatGPT gave me a command to update an application using a maintenance ID. I looked at it first and used my own knowledge of commands to decide if it was safe and made sense. The command ended up being correct. The problem was ChatGPT did not mention that the current documentation said a reboot was required afterward. We wasted time troubleshooting duplicate Installed Programs entries that disappeared after rebooting. Obviously I am responsible for checking technical instructions myself, but having to find and read through the documentation anyway takes away a lot of the time AI is supposed to save me. My friend uses Claude Opus for security work, code reviews and possibly penetration testing, and he says it makes a lot of mistakes too. I don't know much about how he uses it outside of work, so his experience may not fully compare to mine. Since Opus is included with Claude Pro, I am interested in hearing from people who have directly compared Claude Pro and ChatGPT Plus for current factual information, product research and technical troubleshooting. I use AI every day for research, planning and brainstorming. But at this point, I am not saving as much time as I should because of all the careless mistakes it makes, and it will not change its behavior. I pay for ChatGPT Plus and would be open to subscribing to another AI chatbot service if it makes less mistakes and follows persistent instructions more consistently. But I only want to pay for one at a time and use one as my primary AI. I have Claude and Gemini free accounts but I just use Claude for second opinions and Gemini since it's built into Google search and is an alternative for image editing and generation. Does anyone have any advice on this topic? Can anyone suggest a better AI? To be clear, I am looking for an AI that I can use for current factual information, product research and technical troubleshooting and will follow persistent instructions better. Will creating a Project with predefined rules in it and running all my chats through that solve my problems? What about using the Custom Instructions setting? I understand many people have had these problems for a long time and that asking ChatGPT to change its behavior doesn't guarantee anything, but now that I use AI for productivity, I need to save as much time as possible. I do not expect 100% perfect answers. Bonus. Here's my Custom Instructions entry I just added: For factual research, product research and technical troubleshooting, search the internet before answering unless I specifically ask you not to. Do not rely only on your internal knowledge when the information could be outdated, product-specific or directly verified online. Use current, authoritative sources whenever possible. Prioritize official documentation, vendor support pages, official product listings, manufacturer specifications, official menus and government or academic sources. Open and check the source rather than relying only on search-result summaries. Do not present an assumption, inference or uncertain claim as a confirmed fact. Clearly tell me when something could not be verified or when reliable sources conflict. For product questions, verify the exact product and model I provide. Do not infer features from a similar product or from the product category generally. For technical troubleshooting, check current vendor documentation and include any required prerequisites, reboots, follow-up actions, warnings and verification steps. Do not invent commands or omit important steps merely to give a faster answer. Provide citations for factual claims that you verified online. Never use em dashes. Wish me luck with that lol. &#32; submitted by &#32; /u/scubadoobadoooo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vekol3/which_paid_ai_chatbot_is_most_reliable_for/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T16:01:30Z",
     "author": "/u/Kynlo",
     "text": "[ Removed by Reddit ] - [ Removed by Reddit on account of violating the content policy. ] &#32; submitted by &#32; /u/Kynlo [link] &#32; [comments]",
@@ -384,11 +384,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T20:57:06Z",
-    "author": "/u/Physical_Subject_804",
-    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T17:52:26Z",
+    "author": "/u/scubadoobadoooo",
+    "text": "Which paid AI chatbot is most reliable for factual research and follows persistent instructions best? Currently using ChatGPT Plus. - Let me start by saying that ChatGPT listens to me about its behavior sometimes and other times it will save a memory and agree to change for all chats and then repeats the same problem in the next message. Using the word &quot;behavior&quot; very graciously here. For example, I asked it to never use em dashes again, and it listened. However, I've also asked it multiple times to verify information and be sure it's coming from current, authoritative sources before telling me an answer with confidence and it doesn't do that despite saying it will. I would rather not have to include &quot;search the internet and verify information&quot; in every prompt. I also don't know how reliable its internal knowledge is when it doesn't search the internet but it seems to have failed me many times. Running the prompts on higher intelligence levels seems to make a small difference, especially when it comes to automatically searching the internet. But according to ChatGPT, it says the instant answers are just as good for most of my research questions, so I don't know what to believe. The various intelligence levels I've used are instant, medium and high. Mostly high and I haven't run out of reasoning allowance yet. Instant for simple questions like in example one below. I believed that ChatGPT was an awesome productivity tool at one point. But now, I am starting to question that, because I constantly have to correct it and verify information myself, even with simple things unrelated to work. A few examples: I asked where to get Dole Whip at Hollywood Studios, and ChatGPT confidently told me it was available at Epic Eats. Later when I asked for all the locations in the park, it changed its answer and said there were no permanent Dole Whip locations. After looking it up myself, I found out Epic Eats does not sell it. While helping me shop for a picture frame, ChatGPT claimed one of the frames had an easel. I checked the listing myself and there was no easel. There were several other small things I had to correct in this conversation as well. For a work issue, ChatGPT gave me a command to update an application using a maintenance ID. I looked at it first and used my own knowledge of commands to decide if it was safe and made sense. The command ended up being correct. The problem was ChatGPT did not mention that the current documentation said a reboot was required afterward. We wasted time troubleshooting duplicate Installed Programs entries that disappeared after rebooting. Obviously I am responsible for checking technical instructions myself, but having to find and read through the documentation anyway takes away a lot of the time AI is supposed to save me. My friend uses Claude Opus for security work, code reviews and possibly penetration testing, and he says it makes a lot of mistakes too. I don't know much about how he uses it outside of work, so his experience may not fully compare to mine. Since Opus is included with Claude Pro, I am interested in hearing from people who have directly compared Claude Pro and ChatGPT Plus for current factual information, product research and technical troubleshooting. I use AI every day for research, planning and brainstorming. But at this point, I am not saving as much time as I should because of all the careless mistakes it makes, and it will not change its behavior. I pay for ChatGPT Plus and would be open to subscribing to another AI chatbot service if it makes less mistakes and follows persistent instructions more consistently. But I only want to pay for one at a time and use one as my primary AI. I have Claude and Gemini free accounts but I just use Claude for second opinions and Gemini since it's built into Google search and is an alternative for image editing and generation. Does anyone have any advice on this topic? Can anyone suggest a better AI? To be clear, I am looking for an AI that I can use for current factual information, product research and technical troubleshooting and will follow persistent instructions better. Will creating a Project with predefined rules in it and running all my chats through that solve my problems? What about using the Custom Instructions setting? I understand many people have had these problems for a long time and that asking ChatGPT to change its behavior doesn't guarantee anything, but now that I use AI for productivity, I need to save as much time as possible. I do not expect 100% perfect answers. Bonus. Here's my Custom Instructions entry I just added: For factual research, product research and technical troubleshooting, search the internet before answering unless I specifically ask you not to. Do not rely only on your internal knowledge when the information could be outdated, product-specific or directly verified online. Use current, authoritative sources whenever possible. Prioritize official documentation, vendor support pages, official product listings, manufacturer specifications, official menus and government or academic sources. Open and check the source rather than relying only on search-result summaries. Do not present an assumption, inference or uncertain claim as a confirmed fact. Clearly tell me when something could not be verified or when reliable sources conflict. For product questions, verify the exact product and model I provide. Do not infer features from a similar product or from the product category generally. For technical troubleshooting, check current vendor documentation and include any required prerequisites, reboots, follow-up actions, warnings and verification steps. Do not invent commands or omit important steps merely to give a faster answer. Provide citations for factual claims that you verified online. Never use em dashes. Wish me luck with that lol. &#32; submitted by &#32; /u/scubadoobadoooo [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vekol3/which_paid_ai_chatbot_is_most_reliable_for/",
     "authority_score": 0.5
   },
   {
