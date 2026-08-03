@@ -1,15 +1,15 @@
 {
-  "total_predictions": 161,
-  "resolved_predictions": 13,
-  "overall_brier_score": 0.68030945,
-  "overall_accuracy": 0.05128205128205128,
+  "total_predictions": 162,
+  "resolved_predictions": 15,
+  "overall_brier_score": 0.7229348566666667,
+  "overall_accuracy": 0.044444444444444446,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 13,
-      "brier_score": 0.5229947592307692,
-      "accuracy": 0.15384615384615385,
-      "calibration_error": 0.6657923076923077,
+      "total": 15,
+      "brier_score": 0.586595458,
+      "accuracy": 0.13333333333333333,
+      "calibration_error": 0.7103533333333334,
       "bins": [
         {
           "bin_start": 0.0,
@@ -79,16 +79,16 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 0.0,
-          "count": 4
+          "count": 6
         }
       ]
     },
     {
       "horizon_hours": 24,
-      "total": 13,
-      "brier_score": 0.7207810269230769,
+      "total": 15,
+      "brier_score": 0.7580102233333332,
       "accuracy": 0.0,
-      "calibration_error": 0.8336846153846154,
+      "calibration_error": 0.85586,
       "bins": [
         {
           "bin_start": 0.0,
@@ -158,16 +158,16 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 0.0,
-          "count": 4
+          "count": 6
         }
       ]
     },
     {
       "horizon_hours": 48,
-      "total": 13,
-      "brier_score": 0.7971525638461537,
+      "total": 15,
+      "brier_score": 0.8241988886666666,
       "accuracy": 0.0,
-      "calibration_error": 0.8858076923076923,
+      "calibration_error": 0.9010333333333332,
       "bins": [
         {
           "bin_start": 0.0,
@@ -235,12 +235,12 @@
         {
           "bin_start": 0.9,
           "bin_end": 1.0,
-          "predicted_mean": 0.94275,
+          "predicted_mean": 0.9522916666666666,
           "actual_frequency": 0.0,
-          "count": 10
+          "count": 12
         }
       ]
     }
   ],
-  "updated_at": "2026-08-03T09:01:01.797568Z"
+  "updated_at": "2026-08-03T09:20:58.638069Z"
 }

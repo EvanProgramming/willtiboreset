@@ -599,8 +599,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-03T09:20:58.625303Z"
   },
   {
     "prediction_time": "2026-08-01T09:20:52.018802Z",
@@ -643,8 +643,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-03T09:20:58.625303Z"
   },
   {
     "prediction_time": "2026-08-01T09:40:51.037565Z",
@@ -7049,6 +7049,50 @@
           "Mentions 'signs' and 'breakthroughs' but does not explicitly discuss resets, so reset_intent is low.",
           "Official mention of Astra model and proofs indicates a product change, but not a reset.",
           "The text is a generic motivational phrase with no relevance to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-03T09:20:58.617412Z",
+    "prediction": {
+      "within_5h": 0.0773,
+      "within_24h": 0.2596,
+      "within_48h": 0.384
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 53.81628166722222,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.8768,
+      "time_pressure": 0.5712,
+      "hazard_rate": 0.012445,
+      "evidence_score": 0.0232,
+      "tibo_signal": 0.0167,
+      "community_signal": 0.023,
+      "release_signal": 0.0211,
+      "llm_scores": {
+        "reset_intent": 0.0075000000000000015,
+        "limit_complaint": 0.04,
+        "official_change": 0.0125,
+        "reset_confirmation": 0.05,
+        "confidence": 0.89,
+        "reason": [
+          "The text is a casual remark about shipping improvements, not about quota resets.",
+          "The text is a fun observation about usage patterns, not about resets.",
+          "Mentions 'signs' and breakthroughs but does not explicitly discuss resets.",
+          "The text is a generic motivational phrase with no reset context.",
+          "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
         ]
       },
       "prior_applied": false,
