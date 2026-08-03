@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T12:01:01.869532+00:00",
+  "updated_at": "2026-08-03T12:21:01.728722+00:00",
   "prediction": {
-    "within_5h": 0.0662,
-    "within_24h": 0.229,
-    "within_48h": 0.3459
+    "within_5h": 0.067,
+    "within_24h": 0.2315,
+    "within_48h": 0.3492
   },
   "confidence": "low",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 56.483852455,
+    "hours_since_last_reset": 56.81714669111111,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,13 +16,13 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.9202,
-    "time_pressure": 0.5982,
-    "hazard_rate": 0.010778,
-    "evidence_score": 0.0127,
-    "tibo_signal": 0.0177,
+    "time_ratio": 0.9257,
+    "time_pressure": 0.6016,
+    "hazard_rate": 0.010911,
+    "evidence_score": 0.0135,
+    "tibo_signal": 0.0184,
     "community_signal": 0.0137,
-    "release_signal": 0.0193,
+    "release_signal": 0.0295,
     "llm_scores": {
       "reset_intent": 0.0,
       "limit_complaint": 0.0,
@@ -34,7 +34,7 @@
         "No mention of usage limits or quota resets.",
         "Text is a fun observation about user behavior, not about resets.",
         "No mention of usage limits or quota resets.",
-        "Text mentions 'signs' but not resets, so it's a vague teaser."
+        "Text is a vague teaser about future breakthroughs, not resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "56.5 hours since last reset",
+      "factor": "56.8 hours since last reset",
       "impact": "+5%",
       "score": 0.6
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "56.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "56.8 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 56.5 hours since last reset (+5%)"
+    "Main factor: 56.8 hours since last reset (+5%)"
   ]
 }
