@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T20:21:13.843060+00:00",
+  "updated_at": "2026-08-03T20:41:06.441497+00:00",
   "prediction": {
-    "within_5h": 0.0664,
-    "within_24h": 0.2304,
-    "within_48h": 0.3487
+    "within_5h": 0.0947,
+    "within_24h": 0.3057,
+    "within_48h": 0.4405
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 50,
-    "hours_since_last_reset": 64.82051178111111,
+    "hours_since_last_reset": 65.15178913527778,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.0561,
-    "time_pressure": 0.6782,
-    "hazard_rate": 0.010853,
-    "evidence_score": 0.0117,
-    "tibo_signal": 0.0113,
-    "community_signal": 0.0,
-    "release_signal": 0.0069,
+    "time_ratio": 1.0614,
+    "time_pressure": 0.6812,
+    "hazard_rate": 0.015087,
+    "evidence_score": 0.0367,
+    "tibo_signal": 0.02,
+    "community_signal": 0.0587,
+    "release_signal": 0.0998,
     "llm_scores": {
-      "reset_intent": 0.0,
-      "limit_complaint": 0.046,
-      "official_change": 0.11,
+      "reset_intent": 0.012,
+      "limit_complaint": 0.016,
+      "official_change": 0.03,
       "reset_confirmation": 0.04,
-      "confidence": 0.856,
+      "confidence": 0.882,
       "reason": [
-        "Text is a casual anecdote about using Codex to ship improvements, no mention of resets or limits.",
-        "No complaints or official announcements related to usage limits.",
-        "Text is a fun fact about user behavior on weekends, unrelated to resets.",
-        "No mention of limits, complaints, or official changes.",
-        "Mentions '10 major breakthroughs' and 'signs' but does not explicitly discuss resets."
+        "The text is a casual remark about using Codex to ship improvements, with no mention of resets or limits.",
+        "No indication of quota issues or official announcements.",
+        "The text is a fun fact about user behavior on weekends, unrelated to resets.",
+        "No mention of limits or official changes.",
+        "The text mentions '10 major breakthroughs' and 'signs', but does not explicitly discuss resets."
       ]
     },
     "prior_applied": false,
@@ -42,19 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "64.8 hours since last reset",
+      "factor": "65.2 hours since last reset",
       "impact": "+5%",
       "score": 0.68
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.02
+    },
+    {
+      "factor": "Minor community limit complaints",
+      "impact": "+0%",
+      "score": 0.06
     }
   ],
   "reasons": [
-    "64.8 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 64.8 hours since last reset (+5%)"
+    "65.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
+    "Main factor: 65.2 hours since last reset (+5%)"
   ]
 }
