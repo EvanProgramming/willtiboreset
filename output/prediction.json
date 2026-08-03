@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T09:20:58.614701+00:00",
+  "updated_at": "2026-08-03T09:41:07.354361+00:00",
   "prediction": {
-    "within_5h": 0.0773,
-    "within_24h": 0.2596,
-    "within_48h": 0.384
+    "within_5h": 0.0793,
+    "within_24h": 0.2651,
+    "within_48h": 0.3908
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 53.81628166722222,
+    "hours_since_last_reset": 54.15204266972222,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.8768,
-    "time_pressure": 0.5712,
-    "hazard_rate": 0.012445,
-    "evidence_score": 0.0232,
-    "tibo_signal": 0.0167,
-    "community_signal": 0.023,
-    "release_signal": 0.0211,
+    "time_ratio": 0.8822,
+    "time_pressure": 0.5747,
+    "hazard_rate": 0.012752,
+    "evidence_score": 0.025,
+    "tibo_signal": 0.0163,
+    "community_signal": 0.0,
+    "release_signal": 0.0179,
     "llm_scores": {
-      "reset_intent": 0.0075000000000000015,
-      "limit_complaint": 0.04,
+      "reset_intent": 0.0,
+      "limit_complaint": 0.0,
       "official_change": 0.0125,
       "reset_confirmation": 0.05,
-      "confidence": 0.89,
+      "confidence": 0.8949999999999999,
       "reason": [
-        "The text is a casual remark about shipping improvements, not about quota resets.",
-        "The text is a fun observation about usage patterns, not about resets.",
-        "Mentions 'signs' and breakthroughs but does not explicitly discuss resets.",
-        "The text is a generic motivational phrase with no reset context.",
-        "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
+        "The text is a general praise of OpenAI's workflow, not about quota resets.",
+        "No mention of limits, resets, or official changes.",
+        "The text is a casual observation about user behavior, not about resets.",
+        "No mention of limits, resets, or official changes.",
+        "The text hints at future breakthroughs and signs, but does not mention resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "53.8 hours since last reset",
+      "factor": "54.2 hours since last reset",
       "impact": "+5%",
       "score": 0.57
     },
@@ -50,16 +50,11 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.02
-    },
-    {
-      "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.02
     }
   ],
   "reasons": [
-    "53.8 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "54.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 53.8 hours since last reset (+5%)"
+    "Main factor: 54.2 hours since last reset (+5%)"
   ]
 }
