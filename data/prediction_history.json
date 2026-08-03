@@ -6598,5 +6598,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-03T22:41:20.344474Z",
+    "prediction": {
+      "within_5h": 0.0988,
+      "within_24h": 0.3159,
+      "within_48h": 0.4526
+    },
+    "signals": {
+      "tweet_count": 50,
+      "hours_since_last_reset": 67.15565023472222,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.0941,
+      "time_pressure": 0.699,
+      "hazard_rate": 0.015694,
+      "evidence_score": 0.04,
+      "tibo_signal": 0.0177,
+      "community_signal": 0.0308,
+      "release_signal": 0.093,
+      "llm_scores": {
+        "reset_intent": 0.006000000000000001,
+        "limit_complaint": 0.0,
+        "official_change": 0.01,
+        "reset_confirmation": 0.04,
+        "confidence": 0.935,
+        "reason": [
+          "The text is a casual anecdote about using Codex to ship improvements, with no mention of resets or limits.",
+          "No official or user discussion of quota resets is present.",
+          "The text is a lighthearted observation about usage patterns, not about resets.",
+          "No mention of limits or resets.",
+          "The text teases future breakthroughs and mentions 'signs' but does not explicitly mention resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]

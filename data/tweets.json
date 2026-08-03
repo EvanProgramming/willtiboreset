@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T13:33:39Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI takes the lead - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vedl04/openai_takes_the_lead/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T14:32:06Z",
     "author": "/u/mothh9",
     "text": "Smooth brain - &#32; submitted by &#32; /u/mothh9 [link] &#32; [comments]",
@@ -304,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T13:33:39Z",
-    "author": "/u/KeanuRave100",
-    "text": "OpenAI takes the lead - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T20:57:06Z",
+    "author": "/u/Physical_Subject_804",
+    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vedl04/openai_takes_the_lead/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
     "authority_score": 0.5
   },
   {
@@ -333,14 +341,6 @@
     "text": "Is this actually a joke? - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veka3a/is_this_actually_a_joke/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T20:57:06Z",
-    "author": "/u/Physical_Subject_804",
-    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
     "authority_score": 0.5
   },
   {
@@ -376,14 +376,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T16:01:30Z",
-    "author": "/u/Kynlo",
-    "text": "[ Removed by Reddit ] - [ Removed by Reddit on account of violating the content policy. ] &#32; submitted by &#32; /u/Kynlo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vehklm/removed_by_reddit/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T17:52:26Z",
     "author": "/u/scubadoobadoooo",
     "text": "Which paid AI chatbot is most reliable for factual research and follows persistent instructions best? Currently using ChatGPT Plus. - Let me start by saying that ChatGPT listens to me about its behavior sometimes and other times it will save a memory and agree to change for all chats and then repeats the same problem in the next message. Using the word &quot;behavior&quot; very graciously here. For example, I asked it to never use em dashes again, and it listened. However, I've also asked it multiple times to verify information and be sure it's coming from current, authoritative sources before telling me an answer with confidence and it doesn't do that despite saying it will. I would rather not have to include &quot;search the internet and verify information&quot; in every prompt. I also don't know how reliable its internal knowledge is when it doesn't search the internet but it seems to have failed me many times. Running the prompts on higher intelligence levels seems to make a small difference, especially when it comes to automatically searching the internet. But according to ChatGPT, it says the instant answers are just as good for most of my research questions, so I don't know what to believe. The various intelligence levels I've used are instant, medium and high. Mostly high and I haven't run out of reasoning allowance yet. Instant for simple questions like in example one below. I believed that ChatGPT was an awesome productivity tool at one point. But now, I am starting to question that, because I constantly have to correct it and verify information myself, even with simple things unrelated to work. A few examples: I asked where to get Dole Whip at Hollywood Studios, and ChatGPT confidently told me it was available at Epic Eats. Later when I asked for all the locations in the park, it changed its answer and said there were no permanent Dole Whip locations. After looking it up myself, I found out Epic Eats does not sell it. While helping me shop for a picture frame, ChatGPT claimed one of the frames had an easel. I checked the listing myself and there was no easel. There were several other small things I had to correct in this conversation as well. For a work issue, ChatGPT gave me a command to update an application using a maintenance ID. I looked at it first and used my own knowledge of commands to decide if it was safe and made sense. The command ended up being correct. The problem was ChatGPT did not mention that the current documentation said a reboot was required afterward. We wasted time troubleshooting duplicate Installed Programs entries that disappeared after rebooting. Obviously I am responsible for checking technical instructions myself, but having to find and read through the documentation anyway takes away a lot of the time AI is supposed to save me. My friend uses Claude Opus for security work, code reviews and possibly penetration testing, and he says it makes a lot of mistakes too. I don't know much about how he uses it outside of work, so his experience may not fully compare to mine. Since Opus is included with Claude Pro, I am interested in hearing from people who have directly compared Claude Pro and ChatGPT Plus for current factual information, product research and technical troubleshooting. I use AI every day for research, planning and brainstorming. But at this point, I am not saving as much time as I should because of all the careless mistakes it makes, and it will not change its behavior. I pay for ChatGPT Plus and would be open to subscribing to another AI chatbot service if it makes less mistakes and follows persistent instructions more consistently. But I only want to pay for one at a time and use one as my primary AI. I have Claude and Gemini free accounts but I just use Claude for second opinions and Gemini since it's built into Google search and is an alternative for image editing and generation. Does anyone have any advice on this topic? Can anyone suggest a better AI? To be clear, I am looking for an AI that I can use for current factual information, product research and technical troubleshooting and will follow persistent instructions better. Will creating a Project with predefined rules in it and running all my chats through that solve my problems? What about using the Custom Instructions setting? I understand many people have had these problems for a long time and that asking ChatGPT to change its behavior doesn't guarantee anything, but now that I use AI for productivity, I need to save as much time as possible. I do not expect 100% perfect answers. Bonus. Here's my Custom Instructions entry I just added: For factual research, product research and technical troubleshooting, search the internet before answering unless I specifically ask you not to. Do not rely only on your internal knowledge when the information could be outdated, product-specific or directly verified online. Use current, authoritative sources whenever possible. Prioritize official documentation, vendor support pages, official product listings, manufacturer specifications, official menus and government or academic sources. Open and check the source rather than relying only on search-result summaries. Do not present an assumption, inference or uncertain claim as a confirmed fact. Clearly tell me when something could not be verified or when reliable sources conflict. For product questions, verify the exact product and model I provide. Do not infer features from a similar product or from the product category generally. For technical troubleshooting, check current vendor documentation and include any required prerequisites, reboots, follow-up actions, warnings and verification steps. Do not invent commands or omit important steps merely to give a faster answer. Provide citations for factual claims that you verified online. Never use em dashes. Wish me luck with that lol. &#32; submitted by &#32; /u/scubadoobadoooo [link] &#32; [comments]",
@@ -392,11 +384,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T12:01:43Z",
-    "author": "/u/TheMayorShow",
-    "text": "Free vs paid, am i really missing out? - So what exactly am I missing out on the free ChatGPT in terms of just having more credits to generate images and read more PDFs, currently I don’t have a problem waiting for a day sometimes, even though it’s stupid when Gemini let u upload crazy amount without paying. &#32; submitted by &#32; /u/TheMayorShow [link] &#32; [comments]",
+    "timestamp": "2026-08-03T16:01:30Z",
+    "author": "/u/Kynlo",
+    "text": "[ Removed by Reddit ] - [ Removed by Reddit on account of violating the content policy. ] &#32; submitted by &#32; /u/Kynlo [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vebgh0/free_vs_paid_am_i_really_missing_out/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vehklm/removed_by_reddit/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T22:36:15Z",
+    "author": "/u/Adventurerofthesea",
+    "text": "Good news everyone. - Personal training is available &#32; submitted by &#32; /u/Adventurerofthesea [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vesaik/good_news_everyone/",
     "authority_score": 0.5
   }
 ]
