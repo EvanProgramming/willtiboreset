@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-03T08:37:22Z",
+    "author": "Tibo",
+    "text": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that. - Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.suje: made a small tweak to make temp chat feel more like temp chat",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2084196918071357707",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-01T23:42:19Z",
     "author": "Tibo",
     "text": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model. - Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
@@ -112,14 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-07-28T23:05:54Z",
-    "author": "Tibo",
-    "text": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Sc... - More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.https://github.com/openai/codex-security",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2082241164850364555",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -200,27 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T03:46:55Z",
-    "author": "/u/international_red07",
-    "text": "Fancy perfumes based on bad smells - Not just a joke post; Perfumers say there’s a tiny bit of bad smell at the heart of most good smells. And many of the most addicting amplify that ratio; It’s why Durian turns tourists into rule-breaking smugglers while Strawberry usually doesn’t. Some niche fragrances like Sécrétions Magnifiques, Fat Electrician, and A City on Fire already play with unpleasant notes; this series takes the principle to the extreme by trying to make every well-known odor something you can’t resist. &#32; submitted by &#32; /u/international_red07 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2fi7/fancy_perfumes_based_on_bad_smells/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T01:15:28Z",
     "author": "/u/D0hB0yz",
     "text": "Because I had to get it out of my head - Now you have to get Lucy Skywalker out of your head. &#32; submitted by &#32; /u/D0hB0yz [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdzbl3/because_i_had_to_get_it_out_of_my_head/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T12:17:07Z",
-    "author": "/u/ForsakenOven6666",
-    "text": "Soooo.. Iwas asking ChatGPT about a spider in my room... And then it just said this... 😳 - Wh.... What &#32; submitted by &#32; /u/ForsakenOven6666 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdglop/soooo_iwas_asking_chatgpt_about_a_spider_in_my/",
     "authority_score": 0.5
   },
   {
@@ -232,11 +216,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T03:46:55Z",
+    "author": "/u/international_red07",
+    "text": "Fancy perfumes based on bad smells - Not just a joke post; Perfumers say there’s a tiny bit of bad smell at the heart of most good smells. And many of the most addicting amplify that ratio; It’s why Durian turns tourists into rule-breaking smugglers while Strawberry usually doesn’t. Some niche fragrances like Sécrétions Magnifiques, Fat Electrician, and A City on Fire already play with unpleasant notes; this series takes the principle to the extreme by trying to make every well-known odor something you can’t resist. &#32; submitted by &#32; /u/international_red07 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2fi7/fancy_perfumes_based_on_bad_smells/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T12:17:07Z",
+    "author": "/u/ForsakenOven6666",
+    "text": "Soooo.. Iwas asking ChatGPT about a spider in my room... And then it just said this... 😳 - Wh.... What &#32; submitted by &#32; /u/ForsakenOven6666 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdglop/soooo_iwas_asking_chatgpt_about_a_spider_in_my/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T21:49:12Z",
     "author": "/u/BountyKraken",
     "text": "Asked Gemini how much it would cost to make a knife out of blood - &#32; submitted by &#32; /u/BountyKraken [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdumvr/asked_gemini_how_much_it_would_cost_to_make_a/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T08:28:42Z",
+    "author": "/u/Ripamon",
+    "text": "I think it's time we consider turning off memory for these tools - &#32; submitted by &#32; /u/Ripamon [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve7jch/i_think_its_time_we_consider_turning_off_memory/",
     "authority_score": 0.5
   },
   {
@@ -288,14 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T04:00:32Z",
-    "author": "/u/FitPotential870",
-    "text": "Even the dog is wearing glasses. ChatGPT’s aesthetic game is getting ridiculous. ☕🎨 - Honestly wasn't expecting DALL-E inside ChatGPT to pull off this level of artistic style and texture. The elongated necks, retro eyewear, and rich oil paint brushstrokes give it so much character. Easily one of my favorite generations so far! &#32; submitted by &#32; /u/FitPotential870 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2p2w/even_the_dog_is_wearing_glasses_chatgpts/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-01T19:06:32Z",
     "author": "/u/ExpensiveCoat8912",
     "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
@@ -304,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T02:19:50Z",
-    "author": "/u/neloish",
-    "text": "I asked ChatGPT what ranch would be called in Germany. It had to redesign the bottle. - For anyone wondering, Buttermilchkräuterknoblauchgemüseeintunksoße breaks down like this: Buttermilch = buttermilk Kräuter = herbs Knoblauch = garlic Gemüse = vegetables eintunken = to dip Soße = sauce So the whole glorious mess roughly means: “Buttermilk-herb-garlic sauce for dipping vegetables.” &#32; submitted by &#32; /u/neloish [link] &#32; [comments]",
+    "timestamp": "2026-08-03T04:00:32Z",
+    "author": "/u/FitPotential870",
+    "text": "Even the dog is wearing glasses. ChatGPT’s aesthetic game is getting ridiculous. ☕🎨 - Honestly wasn't expecting DALL-E inside ChatGPT to pull off this level of artistic style and texture. The elongated necks, retro eyewear, and rich oil paint brushstrokes give it so much character. Easily one of my favorite generations so far! &#32; submitted by &#32; /u/FitPotential870 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd5nyd/i_asked_chatgpt_what_ranch_would_be_called_in/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2p2w/even_the_dog_is_wearing_glasses_chatgpts/",
     "authority_score": 0.5
   },
   {
