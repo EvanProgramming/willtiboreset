@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T02:05:54Z",
+    "author": "/u/Dynahelium",
+    "text": "ChatGPT plagued with errors lately - https://preview.redd.it/x70eginlh2hh1.png?width=765&amp;format=png&amp;auto=webp&amp;s=1592eeaf26ad5be6ab2b5588397f5b19e5bd8091 As the title. It’s annoying. Anyone else? &#32; submitted by &#32; /u/Dynahelium [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve0dis/chatgpt_plagued_with_errors_lately/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T16:17:05Z",
     "author": "/u/BellaSilverscry",
     "text": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help? - I am so angry right now. I use ChatGPT to help me write prompts for external image tools, but almost anything related to an image gets interpreted as a request for ChatGPT to generate one itself. I have explicitly told it, repeatedly, to provide text only and never generate images. It will even acknowledge that instruction, apologise after violating it, and then trigger image generation again a few messages later. Sometimes it does not actually generate an image, but it still summons the huge grey image-generation interface, which completely destroys the flow of the conversation because I have to wait for the entire thing to run before receiving a normal text response. This happens even when I say something as straightforward as: “Rewrite this prompt so the camera is front-facing.” I also created a custom GPT with image generation disabled, but the same interface still appears. This is incredibly unintuitive for anyone using ChatGPT as a prompt-writing assistant for other tools. Mentioning image composition, camera angles, lighting, or corrections should not automatically mean “generate an image.” Has anyone found a reliable way to stop this completely? A setting, model, custom instruction, browser workaround—anything? I just want it to return text without triggering the image interface. &#32; submitted by &#32; /u/BellaSilverscry [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "Funny MeatCanyon style prompt - Prompt: No clear sense of composition. Clean 2D anime linework with soft Impressionist brushwork, delicate contours, pale water-lily greens and sun-washed lavender. Slight motion blur around, mildly overexposed, faded cel paint, obscure 1989 broadcast frame, no text or watermark, [insert scene] anime screen-cap, manga panel, meat canyon art style &#32; submitted by &#32; /u/FlawlessArc [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdrymh/funny_meatcanyon_style_prompt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-02T09:05:11Z",
-    "author": "/u/Ornery_Job_7275",
-    "text": "(My first post in this subreddit) Bro what the heck.... - This is a real CHATGPT response I promise (no edits) (I hope this doesn't get removed for being inappropriate) &#32; submitted by &#32; /u/Ornery_Job_7275 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdd68v/my_first_post_in_this_subreddit_bro_what_the_heck/",
     "authority_score": 0.5
   }
 ]
