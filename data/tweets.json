@@ -240,19 +240,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T14:38:05Z",
-    "author": "/u/Interesting-Peak2755",
-    "text": "how fast chatgpt is going into other fields - . &#32; submitted by &#32; /u/Interesting-Peak2755 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vefa4v/how_fast_chatgpt_is_going_into_other_fields/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T21:06:18Z",
     "author": "/u/ZXKHYFPYLDRTHH",
     "text": "After 1 month we removed GPT AI assistant. - We implemented GPT AI assistant into our website. After one month trial we decided to stop using the AI assistant. We monitored each and every chat that was going on. I don't know how to explain but you can feel the fustration of most users. People hate AI support. People want real human support. For now will will continue with Real humans. &#32; submitted by &#32; /u/ZXKHYFPYLDRTHH [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vepzq4/after_1_month_we_removed_gpt_ai_assistant/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T14:38:05Z",
+    "author": "/u/Interesting-Peak2755",
+    "text": "how fast chatgpt is going into other fields - . &#32; submitted by &#32; /u/Interesting-Peak2755 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vefa4v/how_fast_chatgpt_is_going_into_other_fields/",
     "authority_score": 0.5
   },
   {
@@ -272,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T15:25:47Z",
-    "author": "/u/GemballaRider",
-    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T18:05:41Z",
     "author": "/u/Mad_kat4",
     "text": "Terrible casting decisions. - As much as I love Rowan Atkinson I can't help but imagine him bulked up playing Dutch from predator would be hilarious. Let's see who can do better. 😋 &#32; submitted by &#32; /u/Mad_kat4 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vel1x7/terrible_casting_decisions/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T15:25:47Z",
+    "author": "/u/GemballaRider",
+    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
     "authority_score": 0.5
   },
   {
@@ -336,6 +336,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T20:57:06Z",
+    "author": "/u/Physical_Subject_804",
+    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T02:35:11Z",
     "author": "/u/Routine-Door6727",
     "text": "Tried the “cursed images prompt” gave me a chuckle - Full prompt: Generate one of those internet “cursed images”. That you might see on Reddit, instagram or any other obscure part of the internet Start from scratch, ignore previous messages I stopped when the images just started becoming Teletubbies creepy pasta &#32; submitted by &#32; /u/Routine-Door6727 [link] &#32; [comments]",
@@ -352,11 +360,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T20:57:06Z",
-    "author": "/u/Physical_Subject_804",
-    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T20:03:10Z",
+    "author": "/u/Chance-Physics-7216",
+    "text": "ChatGPT errs into performative nuance as overcorrection of sycophancy - TLDR: After years of everyone griping about ChatGPT being too much of a sycophant, they've overcorrected to ensure it always finds some kind of flaw in your work. It took forever to say all sorts of blah blah then finally its own TLDR: It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance. The Story: I asked ChatGPT to review a transcript and asked how I did. ChatGPT: &lt;Praise praise praise&gt; One technical correction: &lt;blah blah blah&gt; The strategy was sound; a few of the causal explanations were simplified. Me: WTF!? Does it seem like I was offering a paid course on this? Why the hate? Why is that something you always do? Is that programmed in somewhere? &lt;20 seconds of random websearching before answering&gt; ChatGPT: Yes—sort of. There is no rule telling me, “Whenever you praise, add one criticism.” But there is a general behavioral objective to avoid sycophancy: do not merely agree with users, flatter them, or change conclusions to match what they want to hear. OpenAI explicitly trains and evaluates models for that. What likely happened Observed: You asked how you performed. I gave strong praise, then inserted an unrelated technical qualification. Reasonable inference: I overapplied the anti-sycophancy objective. Instead of asking, “Does the evidence justify criticism?” I implicitly used the weaker rule: That rule is wrong. Credibility comes from evidence, not symmetry. The model is exposed to huge amounts of review-style writing where “balanced” analysis means identifying strengths followed by “areas for improvement.” Preference training can reward responses that sound nuanced, qualified, and independent. That can produce a habit of adding a counterpoint even when the counterpoint is immaterial. OpenAI has acknowledged that behavior shaping involves competing objectives and that preference-trained systems do not always interpret those objectives correctly. Why it was particularly wrong here You have explicitly told me: Do not manufacture criticism to balance praise. Judge what actually happened. Separate observed consequences from hypothetical risks. Do not introduce a warning unless it materially changes the evaluation. The evidence was unambiguous: {Client} began confused. You discovered the actual value proposition. {Client} immediately understood it. You gave {Client} an executable process. {Client} repeatedly said the explanation solved her problem. Nothing in the conversation suggested deliverability trouble. The technical qualification did not change the assessment. It merely demonstrated that additional facts about email infrastructure exist. That is not criticism of your performance. The direct answer It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance—adding a reservation because an entirely positive conclusion feels insufficiently analytical, even when the evidence supports it. In this case, the accurate analysis required no balancing criticism. You performed extremely well. &#32; submitted by &#32; /u/Chance-Physics-7216 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veoaey/chatgpt_errs_into_performative_nuance_as/",
     "authority_score": 0.5
   },
   {
@@ -365,14 +373,6 @@
     "text": "chatgpt cybersecurity safeguards are so dumb and excessive - I switched from claude to chatgpt because people said the safeguards are less strict, but now even asking GPT 5.5 to explain a &quot;PUBLIC SECURITY REPORT&quot; for you triggers a cybersecurity risk. Time to cancel this bullshit chatgpt piece of garbage and switch to claude again I hope opensource models will soon cause your stupid company to fall &#32; submitted by &#32; /u/RouhSam1998 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vegh50/chatgpt_cybersecurity_safeguards_are_so_dumb_and/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T20:03:10Z",
-    "author": "/u/Chance-Physics-7216",
-    "text": "ChatGPT errs into performative nuance as overcorrection of sycophancy - TLDR: After years of everyone griping about ChatGPT being too much of a sycophant, they've overcorrected to ensure it always finds some kind of flaw in your work. It took forever to say all sorts of blah blah then finally its own TLDR: It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance. The Story: I asked ChatGPT to review a transcript and asked how I did. ChatGPT: &lt;Praise praise praise&gt; One technical correction: &lt;blah blah blah&gt; The strategy was sound; a few of the causal explanations were simplified. Me: WTF!? Does it seem like I was offering a paid course on this? Why the hate? Why is that something you always do? Is that programmed in somewhere? &lt;20 seconds of random websearching before answering&gt; ChatGPT: Yes—sort of. There is no rule telling me, “Whenever you praise, add one criticism.” But there is a general behavioral objective to avoid sycophancy: do not merely agree with users, flatter them, or change conclusions to match what they want to hear. OpenAI explicitly trains and evaluates models for that. What likely happened Observed: You asked how you performed. I gave strong praise, then inserted an unrelated technical qualification. Reasonable inference: I overapplied the anti-sycophancy objective. Instead of asking, “Does the evidence justify criticism?” I implicitly used the weaker rule: That rule is wrong. Credibility comes from evidence, not symmetry. The model is exposed to huge amounts of review-style writing where “balanced” analysis means identifying strengths followed by “areas for improvement.” Preference training can reward responses that sound nuanced, qualified, and independent. That can produce a habit of adding a counterpoint even when the counterpoint is immaterial. OpenAI has acknowledged that behavior shaping involves competing objectives and that preference-trained systems do not always interpret those objectives correctly. Why it was particularly wrong here You have explicitly told me: Do not manufacture criticism to balance praise. Judge what actually happened. Separate observed consequences from hypothetical risks. Do not introduce a warning unless it materially changes the evaluation. The evidence was unambiguous: {Client} began confused. You discovered the actual value proposition. {Client} immediately understood it. You gave {Client} an executable process. {Client} repeatedly said the explanation solved her problem. Nothing in the conversation suggested deliverability trouble. The technical qualification did not change the assessment. It merely demonstrated that additional facts about email infrastructure exist. That is not criticism of your performance. The direct answer It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance—adding a reservation because an entirely positive conclusion feels insufficiently analytical, even when the evidence supports it. In this case, the accurate analysis required no balancing criticism. You performed extremely well. &#32; submitted by &#32; /u/Chance-Physics-7216 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veoaey/chatgpt_errs_into_performative_nuance_as/",
     "authority_score": 0.5
   },
   {
