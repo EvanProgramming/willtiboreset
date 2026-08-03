@@ -1,15 +1,15 @@
 {
-  "total_predictions": 165,
-  "resolved_predictions": 18,
-  "overall_brier_score": 0.7691123805555555,
-  "overall_accuracy": 0.037037037037037035,
+  "total_predictions": 166,
+  "resolved_predictions": 19,
+  "overall_brier_score": 0.7812643605263158,
+  "overall_accuracy": 0.03508771929824561,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 18,
-      "brier_score": 0.655496215,
-      "accuracy": 0.1111111111111111,
-      "calibration_error": 0.7586277777777778,
+      "total": 19,
+      "brier_score": 0.6736279931578948,
+      "accuracy": 0.10526315789473684,
+      "calibration_error": 0.7713315789473685,
       "bins": [
         {
           "bin_start": 0.0,
@@ -79,16 +79,16 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 0.0,
-          "count": 9
+          "count": 10
         }
       ]
     },
     {
       "horizon_hours": 24,
-      "total": 18,
-      "brier_score": 0.7983418527777777,
+      "total": 19,
+      "brier_score": 0.8089554394736842,
       "accuracy": 0.0,
-      "calibration_error": 0.8798833333333334,
+      "calibration_error": 0.8862052631578946,
       "bins": [
         {
           "bin_start": 0.0,
@@ -158,16 +158,16 @@
           "bin_end": 1.0,
           "predicted_mean": 1.0,
           "actual_frequency": 0.0,
-          "count": 9
+          "count": 10
         }
       ]
     },
     {
       "horizon_hours": 48,
-      "total": 18,
-      "brier_score": 0.8534990738888888,
+      "total": 19,
+      "brier_score": 0.8612096489473684,
       "accuracy": 0.0,
-      "calibration_error": 0.9175277777777777,
+      "calibration_error": 0.9218684210526316,
       "bins": [
         {
           "bin_start": 0.0,
@@ -235,12 +235,12 @@
         {
           "bin_start": 0.9,
           "bin_end": 1.0,
-          "predicted_mean": 0.9618333333333333,
+          "predicted_mean": 0.96421875,
           "actual_frequency": 0.0,
-          "count": 15
+          "count": 16
         }
       ]
     }
   ],
-  "updated_at": "2026-08-03T10:21:06.878277Z"
+  "updated_at": "2026-08-03T10:41:09.130846Z"
 }

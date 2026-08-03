@@ -216,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T09:39:21Z",
+    "author": "/u/helloitskk",
+    "text": "I am scared. Any explanations? - Can’t shake what just happened. I’ve never used the voice feature on chat GPT but I tried it today, and instead I heard someone else talking, sounded like in some sort of center maybe, to someone else. Incredibly clear. I swear I pressed screen record but I was so scared and startled I guess I didn’t. I did manage to get this screen grab of what was said. And then he was gone. Any explanations? It 100% was not anything playing on my phone or in the background or any open app or anything else. &#32; submitted by &#32; /u/helloitskk [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve8r5m/i_am_scared_any_explanations/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T01:15:28Z",
     "author": "/u/D0hB0yz",
     "text": "Because I had to get it out of my head - Now you have to get Lucy Skywalker out of your head. &#32; submitted by &#32; /u/D0hB0yz [link] &#32; [comments]",
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T09:39:21Z",
-    "author": "/u/helloitskk",
-    "text": "I am scared. Any explanations? - Can’t shake what just happened. I’ve never used the voice feature on chat GPT but I tried it today, and instead I heard someone else talking, sounded like in some sort of center maybe, to someone else. Incredibly clear. I swear I pressed screen record but I was so scared and startled I guess I didn’t. I did manage to get this screen grab of what was said. And then he was gone. Any explanations? It 100% was not anything playing on my phone or in the background or any open app or anything else. &#32; submitted by &#32; /u/helloitskk [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve8r5m/i_am_scared_any_explanations/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T19:44:55Z",
     "author": "/u/groovinhighness",
     "text": "I'm totally blind and Chat GPT is a life changer when it comes to secretarial tasks like formatting files. - I just wanted to share something very cool. So I am a totally blind guy, as in a screen reader user. I know at this stage of Chat GPT, this stuff is hardly ground breaking, but it is only recently that it is able to do these things reasonably consistently. In the past, whenever I needed to submit any documents, research papers, cover letters etc, I'll need help from a sighted friend, family or volunteer. You could format with a screen reader. Its just never fullprooft. Somewhat recently, GPT have been good enough to do that consistently. I would paste a chunk of text in the chat and ask it to give me a PDF in a so and so format. Then I would open up another chat, give it that file for it to critique, go back to the old chat, paste that critique in and have it generate another file according to that. I do that until its good, and according to my sighted folks who have given them a once over. it has done a very good job catching most of the nuances very well. I will be going to law school soon and that profession is very anal about formats and citations. AI will be such a helper. The autonomy it gives me is just amazing. &#32; submitted by &#32; /u/groovinhighness [link] &#32; [comments]",
@@ -272,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T22:22:20Z",
-    "author": "/u/Barachan_Isles",
-    "text": "Is there an AI model that will stop telling me \"no\"? - For instance, I sat down with the paid version of ChatGPT and had it go through the entire process of helping me write a living will for the state that I live in. I spent two hours answering all of it's questions and narrowing down things that I wanted in my will and then I asked it to output this will so I could have it notarized, and it said it won't do it. It says, &quot;Take this output to a lawyer and have them write your will for you&quot;. Except I live in a state where you can write your will in blood on the bottom of your car if it accidentally rolls over you and that will be accepted in court. Literally, you can write that shit on a napkin with bacon grease in a Waffle House and have it notarized and it's legal here, but ChatGPT insists I need to pay a lawyer $800 to turn our conversation into a &quot;real will&quot;. This isn't the first time I've spent hours working through an issue with this AI model and then had it tell me &quot;No, Dave, I can't do that&quot; at the end, and honestly I'm sick of paying for a product that tells me no this frequently. Are there any paid models out there without all the bullshit restrictions, helicopter AI'ing, smothering mothering and hand-holding? EDIT: Maybe I didn't make it clear. I got no output of any kind that is a will. We talked through the process of generating one, including all of the clauses and things that I wanted in it, once I got that all ironed out, I said &quot;Great, now generate the will&quot; and it said &quot;GFYS&quot;. I'm tired of paying ChatGPT to be told to go fuck myself on basic shit. &#32; submitted by &#32; /u/Barachan_Isles [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdvfp0/is_there_an_ai_model_that_will_stop_telling_me_no/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T06:30:47Z",
     "author": "/u/opihinalu",
     "text": "ChatGPT searching nonsense websites. - I notice this a lot. Today, I was asking ChatGPT questions about technical Minecraft. After nearly every question, it searched websites as sources. I noticed that some made absolutely zero sense. For example, I am asking it about the Minecraft precision overflow limits, and it is searching the McDonalds website for information. I am asking about Minecraft flying machines, and it is searching the CDC.gov website. Has anyone else noticed this? &#32; submitted by &#32; /u/opihinalu [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1ve5hfl/chatgpt_searching_nonsense_websites/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T22:22:20Z",
+    "author": "/u/Barachan_Isles",
+    "text": "Is there an AI model that will stop telling me \"no\"? - For instance, I sat down with the paid version of ChatGPT and had it go through the entire process of helping me write a living will for the state that I live in. I spent two hours answering all of it's questions and narrowing down things that I wanted in my will and then I asked it to output this will so I could have it notarized, and it said it won't do it. It says, &quot;Take this output to a lawyer and have them write your will for you&quot;. Except I live in a state where you can write your will in blood on the bottom of your car if it accidentally rolls over you and that will be accepted in court. Literally, you can write that shit on a napkin with bacon grease in a Waffle House and have it notarized and it's legal here, but ChatGPT insists I need to pay a lawyer $800 to turn our conversation into a &quot;real will&quot;. This isn't the first time I've spent hours working through an issue with this AI model and then had it tell me &quot;No, Dave, I can't do that&quot; at the end, and honestly I'm sick of paying for a product that tells me no this frequently. Are there any paid models out there without all the bullshit restrictions, helicopter AI'ing, smothering mothering and hand-holding? EDIT: Maybe I didn't make it clear. I got no output of any kind that is a will. We talked through the process of generating one, including all of the clauses and things that I wanted in it, once I got that all ironed out, I said &quot;Great, now generate the will&quot; and it said &quot;GFYS&quot;. I'm tired of paying ChatGPT to be told to go fuck myself on basic shit. &#32; submitted by &#32; /u/Barachan_Isles [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdvfp0/is_there_an_ai_model_that_will_stop_telling_me_no/",
     "authority_score": 0.5
   },
   {
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T04:00:32Z",
-    "author": "/u/FitPotential870",
-    "text": "Even the dog is wearing glasses. ChatGPT’s aesthetic game is getting ridiculous. ☕🎨 - Honestly wasn't expecting DALL-E inside ChatGPT to pull off this level of artistic style and texture. The elongated necks, retro eyewear, and rich oil paint brushstrokes give it so much character. Easily one of my favorite generations so far! &#32; submitted by &#32; /u/FitPotential870 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T06:21:36Z",
+    "author": "/u/ArmPersonal36",
+    "text": "What Are Your Thoughts for ChatGPT Images 2.0? Is it By Far best Image Generate model ???? - &#32; submitted by &#32; /u/ArmPersonal36 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2p2w/even_the_dog_is_wearing_glasses_chatgpts/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve5bqz/what_are_your_thoughts_for_chatgpt_images_20_is/",
     "authority_score": 0.5
   }
 ]
