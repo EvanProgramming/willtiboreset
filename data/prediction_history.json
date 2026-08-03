@@ -5850,5 +5850,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-03T17:01:04.219872Z",
+    "prediction": {
+      "within_5h": 0.0742,
+      "within_24h": 0.252,
+      "within_48h": 0.3755
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 61.48450483361111,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.0017,
+      "time_pressure": 0.6471,
+      "hazard_rate": 0.012025,
+      "evidence_score": 0.019,
+      "tibo_signal": 0.0116,
+      "community_signal": 0.049,
+      "release_signal": 0.0128,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.06999999999999999,
+        "official_change": 0.04,
+        "reset_confirmation": 0.05,
+        "confidence": 0.8950000000000001,
+        "reason": [
+          "Text is a general statement about using Codex to ship improvements, no mention of resets.",
+          "No indication of quota limits or official changes.",
+          "Text is a fun fact about user behavior, unrelated to resets.",
+          "No mention of limits or official changes.",
+          "Mentions 'signs' and 'major breakthroughs' but not explicitly about resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
