@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T18:41:10.577986+00:00",
+  "updated_at": "2026-08-03T19:01:10.120860+00:00",
   "prediction": {
-    "within_5h": 0.0703,
-    "within_24h": 0.2413,
-    "within_48h": 0.3623
+    "within_5h": 0.0814,
+    "within_24h": 0.2716,
+    "within_48h": 0.3999
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
-    "tweet_count": 50,
-    "hours_since_last_reset": 63.15293815972222,
+    "tweet_count": 40,
+    "hours_since_last_reset": 63.48614445194444,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.0289,
-    "time_pressure": 0.6628,
-    "hazard_rate": 0.01144,
-    "evidence_score": 0.0153,
-    "tibo_signal": 0.011,
-    "community_signal": 0.0878,
-    "release_signal": 0.0232,
+    "time_ratio": 1.0343,
+    "time_pressure": 0.6659,
+    "hazard_rate": 0.013118,
+    "evidence_score": 0.025,
+    "tibo_signal": 0.0149,
+    "community_signal": 0.0974,
+    "release_signal": 0.023,
     "llm_scores": {
-      "reset_intent": 0.006000000000000001,
-      "limit_complaint": 0.064,
-      "official_change": 0.166,
-      "reset_confirmation": 0.042,
-      "confidence": 0.87,
+      "reset_intent": 0.019999999999999997,
+      "limit_complaint": 0.08499999999999999,
+      "official_change": 0.1525,
+      "reset_confirmation": 0.057499999999999996,
+      "confidence": 0.8675,
       "reason": [
-        "Text is a casual anecdote about using Codex to ship improvements, no mention of resets.",
-        "No complaints about limits or official changes.",
-        "Text is a fun fact about user behavior on weekends, unrelated to resets.",
-        "No mention of limits, complaints, or official changes.",
-        "Mentions 'signs' and 'major breakthroughs' but does not explicitly discuss resets."
+        "Text is a casual anecdote about using Codex to ship improvements, no mention of resets or limits.",
+        "No official or user discussion of quota changes.",
+        "Text is a fun fact about weekend usage patterns, unrelated to resets.",
+        "No mention of limits or official changes.",
+        "Mentions 'signs' and 'major breakthroughs' but not explicitly about resets."
       ]
     },
     "prior_applied": false,
@@ -42,9 +42,9 @@
   },
   "main_factors": [
     {
-      "factor": "63.2 hours since last reset",
+      "factor": "63.5 hours since last reset",
       "impact": "+5%",
-      "score": 0.66
+      "score": 0.67
     },
     {
       "factor": "Some reset discussion detected",
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.09
+      "score": 0.1
     }
   ],
   "reasons": [
-    "63.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
-    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 63.2 hours since last reset (+5%)"
+    "63.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
+    "Main factor: 63.5 hours since last reset (+5%)"
   ]
 }
