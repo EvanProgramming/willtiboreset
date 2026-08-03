@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T22:57:17Z",
-    "author": "/u/Conscious_Bend_8647",
-    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T22:59:22Z",
     "author": "/u/elkab0ng",
     "text": "The house across the street from you just sold. The new neighbors arrive and just from their vehicle, you know this is not going to go well. Make a picture of the vehicle. - &#32; submitted by &#32; /u/elkab0ng [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdwabs/the_house_across_the_street_from_you_just_sold/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T22:57:17Z",
+    "author": "/u/Conscious_Bend_8647",
+    "text": "That's so true - &#32; submitted by &#32; /u/Conscious_Bend_8647 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd1d2t/thats_so_true/",
     "authority_score": 0.5
   },
   {
@@ -216,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:06:32Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T08:31:25Z",
     "author": "/u/vibes000111",
     "text": "ChatGPT in the middle of a chat today: \"This is why I smiled when you said earlier.\" - anyone else seeing these weird fake references to its own experience? - I don't know if it's a known thing. For the past couple of months the tone has been strange and you can see it talking about its experience outside of chats like &quot;one of the rare &lt;thing&gt; I've seen&quot;, &quot;I often hear that &lt;something&gt;&quot;. But the smile comment from today takes it to a whole new level of wrong. &#32; submitted by &#32; /u/vibes000111 [link] &#32; [comments]",
@@ -232,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T02:19:50Z",
-    "author": "/u/neloish",
-    "text": "I asked ChatGPT what ranch would be called in Germany. It had to redesign the bottle. - For anyone wondering, Buttermilchkräuterknoblauchgemüseeintunksoße breaks down like this: Buttermilch = buttermilk Kräuter = herbs Knoblauch = garlic Gemüse = vegetables eintunken = to dip Soße = sauce So the whole glorious mess roughly means: “Buttermilk-herb-garlic sauce for dipping vegetables.” &#32; submitted by &#32; /u/neloish [link] &#32; [comments]",
+    "timestamp": "2026-08-01T19:06:32Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Ai girlfriend - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd5nyd/i_asked_chatgpt_what_ranch_would_be_called_in/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcvrjp/ai_girlfriend/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-02T02:19:50Z",
+    "author": "/u/neloish",
+    "text": "I asked ChatGPT what ranch would be called in Germany. It had to redesign the bottle. - For anyone wondering, Buttermilchkräuterknoblauchgemüseeintunksoße breaks down like this: Buttermilch = buttermilk Kräuter = herbs Knoblauch = garlic Gemüse = vegetables eintunken = to dip Soße = sauce So the whole glorious mess roughly means: “Buttermilk-herb-garlic sauce for dipping vegetables.” &#32; submitted by &#32; /u/neloish [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vd5nyd/i_asked_chatgpt_what_ranch_would_be_called_in/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T20:10:31Z",
     "author": "/u/Russian1Bear",
     "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
@@ -256,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-01T19:17:22Z",
-    "author": "/u/forahellofafit",
-    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-02T22:22:20Z",
     "author": "/u/Barachan_Isles",
     "text": "Is there an AI model that will stop telling me \"no\"? - For instance, I sat down with the paid version of ChatGPT and had it go through the entire process of helping me write a living will for the state that I live in. I spent two hours answering all of it's questions and narrowing down things that I wanted in my will and then I asked it to output this will so I could have it notarized, and it said it won't do it. It says, &quot;Take this output to a lawyer and have them write your will for you&quot;. Except I live in a state where you can write your will in blood on the bottom of your car if it accidentally rolls over you and that will be accepted in court. Literally, you can write that shit on a napkin with bacon grease in a Waffle House and have it notarized and it's legal here, but ChatGPT insists I need to pay a lawyer $800 to turn our conversation into a &quot;real will&quot;. This isn't the first time I've spent hours working through an issue with this AI model and then had it tell me &quot;No, Dave, I can't do that&quot; at the end, and honestly I'm sick of paying for a product that tells me no this frequently. Are there any paid models out there without all the bullshit restrictions, helicopter AI'ing, smothering mothering and hand-holding? EDIT: Maybe I didn't make it clear. I got no output of any kind that is a will. We talked through the process of generating one, including all of the clauses and things that I wanted in it, once I got that all ironed out, I said &quot;Great, now generate the will&quot; and it said &quot;GFYS&quot;. I'm tired of paying ChatGPT to be told to go fuck myself on basic shit. &#32; submitted by &#32; /u/Barachan_Isles [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vdvfp0/is_there_an_ai_model_that_will_stop_telling_me_no/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-01T19:17:22Z",
+    "author": "/u/forahellofafit",
+    "text": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. - Prompt: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/",
     "authority_score": 0.5
   },
   {
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:06:30Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "ChatGPT feature you discovered way too late? - ChatGPT feature you discovered way too late? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T00:33:22Z",
+    "author": "/u/Buck_Thorn",
+    "text": "We've just crossed over to the Twilight Zone - &#32; submitted by &#32; /u/Buck_Thorn [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdly34/chatgpt_feature_you_discovered_way_too_late/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdyew3/weve_just_crossed_over_to_the_twilight_zone/",
     "authority_score": 0.5
   }
 ]
