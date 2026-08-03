@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-03T14:40:58.046649+00:00",
+  "updated_at": "2026-08-03T15:01:04.047665+00:00",
   "prediction": {
-    "within_5h": 0.0752,
-    "within_24h": 0.2545,
-    "within_48h": 0.3784
+    "within_5h": 0.0791,
+    "within_24h": 0.2651,
+    "within_48h": 0.3914
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 59.14945717305555,
+    "hours_since_last_reset": 59.48445746,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.9637,
-    "time_pressure": 0.6246,
-    "hazard_rate": 0.012163,
-    "evidence_score": 0.0203,
-    "tibo_signal": 0.0133,
-    "community_signal": 0.0198,
-    "release_signal": 0.0147,
+    "time_ratio": 0.9691,
+    "time_pressure": 0.6279,
+    "hazard_rate": 0.012752,
+    "evidence_score": 0.0237,
+    "tibo_signal": 0.0136,
+    "community_signal": 0.0419,
+    "release_signal": 0.0174,
     "llm_scores": {
       "reset_intent": 0.01,
-      "limit_complaint": 0.0,
-      "official_change": 0.017499999999999998,
-      "reset_confirmation": 0.05,
-      "confidence": 0.8949999999999999,
+      "limit_complaint": 0.0475,
+      "official_change": 0.135,
+      "reset_confirmation": 0.05500000000000001,
+      "confidence": 0.865,
       "reason": [
-        "Text is a casual anecdote about using Codex to ship improvements, no mention of resets.",
-        "No complaints about limits or official announcements.",
-        "Text is a fun observation about user behavior on weekends, unrelated to resets.",
+        "Text is a general praise of OpenAI's workflow, no mention of resets or limits.",
+        "No indication of official changes or complaints.",
+        "Text is a casual observation about user behavior, unrelated to resets.",
         "No mention of limits or official changes.",
-        "Mentions 'signs' and 'major breakthroughs' but does not explicitly discuss resets."
+        "Mentions 'signs' and 'breakthroughs' but not explicitly about resets."
       ]
     },
     "prior_applied": false,
@@ -42,9 +42,9 @@
   },
   "main_factors": [
     {
-      "factor": "59.1 hours since last reset",
+      "factor": "59.5 hours since last reset",
       "impact": "+5%",
-      "score": 0.62
+      "score": 0.63
     },
     {
       "factor": "Some reset discussion detected",
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.02
+      "score": 0.04
     }
   ],
   "reasons": [
-    "59.1 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "59.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 59.1 hours since last reset (+5%)"
+    "Main factor: 59.5 hours since last reset (+5%)"
   ]
 }
