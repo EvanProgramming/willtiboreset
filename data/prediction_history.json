@@ -5938,5 +5938,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-03T17:46:00.555757Z",
+    "prediction": {
+      "within_5h": 0.0735,
+      "within_24h": 0.2501,
+      "within_48h": 0.3733
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 62.233486773611105,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.0139,
+      "time_pressure": 0.6542,
+      "hazard_rate": 0.011921,
+      "evidence_score": 0.0182,
+      "tibo_signal": 0.0118,
+      "community_signal": 0.0883,
+      "release_signal": 0.0149,
+      "llm_scores": {
+        "reset_intent": 0.01,
+        "limit_complaint": 0.0775,
+        "official_change": 0.1575,
+        "reset_confirmation": 0.05500000000000001,
+        "confidence": 0.845,
+        "reason": [
+          "Text is a casual anecdote about using Codex, no mention of resets or limits.",
+          "Fun fact about usage patterns, no reset or limit discussion.",
+          "Mentions 'signs' and breakthroughs but not resets; official change implied by model release.",
+          "Generic motivational phrase, no reset or limit context.",
+          "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
