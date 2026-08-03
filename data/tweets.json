@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-02T16:09:12Z",
-    "author": "/u/UndefinedCurve",
-    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T08:28:42Z",
     "author": "/u/Ripamon",
     "text": "I think it's time we consider turning off memory for these tools - &#32; submitted by &#32; /u/Ripamon [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1ve7jch/i_think_its_time_we_consider_turning_off_memory/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-02T16:09:12Z",
+    "author": "/u/UndefinedCurve",
+    "text": "AGI is here guys... - &#32; submitted by &#32; /u/UndefinedCurve [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm0kr/agi_is_here_guys/",
     "authority_score": 0.5
   },
   {
@@ -208,19 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T01:15:28Z",
-    "author": "/u/D0hB0yz",
-    "text": "Because I had to get it out of my head - Now you have to get Lucy Skywalker out of your head. &#32; submitted by &#32; /u/D0hB0yz [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdzbl3/because_i_had_to_get_it_out_of_my_head/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T03:21:02Z",
     "author": "/u/Sachin_singh9891",
     "text": "What's one skill you've learned primarily because of ChatGPT? - Has ChatGPT helped you pick up a new hobby, language, programming skill, or anything else? How far did you get? &#32; submitted by &#32; /u/Sachin_singh9891 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1ve1xa3/whats_one_skill_youve_learned_primarily_because/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T01:15:28Z",
+    "author": "/u/D0hB0yz",
+    "text": "Because I had to get it out of my head - Now you have to get Lucy Skywalker out of your head. &#32; submitted by &#32; /u/D0hB0yz [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vdzbl3/because_i_had_to_get_it_out_of_my_head/",
     "authority_score": 0.5
   },
   {
@@ -280,19 +280,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T06:30:47Z",
+    "author": "/u/opihinalu",
+    "text": "ChatGPT searching nonsense websites. - I notice this a lot. Today, I was asking ChatGPT questions about technical Minecraft. After nearly every question, it searched websites as sources. I noticed that some made absolutely zero sense. For example, I am asking it about the Minecraft precision overflow limits, and it is searching the McDonalds website for information. I am asking about Minecraft flying machines, and it is searching the CDC.gov website. Has anyone else noticed this? &#32; submitted by &#32; /u/opihinalu [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve5hfl/chatgpt_searching_nonsense_websites/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-02T20:10:31Z",
     "author": "/u/Russian1Bear",
     "text": "ChatGPT recovered my corrupted PS2 emulator memory card with 40 hours of progress in a game. I’m genuinely amazed (story and translation below) - My PCSX2 memory card suddenly became corrupted while I was playing Gran Turismo 4 Spec II on my Steam Deck. The game could no longer save, and after restarting, the PS2 BIOS showed the entire card as unformatted. I had around 40 hours of progress on it, so you could guess I was pretty devastated. Note that I'm not an IT guy, like at all. I'm a linguist lol. ChatGPT guided me through checking the card and diagnosing what had happened. Eventually it gave up and asked me to upload the memory card image itself. I did that, and it actually repaired the corrupted save and gave me a working card back. I put it into PCSX2, launched the game, and everything was there: my garage, progress and all those hours I thought I had lost. We also found the likely cause. I used to close the emulator directly through Steam shortly after saving, even though PCSX2 may still have been writing data after the in-game save icon disappeared, and premature exit caused the card to corrupt. Lesson learned. I know AI gets a lot of criticism, but this was something I almost certainly could not have fixed on my own. I’m honestly incredibly grateful. — Pic translation: The card has been structurally restored. I didn’t just “replace the header and hope for the best” — I actually analyzed the FAT and found the broken chain belonging to your 'garage' file. Here’s what happened: - The 'garage' file was supposed to occupy 1,313 clusters, but its chain stopped after 798. - Immediately after the break, there were exactly 515 lost clusters — precisely the number that was missing. - I rebuilt the chain from cluster 2432 → 2433 → … → 2947. - I restored an unfinished write block using the card’s internal backup block. - I removed false “lost” clusters that contained only FF. - I recalculated ECC for all 16,384 pages. - Final verification: 1,313 out of 1,313 clusters recovered, with 0 ECC errors. This matches the way the PS2 file system works: files are stored as FAT chains, while backup blocks are used to recover interrupted write operations. Download Recommended repaired card: Download Mcd001_REPAIRED_ECC.ps2 Backup version without ECC, only in case PCSX2 unexpectedly rejects the first one: Download Mcd001_REPAIRED_NOECC.ps2 Download the recovery report &#32; submitted by &#32; /u/Russian1Bear [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vds6sd/chatgpt_recovered_my_corrupted_ps2_emulator/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T04:00:32Z",
-    "author": "/u/FitPotential870",
-    "text": "Even the dog is wearing glasses. ChatGPT’s aesthetic game is getting ridiculous. ☕🎨 - Honestly wasn't expecting DALL-E inside ChatGPT to pull off this level of artistic style and texture. The elongated necks, retro eyewear, and rich oil paint brushstrokes give it so much character. Easily one of my favorite generations so far! &#32; submitted by &#32; /u/FitPotential870 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2p2w/even_the_dog_is_wearing_glasses_chatgpts/",
     "authority_score": 0.5
   },
   {
@@ -304,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T06:30:47Z",
-    "author": "/u/opihinalu",
-    "text": "ChatGPT searching nonsense websites. - I notice this a lot. Today, I was asking ChatGPT questions about technical Minecraft. After nearly every question, it searched websites as sources. I noticed that some made absolutely zero sense. For example, I am asking it about the Minecraft precision overflow limits, and it is searching the McDonalds website for information. I am asking about Minecraft flying machines, and it is searching the CDC.gov website. Has anyone else noticed this? &#32; submitted by &#32; /u/opihinalu [link] &#32; [comments]",
+    "timestamp": "2026-08-03T04:00:32Z",
+    "author": "/u/FitPotential870",
+    "text": "Even the dog is wearing glasses. ChatGPT’s aesthetic game is getting ridiculous. ☕🎨 - Honestly wasn't expecting DALL-E inside ChatGPT to pull off this level of artistic style and texture. The elongated necks, retro eyewear, and rich oil paint brushstrokes give it so much character. Easily one of my favorite generations so far! &#32; submitted by &#32; /u/FitPotential870 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve5hfl/chatgpt_searching_nonsense_websites/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve2p2w/even_the_dog_is_wearing_glasses_chatgpts/",
     "authority_score": 0.5
   },
   {

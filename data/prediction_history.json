@@ -731,8 +731,8 @@
       "prior_applied": false,
       "interval_count": 10
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-03T10:01:04.683828Z"
   },
   {
     "prediction_time": "2026-08-01T10:20:50.816427Z",
@@ -7137,6 +7137,50 @@
           "The text is a casual observation about user behavior, not about resets.",
           "No mention of limits, resets, or official changes.",
           "The text hints at future breakthroughs and signs, but does not mention resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-03T10:01:04.675014Z",
+    "prediction": {
+      "within_5h": 0.0665,
+      "within_24h": 0.2297,
+      "within_48h": 0.3465
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 54.48463087166667,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.8877,
+      "time_pressure": 0.5781,
+      "hazard_rate": 0.010815,
+      "evidence_score": 0.0133,
+      "tibo_signal": 0.0174,
+      "community_signal": 0.0,
+      "release_signal": 0.0125,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.025,
+        "official_change": 0.05,
+        "reset_confirmation": 0.05,
+        "confidence": 0.8825,
+        "reason": [
+          "The text is a general statement about using Codex to ship improvements, with no mention of resets or limits.",
+          "No indication of any quota-related content.",
+          "The text is a fun fact about user behavior on weekends, unrelated to resets.",
+          "No mention of limits or official changes.",
+          "Mentions '10 major breakthroughs' and 'signs' but does not explicitly discuss resets."
         ]
       },
       "prior_applied": false,
