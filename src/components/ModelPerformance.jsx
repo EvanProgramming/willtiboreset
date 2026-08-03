@@ -5,6 +5,13 @@ function formatNumber(value, decimals = 3) {
   return value.toFixed(decimals);
 }
 
+function formatPercent(value, decimals = 1) {
+  if (value === null || value === undefined || Number.isNaN(value)) {
+    return "N/A";
+  }
+  return (value * 100).toFixed(decimals);
+}
+
 function MetricCard({ label, value, suffix = "" }) {
   return (
     <div className="card">
@@ -96,7 +103,8 @@ export default function ModelPerformance({ performance }) {
         />
         <MetricCard
           label="Overall accuracy"
-          value={formatNumber(performance.overall_accuracy, 3)}
+          value={formatPercent(performance.overall_accuracy, 1)}
+          suffix="%"
         />
         <MetricCard
           label="Overall Brier score"
@@ -104,7 +112,8 @@ export default function ModelPerformance({ performance }) {
         />
         <MetricCard
           label="24h accuracy"
-          value={formatNumber(horizon24?.accuracy, 3)}
+          value={formatPercent(horizon24?.accuracy, 1)}
+          suffix="%"
         />
         <MetricCard
           label="24h calibration error"
