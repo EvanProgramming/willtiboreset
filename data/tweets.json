@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T14:19:20Z",
-    "author": "/u/Reyvan16",
-    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T07:56:50Z",
     "author": "/u/PrimusArtifex",
     "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T14:19:20Z",
+    "author": "/u/Reyvan16",
+    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
     "authority_score": 0.5
   },
   {
@@ -224,14 +224,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T17:28:06Z",
-    "author": "/u/PM_ME_BUM_FIGHTS",
-    "text": "Won’t someone think of the children?! - &#32; submitted by &#32; /u/PM_ME_BUM_FIGHTS [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vek01f/wont_someone_think_of_the_children/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T10:39:06Z",
     "author": "/u/Shot-Dimension-1405",
     "text": "What's your best tip for getting consistent AI-generated characters? - What's your best tip for getting consistent AI-generated characters? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
@@ -240,19 +232,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T17:28:06Z",
+    "author": "/u/PM_ME_BUM_FIGHTS",
+    "text": "Won’t someone think of the children?! - &#32; submitted by &#32; /u/PM_ME_BUM_FIGHTS [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vek01f/wont_someone_think_of_the_children/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T05:32:30Z",
     "author": "/u/Reyvan16",
     "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf1axl/does_it_feel_realistic_when_chatgpt_agrees_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T08:22:39Z",
-    "author": "/u/blantdebedre",
-    "text": "Work credits is a scam - OpenAI tells Plus users they have a weekly Work allowance. It shows a percentage, cuts off access at 100%, then offers to sell 1,000 additional credits for roughly twice the monthly price of Plus. But OpenAI will not tell you: what 100% of the included allowance actually equals; how the included allowance compares with 1,000 purchased credits; how much usage was charged; what models, tools, retries or failed actions consumed; who can restore credits when the charge is disputed. So when you buy 1,000 credits, you have no meaningful way to know what you are paying for, how far they will go or whether they represent more or less usage than the weekly allowance you just exhausted. Support says it cannot provide the underlying records and cannot restore credits. It also refuses to identify anyone who can. My complaint was supposedly reviewed by “the appropriate team.” OpenAI would not name the team, explain the calculation or provide any evidence supporting the charge. &#32; submitted by &#32; /u/blantdebedre [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf4b3s/work_credits_is_a_scam/",
     "authority_score": 0.5
   },
   {
@@ -288,11 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T08:59:49Z",
-    "author": "/u/saintonsaints",
-    "text": "Why is the image generation so inconsistent? - There are times where the image generated looks so realistic and detailed and after a couple images the quality goes down and starts looking like the typical AI slop we see on Youtube Shorts. Is there a reason? Any way around it? &#32; submitted by &#32; /u/saintonsaints [link] &#32; [comments]",
+    "timestamp": "2026-08-04T08:22:39Z",
+    "author": "/u/blantdebedre",
+    "text": "Work credits is a scam - OpenAI tells Plus users they have a weekly Work allowance. It shows a percentage, cuts off access at 100%, then offers to sell 1,000 additional credits for roughly twice the monthly price of Plus. But OpenAI will not tell you: what 100% of the included allowance actually equals; how the included allowance compares with 1,000 purchased credits; how much usage was charged; what models, tools, retries or failed actions consumed; who can restore credits when the charge is disputed. So when you buy 1,000 credits, you have no meaningful way to know what you are paying for, how far they will go or whether they represent more or less usage than the weekly allowance you just exhausted. Support says it cannot provide the underlying records and cannot restore credits. It also refuses to identify anyone who can. My complaint was supposedly reviewed by “the appropriate team.” OpenAI would not name the team, explain the calculation or provide any evidence supporting the charge. &#32; submitted by &#32; /u/blantdebedre [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf4xg8/why_is_the_image_generation_so_inconsistent/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf4b3s/work_credits_is_a_scam/",
     "authority_score": 0.5
   },
   {
@@ -301,6 +293,14 @@
     "text": "How do you ask GPT to make images for you? - Just super curious. Feeding it reference images? Editing prompts from the web? Giving highly detailed specs? Baking it into your Custom Instructions? Or just vibing and telling it to &quot;surprise me&quot;? Or is it something completely different. I’ve barely ever asked GPT to generate images myself, so I’m really curious about how everyone else does it! Tell me your ways! ♟️🪽 &#32; submitted by &#32; /u/Black-Angel-718 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf2o6u/how_do_you_ask_gpt_to_make_images_for_you/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T08:59:49Z",
+    "author": "/u/saintonsaints",
+    "text": "Why is the image generation so inconsistent? - There are times where the image generated looks so realistic and detailed and after a couple images the quality goes down and starts looking like the typical AI slop we see on Youtube Shorts. Is there a reason? Any way around it? &#32; submitted by &#32; /u/saintonsaints [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf4xg8/why_is_the_image_generation_so_inconsistent/",
     "authority_score": 0.5
   },
   {
