@@ -7346,5 +7346,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-04T04:21:02.461437Z",
+    "prediction": {
+      "within_5h": 0.0595,
+      "within_24h": 0.211,
+      "within_48h": 0.3242
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 72.81734954055555,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.1863,
+      "time_pressure": 0.7462,
+      "hazard_rate": 0.009826,
+      "evidence_score": 0.0048,
+      "tibo_signal": 0.0203,
+      "community_signal": 0.0024,
+      "release_signal": 0.0606,
+      "llm_scores": {
+        "reset_intent": 0.021249999999999998,
+        "limit_complaint": 0.0025,
+        "official_change": 0.08249999999999999,
+        "reset_confirmation": 0.03125,
+        "confidence": 0.9025000000000001,
+        "reason": [
+          "Mentions upcoming major evolution but not specifically about quota reset.",
+          "No complaints about usage limits.",
+          "No mention of reset or quota.",
+          "No complaints about limits.",
+          "No reset discussion."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
