@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T12:31:17.737569+00:00",
+  "updated_at": "2026-08-04T13:00:59.820869+00:00",
   "prediction": {
-    "within_5h": 0.1368,
-    "within_24h": 0.4017,
-    "within_48h": 0.5472
+    "within_5h": 0.1529,
+    "within_24h": 0.4334,
+    "within_48h": 0.5793
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 80.98826021611112,
+    "hours_since_last_reset": 81.48328336722223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.3195,
-    "time_pressure": 0.8052,
-    "hazard_rate": 0.021175,
-    "evidence_score": 0.0727,
-    "tibo_signal": 0.0292,
-    "community_signal": 0.0444,
-    "release_signal": 0.1979,
+    "time_ratio": 1.3275,
+    "time_pressure": 0.8084,
+    "hazard_rate": 0.023393,
+    "evidence_score": 0.0885,
+    "tibo_signal": 0.0284,
+    "community_signal": 0.0301,
+    "release_signal": 0.1904,
     "llm_scores": {
       "reset_intent": 0.02,
-      "limit_complaint": 0.0475,
-      "official_change": 0.14750000000000002,
+      "limit_complaint": 0.0375,
+      "official_change": 0.16,
       "reset_confirmation": 0.02375,
-      "confidence": 0.86625,
+      "confidence": 0.8400000000000001,
       "reason": [
-        "Text discusses a permanent price reduction for GPT-5.6 Luna, an official product change.",
-        "No mention of usage limit resets or complaints.",
-        "Mentions future evolution of AI models but not specifically about quota resets.",
-        "Vague hint of upcoming changes, but no explicit reset signal.",
-        "Describes using Codex to ship improvements, not related to resets."
+        "The text discusses a permanent price reduction for GPT-5.6 Luna, which is an official product/policy change.",
+        "No mention of usage limits or resets.",
+        "The text hints at future evolution of AI models but does not mention resets.",
+        "It discusses Codex as a harness and upcoming major changes, but not quota resets.",
+        "The text is about shipping improvements via Codex, not about resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "81.0 hours since last reset",
+      "factor": "81.5 hours since last reset",
       "impact": "+10%",
       "score": 0.81
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.03
     }
   ],
   "reasons": [
-    "81.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 81.0 hours since last reset (+10%)"
+    "81.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.09), insufficient to confirm",
+    "Main factor: 81.5 hours since last reset (+10%)"
   ]
 }
