@@ -8930,5 +8930,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-04T21:31:09.673123Z",
+    "prediction": {
+      "within_5h": 0.111,
+      "within_24h": 0.3465,
+      "within_48h": 0.489
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 89.98601910527778,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.466,
+      "time_pressure": 0.8574,
+      "hazard_rate": 0.017569,
+      "evidence_score": 0.0471,
+      "tibo_signal": 0.0128,
+      "community_signal": 0.0,
+      "release_signal": 0.0957,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0,
+        "official_change": 0.1075,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.85,
+        "reason": [
+          "Text is a simple question about a title, no relevance to reset or limits.",
+          "Discusses a permanent price reduction and efficiency gains, an official product change but no reset mention.",
+          "Mentions future evolution of models and Codex, but no reset or limit complaints.",
+          "Casual remark about shipping improvements, no reset or limit relevance.",
+          "Observational fun fact about usage patterns, no reset or limit complaints."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
