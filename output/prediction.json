@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T14:31:00.815093+00:00",
+  "updated_at": "2026-08-04T15:01:01.655809+00:00",
   "prediction": {
-    "within_5h": 0.132,
-    "within_24h": 0.3918,
-    "within_48h": 0.5372
+    "within_5h": 0.1463,
+    "within_24h": 0.4208,
+    "within_48h": 0.5669
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 82.98355956138889,
+    "hours_since_last_reset": 83.48379306111111,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,17 +16,17 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.352,
-    "time_pressure": 0.8179,
-    "hazard_rate": 0.020506,
-    "evidence_score": 0.0676,
-    "tibo_signal": 0.0293,
-    "community_signal": 0.0623,
-    "release_signal": 0.204,
+    "time_ratio": 1.3601,
+    "time_pressure": 0.821,
+    "hazard_rate": 0.022498,
+    "evidence_score": 0.0815,
+    "tibo_signal": 0.0289,
+    "community_signal": 0.0283,
+    "release_signal": 0.1894,
     "llm_scores": {
       "reset_intent": 0.0225,
-      "limit_complaint": 0.04,
-      "official_change": 0.16999999999999998,
+      "limit_complaint": 0.0225,
+      "official_change": 0.135,
       "reset_confirmation": 0.02375,
       "confidence": 0.86,
       "reason": [
@@ -34,7 +34,7 @@
         "No mention of usage limits or resets.",
         "Mentions future evolution of AI models but not specifically about quota resets.",
         "Vague hint about major changes, but no explicit reset signal.",
-        "Focuses on using Codex to ship improvements, not on resets."
+        "Describes using Codex to ship improvements, not about resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "83.0 hours since last reset",
+      "factor": "83.5 hours since last reset",
       "impact": "+10%",
       "score": 0.82
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.06
+      "score": 0.03
     }
   ],
   "reasons": [
-    "83.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 83.0 hours since last reset (+10%)"
+    "83.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
+    "Main factor: 83.5 hours since last reset (+10%)"
   ]
 }
