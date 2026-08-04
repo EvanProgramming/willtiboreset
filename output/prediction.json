@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T04:00:47.942712+00:00",
+  "updated_at": "2026-08-04T04:13:50.681780+00:00",
   "prediction": {
-    "within_5h": 0.059,
-    "within_24h": 0.2093,
-    "within_48h": 0.3219
+    "within_5h": 0.0591,
+    "within_24h": 0.2096,
+    "within_48h": 0.3224
   },
   "confidence": "low",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 72.47998386833333,
+    "hours_since_last_reset": 72.69741140027777,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.1808,
-    "time_pressure": 0.7436,
-    "hazard_rate": 0.009737,
-    "evidence_score": 0.0044,
-    "tibo_signal": 0.0062,
-    "community_signal": 0.0,
-    "release_signal": 0.0,
+    "time_ratio": 1.1844,
+    "time_pressure": 0.7453,
+    "hazard_rate": 0.009753,
+    "evidence_score": 0.0045,
+    "tibo_signal": 0.0195,
+    "community_signal": 0.0141,
+    "release_signal": 0.0624,
     "llm_scores": {
-      "reset_intent": 0.0,
-      "limit_complaint": 0.0,
-      "official_change": 0.0,
-      "reset_confirmation": 0.025,
-      "confidence": 0.8975,
+      "reset_intent": 0.0225,
+      "limit_complaint": 0.0125,
+      "official_change": 0.1,
+      "reset_confirmation": 0.03125,
+      "confidence": 0.8387499999999999,
       "reason": [
-        "Text discusses future evolution of Codex but does not mention quota resets.",
-        "No indication of reset timing or confirmation.",
-        "Text is about using Codex for PRs, not about resets.",
-        "No mention of limits or resets.",
-        "Text is a fun fact about usage patterns, not about resets."
+        "Mentions future evolution but not specifically about quota reset.",
+        "No complaints about usage limits.",
+        "No mention of reset or limits.",
+        "Casual remark about using Codex.",
+        "Mentions usage patterns but not complaints."
       ]
     },
     "prior_applied": false,
@@ -42,19 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "72.5 hours since last reset",
+      "factor": "72.7 hours since last reset",
       "impact": "+5%",
-      "score": 0.74
+      "score": 0.75
     },
     {
       "factor": "Some reset discussion detected",
+      "impact": "+0%",
+      "score": 0.02
+    },
+    {
+      "factor": "Minor community limit complaints",
       "impact": "+0%",
       "score": 0.01
     }
   ],
   "reasons": [
-    "72.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "72.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
-    "Main factor: 72.5 hours since last reset (+5%)"
+    "Main factor: 72.7 hours since last reset (+5%)"
   ]
 }
