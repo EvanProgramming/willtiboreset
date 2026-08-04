@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-04T20:27:31Z",
+    "author": "Tibo",
+    "text": "What is my title at OpenAI - What is my title at OpenAI",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2084738022650892544",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-04T05:07:32Z",
     "author": "Tibo",
     "text": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't... - Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.nic: GPT-5.4 full at xhigh scored 51, exactly where Luna max sits today. GPT-5.4 costs $2.50/$15; Luna now costs $0.20/$1.20. In other words, roughly four months later, OpenAI is selling March’s full flagship intelligence at about one-thirteenth the token price.",
@@ -112,14 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-07-29T21:11:12Z",
-    "author": "Tibo",
-    "text": "Yeah! Science! - Yeah! Science!OpenAI: We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.ChatGPT for Academic Researchers is built to accelerate discovery across disciplines.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2082574687020966126",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T19:46:12Z",
+    "author": "/u/shakazoulu",
+    "text": "I tried Claude but I just can’t - In my bubble everyone started to abandon ChatGPT in favor of Claude. Everyone seemed so impressed and convinced that Claude is superior. And I let myself get influenced by them so I cancelled my subscription and started a new one with Claude. I really tried hard, I tested lots of stuff and tried to use Claude in my daily work routine but somehow it never sparked. There is just something missing, I never connected in a personal level with Claude and his style (I know how ridiculous that sounds). In the end, after just one week I started missing CharGPT, so basically, I am now going back. &#32; submitted by &#32; /u/shakazoulu [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T07:56:50Z",
     "author": "/u/PrimusArtifex",
     "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
@@ -168,14 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T05:42:59Z",
-    "author": "/u/jeff_047",
-    "text": "hall of fame ratio 💀 - &#32; submitted by &#32; /u/jeff_047 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve4mhu/hall_of_fame_ratio/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T18:38:05Z",
     "author": "/u/SaiyanOfDarkness",
     "text": "🚨 Active npm supply-chain worm is stealing developer credentials and targeting Claude Code / VS Code environments 🚨 - Active npm supply-chain worm is stealing developer credentials and targeting Claude Code / VS Code environments Socket Security is tracking an active npm supply-chain attack discovered on August 4, 2026. It initially affected the widely used keyv and cacheable package families and has since spread to packages belonging to other maintainers. The affected packages collectively receive tens of millions of downloads per week and are often buried deep inside dependency trees, meaning developers may have them installed without knowingly adding them. One example dependency path is: eslint → file-entry-cache → flat-cache → keyv At the time I’m posting this, Socket’s live tracker lists 2,236 affected package artifacts across 444 unique packages. That number may continue changing because this is an active, self-propagating campaign. What the malware does The compromised packages contain a malicious preinstall hook: json &quot;preinstall&quot;: &quot;node setup.mjs&quot; When an affected package is installed with lifecycle scripts enabled, setup.mjs downloads a standalone Bun runtime and uses it to execute an obfuscated payload named Math_Symbol.js. The package’s normal library code may still function correctly afterward, so the installation can appear successful even though the system has already been compromised. The payload searches for and steals credentials including: npm publishing tokens GitHub tokens and CI credentials AWS credentials and instance metadata GCP service-account keys Azure client secrets HashiCorp Vault tokens Kubernetes service-account tokens Private keys, bearer tokens and other secrets found in files, environment variables or running processes The stolen information is encrypted and exfiltrated through attacker-controlled GitHub repositories and destinations resolved through DNS. It spreads like a worm This is not limited to the original compromised packages. After stealing an npm token, the malware discovers other packages the victim is authorized to publish. It downloads those packages, injects the same malicious hook and payload, increases the version number and republishes the infected versions using the victim’s own npm identity. That is how the attack spread from the original keyv and cacheable maintainer into packages owned by other people and organizations. It also targets AI coding agents and IDEs The attackers planted additional execution hooks in the source repositories: .claude/settings.json containing a Claude Code SessionStart hook .vscode/tasks.json containing a VS Code folderOpen task math_init.js, containing the same malicious payload These hooks can execute when a cloned repository is opened through an AI coding agent or trusted development environment, depending on the tool’s trust and approval settings. That means an attacker may not need the developer to run npm install. Opening or trusting the repository in Claude Code or VS Code can provide a separate execution path. To avoid confusion: this does not mean that reading this post, visiting the article or using an ordinary ChatGPT conversation infects your computer. The risk applies to developer machines, CI runners and AI coding environments that clone, open, trust or install compromised code. Signed provenance did not guarantee safety keyv@6.0.0 reportedly shipped with valid npm/Sigstore provenance because the legitimate release workflow built source code that had already been compromised. The signature correctly proved which build system produced the package. It did not prove that the source code supplied to that build system was safe. Important warning before rotating credentials The malware installs a persistence mechanism described as a dead-man’s switch on macOS and Linux. It creates a gh-token-monitor service that checks whether a stolen GitHub token is still valid. When the token is revoked or rotated and begins returning an HTTP 4xx response, the monitor executes an attacker-supplied command. Potential indicators include: text ~/.local/bin/gh-token-monitor.sh ~/.config/gh-token-monitor/ ~/Library/LaunchAgents/com.user.gh-token-monitor.plist ~/.config/systemd/user/gh-token-monitor.service /tmp/gh-token-monitor.out.log /tmp/gh-token-monitor.err.log Other files and activity to investigate include: text setup.mjs Math_Symbol.js math_init.js bun-dl-* .claude/settings.json .vscode/tasks.json Do not blindly begin rotating credentials from a machine that may be infected. Isolate the system and remove the monitor and malicious payload first. Credential rotation should then be performed from a separate, known-clean device. Recommended precautions Avoid updating or installing affected packages until the situation is resolved. Pin dependencies to exact known-safe versions rather than using caret or tilde ranges. Rebuild and review lockfiles. Check Socket’s live campaign tracker instead of relying on a static package list. Temporarily install dependencies using: bash npm ci --ignore-scripts or: bash npm install --ignore-scripts The --ignore-scripts option prevents npm lifecycle hooks such as preinstall and postinstall from running automatically. It may also prevent legitimate packages from completing necessary setup steps. It does not protect against the separate .claude or .vscode repository hooks. Before opening an unfamiliar repository locally, inspect: text .claude/settings.json .vscode/tasks.json package.json Do not automatically trust unknown workspaces or approve unexpected startup hooks. Anyone who installed an affected release with lifecycle scripts enabled, executed the repository hooks or ran an affected CI workflow should treat the environment as potentially compromised. After isolating the system and removing the implant and token monitor, revoke and replace every credential that was accessible from that host. Also audit npm for unexpected package releases and GitHub for unfamiliar repositories or commits created by the compromised account. Sources Socket Security’s technical report: https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain Socket’s continuously updated affected-package tracker: https://socket.dev/supply-chain-attacks/keyv-and-cacheable-compromise &#32; submitted by &#32; /u/SaiyanOfDarkness [link] &#32; [comments]",
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T19:46:12Z",
-    "author": "/u/shakazoulu",
-    "text": "I tried Claude but I just can’t - In my bubble everyone started to abandon ChatGPT in favor of Claude. Everyone seemed so impressed and convinced that Claude is superior. And I let myself get influenced by them so I cancelled my subscription and started a new one with Claude. I really tried hard, I tested lots of stuff and tried to use Claude in my daily work routine but somehow it never sparked. There is just something missing, I never connected in a personal level with Claude and his style (I know how ridiculous that sounds). In the end, after just one week I started missing CharGPT, so basically, I am now going back. &#32; submitted by &#32; /u/shakazoulu [link] &#32; [comments]",
+    "timestamp": "2026-08-03T05:42:59Z",
+    "author": "/u/jeff_047",
+    "text": "hall of fame ratio 💀 - &#32; submitted by &#32; /u/jeff_047 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ve4mhu/hall_of_fame_ratio/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T14:19:20Z",
-    "author": "/u/Reyvan16",
-    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T18:54:13Z",
+    "author": "/u/Time-Ad9897",
+    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
     "authority_score": 0.5
   },
   {
@@ -208,11 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T18:18:33Z",
-    "author": "/u/Cbh1525",
-    "text": "Does anyone else feel slightly embarrassed about how much time they are spending using AI? - Today I have started about 20 chats. Just this evening I have updated my cv for two job applications, submitted supporting documentation, and prepared the interviews in about an hour. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T17:59:55Z",
+    "author": "/u/Hatrct",
+    "text": "New models being stubborn - I was the first one who complained about previous models being people pleasers/agreeing with everything you said. But doing a 180 in the other direction is not the solution. The current model is stubborn and keeps repeating its wrong information even when you push back. Instead of acknowledging your arguments, it keeps repeating itself stubbornly and pushing back and refuses to budge. If it was correct, this wold make sense, but there have been many times when it is simply incorrect/it does not understand what I am trying to tell it, so it becomes frustrating, it becomes similar to arguing with someone on reddit. &#32; submitted by &#32; /u/Hatrct [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfif9t/does_anyone_else_feel_slightly_embarrassed_about/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfhvpz/new_models_being_stubborn/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T14:19:20Z",
+    "author": "/u/Reyvan16",
+    "text": "I am very successful. - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veerrp/i_am_very_successful/",
     "authority_score": 0.5
   },
   {
@@ -224,11 +232,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T17:59:55Z",
-    "author": "/u/Hatrct",
-    "text": "New models being stubborn - I was the first one who complained about previous models being people pleasers/agreeing with everything you said. But doing a 180 in the other direction is not the solution. The current model is stubborn and keeps repeating its wrong information even when you push back. Instead of acknowledging your arguments, it keeps repeating itself stubbornly and pushing back and refuses to budge. If it was correct, this wold make sense, but there have been many times when it is simply incorrect/it does not understand what I am trying to tell it, so it becomes frustrating, it becomes similar to arguing with someone on reddit. &#32; submitted by &#32; /u/Hatrct [link] &#32; [comments]",
+    "timestamp": "2026-08-04T18:18:33Z",
+    "author": "/u/Cbh1525",
+    "text": "Does anyone else feel slightly embarrassed about how much time they are spending using AI? - Today I have started about 20 chats. Just this evening I have updated my cv for two job applications, submitted supporting documentation, and prepared the interviews in about an hour. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfhvpz/new_models_being_stubborn/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfif9t/does_anyone_else_feel_slightly_embarrassed_about/",
     "authority_score": 0.5
   },
   {
@@ -237,14 +245,6 @@
     "text": "Man, what the hell happened - who gave the voice chat 20 cups of coffee 😭😭😭 - I was just bragging about how good it was and how well it could talk back with appropriate sized sentences in Japanese, actually matching your vibe. I went to use it again today and on GOD it feels like a human that consumed too much caffeine and is just raddle raddle raddling on 😭 😭 😭 It doesn't even feel robotic, i genuinely feel like I'm arguing with a human who doesn't know how to close its mouth for two seconds so the other person can talk lmfao. Someone give this bot his ADHD pills or something lol &#32; submitted by &#32; /u/Distinct-Particular1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vff0tc/man_what_the_hell_happened_who_gave_the_voice/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T18:54:13Z",
-    "author": "/u/Time-Ad9897",
-    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
     "authority_score": 0.5
   },
   {
@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T12:47:16Z",
+    "author": "/u/Apotheoxix",
+    "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T22:51:32Z",
     "author": "/u/Fabulous-Antelope-76",
     "text": "Broken Image Generator v2.0 - Does anyone have an idea, when OpenAI will fix ChatGPT's glitched images? Since the 2.0 image generator was released, there is ugly glitches when you use generated image as a reference or just change some detail on the generated image. Very strange patterns on the every texture - skin, ground, rock, metal - every kind of material. Multi editing now is impossible due to bad quality edits. Each re-generating making glitches worse. It's impossible to work with. White dots on the ground, cloth, armor &amp; etc: https://preview.redd.it/wp4ka4xhn8hh1.png?width=524&amp;format=png&amp;auto=webp&amp;s=cfdbeff9957ebd9c4c35be4cc35c91a8b9c80abe Or maybe there a way to fix/bypass those glitches? &quot;New chat&quot; doesn't help of course. Even if you use one generated object as a reference, whole image will be glitched. It's like a virus spreading over the whole generation. I've tried promts suggested by GPT itself, but it's not helping that much. Just a little bit less glitched sharpness. &#32; submitted by &#32; /u/Fabulous-Antelope-76 [link] &#32; [comments]",
@@ -301,14 +309,6 @@
     "text": "how fast chatgpt is going into other fields - . &#32; submitted by &#32; /u/Interesting-Peak2755 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vefa4v/how_fast_chatgpt_is_going_into_other_fields/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T12:47:16Z",
-    "author": "/u/Apotheoxix",
-    "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/",
     "authority_score": 0.5
   },
   {
