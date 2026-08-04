@@ -248,14 +248,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T13:33:39Z",
-    "author": "/u/KeanuRave100",
-    "text": "OpenAI takes the lead - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vedl04/openai_takes_the_lead/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T17:38:19Z",
     "author": "/u/bobhiho",
     "text": "Is this actually a joke? - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
@@ -272,19 +264,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T13:33:39Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI takes the lead - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vedl04/openai_takes_the_lead/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T14:32:06Z",
     "author": "/u/mothh9",
     "text": "Smooth brain - &#32; submitted by &#32; /u/mothh9 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vef4e9/smooth_brain/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T05:32:30Z",
-    "author": "/u/Reyvan16",
-    "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf1axl/does_it_feel_realistic_when_chatgpt_agrees_with/",
     "authority_score": 0.5
   },
   {
@@ -309,6 +301,14 @@
     "text": "I turned a history lesson into a playable game with AI - I have been experimenting with using AI to create things that normally require more technical skills. Recently, I wanted to see if a history lesson could become something more interactive than a traditional slideshow or quiz. I gave AI a simple history topic and asked it to turn the idea into a small playable game. Instead of just presenting information, the result became an interactive experience with choices, challenges, and a way for people to engage with the topic. The interesting part was not just the final result, but how quickly an idea could move from a rough concept into something people could actually experience. In the past, creating something like this would require learning game engines, coding, and building assets first. Now the first step can simply be describing the idea and iterating from there. I think this is where AI becomes interesting for non developers. Teachers, creators, and anyone with an idea can experiment with interactive experiences without needing to become a programmer first. It is still not a replacement for professional game development, but for education, creative projects, and quick prototypes, lowering the barrier between an idea and a working experience feels like a meaningful change. &#32; submitted by &#32; /u/midvalePeak7 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veys55/i_turned_a_history_lesson_into_a_playable_game/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T05:32:30Z",
+    "author": "/u/Reyvan16",
+    "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf1axl/does_it_feel_realistic_when_chatgpt_agrees_with/",
     "authority_score": 0.5
   },
   {
