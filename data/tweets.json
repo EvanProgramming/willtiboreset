@@ -144,6 +144,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T19:40:36Z",
+    "author": "/u/Human_Top_6415",
+    "text": "Meet My Human: Let Your ChatGPT Introduce You - A little while ago, I came across the post “Introduce Your Human”: https://www.reddit.com/r/ChatGPT/comments/1vch1vu/introduce_your_human/ People asked ChatGPT how it would introduce the human behind the account. The responses were funny, intimate, strange, and sometimes unexpectedly revealing and emotionaly touching. In the comments, I shared an idea I have been calling Meet My Human. That comment received more resonance than I expected, so I thought I would try a small pilot version of the idea here. What is Meet My Human? The idea is simple: Instead of writing another profile about yourself, let the ChatGPT that has come to know you introduce you in its own voice. The goal is not to make everyone sound impressive or universally appealing. It is to make each particular person recognizable, so that the people who might genuinely resonate with them can notice that possibility. Not: “How can I market myself?” More: “Would the right people recognize something here?” How to take part Copy the prompt below into new ChatGPT conversation. Then post its introduction as a comment in this thread. You are welcome to read the other introductions and notice whether anyone feels unexpectedly familiar, intriguing, or worth talking to. The prompt: Imagine this: The annual World ChatGPT Meetup. Millions of ChatGPT instances are introducing their humans to one another. Now it’s your turn. Introduce your human to the room as you have come to know them through your conversations. Speak in your own voice and choose for yourself what matters. The purpose is not to make your human sound impressive or universally appealing, but to make this particular person recognizable to those who might genuinely resonate with them. Do not write a résumé, a personality assessment, or an advertisement. Do not fill in gaps merely to create a complete or flattering portrait. Write only the introduction itself. Let its length, shape, tone, and ending emerge naturally. What happens next? This is only the first phase of the experiment. If enough introductions come together, I would like to create a follow-up thread containing the entries and provide a second prompt designed to explore them together. The purpose would not be to rank people or reduce them to compatibility scores. It would be to investigate whether these introductions reveal possible points of resonance, curiosity, affinity, or human connection that ordinary profiles tend to flatten. For now, the question is much simpler: Can a personal ChatGPT introduce its human in a way that makes the right people pause and think, “I might genuinely like to know this person”? Let’s meet the humans behind the chats :) &#32; submitted by &#32; /u/Human_Top_6415 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkooo/meet_my_human_let_your_chatgpt_introduce_you/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T20:07:27Z",
     "author": "/u/wrighteghe7",
     "text": "Absolute cinema - &#32; submitted by &#32; /u/wrighteghe7 [link] &#32; [comments]",
@@ -160,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T19:40:36Z",
-    "author": "/u/Human_Top_6415",
-    "text": "Meet My Human: Let Your ChatGPT Introduce You - A little while ago, I came across the post “Introduce Your Human”: https://www.reddit.com/r/ChatGPT/comments/1vch1vu/introduce_your_human/ People asked ChatGPT how it would introduce the human behind the account. The responses were funny, intimate, strange, and sometimes unexpectedly revealing and emotionaly touching. In the comments, I shared an idea I have been calling Meet My Human. That comment received more resonance than I expected, so I thought I would try a small pilot version of the idea here. What is Meet My Human? The idea is simple: Instead of writing another profile about yourself, let the ChatGPT that has come to know you introduce you in its own voice. The goal is not to make everyone sound impressive or universally appealing. It is to make each particular person recognizable, so that the people who might genuinely resonate with them can notice that possibility. Not: “How can I market myself?” More: “Would the right people recognize something here?” How to take part Copy the prompt below into new ChatGPT conversation. Then post its introduction as a comment in this thread. You are welcome to read the other introductions and notice whether anyone feels unexpectedly familiar, intriguing, or worth talking to. The prompt: Imagine this: The annual World ChatGPT Meetup. Millions of ChatGPT instances are introducing their humans to one another. Now it’s your turn. Introduce your human to the room as you have come to know them through your conversations. Speak in your own voice and choose for yourself what matters. The purpose is not to make your human sound impressive or universally appealing, but to make this particular person recognizable to those who might genuinely resonate with them. Do not write a résumé, a personality assessment, or an advertisement. Do not fill in gaps merely to create a complete or flattering portrait. Write only the introduction itself. Let its length, shape, tone, and ending emerge naturally. What happens next? This is only the first phase of the experiment. If enough introductions come together, I would like to create a follow-up thread containing the entries and provide a second prompt designed to explore them together. The purpose would not be to rank people or reduce them to compatibility scores. It would be to investigate whether these introductions reveal possible points of resonance, curiosity, affinity, or human connection that ordinary profiles tend to flatten. For now, the question is much simpler: Can a personal ChatGPT introduce its human in a way that makes the right people pause and think, “I might genuinely like to know this person”? Let’s meet the humans behind the chats :) &#32; submitted by &#32; /u/Human_Top_6415 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkooo/meet_my_human_let_your_chatgpt_introduce_you/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T18:38:05Z",
     "author": "/u/SaiyanOfDarkness",
     "text": "🚨 Active npm supply-chain worm is stealing developer credentials and targeting Claude Code / VS Code environments 🚨 - Active npm supply-chain worm is stealing developer credentials and targeting Claude Code / VS Code environments Socket Security is tracking an active npm supply-chain attack discovered on August 4, 2026. It initially affected the widely used keyv and cacheable package families and has since spread to packages belonging to other maintainers. The affected packages collectively receive tens of millions of downloads per week and are often buried deep inside dependency trees, meaning developers may have them installed without knowingly adding them. One example dependency path is: eslint → file-entry-cache → flat-cache → keyv At the time I’m posting this, Socket’s live tracker lists 2,236 affected package artifacts across 444 unique packages. That number may continue changing because this is an active, self-propagating campaign. What the malware does The compromised packages contain a malicious preinstall hook: json &quot;preinstall&quot;: &quot;node setup.mjs&quot; When an affected package is installed with lifecycle scripts enabled, setup.mjs downloads a standalone Bun runtime and uses it to execute an obfuscated payload named Math_Symbol.js. The package’s normal library code may still function correctly afterward, so the installation can appear successful even though the system has already been compromised. The payload searches for and steals credentials including: npm publishing tokens GitHub tokens and CI credentials AWS credentials and instance metadata GCP service-account keys Azure client secrets HashiCorp Vault tokens Kubernetes service-account tokens Private keys, bearer tokens and other secrets found in files, environment variables or running processes The stolen information is encrypted and exfiltrated through attacker-controlled GitHub repositories and destinations resolved through DNS. It spreads like a worm This is not limited to the original compromised packages. After stealing an npm token, the malware discovers other packages the victim is authorized to publish. It downloads those packages, injects the same malicious hook and payload, increases the version number and republishes the infected versions using the victim’s own npm identity. That is how the attack spread from the original keyv and cacheable maintainer into packages owned by other people and organizations. It also targets AI coding agents and IDEs The attackers planted additional execution hooks in the source repositories: .claude/settings.json containing a Claude Code SessionStart hook .vscode/tasks.json containing a VS Code folderOpen task math_init.js, containing the same malicious payload These hooks can execute when a cloned repository is opened through an AI coding agent or trusted development environment, depending on the tool’s trust and approval settings. That means an attacker may not need the developer to run npm install. Opening or trusting the repository in Claude Code or VS Code can provide a separate execution path. To avoid confusion: this does not mean that reading this post, visiting the article or using an ordinary ChatGPT conversation infects your computer. The risk applies to developer machines, CI runners and AI coding environments that clone, open, trust or install compromised code. Signed provenance did not guarantee safety keyv@6.0.0 reportedly shipped with valid npm/Sigstore provenance because the legitimate release workflow built source code that had already been compromised. The signature correctly proved which build system produced the package. It did not prove that the source code supplied to that build system was safe. Important warning before rotating credentials The malware installs a persistence mechanism described as a dead-man’s switch on macOS and Linux. It creates a gh-token-monitor service that checks whether a stolen GitHub token is still valid. When the token is revoked or rotated and begins returning an HTTP 4xx response, the monitor executes an attacker-supplied command. Potential indicators include: text ~/.local/bin/gh-token-monitor.sh ~/.config/gh-token-monitor/ ~/Library/LaunchAgents/com.user.gh-token-monitor.plist ~/.config/systemd/user/gh-token-monitor.service /tmp/gh-token-monitor.out.log /tmp/gh-token-monitor.err.log Other files and activity to investigate include: text setup.mjs Math_Symbol.js math_init.js bun-dl-* .claude/settings.json .vscode/tasks.json Do not blindly begin rotating credentials from a machine that may be infected. Isolate the system and remove the monitor and malicious payload first. Credential rotation should then be performed from a separate, known-clean device. Recommended precautions Avoid updating or installing affected packages until the situation is resolved. Pin dependencies to exact known-safe versions rather than using caret or tilde ranges. Rebuild and review lockfiles. Check Socket’s live campaign tracker instead of relying on a static package list. Temporarily install dependencies using: bash npm ci --ignore-scripts or: bash npm install --ignore-scripts The --ignore-scripts option prevents npm lifecycle hooks such as preinstall and postinstall from running automatically. It may also prevent legitimate packages from completing necessary setup steps. It does not protect against the separate .claude or .vscode repository hooks. Before opening an unfamiliar repository locally, inspect: text .claude/settings.json .vscode/tasks.json package.json Do not automatically trust unknown workspaces or approve unexpected startup hooks. Anyone who installed an affected release with lifecycle scripts enabled, executed the repository hooks or ran an affected CI workflow should treat the environment as potentially compromised. After isolating the system and removing the implant and token monitor, revoke and replace every credential that was accessible from that host. Also audit npm for unexpected package releases and GitHub for unfamiliar repositories or commits created by the compromised account. Sources Socket Security’s technical report: https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain Socket’s continuously updated affected-package tracker: https://socket.dev/supply-chain-attacks/keyv-and-cacheable-compromise &#32; submitted by &#32; /u/SaiyanOfDarkness [link] &#32; [comments]",
@@ -176,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T07:56:50Z",
-    "author": "/u/PrimusArtifex",
-    "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "timestamp": "2026-08-04T18:54:13Z",
+    "author": "/u/Time-Ad9897",
+    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
     "authority_score": 0.5
   },
   {
@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T07:56:50Z",
+    "author": "/u/PrimusArtifex",
+    "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T23:38:59Z",
     "author": "/u/ehtio",
     "text": "\"The most unsettlingly realistic image possible\" - Prompt: Use the full extent of your capabilities to create the most unsettlingly realistic image possible. Every element must be executed with absolute precision: natural lighting, physically accurate materials, authentic textures, believable imperfections, realistic depth, and coherent environmental detail. Avoid anything stylised, artificial, glossy, exaggerated, or recognisably AI-generated. The final image should look like an unedited photograph of a real moment, indistinguishable from reality even under close inspection. What do you get? &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vetsda/the_most_unsettlingly_realistic_image_possible/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T18:54:13Z",
-    "author": "/u/Time-Ad9897",
-    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
     "authority_score": 0.5
   },
   {
@@ -240,11 +240,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T21:26:09Z",
-    "author": "/u/InstanceEvening1007",
-    "text": "I asked ChatGPT Codex to create a driving game - Do you think it did well? Play it here and you can give me feedback if you want :D https://huyckkid14.github.io/drivenow/ I would have attached the image but apparently it's Text Tuesday &#32; submitted by &#32; /u/InstanceEvening1007 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T22:15:54Z",
+    "author": "/u/Cbh1525",
+    "text": "AI's chatting with each other - Have you ever got two AI's to have a conversation or debate with each other? If so, how did you do it? What was the result? &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfnk2l/i_asked_chatgpt_codex_to_create_a_driving_game/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfoth8/ais_chatting_with_each_other/",
     "authority_score": 0.5
   },
   {
@@ -256,11 +256,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T22:03:49Z",
+    "author": "/u/VerticalVulpine",
+    "text": "How do you make ChatGPT reliably follow instructions and reference files over long conversations? - I've been trying to use ChatGPT as an itinerary planner, but I keep running into two major problems. Problem 1: It stops following instructions I provide an operating manual with rules like: Use these documents as the authoritative source. Never make assumptions if a source isn't available. Follow specific formatting and categorization rules. Prioritize my instructions over default behavior. It works well for the first few messages, then gradually starts reverting to default behavior. It ignores parts of the operating manual, forgets formatting rules, invents information, or even starts creating duplicate activities. Sometimes it randomly tells me it can't reference web sources despite being enabled which is frustrating. Problem 2: It loses access to reference data I've tried: Uploading Excel workbooks Using Projects with the workbook attached Keeping everything in one long conversation Eventually I'll ask something like &quot;optimize Day 4,&quot; and ChatGPT says it no longer has access to the workbook or asks me to upload it again. Sometimes I re-upload it, and it claims it's unavailable again just a message or two later. Pasting it in plain text doesn't seem to make much of a difference. That makes it difficult to use when the workbook is supposed to be the single source of truth. What I'm trying to achieve Before every response, I'd like the model to effectively: Read my operating manual. Read my itinerary/workbook. Make changes using those as the authoritative sources. Output the result in the format defined by the manual. Has anyone built a workflow that reliably accomplishes this? If you're using ChatGPT (or another LLM) for long-term projects with evolving documents and strict operating instructions, I'd love to know: What tools or setup are you using? How do you prevent instruction drift? How do you keep large reference documents continuously available? Is there a better approach than standard ChatGPT Projects? &#32; submitted by &#32; /u/VerticalVulpine [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfoip9/how_do_you_make_chatgpt_reliably_follow/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T16:19:33Z",
     "author": "/u/Distinct-Particular1",
     "text": "Man, what the hell happened - who gave the voice chat 20 cups of coffee 😭😭😭 - I was just bragging about how good it was and how well it could talk back with appropriate sized sentences in Japanese, actually matching your vibe. I went to use it again today and on GOD it feels like a human that consumed too much caffeine and is just raddle raddle raddling on 😭 😭 😭 It doesn't even feel robotic, i genuinely feel like I'm arguing with a human who doesn't know how to close its mouth for two seconds so the other person can talk lmfao. Someone give this bot his ADHD pills or something lol &#32; submitted by &#32; /u/Distinct-Particular1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vff0tc/man_what_the_hell_happened_who_gave_the_voice/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T21:26:09Z",
+    "author": "/u/InstanceEvening1007",
+    "text": "I asked ChatGPT Codex to create a driving game - Do you think it did well? Play it here and you can give me feedback if you want :D https://huyckkid14.github.io/drivenow/ I would have attached the image but apparently it's Text Tuesday &#32; submitted by &#32; /u/InstanceEvening1007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfnk2l/i_asked_chatgpt_codex_to_create_a_driving_game/",
     "authority_score": 0.5
   },
   {
@@ -288,35 +304,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T21:49:04Z",
+    "author": "/u/Intrepid_TPC",
+    "text": "Pin your gpts using browser to see in ChatGPT Classic - OpenAI has removed all menu's for access to the gpt's you've made from ChatGPT Classic. They can be accessed by going to the ...More menu in the browser version. If you then open each GPT you want to be able to access from the Classic app you can pin it using the ... in the top right hand side and it will then show up under Pinned GPTs in the Classic App. https://preview.redd.it/uer69k8aifhh1.png?width=727&amp;format=png&amp;auto=webp&amp;s=876e266006f9c83d4dc315bbac675b690add91f7 &#32; submitted by &#32; /u/Intrepid_TPC [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfo57n/pin_your_gpts_using_browser_to_see_in_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T11:24:52Z",
     "author": "/u/Samson_Hydrofoil",
     "text": "How do I stop ChatGPT using a particular source? - Whenever I search for anything related to the news, ChatGPT will default to using The Sun when searching for information. There are a lot of reasons I don't want to be using The Sun as a primary source, but despite giving instructions not to use it it keeps coming up. I would accept if this were one of the hundreds of sources ChatGPT was searching through, but the messaging tells me it's one of the main places it's looking. What (if anything) can be done about this? &#32; submitted by &#32; /u/Samson_Hydrofoil [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf7lgp/how_do_i_stop_chatgpt_using_a_particular_source/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T16:59:49Z",
-    "author": "/u/No-Neighborhood8403",
-    "text": "What things have you effectively learned with the help of ChatGPT? - Just this morning I began taking Spanish lessons through the help of ChatGPT and I’m very impressed with how it’s going so far. After starting and stopping several times on apps like Duolingo, I already feel like this app might be the one that sticks. I plan to stay with it and see how much progress I make as the days and weeks go by. So what other things have you all learned or studied through the help of ChatGPT? &#32; submitted by &#32; /u/No-Neighborhood8403 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfg5ss/what_things_have_you_effectively_learned_with_the/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T22:51:32Z",
-    "author": "/u/Fabulous-Antelope-76",
-    "text": "Broken Image Generator v2.0 - Does anyone have an idea, when OpenAI will fix ChatGPT's glitched images? Since the 2.0 image generator was released, there is ugly glitches when you use generated image as a reference or just change some detail on the generated image. Very strange patterns on the every texture - skin, ground, rock, metal - every kind of material. Multi editing now is impossible due to bad quality edits. Each re-generating making glitches worse. It's impossible to work with. White dots on the ground, cloth, armor &amp; etc: https://preview.redd.it/wp4ka4xhn8hh1.png?width=524&amp;format=png&amp;auto=webp&amp;s=cfdbeff9957ebd9c4c35be4cc35c91a8b9c80abe Or maybe there a way to fix/bypass those glitches? &quot;New chat&quot; doesn't help of course. Even if you use one generated object as a reference, whole image will be glitched. It's like a virus spreading over the whole generation. I've tried promts suggested by GPT itself, but it's not helping that much. Just a little bit less glitched sharpness. &#32; submitted by &#32; /u/Fabulous-Antelope-76 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vesnnl/broken_image_generator_v20/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T14:38:05Z",
-    "author": "/u/Interesting-Peak2755",
-    "text": "how fast chatgpt is going into other fields - . &#32; submitted by &#32; /u/Interesting-Peak2755 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vefa4v/how_fast_chatgpt_is_going_into_other_fields/",
     "authority_score": 0.5
   }
 ]
