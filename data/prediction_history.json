@@ -8534,5 +8534,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-04T17:01:08.224696Z",
+    "prediction": {
+      "within_5h": 0.1342,
+      "within_24h": 0.3967,
+      "within_48h": 0.5424
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 85.48561679555556,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.3927,
+      "time_pressure": 0.8329,
+      "hazard_rate": 0.020836,
+      "evidence_score": 0.0693,
+      "tibo_signal": 0.0248,
+      "community_signal": 0.053,
+      "release_signal": 0.1634,
+      "llm_scores": {
+        "reset_intent": 0.0225,
+        "limit_complaint": 0.05,
+        "official_change": 0.1575,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8724999999999999,
+        "reason": [
+          "Text discusses a permanent price reduction for GPT-5.6 Luna, an official product change.",
+          "No mention of usage limits or resets.",
+          "Mentions future evolution of AI models but not specifically about quota resets.",
+          "Vague hint about major changes, but no explicit reset signal.",
+          "Text is about using Codex to ship improvements, not about resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
