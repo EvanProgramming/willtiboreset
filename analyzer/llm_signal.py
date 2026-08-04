@@ -90,23 +90,52 @@ class LLMAnalyzer(ABC):
 
 _SYSTEM_PROMPT = """You are a signal analysis assistant specialized in analyzing social media posts and news about ChatGPT/Codex usage quota resets.
 
-For each text, evaluate the following dimensions (floating point numbers from 0.0 to 1.0):
+For each text, evaluate the following dimensions as floating point numbers from 0.0 to 1.0. Use the FULL 0-1 scale; do not default to 0.0 or 1.0. Calibrate your scores so that small hints receive small positive values and only explicit statements receive high values.
 
-1. reset_intent: Does the text discuss or imply an upcoming quota reset? (0=completely irrelevant, 1=explicitly discusses an imminent reset)
-2. limit_complaint: Does the text reflect user complaints about usage limits/quota exhaustion? (0=none, 1=explicit limit complaint)
-3. official_change: Does the text come from an official source or imply a product/policy change? (0=none, 1=explicit official change)
-4. reset_confirmation: Does the text explicitly confirm that a reset has occurred or will occur? (0=none, 1=confirmed, highest weight)
+1. reset_intent: Does the text discuss or imply an upcoming quota reset?
+   - 0.0: no relevance
+   - 0.1-0.3: vague hint, teaser, "there will be signs", "something is coming" (not about reset specifically)
+   - 0.4-0.6: moderate signal, mentions reset in general terms or asks about timing
+   - 0.7-0.9: strong signal, explicitly says a reset is coming soon
+   - 1.0: guarantees an imminent reset, e.g. "we will reset usage limits in the next hour"
+
+2. limit_complaint: Does the text reflect complaints about usage limits/quota exhaustion?
+   - 0.0: none
+   - 0.1-0.3: mild mention of limits/capacity
+   - 0.4-0.6: explicit complaint about hitting limits
+   - 0.7-1.0: widespread or urgent complaints about quotas being exhausted
+
+3. official_change: Does the text come from an official source or imply a product/policy change?
+   - 0.0: none
+   - 0.1-0.3: minor product update mention
+   - 0.4-0.6: official release or policy change discussed
+   - 0.7-1.0: major launch/change explicitly announced by OpenAI/Tibo
+
+4. reset_confirmation: Does the text explicitly confirm that a reset has occurred or will occur?
+   - 0.0: no confirmation
+   - 0.1-0.3: indirect or vague confirmation
+   - 0.4-0.6: clear confirmation of a past or future reset
+   - 0.7-1.0: explicit, unambiguous confirmation ("I have reset usage limits", "reset is live now")
+
 5. confidence: Your overall confidence in the above scores (0=very uncertain, 1=very certain)
 
 CRITICAL: distinguish past-tense confirmations from future-tense signals.
-- If the text says a reset has ALREADY happened (e.g. "I have reset usage limits", "we have reset"), set reset_confirmation HIGH but reset_intent LOW, because the reset already occurred and does NOT predict another one soon.
-- If the text says a reset is coming / will happen soon (e.g. "we will reset", "reset coming", "lands in the next hour"), set reset_intent HIGH and reset_confirmation HIGH.
-- A vague teaser about future plans that does NOT mention resets (e.g. "there will be signs", "major breakthroughs") should score near ZERO on both reset_intent and reset_confirmation.
+- If the text says a reset has ALREADY happened (e.g. "I have reset usage limits", "we have reset"), set reset_confirmation HIGH (0.8-1.0) but reset_intent LOW (0.0-0.2), because the reset already occurred and does NOT predict another one soon.
+- If the text says a reset is coming / will happen soon (e.g. "we will reset", "reset coming", "lands in the next hour"), set reset_intent HIGH (0.7-1.0) and reset_confirmation HIGH (0.7-1.0).
+- A vague teaser about future plans that does NOT mention resets (e.g. "there will be signs", "major breakthroughs") should score LOW but not necessarily zero: reset_intent 0.0-0.2, reset_confirmation 0.0, because it contains no actionable reset signal.
+
+Examples:
+- "I have reset usage limits for Codex and ChatGPT" -> reset_confirmation: 0.95, reset_intent: 0.05, official_change: 0.0, limit_complaint: 0.0
+- "We will reset usage limits tonight" -> reset_intent: 0.9, reset_confirmation: 0.85, official_change: 0.0, limit_complaint: 0.0
+- "There will be signs" -> reset_intent: 0.1, reset_confirmation: 0.0, official_change: 0.0, limit_complaint: 0.0
+- "Users are hitting the rate limit again" -> limit_complaint: 0.7, reset_intent: 0.2, reset_confirmation: 0.0
+- "New GPT model shipped today" -> official_change: 0.8, reset_intent: 0.0, reset_confirmation: 0.0
 
 Scoring principles:
 - A user simply complaining about limit does not mean a reset is imminent; limit_complaint should not directly push up reset probability.
 - When Tibo or an official source clearly says "will reset soon / about to reset", reset_intent should be high.
 - When an official release mentions new features but not reset, official_change can be high while reset_confirmation should remain low.
+- Score 0.0 only when the text is completely irrelevant. Even weak hints should receive 0.1-0.2.
 
 Also provide a reason list briefly explaining the scoring rationale (each reason no more than one sentence).
 
