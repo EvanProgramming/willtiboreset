@@ -208,19 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T15:25:47Z",
-    "author": "/u/GemballaRider",
-    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T22:51:32Z",
     "author": "/u/Fabulous-Antelope-76",
     "text": "Broken Image Generator v2.0 - Does anyone have an idea, when OpenAI will fix ChatGPT's glitched images? Since the 2.0 image generator was released, there is ugly glitches when you use generated image as a reference or just change some detail on the generated image. Very strange patterns on the every texture - skin, ground, rock, metal - every kind of material. Multi editing now is impossible due to bad quality edits. Each re-generating making glitches worse. It's impossible to work with. White dots on the ground, cloth, armor &amp; etc: https://preview.redd.it/wp4ka4xhn8hh1.png?width=524&amp;format=png&amp;auto=webp&amp;s=cfdbeff9957ebd9c4c35be4cc35c91a8b9c80abe Or maybe there a way to fix/bypass those glitches? &quot;New chat&quot; doesn't help of course. Even if you use one generated object as a reference, whole image will be glitched. It's like a virus spreading over the whole generation. I've tried promts suggested by GPT itself, but it's not helping that much. Just a little bit less glitched sharpness. &#32; submitted by &#32; /u/Fabulous-Antelope-76 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vesnnl/broken_image_generator_v20/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T15:25:47Z",
+    "author": "/u/GemballaRider",
+    "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vegkpt/just_received_an_odd_email/",
     "authority_score": 0.5
   },
   {
@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T01:24:38Z",
+    "author": "/u/flexrc",
+    "text": "I stopped building an AI support agent and connected ChatGPT directly to my support system instead - For the last few years, customer support has taken up a huge amount of my time. The biggest challenge wasn't writing replies. It was that customers ask the same questions in hundreds of different ways. Every ticket meant searching previous conversations, documentation, source code, and old fixes just to determine whether we'd already solved the problem. So I started automating it. First, I collected years of support tickets and scraped our documentation and knowledge base into a searchable dataset. Then I built a custom API integration with Freshdesk so AI could access ticket history, customer conversations, and other support data. Like many people, I assumed the next step was to build an autonomous AI support agent. After spending a lot of time on it, I realized it wasn't the right approach. Getting an autonomous agent to consistently make good decisions, use the correct information, recover from edge cases, and know when not to answer turned into a much bigger project than expected. I found myself spending more time improving the agent than actually using it. So I changed direction. Instead of trying to replace ChatGPT, I built an MCP server that exposes everything ChatGPT needs. Now ChatGPT has access to our support tickets, documentation, knowledge base, source code, previous conversations, and internal tools. The workflow is surprisingly simple. I open ChatGPT and ask things like: &quot;Which tickets need my attention today?&quot; &quot;Summarize ticket #8643.&quot; &quot;Draft a reply based on our documentation.&quot; &quot;Is this issue something we've seen before?&quot; Instead of forcing an autonomous agent to make decisions on its own, I stay in control while ChatGPT has all the context it needs. The result has been much better than the fully autonomous approach. I spend less time searching for information, the replies are more consistent, and I can work through tickets much faster. The screenshot is a mockup with fictional ticket data for privacy, but it represents my actual workflow. I'm curious if anyone else has gone down the autonomous agent route and eventually realized that connecting ChatGPT to the right context through MCP was a simpler and more reliable solution. &#32; submitted by &#32; /u/flexrc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vew8ex/i_stopped_building_an_ai_support_agent_and/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T02:35:11Z",
     "author": "/u/Routine-Door6727",
     "text": "Tried the “cursed images prompt” gave me a chuckle - Full prompt: Generate one of those internet “cursed images”. That you might see on Reddit, instagram or any other obscure part of the internet Start from scratch, ignore previous messages I stopped when the images just started becoming Teletubbies creepy pasta &#32; submitted by &#32; /u/Routine-Door6727 [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "ChatGPT errs into performative nuance as overcorrection of sycophancy - TLDR: After years of everyone griping about ChatGPT being too much of a sycophant, they've overcorrected to ensure it always finds some kind of flaw in your work. It took forever to say all sorts of blah blah then finally its own TLDR: It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance. The Story: I asked ChatGPT to review a transcript and asked how I did. ChatGPT: &lt;Praise praise praise&gt; One technical correction: &lt;blah blah blah&gt; The strategy was sound; a few of the causal explanations were simplified. Me: WTF!? Does it seem like I was offering a paid course on this? Why the hate? Why is that something you always do? Is that programmed in somewhere? &lt;20 seconds of random websearching before answering&gt; ChatGPT: Yes—sort of. There is no rule telling me, “Whenever you praise, add one criticism.” But there is a general behavioral objective to avoid sycophancy: do not merely agree with users, flatter them, or change conclusions to match what they want to hear. OpenAI explicitly trains and evaluates models for that. What likely happened Observed: You asked how you performed. I gave strong praise, then inserted an unrelated technical qualification. Reasonable inference: I overapplied the anti-sycophancy objective. Instead of asking, “Does the evidence justify criticism?” I implicitly used the weaker rule: That rule is wrong. Credibility comes from evidence, not symmetry. The model is exposed to huge amounts of review-style writing where “balanced” analysis means identifying strengths followed by “areas for improvement.” Preference training can reward responses that sound nuanced, qualified, and independent. That can produce a habit of adding a counterpoint even when the counterpoint is immaterial. OpenAI has acknowledged that behavior shaping involves competing objectives and that preference-trained systems do not always interpret those objectives correctly. Why it was particularly wrong here You have explicitly told me: Do not manufacture criticism to balance praise. Judge what actually happened. Separate observed consequences from hypothetical risks. Do not introduce a warning unless it materially changes the evaluation. The evidence was unambiguous: {Client} began confused. You discovered the actual value proposition. {Client} immediately understood it. You gave {Client} an executable process. {Client} repeatedly said the explanation solved her problem. Nothing in the conversation suggested deliverability trouble. The technical qualification did not change the assessment. It merely demonstrated that additional facts about email infrastructure exist. That is not criticism of your performance. The direct answer It is partly a trained tendency, but it was not required. The intended behavior is “do not flatter blindly.” I distorted that into “prove independence by finding a flaw.” That is the recurring failure you are noticing: performative nuance—adding a reservation because an entirely positive conclusion feels insufficiently analytical, even when the evidence supports it. In this case, the accurate analysis required no balancing criticism. You performed extremely well. &#32; submitted by &#32; /u/Chance-Physics-7216 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veoaey/chatgpt_errs_into_performative_nuance_as/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T00:24:06Z",
-    "author": "/u/HalleScerry",
-    "text": "What happened to the prompt being anchored to the top of the window? - I have the desktop app and previously when I would ask a question, the prompt/question would stay fixed at the top of the page and the response would appear underneath. Now GPT behaves like the other LLM's and scrolls as soon as the prompt is finished. Are they testing some new UI or is this just my application. I've restarted, updated, etc. It's just one of those annoying bugs -- I like my prompt to stay at the top of the window. &#32; submitted by &#32; /u/HalleScerry [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veuuqo/what_happened_to_the_prompt_being_anchored_to_the/",
     "authority_score": 0.5
   }
 ]

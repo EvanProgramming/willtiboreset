@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T01:21:06.699781+00:00",
+  "updated_at": "2026-08-04T01:41:05.578593+00:00",
   "prediction": {
-    "within_5h": 0.0755,
-    "within_24h": 0.2563,
-    "within_48h": 0.3818
+    "within_5h": 0.0709,
+    "within_24h": 0.2436,
+    "within_48h": 0.366
   },
-  "confidence": "medium",
+  "confidence": "low",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 69.8185275025,
+    "hours_since_last_reset": 70.15154937888889,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.1375,
-    "time_pressure": 0.7219,
-    "hazard_rate": 0.012262,
-    "evidence_score": 0.0188,
-    "tibo_signal": 0.0126,
-    "community_signal": 0.0359,
-    "release_signal": 0.0326,
+    "time_ratio": 1.1429,
+    "time_pressure": 0.7246,
+    "hazard_rate": 0.011565,
+    "evidence_score": 0.0148,
+    "tibo_signal": 0.0098,
+    "community_signal": 0.0003,
+    "release_signal": 0.0137,
     "llm_scores": {
       "reset_intent": 0.0,
-      "limit_complaint": 0.0125,
-      "official_change": 0.05,
+      "limit_complaint": 0.02,
+      "official_change": 0.135,
       "reset_confirmation": 0.05,
-      "confidence": 0.885,
+      "confidence": 0.8550000000000001,
       "reason": [
         "Text is a general praise of OpenAI's workflow, no mention of resets or limits.",
-        "No indication of quota or usage limit topics.",
-        "Text is a fun fact about user behavior, unrelated to resets or limits.",
-        "No mention of quota or usage limit topics.",
-        "Mentions 'major breakthroughs' and 'signs' but not resets specifically."
+        "Text is a casual observation about usage patterns, no reset or limit discussion.",
+        "Mentions major breakthroughs and signs but not resets; official_change moderate due to model release context.",
+        "Short motivational phrase, no reset or limit content.",
+        "Explicitly states 'I have reset usage limits' in past tense, confirming a reset already occurred."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "69.8 hours since last reset",
+      "factor": "70.2 hours since last reset",
       "impact": "+5%",
       "score": 0.72
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.0
     }
   ],
   "reasons": [
-    "69.8 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
-    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 69.8 hours since last reset (+5%)"
+    "70.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
+    "Main factor: 70.2 hours since last reset (+5%)"
   ]
 }
