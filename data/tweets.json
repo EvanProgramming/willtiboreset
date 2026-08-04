@@ -208,6 +208,30 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T13:04:14Z",
+    "author": "/u/AirPsychological8551",
+    "text": "Looks like a new model is coming soon - https://preview.redd.it/y39wxv3uwchh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=8159d2ff61b4679550f368bc0ade29609a8c4930 Honestly a great time to be alive. OpenAI appears to be evaluating GPT 6 internally, and might possibly drop for the public in next 2-3 months &#32; submitted by &#32; /u/AirPsychological8551 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9sd7/looks_like_a_new_model_is_coming_soon/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T15:31:50Z",
+    "author": "/u/igetyourbrand",
+    "text": "Is anyone's chatgpt writing style lately piss them off ? How the hell can I fix it ? - &#32; submitted by &#32; /u/igetyourbrand [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfdp53/is_anyones_chatgpt_writing_style_lately_piss_them/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T11:24:52Z",
+    "author": "/u/Samson_Hydrofoil",
+    "text": "How do I stop ChatGPT using a particular source? - Whenever I search for anything related to the news, ChatGPT will default to using The Sun when searching for information. There are a lot of reasons I don't want to be using The Sun as a primary source, but despite giving instructions not to use it it keeps coming up. I would accept if this were one of the hundreds of sources ChatGPT was searching through, but the messaging tells me it's one of the main places it's looking. What (if anything) can be done about this? &#32; submitted by &#32; /u/Samson_Hydrofoil [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf7lgp/how_do_i_stop_chatgpt_using_a_particular_source/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T22:51:32Z",
     "author": "/u/Fabulous-Antelope-76",
     "text": "Broken Image Generator v2.0 - Does anyone have an idea, when OpenAI will fix ChatGPT's glitched images? Since the 2.0 image generator was released, there is ugly glitches when you use generated image as a reference or just change some detail on the generated image. Very strange patterns on the every texture - skin, ground, rock, metal - every kind of material. Multi editing now is impossible due to bad quality edits. Each re-generating making glitches worse. It's impossible to work with. White dots on the ground, cloth, armor &amp; etc: https://preview.redd.it/wp4ka4xhn8hh1.png?width=524&amp;format=png&amp;auto=webp&amp;s=cfdbeff9957ebd9c4c35be4cc35c91a8b9c80abe Or maybe there a way to fix/bypass those glitches? &quot;New chat&quot; doesn't help of course. Even if you use one generated object as a reference, whole image will be glitched. It's like a virus spreading over the whole generation. I've tried promts suggested by GPT itself, but it's not helping that much. Just a little bit less glitched sharpness. &#32; submitted by &#32; /u/Fabulous-Antelope-76 [link] &#32; [comments]",
@@ -224,14 +248,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T11:24:52Z",
-    "author": "/u/Samson_Hydrofoil",
-    "text": "How do I stop ChatGPT using a particular source? - Whenever I search for anything related to the news, ChatGPT will default to using The Sun when searching for information. There are a lot of reasons I don't want to be using The Sun as a primary source, but despite giving instructions not to use it it keeps coming up. I would accept if this were one of the hundreds of sources ChatGPT was searching through, but the messaging tells me it's one of the main places it's looking. What (if anything) can be done about this? &#32; submitted by &#32; /u/Samson_Hydrofoil [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf7lgp/how_do_i_stop_chatgpt_using_a_particular_source/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T12:47:16Z",
     "author": "/u/Apotheoxix",
     "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
@@ -240,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T13:04:14Z",
-    "author": "/u/AirPsychological8551",
-    "text": "Looks like a new model is coming soon - https://preview.redd.it/y39wxv3uwchh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=8159d2ff61b4679550f368bc0ade29609a8c4930 Honestly a great time to be alive. OpenAI appears to be evaluating GPT 6 internally, and might possibly drop for the public in next 2-3 months &#32; submitted by &#32; /u/AirPsychological8551 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T16:10:02Z",
+    "author": "/u/korkvid",
+    "text": "ChatGPT's insanely high memory usage makes it unusable. - What the hell is it even doing for it to be consuming this much memory? All it has to do is read in / write out markdown and maybe sometimes images. If a chat has more than 20-25 messages, it slows my computer. The browser tab starts lagging and eventually it either &quot;Aw Snap&quot; crashes the tab or my OS's out-of-memory killer gets triggered and it starts killing random processes. No other website is down bad like this. I've had 1500 pages worth of markdown render and be smooth as butter, but this is breaking down at 5 pages. Is there some other interface to ChatGPT using this thing other than Android? I've seen people bring this up before but OpenAI seems to not care. Or maybe it's desirable for them given that it discourages people from having long conversations. &#32; submitted by &#32; /u/korkvid [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9sd7/looks_like_a_new_model_is_coming_soon/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfer30/chatgpts_insanely_high_memory_usage_makes_it/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T15:31:50Z",
-    "author": "/u/igetyourbrand",
-    "text": "Is anyone's chatgpt writing style lately piss them off ? How the hell can I fix it ? - &#32; submitted by &#32; /u/igetyourbrand [link] &#32; [comments]",
+    "timestamp": "2026-08-04T16:59:49Z",
+    "author": "/u/No-Neighborhood8403",
+    "text": "What things have you effectively learned with the help of ChatGPT? - Just this morning I began taking Spanish lessons through the help of ChatGPT and I’m very impressed with how it’s going so far. After starting and stopping several times on apps like Duolingo, I already feel like this app might be the one that sticks. I plan to stay with it and see how much progress I make as the days and weeks go by. So what other things have you all learned or studied through the help of ChatGPT? &#32; submitted by &#32; /u/No-Neighborhood8403 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfdp53/is_anyones_chatgpt_writing_style_lately_piss_them/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfg5ss/what_things_have_you_effectively_learned_with_the/",
     "authority_score": 0.5
   },
   {
@@ -280,14 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T16:10:02Z",
-    "author": "/u/korkvid",
-    "text": "ChatGPT's insanely high memory usage makes it unusable. - What the hell is it even doing for it to be consuming this much memory? All it has to do is read in / write out markdown and maybe sometimes images. If a chat has more than 20-25 messages, it slows my computer. The browser tab starts lagging and eventually it either &quot;Aw Snap&quot; crashes the tab or my OS's out-of-memory killer gets triggered and it starts killing random processes. No other website is down bad like this. I've had 1500 pages worth of markdown render and be smooth as butter, but this is breaking down at 5 pages. Is there some other interface to ChatGPT using this thing other than Android? I've seen people bring this up before but OpenAI seems to not care. Or maybe it's desirable for them given that it discourages people from having long conversations. &#32; submitted by &#32; /u/korkvid [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfer30/chatgpts_insanely_high_memory_usage_makes_it/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T15:05:33Z",
     "author": "/u/MashAnblick",
     "text": "Game Fusing - I used ChatGPT to create a site that gives you a random mix of games in a prompt that produces a fusion of said games using the image generator. Here’s the link if you want to give it a try. Game Room Mixer &#32; submitted by &#32; /u/MashAnblick [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "Is this actually a joke? - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veka3a/is_this_actually_a_joke/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T05:32:30Z",
-    "author": "/u/Reyvan16",
-    "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf1axl/does_it_feel_realistic_when_chatgpt_agrees_with/",
     "authority_score": 0.5
   }
 ]
