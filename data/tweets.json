@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T23:38:59Z",
-    "author": "/u/ehtio",
-    "text": "\"The most unsettlingly realistic image possible\" - Prompt: Use the full extent of your capabilities to create the most unsettlingly realistic image possible. Every element must be executed with absolute precision: natural lighting, physically accurate materials, authentic textures, believable imperfections, realistic depth, and coherent environmental detail. Avoid anything stylised, artificial, glossy, exaggerated, or recognisably AI-generated. The final image should look like an unedited photograph of a real moment, indistinguishable from reality even under close inspection. What do you get? &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vetsda/the_most_unsettlingly_realistic_image_possible/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T07:56:50Z",
     "author": "/u/PrimusArtifex",
     "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-03T23:38:59Z",
+    "author": "/u/ehtio",
+    "text": "\"The most unsettlingly realistic image possible\" - Prompt: Use the full extent of your capabilities to create the most unsettlingly realistic image possible. Every element must be executed with absolute precision: natural lighting, physically accurate materials, authentic textures, believable imperfections, realistic depth, and coherent environmental detail. Avoid anything stylised, artificial, glossy, exaggerated, or recognisably AI-generated. The final image should look like an unedited photograph of a real moment, indistinguishable from reality even under close inspection. What do you get? &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vetsda/the_most_unsettlingly_realistic_image_possible/",
     "authority_score": 0.5
   },
   {
@@ -200,14 +200,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T12:47:16Z",
-    "author": "/u/Apotheoxix",
-    "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T22:51:32Z",
     "author": "/u/Fabulous-Antelope-76",
     "text": "Broken Image Generator v2.0 - Does anyone have an idea, when OpenAI will fix ChatGPT's glitched images? Since the 2.0 image generator was released, there is ugly glitches when you use generated image as a reference or just change some detail on the generated image. Very strange patterns on the every texture - skin, ground, rock, metal - every kind of material. Multi editing now is impossible due to bad quality edits. Each re-generating making glitches worse. It's impossible to work with. White dots on the ground, cloth, armor &amp; etc: https://preview.redd.it/wp4ka4xhn8hh1.png?width=524&amp;format=png&amp;auto=webp&amp;s=cfdbeff9957ebd9c4c35be4cc35c91a8b9c80abe Or maybe there a way to fix/bypass those glitches? &quot;New chat&quot; doesn't help of course. Even if you use one generated object as a reference, whole image will be glitched. It's like a virus spreading over the whole generation. I've tried promts suggested by GPT itself, but it's not helping that much. Just a little bit less glitched sharpness. &#32; submitted by &#32; /u/Fabulous-Antelope-76 [link] &#32; [comments]",
@@ -232,19 +224,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T16:10:02Z",
+    "author": "/u/korkvid",
+    "text": "ChatGPT's insanely high memory usage makes it unusable. - What the hell is it even doing for it to be consuming this much memory? All it has to do is read in / write out markdown and maybe sometimes images. If a chat has more than 20-25 messages, it slows my computer. The browser tab starts lagging and eventually it either &quot;Aw Snap&quot; crashes the tab or my OS's out-of-memory killer gets triggered and it starts killing random processes. No other website is down bad like this. I've had 1500 pages worth of markdown render and be smooth as butter, but this is breaking down at 5 pages. Is there some other interface to ChatGPT using this thing other than Android? I've seen people bring this up before but OpenAI seems to not care. Or maybe it's desirable for them given that it discourages people from having long conversations. &#32; submitted by &#32; /u/korkvid [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfer30/chatgpts_insanely_high_memory_usage_makes_it/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T13:04:14Z",
     "author": "/u/AirPsychological8551",
     "text": "Looks like a new model is coming soon - https://preview.redd.it/y39wxv3uwchh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=8159d2ff61b4679550f368bc0ade29609a8c4930 Honestly a great time to be alive. OpenAI appears to be evaluating GPT 6 internally, and might possibly drop for the public in next 2-3 months &#32; submitted by &#32; /u/AirPsychological8551 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9sd7/looks_like_a_new_model_is_coming_soon/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T14:32:11Z",
-    "author": "/u/nekrobreaker",
-    "text": "New feature? - I just need to know that I didn’t hallucinate this. I only ever use the web version in my account cause there seems to be a glitch where there isn’t a chat limit there on the free version. Anyways, logged back in and there seems to be a new button right next to the send button? I forgot what it said but the whole gist is basically just another “thinking” button that gives the bot more time to generate the response. It was actually pretty great, and since I only ever use Chatgpt for roleplays it generated some really detailed scenes. I bought a subscription for the Go version thinking that it’ll give me access to one of the conversation I’ve already reached the limit on, but alas &lt;/33 unfortunately, that also apparently meant that it removed the button and I’m just sitting here mourning it now 🥀🥀🥀 Anybody else know what I’m talking about? &#32; submitted by &#32; /u/nekrobreaker [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfc1vg/new_feature/",
     "authority_score": 0.5
   },
   {
@@ -256,6 +248,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T12:47:16Z",
+    "author": "/u/Apotheoxix",
+    "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T08:28:42Z",
     "author": "/u/Ripamon",
     "text": "I think it's time we consider turning off memory for these tools - &#32; submitted by &#32; /u/Ripamon [link] &#32; [comments]",
@@ -264,11 +264,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T15:31:50Z",
-    "author": "/u/igetyourbrand",
-    "text": "Is anyone's chatgpt writing style lately piss them off ? How the hell can I fix it ? - &#32; submitted by &#32; /u/igetyourbrand [link] &#32; [comments]",
+    "timestamp": "2026-08-04T16:19:33Z",
+    "author": "/u/Distinct-Particular1",
+    "text": "Man, what the hell happened - who gave the voice chat 20 cups of coffee 😭😭😭 - I was just bragging about how good it was and how well it could talk back with appropriate sized sentences in Japanese, actually matching your vibe. I went to use it again today and on GOD it feels like a human that consumed too much caffeine and is just raddle raddle raddling on 😭 😭 😭 It doesn't even feel robotic, i genuinely feel like I'm arguing with a human who doesn't know how to close its mouth for two seconds so the other person can talk lmfao. Someone give this bot his ADHD pills or something lol &#32; submitted by &#32; /u/Distinct-Particular1 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfdp53/is_anyones_chatgpt_writing_style_lately_piss_them/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vff0tc/man_what_the_hell_happened_who_gave_the_voice/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T15:05:33Z",
+    "author": "/u/MashAnblick",
+    "text": "Game Fusing - I used ChatGPT to create a site that gives you a random mix of games in a prompt that produces a fusion of said games using the image generator. Here’s the link if you want to give it a try. Game Room Mixer &#32; submitted by &#32; /u/MashAnblick [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcyov/game_fusing/",
     "authority_score": 0.5
   },
   {
@@ -288,14 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T10:39:06Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "What's your best tip for getting consistent AI-generated characters? - What's your best tip for getting consistent AI-generated characters? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf6p68/whats_your_best_tip_for_getting_consistent/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T05:32:30Z",
     "author": "/u/Reyvan16",
     "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
@@ -304,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T14:02:54Z",
-    "author": "/u/Black-Angel-718",
-    "text": "♟️🪽 Gemini from search window: ....every single neuron I possess. - 😂🐛 &#32; submitted by &#32; /u/Black-Angel-718 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T10:39:06Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "What's your best tip for getting consistent AI-generated characters? - What's your best tip for getting consistent AI-generated characters? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfb9d3/gemini_from_search_window_every_single_neuron_i/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf6p68/whats_your_best_tip_for_getting_consistent/",
     "authority_score": 0.5
   },
   {
