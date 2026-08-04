@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-04T03:37:12Z",
+    "author": "Tibo",
+    "text": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness. But it will seem primitive in 2-3 months and we're about to ... - Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness.But it will seem primitive in 2-3 months and we're about to go through another major evolution in how we use AI at the frontier. The next generation of models need more than your laptop.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2084483765158719542",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-03T08:37:22Z",
     "author": "Tibo",
     "text": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that. - Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.suje: made a small tweak to make temp chat feel more like temp chat",
@@ -112,14 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-07-29T04:09:02Z",
-    "author": "Tibo",
-    "text": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Ove... - Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.Over the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.We’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.Here’s what we found:- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.Sol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.You keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2082317452755751098",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -224,6 +224,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T02:35:20Z",
+    "author": "/u/Illustrious_Exam2178",
+    "text": "The $20 paid tier is totally worth it - So much more usage compared to free tier. I have making a board game, answering questions, giving me a daily briefing, recipes, voice chat, and shopping for a used car, way more than I could do the free tier. It’s a real game changer &#32; submitted by &#32; /u/Illustrious_Exam2178 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vexsvn/the_20_paid_tier_is_totally_worth_it/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T15:25:47Z",
     "author": "/u/GemballaRider",
     "text": "Just received an odd email - Just got this from noreply@email.openai.com Was this email useful? Ummm not really, but thanks, I guess. OpenAI just checking we are still alive over here. &#32; submitted by &#32; /u/GemballaRider [link] &#32; [comments]",
@@ -240,27 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T01:44:05Z",
-    "author": "/u/Exact_Concentrate_63",
-    "text": "It glitched and I heard someone else - Tonight was the one of the first times I called ChatGPT because I wanted to see what it was about. I was asking it about brands to buy from clothing wise. It was saying, if Goodwill doesn’t work out, you can try killstar” then on the word killstar it started saying the word over and over again before it glitched out and I heard a regular man’s voice talking. It sounded like he was on the phone. It was muffled like it was a phone call. I didn’t hear what he said and it didn’t seem like he was talking to me. After this the call immediately shut off. Please tell me what happened if you know. I’m a little freaked out, but maybe it’s just a voice training. &#32; submitted by &#32; /u/Exact_Concentrate_63 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vewo3p/it_glitched_and_i_heard_someone_else/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T13:33:39Z",
     "author": "/u/KeanuRave100",
     "text": "OpenAI takes the lead - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vedl04/openai_takes_the_lead/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-03T20:57:06Z",
-    "author": "/u/Physical_Subject_804",
-    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
     "authority_score": 0.5
   },
   {
@@ -272,19 +264,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-03T20:57:06Z",
+    "author": "/u/Physical_Subject_804",
+    "text": "Basically how it goes - &#32; submitted by &#32; /u/Physical_Subject_804 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vepqtf/basically_how_it_goes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T01:44:05Z",
+    "author": "/u/Exact_Concentrate_63",
+    "text": "It glitched and I heard someone else - Tonight was the one of the first times I called ChatGPT because I wanted to see what it was about. I was asking it about brands to buy from clothing wise. It was saying, if Goodwill doesn’t work out, you can try killstar” then on the word killstar it started saying the word over and over again before it glitched out and I heard a regular man’s voice talking. It sounded like he was on the phone. It was muffled like it was a phone call. I didn’t hear what he said and it didn’t seem like he was talking to me. After this the call immediately shut off. Please tell me what happened if you know. I’m a little freaked out, but maybe it’s just a voice training. &#32; submitted by &#32; /u/Exact_Concentrate_63 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vewo3p/it_glitched_and_i_heard_someone_else/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-03T17:38:19Z",
     "author": "/u/bobhiho",
     "text": "Is this actually a joke? - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veka3a/is_this_actually_a_joke/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T02:35:20Z",
-    "author": "/u/Illustrious_Exam2178",
-    "text": "The $20 paid tier is totally worth it - So much more usage compared to free tier. I have making a board game, answering questions, giving me a daily briefing, recipes, voice chat, and shopping for a used car, way more than I could do the free tier. It’s a real game changer &#32; submitted by &#32; /u/Illustrious_Exam2178 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vexsvn/the_20_paid_tier_is_totally_worth_it/",
     "authority_score": 0.5
   },
   {
