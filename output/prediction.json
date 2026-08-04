@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T15:30:59.639164+00:00",
+  "updated_at": "2026-08-04T16:00:55.749322+00:00",
   "prediction": {
-    "within_5h": 0.1271,
-    "within_24h": 0.3816,
-    "within_48h": 0.5265
+    "within_5h": 0.1431,
+    "within_24h": 0.4145,
+    "within_48h": 0.5606
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 83.98323288638889,
+    "hours_since_last_reset": 84.48215237694444,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.3683,
-    "time_pressure": 0.824,
-    "hazard_rate": 0.019827,
-    "evidence_score": 0.0628,
-    "tibo_signal": 0.0301,
-    "community_signal": 0.0602,
-    "release_signal": 0.1895,
+    "time_ratio": 1.3764,
+    "time_pressure": 0.827,
+    "hazard_rate": 0.022057,
+    "evidence_score": 0.0781,
+    "tibo_signal": 0.0292,
+    "community_signal": 0.0516,
+    "release_signal": 0.193,
     "llm_scores": {
-      "reset_intent": 0.0225,
-      "limit_complaint": 0.045,
-      "official_change": 0.1675,
+      "reset_intent": 0.02,
+      "limit_complaint": 0.05,
+      "official_change": 0.16,
       "reset_confirmation": 0.02375,
-      "confidence": 0.87375,
+      "confidence": 0.88375,
       "reason": [
-        "Text discusses a permanent price reduction for GPT-5.6 Luna, an official product change.",
-        "No mention of usage limits or resets.",
-        "Mentions future evolution of AI models but not specifically about quota resets.",
-        "Vague hint of upcoming changes, but no reset keyword.",
-        "Describes using Codex to ship improvements, not about resets."
+        "The text discusses a permanent price reduction for GPT-5.6 Luna, which is an official product change.",
+        "No mention of usage limit resets or complaints.",
+        "Mentions upcoming major evolution in AI usage but not specifically about quota resets.",
+        "No explicit reset or limit complaint.",
+        "Describes using Codex to ship improvements, not related to resets."
       ]
     },
     "prior_applied": false,
@@ -42,9 +42,9 @@
   },
   "main_factors": [
     {
-      "factor": "84.0 hours since last reset",
+      "factor": "84.5 hours since last reset",
       "impact": "+10%",
-      "score": 0.82
+      "score": 0.83
     },
     {
       "factor": "Some reset discussion detected",
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.06
+      "score": 0.05
     }
   ],
   "reasons": [
-    "84.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.06), insufficient to confirm",
-    "Main factor: 84.0 hours since last reset (+10%)"
+    "84.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
+    "Main factor: 84.5 hours since last reset (+10%)"
   ]
 }
