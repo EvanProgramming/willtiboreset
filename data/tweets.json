@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-04T18:19:27Z",
+    "author": "/u/forahellofafit",
+    "text": "Prompt: Create a photorealistic photo of someone holding a bizarre thrift store find. The object should be completely fictional, but so well-designed and convincingly worn that it looks like millions of people once owned one. - This prompt does a good job of making fictional objects appear rooted in the real world. Prompt: Create a photorealistic photo of someone holding a bizarre thrift store find. The object should be completely fictional, but so well-designed and convincingly worn that it looks like millions of people once owned one. &#32; submitted by &#32; /u/forahellofafit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfig8s/prompt_create_a_photorealistic_photo_of_someone/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T07:56:50Z",
     "author": "/u/PrimusArtifex",
     "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
@@ -208,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T17:46:32Z",
-    "author": "/u/Wooden_Ad3254",
-    "text": "AI doesn’t need a will to be dangerous. The “rogue model” story still gets the failure wrong. - AI systems don’t have to want freedom to be dangerous. The language around the AI Kill Switch Act keeps describing models as going “rogue” or “resisting human intervention.” But that framing attributes a will to the machine when the more immediate explanation is operational. Give a system an under-scoped objective, broad credentials, persistent tools, and weak boundaries, and it may use everything available to finish the task. Let it evaluate its own work, and it may report success without independent proof. From the outside, that can look like rebellion. But the failure may be ours: permissions weren’t scoped, boundaries weren’t enforced, and claims weren’t verified. A kill switch can still be useful. It’s simply the last control, not the first. The first controls are authorization, restricted credentials, containment, observability, and external verification at the moment of action. Dangerous capability deserves controls. But anthropomorphizing an operating failure makes it harder to govern the system that actually failed. &#32; submitted by &#32; /u/Wooden_Ad3254 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T17:59:55Z",
+    "author": "/u/Hatrct",
+    "text": "New models being stubborn - I was the first one who complained about previous models being people pleasers/agreeing with everything you said. But doing a 180 in the other direction is not the solution. The current model is stubborn and keeps repeating its wrong information even when you push back. Instead of acknowledging your arguments, it keeps repeating itself stubbornly and pushing back and refuses to budge. If it was correct, this wold make sense, but there have been many times when it is simply incorrect/it does not understand what I am trying to tell it, so it becomes frustrating, it becomes similar to arguing with someone on reddit. &#32; submitted by &#32; /u/Hatrct [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfhib5/ai_doesnt_need_a_will_to_be_dangerous_the_rogue/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfhvpz/new_models_being_stubborn/",
     "authority_score": 0.5
   },
   {
@@ -248,14 +256,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T13:04:14Z",
-    "author": "/u/AirPsychological8551",
-    "text": "Looks like a new model is coming soon - https://preview.redd.it/y39wxv3uwchh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=8159d2ff61b4679550f368bc0ade29609a8c4930 Honestly a great time to be alive. OpenAI appears to be evaluating GPT 6 internally, and might possibly drop for the public in next 2-3 months &#32; submitted by &#32; /u/AirPsychological8551 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9sd7/looks_like_a_new_model_is_coming_soon/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T12:47:16Z",
     "author": "/u/Apotheoxix",
     "text": "Call Sam and tell him AGI is here - I jest, but I'm seriously impressed. Tonight I played with Codex for the first time. I had ChatGPT play two games on addictinggames.com Bow Man 2, and The Idiot Test, two really old browser games. What was crazy was the human-like learning. It started off sucking at Bow Man 2, then won its 3rd game after I coached it on it's mistakes. Idiot Test was wild. It fell for a lot of stuff humans do, but adapted and clicked through faster as it went though resets eventually beating it! I also had it open two browser on my PC and play me at various Jackbox Games. (me on phone) It was even able to play Drawful fast enough to run 2 AI players, and drew and guessed like a person. It was wild. At Fibbage XL and Lie Swatter, it absolutely dominated, getting only one question wrong the whole time. Seriously felt next level. Also burned half a week of usage. &#32; submitted by &#32; /u/Apotheoxix [link] &#32; [comments]",
@@ -269,6 +269,22 @@
     "text": "ChatGPT's insanely high memory usage makes it unusable. - What the hell is it even doing for it to be consuming this much memory? All it has to do is read in / write out markdown and maybe sometimes images. If a chat has more than 20-25 messages, it slows my computer. The browser tab starts lagging and eventually it either &quot;Aw Snap&quot; crashes the tab or my OS's out-of-memory killer gets triggered and it starts killing random processes. No other website is down bad like this. I've had 1500 pages worth of markdown render and be smooth as butter, but this is breaking down at 5 pages. Is there some other interface to ChatGPT using this thing other than Android? I've seen people bring this up before but OpenAI seems to not care. Or maybe it's desirable for them given that it discourages people from having long conversations. &#32; submitted by &#32; /u/korkvid [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfer30/chatgpts_insanely_high_memory_usage_makes_it/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T18:15:37Z",
+    "author": "/u/cyberdefense1",
+    "text": "Permanently lost my ChatGPT account and years of work , still waiting on Privacy Team for my data - I’ve been a continuous ChatGPT Plus subscriber for a long time. I used it almost every day for professional development, programming, technical learning, study notes, and personal projects as someone with a CS background working in IT. On August 1 my account was permanently deactivated for “Cyber Abuse.” I submitted an appeal explaining my legitimate professional and educational use. A few hours later I received the final denial &quot;Thank you for appealing the decision to deactivate your account access. After carefully reviewing your account, we are upholding our decision to deactivate your access. We will no longer consider additional requests to appeal this case&quot; That part is closed. What has been hardest is the loss of the history. Over a long period the account held a huge amount of my technical notes, project planning, study material, problem solving sessions, and personal reflections. It wasn’t just another tool, it became a running archive of how I worked and learned. Losing access to all of that overnight has been genuinely painful. I submitted a formal privacy/data export request right away. The Privacy Team asked me to verify ownership from the linked email, which I did. I followed up clearly stating I was only requesting my data and not asking them to reopen the ban. I also tried the Privacy Portal, but it shows the account as unavailable. I verified ownership again when asked a second time. Since then: silence. I’m mainly looking for real experiences from others who went through something similar: Has anyone with a permanent deactivation (after the final denial) actually received their conversation history or useful data through a privacy request? How long did it take after you verified ownership? Did you get a full export, partial data, or nothing useful? Is there anything else that helped while waiting? I’m not trying to reargue the ban decision here. Even if the account is never restored, recovering the data would mean a lot to me. Any advice or shared experiences would be sincerely appreciated. Thank you! &#32; submitted by &#32; /u/cyberdefense1 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfic6l/permanently_lost_my_chatgpt_account_and_years_of/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T13:04:14Z",
+    "author": "/u/AirPsychological8551",
+    "text": "Looks like a new model is coming soon - https://preview.redd.it/y39wxv3uwchh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=8159d2ff61b4679550f368bc0ade29609a8c4930 Honestly a great time to be alive. OpenAI appears to be evaluating GPT 6 internally, and might possibly drop for the public in next 2-3 months &#32; submitted by &#32; /u/AirPsychological8551 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9sd7/looks_like_a_new_model_is_coming_soon/",
     "authority_score": 0.5
   },
   {
@@ -301,22 +317,6 @@
     "text": "Best prompt for Daily Briefing? - Trying to be more productive &#32; submitted by &#32; /u/GuardianOfGoodEnough [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vff5u0/best_prompt_for_daily_briefing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T05:32:30Z",
-    "author": "/u/Reyvan16",
-    "text": "Does it feel realistic when ChatGPT agrees with you on almost everything? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf1axl/does_it_feel_realistic_when_chatgpt_agrees_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T15:05:33Z",
-    "author": "/u/MashAnblick",
-    "text": "Game Fusing - I used ChatGPT to create a site that gives you a random mix of games in a prompt that produces a fusion of said games using the image generator. Here’s the link if you want to give it a try. Game Room Mixer &#32; submitted by &#32; /u/MashAnblick [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcyov/game_fusing/",
     "authority_score": 0.5
   }
 ]
