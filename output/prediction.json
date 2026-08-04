@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-04T20:30:57.169354+00:00",
+  "updated_at": "2026-08-04T21:01:03.177891+00:00",
   "prediction": {
-    "within_5h": 0.1131,
-    "within_24h": 0.3512,
-    "within_48h": 0.4941
+    "within_5h": 0.112,
+    "within_24h": 0.3489,
+    "within_48h": 0.4916
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 88.98254684444444,
+    "hours_since_last_reset": 89.48421590694444,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.4497,
-    "time_pressure": 0.8522,
-    "hazard_rate": 0.017865,
-    "evidence_score": 0.0491,
-    "tibo_signal": 0.0153,
-    "community_signal": 0.024,
-    "release_signal": 0.0938,
+    "time_ratio": 1.4579,
+    "time_pressure": 0.8548,
+    "hazard_rate": 0.01772,
+    "evidence_score": 0.0481,
+    "tibo_signal": 0.012,
+    "community_signal": 0.0,
+    "release_signal": 0.089,
     "llm_scores": {
       "reset_intent": 0.02,
-      "limit_complaint": 0.0225,
-      "official_change": 0.12250000000000001,
+      "limit_complaint": 0.0025,
+      "official_change": 0.11000000000000001,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8637499999999999,
+      "confidence": 0.8487500000000001,
       "reason": [
-        "Text is a simple question about a title, no relevance to reset or limits.",
+        "Text is a simple question about a title, no relevance to resets or limits.",
         "Discusses a permanent price reduction and efficiency gains, an official product change but no reset mention.",
-        "Mentions future evolution and new models but no explicit reset signal.",
+        "Mentions future evolution and next-generation models, but no explicit reset signal.",
         "Casual remark about shipping improvements, no reset relevance.",
-        "Fun fact about usage patterns, no reset or complaint signal."
+        "Fun fact about usage patterns, no reset or limit complaint."
       ]
     },
     "prior_applied": false,
@@ -42,24 +42,19 @@
   },
   "main_factors": [
     {
-      "factor": "89.0 hours since last reset",
+      "factor": "89.5 hours since last reset",
       "impact": "+10%",
       "score": 0.85
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.02
-    },
-    {
-      "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.02
+      "score": 0.01
     }
   ],
   "reasons": [
-    "89.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "89.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
-    "Main factor: 89.0 hours since last reset (+10%)"
+    "Main factor: 89.5 hours since last reset (+10%)"
   ]
 }
