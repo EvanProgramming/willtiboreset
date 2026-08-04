@@ -7434,5 +7434,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-04T05:00:55.687027Z",
+    "prediction": {
+      "within_5h": 0.06,
+      "within_24h": 0.2125,
+      "within_48h": 0.3263
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 73.48213419888889,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.1972,
+      "time_pressure": 0.7514,
+      "hazard_rate": 0.009904,
+      "evidence_score": 0.0052,
+      "tibo_signal": 0.0187,
+      "community_signal": 0.018,
+      "release_signal": 0.058,
+      "llm_scores": {
+        "reset_intent": 0.0225,
+        "limit_complaint": 0.005,
+        "official_change": 0.0925,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8487500000000001,
+        "reason": [
+          "Mentions future evolution but not specifically about quota reset.",
+          "No complaints about limits.",
+          "No mention of reset or limits.",
+          "Focuses on ease of shipping improvements.",
+          "Irrelevant to reset or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
