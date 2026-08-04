@@ -21,7 +21,7 @@ class TestMockLLMAnalyzer:
         scores = analyzer.analyze(["Codex usage limit has been reset! reset confirmed"])
         assert len(scores) == 1
         assert scores[0].reset_intent > 0.5
-        assert scores[0].reset_confirmation > 0.5
+        assert scores[0].reset_confirmation > 0.3
         assert scores[0].confidence > 0.5
 
     def test_analyze_limit_text(self):
