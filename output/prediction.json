@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T10:00:59.844839+00:00",
+  "updated_at": "2026-08-05T10:31:00.241630+00:00",
   "prediction": {
-    "within_5h": 0.0974,
-    "within_24h": 0.3148,
-    "within_48h": 0.4541
+    "within_5h": 0.0968,
+    "within_24h": 0.3133,
+    "within_48h": 0.4524
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 102.48329003194443,
+    "hours_since_last_reset": 102.98340025277777,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6697,
-    "time_pressure": 0.9101,
-    "hazard_rate": 0.015628,
-    "evidence_score": 0.0339,
-    "tibo_signal": 0.0096,
-    "community_signal": 0.0083,
-    "release_signal": 0.0766,
+    "time_ratio": 1.6778,
+    "time_pressure": 0.9118,
+    "hazard_rate": 0.015539,
+    "evidence_score": 0.0333,
+    "tibo_signal": 0.0101,
+    "community_signal": 0.0081,
+    "release_signal": 0.0819,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.0,
-      "official_change": 0.11499999999999999,
+      "limit_complaint": 0.0075,
+      "official_change": 0.0925,
       "reset_confirmation": 0.02375,
-      "confidence": 0.925,
+      "confidence": 0.9262499999999999,
       "reason": [
         "Text is about welcoming a new team member, not about usage limits or resets.",
-        "No mention of quotas, limits, or any reset-related content.",
-        "Text is a simple question about a title, completely unrelated to resets or limits.",
-        "No relevant signals for any of the dimensions.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, indicating a product/policy change."
+        "Mentions a podcast and a write-up, unrelated to quota resets.",
+        "Text is a simple question about a title, completely irrelevant to resets.",
+        "No mention of limits, complaints, or official changes.",
+        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "102.5 hours since last reset",
+      "factor": "103.0 hours since last reset",
       "impact": "+10%",
       "score": 0.91
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "102.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "103.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 102.5 hours since last reset (+10%)"
+    "Main factor: 103.0 hours since last reset (+10%)"
   ]
 }
