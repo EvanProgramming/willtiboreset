@@ -5760,8 +5760,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T16:31:08.465036Z"
   },
   {
     "prediction_time": "2026-08-03T16:21:04.823231Z",
@@ -5804,8 +5804,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T16:31:08.465036Z"
   },
   {
     "prediction_time": "2026-08-03T16:41:05.811201Z",
@@ -10593,6 +10593,50 @@
           "Text is about welcoming a new team member, not about quota resets.",
           "No mention of usage limits or product changes.",
           "Text is a simple question about a title, irrelevant to resets.",
+          "No signals related to usage limits or official changes.",
+          "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T16:31:08.452004Z",
+    "prediction": {
+      "within_5h": 0.0884,
+      "within_24h": 0.2924,
+      "within_48h": 0.4282
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 108.98567971638889,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.7756,
+      "time_pressure": 0.9299,
+      "hazard_rate": 0.014308,
+      "evidence_score": 0.0258,
+      "tibo_signal": 0.0095,
+      "community_signal": 0.0737,
+      "release_signal": 0.0668,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.05,
+        "official_change": 0.11000000000000001,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9174999999999999,
+        "reason": [
+          "Text is about welcoming a new team member, not about quota resets.",
+          "No mention of usage limits or official product changes.",
+          "Text is a simple question about a title, completely irrelevant to resets.",
           "No signals related to usage limits or official changes.",
           "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
         ]
