@@ -5452,8 +5452,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T14:01:13.400806Z"
   },
   {
     "prediction_time": "2026-08-03T14:01:14.650095Z",
@@ -10374,6 +10374,50 @@
           "No mention of usage limits or official product changes.",
           "Text is a simple question about a title, completely irrelevant to resets.",
           "No signals related to usage limits or official changes.",
+          "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T14:01:13.392761Z",
+    "prediction": {
+      "within_5h": 0.0916,
+      "within_24h": 0.3005,
+      "within_48h": 0.4377
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 106.48705254861112,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.7349,
+      "time_pressure": 0.9228,
+      "hazard_rate": 0.014781,
+      "evidence_score": 0.0287,
+      "tibo_signal": 0.0091,
+      "community_signal": 0.0142,
+      "release_signal": 0.0737,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.01,
+        "official_change": 0.11750000000000001,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.925,
+        "reason": [
+          "Text is about welcoming a new team member, not about quota resets.",
+          "Mentions a podcast and a write-up, unrelated to usage limits.",
+          "Text is a simple question about a title, no relevance to resets or limits.",
+          "No hints or signals related to quota changes.",
           "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
         ]
       },
