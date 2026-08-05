@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T00:30:59.466445+00:00",
+  "updated_at": "2026-08-05T01:01:08.787681+00:00",
   "prediction": {
-    "within_5h": 0.1052,
-    "within_24h": 0.3332,
-    "within_48h": 0.4744
+    "within_5h": 0.1044,
+    "within_24h": 0.3312,
+    "within_48h": 0.4723
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 92.98318491944445,
+    "hours_since_last_reset": 93.48577417722223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5149,
-    "time_pressure": 0.872,
-    "hazard_rate": 0.016744,
-    "evidence_score": 0.0416,
-    "tibo_signal": 0.0117,
+    "time_ratio": 1.5231,
+    "time_pressure": 0.8743,
+    "hazard_rate": 0.016622,
+    "evidence_score": 0.0408,
+    "tibo_signal": 0.0112,
     "community_signal": 0.0,
-    "release_signal": 0.0873,
+    "release_signal": 0.0836,
     "llm_scores": {
-      "reset_intent": 0.0225,
+      "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.0,
-      "official_change": 0.11000000000000001,
+      "official_change": 0.1025,
       "reset_confirmation": 0.02375,
-      "confidence": 0.85625,
+      "confidence": 0.8612500000000001,
       "reason": [
-        "Text is a question about the user's own title, completely unrelated to resets or limits.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change.",
-        "Mentions future evolution of Codex and models, but not specifically about resets.",
-        "Casual remark about shipping improvements, no reset or limit context.",
-        "Observational fun fact about usage patterns, no reset relevance."
+        "The text is a simple question about the user's title, completely unrelated to quota resets or limits.",
+        "The text discusses a permanent price reduction for GPT-5.6 Luna, which is a product/policy change but not related to quota resets.",
+        "The text mentions future evolution of AI models but does not hint at any quota reset or limit complaints.",
+        "The text is about shipping improvements via Codex, not about quota resets or limits.",
+        "The text is a fun fact about weekend usage, completely unrelated to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "93.0 hours since last reset",
+      "factor": "93.5 hours since last reset",
       "impact": "+10%",
       "score": 0.87
     },
@@ -53,8 +53,8 @@
     }
   ],
   "reasons": [
-    "93.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "93.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 93.0 hours since last reset (+10%)"
+    "Main factor: 93.5 hours since last reset (+10%)"
   ]
 }
