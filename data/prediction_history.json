@@ -9150,5 +9150,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T00:01:05.270187Z",
+    "prediction": {
+      "within_5h": 0.1056,
+      "within_24h": 0.3342,
+      "within_48h": 0.4755
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 92.484796015,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.5068,
+      "time_pressure": 0.8697,
+      "hazard_rate": 0.016806,
+      "evidence_score": 0.042,
+      "tibo_signal": 0.0137,
+      "community_signal": 0.0,
+      "release_signal": 0.0853,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.01,
+        "official_change": 0.1075,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.85625,
+        "reason": [
+          "Text is a simple question about the user's title at OpenAI, unrelated to resets or limits.",
+          "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change, but no mention of resets.",
+          "Mentions future evolution of Codex and models, but no reset or limit-related content.",
+          "Describes using Codex to ship improvements, no reset or limit signals.",
+          "Observational note about weekend usage, irrelevant to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
