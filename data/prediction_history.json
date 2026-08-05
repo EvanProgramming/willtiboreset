@@ -9502,5 +9502,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T04:00:55.366442Z",
+    "prediction": {
+      "within_5h": 0.0991,
+      "within_24h": 0.3189,
+      "within_48h": 0.4584
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 96.48204494555556,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.5719,
+      "time_pressure": 0.8874,
+      "hazard_rate": 0.015875,
+      "evidence_score": 0.0359,
+      "tibo_signal": 0.0103,
+      "community_signal": 0.0112,
+      "release_signal": 0.0767,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0075,
+        "official_change": 0.1075,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8612500000000001,
+        "reason": [
+          "Question about personal title, completely irrelevant to reset or limits.",
+          "Discusses permanent price reduction and efficiency gains, a product/policy change.",
+          "Mentions future evolution of models, but no reset or limit context.",
+          "Anecdote about shipping improvements, no reset or limit relevance.",
+          "Fun fact about usage patterns, no reset or limit complaint."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
