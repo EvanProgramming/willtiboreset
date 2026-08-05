@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T02:50:25Z",
-    "author": "/u/Modi_Jiiiii",
-    "text": "What are your thoughts on this ? - Why its Unarguably true 😭 &#32; submitted by &#32; /u/Modi_Jiiiii [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfv2y5/what_are_your_thoughts_on_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T10:31:51Z",
     "author": "/u/ImpactX1244",
     "text": "Guys did chat cook? - &#32; submitted by &#32; /u/ImpactX1244 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg3lkm/guys_did_chat_cook/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T02:50:25Z",
+    "author": "/u/Modi_Jiiiii",
+    "text": "What are your thoughts on this ? - Why its Unarguably true 😭 &#32; submitted by &#32; /u/Modi_Jiiiii [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfv2y5/what_are_your_thoughts_on_this/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T03:48:46Z",
-    "author": "/u/Fresh-Resolution182",
-    "text": "I Figured Out What Makes a Y2K Streetwear Portrait Work in GPT Image 2 - I was experimenting with GPT Image 2 and ended up creating this close-up portrait of someone wearing streetwear, inspired by the Y2K style. What worked best was to define the face first and then build the overall style around it, rather than trying to incorporate everything at once. I wore a completely black outfit: a fitted turtleneck, black beanie, oversized headphones, transparent black-rimmed glasses, and two neat braids. Together, these elements created a distinct Y2K-style look, without going over the top or resembling a costume. The makeup required less emphasis than I expected. Soft, matte skin, straight brows, subtle brown eyeshadow, thin eyeliner, a little blush, and glossy, rosy lips were enough to give the face a polished look without overpowering the overall streetwear style. The biggest difference came from the photographic aspects of the prompt. A slightly low-angle shot taken with a smartphone can make the image appear more like a spontaneous selfie than a carefully staged fashion shoot. The full GPT Image 2 prompt is below. &#32; submitted by &#32; /u/Fresh-Resolution182 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfwasl/i_figured_out_what_makes_a_y2k_streetwear/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T09:06:42Z",
     "author": "/u/Crazy_HoGya",
     "text": "Not sure if this is the right subreddit for this but ChatGPT honestly made it look way more convincing What's your take? - &#32; submitted by &#32; /u/Crazy_HoGya [link] &#32; [comments]",
@@ -272,6 +264,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T03:48:46Z",
+    "author": "/u/Fresh-Resolution182",
+    "text": "I Figured Out What Makes a Y2K Streetwear Portrait Work in GPT Image 2 - I was experimenting with GPT Image 2 and ended up creating this close-up portrait of someone wearing streetwear, inspired by the Y2K style. What worked best was to define the face first and then build the overall style around it, rather than trying to incorporate everything at once. I wore a completely black outfit: a fitted turtleneck, black beanie, oversized headphones, transparent black-rimmed glasses, and two neat braids. Together, these elements created a distinct Y2K-style look, without going over the top or resembling a costume. The makeup required less emphasis than I expected. Soft, matte skin, straight brows, subtle brown eyeshadow, thin eyeliner, a little blush, and glossy, rosy lips were enough to give the face a polished look without overpowering the overall streetwear style. The biggest difference came from the photographic aspects of the prompt. A slightly low-angle shot taken with a smartphone can make the image appear more like a spontaneous selfie than a carefully staged fashion shoot. The full GPT Image 2 prompt is below. &#32; submitted by &#32; /u/Fresh-Resolution182 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfwasl/i_figured_out_what_makes_a_y2k_streetwear/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T09:26:36Z",
+    "author": "/u/SimmentalTheCow",
+    "text": "ChatGPT keeps sending me email reminders about the time I tried to make an Aryan adventure in Pokémon Mystery Dungeon is there any way to disable these notifications - &#32; submitted by &#32; /u/SimmentalTheCow [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T05:38:53Z",
     "author": "/u/AudienceNo2554",
     "text": "Got tired of AI generating the same boring AI slop, so I built an open-source tool to try fix its taste - A few weeks back, my VibeCurb repo got some traction here (hit 350+ stars). But a lot of 'em had a very valid critique: &quot;The stuff looks cool, but I can't use this for a real client's dashboard. It isn't production-ready.&quot; (Note: Every single ship-ready example aboce was generated in &lt; 3 prompts) Few of 'em are also zero shot But the problem wasn't the skill.md files, it was how I was prompting it. I was asking for maximalist, crazy designs. So I took the exact same skill files, and just asked the AI clean, minimal UI direction. A clean UI that you can actually ship to a client. I also spent the last 2 weeks pushing some real updates to the repo based on your feedback: Scaled past Hero section (awwwards-sections) Added a new skill so the AI can build out pricing cards, bento grids, and footers to match the hero, instead of just generating top-of-page stuff. Trimmed the motion skill A user here pointed out old motion skill was way too long and wasting context windows. I rewrote it completely. It’s 70% smaller now, and also gives better outputs due to better constraints New skill (brandkit-gen) I created the skill.md file to force the AI to create the brandkit and logo design New showcase page on the website, it'll occasionally get new showcase images I'd genuinely love to hear your feedback on the new clean layouts and if there's anything else you'd want added Live Showcase: https://vibecurb.pages.dev GitHub Repo: https://github.com/Yu-369/VibeCurb &#32; submitted by &#32; /u/AudienceNo2554 [link] &#32; [comments]",
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T19:46:12Z",
-    "author": "/u/shakazoulu",
-    "text": "I tried Claude but I just can’t - In my bubble everyone started to abandon ChatGPT in favor of Claude. Everyone seemed so impressed and convinced that Claude is superior. And I let myself get influenced by them so I cancelled my subscription and started a new one with Claude. I really tried hard, I tested lots of stuff and tried to use Claude in my daily work routine but somehow it never sparked. There is just something missing, I never connected in a personal level with Claude and his style (I know how ridiculous that sounds). In the end, after just one week I started missing CharGPT, so basically, I am now going back. &#32; submitted by &#32; /u/shakazoulu [link] &#32; [comments]",
+    "timestamp": "2026-08-05T12:09:29Z",
+    "author": "/u/Beginning-Home-9737",
+    "text": "Something very weird happened today my voice chat in chatgpt was running automatically when I open chatgpt and the it randomly says hello chaithanya it's my friends name there is no way it can know him there no context of him anywhere in the chat history not even in my contacts but he is next to me - &#32; submitted by &#32; /u/Beginning-Home-9737 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfkujg/i_tried_claude_but_i_just_cant/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg5k3c/something_very_weird_happened_today_my_voice_chat/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T18:54:13Z",
-    "author": "/u/Time-Ad9897",
-    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself EDIT 4: I need to stop making edits I cleaned up the code &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
+    "timestamp": "2026-08-05T11:57:43Z",
+    "author": "/u/Bald-Avenger",
+    "text": "Project Instructions need a clear button and character counter - I use Projects all the time, and I’m constantly tweaking the instructions. The 8,000-character limit is fine. The way the app handles it is not. There’s no visible character count, so I end up pasting everything, getting an error, holding Backspace forever to delete chunks, pasting again, and repeating the whole process. On mobile, it’s especially painful. A simple Clear button and a live counter like 7,842 / 8,000 would make this so much easier. Small feature, huge quality-of-life improvement for people who use Projects heavily. Pretty Please! &#32; submitted by &#32; /u/Bald-Avenger [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T09:26:36Z",
-    "author": "/u/SimmentalTheCow",
-    "text": "ChatGPT keeps sending me email reminders about the time I tried to make an Aryan adventure in Pokémon Mystery Dungeon is there any way to disable these notifications - &#32; submitted by &#32; /u/SimmentalTheCow [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg5amf/project_instructions_need_a_clear_button_and/",
     "authority_score": 0.5
   }
 ]
