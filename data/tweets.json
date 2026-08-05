@@ -176,6 +176,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T14:23:49Z",
+    "author": "/u/No-Song-5742",
+    "text": "The Telekinetic Pig (please don't ban me for this) - &#32; submitted by &#32; /u/No-Song-5742 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg8t71/the_telekinetic_pig_please_dont_ban_me_for_this/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T00:38:53Z",
     "author": "/u/Optimus_Spider07",
     "text": "\"Generate Cover Art for a Romance Novel Called (Insert Nonsense) - ChatGPT is great at making fake romance novel covers, even when the premise is absurd. Sometimes I'd hit a moderation wall and have to specify there was no explicit content but otherwise these all worked fine. &#32; submitted by &#32; /u/Optimus_Spider07 [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "The past through someone else's eyes - Prompt I used: Use the full extent of your capabilities to create a photorealistic first-person image from the perspective of a randomly selected person at a randomly selected moment anywhere in the human past. Sample freely across the full span of human existence, from deep prehistory to the recent past. Choose the exact date, place, identity, status, culture, activity, and circumstances independently. The person may be anyone. Prefer a moment that is unusually revealing, consequential, emotionally charged, or visually distinctive for that person's life, work, culture, or historical setting, while still remaining realistic and grounded. Show only visual evidence of who they are and what is happening through their body, hands, clothing, tools, possessions, surroundings, and immediate interactions. No captions or readable text. Ensure strict historical and geographical accuracy in materials, clothing, architecture, technology, food, hygiene, weather, landscape, and social behaviour. Make it look like an accidental handheld photo: natural imperfect lighting, uneven exposure, awkward framing, slight blur, dirt, wear, clutter, and no cinematic styling, fantasy, or stereotypes What do you get? Edit: link on pastebin for mobile users to copy! https://pastebin.com/Aavcavj0 &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfsx2o/the_past_through_someone_elses_eyes/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T14:23:49Z",
-    "author": "/u/No-Song-5742",
-    "text": "The Telekinetic Pig (please don't ban me for this) - &#32; submitted by &#32; /u/No-Song-5742 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg8t71/the_telekinetic_pig_please_dont_ban_me_for_this/",
     "authority_score": 0.5
   },
   {
@@ -288,14 +288,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T09:06:42Z",
-    "author": "/u/Crazy_HoGya",
-    "text": "Not sure if this is the right subreddit for this but ChatGPT honestly made it look way more convincing What's your take? - &#32; submitted by &#32; /u/Crazy_HoGya [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg22aq/not_sure_if_this_is_the_right_subreddit_for_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T14:06:59Z",
     "author": "/u/definitelyfet-shy",
     "text": "Anyone experiencing issues uploading files? - Trying to upload a markdown file and I'm getting consistent errors of &quot;Unknown Error&quot; The markdown file isn't even that large and Ive uploaded an older version of it before. I'm not trying anything weird or stupid, just to review something I wrote. Anyone else having issues? I can't see any other post mentioning this but if it's already been posted, let me know. Update According to status.openai.com there's an ongoing issue regarding image generation with ChatGPT which has been happening for around 30 mins at time of writing this. Apparently file uploads are unaffected according to the status page but I don't believe this. &#32; submitted by &#32; /u/definitelyfet-shy [link] &#32; [comments]",
@@ -317,6 +309,14 @@
     "text": "Theoretical movie posters before the content guardrails get even tighter. - &#32; submitted by &#32; /u/relevant__comment [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vft8h7/theoretical_movie_posters_before_the_content/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T09:06:42Z",
+    "author": "/u/Crazy_HoGya",
+    "text": "Not sure if this is the right subreddit for this but ChatGPT honestly made it look way more convincing What's your take? - &#32; submitted by &#32; /u/Crazy_HoGya [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg22aq/not_sure_if_this_is_the_right_subreddit_for_this/",
     "authority_score": 0.5
   }
 ]
