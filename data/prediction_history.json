@@ -5628,8 +5628,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T15:31:12.606872Z"
   },
   {
     "prediction_time": "2026-08-03T15:21:09.281849Z",
@@ -5672,8 +5672,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T15:31:12.606872Z"
   },
   {
     "prediction_time": "2026-08-03T15:41:09.857985Z",
@@ -10506,6 +10506,50 @@
           "No mention of usage limits or product changes.",
           "Text is a simple question about a title, completely irrelevant to resets.",
           "No signals related to limits or official changes.",
+          "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T15:31:12.594448Z",
+    "prediction": {
+      "within_5h": 0.0896,
+      "within_24h": 0.2955,
+      "within_48h": 0.4319
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 107.98683044083334,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.7593,
+      "time_pressure": 0.9272,
+      "hazard_rate": 0.014488,
+      "evidence_score": 0.0269,
+      "tibo_signal": 0.0082,
+      "community_signal": 0.0663,
+      "release_signal": 0.0665,
+      "llm_scores": {
+        "reset_intent": 0.02,
+        "limit_complaint": 0.05,
+        "official_change": 0.11000000000000001,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9075,
+        "reason": [
+          "Text is about welcoming a new team member, not about quota resets.",
+          "No mention of usage limits or official product changes.",
+          "Text is a simple question about a title, completely irrelevant to resets.",
+          "No signals related to usage limits or official changes.",
           "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
         ]
       },
