@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T18:31:04.264339+00:00",
+  "updated_at": "2026-08-05T19:01:05.702411+00:00",
   "prediction": {
-    "within_5h": 0.086,
-    "within_24h": 0.2864,
-    "within_48h": 0.4212
+    "within_5h": 0.0845,
+    "within_24h": 0.2824,
+    "within_48h": 0.4164
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 110.98451767472223,
+    "hours_since_last_reset": 111.48491712166667,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.8082,
-    "time_pressure": 0.9352,
-    "hazard_rate": 0.013961,
-    "evidence_score": 0.0238,
-    "tibo_signal": 0.0082,
-    "community_signal": 0.0838,
-    "release_signal": 0.0668,
+    "time_ratio": 1.8163,
+    "time_pressure": 0.9364,
+    "hazard_rate": 0.013732,
+    "evidence_score": 0.0225,
+    "tibo_signal": 0.0077,
+    "community_signal": 0.0615,
+    "release_signal": 0.0618,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.06,
-      "official_change": 0.1,
+      "limit_complaint": 0.04,
+      "official_change": 0.09,
       "reset_confirmation": 0.02375,
-      "confidence": 0.91875,
+      "confidence": 0.92125,
       "reason": [
         "Text is about welcoming a new team member, not about quota resets.",
-        "No mention of usage limits or official product changes.",
-        "Text is a simple question about a title, completely irrelevant to resets.",
-        "No signals related to limits or official changes.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        "Question about title at OpenAI, completely irrelevant to resets.",
+        "Announces permanent price reduction for GPT-5.6 Luna, a product/policy change.",
+        "Discusses Codex evolution and future model needs, no reset mention.",
+        "Casual mention of shipping improvements, not about resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "111.0 hours since last reset",
+      "factor": "111.5 hours since last reset",
       "impact": "+10%",
       "score": 0.94
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.08
+      "score": 0.06
     }
   ],
   "reasons": [
-    "111.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "111.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 111.0 hours since last reset (+10%)"
+    "Main factor: 111.5 hours since last reset (+10%)"
   ]
 }
