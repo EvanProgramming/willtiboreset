@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T02:00:57.531280+00:00",
+  "updated_at": "2026-08-05T02:30:55.005191+00:00",
   "prediction": {
-    "within_5h": 0.1025,
-    "within_24h": 0.3269,
-    "within_48h": 0.4674
+    "within_5h": 0.0998,
+    "within_24h": 0.3204,
+    "within_48h": 0.4601
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 94.48264740944444,
+    "hours_since_last_reset": 94.98194571638889,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5393,
-    "time_pressure": 0.8788,
-    "hazard_rate": 0.016359,
-    "evidence_score": 0.039,
-    "tibo_signal": 0.0117,
+    "time_ratio": 1.5474,
+    "time_pressure": 0.881,
+    "hazard_rate": 0.015965,
+    "evidence_score": 0.0366,
+    "tibo_signal": 0.0108,
     "community_signal": 0.0,
-    "release_signal": 0.0894,
+    "release_signal": 0.081,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.0,
-      "official_change": 0.125,
+      "official_change": 0.1275,
       "reset_confirmation": 0.02375,
       "confidence": 0.85625,
       "reason": [
-        "Text is a simple question about title, no relevance to reset or limits.",
-        "Discusses permanent price reduction and efficiency gains, an official product change.",
-        "Mentions future evolution of models but no reset or limit context.",
-        "Casual mention of shipping improvements, no reset or limits.",
-        "Fun fact about usage patterns, irrelevant to reset."
+        "The text is a simple question about the user's title at OpenAI, with no mention of resets, limits, or official changes.",
+        "The text discusses a permanent price reduction for GPT-5.6 Luna, indicating a product/policy change.",
+        "The text mentions future evolution of Codex and models, but no reset or limit complaints.",
+        "The text is about shipping improvements via Codex, not about resets or limits.",
+        "The text is a fun fact about weekend usage, irrelevant to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "94.5 hours since last reset",
+      "factor": "95.0 hours since last reset",
       "impact": "+10%",
       "score": 0.88
     },
@@ -53,8 +53,8 @@
     }
   ],
   "reasons": [
-    "94.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "95.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 94.5 hours since last reset (+10%)"
+    "Main factor: 95.0 hours since last reset (+10%)"
   ]
 }
