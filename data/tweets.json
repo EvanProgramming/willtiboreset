@@ -168,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T18:54:13Z",
-    "author": "/u/Time-Ad9897",
-    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-04T19:46:12Z",
     "author": "/u/shakazoulu",
     "text": "I tried Claude but I just can’t - In my bubble everyone started to abandon ChatGPT in favor of Claude. Everyone seemed so impressed and convinced that Claude is superior. And I let myself get influenced by them so I cancelled my subscription and started a new one with Claude. I really tried hard, I tested lots of stuff and tried to use Claude in my daily work routine but somehow it never sparked. There is just something missing, I never connected in a personal level with Claude and his style (I know how ridiculous that sounds). In the end, after just one week I started missing CharGPT, so basically, I am now going back. &#32; submitted by &#32; /u/shakazoulu [link] &#32; [comments]",
@@ -184,11 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-03T20:07:27Z",
-    "author": "/u/wrighteghe7",
-    "text": "Absolute cinema - &#32; submitted by &#32; /u/wrighteghe7 [link] &#32; [comments]",
+    "timestamp": "2026-08-04T18:54:13Z",
+    "author": "/u/Time-Ad9897",
+    "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1veoeoh/absolute_cinema/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-04T18:52:20Z",
+    "author": "/u/MechEngineer232",
+    "text": "What else can I use AI for? - I’ve been using ChatGPT (free version) for quite a while now, and it’s become one of the most useful tools I own. I use it for things like career advice, budgeting, planning for buying a house, trip planning, learning engineering concepts, studying for my PE exam, writing emails, troubleshooting car issues, and just thinking through decisions. The more I use it, the more I realize I’m probably still only using a fraction of what it’s capable of. - For those of you who are heavy ChatGPT users: What are some of the most valuable ways you use it? - What’s a workflow or prompt that completely changed how you use ChatGPT? - What do you use it for that most people probably never think about? - Has it saved you a significant amount of time or money? - If you had to teach someone how to become a “power user,” what would you tell them? I’m especially interested in real-world examples rather than generic tips. I’d love to discover some use cases that make me think, “Why didn’t I start doing that sooner?” &#32; submitted by &#32; /u/MechEngineer232 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjddn/what_else_can_i_use_ai_for/",
     "authority_score": 0.5
   },
   {
@@ -200,11 +200,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T18:52:20Z",
-    "author": "/u/MechEngineer232",
-    "text": "What else can I use AI for? - I’ve been using ChatGPT (free version) for quite a while now, and it’s become one of the most useful tools I own. I use it for things like career advice, budgeting, planning for buying a house, trip planning, learning engineering concepts, studying for my PE exam, writing emails, troubleshooting car issues, and just thinking through decisions. The more I use it, the more I realize I’m probably still only using a fraction of what it’s capable of. - For those of you who are heavy ChatGPT users: What are some of the most valuable ways you use it? - What’s a workflow or prompt that completely changed how you use ChatGPT? - What do you use it for that most people probably never think about? - Has it saved you a significant amount of time or money? - If you had to teach someone how to become a “power user,” what would you tell them? I’m especially interested in real-world examples rather than generic tips. I’d love to discover some use cases that make me think, “Why didn’t I start doing that sooner?” &#32; submitted by &#32; /u/MechEngineer232 [link] &#32; [comments]",
+    "timestamp": "2026-08-03T20:07:27Z",
+    "author": "/u/wrighteghe7",
+    "text": "Absolute cinema - &#32; submitted by &#32; /u/wrighteghe7 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjddn/what_else_can_i_use_ai_for/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1veoeoh/absolute_cinema/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T01:15:58Z",
+    "author": "/u/Lawrenceburntfish",
+    "text": "Add \"and one vampire\" to your prompts. - Trust me. It's fun. &#32; submitted by &#32; /u/Lawrenceburntfish [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vft0eg/add_and_one_vampire_to_your_prompts/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T01:11:49Z",
+    "author": "/u/ehtio",
+    "text": "The past through someone else's eyes - Prompt I used: Use the full extent of your capabilities to create a photorealistic first-person image from the perspective of a randomly selected person at a randomly selected moment anywhere in the human past. Sample freely across the full span of human existence, from deep prehistory to the recent past. Choose the exact date, place, identity, status, culture, activity, and circumstances independently. The person may be anyone. Prefer a moment that is unusually revealing, consequential, emotionally charged, or visually distinctive for that person's life, work, culture, or historical setting, while still remaining realistic and grounded. Show only visual evidence of who they are and what is happening through their body, hands, clothing, tools, possessions, surroundings, and immediate interactions. No captions or readable text. Ensure strict historical and geographical accuracy in materials, clothing, architecture, technology, food, hygiene, weather, landscape, and social behaviour. Make it look like an accidental handheld photo: natural imperfect lighting, uneven exposure, awkward framing, slight blur, dirt, wear, clutter, and no cinematic styling, fantasy, or stereotypes What do you get? &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfsx2o/the_past_through_someone_elses_eyes/",
     "authority_score": 0.5
   },
   {
@@ -240,35 +256,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T01:15:58Z",
-    "author": "/u/Lawrenceburntfish",
-    "text": "Add \"and one vampire\" to your prompts. - Trust me. It's fun. &#32; submitted by &#32; /u/Lawrenceburntfish [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vft0eg/add_and_one_vampire_to_your_prompts/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T05:42:59Z",
     "author": "/u/jeff_047",
     "text": "hall of fame ratio 💀 - &#32; submitted by &#32; /u/jeff_047 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1ve4mhu/hall_of_fame_ratio/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T00:37:26Z",
-    "author": "/u/gumOnShoe",
-    "text": "Taravangian - Created with chat gpt. Prompt: research taravangian, make a comic that is a witty quip at the expense of an ai agent about it having a stupid day, where the agent is the punchline. &#32; submitted by &#32; /u/gumOnShoe [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfs5yk/taravangian/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T01:11:49Z",
-    "author": "/u/ehtio",
-    "text": "The past through someone else's eyes - Prompt I used: Use the full extent of your capabilities to create a photorealistic first-person image from the perspective of a randomly selected person at a randomly selected moment anywhere in the human past. Sample freely across the full span of human existence, from deep prehistory to the recent past. Choose the exact date, place, identity, status, culture, activity, and circumstances independently. The person may be anyone. Prefer a moment that is unusually revealing, consequential, emotionally charged, or visually distinctive for that person's life, work, culture, or historical setting, while still remaining realistic and grounded. Show only visual evidence of who they are and what is happening through their body, hands, clothing, tools, possessions, surroundings, and immediate interactions. No captions or readable text. Ensure strict historical and geographical accuracy in materials, clothing, architecture, technology, food, hygiene, weather, landscape, and social behaviour. Make it look like an accidental handheld photo: natural imperfect lighting, uneven exposure, awkward framing, slight blur, dirt, wear, clutter, and no cinematic styling, fantasy, or stereotypes What do you get? &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfsx2o/the_past_through_someone_elses_eyes/",
     "authority_score": 0.5
   },
   {
@@ -285,6 +277,14 @@
     "text": "How do you make ChatGPT reliably follow instructions and reference files over long conversations? - I've been trying to use ChatGPT as an itinerary planner, but I keep running into two major problems. Problem 1: It stops following instructions I provide an operating manual with rules like: Use these documents as the authoritative source. Never make assumptions if a source isn't available. Follow specific formatting and categorization rules. Prioritize my instructions over default behavior. It works well for the first few messages, then gradually starts reverting to default behavior. It ignores parts of the operating manual, forgets formatting rules, invents information, or even starts creating duplicate activities. Sometimes it randomly tells me it can't reference web sources despite being enabled which is frustrating. Problem 2: It loses access to reference data I've tried: Uploading Excel workbooks Using Projects with the workbook attached Keeping everything in one long conversation Eventually I'll ask something like &quot;optimize Day 4,&quot; and ChatGPT says it no longer has access to the workbook or asks me to upload it again. Sometimes I re-upload it, and it claims it's unavailable again just a message or two later. Pasting it in plain text doesn't seem to make much of a difference. That makes it difficult to use when the workbook is supposed to be the single source of truth. What I'm trying to achieve Before every response, I'd like the model to effectively: Read my operating manual. Read my itinerary/workbook. Make changes using those as the authoritative sources. Output the result in the format defined by the manual. Has anyone built a workflow that reliably accomplishes this? If you're using ChatGPT (or another LLM) for long-term projects with evolving documents and strict operating instructions, I'd love to know: What tools or setup are you using? How do you prevent instruction drift? How do you keep large reference documents continuously available? Is there a better approach than standard ChatGPT Projects? &#32; submitted by &#32; /u/VerticalVulpine [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfoip9/how_do_you_make_chatgpt_reliably_follow/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T00:37:26Z",
+    "author": "/u/gumOnShoe",
+    "text": "Taravangian - Created with chat gpt. Prompt: research taravangian, make a comic that is a witty quip at the expense of an ai agent about it having a stupid day, where the agent is the punchline. &#32; submitted by &#32; /u/gumOnShoe [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfs5yk/taravangian/",
     "authority_score": 0.5
   },
   {
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-04T21:26:09Z",
-    "author": "/u/InstanceEvening1007",
-    "text": "I asked ChatGPT Codex to create a driving game - Do you think it did well? Play it here and you can give me feedback if you want :D https://huyckkid14.github.io/drivenow/ I would have attached the image but apparently it's Text Tuesday &#32; submitted by &#32; /u/InstanceEvening1007 [link] &#32; [comments]",
+    "timestamp": "2026-08-05T01:43:34Z",
+    "author": "/u/MischievousEndeavor",
+    "text": "Why ChatGPT would prefer to be a man. - &#32; submitted by &#32; /u/MischievousEndeavor [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfnk2l/i_asked_chatgpt_codex_to_create_a_driving_game/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vftlsb/why_chatgpt_would_prefer_to_be_a_man/",
     "authority_score": 0.5
   }
 ]
