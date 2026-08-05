@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T12:31:03.293032+00:00",
+  "updated_at": "2026-08-05T13:01:07.016410+00:00",
   "prediction": {
-    "within_5h": 0.0924,
-    "within_24h": 0.3026,
-    "within_48h": 0.44
+    "within_5h": 0.093,
+    "within_24h": 0.304,
+    "within_48h": 0.4417
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 104.98424785805555,
+    "hours_since_last_reset": 105.48528213055556,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.7104,
-    "time_pressure": 0.9183,
-    "hazard_rate": 0.014904,
-    "evidence_score": 0.0295,
-    "tibo_signal": 0.0096,
-    "community_signal": 0.0106,
-    "release_signal": 0.079,
+    "time_ratio": 1.7186,
+    "time_pressure": 0.9198,
+    "hazard_rate": 0.014987,
+    "evidence_score": 0.0299,
+    "tibo_signal": 0.0092,
+    "community_signal": 0.0142,
+    "release_signal": 0.0746,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.0225,
-      "official_change": 0.0875,
+      "limit_complaint": 0.02,
+      "official_change": 0.1125,
       "reset_confirmation": 0.02375,
-      "confidence": 0.9225,
+      "confidence": 0.9199999999999999,
       "reason": [
         "Text is about welcoming a new team member, not about resets or limits.",
         "Mentions a podcast and a write-up, unrelated to quota resets.",
-        "Text is a simple question about a title, completely irrelevant to resets.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change.",
-        "No mention of usage limits or resets."
+        "Question about a title at OpenAI, completely unrelated to resets or limits.",
+        "No mention of quotas, resets, or product changes.",
+        "Announces a permanent price reduction for GPT-5.6 Luna, a product change."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "105.0 hours since last reset",
+      "factor": "105.5 hours since last reset",
       "impact": "+10%",
       "score": 0.92
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "105.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "105.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 105.0 hours since last reset (+10%)"
+    "Main factor: 105.5 hours since last reset (+10%)"
   ]
 }
