@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T09:30:56.971488+00:00",
+  "updated_at": "2026-08-05T10:00:59.844839+00:00",
   "prediction": {
-    "within_5h": 0.0981,
-    "within_24h": 0.3167,
-    "within_48h": 0.4562
+    "within_5h": 0.0974,
+    "within_24h": 0.3148,
+    "within_48h": 0.4541
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 101.9824918836111,
+    "hours_since_last_reset": 102.48329003194443,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.6615,
-    "time_pressure": 0.9084,
-    "hazard_rate": 0.015742,
-    "evidence_score": 0.0346,
+    "time_ratio": 1.6697,
+    "time_pressure": 0.9101,
+    "hazard_rate": 0.015628,
+    "evidence_score": 0.0339,
     "tibo_signal": 0.0096,
-    "community_signal": 0.0056,
-    "release_signal": 0.0765,
+    "community_signal": 0.0083,
+    "release_signal": 0.0766,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.0,
-      "official_change": 0.08,
+      "official_change": 0.11499999999999999,
       "reset_confirmation": 0.02375,
-      "confidence": 0.9275,
+      "confidence": 0.925,
       "reason": [
-        "Text is about welcoming a new team member, not about resets or limits.",
-        "Minor official team update, hence low official_change score.",
-        "Text is a simple question about a title, completely irrelevant to resets or limits.",
-        "Discusses a permanent price reduction, an official product/policy change.",
-        "No mention of usage limits or resets."
+        "Text is about welcoming a new team member, not about usage limits or resets.",
+        "No mention of quotas, limits, or any reset-related content.",
+        "Text is a simple question about a title, completely unrelated to resets or limits.",
+        "No relevant signals for any of the dimensions.",
+        "Discusses a permanent price reduction for GPT-5.6 Luna, indicating a product/policy change."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "102.0 hours since last reset",
+      "factor": "102.5 hours since last reset",
       "impact": "+10%",
       "score": 0.91
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "102.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "102.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 102.0 hours since last reset (+10%)"
+    "Main factor: 102.5 hours since last reset (+10%)"
   ]
 }
