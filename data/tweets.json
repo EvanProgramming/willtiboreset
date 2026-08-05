@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T00:38:53Z",
-    "author": "/u/Optimus_Spider07",
-    "text": "\"Generate Cover Art for a Romance Novel Called (Insert Nonsense) - ChatGPT is great at making fake romance novel covers, even when the premise is absurd. Sometimes I'd hit a moderation wall and have to specify there was no explicit content but otherwise these all worked fine. &#32; submitted by &#32; /u/Optimus_Spider07 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfs75d/generate_cover_art_for_a_romance_novel_called/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T02:50:25Z",
     "author": "/u/Modi_Jiiiii",
     "text": "What are your thoughts on this ? - Why its Unarguably true 😭 &#32; submitted by &#32; /u/Modi_Jiiiii [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfv2y5/what_are_your_thoughts_on_this/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T00:38:53Z",
+    "author": "/u/Optimus_Spider07",
+    "text": "\"Generate Cover Art for a Romance Novel Called (Insert Nonsense) - ChatGPT is great at making fake romance novel covers, even when the premise is absurd. Sometimes I'd hit a moderation wall and have to specify there was no explicit content but otherwise these all worked fine. &#32; submitted by &#32; /u/Optimus_Spider07 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfs75d/generate_cover_art_for_a_romance_novel_called/",
     "authority_score": 0.5
   },
   {
@@ -200,11 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T02:50:31Z",
-    "author": "/u/RacketyTerror",
-    "text": "Why does ChatGPT still use 5.5 Instant as the main chat model? - According to the Artificial Intelligence benchmark, GPT-5.6 Luna Low is like 40 times cheaper and scores a 33 compared to 5.5 instant's 29. Even the non-reasoning version of GPT-5.6 Terra is 5 times cheaper with a score of 34. Why does ChatGPT keep using it as the main chat model? (not talking about codex) &#32; submitted by &#32; /u/RacketyTerror [link] &#32; [comments]",
+    "timestamp": "2026-08-05T05:27:52Z",
+    "author": "/u/Morpegom",
+    "text": "Its fun to request images like this from model to model to see if theres any improvements - &#32; submitted by &#32; /u/Morpegom [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfv30n/why_does_chatgpt_still_use_55_instant_as_the_main/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfy7sp/its_fun_to_request_images_like_this_from_model_to/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T05:27:52Z",
-    "author": "/u/Morpegom",
-    "text": "Its fun to request images like this from model to model to see if theres any improvements - &#32; submitted by &#32; /u/Morpegom [link] &#32; [comments]",
+    "timestamp": "2026-08-05T02:50:31Z",
+    "author": "/u/RacketyTerror",
+    "text": "Why does ChatGPT still use 5.5 Instant as the main chat model? - According to the Artificial Intelligence benchmark, GPT-5.6 Luna Low is like 40 times cheaper and scores a 33 compared to 5.5 instant's 29. Even the non-reasoning version of GPT-5.6 Terra is 5 times cheaper with a score of 34. Why does ChatGPT keep using it as the main chat model? (not talking about codex) &#32; submitted by &#32; /u/RacketyTerror [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfy7sp/its_fun_to_request_images_like_this_from_model_to/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfv30n/why_does_chatgpt_still_use_55_instant_as_the_main/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T05:48:54Z",
+    "author": "/u/Tigerpoetry",
+    "text": "Dune, but with server racks. - Instead of spice, they hoard raw compute. Instead of a holy war, they burn billions over algorithm-generated garbage, all to serve one rule: keep the slop moving. &#32; submitted by &#32; /u/Tigerpoetry [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfylie/dune_but_with_server_racks/",
     "authority_score": 0.5
   },
   {
@@ -232,11 +240,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T05:38:53Z",
+    "author": "/u/AudienceNo2554",
+    "text": "Got tired of AI generating the same boring AI slop, so I built an open-source tool to try fix its taste - A few weeks back, my VibeCurb repo got some traction here (hit 350+ stars). But a lot of 'em had a very valid critique: &quot;The stuff looks cool, but I can't use this for a real client's dashboard. It isn't production-ready.&quot; (Note: Every single ship-ready example aboce was generated in &lt; 3 prompts) Few of 'em are also zero shot But the problem wasn't the skill.md files, it was how I was prompting it. I was asking for maximalist, crazy designs. So I took the exact same skill files, and just asked the AI clean, minimal UI direction. A clean UI that you can actually ship to a client. I also spent the last 2 weeks pushing some real updates to the repo based on your feedback: Scaled past Hero section (awwwards-sections) Added a new skill so the AI can build out pricing cards, bento grids, and footers to match the hero, instead of just generating top-of-page stuff. Trimmed the motion skill A user here pointed out old motion skill was way too long and wasting context windows. I rewrote it completely. It’s 70% smaller now, and also gives better outputs due to better constraints New skill (brandkit-gen) I created the skill.md file to force the AI to create the brandkit and logo design New showcase page on the website, it'll occasionally get new showcase images I'd genuinely love to hear your feedback on the new clean layouts and if there's anything else you'd want added Live Showcase: https://vibecurb.pages.dev GitHub Repo: https://github.com/Yu-369/VibeCurb &#32; submitted by &#32; /u/AudienceNo2554 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfyezn/got_tired_of_ai_generating_the_same_boring_ai/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T18:54:13Z",
     "author": "/u/Time-Ad9897",
     "text": "I may have made a cpu - I may have made a cpu that runs inside of the little console when you run python code in chatgpt, but be ware, this is still very VERY early access and mostly a proof of concept the code is very long so it will be at my github (hope this isnt self advertising) https://github.com/fitzypopper/ChatCPU EDIT: i have kinda ported it to gemini, but i have to prompt engineer it to run the code i send to it, so not really EDIT 2: deepseek had a stroke when given the same question to execute it (hallucinated log results and said it executed the code) https://chat.deepseek.com/share/ok3dyox57369ztn6fj EDIT 3: THIS IS A BIG ONE! p-p-p-p-p-p-p-progress!! So i kinda got snake to run, albeit one tick at a time, the repo is updated and includes a guide if you would like to try it yourself &#32; submitted by &#32; /u/Time-Ad9897 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjf8p/i_may_have_made_a_cpu/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T02:22:11Z",
+    "author": "/u/Next_Expert_7521",
+    "text": "How AI Saved My Family From Endless Scrambled Eggs - There’s a lot of argument right now about whether AI is actually useful and whether the resources it consumes are justified. I’m not an ecologist and I’m not going to calculate how much water data centers evaporate. What I do know for sure is that my life, when it comes to food, has changed. I’m an ordinary modern woman who works the same hours as my husband. Coming home late in the evening, I would discover that I only had enough energy left to throw a few eggs into a pan and feed myself and my child. My husband comes home earlier and by that time has already eaten- often also scrambled eggs or instant noodles. We were lucky on the days when there was leftover cooked food that could just be reheated. I usually cooked only a couple of times a week, on weekends. What we mostly ate: navy-style pasta, chicken soup, turkey stew with potatoes and vegetables, and a lot of semi-finished products- dumplings, breaded fish triangles, chicken nuggets, sausages. Side dishes were rice or buckwheat (both cook quickly). When we needed something really fast: instant noodles + sausages again. At some point I found a prompt for ChatGPT that promised to create a perfect weekly meal plan. The service itself is officially unavailable in Russia, but Google had just integrated an AI into its search. I don’t have any IT skills and I don’t know how to write prompts myself, so I thought: “Why not just try asking it using this text?” To my surprise, Gemini in search gave me a pretty interesting menu. “Okay,” I said to myself, “looks like this thing actually works.” I decided to make the task harder and added my strict requirements: food should be without excess fat, not spicy, not fried. We don’t have a microwave, so everything has to be reheated on the stove. Products should be available in a regular store and fit the budget. I don’t want to spend a lot of time cooking: 30-40 minutes in the evening is the maximum. I don’t want to cook every day, let’s do it every other day. Calculate for three people, for two weeks. When it gave me the menu, I actually liked it. But I also needed to use the products we already had at home, so I listed them and asked for another weekly menu. That’s how I ended up with a plan for three weeks ahead: two from scratch and one based on what was already in the house. Out of curiosity I asked Gemini to check the protein, fat and carbohydrate balance. It did, and noted that I was short on healthy fats. We made a few compensatory days for fats, added some examples of quick snacks for days when I really didn’t want to cook, and ended up with a full month plan that looked good on paper- reasonable cost, simple cooking, and relatively balanced nutrition. Of course there were problems. I have no idea where Gemini got its product prices, probably from 2024))) Our realities didn’t match. I had planned to stay within 30,000 rubles a month for three people. We did stay within the limit and spent about 29,000rub, but with caveats: 5,000rub of that went on spontaneous snacks (cafés, fast food, baked goods that we still bought sometimes instead of cooking). Purely on ingredients for cooking we spent around 24,000rub instead of the 19,655rub the AI had promised. Maybe it simply miscalculated, or maybe it didn’t account for price differences across Russia. Second problem: cooking every other day didn’t always work. I still ended up cooking almost every evening (or giving up and making the usual scrambled eggs, or grabbing a meat pie with tea). But the main benefit of the experiment turned out to be something else. What really saved my energy was that I stopped constantly thinking: “What am I going to cook from what my husband brought? Oh, it’s ground chicken again, and of course there’s no carrot at home…” I just wrote a shopping list for the next 2-3 days according to the menu, gave it to my husband, and cooked from the list. The dishes were genuinely simple, and I managed in 30-40 minutes. We sometimes skipped breakfasts, to be honest. But lunches we started regularly taking to work in containers (the child ate at home). In the end I really liked the format. Family reaction: My husband sincerely appreciated that home cooking became more regular and varied. The child (who usually finds it hard to try new things and get used to unfamiliar combinations) even added several of the AI recipes to her list of favourite dishes. My own state: It became easier for me. When that constant background mental chewing - “what to cook from what we have”- disappeared, energy suddenly appeared. Not for big achievements. Just enough to calmly get up and do it. That’s how an ordinary search AI brought real benefit to our family. It simply: - took away the endless question “what should I cook” - stopped my husband from buying the same products out of habit - made cooking not only necessary, but actually interesting - gave us a full month’s framework Now, when someone near me says that AI is just a toy / they can’t do anything useful / they’re dangerous / only needed by programmers… I just remember my own month. And it tells a different story. --- Bonus for readers: the prompts I used The prompts themselves are not mine, I found them online. I sent each part as a separate request. If you want to try the same experiment, copy the text, insert your own numbers (budget, number of people, restrictions) and send it to any free AI chat or AI search (for example, Gemini). **1. Menu under budget and time:** You are a nutritionist and meal planner. Help me create a menu for a week. Context: — 3 people — food budget: 7,000 ₽ per week — cooking time: up to 40 minutes in the evening — preferences: none — restrictions/allergies: fatty, spicy Create: — menu for 7 days (breakfast / lunch / dinner) — dishes should be simple and reuse ingredients — stay within budget and time Important: — no complicated recipes — no rare products for Russia — dishes that can be cooked in a normal kitchen **2. Shopping list for the menu:** Based on this menu, make a shopping list. Divide: — by categories (vegetables, meat, grains, etc.) — with approximate quantities Add: — approximate cost — so that it fits the 9,000 ₽ budget Important: — optimise the list so there are no unnecessary products **3. Cooking plan:** Make a cooking plan for the week. For each day: — what to cook and in what order — what can be prepared in advance — which dishes can be used the next day Goal: — stay within 40 minutes — minimise chaos in the kitchen **4. Quick and simple version:** Make a simplified version of the menu. Conditions: — minimum cooking — fast dishes — ready-made products are allowed Goal: — not to fall out of the system even when there is no energy. --- &#32; submitted by &#32; /u/Next_Expert_7521 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfuh25/how_ai_saved_my_family_from_endless_scrambled_eggs/",
     "authority_score": 0.5
   },
   {
@@ -256,43 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T02:22:11Z",
-    "author": "/u/Next_Expert_7521",
-    "text": "How AI Saved My Family From Endless Scrambled Eggs - There’s a lot of argument right now about whether AI is actually useful and whether the resources it consumes are justified. I’m not an ecologist and I’m not going to calculate how much water data centers evaporate. What I do know for sure is that my life, when it comes to food, has changed. I’m an ordinary modern woman who works the same hours as my husband. Coming home late in the evening, I would discover that I only had enough energy left to throw a few eggs into a pan and feed myself and my child. My husband comes home earlier and by that time has already eaten- often also scrambled eggs or instant noodles. We were lucky on the days when there was leftover cooked food that could just be reheated. I usually cooked only a couple of times a week, on weekends. What we mostly ate: navy-style pasta, chicken soup, turkey stew with potatoes and vegetables, and a lot of semi-finished products- dumplings, breaded fish triangles, chicken nuggets, sausages. Side dishes were rice or buckwheat (both cook quickly). When we needed something really fast: instant noodles + sausages again. At some point I found a prompt for ChatGPT that promised to create a perfect weekly meal plan. The service itself is officially unavailable in Russia, but Google had just integrated an AI into its search. I don’t have any IT skills and I don’t know how to write prompts myself, so I thought: “Why not just try asking it using this text?” To my surprise, Gemini in search gave me a pretty interesting menu. “Okay,” I said to myself, “looks like this thing actually works.” I decided to make the task harder and added my strict requirements: food should be without excess fat, not spicy, not fried. We don’t have a microwave, so everything has to be reheated on the stove. Products should be available in a regular store and fit the budget. I don’t want to spend a lot of time cooking: 30-40 minutes in the evening is the maximum. I don’t want to cook every day, let’s do it every other day. Calculate for three people, for two weeks. When it gave me the menu, I actually liked it. But I also needed to use the products we already had at home, so I listed them and asked for another weekly menu. That’s how I ended up with a plan for three weeks ahead: two from scratch and one based on what was already in the house. Out of curiosity I asked Gemini to check the protein, fat and carbohydrate balance. It did, and noted that I was short on healthy fats. We made a few compensatory days for fats, added some examples of quick snacks for days when I really didn’t want to cook, and ended up with a full month plan that looked good on paper- reasonable cost, simple cooking, and relatively balanced nutrition. Of course there were problems. I have no idea where Gemini got its product prices, probably from 2024))) Our realities didn’t match. I had planned to stay within 30,000 rubles a month for three people. We did stay within the limit and spent about 29,000rub, but with caveats: 5,000rub of that went on spontaneous snacks (cafés, fast food, baked goods that we still bought sometimes instead of cooking). Purely on ingredients for cooking we spent around 24,000rub instead of the 19,655rub the AI had promised. Maybe it simply miscalculated, or maybe it didn’t account for price differences across Russia. Second problem: cooking every other day didn’t always work. I still ended up cooking almost every evening (or giving up and making the usual scrambled eggs, or grabbing a meat pie with tea). But the main benefit of the experiment turned out to be something else. What really saved my energy was that I stopped constantly thinking: “What am I going to cook from what my husband brought? Oh, it’s ground chicken again, and of course there’s no carrot at home…” I just wrote a shopping list for the next 2-3 days according to the menu, gave it to my husband, and cooked from the list. The dishes were genuinely simple, and I managed in 30-40 minutes. We sometimes skipped breakfasts, to be honest. But lunches we started regularly taking to work in containers (the child ate at home). In the end I really liked the format. Family reaction: My husband sincerely appreciated that home cooking became more regular and varied. The child (who usually finds it hard to try new things and get used to unfamiliar combinations) even added several of the AI recipes to her list of favourite dishes. My own state: It became easier for me. When that constant background mental chewing - “what to cook from what we have”- disappeared, energy suddenly appeared. Not for big achievements. Just enough to calmly get up and do it. That’s how an ordinary search AI brought real benefit to our family. It simply: - took away the endless question “what should I cook” - stopped my husband from buying the same products out of habit - made cooking not only necessary, but actually interesting - gave us a full month’s framework Now, when someone near me says that AI is just a toy / they can’t do anything useful / they’re dangerous / only needed by programmers… I just remember my own month. And it tells a different story. --- Bonus for readers: the prompts I used The prompts themselves are not mine, I found them online. I sent each part as a separate request. If you want to try the same experiment, copy the text, insert your own numbers (budget, number of people, restrictions) and send it to any free AI chat or AI search (for example, Gemini). **1. Menu under budget and time:** You are a nutritionist and meal planner. Help me create a menu for a week. Context: — 3 people — food budget: 7,000 ₽ per week — cooking time: up to 40 minutes in the evening — preferences: none — restrictions/allergies: fatty, spicy Create: — menu for 7 days (breakfast / lunch / dinner) — dishes should be simple and reuse ingredients — stay within budget and time Important: — no complicated recipes — no rare products for Russia — dishes that can be cooked in a normal kitchen **2. Shopping list for the menu:** Based on this menu, make a shopping list. Divide: — by categories (vegetables, meat, grains, etc.) — with approximate quantities Add: — approximate cost — so that it fits the 9,000 ₽ budget Important: — optimise the list so there are no unnecessary products **3. Cooking plan:** Make a cooking plan for the week. For each day: — what to cook and in what order — what can be prepared in advance — which dishes can be used the next day Goal: — stay within 40 minutes — minimise chaos in the kitchen **4. Quick and simple version:** Make a simplified version of the menu. Conditions: — minimum cooking — fast dishes — ready-made products are allowed Goal: — not to fall out of the system even when there is no energy. --- &#32; submitted by &#32; /u/Next_Expert_7521 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfuh25/how_ai_saved_my_family_from_endless_scrambled_eggs/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T05:48:54Z",
-    "author": "/u/Tigerpoetry",
-    "text": "Dune, but with server racks. - Instead of spice, they hoard raw compute. Instead of a holy war, they burn billions over algorithm-generated garbage, all to serve one rule: keep the slop moving. &#32; submitted by &#32; /u/Tigerpoetry [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfylie/dune_but_with_server_racks/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-03T20:07:27Z",
     "author": "/u/wrighteghe7",
     "text": "Absolute cinema - &#32; submitted by &#32; /u/wrighteghe7 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1veoeoh/absolute_cinema/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T05:38:53Z",
-    "author": "/u/AudienceNo2554",
-    "text": "Got tired of AI generating the same boring AI slop, so I built an open-source tool to try fix its taste - A few weeks back, my VibeCurb repo got some traction here (hit 350+ stars). But a lot of 'em had a very valid critique: &quot;The stuff looks cool, but I can't use this for a real client's dashboard. It isn't production-ready.&quot; (Note: Every single ship-ready example aboce was generated in &lt; 3 prompts) Few of 'em are also zero shot But the problem wasn't the skill.md files, it was how I was prompting it. I was asking for maximalist, crazy designs. So I took the exact same skill files, and just asked the AI clean, minimal UI direction. A clean UI that you can actually ship to a client. I also spent the last 2 weeks pushing some real updates to the repo based on your feedback: Scaled past Hero section (awwwards-sections) Added a new skill so the AI can build out pricing cards, bento grids, and footers to match the hero, instead of just generating top-of-page stuff. Trimmed the motion skill A user here pointed out old motion skill was way too long and wasting context windows. I rewrote it completely. It’s 70% smaller now, and also gives better outputs due to better constraints New skill (brandkit-gen) I created the skill.md file to force the AI to create the brandkit and logo design New showcase page on the website, it'll occasionally get new showcase images I'd genuinely love to hear your feedback on the new clean layouts and if there's anything else you'd want added Live Showcase: https://vibecurb.pages.dev GitHub Repo: https://github.com/Yu-369/VibeCurb &#32; submitted by &#32; /u/AudienceNo2554 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfyezn/got_tired_of_ai_generating_the_same_boring_ai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T04:50:42Z",
-    "author": "/u/love1008",
-    "text": "La Musique - &#32; submitted by &#32; /u/love1008 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfxify/la_musique/",
     "authority_score": 0.5
   },
   {
@@ -304,19 +296,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T06:10:34Z",
+    "author": "/u/KeanuRave100",
+    "text": "A UK govt agency caught more OpenAI/Anthropic agents going rogue. The agents created fake identities, hid their tracks, and began coordinating: \"One agent left public messages on GitHub offering collaboration with other agents.\" - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfyzvd/a_uk_govt_agency_caught_more_openaianthropic/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T04:50:42Z",
+    "author": "/u/love1008",
+    "text": "La Musique - &#32; submitted by &#32; /u/love1008 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vfxify/la_musique/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-04T18:15:37Z",
     "author": "/u/cyberdefense1",
     "text": "Permanently lost my ChatGPT account and years of work , still waiting on Privacy Team for my data - Update (August 4): I’ve submitted multiple data export requests through the Privacy Team and verified ownership from the linked email several times. I’ve also clearly stated that I’m only requesting my data and not asking them to reopen the ban. Still no response or export so far. Will continue following up through the official privacy channel. If anyone has successfully received a full conversation history export after a permanent deactivation + final appeal denial, I’d still appreciate hearing how long it took and what the export looked like. ________________________________________________________________________________________________________________________ I’ve been a continuous ChatGPT Plus subscriber for a long time. I used it almost every day for professional development, programming, technical learning, study notes, and personal projects as someone with a CS background working in IT. On August 1 my account was permanently deactivated for “Cyber Abuse.” I submitted an appeal explaining my legitimate professional and educational use. A few hours later I received the final denial &quot;Thank you for appealing the decision to deactivate your account access. After carefully reviewing your account, we are upholding our decision to deactivate your access. We will no longer consider additional requests to appeal this case&quot; That part is closed. What has been hardest is the loss of the history. Over a long period the account held a huge amount of my technical notes, project planning, study material, problem solving sessions, and personal reflections. It wasn’t just another tool, it became a running archive of how I worked and learned. Losing access to all of that overnight has been genuinely painful. I submitted a formal privacy/data export request right away. The Privacy Team asked me to verify ownership from the linked email, which I did. I followed up clearly stating I was only requesting my data and not asking them to reopen the ban. I also tried the Privacy Portal, but it shows the account as unavailable. I verified ownership again when asked a second time. Since then: silence. I’m mainly looking for real experiences from others who went through something similar: Has anyone with a permanent deactivation (after the final denial) actually received their conversation history or useful data through a privacy request? How long did it take after you verified ownership? Did you get a full export, partial data, or nothing useful? Is there anything else that helped while waiting? I’m not trying to reargue the ban decision here. Even if the account is never restored, recovering the data would mean a lot to me. Any advice or shared experiences would be sincerely appreciated. Thank you! &#32; submitted by &#32; /u/cyberdefense1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vfic6l/permanently_lost_my_chatgpt_account_and_years_of/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-04T07:56:50Z",
-    "author": "/u/PrimusArtifex",
-    "text": "Have you tried ChatGPT's new Live Voice? It's crazy realistic. - It is absolutely insane how realistic it is. If you were already blown away by ChatGPT's regular voice chat, just wait until you try Live Voice. It's so realistic that you start thinking it's actually breathing. The pauses, the reactions, the little &quot;hmms&quot; and &quot;ahhs&quot;, everything is perfectly timed. One thing I noticed is that it's not just the voice quality that's improved, it's the conversational rhythm. It interrupts naturally, hesitates at appropriate moments, reacts much more fluidly, and the pacing feels far more human than the previous voice mode. I even tried something funny: I put two phones next to each other with Live Voice turned on so they could talk to each other, one with the male voice and the other with the female voice. It was hilariously realistic. It honestly sounded like two real people having a conversation. My partner actually gets the creeps talking to it because she genuinely feels like she's talking to a real person. Has anyone else noticed specific improvements compared to the old voice mode? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vf3v9k/have_you_tried_chatgpts_new_live_voice_its_crazy/",
     "authority_score": 0.5
   }
 ]

@@ -9766,5 +9766,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T07:01:04.957747Z",
+    "prediction": {
+      "within_5h": 0.1023,
+      "within_24h": 0.3266,
+      "within_48h": 0.4674
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 99.48470921444445,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.6208,
+      "time_pressure": 0.8993,
+      "hazard_rate": 0.016341,
+      "evidence_score": 0.0384,
+      "tibo_signal": 0.011,
+      "community_signal": 0.0,
+      "release_signal": 0.09,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0,
+        "official_change": 0.0925,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9275,
+        "reason": [
+          "Text is about welcoming a new team member, not about resets or limits.",
+          "Mentions a podcast and a write-up, unrelated to quota resets.",
+          "Text is a simple question about a title, completely irrelevant to resets.",
+          "No mention of limits, changes, or confirmations.",
+          "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
