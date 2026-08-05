@@ -6684,8 +6684,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T23:31:08.321952Z"
   },
   {
     "prediction_time": "2026-08-03T23:21:02.064480Z",
@@ -6728,8 +6728,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-05T23:31:08.321952Z"
   },
   {
     "prediction_time": "2026-08-03T23:41:00.734800Z",
@@ -11211,6 +11211,50 @@
           "Text is a simple question about a title, completely irrelevant to resets.",
           "No signals of any kind.",
           "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-05T23:31:08.308233Z",
+    "prediction": {
+      "within_5h": 0.0792,
+      "within_24h": 0.2684,
+      "within_48h": 0.3996
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 115.98563973222223,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.8896,
+      "time_pressure": 0.9467,
+      "hazard_rate": 0.012937,
+      "evidence_score": 0.0179,
+      "tibo_signal": 0.0081,
+      "community_signal": 0.0487,
+      "release_signal": 0.0544,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.0,
+        "official_change": 0.0,
+        "reset_confirmation": 0.0,
+        "confidence": 0.0,
+        "reason": [
+          "LLM response incomplete",
+          "LLM response incomplete",
+          "LLM response incomplete",
+          "LLM response incomplete",
+          "LLM response incomplete"
         ]
       },
       "prior_applied": false,

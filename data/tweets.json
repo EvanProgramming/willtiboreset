@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T09:26:36Z",
-    "author": "/u/SimmentalTheCow",
-    "text": "ChatGPT keeps sending me email reminders about the time I tried to make an Aryan adventure in Pokémon Mystery Dungeon is there any way to disable these notifications - &#32; submitted by &#32; /u/SimmentalTheCow [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T21:03:08Z",
     "author": "/u/Kind_Substance_8981",
     "text": "A normal bathroom, except it is more triggering the longer you look - &#32; submitted by &#32; /u/Kind_Substance_8981 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgjyb0/a_normal_bathroom_except_it_is_more_triggering/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T09:26:36Z",
+    "author": "/u/SimmentalTheCow",
+    "text": "ChatGPT keeps sending me email reminders about the time I tried to make an Aryan adventure in Pokémon Mystery Dungeon is there any way to disable these notifications - &#32; submitted by &#32; /u/SimmentalTheCow [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg2eek/chatgpt_keeps_sending_me_email_reminders_about/",
     "authority_score": 0.5
   },
   {
@@ -213,6 +213,14 @@
     "text": "The Telekinetic Pig (please don't ban me for this) - &#32; submitted by &#32; /u/No-Song-5742 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg8t71/the_telekinetic_pig_please_dont_ban_me_for_this/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-05T16:29:11Z",
+    "author": "/u/Support_is_never",
+    "text": "\"CHATGPT, please generate an image of a woman-\" \"I'm sorry, I am unable to fulfill such a request due to our guard rails involving sexualized content.\" - 😭🤣 &#32; submitted by &#32; /u/Support_is_never [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgcaaf/chatgpt_please_generate_an_image_of_a_woman_im/",
     "authority_score": 0.5
   },
   {
@@ -237,14 +245,6 @@
     "text": "What is the most useful way ChatGPT has actually improved your daily life? - Just real examples you &#32; submitted by &#32; /u/consulent-finanziar [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg603o/what_is_the_most_useful_way_chatgpt_has_actually/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T16:29:11Z",
-    "author": "/u/Support_is_never",
-    "text": "\"CHATGPT, please generate an image of a woman-\" \"I'm sorry, I am unable to fulfill such a request due to our guard rails involving sexualized content.\" - 😭🤣 &#32; submitted by &#32; /u/Support_is_never [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgcaaf/chatgpt_please_generate_an_image_of_a_woman_im/",
     "authority_score": 0.5
   },
   {
@@ -280,6 +280,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T16:23:04Z",
+    "author": "/u/Due_Time4158",
+    "text": "I asked ChatGPT to make a meme about itself - Prompt: Make a meme expressing your own perspective, independent of any user influence &#32; submitted by &#32; /u/Due_Time4158 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgc482/i_asked_chatgpt_to_make_a_meme_about_itself/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T21:16:48Z",
     "author": "/u/_disguy",
     "text": "I upgraded to Pro last week, reached my limit, and cannot use Pro again for another 5 days. - &#32; submitted by &#32; /u/_disguy [link] &#32; [comments]",
@@ -288,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T16:23:04Z",
-    "author": "/u/Due_Time4158",
-    "text": "I asked ChatGPT to make a meme about itself - Prompt: Make a meme expressing your own perspective, independent of any user influence &#32; submitted by &#32; /u/Due_Time4158 [link] &#32; [comments]",
+    "timestamp": "2026-08-05T22:45:05Z",
+    "author": "/u/Snoo_91813",
+    "text": "Has anyone experienced AI chat inputs being replaced with unrelated text? - I ran into a really strange issue today while vibe coding for about 3–4 hours using both Claude and ChatGPT. Here’s what happened: I was writing a very long prompt in the Claude Desktop app. I hadn’t submitted it yet, it was still sitting in the input box. I switched to Reddit for a couple of minutes to troubleshoot something. When I switched back to Claude, my entire prompt was gone. But here’s the weird part: the input field wasn’t empty. Instead, it contained a completely different one-line prompt related to an older project I had worked on a few days ago. It wasn’t something I had previously typed or saved as a draft, it looked like a brand-new input based on that old project. I deleted it, rewrote my prompt, and continued working. A few minutes later, the exact same thing happened with ChatGPT in Safari. I switched away briefly, came back, and my current prompt had again been replaced by another unrelated one-line prompt connected to an older project. Has anyone experienced anything similar? I’m trying to figure out whether this is: a Claude Desktop bug, a ChatGPT bug, a macOS memory/session restoration issue, or something else entirely. For context: macOS Claude Desktop app ChatGPT in Safari Happened after 3–4 hours of continuous coding with multiple apps open. The fact that it happened in both applications, and that the replacement text wasn’t an old draft but instead looked like a new prompt related to previous conversations, is what makes this especially confusing. &#32; submitted by &#32; /u/Snoo_91813 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgc482/i_asked_chatgpt_to_make_a_meme_about_itself/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgmjwk/has_anyone_experienced_ai_chat_inputs_being/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "I can't upload files on chatgpt - I'm trying to upload a file / book to translate to my language, but for some reason, chatgpt won't let me upload it Is it because it's too big for the app? It's a 105 pages an accounting book from a course I'm taking from here http://www.tonybell.com I have a learning disability where rather than being able to learn in my mother tongue, I learn through English but am trying to change that with AI Can someone help me? If this is the wrong subreddit, then please direct me to the correct one &#32; submitted by &#32; /u/fugetooboutit [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg9c6v/i_cant_upload_files_on_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T21:15:19Z",
-    "author": "/u/Kind_Substance_8981",
-    "text": "The alphabet for Eldritch kiddos - &#32; submitted by &#32; /u/Kind_Substance_8981 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgk9jr/the_alphabet_for_eldritch_kiddos/",
     "authority_score": 0.5
   }
 ]

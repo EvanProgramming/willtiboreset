@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T23:01:07.948842+00:00",
+  "updated_at": "2026-08-05T23:31:08.303737+00:00",
   "prediction": {
-    "within_5h": 0.0798,
-    "within_24h": 0.27,
-    "within_48h": 0.4015
+    "within_5h": 0.0792,
+    "within_24h": 0.2684,
+    "within_48h": 0.3996
   },
-  "confidence": "medium",
+  "confidence": "low",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 115.48554115166667,
+    "hours_since_last_reset": 115.98563973222223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.8815,
-    "time_pressure": 0.9457,
-    "hazard_rate": 0.013027,
-    "evidence_score": 0.0184,
-    "tibo_signal": 0.0068,
-    "community_signal": 0.0297,
-    "release_signal": 0.0546,
+    "time_ratio": 1.8896,
+    "time_pressure": 0.9467,
+    "hazard_rate": 0.012937,
+    "evidence_score": 0.0179,
+    "tibo_signal": 0.0081,
+    "community_signal": 0.0487,
+    "release_signal": 0.0544,
     "llm_scores": {
-      "reset_intent": 0.0225,
-      "limit_complaint": 0.017499999999999998,
-      "official_change": 0.10500000000000001,
-      "reset_confirmation": 0.02375,
-      "confidence": 0.9275,
+      "reset_intent": 0.0,
+      "limit_complaint": 0.0,
+      "official_change": 0.0,
+      "reset_confirmation": 0.0,
+      "confidence": 0.0,
       "reason": [
-        "Text is about welcoming a new team member, not related to quota resets.",
-        "No mention of usage limits or official product changes.",
-        "Text is a simple question about a title, completely irrelevant to resets.",
-        "No signals of any kind.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        "LLM response incomplete",
+        "LLM response incomplete",
+        "LLM response incomplete",
+        "LLM response incomplete",
+        "LLM response incomplete"
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "115.5 hours since last reset",
+      "factor": "116.0 hours since last reset",
       "impact": "+10%",
       "score": 0.95
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.03
+      "score": 0.05
     }
   ],
   "reasons": [
-    "115.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "116.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 115.5 hours since last reset (+10%)"
+    "Main factor: 116.0 hours since last reset (+10%)"
   ]
 }
