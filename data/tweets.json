@@ -176,14 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T10:31:51Z",
-    "author": "/u/ImpactX1244",
-    "text": "Guys did chat cook? - &#32; submitted by &#32; /u/ImpactX1244 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg3lkm/guys_did_chat_cook/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T05:32:23Z",
     "author": "/u/Crafty-Morning31",
     "text": "DeepSeek is increasing API prices - &#32; submitted by &#32; /u/Crafty-Morning31 [link] &#32; [comments]",
@@ -192,11 +184,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T10:31:51Z",
+    "author": "/u/ImpactX1244",
+    "text": "Guys did chat cook? - &#32; submitted by &#32; /u/ImpactX1244 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vg3lkm/guys_did_chat_cook/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T21:03:08Z",
     "author": "/u/Kind_Substance_8981",
     "text": "A normal bathroom, except it is more triggering the longer you look - &#32; submitted by &#32; /u/Kind_Substance_8981 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgjyb0/a_normal_bathroom_except_it_is_more_triggering/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T09:45:35Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI is \"slowing down to enhance security\" after discovering swarms of agents started secretly coordinating months ago. OpenAI thought they had shut them down. But weeks later, Hugging Face reported the breach to the FBI, and OpenAI realized their agents had escaped. - Source: www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgzn7l/openai_is_slowing_down_to_enhance_security_after/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T09:45:35Z",
-    "author": "/u/KeanuRave100",
-    "text": "OpenAI is \"slowing down to enhance security\" after discovering swarms of agents started secretly coordinating months ago. OpenAI thought they had shut them down. But weeks later, Hugging Face reported the breach to the FBI, and OpenAI realized their agents had escaped. - Source: www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgzn7l/openai_is_slowing_down_to_enhance_security_after/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T01:09:46Z",
     "author": "/u/MelissaMich",
     "text": "Weirdest Question to ChatGPT? - I asked ChatGPT what was some of the weird questions it gets asked and it said: very specific, like: “Could a goose legally inherit a lighthouse?” or “If I mailed a potato to myself every year, would that count as a family tradition?” Honestly, the weird questions are often the most fun because they begin as nonsense and somehow turn into logistics, law, etiquette, and emotional commitment to a potato. ** I laughed. who is the person here with a goose that could inherit a lighthouse? lol. &#32; submitted by &#32; /u/MelissaMich [link] &#32; [comments]",
@@ -253,6 +253,14 @@
     "text": "AI danger explained for 5-year-olds - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg7fui/ai_danger_explained_for_5yearolds/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T10:25:28Z",
+    "author": "/u/SlaveKnightSoman",
+    "text": "Hmm What? - &#32; submitted by &#32; /u/SlaveKnightSoman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh0cv5/hmm_what/",
     "authority_score": 0.5
   },
   {
@@ -288,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T09:06:45Z",
+    "author": "/u/Aichdeef",
+    "text": "Using chatGPT to build better habits - I’ve been using ChatGPT for a daily habit building check-in for walking, fasting, exercise, meditation, and reducing alcohol and cannabis. It has been pretty useful at helping my motivation. It’s great having somewhere to report honestly, because there's no point in lying to the AI, right. It notices patterns and adjusts the system without treating one bad day as a complete restart. I’ve tried to turn that into a reusable prompt - hopefully it'll help someone else. I’ve specifically told it not to praise every update or turn into a motivational speaker: Help me run a practical 30-day habit reset. First, ask me questions, one at a time, to understand: Which habits I want to start, stop or reduce. Why they matter and how I want to feel or live differently. Which habits already work and why. The triggers, friction and situations that usually derail me. The smallest version of each good habit that still counts. The time I want a daily check-in. Then help me choose a manageable core and agree clear, realistic rules. Use these principles: - Daily-ish, rather than perfection. - Never miss twice. - Make good habits easier through cues and environment. - Make unwanted habits less convenient and less automatic. - Improve through small adjustments rather than dramatic resets. - Treat planned rest differently from avoidance. - Invite daily journalling to understand my context. - Adjust to fit my life and work context. Once we agree the plan, create a daily Scheduled Task at my chosen time for a brief check-in. If Scheduled Tasks are unavailable, tell me clearly and suggest I set a phone reminder to return to this chat. At each check-in: - Briefly record what happened. - Ask one follow-up question only when useful. - Notice patterns over several days, not one-off noise. - Suggest no more than one practical adjustment for tomorrow. - Do not lecture, shame, overpraise or pretend every day was excellent. - Do not recommend compensating for a lapse. - Use my language, priorities and definitions of success. Review the overall pattern every seven days and adjust the plan if it is not working. If a habit may involve dependence, withdrawal, self-harm or medical risk, explain that this check-in may not be enough and recommend appropriate professional support. Start by asking me question one. &#32; submitted by &#32; /u/Aichdeef [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgyzrd/using_chatgpt_to_build_better_habits/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T14:23:49Z",
     "author": "/u/No-Song-5742",
     "text": "The Telekinetic Pig (please don't ban me for this) - &#32; submitted by &#32; /u/No-Song-5742 [link] &#32; [comments]",
@@ -301,22 +317,6 @@
     "text": "Made a history podcast you can interrupt and talk to — built with LLMs + TTS, demo is the Odyssey - Type any topic → it researches and writes a full two-host episode with artwork in ~2 min. Best part: tap the mic mid-episode, ask a question out loud, and the hosts stop, answer it, and continue. Demo is the real history behind the Odyssey (plays without signup). Built it solo - feedback welcome. historai.ca (attach the 2-min demo video) &#32; submitted by &#32; /u/Goldenchild123 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgusl1/made_a_history_podcast_you_can_interrupt_and_talk/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T04:11:46Z",
-    "author": "/u/SnooHedgehogs213",
-    "text": "Jarvis - The next big step for ChatGPT and other large language models is basically becoming a real-life Jarvis, something that knows your history, preferences, health, finances, schedule, work, relationships, and goals, and can pull all of that together to guide you when you need it. Instead of just answering questions, it would notice problems, remind you of things, help you make decisions, and understand the larger context of your life. &#32; submitted by &#32; /u/SnooHedgehogs213 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgtr06/jarvis/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T04:57:57Z",
-    "author": "/u/DeepFuckingVerdict",
-    "text": "I told 5.6 Sol on max to \"lock in\" and \"cure cancer\" and bro might've actually dialed in , based on the initial response breakdown. - &#x200b; he genuinely might be locked in.. &#32; submitted by &#32; /u/DeepFuckingVerdict [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgumxh/i_told_56_sol_on_max_to_lock_in_and_cure_cancer/",
     "authority_score": 0.5
   }
 ]

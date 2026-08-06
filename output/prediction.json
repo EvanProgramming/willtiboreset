@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T10:30:55.840149+00:00",
+  "updated_at": "2026-08-06T11:01:03.370859+00:00",
   "prediction": {
-    "within_5h": 0.1189,
-    "within_24h": 0.3656,
-    "within_48h": 0.5114
+    "within_5h": 0.1127,
+    "within_24h": 0.3518,
+    "within_48h": 0.4964
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 126.98217759833334,
+    "hours_since_last_reset": 127.48426944666667,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,24 +16,24 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.0688,
-    "time_pressure": 0.9656,
-    "hazard_rate": 0.018783,
-    "evidence_score": 0.0514,
-    "tibo_signal": 0.0119,
-    "community_signal": 0.1267,
-    "release_signal": 0.0584,
+    "time_ratio": 2.077,
+    "time_pressure": 0.9663,
+    "hazard_rate": 0.017903,
+    "evidence_score": 0.0459,
+    "tibo_signal": 0.0169,
+    "community_signal": 0.1073,
+    "release_signal": 0.1035,
     "llm_scores": {
-      "reset_intent": 0.025,
-      "limit_complaint": 0.0375,
-      "official_change": 0.0775,
+      "reset_intent": 0.027500000000000004,
+      "limit_complaint": 0.032499999999999994,
+      "official_change": 0.1,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8612500000000001,
+      "confidence": 0.91875,
       "reason": [
         "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
-        "No explicit statement about an upcoming or past reset from an official source.",
+        "It does not announce or confirm any reset event, only discusses handling requests.",
         "The text is about a new company announcement and Codex feature recommendation, not about resets.",
-        "Mentions GPT-5.6 Sol and /goal, but no reset-related content.",
+        "Mentions GPT-5.6 Sol and /goal, indicating a product update but no reset signal.",
         "The text is about welcoming a new team member and podcast, unrelated to resets."
       ]
     },
@@ -42,24 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "127.0 hours since last reset",
+      "factor": "127.5 hours since last reset",
       "impact": "+10%",
       "score": 0.97
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.02
     },
     {
       "factor": "Minor community limit complaints",
-      "impact": "+1%",
-      "score": 0.13
+      "impact": "+0%",
+      "score": 0.11
     }
   ],
   "reasons": [
-    "127.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "127.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
-    "Main factor: 127.0 hours since last reset (+10%)"
+    "Main factor: 127.5 hours since last reset (+10%)"
   ]
 }
