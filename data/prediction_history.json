@@ -7520,8 +7520,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T05:31:06.157804Z"
   },
   {
     "prediction_time": "2026-08-04T05:41:02.729213Z",
@@ -11739,6 +11739,50 @@
           "The text is about a new company announcement and a recommendation to use Codex's /goal feature.",
           "No mention of usage limits or resets.",
           "The text is about welcoming a new team member and a podcast announcement."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T05:31:06.143500Z",
+    "prediction": {
+      "within_5h": 0.1328,
+      "within_24h": 0.3954,
+      "within_48h": 0.5428
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 121.98503834472223,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 1.9874,
+      "time_pressure": 0.958,
+      "hazard_rate": 0.020748,
+      "evidence_score": 0.0642,
+      "tibo_signal": 0.0132,
+      "community_signal": 0.1509,
+      "release_signal": 0.0585,
+      "llm_scores": {
+        "reset_intent": 0.0325,
+        "limit_complaint": 0.0475,
+        "official_change": 0.0725,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9174999999999999,
+        "reason": [
+          "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+          "It does not announce or imply an imminent reset; it's about handling requests.",
+          "The text is about a new company announcement and Codex feature recommendation.",
+          "No mention of usage limits or resets.",
+          "The text is about welcoming a new team member and podcast announcement."
         ]
       },
       "prior_applied": false,
