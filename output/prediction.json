@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T02:00:56.607264+00:00",
+  "updated_at": "2026-08-06T02:31:04.138361+00:00",
   "prediction": {
-    "within_5h": 0.0758,
-    "within_24h": 0.2592,
-    "within_48h": 0.3884
+    "within_5h": 0.0748,
+    "within_24h": 0.2564,
+    "within_48h": 0.3849
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 118.48239070222222,
+    "hours_since_last_reset": 118.98448268972223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.9303,
-    "time_pressure": 0.9517,
-    "hazard_rate": 0.012423,
-    "evidence_score": 0.0151,
-    "tibo_signal": 0.0109,
-    "community_signal": 0.0456,
-    "release_signal": 0.0775,
+    "time_ratio": 1.9385,
+    "time_pressure": 0.9527,
+    "hazard_rate": 0.012268,
+    "evidence_score": 0.0142,
+    "tibo_signal": 0.0093,
+    "community_signal": 0.0446,
+    "release_signal": 0.061,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.032499999999999994,
-      "official_change": 0.075,
+      "official_change": 0.09,
       "reset_confirmation": 0.02375,
       "confidence": 0.91375,
       "reason": [
-        "Mentions exploring /goal in Codex, a feature, but no reset or limit discussion.",
-        "Announcement of a new company by Jeff Dean, but not related to quota resets.",
-        "Text is about welcoming a new team member, no reset or limit context.",
-        "No mention of usage limits or quota changes.",
-        "Question about a title, completely irrelevant to resets or limits."
+        "Text is about a new company announcement and Codex usage, not about quota resets.",
+        "Mentions exploring /goal in Codex but no reset or limit complaints.",
+        "Content is about welcoming a new team member, unrelated to resets.",
+        "No mention of usage limits or quota.",
+        "Simple question about a title, completely irrelevant to resets."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "118.5 hours since last reset",
+      "factor": "119.0 hours since last reset",
       "impact": "+10%",
       "score": 0.95
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.05
+      "score": 0.04
     }
   ],
   "reasons": [
-    "118.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 118.5 hours since last reset (+10%)"
+    "119.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
+    "Main factor: 119.0 hours since last reset (+10%)"
   ]
 }
