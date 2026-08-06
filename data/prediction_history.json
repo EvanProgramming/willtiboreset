@@ -8400,8 +8400,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T15:30:59.642702Z",
@@ -8444,8 +8444,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T16:00:55.752812Z",
@@ -8488,8 +8488,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T16:31:05.690281Z",
@@ -8532,8 +8532,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T17:01:08.224696Z",
@@ -8576,8 +8576,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T17:31:07.260100Z",
@@ -8620,8 +8620,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T17:41:22.152480Z"
   },
   {
     "prediction_time": "2026-08-04T18:01:09.889980Z",
@@ -12619,6 +12619,50 @@
           "The text is about a new company announcement and Codex feature recommendation, not about resets.",
           "No mention of usage limits or quota resets.",
           "The text is about welcoming a new team member, unrelated to resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T17:41:22.136530Z",
+    "prediction": {
+      "within_5h": 0.0674,
+      "within_24h": 0.2359,
+      "within_48h": 0.3594
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 134.15614747833334,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.1857,
+      "time_pressure": 0.9743,
+      "hazard_rate": 0.011148,
+      "evidence_score": 0.008,
+      "tibo_signal": 0.0102,
+      "community_signal": 0.0682,
+      "release_signal": 0.0576,
+      "llm_scores": {
+        "reset_intent": 0.0225,
+        "limit_complaint": 0.015,
+        "official_change": 0.08249999999999999,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9225,
+        "reason": [
+          "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+          "No explicit statement about an upcoming reset, only that the author occasionally obliges.",
+          "The text is about a new company announcement and Codex feature recommendation, not about resets.",
+          "Mentions GPT-5.6 Sol and /goal, indicating product-related content but no reset signal.",
+          "The text is about welcoming a new team member and podcast, unrelated to resets."
         ]
       },
       "prior_applied": false,
