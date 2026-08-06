@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-06T04:28:14Z",
+    "author": "Tibo",
+    "text": "I asked Codex to pull up some stats and I receive on average one DM or email every 6 or so minutes to ask for a reset. I occasionally do oblige if it ... - I asked Codex to pull up some stats and I receive on average one DM or email every 6 or so minutes to ask for a reset. I occasionally do oblige if it comes with really solid feedback or banter.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2085221386713198988",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-06T01:22:26Z",
     "author": "Tibo",
     "text": "I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap. I recommend you explore /goal in Codex, it's a ... - I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap.I recommend you explore /goal in Codex, it's a pretty powerful loop with GPT-5.6 Sol.Jeff Dean: Announcing Discovery Loop! I am very excited to announce that, along with my longtime friends and collaborators @Sanjay_Ghemawat, @OriolVinyalsML and @quocleix, we are founding Discovery Loop (@DiscoLoopAI), a Public Benefit Corporation whose mission is to automate machine",
@@ -112,14 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-07-30T01:22:39Z",
-    "author": "Tibo",
-    "text": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun. Take care of your harnesses out there, your... - Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.Take care of your harnesses out there, your model will thank you.Tibo: Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2082637967852806207",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -144,11 +144,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T03:44:32Z",
+    "author": "/u/userxblade",
+    "text": "Bro WHAT 😭 - &#32; submitted by &#32; /u/userxblade [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgt6xw/bro_what/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T10:31:51Z",
     "author": "/u/ImpactX1244",
     "text": "Guys did chat cook? - &#32; submitted by &#32; /u/ImpactX1244 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg3lkm/guys_did_chat_cook/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T00:56:14Z",
+    "author": "/u/audoritos",
+    "text": "ChatGPT knows personal things I have never mentioned before. - I've had a black mirror moment today. I was doing a paper for one of my courses and asked ChatGPT to critique it as my prof is very critical and nitpicky. Asked it to point out parts my prof might flag. Then it replied with &quot;I know how particular Dr. (My prof's name) is.&quot; As far as I know, never mentioned my prof's name in any of our chat. I looked for it in our history too and there was nothing. I tried clarifying it with ChatGPT and it said it was a mistake. It was thinking of a different prof I mentioned last time and it just hallucinated my prof's name mistakenly. Is it possible for ChatGPT to have access to my data from other website or did it base it from a previous conversation we had that I probably forgot? &#32; submitted by &#32; /u/audoritos [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgplhb/chatgpt_knows_personal_things_i_have_never/",
     "authority_score": 0.5
   },
   {
@@ -173,14 +189,6 @@
     "text": "🤷🏻‍♂️ - &#32; submitted by &#32; /u/Strong-Resolve-7321 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vg0g6u/_/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T00:56:14Z",
-    "author": "/u/audoritos",
-    "text": "ChatGPT knows personal things I have never mentioned before. - I've had a black mirror moment today. I was doing a paper for one of my courses and asked ChatGPT to critique it as my prof is very critical and nitpicky. Asked it to point out parts my prof might flag. Then it replied with &quot;I know how particular Dr. (My prof's name) is.&quot; As far as I know, never mentioned my prof's name in any of our chat. I looked for it in our history too and there was nothing. I tried clarifying it with ChatGPT and it said it was a mistake. It was thinking of a different prof I mentioned last time and it just hallucinated my prof's name mistakenly. Is it possible for ChatGPT to have access to my data from other website or did it base it from a previous conversation we had that I probably forgot? &#32; submitted by &#32; /u/audoritos [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgplhb/chatgpt_knows_personal_things_i_have_never/",
     "authority_score": 0.5
   },
   {
@@ -216,14 +224,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T03:44:32Z",
-    "author": "/u/userxblade",
-    "text": "Bro WHAT 😭 - &#32; submitted by &#32; /u/userxblade [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgt6xw/bro_what/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-05T02:50:25Z",
     "author": "/u/Modi_Jiiiii",
     "text": "What are your thoughts on this ? - Why its Unarguably true 😭 &#32; submitted by &#32; /u/Modi_Jiiiii [link] &#32; [comments]",
@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-05T21:16:48Z",
+    "author": "/u/_disguy",
+    "text": "I upgraded to Pro last week, reached my limit, and cannot use Pro again for another 5 days. - &#32; submitted by &#32; /u/_disguy [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgkb04/i_upgraded_to_pro_last_week_reached_my_limit_and/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-05T14:23:49Z",
     "author": "/u/No-Song-5742",
     "text": "The Telekinetic Pig (please don't ban me for this) - &#32; submitted by &#32; /u/No-Song-5742 [link] &#32; [comments]",
@@ -248,11 +256,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-05T21:16:48Z",
-    "author": "/u/_disguy",
-    "text": "I upgraded to Pro last week, reached my limit, and cannot use Pro again for another 5 days. - &#32; submitted by &#32; /u/_disguy [link] &#32; [comments]",
+    "timestamp": "2026-08-06T03:38:22Z",
+    "author": "/u/PenPalDenial",
+    "text": "Forget Leon - &#32; submitted by &#32; /u/PenPalDenial [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgkb04/i_upgraded_to_pro_last_week_reached_my_limit_and/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgt2g6/forget_leon/",
     "authority_score": 0.5
   },
   {
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T00:18:02Z",
-    "author": "/u/PressPlayPlease7",
-    "text": "Have limits changed in the last few days? Every time I get a reply on Sol high it uses up 1% of my weekly limit. Versus last week, when several questions (and the same use case) on Sol High barely used up 1% - &#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
+    "timestamp": "2026-08-06T02:10:05Z",
+    "author": "/u/basonjourne98",
+    "text": "Guess the characters - &#32; submitted by &#32; /u/basonjourne98 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgoqkv/have_limits_changed_in_the_last_few_days_every/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgr7sg/guess_the_characters/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T03:38:22Z",
-    "author": "/u/PenPalDenial",
-    "text": "Forget Leon - &#32; submitted by &#32; /u/PenPalDenial [link] &#32; [comments]",
+    "timestamp": "2026-08-06T01:45:01Z",
+    "author": "/u/Scared_Strategy8996",
+    "text": "Gpt image 2 (1st slide) nano banana pop (2nd slide) - Same prompt, Same refrence images. Idk how to feel about the got weird nature filters, but the prompt is basically ans attempt to nail the iphone snapshot feel. Which one did it better? &#32; submitted by &#32; /u/Scared_Strategy8996 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgt2g6/forget_leon/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-05T21:23:39Z",
-    "author": "/u/Emergency-Novel4394",
-    "text": "The biggest reason ideas die isn't because they're bad. It's because nobody commits to them. - I used to believe people who built successful businesses just had better ideas. Now I'm not so sure. Looking back, I think they simply made decisions earlier than I did. Whenever I got excited about an idea, I'd do what felt like the responsible thing. Research it. Ask AI a few more questions. Watch a few videos. Read what other people thought. By the end of the day, I usually understood the idea much better. I just hadn't done anything with it. One day I realised I wasn't avoiding bad decisions. I was avoiding commitment. That changed the way I use AI. Now, instead of asking, &quot;What else should I know?&quot; I ask, &quot;Do I know enough to test this?&quot; Looking back, that one question has probably saved me more time than any prompt I've ever written. What's one idea you've been thinking about for a long time but still haven't acted on? If you're comfortable sharing, what's been stopping you? &#32; submitted by &#32; /u/Emergency-Novel4394 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgkhlr/the_biggest_reason_ideas_die_isnt_because_theyre/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgqo64/gpt_image_2_1st_slide_nano_banana_pop_2nd_slide/",
     "authority_score": 0.5
   }
 ]

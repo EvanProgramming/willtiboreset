@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T04:01:02.972161+00:00",
+  "updated_at": "2026-08-06T04:31:04.729988+00:00",
   "prediction": {
-    "within_5h": 0.0744,
-    "within_24h": 0.2554,
-    "within_48h": 0.3836
+    "within_5h": 0.1334,
+    "within_24h": 0.3966,
+    "within_48h": 0.544
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 120.48415869138888,
+    "hours_since_last_reset": 120.98464700333332,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.9629,
-    "time_pressure": 0.9554,
-    "hazard_rate": 0.012213,
-    "evidence_score": 0.0139,
-    "tibo_signal": 0.0108,
-    "community_signal": 0.043,
-    "release_signal": 0.0768,
+    "time_ratio": 1.9711,
+    "time_pressure": 0.9563,
+    "hazard_rate": 0.020829,
+    "evidence_score": 0.0648,
+    "tibo_signal": 0.016,
+    "community_signal": 0.141,
+    "release_signal": 0.0844,
     "llm_scores": {
       "reset_intent": 0.0225,
-      "limit_complaint": 0.032499999999999994,
-      "official_change": 0.08,
+      "limit_complaint": 0.0375,
+      "official_change": 0.05500000000000001,
       "reset_confirmation": 0.02375,
-      "confidence": 0.86625,
+      "confidence": 0.89375,
       "reason": [
-        "Mentions Codex and GPT-5.6 Sol but no reset or limit discussion.",
-        "Product recommendation, not an official announcement.",
-        "News about a podcast and team member, unrelated to resets.",
-        "No mention of usage limits or official product changes.",
-        "Simple question about a title, no relevance to resets or limits."
+        "User mentions receiving frequent requests for resets, indicating widespread limit complaints.",
+        "No explicit statement about an upcoming reset, only mentions occasionally obliging requests.",
+        "Text is about a new company announcement and Codex feature, not about resets.",
+        "Mentions GPT-5.6 Sol but no reset or limit-related content.",
+        "Content is about welcoming a new team member, unrelated to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,24 +42,24 @@
   },
   "main_factors": [
     {
-      "factor": "120.5 hours since last reset",
+      "factor": "121.0 hours since last reset",
       "impact": "+10%",
       "score": 0.96
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.02
     },
     {
       "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.04
+      "impact": "+1%",
+      "score": 0.14
     }
   ],
   "reasons": [
-    "120.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 120.5 hours since last reset (+10%)"
+    "121.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.06), insufficient to confirm",
+    "Main factor: 121.0 hours since last reset (+10%)"
   ]
 }
