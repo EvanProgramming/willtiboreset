@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T12:31:02.664393+00:00",
+  "updated_at": "2026-08-06T13:01:14.414629+00:00",
   "prediction": {
-    "within_5h": 0.0704,
-    "within_24h": 0.2445,
-    "within_48h": 0.3702
+    "within_5h": 0.127,
+    "within_24h": 0.3833,
+    "within_48h": 0.5303
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 128.98407322027776,
+    "hours_since_last_reset": 129.4873372127778,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.1014,
-    "time_pressure": 0.9683,
-    "hazard_rate": 0.011614,
-    "evidence_score": 0.0105,
-    "tibo_signal": 0.0105,
-    "community_signal": 0.1069,
-    "release_signal": 0.0531,
+    "time_ratio": 2.1096,
+    "time_pressure": 0.9689,
+    "hazard_rate": 0.019939,
+    "evidence_score": 0.0586,
+    "tibo_signal": 0.0134,
+    "community_signal": 0.0994,
+    "release_signal": 0.0795,
     "llm_scores": {
-      "reset_intent": 0.02,
-      "limit_complaint": 0.034999999999999996,
-      "official_change": 0.052500000000000005,
+      "reset_intent": 0.0225,
+      "limit_complaint": 0.017499999999999998,
+      "official_change": 0.0925,
       "reset_confirmation": 0.02375,
-      "confidence": 0.92125,
+      "confidence": 0.91625,
       "reason": [
-        "The text mentions receiving frequent requests for resets, indicating user complaints about limits.",
-        "No explicit statement about an upcoming reset; the author occasionally obliges but doesn't announce a reset.",
-        "The text is about a new company announcement and Codex feature recommendation, not about resets.",
-        "No mention of usage limits or quota resets.",
-        "The text is about welcoming a new team member, unrelated to resets."
+        "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+        "It does not announce or hint at an upcoming reset, only that the author occasionally obliges.",
+        "The text is about a new company announcement and a recommendation to use Codex's /goal feature.",
+        "No mention of usage limits or resets.",
+        "The text is about welcoming a new team member and a podcast announcement."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "129.0 hours since last reset",
+      "factor": "129.5 hours since last reset",
       "impact": "+10%",
       "score": 0.97
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.11
+      "score": 0.1
     }
   ],
   "reasons": [
-    "129.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 129.0 hours since last reset (+10%)"
+    "129.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.06), insufficient to confirm",
+    "Main factor: 129.5 hours since last reset (+10%)"
   ]
 }
