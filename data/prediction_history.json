@@ -8268,8 +8268,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T13:31:07.902676Z"
   },
   {
     "prediction_time": "2026-08-04T14:00:52.693465Z",
@@ -12443,6 +12443,50 @@
           "The text is about a new company announcement and a recommendation to use Codex's /goal feature.",
           "No mention of usage limits or resets.",
           "The text is about welcoming a new team member and a podcast announcement."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T13:31:07.887818Z",
+    "prediction": {
+      "within_5h": 0.1121,
+      "within_24h": 0.3505,
+      "within_48h": 0.495
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 129.98552283055554,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.1177,
+      "time_pressure": 0.9695,
+      "hazard_rate": 0.017821,
+      "evidence_score": 0.0453,
+      "tibo_signal": 0.0114,
+      "community_signal": 0.12,
+      "release_signal": 0.0504,
+      "llm_scores": {
+        "reset_intent": 0.02,
+        "limit_complaint": 0.0375,
+        "official_change": 0.05,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.91875,
+        "reason": [
+          "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+          "No explicit statement about an upcoming reset; the author occasionally obliges but doesn't confirm a reset event.",
+          "The text is about a new company announcement and Codex feature recommendation, not about resets.",
+          "No mention of usage limits or quota resets.",
+          "The text is about welcoming a new team member, unrelated to resets."
         ]
       },
       "prior_applied": false,
