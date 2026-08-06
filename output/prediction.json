@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T09:00:56.909745+00:00",
+  "updated_at": "2026-08-06T09:30:59.343608+00:00",
   "prediction": {
-    "within_5h": 0.0724,
-    "within_24h": 0.25,
-    "within_48h": 0.3771
+    "within_5h": 0.1222,
+    "within_24h": 0.3728,
+    "within_48h": 0.5191
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 125.48247476472221,
+    "hours_since_last_reset": 125.98315080222223,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,24 +16,24 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.0444,
-    "time_pressure": 0.9635,
-    "hazard_rate": 0.011915,
-    "evidence_score": 0.0122,
-    "tibo_signal": 0.0119,
-    "community_signal": 0.1133,
-    "release_signal": 0.0577,
+    "time_ratio": 2.0525,
+    "time_pressure": 0.9642,
+    "hazard_rate": 0.019249,
+    "evidence_score": 0.0543,
+    "tibo_signal": 0.012,
+    "community_signal": 0.1291,
+    "release_signal": 0.0649,
     "llm_scores": {
-      "reset_intent": 0.02,
-      "limit_complaint": 0.0375,
-      "official_change": 0.0625,
+      "reset_intent": 0.0225,
+      "limit_complaint": 0.032499999999999994,
+      "official_change": 0.1,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8862500000000001,
+      "confidence": 0.845,
       "reason": [
         "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
-        "The author occasionally obliges, but there is no indication of an imminent or confirmed reset.",
-        "The text is about a new company announcement and Codex feature recommendation, not about resets.",
-        "No mention of usage limits or quota resets.",
+        "No explicit statement about an upcoming or past reset from an official source.",
+        "The text discusses a new company launch and product features, not quota resets.",
+        "Mentions GPT-5.6 Sol and /goal in Codex, indicating product updates.",
         "The text is about welcoming a new team member, unrelated to resets."
       ]
     },
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "125.5 hours since last reset",
+      "factor": "126.0 hours since last reset",
       "impact": "+10%",
       "score": 0.96
     },
@@ -53,13 +53,13 @@
     },
     {
       "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.11
+      "impact": "+1%",
+      "score": 0.13
     }
   ],
   "reasons": [
-    "125.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 125.5 hours since last reset (+10%)"
+    "126.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
+    "Main factor: 126.0 hours since last reset (+10%)"
   ]
 }
