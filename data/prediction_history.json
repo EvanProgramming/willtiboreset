@@ -7696,8 +7696,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T07:01:10.350211Z"
   },
   {
     "prediction_time": "2026-08-04T07:30:58.736037Z",
@@ -11871,6 +11871,50 @@
           "The text is about a new company announcement and a recommendation to use /goal in Codex, not about resets.",
           "No mention of usage limits or quota resets.",
           "The text is about welcoming a new team member and a podcast, unrelated to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T07:01:10.336069Z",
+    "prediction": {
+      "within_5h": 0.1719,
+      "within_24h": 0.4699,
+      "within_48h": 0.6168
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 123.48620295777778,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.0118,
+      "time_pressure": 0.9605,
+      "hazard_rate": 0.026099,
+      "evidence_score": 0.1017,
+      "tibo_signal": 0.0188,
+      "community_signal": 0.1293,
+      "release_signal": 0.1198,
+      "llm_scores": {
+        "reset_intent": 0.025,
+        "limit_complaint": 0.0375,
+        "official_change": 0.10500000000000001,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.85625,
+        "reason": [
+          "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+          "No explicit statement about an upcoming or past reset is made.",
+          "The text discusses a new company launch and product recommendation, not related to resets.",
+          "Mentions GPT-5.6 Sol and /goal feature, indicating product updates.",
+          "The text is about welcoming a new team member and podcast, unrelated to resets."
         ]
       },
       "prior_applied": false,
