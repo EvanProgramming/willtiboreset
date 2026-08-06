@@ -8312,8 +8312,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T14:01:14.904116Z"
   },
   {
     "prediction_time": "2026-08-04T14:31:00.817891Z",
@@ -12485,6 +12485,50 @@
           "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
           "No explicit statement about an upcoming reset; the author occasionally obliges but doesn't confirm a reset event.",
           "The text is about a new company announcement and Codex feature recommendation, not about resets.",
+          "No mention of usage limits or quota resets.",
+          "The text is about welcoming a new team member, unrelated to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T14:01:14.889191Z",
+    "prediction": {
+      "within_5h": 0.1102,
+      "within_24h": 0.346,
+      "within_48h": 0.49
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 130.48746765666667,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.1259,
+      "time_pressure": 0.9702,
+      "hazard_rate": 0.017538,
+      "evidence_score": 0.0436,
+      "tibo_signal": 0.0125,
+      "community_signal": 0.1166,
+      "release_signal": 0.0698,
+      "llm_scores": {
+        "reset_intent": 0.025,
+        "limit_complaint": 0.034999999999999996,
+        "official_change": 0.065,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.91875,
+        "reason": [
+          "The text mentions receiving frequent requests for resets, indicating users are hitting limits.",
+          "It does not announce or confirm an imminent reset, only that the author occasionally obliges requests.",
+          "The text is about a new company launch and a recommendation to use Codex, not about resets.",
           "No mention of usage limits or quota resets.",
           "The text is about welcoming a new team member, unrelated to resets."
         ]
