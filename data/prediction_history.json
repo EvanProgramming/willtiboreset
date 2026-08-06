@@ -8664,8 +8664,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T19:06:10.879433Z"
   },
   {
     "prediction_time": "2026-08-04T18:31:16.755549Z",
@@ -8708,8 +8708,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T19:06:10.879433Z"
   },
   {
     "prediction_time": "2026-08-04T19:01:04.194562Z",
@@ -8752,8 +8752,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-06T19:06:10.879433Z"
   },
   {
     "prediction_time": "2026-08-04T19:31:10.508478Z",
@@ -12663,6 +12663,50 @@
           "The text is about a new company announcement and Codex feature recommendation, not about resets.",
           "Mentions GPT-5.6 Sol and /goal, indicating product-related content but no reset signal.",
           "The text is about welcoming a new team member and podcast, unrelated to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T19:06:10.862814Z",
+    "prediction": {
+      "within_5h": 0.1973,
+      "within_24h": 0.5,
+      "within_48h": 0.6562
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 135.5696825375,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.2087,
+      "time_pressure": 0.9757,
+      "hazard_rate": 0.028468,
+      "evidence_score": 0.1274,
+      "tibo_signal": 0.0223,
+      "community_signal": 0.0622,
+      "release_signal": 0.1924,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.017499999999999998,
+        "official_change": 0.0925,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.86625,
+        "reason": [
+          "Announcement of Agent Plugins standard, a major product/policy change.",
+          "No mention of usage limits or resets.",
+          "User receives frequent requests for resets, indicating community complaints about limits.",
+          "No explicit statement about an imminent or past reset.",
+          "Mentions Codex and GPT-5.6 Sol but focuses on a new company launch, not a reset."
         ]
       },
       "prior_applied": false,
