@@ -12846,5 +12846,49 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-06T22:00:57.741110Z",
+    "prediction": {
+      "within_5h": 0.1836,
+      "within_24h": 0.49,
+      "within_48h": 0.6358
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 138.4827042652778,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.2562,
+      "time_pressure": 0.9784,
+      "hazard_rate": 0.027666,
+      "evidence_score": 0.1128,
+      "tibo_signal": 0.0224,
+      "community_signal": 0.0606,
+      "release_signal": 0.1941,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.017499999999999998,
+        "official_change": 0.14750000000000002,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8612500000000001,
+        "reason": [
+          "Announcement of Agent Plugins standard involving multiple companies.",
+          "Mentions Codex and ChatGPT but no reset or limit discussion.",
+          "User receives frequent requests for resets, indicating community limit complaints.",
+          "No indication of an imminent or confirmed reset.",
+          "Mentions Codex /goal feature and GPT-5.6 Sol, but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]

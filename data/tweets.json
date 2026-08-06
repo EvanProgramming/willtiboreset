@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T18:41:10Z",
-    "author": "/u/Elektro121",
-    "text": "OpenAI just announced unlimited text chat with GPT-5.6 Luna - &#32; submitted by &#32; /u/Elektro121 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T20:12:29Z",
     "author": "/u/ExpensiveCoat8912",
     "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T18:41:10Z",
+    "author": "/u/Elektro121",
+    "text": "OpenAI just announced unlimited text chat with GPT-5.6 Luna - &#32; submitted by &#32; /u/Elektro121 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
     "authority_score": 0.5
   },
   {
@@ -224,6 +224,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T14:51:23Z",
+    "author": "/u/mcburgs",
+    "text": "ChatGPT has created basically every dinner I’ve eaten for the last year - This started pretty innocently. I’d tell ChatGPT what meat I had thawed, what vegetables were dying in the fridge, and what time dinner needed to be ready. Then I’d ask: “What can I make with this?” Around the same time, my wife became interested in Chinese home cooking, because of health reasons (we're Canadians of European descent). Authentic Chinese home cooking (not the Canadian/Chinese restaurant cuisine) usually incorporates large amounts of vegetables and uses meat more as an accent than a centrepiece, and we were both looking to lose weight and eat healthier. With the usual North American fare, pre-fab and meat-heavy meals, we were really struggling. At some point, without really meaning to, I built an entire system around it. A dedicated project, with several project files. I called it The City Wok. I sent an agent to run multiple deep web passes - I told it to go get itself a PhD in culinary arts and produce a full thesis. It did so. We built a 70+ page document called Culinary Fundamentals. I then told it to do the same thing, but it could only use Chinese language culinary web sources in its research. Now I maintain a full stock list of what I have on hand. It's easy to update and maintain. Now it knows what’s in my pantry, what jars are already open, what needs to get used, what kinds of meals we’ve had recently, and what I can realistically cook for seven people without spending four hours pretending I’m running a restaurant. Most nights I give it something like: “I’ve got 850 g of lean ground pork, bell peppers, broccoli, bean sprouts and onions. I have some Chu Hou paste I’ve never used before. Dinner by 5:30.” And it gives me a full workflow with measurements, timing, sauce ratios, prep order, substitutions and what to do if something goes wrong. I’ve also been losing weight and trying to fix my LDL cholesterol, so it builds my plate into the same dinner instead of turning the entire family meal into diet food. Since last September, I've lost 70 lbs and am just beginning to show a six-pack. The kids still get rice, noodles, potatoes, wrappers or whatever else normal people eat. My portion gets pulled before the starch or heavier sauce goes in. Same meal. Slightly different plate. The whole thing has also pushed me way further into regional Chinese cooking than I ever expected. A year ago, Chinese food mostly meant whatever came in a combo plate. Chicken balls, beef and broccoli, and cherry sauce. Now I’m cooking meals based around Sichuan, Hunan, Guizhou, Guangdong, Shaanxi, Beijing and regions I had barely heard of before. And I'm actually getting good enough at it that I understand many of the techniques and flavour profiles on my own and can hold a conversation with native Chinese people about food. I've also discovered doubanjiang, which is the most delicious food ingredient possibly on planet Earth. The Juan Cheng aged douban - oh my god. After using douban in my cooking and loving it, I made a point to find a real highly-regarded Sichuan restaurant, Nian Yi Kuai Zi in Markham, and try their mapo tofu with minced beef and duck blood so I could see what a real Chinese chef did with my new favourite ingredient - and was delighted to discover that I was basically using it correctly. I've spent hours in Chinese grocery stores, often as the only white guy in the place, taking photos of Chinese product labels and asking ChatGPT what they're for, how they're used, and how to select the best ones. I've watched quietly as Chinese people selected their own ingredients, and then used ChatGPT to determine why they made those choices. I had the agent research culinary regions of China and the differences between them, and we ended up with a regional lane selector containing 81 unique Chinese culinary traditions and regions. They're not always exact traditional dishes. Sometimes they’re practical adaptations based on what I actually own and what my kids will eat (no matter how much I try to convince them that *ma*, the Chinese word for the numbing/spicy taste of green Sichuan peppercorns, is a wonderful accent to food, they just aren't having it lol). But it’s completely changed how I think about Chinese food and cooking in general. It isn’t flawless. But overall, it has made me a much better cook, in a cuisine which would have been nearly inaccessible to me at this level before ChatGPT existed. I waste less food. I use ingredients I never would have known what to do with. I understand sauces, timing and technique much better than I did before. My monthly food costs have cratered - $3200 CAD before I started this project, under $1500 now, reliably. Simply by maintaining a core pantry with thousands of possible combinations to make. And the food is generally excellent. So yes. ChatGPT has created basically every dinner I’ve eaten for the last year. Which sounds a bit dystopian when I type it out. It's the kind of thing I hear people make fun of when discussing AI all the time. But it's been an incredible game changer for our household. It's saved us thousands of dollars, taught me a lot about another great culture and cuisine, and improved my health greatly. &#32; submitted by &#32; /u/mcburgs [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh6g09/chatgpt_has_created_basically_every_dinner_ive/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T09:45:35Z",
     "author": "/u/KeanuRave100",
     "text": "OpenAI is \"slowing down to enhance security\" after discovering swarms of agents started secretly coordinating months ago. OpenAI thought they had shut them down. But weeks later, Hugging Face reported the breach to the FBI, and OpenAI realized their agents had escaped. - Source: www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -237,14 +245,6 @@
     "text": "Bro WHAT 😭 - &#32; submitted by &#32; /u/userxblade [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgt6xw/bro_what/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T14:51:23Z",
-    "author": "/u/mcburgs",
-    "text": "ChatGPT has created basically every dinner I’ve eaten for the last year - This started pretty innocently. I’d tell ChatGPT what meat I had thawed, what vegetables were dying in the fridge, and what time dinner needed to be ready. Then I’d ask: “What can I make with this?” Around the same time, my wife became interested in Chinese home cooking, because of health reasons (we're Canadians of European descent). Authentic Chinese home cooking (not the Canadian/Chinese restaurant cuisine) usually incorporates large amounts of vegetables and uses meat more as an accent than a centrepiece, and we were both looking to lose weight and eat healthier. With the usual North American fare, pre-fab and meat-heavy meals, we were really struggling. At some point, without really meaning to, I built an entire system around it. A dedicated project, with several project files. I called it The City Wok. I sent an agent to run multiple deep web passes - I told it to go get itself a PhD in culinary arts and produce a full thesis. It did so. We built a 70+ page document called Culinary Fundamentals. I then told it to do the same thing, but it could only use Chinese language culinary web sources in its research. Now I maintain a full stock list of what I have on hand. It's easy to update and maintain. Now it knows what’s in my pantry, what jars are already open, what needs to get used, what kinds of meals we’ve had recently, and what I can realistically cook for seven people without spending four hours pretending I’m running a restaurant. Most nights I give it something like: “I’ve got 850 g of lean ground pork, bell peppers, broccoli, bean sprouts and onions. I have some Chu Hou paste I’ve never used before. Dinner by 5:30.” And it gives me a full workflow with measurements, timing, sauce ratios, prep order, substitutions and what to do if something goes wrong. I’ve also been losing weight and trying to fix my LDL cholesterol, so it builds my plate into the same dinner instead of turning the entire family meal into diet food. Since last September, I've lost 70 lbs and am just beginning to show a six-pack. The kids still get rice, noodles, potatoes, wrappers or whatever else normal people eat. My portion gets pulled before the starch or heavier sauce goes in. Same meal. Slightly different plate. The whole thing has also pushed me way further into regional Chinese cooking than I ever expected. A year ago, Chinese food mostly meant whatever came in a combo plate. Chicken balls, beef and broccoli, and cherry sauce. Now I’m cooking meals based around Sichuan, Hunan, Guizhou, Guangdong, Shaanxi, Beijing and regions I had barely heard of before. And I'm actually getting good enough at it that I understand many of the techniques and flavour profiles on my own and can hold a conversation with native Chinese people about food. I've also discovered doubanjiang, which is the most delicious food ingredient possibly on planet Earth. The Juan Cheng aged douban - oh my god. After using douban in my cooking and loving it, I made a point to find a real highly-regarded Sichuan restaurant, Nian Yi Kuai Zi in Markham, and try their mapo tofu with minced beef and duck blood so I could see what a real Chinese chef did with my new favourite ingredient - and was delighted to discover that I was basically using it correctly. I've spent hours in Chinese grocery stores, often as the only white guy in the place, taking photos of Chinese product labels and asking ChatGPT what they're for, how they're used, and how to select the best ones. I've watched quietly as Chinese people selected their own ingredients, and then used ChatGPT to determine why they made those choices. I had the agent research culinary regions of China and the differences between them, and we ended up with a regional lane selector containing 81 unique Chinese culinary traditions and regions. They're not always exact traditional dishes. Sometimes they’re practical adaptations based on what I actually own and what my kids will eat (no matter how much I try to convince them that *ma*, the Chinese word for the numbing/spicy taste of green Sichuan peppercorns, is a wonderful accent to food, they just aren't having it lol). But it’s completely changed how I think about Chinese food and cooking in general. It isn’t flawless. But overall, it has made me a much better cook, in a cuisine which would have been nearly inaccessible to me at this level before ChatGPT existed. I waste less food. I use ingredients I never would have known what to do with. I understand sauces, timing and technique much better than I did before. My monthly food costs have cratered - $3200 CAD before I started this project, under $1500 now, reliably. Simply by maintaining a core pantry with thousands of possible combinations to make. And the food is generally excellent. So yes. ChatGPT has created basically every dinner I’ve eaten for the last year. Which sounds a bit dystopian when I type it out. It's the kind of thing I hear people make fun of when discussing AI all the time. But it's been an incredible game changer for our household. It's saved us thousands of dollars, taught me a lot about another great culture and cuisine, and improved my health greatly. &#32; submitted by &#32; /u/mcburgs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh6g09/chatgpt_has_created_basically_every_dinner_ive/",
     "authority_score": 0.5
   },
   {
@@ -280,6 +280,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T11:38:40Z",
+    "author": "/u/mazinya",
+    "text": "ChatGPT/Codex are true game changers for me - I'll start by saying that until a few days ago I was almost 1 year Gemini pro subscriber for cheap price. After GPT 5.6 came out I decided to try my 1 month free trial. Its been about a little more than a week and I can say the difference is not minor. First, the way GPT interacts with you compared to Gemini is different. I don't know how to explain the difference, but it is just different in a good way. You really need to try both Gemini and GPT to understand what I am talking about I was using Gemini to help me with my workout routine and diet so I am doing the same with GPT and it is doing a better job in that regard. GPT's memory compared to Gemini is just phenomenal. It remembers things I talked to it about a week ago regarding my workout sessions without me mentioning it again in this time frame. It remembers exact numbers of working weights, it remembers my workout plan, my goals and values of food products I showed him days ago and more. The only way Gemini would be able to do it is if you would mention it a few times. Gemini would not only forget it but invent exercises that are completely wrong. It was so refreshing not having to constantly repeat myself and correct it. But the real shocker for me was CODEX. I am not a dev or programmer or anything like that. With the advice of a reddit member here I tried the USE PC function. Working only with Luna extra high, it manages to control my PC and chrome browser and fix my home security cam and mount an ISO file for me that I wasn't able to do myself. I am still shocked this option even exists. Also tried Voice which is also phenomenal. Sounds so natural and fast to response. I don't know how GPT was before 5.6 but I already know I'll continue with the paid subscription. And for anyone who is contemplating between the free and the plus. I can say free is trash compared to the plus. Not even close. If you want to use a free version, Gemini has way less limits so as a free user Gemini is the way to go. EDIT: Can anyone tell me what are uses for Codex for a common folk that is not a developer\\analyst\\ building sites etc.? &#32; submitted by &#32; /u/mazinya [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh1ryq/chatgptcodex_are_true_game_changers_for_me/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T20:58:55Z",
     "author": "/u/KalzK",
     "text": "Newspapers from the bad guy's perspective - Prompt: Do a good news propaganda newspaper cover sitting on a table, the news paper is set in the [movie title] universe as seen from [faction]'s perspective, some good news, some shocking news, and a bit of bad news too, It must sound as real news, write in passive voice. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
@@ -288,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T11:38:40Z",
-    "author": "/u/mazinya",
-    "text": "ChatGPT/Codex are true game changers for me - I'll start by saying that until a few days ago I was almost 1 year Gemini pro subscriber for cheap price. After GPT 5.6 came out I decided to try my 1 month free trial. Its been about a little more than a week and I can say the difference is not minor. First, the way GPT interacts with you compared to Gemini is different. I don't know how to explain the difference, but it is just different in a good way. You really need to try both Gemini and GPT to understand what I am talking about I was using Gemini to help me with my workout routine and diet so I am doing the same with GPT and it is doing a better job in that regard. GPT's memory compared to Gemini is just phenomenal. It remembers things I talked to it about a week ago regarding my workout sessions without me mentioning it again in this time frame. It remembers exact numbers of working weights, it remembers my workout plan, my goals and values of food products I showed him days ago and more. The only way Gemini would be able to do it is if you would mention it a few times. Gemini would not only forget it but invent exercises that are completely wrong. It was so refreshing not having to constantly repeat myself and correct it. But the real shocker for me was CODEX. I am not a dev or programmer or anything like that. With the advice of a reddit member here I tried the USE PC function. Working only with Luna extra high, it manages to control my PC and chrome browser and fix my home security cam and mount an ISO file for me that I wasn't able to do myself. I am still shocked this option even exists. Also tried Voice which is also phenomenal. Sounds so natural and fast to response. I don't know how GPT was before 5.6 but I already know I'll continue with the paid subscription. And for anyone who is contemplating between the free and the plus. I can say free is trash compared to the plus. Not even close. If you want to use a free version, Gemini has way less limits so as a free user Gemini is the way to go. EDIT: Can anyone tell me what are uses for Codex for a common folk that is not a developer\\analyst\\ building sites etc.? &#32; submitted by &#32; /u/mazinya [link] &#32; [comments]",
+    "timestamp": "2026-08-06T18:44:09Z",
+    "author": "/u/Disastrous-Street579",
+    "text": "Got the new UI update but i can't select a model in the Chat interface unlike before the UI update. - Anybody experienced the same thing? Is there any way i can access to older models like GPT 5.5 Thinking in chat? Right now i can't even see the model name anymore. Previously, i can select the current and previous gen models with the thinking mode on in chat. edit: turns out you can change the model in the settings &gt; general. Quite confusing UI... &#32; submitted by &#32; /u/Disastrous-Street579 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh1ryq/chatgptcodex_are_true_game_changers_for_me/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcxrc/got_the_new_ui_update_but_i_cant_select_a_model/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Let's Learn Chinese... - Me trying to learn a phrase in Chinese from Chatgpt ... this is part of a transcript of our voice chat 😅😅😅 &#32; submitted by &#32; /u/TimeLinkless [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhan4i/lets_learn_chinese/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T17:44:31Z",
-    "author": "/u/Reyvan16",
-    "text": "Do you think AI subscriptions are too expensive, or will they become more affordable as the industry develops? - &#32; submitted by &#32; /u/Reyvan16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhb9sl/do_you_think_ai_subscriptions_are_too_expensive/",
     "authority_score": 0.5
   }
 ]
