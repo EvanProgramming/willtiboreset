@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T19:06:10.857826+00:00",
+  "updated_at": "2026-08-06T19:41:11.073450+00:00",
   "prediction": {
-    "within_5h": 0.1973,
+    "within_5h": 0.1968,
     "within_24h": 0.5,
-    "within_48h": 0.6562
+    "within_48h": 0.6555
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 135.5696825375,
+    "hours_since_last_reset": 136.15307576194445,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.2087,
-    "time_pressure": 0.9757,
+    "time_ratio": 2.2182,
+    "time_pressure": 0.9763,
     "hazard_rate": 0.028468,
-    "evidence_score": 0.1274,
-    "tibo_signal": 0.0223,
+    "evidence_score": 0.1268,
+    "tibo_signal": 0.0227,
     "community_signal": 0.0622,
-    "release_signal": 0.1924,
+    "release_signal": 0.196,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.017499999999999998,
-      "official_change": 0.0925,
+      "official_change": 0.12250000000000001,
       "reset_confirmation": 0.02375,
-      "confidence": 0.86625,
+      "confidence": 0.86875,
       "reason": [
-        "Announcement of Agent Plugins standard, a major product/policy change.",
+        "Announcement of Agent Plugins standard involving multiple companies.",
         "No mention of usage limits or resets.",
-        "User receives frequent requests for resets, indicating community complaints about limits.",
-        "No explicit statement about an imminent or past reset.",
-        "Mentions Codex and GPT-5.6 Sol but focuses on a new company launch, not a reset."
+        "User receives frequent requests for resets, indicating community limit complaints.",
+        "No indication of an imminent or confirmed reset.",
+        "Mentions Codex feature /goal and GPT-5.6 Sol, but no reset context."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "135.6 hours since last reset",
+      "factor": "136.2 hours since last reset",
       "impact": "+10%",
       "score": 0.98
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "135.6 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "136.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.13), insufficient to confirm",
-    "Main factor: 135.6 hours since last reset (+10%)"
+    "Main factor: 136.2 hours since last reset (+10%)"
   ]
 }
