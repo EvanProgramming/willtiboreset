@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06T01:01:01.763976+00:00",
+  "updated_at": "2026-08-06T01:31:12.134019+00:00",
   "prediction": {
-    "within_5h": 0.0781,
-    "within_24h": 0.2654,
-    "within_48h": 0.396
+    "within_5h": 0.0762,
+    "within_24h": 0.2604,
+    "within_48h": 0.3898
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 117.48382314333334,
+    "hours_since_last_reset": 117.98670370805556,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 1.914,
-    "time_pressure": 0.9498,
-    "hazard_rate": 0.012769,
-    "evidence_score": 0.017,
+    "time_ratio": 1.9222,
+    "time_pressure": 0.9508,
+    "hazard_rate": 0.01249,
+    "evidence_score": 0.0155,
     "tibo_signal": 0.0094,
-    "community_signal": 0.0569,
-    "release_signal": 0.0528,
+    "community_signal": 0.045,
+    "release_signal": 0.0616,
     "llm_scores": {
-      "reset_intent": 0.017499999999999998,
+      "reset_intent": 0.0225,
       "limit_complaint": 0.032499999999999994,
-      "official_change": 0.095,
+      "official_change": 0.065,
       "reset_confirmation": 0.02375,
-      "confidence": 0.92125,
+      "confidence": 0.91625,
       "reason": [
-        "Text is about welcoming a new team member, not about quota resets.",
-        "No mention of usage limits or resets.",
-        "Text is a simple question about a title, completely irrelevant to resets.",
-        "No signals related to usage limits or official changes.",
-        "Discusses a permanent price reduction for GPT-5.6 Luna, an official product change."
+        "Text is about a new company announcement and Codex feature recommendation, not about quota resets.",
+        "Mentions GPT-5.6 Sol and Discovery Loop, indicating a product/company launch but no reset context.",
+        "Content is about welcoming a new team member and podcast, unrelated to usage limits.",
+        "No mention of resets, quotas, or official product changes.",
+        "Text is a simple question about a title, completely irrelevant to resets or limits."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "117.5 hours since last reset",
+      "factor": "118.0 hours since last reset",
       "impact": "+10%",
       "score": 0.95
     },
@@ -54,12 +54,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.06
+      "score": 0.05
     }
   ],
   "reasons": [
-    "117.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "118.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 117.5 hours since last reset (+10%)"
+    "Main factor: 118.0 hours since last reset (+10%)"
   ]
 }
