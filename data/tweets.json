@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T07:41:29Z",
+    "author": "/u/pe1nl1ch",
+    "text": "What have I missed over the past two years? - When the ChatGPT hype started, I got hooked immediately and went pretty deep into how LLMs work, prompting, tools, and using AI to improve everyday work. Unfortunately, that got me moved into an operational role where I had to train colleagues, enforce workflows, and roll out our pretty terrible corporate AI tool. It was so time-consuming—and there was so much resistance to even the basics—that for the past two years (roughly since Custom GPTs launched), I’ve only been able to follow developments from the sidelines. Privacy restrictions also mean we can’t use connectors. Now I have no idea how to catch up. What actually works reliably and is genuinely useful these days? Any recommendations? Context: I’m not a programmer. Mostly interested in general office productivity/automation and research. &#32; submitted by &#32; /u/pe1nl1ch [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhu1cq/what_have_i_missed_over_the_past_two_years/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T20:58:55Z",
     "author": "/u/KalzK",
     "text": "Newspapers from the bad guy's perspective - Prompt: Do a good news propaganda newspaper cover sitting on a table, the news paper is set in the [movie title] universe as seen from [faction]'s perspective, some good news, some shocking news, and a bit of bad news too, It must sound as real news, write in passive voice. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
@@ -304,19 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T07:09:56Z",
-    "author": "/u/fizisfiz",
-    "text": "where are the code boxes?? - its visible on mobile and browser but not on desktop app(windows) &#32; submitted by &#32; /u/fizisfiz [link] &#32; [comments]",
+    "timestamp": "2026-08-07T07:31:11Z",
+    "author": "/u/nonedat",
+    "text": "What happened here? - I specifically instruct my project not to use the rule of three, give it a simple alternative and it still uses the rule of three. What am I doing wrong? &#32; submitted by &#32; /u/nonedat [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhtit3/where_are_the_code_boxes/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T02:31:29Z",
-    "author": "/u/UrSecretCrush95",
-    "text": "ChatGPT Voice can hear and do things I genuinely didn’t think it could. - Up until now, I’d always assumed it was basically just transcribing what I said, feeding the text into the model, and reading the response back. So out of curiosity, I asked if it could actually tell how I was speaking, not just what I was saying. So I just started throwing random tests at it. I whispered a sentence. It immediately picked up that I was whispering and even described the kind of tone I was going for. Then I switched to a dramatic loud voice, and it caught that too. Next, I tried accents. I did a West African accent ( my native accent) , and it correctly guessed the general region. Then I switched to an exaggerated American Western/cowboy accent, and it recognized that almost instantly. The part that genuinely made me stop for a second was when I pronounced “tomato” two different ways (“to-MAY-to” and “to-MAH-to”). it actually recognized BOTH pronunciation I’d used. Then I thought, “Alright, let’s see how far this goes.” I gave it a few acting prompts and asked it to improvise scenes involving fear, sarcasm, and excitement. I wasn’t expecting much, but it genuinely nailed the emotions. The pacing, the hesitation, the little laughs, the excitement… it was way more convincing than I expected. I also found out it can recognize things like whistles, clicks, claps (assuming your mic picks them up well), and other non-speech sounds. I know some of this might sound obvious if you’ve used Voice Mode a lot, but I honestly had no idea it was paying attention to all of those extra layers. The speed at which conversational AI is improving is honestly wild. A couple of years ago, I wouldn’t have imagined having a conversation like this with an AI. If this is what it can do today, I genuinely can’t picture what it’ll be like in another five or ten years. &#32; submitted by &#32; /u/UrSecretCrush95 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhtvmh/what_happened_here/",
     "authority_score": 0.5
   }
 ]
