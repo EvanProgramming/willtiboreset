@@ -10952,8 +10952,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T20:41:08.521020Z"
   },
   {
     "prediction_time": "2026-08-05T20:30:57.802181Z",
@@ -10996,8 +10996,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T20:41:08.521020Z"
   },
   {
     "prediction_time": "2026-08-05T21:01:01.506263Z",
@@ -14203,6 +14203,55 @@
           "Text discusses capabilities of Codex with GPT-5.6 Sol, not about resets.",
           "Mentions product usage but no reset or limit complaints.",
           "Announcement of Agent Plugins standard, an official product change.",
+          "No mention of usage limits or resets.",
+          "Mentions receiving requests for resets, indicating users hitting limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T20:41:08.502355Z",
+    "prediction": {
+      "within_5h": 0.091,
+      "within_24h": 0.2998,
+      "within_48h": 0.4378
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 161.15235999277778,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 6.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.6255,
+      "time_pressure": 0.9915,
+      "hazard_rate": 0.01474,
+      "evidence_score": 0.0269,
+      "tibo_signal": 0.0099,
+      "community_signal": 0.0549,
+      "release_signal": 0.084,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0475,
+        "official_change": 0.1125,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.905,
+        "reason": [
+          "Text praises Codex capabilities with GPT-5.6 Sol, no mention of reset or limits.",
+          "Mentions product usage but not any official change or reset event.",
+          "Announces Agent Plugins standard, a major product/policy change.",
           "No mention of usage limits or resets.",
           "Mentions receiving requests for resets, indicating users hitting limits."
         ]
