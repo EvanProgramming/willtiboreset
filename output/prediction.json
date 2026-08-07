@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T03:40:59.237937+00:00",
+  "updated_at": "2026-08-07T04:01:02.159118+00:00",
   "prediction": {
-    "within_5h": 0.1621,
-    "within_24h": 0.4527,
-    "within_48h": 0.6006
+    "within_5h": 0.1619,
+    "within_24h": 0.4524,
+    "within_48h": 0.6003
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 144.14978811055556,
+    "hours_since_last_reset": 144.48393289333333,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.3485,
-    "time_pressure": 0.9829,
-    "hazard_rate": 0.024802,
-    "evidence_score": 0.0911,
-    "tibo_signal": 0.022,
-    "community_signal": 0.0563,
-    "release_signal": 0.1918,
+    "time_ratio": 2.3539,
+    "time_pressure": 0.9831,
+    "hazard_rate": 0.02478,
+    "evidence_score": 0.0909,
+    "tibo_signal": 0.0228,
+    "community_signal": 0.0564,
+    "release_signal": 0.2003,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.017499999999999998,
-      "official_change": 0.13,
+      "official_change": 0.14250000000000002,
       "reset_confirmation": 0.02375,
-      "confidence": 0.85375,
+      "confidence": 0.8724999999999999,
       "reason": [
-        "Announcement of Agent Plugins standard involving multiple partners, a major product/policy change.",
+        "Announces a new open standard for agent plugins, a major product/policy change.",
         "No mention of usage limits or resets.",
-        "User receives frequent requests for resets, indicating widespread limit complaints.",
-        "No explicit statement about an imminent or past reset; only mentions occasionally obliging.",
-        "Mentions exploring /goal in Codex and GPT-5.6 Sol, a minor product feature mention."
+        "User mentions receiving frequent requests for resets, indicating widespread limit complaints.",
+        "No indication of an imminent or confirmed reset; just anecdotal demand.",
+        "Mentions a new company and product feature, but not an official OpenAI change."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "144.1 hours since last reset",
+      "factor": "144.5 hours since last reset",
       "impact": "+10%",
       "score": 0.98
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "144.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "144.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.09), insufficient to confirm",
-    "Main factor: 144.1 hours since last reset (+10%)"
+    "Main factor: 144.5 hours since last reset (+10%)"
   ]
 }
