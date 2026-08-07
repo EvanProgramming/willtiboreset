@@ -10248,8 +10248,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T12:01:11.251206Z"
   },
   {
     "prediction_time": "2026-08-05T12:31:03.297129Z",
@@ -13372,6 +13372,55 @@
           "Announces Agent Plugins standard, a significant product/policy change.",
           "No mention of usage limits or resets.",
           "Mentions receiving requests for resets, indicating users hitting limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T12:01:11.233793Z",
+    "prediction": {
+      "within_5h": 0.1097,
+      "within_24h": 0.3451,
+      "within_48h": 0.4893
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 152.48645214083334,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 15.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.4843,
+      "time_pressure": 0.9878,
+      "hazard_rate": 0.017482,
+      "evidence_score": 0.0428,
+      "tibo_signal": 0.0155,
+      "community_signal": 0.0264,
+      "release_signal": 0.1364,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0125,
+        "official_change": 0.1375,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.865,
+        "reason": [
+          "Text is about Codex capabilities with GPT-5.6 Sol, no mention of resets or limits.",
+          "No complaints or official changes discussed.",
+          "Announcement of Agent Plugins standard, an official product/policy change.",
+          "No mention of resets or usage limits.",
+          "Mentions receiving requests for resets, implying users are hitting limits."
         ]
       },
       "prior_applied": false,
