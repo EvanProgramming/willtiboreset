@@ -11128,8 +11128,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T22:40:57.899913Z"
   },
   {
     "prediction_time": "2026-08-05T22:31:01.387931Z",
@@ -11172,8 +11172,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T22:40:57.899913Z"
   },
   {
     "prediction_time": "2026-08-05T23:01:07.953357Z",
@@ -14401,6 +14401,55 @@
           "The text is about using Codex with GPT-5.6 Sol for tasks, not about resets.",
           "No mention of limits, complaints, or official changes.",
           "The text announces a new standard 'Agent Plugins' for agents including Codex and ChatGPT."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T22:40:57.881610Z",
+    "prediction": {
+      "within_5h": 0.0922,
+      "within_24h": 0.3028,
+      "within_48h": 0.4413
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 163.1494097861111,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 4.9,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.658,
+      "time_pressure": 0.9922,
+      "hazard_rate": 0.014916,
+      "evidence_score": 0.0278,
+      "tibo_signal": 0.0258,
+      "community_signal": 0.0298,
+      "release_signal": 0.1065,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.04,
+        "official_change": 0.1075,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8637500000000001,
+        "reason": [
+          "Text promotes a product feature without mentioning resets or limits.",
+          "Minor product update mention, not an official change announcement.",
+          "User speculates about a reset for Theo, but it's not about quota resets.",
+          "No explicit reset event or official announcement.",
+          "Discusses capabilities of Codex with GPT-5.6 Sol, no reset mention."
         ]
       },
       "prior_applied": false,

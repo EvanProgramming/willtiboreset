@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-07T22:01:03.551761+00:00",
+  "updated_at": "2026-08-07T22:40:57.876004+00:00",
   "prediction": {
-    "within_5h": 0.0924,
-    "within_24h": 0.3033,
-    "within_48h": 0.4419
+    "within_5h": 0.0922,
+    "within_24h": 0.3028,
+    "within_48h": 0.4413
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-08T03:32:00+00:00",
-    "hours_until": 5.5,
+    "hours_until": 4.9,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 162.4843197425,
+    "hours_since_last_reset": 163.1494097861111,
     "next_reset": {
       "expected_time": "2026-08-08T03:32:00+00:00",
-      "hours_until": 5.5,
+      "hours_until": 4.9,
       "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6472,
-    "time_pressure": 0.992,
-    "hazard_rate": 0.014946,
-    "evidence_score": 0.028,
-    "tibo_signal": 0.0112,
-    "community_signal": 0.0537,
-    "release_signal": 0.0532,
+    "time_ratio": 2.658,
+    "time_pressure": 0.9922,
+    "hazard_rate": 0.014916,
+    "evidence_score": 0.0278,
+    "tibo_signal": 0.0258,
+    "community_signal": 0.0298,
+    "release_signal": 0.1065,
     "llm_scores": {
-      "reset_intent": 0.015,
-      "limit_complaint": 0.045,
-      "official_change": 0.052500000000000005,
+      "reset_intent": 0.017499999999999998,
+      "limit_complaint": 0.04,
+      "official_change": 0.1075,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8712500000000001,
+      "confidence": 0.8637500000000001,
       "reason": [
-        "The text mentions 'Theo is in need of a reset' but this is about a person, not usage limits.",
-        "No mention of quota resets or official announcements.",
-        "The text is about using Codex with GPT-5.6 Sol for tasks, not about resets.",
-        "No mention of limits, complaints, or official changes.",
-        "The text announces a new standard 'Agent Plugins' for agents including Codex and ChatGPT."
+        "Text promotes a product feature without mentioning resets or limits.",
+        "Minor product update mention, not an official change announcement.",
+        "User speculates about a reset for Theo, but it's not about quota resets.",
+        "No explicit reset event or official announcement.",
+        "Discusses capabilities of Codex with GPT-5.6 Sol, no reset mention."
       ]
     },
     "prior_applied": false,
@@ -52,24 +52,24 @@
   },
   "main_factors": [
     {
-      "factor": "162.5 hours since last reset",
+      "factor": "163.1 hours since last reset",
       "impact": "+10%",
       "score": 0.99
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.03
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.05
+      "score": 0.03
     }
   ],
   "reasons": [
-    "162.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "163.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 162.5 hours since last reset (+10%)"
+    "Main factor: 163.1 hours since last reset (+10%)"
   ]
 }

