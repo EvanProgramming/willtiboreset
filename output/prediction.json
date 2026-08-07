@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-07T23:01:01.754199+00:00",
+  "updated_at": "2026-08-07T23:41:02.685826+00:00",
   "prediction": {
-    "within_5h": 0.0941,
-    "within_24h": 0.3075,
-    "within_48h": 0.4468
+    "within_5h": 0.1,
+    "within_24h": 0.3221,
+    "within_48h": 0.4635
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-08T03:32:00+00:00",
-    "hours_until": 4.5,
+    "hours_until": 3.8,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 163.48382039361113,
+    "hours_since_last_reset": 164.15074585666667,
     "next_reset": {
       "expected_time": "2026-08-08T03:32:00+00:00",
-      "hours_until": 4.5,
+      "hours_until": 3.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6635,
-    "time_pressure": 0.9923,
-    "hazard_rate": 0.015194,
-    "evidence_score": 0.0294,
-    "tibo_signal": 0.0242,
-    "community_signal": 0.0674,
-    "release_signal": 0.0899,
+    "time_ratio": 2.6743,
+    "time_pressure": 0.9925,
+    "hazard_rate": 0.016068,
+    "evidence_score": 0.0344,
+    "tibo_signal": 0.0189,
+    "community_signal": 0.0293,
+    "release_signal": 0.0866,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.0325,
-      "official_change": 0.11750000000000001,
+      "limit_complaint": 0.032499999999999994,
+      "official_change": 0.095,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8712500000000001,
+      "confidence": 0.85875,
       "reason": [
-        "Text promotes a product feature without mentioning resets or limits.",
-        "Minor product update mention, hence low official_change score.",
-        "User speculates about a reset for Theo, but it's not an official announcement.",
-        "No explicit confirmation or complaint about limits.",
-        "Discusses capabilities of GPT-5.6 Sol, no reset or limit mention."
+        "The text promotes a product feature but does not mention resets or limits.",
+        "It is a general promotional statement about the magic of the product.",
+        "The text mentions 'reset' but in a speculative or humorous context about Theo, not about usage limits.",
+        "It does not confirm any reset event or discuss quota issues.",
+        "The text highlights capabilities of Codex with GPT-5.6 Sol but does not mention resets or limits."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "163.5 hours since last reset",
+      "factor": "164.2 hours since last reset",
       "impact": "+10%",
       "score": 0.99
     },
@@ -64,12 +64,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.07
+      "score": 0.03
     }
   ],
   "reasons": [
-    "163.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "164.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 163.5 hours since last reset (+10%)"
+    "Main factor: 164.2 hours since last reset (+10%)"
   ]
 }
