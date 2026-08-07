@@ -11084,8 +11084,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T21:40:59.709318Z"
   },
   {
     "prediction_time": "2026-08-05T22:01:06.297325Z",
@@ -14303,6 +14303,55 @@
           "Announcement of Agent Plugins standard involving multiple companies, a significant official product change.",
           "No mention of usage limits or resets.",
           "Mentions receiving frequent requests for resets, indicating users hitting limits, but no reset announcement."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T21:40:59.693177Z",
+    "prediction": {
+      "within_5h": 0.1035,
+      "within_24h": 0.3305,
+      "within_48h": 0.4731
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 162.1499131211111,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 5.9,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.6417,
+      "time_pressure": 0.9918,
+      "hazard_rate": 0.016579,
+      "evidence_score": 0.0373,
+      "tibo_signal": 0.0121,
+      "community_signal": 0.0585,
+      "release_signal": 0.1068,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.045,
+        "official_change": 0.0975,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8862500000000001,
+        "reason": [
+          "Text is about Codex capabilities with GPT-5.6 Sol, not about resets.",
+          "Mentions product usage but no limit complaints or reset signals.",
+          "Announces a new open standard (Agent Plugins) involving multiple companies.",
+          "No mention of usage limits or resets.",
+          "Mentions receiving requests for resets, indicating users hitting limits."
         ]
       },
       "prior_applied": false,

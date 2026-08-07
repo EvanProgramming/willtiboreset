@@ -184,19 +184,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T16:24:25Z",
-    "author": "/u/Legitimate_Split_325",
-    "text": "Every ChatGPT and Claude benchmarks be like - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh911t/every_chatgpt_and_claude_benchmarks_be_like/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T17:54:49Z",
     "author": "/u/Kvazimods",
     "text": "Generate an image of a Sword in the Stone game if they had released it in the 90s for the SNES. Just some screenshots. The Disney animated movie. - Pretty great result. Only if the enemies made sense, it'd be perfect. &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T20:50:32Z",
+    "author": "/u/soalone34",
+    "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vicesi/israel_is_paying_millions_to_train_ai_chatbots/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T16:24:25Z",
+    "author": "/u/Legitimate_Split_325",
+    "text": "Every ChatGPT and Claude benchmarks be like - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh911t/every_chatgpt_and_claude_benchmarks_be_like/",
     "authority_score": 0.5
   },
   {
@@ -240,11 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T17:18:35Z",
-    "author": "/u/H1ghSyst3m",
-    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
+    "timestamp": "2026-08-07T19:44:12Z",
+    "author": "/u/No-Consequence7624",
+    "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viaoib/openais_ai_device_may_arrive_in_2027_i_got/",
     "authority_score": 0.5
   },
   {
@@ -264,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T19:44:12Z",
-    "author": "/u/No-Consequence7624",
-    "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viaoib/openais_ai_device_may_arrive_in_2027_i_got/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T15:57:41Z",
     "author": "/u/frown-face",
     "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T17:18:35Z",
+    "author": "/u/H1ghSyst3m",
+    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T20:12:29Z",
     "author": "/u/ExpensiveCoat8912",
     "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
@@ -301,14 +309,6 @@
     "text": "What if. - &#32; submitted by &#32; /u/HomerDoakQuarlesIII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhlhrm/what_if/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T17:42:38Z",
-    "author": "/u/kirrttiraj",
-    "text": "Is EcoGPT actually environement friendly? or just a Marketing Gimmic? - I've been seeing a lot of sustainable AI tools lately. Are they genuine? They claim to be more sustainable than frontier models/apps by using efficient MoE models, 10x+ fewer active parameters, serving 30%+ of queries from cache, running inference in Finland (the same region where Google reported 98% carbon-free energy), and planting trees on certain queries. Is this enough? Would it actually make a dent in the environment? Also are smaller models genuinely more efficient and lower energy, or just a marketing? &#32; submitted by &#32; /u/kirrttiraj [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7e1d/is_ecogpt_actually_environement_friendly_or_just/",
     "authority_score": 0.5
   },
   {
