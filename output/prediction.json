@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T00:01:53.596234+00:00",
+  "updated_at": "2026-08-07T00:41:06.990128+00:00",
   "prediction": {
-    "within_5h": 0.1835,
-    "within_24h": 0.4899,
-    "within_48h": 0.6358
+    "within_5h": 0.174,
+    "within_24h": 0.4738,
+    "within_48h": 0.6207
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 140.49822096638889,
+    "hours_since_last_reset": 141.151941505,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.289,
-    "time_pressure": 0.9801,
-    "hazard_rate": 0.027658,
-    "evidence_score": 0.1127,
-    "tibo_signal": 0.0236,
+    "time_ratio": 2.2996,
+    "time_pressure": 0.9807,
+    "hazard_rate": 0.026398,
+    "evidence_score": 0.103,
+    "tibo_signal": 0.0228,
     "community_signal": 0.058,
-    "release_signal": 0.2073,
+    "release_signal": 0.1988,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.017499999999999998,
-      "official_change": 0.12,
+      "official_change": 0.135,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8387500000000001,
+      "confidence": 0.85875,
       "reason": [
-        "Announces a new open standard 'Agent Plugins' involving multiple companies.",
-        "No mention of usage limits or resets.",
-        "User mentions receiving frequent requests for resets, indicating limit complaints.",
-        "No indication of an imminent reset; it's about past requests.",
-        "Mentions a new venture 'Discovery Loop' and recommends Codex features."
+        "Announcement of Agent Plugins standard involving multiple companies.",
+        "Mentions Codex and ChatGPT but no reset or limit discussion.",
+        "User receives frequent requests for resets, indicating limit complaints.",
+        "No explicit statement about an imminent or past reset.",
+        "Mentions Codex feature /goal and GPT-5.6 Sol, but no reset context."
       ]
     },
     "prior_applied": false,
@@ -42,7 +42,7 @@
   },
   "main_factors": [
     {
-      "factor": "140.5 hours since last reset",
+      "factor": "141.2 hours since last reset",
       "impact": "+10%",
       "score": 0.98
     },
@@ -58,8 +58,8 @@
     }
   ],
   "reasons": [
-    "140.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.11), insufficient to confirm",
-    "Main factor: 140.5 hours since last reset (+10%)"
+    "141.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.10), insufficient to confirm",
+    "Main factor: 141.2 hours since last reset (+10%)"
   ]
 }
