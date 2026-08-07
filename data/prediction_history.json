@@ -10072,8 +10072,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T10:41:06.059251Z"
   },
   {
     "prediction_time": "2026-08-05T10:31:00.245741Z",
@@ -10116,8 +10116,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T10:41:06.059251Z"
   },
   {
     "prediction_time": "2026-08-05T11:01:11.455672Z",
@@ -13225,6 +13225,55 @@
           "Announces Agent Plugins standard, an official product/policy change.",
           "No mention of usage limits or resets.",
           "Mentions receiving frequent reset requests, implying users hit limits, but no reset announcement."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T10:41:06.042356Z",
+    "prediction": {
+      "within_5h": 0.1237,
+      "within_24h": 0.3763,
+      "within_48h": 0.5231
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 151.15167676027778,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 16.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.4626,
+      "time_pressure": 0.9872,
+      "hazard_rate": 0.019478,
+      "evidence_score": 0.0551,
+      "tibo_signal": 0.0178,
+      "community_signal": 0.029,
+      "release_signal": 0.1582,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0125,
+        "official_change": 0.14250000000000002,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.91625,
+        "reason": [
+          "Text is about Codex capabilities with GPT-5.6 Sol, not about resets.",
+          "Mentions product usage but no limit complaints or reset signals.",
+          "Announces a new open standard (Agent Plugins) with partners, a product/policy change.",
+          "No mention of usage limits or resets.",
+          "Mentions receiving requests for resets, indicating users hitting limits, but not a complaint from the author."
         ]
       },
       "prior_applied": false,
