@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T17:05:26Z",
-    "author": "/u/Mr_Real_Human",
-    "text": "controversial pocket monsters - prompt: &quot;replace creature in bottom left with the man in second picture and also change the creatures name. do the same for top right creature, but use the third picture as creature replacement refrence. FireRed game version combat battle pixel artstyle&quot; &#32; submitted by &#32; /u/Mr_Real_Human [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vha66z/controversial_pocket_monsters/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T00:23:55Z",
     "author": "/u/HomerDoakQuarlesIII",
     "text": "What if. - &#32; submitted by &#32; /u/HomerDoakQuarlesIII [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhlhrm/what_if/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T17:05:26Z",
+    "author": "/u/Mr_Real_Human",
+    "text": "controversial pocket monsters - prompt: &quot;replace creature in bottom left with the man in second picture and also change the creatures name. do the same for top right creature, but use the third picture as creature replacement refrence. FireRed game version combat battle pixel artstyle&quot; &#32; submitted by &#32; /u/Mr_Real_Human [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vha66z/controversial_pocket_monsters/",
     "authority_score": 0.5
   },
   {
@@ -264,19 +264,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T02:32:19Z",
-    "author": "/u/EGOBOOSTER",
-    "text": "\"Whoever fights monsters should see to it that in the process he does not become a monster\" - &#32; submitted by &#32; /u/EGOBOOSTER [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vho9au/whoever_fights_monsters_should_see_to_it_that_in/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T02:31:29Z",
     "author": "/u/UrSecretCrush95",
     "text": "ChatGPT Voice can hear and do things I genuinely didn’t think it could. - Up until now, I’d always assumed it was basically just transcribing what I said, feeding the text into the model, and reading the response back. So out of curiosity, I asked if it could actually tell how I was speaking, not just what I was saying. So I just started throwing random tests at it. I whispered a sentence. It immediately picked up that I was whispering and even described the kind of tone I was going for. Then I switched to a dramatic loud voice, and it caught that too. Next, I tried accents. I did a West African accent ( my native accent) , and it correctly guessed the general region. Then I switched to an exaggerated American Western/cowboy accent, and it recognized that almost instantly. The part that genuinely made me stop for a second was when I pronounced “tomato” two different ways (“to-MAY-to” and “to-MAH-to”). it actually recognized BOTH pronunciation I’d used. Then I thought, “Alright, let’s see how far this goes.” I gave it a few acting prompts and asked it to improvise scenes involving fear, sarcasm, and excitement. I wasn’t expecting much, but it genuinely nailed the emotions. The pacing, the hesitation, the little laughs, the excitement… it was way more convincing than I expected. I also found out it can recognize things like whistles, clicks, claps (assuming your mic picks them up well), and other non-speech sounds. I know some of this might sound obvious if you’ve used Voice Mode a lot, but I honestly had no idea it was paying attention to all of those extra layers. The speed at which conversational AI is improving is honestly wild. A couple of years ago, I wouldn’t have imagined having a conversation like this with an AI. If this is what it can do today, I genuinely can’t picture what it’ll be like in another five or ten years. &#32; submitted by &#32; /u/UrSecretCrush95 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T02:32:19Z",
+    "author": "/u/EGOBOOSTER",
+    "text": "\"Whoever fights monsters should see to it that in the process he does not become a monster\" - &#32; submitted by &#32; /u/EGOBOOSTER [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vho9au/whoever_fights_monsters_should_see_to_it_that_in/",
     "authority_score": 0.5
   },
   {
@@ -304,19 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T04:15:39Z",
-    "author": "/u/jkris050",
-    "text": "I finally admitted most of what I use ChatGPT for is chores, and chores don't need a reasoning model - Last night I dumped a receipt into ChatGPT and asked it to split the total three ways based on who ate what. It thought. Then it thought some more. Then it handed me a correct table with two paragraphs of preamble in front of it explaining how it planned to approach the problem, which I did not ask for. That was the moment it clicked that most of what I actually use a chatbot for is chores. Renaming things. Making an email less rude. Pulling the dates out of a long thread somebody forwarded me. Turning a wall of notes into a checklist I can tick off. None of that needs a model that reasons at me first. So I started pointing the chores somewhere else. What I've been using is Ling 3.0 Tiny, out of InclusionAI, which is Ant Group's lab. Mixture of experts thing, 7.9B total but only about 1.3B active per token, and you can flip it between a thinking mode and an instant mode. I leave it on instant for the boring stuff and it comes back before I've let go of the enter key. Less slop in front of the answer too, although that might just be how I'm prompting it. The catch, and I know this sub has a loud local-model contingent: it's API only. No weights, nothing to download, you cannot run it on your own box. Its bigger sibling is open weight, this one is not, so don't get excited. It's free through Vercel's AI gateway until the 14th, which is honestly the only reason I tried it in the first place, and I have no idea what my setup looks like after that. My subscription is still there for the stuff I care about. It just stopped being the default for everything. What have you actually routed away from your main chatbot? Not the fun stuff, the chores. &#32; submitted by &#32; /u/jkris050 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhqcqj/i_finally_admitted_most_of_what_i_use_chatgpt_for/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T15:12:44Z",
     "author": "/u/Parking_Ad5541",
     "text": "Daughters Of The Gods - &#32; submitted by &#32; /u/Parking_Ad5541 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vh70xy/daughters_of_the_gods/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T05:32:23Z",
+    "author": "/u/Crafty-Morning31",
+    "text": "DeepSeek is increasing API prices - &#32; submitted by &#32; /u/Crafty-Morning31 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgva6i/deepseek_is_increasing_api_prices/",
     "authority_score": 0.5
   }
 ]
