@@ -12693,5 +12693,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T05:16:01.542045Z",
+    "prediction": {
+      "within_5h": 0.1578,
+      "within_24h": 0.4448,
+      "within_48h": 0.5929
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 145.73376040250002,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 22.3,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.3743,
+      "time_pressure": 0.984,
+      "hazard_rate": 0.02422,
+      "evidence_score": 0.0869,
+      "tibo_signal": 0.0223,
+      "community_signal": 0.0549,
+      "release_signal": 0.1953,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.017499999999999998,
+        "official_change": 0.11499999999999999,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8612500000000001,
+        "reason": [
+          "Announcement of Agent Plugins standard, an official product/policy change.",
+          "No mention of usage limits or resets.",
+          "User mentions receiving frequent requests for resets, indicating limit complaints.",
+          "No explicit statement about an imminent or past reset.",
+          "Mentions exploring /goal in Codex, a minor product feature mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
