@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T20:12:29Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T06:10:22Z",
     "author": "/u/KeanuRave100",
     "text": "A challenger emerges - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhshdw/a_challenger_emerges/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T20:12:29Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T18:41:10Z",
-    "author": "/u/Elektro121",
-    "text": "OpenAI just announced unlimited text chat with GPT-5.6 Luna - &#32; submitted by &#32; /u/Elektro121 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T06:01:56Z",
     "author": "/u/LittleWarmer",
     "text": "I asked GPT-5.5 to draw a camel in ASCII. 🐪 - This was my first time using GPT-5.5. So our first assignment together was to draw a camel in ASCII…. This was the result. 😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhsc1f/i_asked_gpt55_to_draw_a_camel_in_ascii/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T18:41:10Z",
+    "author": "/u/Elektro121",
+    "text": "OpenAI just announced unlimited text chat with GPT-5.6 Luna - &#32; submitted by &#32; /u/Elektro121 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhcupm/openai_just_announced_unlimited_text_chat_with/",
     "authority_score": 0.5
   },
   {
@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T00:50:11Z",
+    "author": "/u/Bernardmark",
+    "text": "The new desktop app is very VERY good - As someone who has migrated back and forth between the old ChatGPT Mac app and browser chat, and has never been fully happy with either of them, the newly released desktop app has been a massively pleasant surprise. Now that Chat and Work has replaced Codex and ChatGPT, we finally have a single app to rule them all. The desktop app finally has the ability to use your local device to do code things more intuitively (pardon my lack of lingo) and more importantly to interact seamlessly between the powerhouse of Work and the day to day of Chat. PETS! They finally have a purpose. They are a widget where you can easily monitor and access ongoing processes while you're away on another app and notify you with updates. And it's cute. It's kind of a modern Clippy. I love it. The UI/UX has been massively upgraded and (for my mind) more intuitive, responsive and pleasant to use. I've personally experienced much fewer bugs compared to before. It has become the app I spend the most time on while working, almost completely replacing my browser. It is just a delight to use. What do you think about the new desktop app? &#32; submitted by &#32; /u/Bernardmark [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhm25f/the_new_desktop_app_is_very_very_good/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T02:31:29Z",
     "author": "/u/UrSecretCrush95",
     "text": "ChatGPT Voice can hear and do things I genuinely didn’t think it could. - Up until now, I’d always assumed it was basically just transcribing what I said, feeding the text into the model, and reading the response back. So out of curiosity, I asked if it could actually tell how I was speaking, not just what I was saying. So I just started throwing random tests at it. I whispered a sentence. It immediately picked up that I was whispering and even described the kind of tone I was going for. Then I switched to a dramatic loud voice, and it caught that too. Next, I tried accents. I did a West African accent ( my native accent) , and it correctly guessed the general region. Then I switched to an exaggerated American Western/cowboy accent, and it recognized that almost instantly. The part that genuinely made me stop for a second was when I pronounced “tomato” two different ways (“to-MAY-to” and “to-MAH-to”). it actually recognized BOTH pronunciation I’d used. Then I thought, “Alright, let’s see how far this goes.” I gave it a few acting prompts and asked it to improvise scenes involving fear, sarcasm, and excitement. I wasn’t expecting much, but it genuinely nailed the emotions. The pacing, the hesitation, the little laughs, the excitement… it was way more convincing than I expected. I also found out it can recognize things like whistles, clicks, claps (assuming your mic picks them up well), and other non-speech sounds. I know some of this might sound obvious if you’ve used Voice Mode a lot, but I honestly had no idea it was paying attention to all of those extra layers. The speed at which conversational AI is improving is honestly wild. A couple of years ago, I wouldn’t have imagined having a conversation like this with an AI. If this is what it can do today, I genuinely can’t picture what it’ll be like in another five or ten years. &#32; submitted by &#32; /u/UrSecretCrush95 [link] &#32; [comments]",
@@ -309,14 +317,6 @@
     "text": "OpenAI is \"slowing down to enhance security\" after discovering swarms of agents started secretly coordinating months ago. OpenAI thought they had shut them down. But weeks later, Hugging Face reported the breach to the FBI, and OpenAI realized their agents had escaped. - Source: www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vgzn7l/openai_is_slowing_down_to_enhance_security_after/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T00:50:11Z",
-    "author": "/u/Bernardmark",
-    "text": "The new desktop app is very VERY good - As someone who has migrated back and forth between the old ChatGPT Mac app and browser chat, and has never been fully happy with either of them, the newly released desktop app has been a massively pleasant surprise. Now that Chat and Work has replaced Codex and ChatGPT, we finally have a single app to rule them all. The desktop app finally has the ability to use your local device to do code things more intuitively (pardon my lack of lingo) and more importantly to interact seamlessly between the powerhouse of Work and the day to day of Chat. PETS! They finally have a purpose. They are a widget where you can easily monitor and access ongoing processes while you're away on another app and notify you with updates. And it's cute. It's kind of a modern Clippy. I love it. The UI/UX has been massively upgraded and (for my mind) more intuitive, responsive and pleasant to use. I've personally experienced much fewer bugs compared to before. It has become the app I spend the most time on while working, almost completely replacing my browser. It is just a delight to use. What do you think about the new desktop app? &#32; submitted by &#32; /u/Bernardmark [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhm25f/the_new_desktop_app_is_very_very_good/",
     "authority_score": 0.5
   }
 ]
