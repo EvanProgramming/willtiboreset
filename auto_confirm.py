@@ -24,6 +24,7 @@ from model.data_models import ResetEvent, Tweet
 
 
 # Phrases that constitute an explicit reset announcement from Tibo
+# (simple substring matching, case-insensitive)
 _EXPLICIT_RESET_PHRASES = [
     "i have reset",
     "we have reset",
@@ -31,6 +32,20 @@ _EXPLICIT_RESET_PHRASES = [
     "reset usage limits",
     "limits have been reset",
     "codex reset",
+    "usage reset",
+    "reset for all",
+    "resetting",
+    "enjoy reset",
+    "we reset",
+    "another reset",
+]
+
+# Regex patterns for reset announcements that may be separated by
+# punctuation/whitespace or phrased slightly differently.
+_RESET_PATTERNS = [
+    re.compile(r"reset\s+(usage\s+)?limits?\b", re.IGNORECASE),
+    re.compile(r"(usage\s+)?limits?\s+(have\s+been\s+)?reset\b", re.IGNORECASE),
+    re.compile(r"\breset\b.*\b(now|today|tonight|enjoy|again|done)\b", re.IGNORECASE),
 ]
 
 # Proximity window to avoid duplicate reset records (seconds)
@@ -46,6 +61,22 @@ def _is_tibo_tweet(tweet: Tweet) -> bool:
     )
 
 
+def _text_matches_reset(text: str) -> bool:
+    """Check whether a text explicitly announces a reset (phrases or regex)."""
+    text_lower = text.lower()
+    # 先排除否定语境："no reset"、"never reset"、"won't reset" 等不是重置声明
+    if re.search(r"\bno\s+reset\b", text_lower) or re.search(
+        r"\b(never|won'?t|not)\s+(reset|be\s+reset)\b", text_lower
+    ):
+        return False
+    if any(phrase in text_lower for phrase in _EXPLICIT_RESET_PHRASES):
+        return True
+    for pattern in _RESET_PATTERNS:
+        if pattern.search(text_lower):
+            return True
+    return False
+
+
 def detect_auto_confirm(tweets: list[Tweet]) -> Optional[tuple[datetime, str]]:
     """
     Detect an explicit reset confirmation from Tibo's tweets.
@@ -56,8 +87,7 @@ def detect_auto_confirm(tweets: list[Tweet]) -> Optional[tuple[datetime, str]]:
     for tweet in tweets:
         if not _is_tibo_tweet(tweet):
             continue
-        text_lower = tweet.text.lower()
-        if any(phrase in text_lower for phrase in _EXPLICIT_RESET_PHRASES):
+        if _text_matches_reset(tweet.text):
             return tweet.timestamp, tweet.text
     return None
 
