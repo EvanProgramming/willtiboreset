@@ -3,6 +3,7 @@
   --accent: #00f0ff;
   --text: #ffffff;
   --muted: #888888;
+  --warn: #ffb74d;
   --border: rgba(0, 240, 255, 0.35);
   --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "SF Mono", Monaco, Inconsolata, "Fira Code", monospace;

@@ -52,7 +52,10 @@ export default function App() {
         alertEnabled={alertEnabled}
         onToggleAlert={toggleAlert}
       />
-      <PredictionHero prediction={prediction.data?.prediction} />
+      <PredictionHero
+        prediction={prediction.data?.prediction}
+        nextReset={prediction.data?.next_reset}
+      />
       <AIReasoning
         mainFactors={prediction.data?.main_factors}
         reasons={prediction.data?.reasons}

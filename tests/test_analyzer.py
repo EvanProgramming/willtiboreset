@@ -94,6 +94,41 @@ class TestSignalAnalyzer:
         assert any("tweets" in d for d in descriptions)
         assert any("hours since last reset" in d for d in descriptions)
 
+    def test_next_reset_on_schedule(self):
+        """Next reset = last reset + 7 days when not yet passed"""
+        now = datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc)
+        events = [
+            ResetEvent(
+                reset_time=now - timedelta(hours=24),
+                source=SignalSource.TWITTER,
+            ),
+        ]
+        analyzer = SignalAnalyzer()
+        features = analyzer.analyze([], events, now=now)
+
+        assert features.next_reset_time is not None
+        # last reset + 7 days = now - 24h + 168h = now + 144h
+        assert features.hours_until_next_reset == pytest_approx(144.0)
+        assert features.reset_schedule_status == "on_schedule"
+
+    def test_next_reset_overdue(self):
+        """When the weekly window has passed, roll to next cycle and mark overdue"""
+        now = datetime(2025, 7, 1, 12, 0, tzinfo=timezone.utc)
+        events = [
+            ResetEvent(
+                reset_time=now - timedelta(days=8),  # 8 days ago, > 7d window
+                source=SignalSource.TWITTER,
+            ),
+        ]
+        analyzer = SignalAnalyzer()
+        features = analyzer.analyze([], events, now=now)
+
+        assert features.next_reset_time is not None
+        assert features.reset_schedule_status == "overdue"
+        # last reset + 7d = now - 1d (passed); roll forward one more week:
+        # next = last reset + 14d = now + 6d = 144h
+        assert features.hours_until_next_reset == pytest_approx(144.0)
+
 
 def pytest_approx(expected, rel=1e-1):
     """Simple approximate comparison (avoids importing pytest at module top level)"""

@@ -301,9 +301,19 @@ def main() -> int:
         "within_48h": explanation.probability.get("48h", 0.0),
     }
 
+    # 每周重置规则：预计下次重置日期（上次实际重置 + 7 天）
+    next_reset_info = None
+    if analysis_features.next_reset_time is not None:
+        next_reset_info = {
+            "expected_time": analysis_features.next_reset_time.isoformat(),
+            "hours_until": round(analysis_features.hours_until_next_reset, 1),
+            "status": analysis_features.reset_schedule_status,
+        }
+
     signals_snapshot = {
         "tweet_count": len(tweets),
         "hours_since_last_reset": pred_features.hours_since_last_reset,
+        "next_reset": next_reset_info,
         "average_reset_interval": pred_features.average_reset_interval,
         "median_reset_interval": pred_features.median_reset_interval,
         "interval_uncertainty": pred_features.interval_uncertainty,
@@ -329,12 +339,23 @@ def main() -> int:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "prediction": prediction_dict,
         "confidence": confidence,
+        "next_reset": next_reset_info,
         "signals": signals_snapshot,
         "main_factors": [
             f.model_dump(mode="json") for f in explanation.main_factors
         ],
         "reasons": explanation.reasons,
     }
+
+    # 若已超过预期重置窗口（上周重置 + 7 天）仍未确认新重置，
+    # 在 reasons 中补充说明，便于用户理解概率为何由时间因素主导。
+    if next_reset_info and next_reset_info["status"] == "overdue":
+        output["reasons"].insert(
+            0,
+            "Expected weekly reset window (last reset + 7 days) has already "
+            "passed; no new reset confirmed yet, probability driven mainly by "
+            "time pressure",
+        )
 
     # If a reset was auto-confirmed, annotate the output WITHOUT overwriting
     # the model probabilities. Because events were reloaded before modeling,

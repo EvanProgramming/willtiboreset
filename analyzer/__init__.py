@@ -20,6 +20,12 @@ from analyzer.llm_signal import (
 )
 
 
+# 每周重置规则：默认重置间隔为 7 天。
+# 若一周内 Tibo 未提前重置，则下一次重置日期 = 上一次实际重置时间 + 7 天；
+# 若 Tibo 提前重置，则已记录的最新重置时间作为基准重新推算。
+WEEKLY_RESET_INTERVAL_DAYS: float = 7.0
+
+
 @dataclass
 class AnalysisFeatures:
     """
@@ -46,6 +52,11 @@ class AnalysisFeatures:
     reset_interval_count: int = 0
     interval_confidence: float = 0.0
 
+    # 每周重置规则相关（下次重置日期 = 上次实际重置 + 7 天）
+    next_reset_time: Optional[datetime] = None
+    hours_until_next_reset: Optional[float] = None
+    reset_schedule_status: str = "no_history"  # "on_schedule" / "overdue" / "no_history"
+
     # Metadata
     analysis_timestamp: datetime = field(
         default_factory=lambda: datetime.now(timezone.utc)
@@ -63,6 +74,19 @@ class AnalysisFeatures:
             )
         else:
             signals.append("No known historical reset record")
+
+        if self.next_reset_time is not None:
+            next_str = self.next_reset_time.strftime("%Y-%m-%d %H:%M UTC")
+            if self.reset_schedule_status == "overdue":
+                signals.append(
+                    f"Expected reset window already passed (last reset + 7d); "
+                    f"next estimated reset {next_str} (overdue)"
+                )
+            else:
+                signals.append(
+                    f"Next estimated reset (last reset + 7d): {next_str} "
+                    f"in {self.hours_until_next_reset:.1f}h"
+                )
 
         if self.avg_reset_interval_hours is not None:
             signals.append(
@@ -135,6 +159,9 @@ class SignalAnalyzer:
         max_interval: Optional[float] = None
         interval_count = 0
         interval_confidence = 0.0
+        next_reset_time: Optional[datetime] = None
+        hours_until_next: Optional[float] = None
+        schedule_status = "no_history"
 
         if reset_events:
             sorted_events = sorted(
@@ -165,6 +192,25 @@ class SignalAnalyzer:
                     interval_count, std_interval, avg_interval
                 )
 
+            # 每周重置规则：预计下次重置日期 = 上次实际重置时间 + 7 天。
+            # 若已超过该日期仍未重置（Tibo 未按周重置或声明未被捕获），
+            # 则顺延到下一个周期作为"预计下次"，并标记为 overdue。
+            if last_reset_time is not None:
+                aware_last = _to_aware(last_reset_time)
+                interval = timedelta(days=WEEKLY_RESET_INTERVAL_DAYS)
+                candidate = aware_last + interval
+                while candidate <= now:
+                    candidate += interval
+                next_reset_time = candidate
+                hours_until_next = (
+                    (candidate - now).total_seconds() / 3600.0
+                )
+                schedule_status = (
+                    "overdue"
+                    if (aware_last + interval) <= now
+                    else "on_schedule"
+                )
+
         return AnalysisFeatures(
             tweet_count=tweet_count,
             recent_tweet_count=len(recent_tweets),
@@ -180,6 +226,9 @@ class SignalAnalyzer:
             max_reset_interval_hours=max_interval,
             reset_interval_count=interval_count,
             interval_confidence=interval_confidence,
+            next_reset_time=next_reset_time,
+            hours_until_next_reset=hours_until_next,
+            reset_schedule_status=schedule_status,
             analysis_timestamp=now,
         )
 
