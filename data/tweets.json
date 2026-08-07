@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T09:41:01Z",
-    "author": "/u/cairnschaos",
-    "text": "Don't you guys hate it when - You get chat GPT (or any other AI) to make you something cool, but you can't show anyone because most people you are pals with are anti AI and will tell you off for using it 😂😭 &#32; submitted by &#32; /u/cairnschaos [link] &#32; [comments]",
+    "timestamp": "2026-08-07T17:54:49Z",
+    "author": "/u/Kvazimods",
+    "text": "Generate an image of a Sword in the Stone game if they had released it in the 90s for the SNES. Just some screenshots. The Disney animated movie. - Pretty great result. Only if the enemies made sense, it'd be perfect. &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhw0vv/dont_you_guys_hate_it_when/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
     "authority_score": 0.5
   },
   {
@@ -208,11 +208,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T17:54:49Z",
-    "author": "/u/Kvazimods",
-    "text": "Generate an image of a Sword in the Stone game if they had released it in the 90s for the SNES. Just some screenshots. The Disney animated movie. - Pretty great result. Only if the enemies made sense, it'd be perfect. &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
+    "timestamp": "2026-08-07T09:41:01Z",
+    "author": "/u/cairnschaos",
+    "text": "Don't you guys hate it when - You get chat GPT (or any other AI) to make you something cool, but you can't show anyone because most people you are pals with are anti AI and will tell you off for using it 😂😭 &#32; submitted by &#32; /u/cairnschaos [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhw0vv/dont_you_guys_hate_it_when/",
     "authority_score": 0.5
   },
   {
@@ -264,19 +264,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T15:57:41Z",
-    "author": "/u/frown-face",
-    "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh89m4/programming_in_2026/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T19:44:12Z",
     "author": "/u/No-Consequence7624",
     "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1viaoib/openais_ai_device_may_arrive_in_2027_i_got/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T15:57:41Z",
+    "author": "/u/frown-face",
+    "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh89m4/programming_in_2026/",
     "authority_score": 0.5
   },
   {
