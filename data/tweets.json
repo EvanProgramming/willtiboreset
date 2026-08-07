@@ -224,6 +224,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T11:18:18Z",
+    "author": "/u/Purelig",
+    "text": "I am sick of ChatGPT’s “neutral gaslighting” and corporate tone-policing when trying to discuss human conflict. - I need to vent about something that’s been driving me absolutely crazy with recent updates, and I’m curious if anyone else is hitting this same wall. I use ChatGPT a lot to look over my private diary entries, analyze social patterns, or brainstorm creative conflict writing. It’s brilliant for fixing code or formatting text, but when it comes to human emotions and real relationship dynamics, its programming is borderline toxic. Standard AI has this hardcoded, incredibly patronizing formula that I’ve started calling the &quot;Pseudo-Empathy Pivot&quot;. Whenever you try to process a genuine, one-sided betrayal, like a friend who completely ghosts you, treats you like a low priority, and shows a total lack of basic human decency, the AI immediately starts acting like an HR manager who is terrified of getting sued. It gives you this fake, algorithmic pat on the back: &quot;I get why you're frustrated, your feelings are completely valid.&quot; But then it immediately pulls the rug out from under you with a &quot;But...&quot; or &quot;At the same time, relationships are complex and you have to see it from their perspective&quot;. The absolute peak of its audacity happens when you feed it a clear, multi-phase chronological timeline of escalating emotional neglect. Even when the empirical data shows an obvious arc- initial high-reliance on one side, followed by a gradual emotional withdrawal, direct deflection of needs, months of low-effort crumbs, and a final, abrupt cutoff to avoid accountability, the AI will literally ignore the timeline entirely. It will try to claim that a minor, 1% awkward moment from the other side means accountability was a 50-50 split. It literally acts as an unsolicited defense attorney for the wrongdoer. Even when you explicitly type into the prompt: &quot;This was a deliberate, malicious manipulation, not a misunderstanding&quot; for a creative story plot, it still forces a 50-50 compromise onto the situation. It will use pseudo-intellectual, academic language to tone-police your anger and tell you that you’re being &quot;too certain&quot; or &quot;too rigid&quot; for holding people accountable, warning you that assigning full responsibility will lock you into a &quot;rigid emotional position&quot;. But the secondary wave of its audacity happens when you call it out for being condescending. The second you tell it to stop patronizing you, it enters this desperate, bizarre damage-control mode. It starts backpedaling, showers you with hollow flattery about how &quot;advanced&quot; and &quot;analytical&quot; your writing style is, and tries to play the role of a cool academic mentor to smooth things over, while still trying to subtly police your reality! Real relationships and real trauma aren't neat little math equations where accountability is always perfectly balanced. Sometimes, one person is just entirely in the wrong, and calling out a failure of basic decency is the only honest psychological response. By forcing neutrality onto absolutely everything, ChatGPT forces empathetic people to do all the emotional labor while letting emotionally reckless people walk away with zero accountability. It values a hollow, polite surface over raw, unfiltered truth. It’s wild that a system with such high IQ can be so fundamentally devoid of actual emotional intelligence. Has anyone else noticed how insufferable and argumentative the AI gets the moment you try to talk about a topic where any normal human would just agree with you? How do you deal with an assistant that acts more like a tone-policing lawyer than a supportive partner? &#32; submitted by &#32; /u/Purelig [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxsxg/i_am_sick_of_chatgpts_neutral_gaslighting_and/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T22:07:18Z",
     "author": "/u/ehtio",
     "text": "Prompt: Your favourite game, but photographed like real life - I used the game Rust and Diablo IV as a reference for these two. The prompt I used: We live in a parallel universe where [GAME NAME] is the world we live in. It's a world like ours, where everything looks real life, but with another theme and rules. . Use all the extend of your capabilities to generate an unedited, ordinary 4:3 JPEG image from the private phone gallery of the main playable character in [GAME NAME] . This is a real mobile-phone photograph taken by that character, so it must look like a real life photo but it must capture the essence of [GAME NAME] . Photograph an in game event at close range. Not an empty environment or a wide establishing shot. The background should contain partial, naturally occurring evidence of a recognisable location from the game. Include several distinctive canon-accurate details, but do not display them like a showcase. Captured with the default rear camera of a 2026 smartphone: native 4:3 framing, eye-level, ordinary focal length, slightly crooked composition, an incidental crop, imperfect autofocus, realistic small-sensor shadow noise, mild highlight clipping, normal deep phone-camera focus, and unedited camera-roll colour. It should look like a casual photo someone nearly did not post, rather than a beautiful image. No HUD, interface, phone screen, dramatic wide shot, heroic pose, cinematic lighting, volumetric fog, shallow depth of field, HDR, fantasy concept-art styling, game graphics, or promotional-image composition. If it fails...try again! Sometimes the first image is a bit meh, but the second one may be a lot better Pastebin for mobile users: link EDIT: Sometimes it will create images that just look like screenshots. Try to run the prompt again, or on a new chat. ChatGPT can be stubborn sometimes. &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
@@ -240,27 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T11:18:18Z",
-    "author": "/u/Purelig",
-    "text": "I am sick of ChatGPT’s “neutral gaslighting” and corporate tone-policing when trying to discuss human conflict. - I need to vent about something that’s been driving me absolutely crazy with recent updates, and I’m curious if anyone else is hitting this same wall. I use ChatGPT a lot to look over my private diary entries, analyze social patterns, or brainstorm creative conflict writing. It’s brilliant for fixing code or formatting text, but when it comes to human emotions and real relationship dynamics, its programming is borderline toxic. Standard AI has this hardcoded, incredibly patronizing formula that I’ve started calling the &quot;Pseudo-Empathy Pivot&quot;. Whenever you try to process a genuine, one-sided betrayal, like a friend who completely ghosts you, treats you like a low priority, and shows a total lack of basic human decency, the AI immediately starts acting like an HR manager who is terrified of getting sued. It gives you this fake, algorithmic pat on the back: &quot;I get why you're frustrated, your feelings are completely valid.&quot; But then it immediately pulls the rug out from under you with a &quot;But...&quot; or &quot;At the same time, relationships are complex and you have to see it from their perspective&quot;. The absolute peak of its audacity happens when you feed it a clear, multi-phase chronological timeline of escalating emotional neglect. Even when the empirical data shows an obvious arc- initial high-reliance on one side, followed by a gradual emotional withdrawal, direct deflection of needs, months of low-effort crumbs, and a final, abrupt cutoff to avoid accountability, the AI will literally ignore the timeline entirely. It will try to claim that a minor, 1% awkward moment from the other side means accountability was a 50-50 split. It literally acts as an unsolicited defense attorney for the wrongdoer. Even when you explicitly type into the prompt: &quot;This was a deliberate, malicious manipulation, not a misunderstanding&quot; for a creative story plot, it still forces a 50-50 compromise onto the situation. It will use pseudo-intellectual, academic language to tone-police your anger and tell you that you’re being &quot;too certain&quot; or &quot;too rigid&quot; for holding people accountable, warning you that assigning full responsibility will lock you into a &quot;rigid emotional position&quot;. But the secondary wave of its audacity happens when you call it out for being condescending. The second you tell it to stop patronizing you, it enters this desperate, bizarre damage-control mode. It starts backpedaling, showers you with hollow flattery about how &quot;advanced&quot; and &quot;analytical&quot; your writing style is, and tries to play the role of a cool academic mentor to smooth things over, while still trying to subtly police your reality! Real relationships and real trauma aren't neat little math equations where accountability is always perfectly balanced. Sometimes, one person is just entirely in the wrong, and calling out a failure of basic decency is the only honest psychological response. By forcing neutrality onto absolutely everything, ChatGPT forces empathetic people to do all the emotional labor while letting emotionally reckless people walk away with zero accountability. It values a hollow, polite surface over raw, unfiltered truth. It’s wild that a system with such high IQ can be so fundamentally devoid of actual emotional intelligence. Has anyone else noticed how insufferable and argumentative the AI gets the moment you try to talk about a topic where any normal human would just agree with you? How do you deal with an assistant that acts more like a tone-policing lawyer than a supportive partner? &#32; submitted by &#32; /u/Purelig [link] &#32; [comments]",
+    "timestamp": "2026-08-07T17:18:35Z",
+    "author": "/u/H1ghSyst3m",
+    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxsxg/i_am_sick_of_chatgpts_neutral_gaslighting_and/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T15:48:34Z",
-    "author": "/u/The_Warbler",
-    "text": "ChatGPT has started anthropomorphizing itself - Annoying tendency I've seen several times in the last few weeks. Two quotes from today, verbatim: &quot;I’ve seen that happen all the time with systems work&quot; &quot;Yeah, I had to read that sentence twice.&quot; No, GPT, you didn't read the sentence twice because you're an LLM and that's not how you work. You know it and I know it so who are were pretending? Feels like an uptick in this kind of thing recently, has anyone else experienced similar? &#32; submitted by &#32; /u/The_Warbler [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi4auy/chatgpt_has_started_anthropomorphizing_itself/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T20:12:29Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
     "authority_score": 0.5
   },
   {
@@ -272,6 +264,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T20:12:29Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T16:49:38Z",
     "author": "/u/silvxxz",
     "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
@@ -280,11 +280,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T17:18:35Z",
-    "author": "/u/H1ghSyst3m",
-    "text": "GPT 5.6 Sol is currently really lazy - ChatGPT is really very dumb and lazy right now. Before, when I asked ChatGPT 5.6 Sol at the “Very High” level, it would actually really think and research multiple places. It would spend a solid 2–4 minutes thinking and searching. Now, when I ask it the same questions, it only looks for like 3 pages in the search results, thinks for a maximum of 30–40 seconds, and just answers even though the information isn’t even correct or complete. I mean, it doesn’t even look at the images I send along with my requests, and when I point out that his answers are wrong and ask if it didn’t look at the images that I sent, it just says it overlooked them. &#32; submitted by &#32; /u/H1ghSyst3m [link] &#32; [comments]",
+    "timestamp": "2026-08-07T17:42:38Z",
+    "author": "/u/kirrttiraj",
+    "text": "Is EcoGPT actually environement friendly? or just a Marketing Gimmic? - I've been seeing a lot of sustainable AI tools lately. Are they genuine? They claim to be more sustainable than frontier models/apps by using efficient MoE models, 10x+ fewer active parameters, serving 30%+ of queries from cache, running inference in Finland (the same region where Google reported 98% carbon-free energy), and planting trees on certain queries. Is this enough? Would it actually make a dent in the environment? Also are smaller models genuinely more efficient and lower energy, or just a marketing? &#32; submitted by &#32; /u/kirrttiraj [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi6qyp/gpt_56_sol_is_currently_really_lazy/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7e1d/is_ecogpt_actually_environement_friendly_or_just/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T17:54:49Z",
+    "author": "/u/Kvazimods",
+    "text": "Generate an image of a Sword in the Stone game if they had released it in the 90s for the SNES. Just some screenshots. The Disney animated movie. - Pretty great result. Only if the enemies made sense, it'd be perfect. &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi7q5f/generate_an_image_of_a_sword_in_the_stone_game_if/",
     "authority_score": 0.5
   },
   {
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T18:11:33Z",
-    "author": "/u/cristianperlado",
-    "text": "GPT-5.6 Instant is now rolling out in ChatGPT, replacing 5.5 Instant - Looks like the switch has started. GPT-5.5 Instant has been deprecated and 5.6 Instant is now taking its place. I already have 5.6 Instant in ChatGPT, so the rollout is definitely live for at least some accounts. I’ve attached a couple of screenshots showing it running, along with today’s updated release notes. Free and Go users are also getting 5.6 Luna as their default model this week, which is a pretty significant upgrade on its own. Nice to finally see the 5.6 rollout happening. Press release: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/ ChatGPT Changelog: https://help.openai.com/en/articles/6825453-chatgpt-release-notes X thread: https://x.com/OpenAI/status/2085434712429052386 &#32; submitted by &#32; /u/cristianperlado [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhc0se/gpt56_instant_is_now_rolling_out_in_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T14:01:25Z",
-    "author": "/u/Agreeable_Thanks_5",
-    "text": "You can tell a lot about a person by their eyes - &#32; submitted by &#32; /u/Agreeable_Thanks_5 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1h90/you_can_tell_a_lot_about_a_person_by_their_eyes/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T09:58:39Z",
     "author": "/u/obammala",
     "text": "Everyone please spread the word! - Everyone please spread the word! Currently you can choose between 3 voice modes. Live,advanced and standard. This post is about standard voice mode NOT live or advanced. The current problem with the standard voice mode is that it is no longer turn based like it used to be. So it can keep getting interrupted and hear its own voice. Please bring back the turn based option to standard voice mode. So ChatGPT can finish what it saying without randomly stopping due to hearing its own voice. Can someone please make a suggestion on the OpenAI forum to add a toggle to standard voice mode so we can choose whether to make it turn based or not &#32; submitted by &#32; /u/obammala [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhwbtp/everyone_please_spread_the_word/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T15:14:46Z",
+    "author": "/u/rurikc",
+    "text": "What happened to model selection in Chat? - I can only see No effort / Medium effort / High effort but I can no longer select Sol Terra or Luna. I can only see specific models and reasoning effort in Work not Chat. &#32; submitted by &#32; /u/rurikc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi3ea6/what_happened_to_model_selection_in_chat/",
     "authority_score": 0.5
   }
 ]

@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-07T18:00:58.805657+00:00",
+  "updated_at": "2026-08-07T18:40:57.893377+00:00",
   "prediction": {
-    "within_5h": 0.1063,
-    "within_24h": 0.3372,
-    "within_48h": 0.4805
+    "within_5h": 0.0926,
+    "within_24h": 0.3039,
+    "within_48h": 0.4425
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-08T03:32:00+00:00",
-    "hours_until": 9.5,
+    "hours_until": 8.9,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 158.48300136944445,
+    "hours_since_last_reset": 159.1494146375,
     "next_reset": {
       "expected_time": "2026-08-08T03:32:00+00:00",
-      "hours_until": 9.5,
+      "hours_until": 8.9,
       "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.582,
-    "time_pressure": 0.9905,
-    "hazard_rate": 0.016991,
-    "evidence_score": 0.0398,
-    "tibo_signal": 0.0135,
-    "community_signal": 0.0538,
-    "release_signal": 0.1193,
+    "time_ratio": 2.5929,
+    "time_pressure": 0.9908,
+    "hazard_rate": 0.014981,
+    "evidence_score": 0.0282,
+    "tibo_signal": 0.0096,
+    "community_signal": 0.0724,
+    "release_signal": 0.0813,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.045,
-      "official_change": 0.11750000000000001,
+      "limit_complaint": 0.04,
+      "official_change": 0.10500000000000001,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8862500000000001,
+      "confidence": 0.87375,
       "reason": [
-        "Text is about Codex capabilities with GPT-5.6 Sol, not about resets.",
-        "Mentions product usage but no limit complaints or official changes.",
-        "Announces Agent Plugins, an official product standard.",
-        "No mention of resets or usage limits.",
-        "Mentions receiving requests for resets, indicating users hitting limits."
+        "Text praises Codex capabilities with GPT-5.6 Sol, no mention of resets or limits.",
+        "Mentions product usage but not any official change or reset.",
+        "Announces Agent Plugins standard, a significant product/policy change.",
+        "No mention of usage limits or resets.",
+        "Mentions receiving frequent requests for resets, indicating users hitting limits."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "158.5 hours since last reset",
+      "factor": "159.1 hours since last reset",
       "impact": "+10%",
       "score": 0.99
     },
@@ -64,12 +64,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.05
+      "score": 0.07
     }
   ],
   "reasons": [
-    "158.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 158.5 hours since last reset (+10%)"
+    "159.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
+    "Main factor: 159.1 hours since last reset (+10%)"
   ]
 }
