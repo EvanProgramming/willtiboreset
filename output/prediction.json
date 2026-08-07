@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-07T12:41:02.368728+00:00",
+  "updated_at": "2026-08-07T13:01:04.159452+00:00",
   "prediction": {
-    "within_5h": 0.1104,
-    "within_24h": 0.3466,
-    "within_48h": 0.491
+    "within_5h": 0.1169,
+    "within_24h": 0.3614,
+    "within_48h": 0.5071
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-08T03:32:00+00:00",
-    "hours_until": 14.8,
+    "hours_until": 14.5,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 153.15065778750002,
+    "hours_since_last_reset": 153.4844885297222,
     "next_reset": {
       "expected_time": "2026-08-08T03:32:00+00:00",
-      "hours_until": 14.8,
+      "hours_until": 14.5,
       "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.4951,
-    "time_pressure": 0.9882,
-    "hazard_rate": 0.017576,
-    "evidence_score": 0.0433,
-    "tibo_signal": 0.0171,
-    "community_signal": 0.0693,
-    "release_signal": 0.1309,
+    "time_ratio": 2.5006,
+    "time_pressure": 0.9883,
+    "hazard_rate": 0.018513,
+    "evidence_score": 0.049,
+    "tibo_signal": 0.018,
+    "community_signal": 0.0582,
+    "release_signal": 0.1402,
     "llm_scores": {
       "reset_intent": 0.0225,
-      "limit_complaint": 0.05500000000000001,
-      "official_change": 0.155,
+      "limit_complaint": 0.034999999999999996,
+      "official_change": 0.1575,
       "reset_confirmation": 0.02375,
-      "confidence": 0.9037499999999999,
+      "confidence": 0.9075,
       "reason": [
         "Text praises Codex capabilities with GPT-5.6 Sol, no mention of reset or limits.",
-        "Mentions product capabilities but not an official change announcement.",
+        "Minor product mention of GPT-5.6 Sol, but no official change announcement.",
         "Announces Agent Plugins standard, a significant product/policy change.",
         "No mention of usage limits or resets.",
-        "Mentions receiving frequent reset requests, indicating user complaints about limits."
+        "Mentions receiving requests for resets, indicating users hitting limits, but not complaining directly."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "153.2 hours since last reset",
+      "factor": "153.5 hours since last reset",
       "impact": "+10%",
       "score": 0.99
     },
@@ -64,12 +64,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.07
+      "score": 0.06
     }
   ],
   "reasons": [
-    "153.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 153.2 hours since last reset (+10%)"
+    "153.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.05), insufficient to confirm",
+    "Main factor: 153.5 hours since last reset (+10%)"
   ]
 }
