@@ -69,6 +69,13 @@ jobs:
       - name: Build dashboard
         run: npm run build
 
+      # Rebase before committing to survive race conditions when another
+      # commit (e.g. from a concurrent workflow run) lands on main first.
+      # git-auto-commit-action@v7 removed the `rebase` input, so we do it
+      # manually before the action.
+      - name: Pull latest to avoid push race
+        run: git pull --rebase origin main
+
       - name: Commit prediction and model state
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
@@ -76,9 +83,7 @@ jobs:
           file_pattern: "output/prediction.json output/model_performance.json data/model_state.json data/prediction_history.json history.txt data/reset_history.json data/uncertain_events.json data/tweets.json"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
-          # Rebase before pushing so the auto-commit survives race conditions
-          # when another commit lands on main while the workflow is running.
-          rebase: true
+          skip_fetch: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5

@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-01T16:25:32.325014+00:00",
+  "updated_at": "2026-08-07T01:31:36.553357+00:00",
   "prediction": {
-    "within_5h": 0.0461,
-    "within_24h": 0.1661,
-    "within_48h": 0.2584
+    "within_5h": 0.0572,
+    "within_24h": 0.206,
+    "within_48h": 0.3204
   },
-  "confidence": "high",
+  "confidence": "low",
   "signals": {
     "tweet_count": 0,
-    "hours_since_last_reset": 12.892312267777777,
-    "average_reset_interval": 58.96,
-    "median_reset_interval": 42.92,
-    "interval_uncertainty": 26.4,
+    "hours_since_last_reset": 141.9934867713889,
+    "average_reset_interval": 61.38,
+    "median_reset_interval": 46.93,
+    "interval_uncertainty": 24.0,
     "std_reset_interval": 79.61254615354608,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.2187,
-    "time_pressure": 0.2428,
-    "hazard_rate": 0.00754,
+    "time_ratio": 2.3134,
+    "time_pressure": 0.9813,
+    "hazard_rate": 0.009565,
     "evidence_score": 0.0,
     "tibo_signal": 0.0,
     "community_signal": 0.0,
@@ -29,9 +29,9 @@
   },
   "main_factors": [
     {
-      "factor": "12.9 hours since last reset",
-      "impact": "+0%",
-      "score": 0.24
+      "factor": "142.0 hours since last reset",
+      "impact": "+10%",
+      "score": 0.98
     },
     {
       "factor": "No significant reset signal",
@@ -40,8 +40,8 @@
     }
   ],
   "reasons": [
-    "12.9 hours since last reset, close to historical median interval 43 hours",
+    "142.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "No significant reset signal detected; probability constrained by time prior",
-    "Main factor: 12.9 hours since last reset (+0%)"
+    "Main factor: 142.0 hours since last reset (+10%)"
   ]
 }
