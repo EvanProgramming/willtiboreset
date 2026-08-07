@@ -9940,8 +9940,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T08:40:59.608277Z"
   },
   {
     "prediction_time": "2026-08-05T09:00:54.971107Z",
@@ -13029,6 +13029,55 @@
           "Announces a new standard (Agent Plugins) with multiple partners.",
           "No mention of usage limits or resets.",
           "Mentions receiving requests for resets, indicating users hitting limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T08:40:59.591602Z",
+    "prediction": {
+      "within_5h": 0.1122,
+      "within_24h": 0.3508,
+      "within_48h": 0.4956
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 149.14988489666666,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 18.9,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.4299,
+      "time_pressure": 0.9861,
+      "hazard_rate": 0.01784,
+      "evidence_score": 0.045,
+      "tibo_signal": 0.0154,
+      "community_signal": 0.0303,
+      "release_signal": 0.133,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.0125,
+        "official_change": 0.06999999999999999,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8637499999999999,
+        "reason": [
+          "Text is a user testimonial about Codex capabilities, no mention of resets or limits.",
+          "No official announcements or complaints about quotas.",
+          "Announcement of Agent Plugins standard, a product/policy change by OpenAI and partners.",
+          "No mention of usage limits or resets.",
+          "Mentions receiving requests for resets, indicating users hitting limits, but not a complaint from the author."
         ]
       },
       "prior_applied": false,
