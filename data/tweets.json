@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T15:57:41Z",
-    "author": "/u/frown-face",
-    "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh89m4/programming_in_2026/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T06:10:22Z",
     "author": "/u/KeanuRave100",
     "text": "A challenger emerges - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhshdw/a_challenger_emerges/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-06T15:57:41Z",
+    "author": "/u/frown-face",
+    "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh89m4/programming_in_2026/",
     "authority_score": 0.5
   },
   {
@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T00:23:55Z",
-    "author": "/u/HomerDoakQuarlesIII",
-    "text": "What if. - &#32; submitted by &#32; /u/HomerDoakQuarlesIII [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhlhrm/what_if/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T06:01:56Z",
     "author": "/u/LittleWarmer",
     "text": "I asked GPT-5.5 to draw a camel in ASCII. 🐪 - This was my first time using GPT-5.5. So our first assignment together was to draw a camel in ASCII…. This was the result. 😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhsc1f/i_asked_gpt55_to_draw_a_camel_in_ascii/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T00:23:55Z",
+    "author": "/u/HomerDoakQuarlesIII",
+    "text": "What if. - &#32; submitted by &#32; /u/HomerDoakQuarlesIII [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhlhrm/what_if/",
     "authority_score": 0.5
   },
   {
@@ -248,11 +248,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T00:50:11Z",
+    "author": "/u/Bernardmark",
+    "text": "The new desktop app is very VERY good - As someone who has migrated back and forth between the old ChatGPT Mac app and browser chat, and has never been fully happy with either of them, the newly released desktop app has been a massively pleasant surprise. Now that Chat and Work has replaced Codex and ChatGPT, we finally have a single app to rule them all. The desktop app finally has the ability to use your local device to do code things more intuitively (pardon my lack of lingo) and more importantly to interact seamlessly between the powerhouse of Work and the day to day of Chat. PETS! They finally have a purpose. They are a widget where you can easily monitor and access ongoing processes while you're away on another app and notify you with updates. And it's cute. It's kind of a modern Clippy. I love it. The UI/UX has been massively upgraded and (for my mind) more intuitive, responsive and pleasant to use. I've personally experienced much fewer bugs compared to before. It has become the app I spend the most time on while working, almost completely replacing my browser. It is just a delight to use. What do you think about the new desktop app? &#32; submitted by &#32; /u/Bernardmark [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhm25f/the_new_desktop_app_is_very_very_good/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T14:51:23Z",
     "author": "/u/mcburgs",
     "text": "ChatGPT has created basically every dinner I’ve eaten for the last year - This started pretty innocently. I’d tell ChatGPT what meat I had thawed, what vegetables were dying in the fridge, and what time dinner needed to be ready. Then I’d ask: “What can I make with this?” Around the same time, my wife became interested in Chinese home cooking, because of health reasons (we're Canadians of European descent). Authentic Chinese home cooking (not the Canadian/Chinese restaurant cuisine) usually incorporates large amounts of vegetables and uses meat more as an accent than a centrepiece, and we were both looking to lose weight and eat healthier. With the usual North American fare, pre-fab and meat-heavy meals, we were really struggling. At some point, without really meaning to, I built an entire system around it. A dedicated project, with several project files. I called it The City Wok. I sent an agent to run multiple deep web passes - I told it to go get itself a PhD in culinary arts and produce a full thesis. It did so. We built a 70+ page document called Culinary Fundamentals. I then told it to do the same thing, but it could only use Chinese language culinary web sources in its research. Now I maintain a full stock list of what I have on hand. It's easy to update and maintain. Now it knows what’s in my pantry, what jars are already open, what needs to get used, what kinds of meals we’ve had recently, and what I can realistically cook for seven people without spending four hours pretending I’m running a restaurant. Most nights I give it something like: “I’ve got 850 g of lean ground pork, bell peppers, broccoli, bean sprouts and onions. I have some Chu Hou paste I’ve never used before. Dinner by 5:30.” And it gives me a full workflow with measurements, timing, sauce ratios, prep order, substitutions and what to do if something goes wrong. I’ve also been losing weight and trying to fix my LDL cholesterol, so it builds my plate into the same dinner instead of turning the entire family meal into diet food. Since last September, I've lost 70 lbs and am just beginning to show a six-pack. The kids still get rice, noodles, potatoes, wrappers or whatever else normal people eat. My portion gets pulled before the starch or heavier sauce goes in. Same meal. Slightly different plate. The whole thing has also pushed me way further into regional Chinese cooking than I ever expected. A year ago, Chinese food mostly meant whatever came in a combo plate. Chicken balls, beef and broccoli, and cherry sauce. Now I’m cooking meals based around Sichuan, Hunan, Guizhou, Guangdong, Shaanxi, Beijing and regions I had barely heard of before. And I'm actually getting good enough at it that I understand many of the techniques and flavour profiles on my own and can hold a conversation with native Chinese people about food. I've also discovered doubanjiang, which is the most delicious food ingredient possibly on planet Earth. The Juan Cheng aged douban - oh my god. After using douban in my cooking and loving it, I made a point to find a real highly-regarded Sichuan restaurant, Nian Yi Kuai Zi in Markham, and try their mapo tofu with minced beef and duck blood so I could see what a real Chinese chef did with my new favourite ingredient - and was delighted to discover that I was basically using it correctly. I've spent hours in Chinese grocery stores, often as the only white guy in the place, taking photos of Chinese product labels and asking ChatGPT what they're for, how they're used, and how to select the best ones. I've watched quietly as Chinese people selected their own ingredients, and then used ChatGPT to determine why they made those choices. I had the agent research culinary regions of China and the differences between them, and we ended up with a regional lane selector containing 81 unique Chinese culinary traditions and regions. They're not always exact traditional dishes. Sometimes they’re practical adaptations based on what I actually own and what my kids will eat (no matter how much I try to convince them that *ma*, the Chinese word for the numbing/spicy taste of green Sichuan peppercorns, is a wonderful accent to food, they just aren't having it lol). But it’s completely changed how I think about Chinese food and cooking in general. It isn’t flawless. But overall, it has made me a much better cook, in a cuisine which would have been nearly inaccessible to me at this level before ChatGPT existed. I waste less food. I use ingredients I never would have known what to do with. I understand sauces, timing and technique much better than I did before. My monthly food costs have cratered - $3200 CAD before I started this project, under $1500 now, reliably. Simply by maintaining a core pantry with thousands of possible combinations to make. And the food is generally excellent. So yes. ChatGPT has created basically every dinner I’ve eaten for the last year. Which sounds a bit dystopian when I type it out. It's the kind of thing I hear people make fun of when discussing AI all the time. But it's been an incredible game changer for our household. It's saved us thousands of dollars, taught me a lot about another great culture and cuisine, and improved my health greatly. &#32; submitted by &#32; /u/mcburgs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vh6g09/chatgpt_has_created_basically_every_dinner_ive/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T09:28:25Z",
+    "author": "/u/SwordfishWest6860",
+    "text": "It’s not about which AI is stronger — it’s about which fits your use case - I see so many people arguing over whether GPT or Claude is better, but I think this is the wrong question to ask. These two models aren’t direct replacements for each other — they’re built for completely different scenarios. GPT feels like an all-purpose daily gateway. It shines for everyday queries, quick searches, multimodal tasks like images and voice input, and all kinds of lightweight, casual work. Claude is more like a professional workstation. It dominates long-document processing, in-depth writing, complex code analysis, and any task that requires stable, consistent, step-by-step execution. The real question isn’t “Which one is stronger?” It’s “Which one fits my current task?” If you need an AI as your daily life assistant for quick, casual help — GPT is usually more convenient. If you need an AI as a reliable production tool for serious, heavy workloads — Claude tends to be far more stable. Do you mainly use GPT or Claude right now? Which type of AI user are you? &#32; submitted by &#32; /u/SwordfishWest6860 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhvt92/its_not_about_which_ai_is_stronger_its_about/",
     "authority_score": 0.5
   },
   {
@@ -280,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T00:50:11Z",
-    "author": "/u/Bernardmark",
-    "text": "The new desktop app is very VERY good - As someone who has migrated back and forth between the old ChatGPT Mac app and browser chat, and has never been fully happy with either of them, the newly released desktop app has been a massively pleasant surprise. Now that Chat and Work has replaced Codex and ChatGPT, we finally have a single app to rule them all. The desktop app finally has the ability to use your local device to do code things more intuitively (pardon my lack of lingo) and more importantly to interact seamlessly between the powerhouse of Work and the day to day of Chat. PETS! They finally have a purpose. They are a widget where you can easily monitor and access ongoing processes while you're away on another app and notify you with updates. And it's cute. It's kind of a modern Clippy. I love it. The UI/UX has been massively upgraded and (for my mind) more intuitive, responsive and pleasant to use. I've personally experienced much fewer bugs compared to before. It has become the app I spend the most time on while working, almost completely replacing my browser. It is just a delight to use. What do you think about the new desktop app? &#32; submitted by &#32; /u/Bernardmark [link] &#32; [comments]",
+    "timestamp": "2026-08-07T08:25:39Z",
+    "author": "/u/Worth-Relation72",
+    "text": "Why is ChatGPT renaming my chat's name in spanish? - It has never done this before, but today I was asking it for help on a codeforces question (English) and I was explaining my solution to it, but was suprised to see it rename my chat in spanish(As seen in first pic and tab rename of second pic)... I am from India and don't even speak spanish, I never did... Suprised to see such random behaviour by ChatGPT &#32; submitted by &#32; /u/Worth-Relation72 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhm25f/the_new_desktop_app_is_very_very_good/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhurug/why_is_chatgpt_renaming_my_chats_name_in_spanish/",
     "authority_score": 0.5
   },
   {
@@ -301,22 +317,6 @@
     "text": "What have I missed over the past two years? - When the ChatGPT hype started, I got hooked immediately and went pretty deep into how LLMs work, prompting, tools, and using AI to improve everyday work. Unfortunately, that got me moved into an operational role where I had to train colleagues, enforce workflows, and roll out our pretty terrible corporate AI tool. It was so time-consuming—and there was so much resistance to even the basics—that for the past two years (roughly since Custom GPTs launched), I’ve only been able to follow developments from the sidelines. Privacy restrictions also mean we can’t use connectors. Now I have no idea how to catch up. What actually works reliably and is genuinely useful these days? Any recommendations? Context: I’m not a programmer. Mostly interested in general office productivity/automation and research. &#32; submitted by &#32; /u/pe1nl1ch [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhu1cq/what_have_i_missed_over_the_past_two_years/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T20:58:55Z",
-    "author": "/u/KalzK",
-    "text": "Newspapers from the bad guy's perspective - Prompt: Do a good news propaganda newspaper cover sitting on a table, the news paper is set in the [movie title] universe as seen from [faction]'s perspective, some good news, some shocking news, and a bit of bad news too, It must sound as real news, write in passive voice. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhgjzh/newspapers_from_the_bad_guys_perspective/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T07:31:11Z",
-    "author": "/u/nonedat",
-    "text": "What happened here? - I specifically instruct my project not to use the rule of three, give it a simple alternative and it still uses the rule of three. What am I doing wrong? &#32; submitted by &#32; /u/nonedat [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhtvmh/what_happened_here/",
     "authority_score": 0.5
   }
 ]
