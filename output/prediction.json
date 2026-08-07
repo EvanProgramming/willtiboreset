@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-07T16:41:10.531283+00:00",
+  "updated_at": "2026-08-07T17:01:00.928088+00:00",
   "prediction": {
-    "within_5h": 0.1027,
-    "within_24h": 0.3285,
-    "within_48h": 0.4708
+    "within_5h": 0.1047,
+    "within_24h": 0.3335,
+    "within_48h": 0.4764
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-08T03:32:00+00:00",
-    "hours_until": 10.8,
+    "hours_until": 10.5,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 157.15292514166666,
+    "hours_since_last_reset": 157.4835909175,
     "next_reset": {
       "expected_time": "2026-08-08T03:32:00+00:00",
-      "hours_until": 10.8,
+      "hours_until": 10.5,
       "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
@@ -26,23 +26,23 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.5603,
-    "time_pressure": 0.99,
-    "hazard_rate": 0.016456,
-    "evidence_score": 0.0367,
-    "tibo_signal": 0.013,
-    "community_signal": 0.0612,
-    "release_signal": 0.1139,
+    "time_ratio": 2.5657,
+    "time_pressure": 0.9901,
+    "hazard_rate": 0.016763,
+    "evidence_score": 0.0385,
+    "tibo_signal": 0.0137,
+    "community_signal": 0.039,
+    "release_signal": 0.1213,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
-      "limit_complaint": 0.04,
-      "official_change": 0.15,
+      "limit_complaint": 0.027500000000000004,
+      "official_change": 0.12,
       "reset_confirmation": 0.02375,
-      "confidence": 0.9075,
+      "confidence": 0.91375,
       "reason": [
         "Text praises Codex capabilities with GPT-5.6 Sol, no mention of resets or limits.",
-        "Mentions product capabilities but not an official change announcement.",
-        "Announces Agent Plugins standard, an official product/policy change.",
+        "Mentions product usage but not any official change or reset.",
+        "Announces Agent Plugins standard, a significant product/policy change.",
         "No mention of usage limits or resets.",
         "Mentions receiving requests for resets, indicating users hitting limits."
       ]
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "157.2 hours since last reset",
+      "factor": "157.5 hours since last reset",
       "impact": "+10%",
       "score": 0.99
     },
@@ -64,12 +64,12 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.06
+      "score": 0.04
     }
   ],
   "reasons": [
-    "157.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "157.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 157.2 hours since last reset (+10%)"
+    "Main factor: 157.5 hours since last reset (+10%)"
   ]
 }
