@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T10:58:46Z",
-    "author": "/u/KeanuRave100",
-    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T14:16:05Z",
     "author": "/u/notkilleveryoneist",
     "text": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1uqz/bernie_sanders_is_worried_were_living_through_a/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T10:58:46Z",
+    "author": "/u/KeanuRave100",
+    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
     "authority_score": 0.5
   },
   {
@@ -200,6 +200,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T10:56:23Z",
+    "author": "/u/The_Digital_Hearts",
+    "text": "ChatGPT 6.0 Coming Next Week? - Written by a reputable leaker @syntheavedd wrote: 🚨 EXCLUSIVE: OpenAI are preparing to launch Astra imminently, targeting next week. Their next major model, Astra is a new pretrain - the largest model OpenAI have trained since GPT-4.5. Their most recent dogfood checkpoint of the model, internally known as &quot;mewfour&quot;, is the Release Candidate. --- I had to look up what he meant about &quot;dogfood checkpoint&quot; because I'm not that tech savvy to think the term dogfood was a positive description. Turns out in the tech industry dogfood checkpoint is actually a positive term meaning good enough the manufacturer is eating it which is a weird way of saying how good something is but hey tech bros are our future so grab a bowl and get in line. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxdll/chatgpt_60_coming_next_week/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T15:57:41Z",
     "author": "/u/frown-face",
     "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
@@ -216,14 +224,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T10:56:23Z",
-    "author": "/u/The_Digital_Hearts",
-    "text": "ChatGPT 6.0 Coming Next Week? - Written by a reputable leaker @syntheavedd wrote: 🚨 EXCLUSIVE: OpenAI are preparing to launch Astra imminently, targeting next week. Their next major model, Astra is a new pretrain - the largest model OpenAI have trained since GPT-4.5. Their most recent dogfood checkpoint of the model, internally known as &quot;mewfour&quot;, is the Release Candidate. --- I had to look up what he meant about &quot;dogfood checkpoint&quot; because I'm not that tech savvy to think the term dogfood was a positive description. Turns out in the tech industry dogfood checkpoint is actually a positive term meaning good enough the manufacturer is eating it which is a weird way of saying how good something is but hey tech bros are our future so grab a bowl and get in line. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxdll/chatgpt_60_coming_next_week/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T11:18:18Z",
     "author": "/u/Purelig",
     "text": "I am sick of ChatGPT’s “neutral gaslighting” and corporate tone-policing when trying to discuss human conflict. - I need to vent about something that’s been driving me absolutely crazy with recent updates, and I’m curious if anyone else is hitting this same wall. I use ChatGPT a lot to look over my private diary entries, analyze social patterns, or brainstorm creative conflict writing. It’s brilliant for fixing code or formatting text, but when it comes to human emotions and real relationship dynamics, its programming is borderline toxic. Standard AI has this hardcoded, incredibly patronizing formula that I’ve started calling the &quot;Pseudo-Empathy Pivot&quot;. Whenever you try to process a genuine, one-sided betrayal, like a friend who completely ghosts you, treats you like a low priority, and shows a total lack of basic human decency, the AI immediately starts acting like an HR manager who is terrified of getting sued. It gives you this fake, algorithmic pat on the back: &quot;I get why you're frustrated, your feelings are completely valid.&quot; But then it immediately pulls the rug out from under you with a &quot;But...&quot; or &quot;At the same time, relationships are complex and you have to see it from their perspective&quot;. The absolute peak of its audacity happens when you feed it a clear, multi-phase chronological timeline of escalating emotional neglect. Even when the empirical data shows an obvious arc- initial high-reliance on one side, followed by a gradual emotional withdrawal, direct deflection of needs, months of low-effort crumbs, and a final, abrupt cutoff to avoid accountability, the AI will literally ignore the timeline entirely. It will try to claim that a minor, 1% awkward moment from the other side means accountability was a 50-50 split. It literally acts as an unsolicited defense attorney for the wrongdoer. Even when you explicitly type into the prompt: &quot;This was a deliberate, malicious manipulation, not a misunderstanding&quot; for a creative story plot, it still forces a 50-50 compromise onto the situation. It will use pseudo-intellectual, academic language to tone-police your anger and tell you that you’re being &quot;too certain&quot; or &quot;too rigid&quot; for holding people accountable, warning you that assigning full responsibility will lock you into a &quot;rigid emotional position&quot;. But the secondary wave of its audacity happens when you call it out for being condescending. The second you tell it to stop patronizing you, it enters this desperate, bizarre damage-control mode. It starts backpedaling, showers you with hollow flattery about how &quot;advanced&quot; and &quot;analytical&quot; your writing style is, and tries to play the role of a cool academic mentor to smooth things over, while still trying to subtly police your reality! Real relationships and real trauma aren't neat little math equations where accountability is always perfectly balanced. Sometimes, one person is just entirely in the wrong, and calling out a failure of basic decency is the only honest psychological response. By forcing neutrality onto absolutely everything, ChatGPT forces empathetic people to do all the emotional labor while letting emotionally reckless people walk away with zero accountability. It values a hollow, polite surface over raw, unfiltered truth. It’s wild that a system with such high IQ can be so fundamentally devoid of actual emotional intelligence. Has anyone else noticed how insufferable and argumentative the AI gets the moment you try to talk about a topic where any normal human would just agree with you? How do you deal with an assistant that acts more like a tone-policing lawyer than a supportive partner? &#32; submitted by &#32; /u/Purelig [link] &#32; [comments]",
@@ -232,11 +232,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T20:12:29Z",
-    "author": "/u/ExpensiveCoat8912",
-    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
+    "timestamp": "2026-08-07T15:03:50Z",
+    "author": "/u/Geist777",
+    "text": "A Crossover That Was Never Meant to Exist - The prompt I used: Imagine a single coherent reality in which the worlds of [FILM TITLE 1] and [FILM TITLE 2] have always existed together. Their characters, locations, technology, creatures, social rules, dangers and visual identity must coexist naturally in one believable world, rather than looking like two separate franchises pasted into the same frame. Generate a grounded, photorealistic scene depicting a small but consequential everyday incident at the exact point where these two worlds overlap. The scene should tell a clear story without needing any written explanation: someone or something from [FILM TITLE 1] is reacting to, using, avoiding, helping, interrupting, or accidentally causing a situation involving someone or something from [FILM TITLE 2]. Choose the most interesting location where both worlds could plausibly meet. Include a foreground subject actively involved in the incident, a secondary reaction somewhere nearby, and environmental clues from both universes woven naturally into the setting. The crossover should feel functional and lived-in: signs of shared history, improvised adaptations, mixed architecture, blended everyday objects, and background details that imply people have learned to live with both realities. Do not make it a versus battle, a character lineup, a fan poster, a promotional still, a multiverse portal scene, or a split composition. Avoid the most obvious crossover idea. Prioritise an unexpected interaction that reveals how strange, funny, tense or emotionally meaningful daily life would be in this combined world. The image must look like a high-budget live-action production photographed on location: physically believable scale, realistic materials, natural human reactions, subtle imperfections, coherent perspective, consistent shadows, and lighting that is motivated by the actual environment. Make both source universes recognisable through accurate visual details, iconic objects, clothing, creatures, locations or technology, but never add titles, logos, captions, watermarks, UI elements or readable franchise names. Use a 16:9 landscape frame, medium-wide eye-level camera angle, a clear focal subject, layered background storytelling, natural colour grading, detailed practical textures, and realistic depth. The result should feel like one authentic frame from a film that was never made. &#32; submitted by &#32; /u/Geist777 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi33vx/a_crossover_that_was_never_meant_to_exist/",
     "authority_score": 0.5
   },
   {
@@ -248,11 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T15:03:50Z",
-    "author": "/u/Geist777",
-    "text": "A Crossover That Was Never Meant to Exist - The prompt I used: Imagine a single coherent reality in which the worlds of [FILM TITLE 1] and [FILM TITLE 2] have always existed together. Their characters, locations, technology, creatures, social rules, dangers and visual identity must coexist naturally in one believable world, rather than looking like two separate franchises pasted into the same frame. Generate a grounded, photorealistic scene depicting a small but consequential everyday incident at the exact point where these two worlds overlap. The scene should tell a clear story without needing any written explanation: someone or something from [FILM TITLE 1] is reacting to, using, avoiding, helping, interrupting, or accidentally causing a situation involving someone or something from [FILM TITLE 2]. Choose the most interesting location where both worlds could plausibly meet. Include a foreground subject actively involved in the incident, a secondary reaction somewhere nearby, and environmental clues from both universes woven naturally into the setting. The crossover should feel functional and lived-in: signs of shared history, improvised adaptations, mixed architecture, blended everyday objects, and background details that imply people have learned to live with both realities. Do not make it a versus battle, a character lineup, a fan poster, a promotional still, a multiverse portal scene, or a split composition. Avoid the most obvious crossover idea. Prioritise an unexpected interaction that reveals how strange, funny, tense or emotionally meaningful daily life would be in this combined world. The image must look like a high-budget live-action production photographed on location: physically believable scale, realistic materials, natural human reactions, subtle imperfections, coherent perspective, consistent shadows, and lighting that is motivated by the actual environment. Make both source universes recognisable through accurate visual details, iconic objects, clothing, creatures, locations or technology, but never add titles, logos, captions, watermarks, UI elements or readable franchise names. Use a 16:9 landscape frame, medium-wide eye-level camera angle, a clear focal subject, layered background storytelling, natural colour grading, detailed practical textures, and realistic depth. The result should feel like one authentic frame from a film that was never made. &#32; submitted by &#32; /u/Geist777 [link] &#32; [comments]",
+    "timestamp": "2026-08-06T20:12:29Z",
+    "author": "/u/ExpensiveCoat8912",
+    "text": "Vibe coding - &#32; submitted by &#32; /u/ExpensiveCoat8912 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi33vx/a_crossover_that_was_never_meant_to_exist/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfbtm/vibe_coding/",
     "authority_score": 0.5
   },
   {
@@ -280,6 +280,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T15:48:34Z",
+    "author": "/u/The_Warbler",
+    "text": "ChatGPT has started anthropomorphizing itself - Annoying tendency I've seen several times in the last few weeks. Two quotes from today, verbatim: &quot;I’ve seen that happen all the time with systems work&quot; &quot;Yeah, I had to read that sentence twice.&quot; No, GPT, you didn't read the sentence twice because you're an LLM and that's not how you work. You know it and I know it so who are were pretending? Feels like an uptick in this kind of thing recently, has anyone else experienced similar? &#32; submitted by &#32; /u/The_Warbler [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi4auy/chatgpt_has_started_anthropomorphizing_itself/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T09:58:39Z",
     "author": "/u/obammala",
     "text": "Everyone please spread the word! - Everyone please spread the word! Currently you can choose between 3 voice modes. Live,advanced and standard. This post is about standard voice mode NOT live or advanced. The current problem with the standard voice mode is that it is no longer turn based like it used to be. So it can keep getting interrupted and hear its own voice. Please bring back the turn based option to standard voice mode. So ChatGPT can finish what it saying without randomly stopping due to hearing its own voice. Can someone please make a suggestion on the OpenAI forum to add a toggle to standard voice mode so we can choose whether to make it turn based or not &#32; submitted by &#32; /u/obammala [link] &#32; [comments]",
@@ -296,27 +304,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T12:36:49Z",
+    "author": "/u/GreenEnhanced",
+    "text": "I’m a teacher and this year I want to generate lots of images for fun things in my classroom. Is the paid version of CGPT my best option? - I’ve mainly only used ChatGpt for my AI needs. I know their image creating has gotten better over time but now if I buy the $20 subscription don’t I still have limits? What’s the best thing for me to use to pump out 30-50 images in one sitting? Ironically I asked ChatGPT this but I didn’t consider the answer very helpful &#32; submitted by &#32; /u/GreenEnhanced [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhzgin/im_a_teacher_and_this_year_i_want_to_generate/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T20:16:02Z",
     "author": "/u/WholeSeason7147",
     "text": "NEW: OpenAI’s device - a human-like smart speaker - will look like a doughnut and be the size of a hockey puck. It meant to be held. It has a camera, speakers, microphones, lights and, most notably, moving parts to show interactivity. It’ll be $300-400. - A highly anticipated new device from OpenAI will have a unique look, complete with moving parts that help give it personality, and likely cost more than $300, according to people familiar with the matter. The product — essentially a smart speaker without a display — will be shaped like a doughnut that’s roughly the size of a hockey puck, said the people, who asked not to be identified because the work is confidential. The idea is to make the device easy to carry around the home with one hand. &#32; submitted by &#32; /u/WholeSeason7147 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhfff4/new_openais_device_a_humanlike_smart_speaker_will/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T12:26:42Z",
-    "author": "/u/redditnachotacos",
-    "text": "3 AM is the new em dash - The em dash didn't go away. It quietly became a thought at 3 AM. Seriously though, why is ChatGPT and other AI obsessed with 1AM/2AM/3AM thoughts/actions. Do they think all humans have Eureka moments after midnight? Most of us are just sleeping. &#32; submitted by &#32; /u/redditnachotacos [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhz8gt/3_am_is_the_new_em_dash/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T13:14:51Z",
-    "author": "/u/Goldenchild123",
-    "text": "A great use-case for LLMs -A personalized history podcast you can interrupt to ask the questions - I used LLMs + TTS to build the history-learning tool I always wanted: type any topic and it researches and writes a full two-host episode — narration + artwork — in a couple of minutes. The part I think is actually novel: you can interrupt it. Mid-episode you tap the mic, ask a question out loud (&quot;wait — did the Trojan War actually happen?&quot;), and the hosts stop, answer, then pick the story back up. Because it's history, I made grounding non-negotiable — claims are tied to real sources rather than invented, and there's a quiz at the end. The live demo is the real history behind the Odyssey; it plays without signing up. Curious what this crowd thinks historai.ca &#32; submitted by &#32; /u/Goldenchild123 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi0c9y/a_great_usecase_for_llms_a_personalized_history/",
     "authority_score": 0.5
   }
 ]
