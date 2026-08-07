@@ -9192,8 +9192,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-07T00:01:53.618262Z"
   },
   {
     "prediction_time": "2026-08-05T00:30:59.470215Z",
@@ -13015,6 +13015,50 @@
           "User receives frequent requests for resets, indicating limit complaints.",
           "No indication of an imminent or confirmed reset.",
           "Mentions a new company and product but no reset-related content."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-07T00:01:53.601362Z",
+    "prediction": {
+      "within_5h": 0.1835,
+      "within_24h": 0.4899,
+      "within_48h": 0.6358
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 140.49822096638889,
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.289,
+      "time_pressure": 0.9801,
+      "hazard_rate": 0.027658,
+      "evidence_score": 0.1127,
+      "tibo_signal": 0.0236,
+      "community_signal": 0.058,
+      "release_signal": 0.2073,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.017499999999999998,
+        "official_change": 0.12,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.8387500000000001,
+        "reason": [
+          "Announces a new open standard 'Agent Plugins' involving multiple companies.",
+          "No mention of usage limits or resets.",
+          "User mentions receiving frequent requests for resets, indicating limit complaints.",
+          "No indication of an imminent reset; it's about past requests.",
+          "Mentions a new venture 'Discovery Loop' and recommends Codex features."
         ]
       },
       "prior_applied": false,
