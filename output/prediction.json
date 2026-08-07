@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T03:39:20.312649+00:00",
+  "updated_at": "2026-08-07T03:40:59.237937+00:00",
   "prediction": {
-    "within_5h": 0.1622,
-    "within_24h": 0.4529,
-    "within_48h": 0.6008
+    "within_5h": 0.1621,
+    "within_24h": 0.4527,
+    "within_48h": 0.6006
   },
   "confidence": "medium",
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 144.12230886055556,
+    "hours_since_last_reset": 144.14978811055556,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,25 +16,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.348,
+    "time_ratio": 2.3485,
     "time_pressure": 0.9829,
-    "hazard_rate": 0.024817,
-    "evidence_score": 0.0912,
-    "tibo_signal": 0.0228,
+    "hazard_rate": 0.024802,
+    "evidence_score": 0.0911,
+    "tibo_signal": 0.022,
     "community_signal": 0.0563,
-    "release_signal": 0.1999,
+    "release_signal": 0.1918,
     "llm_scores": {
       "reset_intent": 0.017499999999999998,
       "limit_complaint": 0.017499999999999998,
-      "official_change": 0.14750000000000002,
+      "official_change": 0.13,
       "reset_confirmation": 0.02375,
-      "confidence": 0.8724999999999999,
+      "confidence": 0.85375,
       "reason": [
-        "Announcement of Agent Plugins standard involving multiple partners.",
+        "Announcement of Agent Plugins standard involving multiple partners, a major product/policy change.",
         "No mention of usage limits or resets.",
-        "User receives frequent requests for resets, indicating limit complaints.",
-        "No indication of an imminent or confirmed reset.",
-        "Mentions exploring /goal in Codex, a feature, but no reset context."
+        "User receives frequent requests for resets, indicating widespread limit complaints.",
+        "No explicit statement about an imminent or past reset; only mentions occasionally obliging.",
+        "Mentions exploring /goal in Codex and GPT-5.6 Sol, a minor product feature mention."
       ]
     },
     "prior_applied": false,
