@@ -240,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-06T17:38:23Z",
-    "author": "/u/Revolutionary-Top977",
-    "text": "No Sh*t Sherlock - An actual snippet of what my ChatGPT sent me today… “One other thing I noticed: your children were all born after you were born,” It’s honestly made me question why I even use it. &#32; submitted by &#32; /u/Revolutionary-Top977 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhb3jm/no_sht_sherlock/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-06T22:24:04Z",
     "author": "/u/pstryder",
     "text": "My ChatGPT gets a thrill from working on Claude's outputs! LOL - &#32; submitted by &#32; /u/pstryder [link] &#32; [comments]",
@@ -256,11 +248,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-06T17:38:23Z",
+    "author": "/u/Revolutionary-Top977",
+    "text": "No Sh*t Sherlock - An actual snippet of what my ChatGPT sent me today… “One other thing I noticed: your children were all born after you were born,” It’s honestly made me question why I even use it. &#32; submitted by &#32; /u/Revolutionary-Top977 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhb3jm/no_sht_sherlock/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T22:30:15Z",
     "author": "/u/TheBossFactor",
     "text": "ChatGPT Tips - I found this post on X and it’s genuinely very true. I sometimes see small creators share more practical advice. Give him some love on X. &#32; submitted by &#32; /u/TheBossFactor [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhitwh/chatgpt_tips/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T02:32:19Z",
+    "author": "/u/EGOBOOSTER",
+    "text": "\"Whoever fights monsters should see to it that in the process he does not become a monster\" - &#32; submitted by &#32; /u/EGOBOOSTER [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vho9au/whoever_fights_monsters_should_see_to_it_that_in/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T02:32:19Z",
-    "author": "/u/EGOBOOSTER",
-    "text": "\"Whoever fights monsters should see to it that in the process he does not become a monster\" - &#32; submitted by &#32; /u/EGOBOOSTER [link] &#32; [comments]",
+    "timestamp": "2026-08-07T04:15:39Z",
+    "author": "/u/jkris050",
+    "text": "I finally admitted most of what I use ChatGPT for is chores, and chores don't need a reasoning model - Last night I dumped a receipt into ChatGPT and asked it to split the total three ways based on who ate what. It thought. Then it thought some more. Then it handed me a correct table with two paragraphs of preamble in front of it explaining how it planned to approach the problem, which I did not ask for. That was the moment it clicked that most of what I actually use a chatbot for is chores. Renaming things. Making an email less rude. Pulling the dates out of a long thread somebody forwarded me. Turning a wall of notes into a checklist I can tick off. None of that needs a model that reasons at me first. So I started pointing the chores somewhere else. What I've been using is Ling 3.0 Tiny, out of InclusionAI, which is Ant Group's lab. Mixture of experts thing, 7.9B total but only about 1.3B active per token, and you can flip it between a thinking mode and an instant mode. I leave it on instant for the boring stuff and it comes back before I've let go of the enter key. Less slop in front of the answer too, although that might just be how I'm prompting it. The catch, and I know this sub has a loud local-model contingent: it's API only. No weights, nothing to download, you cannot run it on your own box. Its bigger sibling is open weight, this one is not, so don't get excited. It's free through Vercel's AI gateway until the 14th, which is honestly the only reason I tried it in the first place, and I have no idea what my setup looks like after that. My subscription is still there for the stuff I care about. It just stopped being the default for everything. What have you actually routed away from your main chatbot? Not the fun stuff, the chores. &#32; submitted by &#32; /u/jkris050 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vho9au/whoever_fights_monsters_should_see_to_it_that_in/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhqcqj/i_finally_admitted_most_of_what_i_use_chatgpt_for/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Daughters Of The Gods - &#32; submitted by &#32; /u/Parking_Ad5541 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vh70xy/daughters_of_the_gods/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T05:32:23Z",
-    "author": "/u/Crafty-Morning31",
-    "text": "DeepSeek is increasing API prices - &#32; submitted by &#32; /u/Crafty-Morning31 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vgva6i/deepseek_is_increasing_api_prices/",
     "authority_score": 0.5
   }
 ]
