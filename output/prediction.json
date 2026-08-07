@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T01:31:36.553357+00:00",
+  "updated_at": "2026-08-07T03:39:20.312649+00:00",
   "prediction": {
-    "within_5h": 0.0572,
-    "within_24h": 0.206,
-    "within_48h": 0.3204
+    "within_5h": 0.1622,
+    "within_24h": 0.4529,
+    "within_48h": 0.6008
   },
-  "confidence": "low",
+  "confidence": "medium",
   "signals": {
-    "tweet_count": 0,
-    "hours_since_last_reset": 141.9934867713889,
+    "tweet_count": 40,
+    "hours_since_last_reset": 144.12230886055556,
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 24.0,
@@ -16,32 +16,50 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.3134,
-    "time_pressure": 0.9813,
-    "hazard_rate": 0.009565,
-    "evidence_score": 0.0,
-    "tibo_signal": 0.0,
-    "community_signal": 0.0,
-    "release_signal": 0.0,
-    "llm_scores": null,
+    "time_ratio": 2.348,
+    "time_pressure": 0.9829,
+    "hazard_rate": 0.024817,
+    "evidence_score": 0.0912,
+    "tibo_signal": 0.0228,
+    "community_signal": 0.0563,
+    "release_signal": 0.1999,
+    "llm_scores": {
+      "reset_intent": 0.017499999999999998,
+      "limit_complaint": 0.017499999999999998,
+      "official_change": 0.14750000000000002,
+      "reset_confirmation": 0.02375,
+      "confidence": 0.8724999999999999,
+      "reason": [
+        "Announcement of Agent Plugins standard involving multiple partners.",
+        "No mention of usage limits or resets.",
+        "User receives frequent requests for resets, indicating limit complaints.",
+        "No indication of an imminent or confirmed reset.",
+        "Mentions exploring /goal in Codex, a feature, but no reset context."
+      ]
+    },
     "prior_applied": false,
     "interval_count": 11
   },
   "main_factors": [
     {
-      "factor": "142.0 hours since last reset",
+      "factor": "144.1 hours since last reset",
       "impact": "+10%",
       "score": 0.98
     },
     {
-      "factor": "No significant reset signal",
-      "impact": "Probability constrained by time prior",
-      "score": null
+      "factor": "Some reset discussion detected",
+      "impact": "+0%",
+      "score": 0.02
+    },
+    {
+      "factor": "Minor community limit complaints",
+      "impact": "+0%",
+      "score": 0.06
     }
   ],
   "reasons": [
-    "142.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "No significant reset signal detected; probability constrained by time prior",
-    "Main factor: 142.0 hours since last reset (+10%)"
+    "144.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.09), insufficient to confirm",
+    "Main factor: 144.1 hours since last reset (+10%)"
   ]
 }
