@@ -249,6 +249,15 @@ def main() -> int:
         max((e.reset_time for e in events), default=None) if events else None
     )
 
+    # 每周重置间隔：有历史记录时，预计间隔为 7 天（168h）。
+    # 注意：不能直接用 hours_since + hours_until，因为当窗口已过被顺延后,
+    # hours_until 会变成下一周期的值，导致 sum = 336h（14天）而非 168h。
+    expected_weekly_interval = (
+        7 * 24
+        if analysis_features.hours_since_last_reset is not None
+        else None
+    )
+
     print("\n[3/4] Running prediction model...")
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
@@ -260,6 +269,7 @@ def main() -> int:
         interval_count=analysis_features.reset_interval_count,
         model_state=model_state,
         recent_reset_time=recent_reset_time,
+        expected_weekly_interval_hours=expected_weekly_interval,
     )
 
     predictor = ResetPredictor(

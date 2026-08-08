@@ -1,29 +1,29 @@
 {
-  "total_predictions": 289,
-  "resolved_predictions": 219,
-  "overall_brier_score": 0.09802909885844749,
-  "overall_accuracy": 0.9360730593607306,
+  "total_predictions": 291,
+  "resolved_predictions": 266,
+  "overall_brier_score": 0.09723702461152882,
+  "overall_accuracy": 0.9461152882205514,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 219,
-      "brier_score": 0.009696592374429222,
+      "total": 266,
+      "brier_score": 0.009412262932330828,
       "accuracy": 1.0,
-      "calibration_error": 0.09469360730593607,
+      "calibration_error": 0.09373609022556391,
       "bins": [
         {
           "bin_start": 0.0,
           "bin_end": 0.1,
-          "predicted_mean": 0.07888013698630138,
+          "predicted_mean": 0.08055133689839572,
           "actual_frequency": 0.0,
-          "count": 146
+          "count": 187
         },
         {
           "bin_start": 0.1,
           "bin_end": 0.2,
-          "predicted_mean": 0.12632054794520547,
+          "predicted_mean": 0.12494556962025316,
           "actual_frequency": 0.0,
-          "count": 73
+          "count": 79
         },
         {
           "bin_start": 0.2,
@@ -85,10 +85,10 @@
     },
     {
       "horizon_hours": 24,
-      "total": 219,
-      "brier_score": 0.0942497411415525,
+      "total": 266,
+      "brier_score": 0.09299104417293233,
       "accuracy": 1.0,
-      "calibration_error": 0.3003237442922374,
+      "calibration_error": 0.2991988721804511,
       "bins": [
         {
           "bin_start": 0.0,
@@ -107,16 +107,16 @@
         {
           "bin_start": 0.2,
           "bin_end": 0.3,
-          "predicted_mean": 0.2569140625,
+          "predicted_mean": 0.26071910828025474,
           "actual_frequency": 0.0,
-          "count": 128
+          "count": 157
         },
         {
           "bin_start": 0.3,
           "bin_end": 0.4,
-          "predicted_mean": 0.337734375,
+          "predicted_mean": 0.33394024390243904,
           "actual_frequency": 0.0,
-          "count": 64
+          "count": 82
         },
         {
           "bin_start": 0.4,
@@ -164,10 +164,10 @@
     },
     {
       "horizon_hours": 48,
-      "total": 219,
-      "brier_score": 0.1901409630593607,
-      "accuracy": 0.8082191780821918,
-      "calibration_error": 0.4299310502283106,
+      "total": 266,
+      "brier_score": 0.1893077667293233,
+      "accuracy": 0.8383458646616542,
+      "calibration_error": 0.42985526315789474,
       "bins": [
         {
           "bin_start": 0.0,
@@ -193,23 +193,23 @@
         {
           "bin_start": 0.3,
           "bin_end": 0.4,
-          "predicted_mean": 0.3646703296703297,
+          "predicted_mean": 0.3673792079207921,
           "actual_frequency": 0.0,
-          "count": 91
+          "count": 101
         },
         {
           "bin_start": 0.4,
           "bin_end": 0.5,
-          "predicted_mean": 0.43993953488372095,
+          "predicted_mean": 0.43899262295081964,
           "actual_frequency": 0.0,
-          "count": 86
+          "count": 122
         },
         {
           "bin_start": 0.5,
           "bin_end": 0.6,
-          "predicted_mean": 0.5423702702702702,
+          "predicted_mean": 0.5424131578947368,
           "actual_frequency": 0.0,
-          "count": 37
+          "count": 38
         },
         {
           "bin_start": 0.6,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-07T05:11:16.637405Z"
+  "updated_at": "2026-08-08T04:38:53.473415Z"
 }
