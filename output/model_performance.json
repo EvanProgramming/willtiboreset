@@ -1,15 +1,15 @@
 {
-  "total_predictions": 309,
-  "resolved_predictions": 282,
-  "overall_brier_score": 0.09908276561465722,
-  "overall_accuracy": 0.9361702127659575,
+  "total_predictions": 310,
+  "resolved_predictions": 284,
+  "overall_brier_score": 0.09935296637323944,
+  "overall_accuracy": 0.9354460093896714,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 282,
-      "brier_score": 0.00966382145390071,
+      "total": 284,
+      "brier_score": 0.009696806549295774,
       "accuracy": 1.0,
-      "calibration_error": 0.09490460992907802,
+      "calibration_error": 0.09507816901408452,
       "bins": [
         {
           "bin_start": 0.0,
@@ -21,9 +21,9 @@
         {
           "bin_start": 0.1,
           "bin_end": 0.2,
-          "predicted_mean": 0.12543406593406595,
+          "predicted_mean": 0.12530752688172045,
           "actual_frequency": 0.0,
-          "count": 91
+          "count": 93
         },
         {
           "bin_start": 0.2,
@@ -85,10 +85,10 @@
     },
     {
       "horizon_hours": 24,
-      "total": 282,
-      "brier_score": 0.09494882776595745,
+      "total": 284,
+      "brier_score": 0.09523006538732394,
       "accuracy": 1.0,
-      "calibration_error": 0.30214290780141845,
+      "calibration_error": 0.3025989436619719,
       "bins": [
         {
           "bin_start": 0.0,
@@ -114,9 +114,9 @@
         {
           "bin_start": 0.3,
           "bin_end": 0.4,
-          "predicted_mean": 0.33916236559139784,
+          "predicted_mean": 0.3397463157894737,
           "actual_frequency": 0.0,
-          "count": 93
+          "count": 95
         },
         {
           "bin_start": 0.4,
@@ -164,10 +164,10 @@
     },
     {
       "horizon_hours": 48,
-      "total": 282,
-      "brier_score": 0.19263564762411348,
-      "accuracy": 0.8085106382978723,
-      "calibration_error": 0.4334109929078015,
+      "total": 284,
+      "brier_score": 0.1931320271830986,
+      "accuracy": 0.8063380281690141,
+      "calibration_error": 0.43396901408450705,
       "bins": [
         {
           "bin_start": 0.0,
@@ -200,16 +200,16 @@
         {
           "bin_start": 0.4,
           "bin_end": 0.5,
-          "predicted_mean": 0.4394593495934959,
+          "predicted_mean": 0.4399072580645161,
           "actual_frequency": 0.0,
-          "count": 123
+          "count": 124
         },
         {
           "bin_start": 0.5,
           "bin_end": 0.6,
-          "predicted_mean": 0.5392708333333334,
+          "predicted_mean": 0.5390877551020408,
           "actual_frequency": 0.0,
-          "count": 48
+          "count": 49
         },
         {
           "bin_start": 0.6,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-08T13:00:53.280916Z"
+  "updated_at": "2026-08-08T13:40:53.943427Z"
 }
