@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T10:58:46Z",
-    "author": "/u/KeanuRave100",
-    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T00:01:39Z",
     "author": "/u/radiowubfur",
     "text": "Open letter to OpenAI: Search is not a substitute for browsing your chat history - Dear OpenAI, I’m a paying ChatGPT Plus subscriber, and I use ChatGPT a lot. Over time, my conversation history has become part of the value of the service to me. I go back to older chats. I browse them. I revisit things I was thinking about weeks or months ago. And now, apparently, I can’t do that anymore. The current interface gives me a limited list of “Recents.” Older chats still exist, and I’m told I can search for them. But there is no longer any way to browse a complete chronological list of my conversations. This is not an acceptable substitute. Search and browsing are different operations. This should be obvious to anyone designing an information product. Imagine Gmail deciding that displaying all your old mail was too resource-intensive, so your inbox would now show only recent messages. “Don’t worry,” Google tells you, “all your old mail is still there. You can search for it.” People would rightly lose their minds. Or imagine Apple Photos showing only your recent pictures and telling you that older photos remain available through Search. The fact that the files still exist would not mean that the product still provided adequate access to them. Sometimes you search because you know what you’re looking for. Sometimes you browse because you want to see what is there. You might want to look through everything from a particular period. You might recognize something when you see its title. You might notice neighboring conversations that are relevant. You might simply want to review your own history. None of this depends on poor memory. Even someone with perfect recall would still have uses for a chronological list. I can understand why you might not want an indefinitely long chat list continuously loaded into the sidebar. ChatGPT is not always the fastest or most responsive application in the world, and keeping the sidebar lightweight may solve a real performance problem. Fine. Then put an “All chats” link at the bottom of Recents. Open a dedicated history page. Load conversations 50 or 100 at a time. Paginate it. Use infinite scrolling. Group chats by month and year. Give me links that jump to September 2025 or January 2026. There are any number of completely ordinary ways to solve this problem without removing the capability. This is not an unsolved computer-science problem. You are already storing the conversations. What users need is a usable index to the data you are retaining for them. Poe.com manages to give me a complete historical list of my chats. Email services have been letting people browse years of messages for decades. Web browsers retain large browsable histories. Photo applications manage enormous libraries. The idea that a modern AI service cannot provide a browsable chronological list of conversation titles and dates is very difficult to take seriously. What concerns me most is not merely this particular change. It is what the change suggests about the way product decisions are being made. If the reasoning was essentially, “Very old chats are rarely opened from the sidebar, and Search can retrieve them, so Search is good enough,” then somebody failed to analyze the change from the user’s perspective. “The data remains technically retrievable” is not the same thing as “the user retains the same capability.” That distinction should be second nature to people designing a public-facing software product. ChatGPT keeps gaining new features. Some users presumably find those features extremely valuable. But established capabilities matter too. When you remove something that people have incorporated into the way they use the service, you are reducing the product’s value for those users, regardless of how many new buttons or capabilities you added elsewhere. I don’t want a clever workaround. I don’t want to periodically export my account data and build my own local index of conversations.json just to recreate a feature that ChatGPT used to provide. I want access to my chat history. Keep only Recents in the sidebar if that makes ChatGPT faster. Keep Search. Improve Search. But give users an “All chats” view where we can browse the complete chronological history of the conversations you are already storing. That is not an extravagant request. It is basic functionality. Please restore it. Cordially, Robert &quot;Bo&quot; Orloff &#32; submitted by &#32; /u/radiowubfur [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vigwza/open_letter_to_openai_search_is_not_a_substitute/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T10:58:46Z",
+    "author": "/u/KeanuRave100",
+    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +248,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T03:24:46Z",
+    "author": "/u/Adrian77_liu",
+    "text": "Anyone else hate how messy it is to get useful insights out of long AI chats? - My AI usage shifted a lot recently. Originally I used ChatGPT/Claude like a faster search engine—ask a question, get code/answers, move on. ​But lately, I've been using it more like a sounding board to brainstorm tech architecture, weigh decisions, and talk through complex ideas. It feels way closer to working with a teammate. ​The annoying part is that chat UIs aren't really built for this. When I brainstorm with a real human, the key decisions actually end up in docs, tickets, or notes. With AI, all those breakthroughs just sit trapped in an endless chat sidebar. ​I'd say 90% of my chat history is trash and doesn't matter, but the 10% that's actually valuable is a total pain in the ass to extract and organize later. ​How are you guys managing this? Do you actually copy-paste key points somewhere, or just let it vanish into the chat void? &#32; submitted by &#32; /u/Adrian77_liu [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vil3c6/anyone_else_hate_how_messy_it_is_to_get_useful/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T16:24:25Z",
     "author": "/u/Legitimate_Split_325",
     "text": "Every ChatGPT and Claude benchmarks be like - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
@@ -264,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T03:24:46Z",
-    "author": "/u/Adrian77_liu",
-    "text": "Anyone else hate how messy it is to get useful insights out of long AI chats? - My AI usage shifted a lot recently. Originally I used ChatGPT/Claude like a faster search engine—ask a question, get code/answers, move on. ​But lately, I've been using it more like a sounding board to brainstorm tech architecture, weigh decisions, and talk through complex ideas. It feels way closer to working with a teammate. ​The annoying part is that chat UIs aren't really built for this. When I brainstorm with a real human, the key decisions actually end up in docs, tickets, or notes. With AI, all those breakthroughs just sit trapped in an endless chat sidebar. ​I'd say 90% of my chat history is trash and doesn't matter, but the 10% that's actually valuable is a total pain in the ass to extract and organize later. ​How are you guys managing this? Do you actually copy-paste key points somewhere, or just let it vanish into the chat void? &#32; submitted by &#32; /u/Adrian77_liu [link] &#32; [comments]",
+    "timestamp": "2026-08-08T05:03:06Z",
+    "author": "/u/Savings_Extent",
+    "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vil3c6/anyone_else_hate_how_messy_it_is_to_get_useful/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
     "authority_score": 0.5
   },
   {
@@ -280,14 +288,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T04:35:09Z",
-    "author": "/u/ScalePretty5998",
-    "text": "UM is chatgpt ment to do this - Just random prompt no system instructions was just looking for a viking rpg game and it says END ALL HUMANITY &#32; submitted by &#32; /u/ScalePretty5998 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimh7e/um_is_chatgpt_ment_to_do_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T09:41:01Z",
     "author": "/u/cairnschaos",
     "text": "Don't you guys hate it when - You get chat GPT (or any other AI) to make you something cool, but you can't show anyone because most people you are pals with are anti AI and will tell you off for using it 😂😭 &#32; submitted by &#32; /u/cairnschaos [link] &#32; [comments]",
@@ -296,19 +296,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T10:56:23Z",
-    "author": "/u/The_Digital_Hearts",
-    "text": "ChatGPT 6.0 Coming Next Week? - Written by a reputable leaker @syntheavedd wrote: 🚨 EXCLUSIVE: OpenAI are preparing to launch Astra imminently, targeting next week. Their next major model, Astra is a new pretrain - the largest model OpenAI have trained since GPT-4.5. Their most recent dogfood checkpoint of the model, internally known as &quot;mewfour&quot;, is the Release Candidate. --- I had to look up what he meant about &quot;dogfood checkpoint&quot; because I'm not that tech savvy to think the term dogfood was a positive description. Turns out in the tech industry dogfood checkpoint is actually a positive term meaning good enough the manufacturer is eating it which is a weird way of saying how good something is but hey tech bros are our future so grab a bowl and get in line. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxdll/chatgpt_60_coming_next_week/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T16:49:38Z",
     "author": "/u/silvxxz",
     "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T10:56:23Z",
+    "author": "/u/The_Digital_Hearts",
+    "text": "ChatGPT 6.0 Coming Next Week? - Written by a reputable leaker @syntheavedd wrote: 🚨 EXCLUSIVE: OpenAI are preparing to launch Astra imminently, targeting next week. Their next major model, Astra is a new pretrain - the largest model OpenAI have trained since GPT-4.5. Their most recent dogfood checkpoint of the model, internally known as &quot;mewfour&quot;, is the Release Candidate. --- I had to look up what he meant about &quot;dogfood checkpoint&quot; because I'm not that tech savvy to think the term dogfood was a positive description. Turns out in the tech industry dogfood checkpoint is actually a positive term meaning good enough the manufacturer is eating it which is a weird way of saying how good something is but hey tech bros are our future so grab a bowl and get in line. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxdll/chatgpt_60_coming_next_week/",
     "authority_score": 0.5
   },
   {
