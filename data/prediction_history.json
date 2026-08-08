@@ -12360,8 +12360,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T12:40:54.701273Z"
   },
   {
     "prediction_time": "2026-08-06T12:31:02.669368Z",
@@ -12404,8 +12404,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T12:40:54.701273Z"
   },
   {
     "prediction_time": "2026-08-06T13:01:14.418405Z",
@@ -13542,6 +13542,55 @@
           "User speculates about a reset for Theo, but it's not about usage limits.",
           "Describes Codex capabilities but no reset or limit mention.",
           "Announces a new standard/plugin, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T12:40:54.686064Z",
+    "prediction": {
+      "within_5h": 0.0726,
+      "within_24h": 0.2471,
+      "within_48h": 0.3688
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 177.14852225805555,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 158.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8861,
+      "time_pressure": 0.5942,
+      "hazard_rate": 0.011756,
+      "evidence_score": 0.0186,
+      "tibo_signal": 0.0144,
+      "community_signal": 0.0252,
+      "release_signal": 0.0468,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.07560975609756097,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product change, but no reset mention."
         ]
       },
       "prior_applied": false,
