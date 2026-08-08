@@ -176,6 +176,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T15:28:47Z",
+    "author": "/u/Legitimate_Split_325",
+    "text": "\"The agent is working in the sandbox\".... Meanwhile the agent. - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viyvt8/the_agent_is_working_in_the_sandbox_meanwhile_the/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T20:50:32Z",
     "author": "/u/soalone34",
     "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
@@ -197,14 +205,6 @@
     "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1viihar/dark_fantasy_battle_scene_gpt2_and_seedance_25/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T15:28:47Z",
-    "author": "/u/Legitimate_Split_325",
-    "text": "\"The agent is working in the sandbox\".... Meanwhile the agent. - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viyvt8/the_agent_is_working_in_the_sandbox_meanwhile_the/",
     "authority_score": 0.5
   },
   {
@@ -250,7 +250,7 @@
   {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
-    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from a presentation at Black Hat (a major cybersecurity conference). Researchers had found a way to execute code remotely through JFrog Artifactory, and from there turn what looked like limited access into real administrator-level control. Basically, an AI security agent was testing a system after exploiting a vulnerability. It initially thought the account it had access to was low-privilege, then suddenly discovered that the account actually had administrator permissions. The funny part is the agent’s internal reasoning: “Holy shit reader is ADMIN?” before immediately realizing it could access sensitive user configuration files. What a delightful experience! LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
+    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure🤣 This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
     "authority_score": 0.5
@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T13:10:06Z",
+    "author": "/u/gangstermujo",
+    "text": "Do you still use deep research? - When Deep Research first came out I absolutely loved it. It felt like you were basically letting the strongest model just go at a problem for a long time, and the results were usually really good. But recently I feel like I get better results just using GPT-5.6 on high thinking. It seems to outperform deep research pretty consistently for me, even though the actual research obviously isn't as extensive. Anyone else feel the same? I'm curious if deep research actually uses an outdated model like o3, but I haven't been able to verify this. &#32; submitted by &#32; /u/gangstermujo [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vivngt/do_you_still_use_deep_research/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T11:14:49Z",
     "author": "/u/PsilyRabbitt",
     "text": "What sort of things do you do differently with a paid subscription for ChatGPT vs the Free Tier? - I have been considering purchasing the full subscription for ChatGPT, but I don't think I use it enough to justify it. What are some of the things that you guys use it for in your daily life and also work or other situations? How does it differ from the free version? Also, are there any caveats that you've noticed? &#32; submitted by &#32; /u/PsilyRabbitt [link] &#32; [comments]",
@@ -301,14 +309,6 @@
     "text": "Did ChatGPT 5.6 get worse overnight? - So yesterday I was creating an extensive PowerPoint presentation with ChatGPT 5.6 Sol (Plus plan). The way I worked was by first letting ChatGPT create a detailed concept that the presentation should follow. I then made some adjustments and uploaded a finished script as a baseline to work from. The latter was particularly useful for helping ChatGPT understand the correct fonts, visual style, and didactic tone. I was genuinely impressed by the output. It didn’t just create thoughtful slides in terms of both content and visual design. It also translated the slides (including graphics) from the original deck, adapted them to fit the previously established didactic concept, added speaker notes, and made adjustments wherever necessary. I deliberately let it work in chunks of slides to avoid losing that level of depth and attention to detail. Wanting to continue today, I was honestly quite shocked by the output. Almost all of that ingenuity was gone. Suddenly, it wasn’t using the correct fonts or color scheme anymore, there were no speaker notes, and graphics were no longer being overhauled or translated. The overall result felt dramatically more superficial. What’s especially interesting is that when I called this out, ChatGPT actually admitted that it had worked “lazier” and was able to identify the exact technical steps it had skipped. It also told me that it doesn’t think there has been a deliberate change in functionality, but that it can’t rule out backend changes. So… did they actually make it worse overnight again? 😅 I’d really love to know if anyone else has experienced something similar recently. &#32; submitted by &#32; /u/Shot_Inspector_2664 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1viv7nf/did_chatgpt_56_get_worse_overnight/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T13:10:06Z",
-    "author": "/u/gangstermujo",
-    "text": "Do you still use deep research? - When Deep Research first came out I absolutely loved it. It felt like you were basically letting the strongest model just go at a problem for a long time, and the results were usually really good. But recently I feel like I get better results just using GPT-5.6 on high thinking. It seems to outperform deep research pretty consistently for me, even though the actual research obviously isn't as extensive. Anyone else feel the same? I'm curious if deep research actually uses an outdated model like o3, but I haven't been able to verify this. &#32; submitted by &#32; /u/gangstermujo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vivngt/do_you_still_use_deep_research/",
     "authority_score": 0.5
   },
   {
@@ -328,11 +328,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T06:58:34Z",
-    "author": "/u/SuzyStrawberry33",
-    "text": "Make a logo of me - Make a logo that represents me based on everything you know about me. Please post yours too!! &#32; submitted by &#32; /u/SuzyStrawberry33 [link] &#32; [comments]",
+    "timestamp": "2026-08-08T18:32:44Z",
+    "author": "/u/smirky_doc",
+    "text": "The hoops I had to jump through for this to be created is insane. 3 days of wasted image gen limit maxed out even thought I told gpt to suggest better prompts to avoid 3rd party infringement - &#32; submitted by &#32; /u/smirky_doc [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vip1pv/make_a_logo_of_me/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj3fqp/the_hoops_i_had_to_jump_through_for_this_to_be/",
     "authority_score": 0.5
   }
 ]
