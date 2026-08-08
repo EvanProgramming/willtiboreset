@@ -11480,8 +11480,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T02:40:59.086056Z"
   },
   {
     "prediction_time": "2026-08-06T02:31:04.142834Z",
@@ -11524,8 +11524,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T02:40:59.086056Z"
   },
   {
     "prediction_time": "2026-08-06T03:01:02.713940Z",
@@ -14793,6 +14793,55 @@
           "User speculates Theo needs a reset, but it's not about usage quota resets.",
           "No explicit mention of an upcoming or past reset event.",
           "Discusses capabilities of GPT-5.6 Sol without any reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T02:40:59.066609Z",
+    "prediction": {
+      "within_5h": 0.087,
+      "within_24h": 0.2897,
+      "within_48h": 0.4258
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 167.14973888361112,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 0.9,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7232,
+      "time_pressure": 0.9934,
+      "hazard_rate": 0.014152,
+      "evidence_score": 0.0236,
+      "tibo_signal": 0.0242,
+      "community_signal": 0.0857,
+      "release_signal": 0.0862,
+      "llm_scores": {
+        "reset_intent": 0.015000000000000003,
+        "limit_complaint": 0.06,
+        "official_change": 0.1,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.9112500000000001,
+        "reason": [
+          "Text promotes a product feature but does not mention resets or limits.",
+          "No indication of quota or usage limit changes.",
+          "User speculates about a reset for Theo, but it's not about ChatGPT/Codex quotas.",
+          "No official or confirmed reset signal.",
+          "Discusses capabilities of GPT-5.6 Sol but no mention of resets or limits."
         ]
       },
       "prior_applied": false,

