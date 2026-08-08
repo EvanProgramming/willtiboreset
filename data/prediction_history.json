@@ -13598,5 +13598,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T13:00:53.251883Z",
+    "prediction": {
+      "within_5h": 0.0722,
+      "within_24h": 0.2458,
+      "within_48h": 0.3673
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 177.4814571788889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 158.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8915,
+      "time_pressure": 0.5975,
+      "hazard_rate": 0.011685,
+      "evidence_score": 0.0181,
+      "tibo_signal": 0.0142,
+      "community_signal": 0.045,
+      "release_signal": 0.0439,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.10243902439024391,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is a simple title with no relevant content.",
+          "Mentions a shipped product but no reset or limit information.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
