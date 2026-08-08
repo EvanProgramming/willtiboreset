@@ -208,19 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T05:03:06Z",
-    "author": "/u/Savings_Extent",
-    "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:54:24Z",
     "author": "/u/ImaginaryRea1ity",
     "text": "Just marry ChatGPT already - What comparing my wife to a database taught me about B2B sales. &#32; submitted by &#32; /u/ImaginaryRea1ity [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vizhty/just_marry_chatgpt_already/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T05:03:06Z",
+    "author": "/u/Savings_Extent",
+    "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T03:55:58Z",
-    "author": "/u/bethesda_gamer",
-    "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vilpjs/the_hill_chineselinked_influence_operations_have/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
@@ -248,19 +240,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T09:18:41Z",
-    "author": "/u/KeanuRave100",
-    "text": "We're still so early - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vird3q/were_still_so_early/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T17:44:45Z",
     "author": "/u/ladyleo1980",
     "text": "Chatgpt switched up on me 🤣 - I use it mostly for work related stuff but think I've spent too much time using it bc now the responses are like this: What are we tackling first today? Career/job stuff? Interview prep? Application strategy? Or are we entering the “Chat, I have a situation…” portion of Friday? 😂 I'm ready. Let's get shit done. 💪🏼✨ And These supplemental questions may indeed be used as a screening mechanism. I don't want to bullshit you about that. 😳😂 I love it! &#32; submitted by &#32; /u/ladyleo1980 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vj28dy/chatgpt_switched_up_on_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T03:55:58Z",
+    "author": "/u/bethesda_gamer",
+    "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vilpjs/the_hill_chineselinked_influence_operations_have/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T09:18:41Z",
+    "author": "/u/KeanuRave100",
+    "text": "We're still so early - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vird3q/were_still_so_early/",
     "authority_score": 0.5
   },
   {
@@ -296,19 +296,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T18:32:44Z",
+    "author": "/u/smirky_doc",
+    "text": "The hoops I had to jump through for this to be created is insane. 3 days of wasted image gen limit maxed out even thought I told gpt to suggest better prompts to avoid 3rd party infringement - &#32; submitted by &#32; /u/smirky_doc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj3fqp/the_hoops_i_had_to_jump_through_for_this_to_be/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T18:28:03Z",
     "author": "/u/agentrsdg",
     "text": "Image gen to its 3D implementation within ChatGPT itself - Not perfect but a good start &#32; submitted by &#32; /u/agentrsdg [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vj3blx/image_gen_to_its_3d_implementation_within_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T11:14:49Z",
-    "author": "/u/PsilyRabbitt",
-    "text": "What sort of things do you do differently with a paid subscription for ChatGPT vs the Free Tier? - I have been considering purchasing the full subscription for ChatGPT, but I don't think I use it enough to justify it. What are some of the things that you guys use it for in your daily life and also work or other situations? How does it differ from the free version? Also, are there any caveats that you've noticed? &#32; submitted by &#32; /u/PsilyRabbitt [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vitba2/what_sort_of_things_do_you_do_differently_with_a/",
     "authority_score": 0.5
   },
   {
@@ -320,19 +320,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T11:14:49Z",
+    "author": "/u/PsilyRabbitt",
+    "text": "What sort of things do you do differently with a paid subscription for ChatGPT vs the Free Tier? - I have been considering purchasing the full subscription for ChatGPT, but I don't think I use it enough to justify it. What are some of the things that you guys use it for in your daily life and also work or other situations? How does it differ from the free version? Also, are there any caveats that you've noticed? &#32; submitted by &#32; /u/PsilyRabbitt [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vitba2/what_sort_of_things_do_you_do_differently_with_a/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T08:49:43Z",
     "author": "/u/OlafAndvarafors",
     "text": "Free and Go Users May Have Just Been Downgraded - Looks like ChatGPT Free and Go users just got a downgrade in the default model’s intelligence. If Free now gets higher limits, maybe that tradeoff makes sense, but I really don’t see the benefit for Go, where the limits were already high. What do you think about this? &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T10:58:46Z",
-    "author": "/u/KeanuRave100",
-    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
     "authority_score": 0.5
   }
 ]
