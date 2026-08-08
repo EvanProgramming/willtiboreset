@@ -216,19 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T15:50:53Z",
-    "author": "/u/Echo_Tech_Labs",
-    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T17:08:35Z",
     "author": "/u/KeanuRave100",
     "text": "Your scientists were so... uh... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vj1bwo/your_scientists_were_so_uh/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T15:50:53Z",
+    "author": "/u/Echo_Tech_Labs",
+    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
     "authority_score": 0.5
   },
   {
@@ -312,19 +312,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T16:26:50Z",
-    "author": "/u/MugglerOp",
-    "text": "Never knew gpt was chill like that - &#32; submitted by &#32; /u/MugglerOp [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj0alw/never_knew_gpt_was_chill_like_that/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T11:14:49Z",
     "author": "/u/PsilyRabbitt",
     "text": "What sort of things do you do differently with a paid subscription for ChatGPT vs the Free Tier? - I have been considering purchasing the full subscription for ChatGPT, but I don't think I use it enough to justify it. What are some of the things that you guys use it for in your daily life and also work or other situations? How does it differ from the free version? Also, are there any caveats that you've noticed? &#32; submitted by &#32; /u/PsilyRabbitt [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vitba2/what_sort_of_things_do_you_do_differently_with_a/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T19:42:19Z",
+    "author": "/u/Still_Long_3876",
+    "text": "What was your best use of “ELI5”? - One of the great things about LLM’s in my opinion is that you can tune it to a personal level that helps you understand complex topics or questions you may have had. For example, let’s say someone has zero knowledge about economics and wanted to understand inflation; you can see how it would give a digestible explanation. Whereas years ago, a Google search would probably land you on an answer with economic jargon. What was your best ELI5? &#32; submitted by &#32; /u/Still_Long_3876 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj54bp/what_was_your_best_use_of_eli5/",
     "authority_score": 0.5
   }
 ]
