@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-08T14:00:56.113072+00:00",
+  "updated_at": "2026-08-08T14:40:52.160273+00:00",
   "prediction": {
-    "within_5h": 0.0715,
-    "within_24h": 0.2442,
-    "within_48h": 0.3653
+    "within_5h": 0.0669,
+    "within_24h": 0.2313,
+    "within_48h": 0.349
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 157.5,
+    "hours_until": 156.9,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 178.4822534163889,
+    "hours_since_last_reset": 179.14782209833334,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 157.5,
+      "hours_until": 156.9,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.9078,
-    "time_pressure": 0.6075,
-    "hazard_rate": 0.011598,
-    "evidence_score": 0.0173,
-    "tibo_signal": 0.0143,
-    "community_signal": 0.0366,
-    "release_signal": 0.0501,
+    "time_ratio": 2.9187,
+    "time_pressure": 0.6141,
+    "hazard_rate": 0.010901,
+    "evidence_score": 0.0131,
+    "tibo_signal": 0.0117,
+    "community_signal": 0.0347,
+    "release_signal": 0.0564,
     "llm_scores": {
-      "reset_intent": 0.01951219512195122,
+      "reset_intent": 0.017073170731707315,
       "limit_complaint": 0.04390243902439025,
-      "official_change": 0.08292682926829269,
+      "official_change": 0.10731707317073172,
       "reset_confirmation": 0.023170731707317073,
-      "confidence": 0.852439024390244,
+      "confidence": 0.8646341463414635,
       "reason": [
-        "Text is just a title with no relevant content about resets or limits.",
-        "Mentions a shipped product but no reset or limit-related content.",
-        "User speculates about a reset for Theo, but it's not about usage limits or an official reset.",
-        "Discusses Codex capabilities but no reset or limit complaints.",
-        "Announces a new standard/plugin, an official product change, but no reset mention."
+        "Text is just a title with no relevant content.",
+        "No mention of resets, limits, or official changes.",
+        "Promotes a product feature but no reset or limit discussion.",
+        "Vague product mention, not an official announcement.",
+        "User speculates about a reset for Theo, but not about ChatGPT/Codex."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "178.5 hours since last reset",
+      "factor": "179.1 hours since last reset",
       "impact": "+5%",
       "score": 0.61
     },
@@ -64,13 +64,13 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.04
+      "score": 0.03
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "178.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
-    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
-    "Main factor: 178.5 hours since last reset (+5%)"
+    "179.1 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
+    "Main factor: 179.1 hours since last reset (+5%)"
   ]
 }
