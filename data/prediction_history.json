@@ -11348,8 +11348,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T00:41:02.115960Z"
   },
   {
     "prediction_time": "2026-08-06T01:01:01.768450Z",
@@ -14597,6 +14597,55 @@
           "The text mentions 'reset' but in a speculative or joking manner about Theo, not about usage limits.",
           "It does not confirm any actual reset event.",
           "The text discusses capabilities of Codex with GPT-5.6 Sol, not resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T00:41:02.097181Z",
+    "prediction": {
+      "within_5h": 0.0955,
+      "within_24h": 0.3111,
+      "within_48h": 0.451
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 165.15058078944443,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 2.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.6906,
+      "time_pressure": 0.9928,
+      "hazard_rate": 0.015408,
+      "evidence_score": 0.0306,
+      "tibo_signal": 0.025,
+      "community_signal": 0.06,
+      "release_signal": 0.1007,
+      "llm_scores": {
+        "reset_intent": 0.017499999999999998,
+        "limit_complaint": 0.04,
+        "official_change": 0.12,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.86625,
+        "reason": [
+          "Text promotes a product feature but does not mention resets or limits.",
+          "No indication of quota reset or complaints.",
+          "User speculates Theo needs a reset, but it's not about usage limits.",
+          "Mention of 'reset' is metaphorical, not about quota.",
+          "Discusses capabilities of GPT-5.6 Sol, no reset mention."
         ]
       },
       "prior_applied": false,
