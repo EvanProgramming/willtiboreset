@@ -264,19 +264,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T08:49:43Z",
+    "author": "/u/OlafAndvarafors",
+    "text": "Free and Go Users May Have Just Been Downgraded - Looks like ChatGPT Free and Go users just got a downgrade in the default model’s intelligence. If Free now gets higher limits, maybe that tradeoff makes sense, but I really don’t see the benefit for Go, where the limits were already high. What do you think about this? &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T03:24:46Z",
     "author": "/u/Adrian77_liu",
     "text": "Anyone else hate how messy it is to get useful insights out of long AI chats? - My AI usage shifted a lot recently. Originally I used ChatGPT/Claude like a faster search engine—ask a question, get code/answers, move on. ​But lately, I've been using it more like a sounding board to brainstorm tech architecture, weigh decisions, and talk through complex ideas. It feels way closer to working with a teammate. ​The annoying part is that chat UIs aren't really built for this. When I brainstorm with a real human, the key decisions actually end up in docs, tickets, or notes. With AI, all those breakthroughs just sit trapped in an endless chat sidebar. ​I'd say 90% of my chat history is trash and doesn't matter, but the 10% that's actually valuable is a total pain in the ass to extract and organize later. ​How are you guys managing this? Do you actually copy-paste key points somewhere, or just let it vanish into the chat void? &#32; submitted by &#32; /u/Adrian77_liu [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vil3c6/anyone_else_hate_how_messy_it_is_to_get_useful/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T06:10:22Z",
-    "author": "/u/KeanuRave100",
-    "text": "A challenger emerges - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhshdw/a_challenger_emerges/",
     "authority_score": 0.5
   },
   {
@@ -288,11 +288,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T08:49:43Z",
-    "author": "/u/OlafAndvarafors",
-    "text": "Free and Go Users May Have Just Been Downgraded - Looks like ChatGPT Free and Go users just got a downgrade in the default model’s intelligence. If Free now gets higher limits, maybe that tradeoff makes sense, but I really don’t see the benefit for Go, where the limits were already high. What do you think about this? &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
+    "timestamp": "2026-08-08T09:18:41Z",
+    "author": "/u/KeanuRave100",
+    "text": "We're still so early - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vird3q/were_still_so_early/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T06:10:22Z",
+    "author": "/u/KeanuRave100",
+    "text": "A challenger emerges - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhshdw/a_challenger_emerges/",
     "authority_score": 0.5
   },
   {
@@ -309,14 +317,6 @@
     "text": "Every ChatGPT and Claude benchmarks be like - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vh911t/every_chatgpt_and_claude_benchmarks_be_like/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T09:58:00Z",
-    "author": "/u/Cyanxdlol",
-    "text": "Sorry for depleting your usage by accident - I was asking it to write me a panic attack about having a shortage of banana and told it to make it crazier and uh… where banana? &#32; submitted by &#32; /u/Cyanxdlol [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1virzku/sorry_for_depleting_your_usage_by_accident/",
     "authority_score": 0.5
   },
   {
