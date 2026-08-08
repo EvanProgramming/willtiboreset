@@ -12814,5 +12814,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T05:00:58.671828Z",
+    "prediction": {
+      "within_5h": 0.0738,
+      "within_24h": 0.2496,
+      "within_48h": 0.371
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 169.48296279916667,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 166.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7612,
+      "time_pressure": 0.5154,
+      "hazard_rate": 0.011893,
+      "evidence_score": 0.0211,
+      "tibo_signal": 0.0134,
+      "community_signal": 0.018,
+      "release_signal": 0.057,
+      "llm_scores": {
+        "reset_intent": 0.01707317073170732,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User suggests Theo needs a reset, but it's not about usage limits.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset mention.",
+          "Announces a new standard for agents, a product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
