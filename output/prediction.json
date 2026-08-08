@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-08T18:00:52.625652+00:00",
+  "updated_at": "2026-08-08T18:41:05.741095+00:00",
   "prediction": {
-    "within_5h": 0.0666,
-    "within_24h": 0.2306,
-    "within_48h": 0.3486
+    "within_5h": 0.0675,
+    "within_24h": 0.2332,
+    "within_48h": 0.3519
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 153.5,
+    "hours_until": 152.8,
     "status": "overdue"
   },
   "signals": {
-    "tweet_count": 41,
-    "hours_since_last_reset": 182.48128469444447,
+    "tweet_count": 42,
+    "hours_since_last_reset": 183.15159452833333,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 153.5,
+      "hours_until": 152.8,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 2.973,
-    "time_pressure": 0.6464,
-    "hazard_rate": 0.010863,
-    "evidence_score": 0.0123,
-    "tibo_signal": 0.0134,
-    "community_signal": 0.0572,
-    "release_signal": 0.051,
+    "time_ratio": 2.9839,
+    "time_pressure": 0.6528,
+    "hazard_rate": 0.011003,
+    "evidence_score": 0.013,
+    "tibo_signal": 0.0048,
+    "community_signal": 0.0149,
+    "release_signal": 0.0222,
     "llm_scores": {
-      "reset_intent": 0.014634146341463417,
-      "limit_complaint": 0.024390243902439025,
-      "official_change": 0.07804878048780488,
-      "reset_confirmation": 0.023170731707317073,
-      "confidence": 0.876829268292683,
+      "reset_intent": 0.011904761904761904,
+      "limit_complaint": 0.01904761904761905,
+      "official_change": 0.04285714285714286,
+      "reset_confirmation": 0.02261904761904762,
+      "confidence": 0.9154761904761903,
       "reason": [
-        "Text is just a title with no relevant content.",
-        "Mentions a shipped product but no reset or limit context.",
-        "User speculates about a reset but it's not confirmed or official.",
-        "Describes capabilities of a model, no reset or limit mention.",
-        "Announces a new standard/plugin, official product change."
+        "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+        "No mention of usage limits or resets.",
+        "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+        "No signals related to resets or limits.",
+        "Mentions shipping a product but no reset or limit context."
       ]
     },
     "prior_applied": false,
@@ -52,25 +52,25 @@
   },
   "main_factors": [
     {
-      "factor": "182.5 hours since last reset",
+      "factor": "183.2 hours since last reset",
       "impact": "+5%",
       "score": 0.65
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+0%",
-      "score": 0.01
+      "score": 0.0
     },
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.06
+      "score": 0.01
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "182.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "183.2 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 182.5 hours since last reset (+5%)"
+    "Main factor: 183.2 hours since last reset (+5%)"
   ]
 }

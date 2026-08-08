@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-08T18:13:08Z",
+    "author": "Tibo",
+    "text": "I would love to help, but I don’t work at Anthropic. It does seem odd that they would ban your account for using their harness with another model. An... - I would love to help, but I don’t work at Anthropic. It does seem odd that they would ban your account for using their harness with another model.Anyone else in the same situation?alex getman: Tibo, I followed the setup in this post almost exactly. Shortly afterward, Anthropic suspended my account.I’ve filed an appeal. Full implementation is public here: https://github.com/alexgetmancom/claude-proxy@thsottiaux @OpenAIDevs @ClaudeDevs - would appreciate help figuring out what happened",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2086153754525712706",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-08T03:35:37Z",
     "author": "Tibo",
     "text": "Astro Boy and Sol - Astro Boy and Sol",
@@ -216,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T03:55:58Z",
-    "author": "/u/bethesda_gamer",
-    "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vilpjs/the_hill_chineselinked_influence_operations_have/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:54:24Z",
     "author": "/u/ImaginaryRea1ity",
     "text": "Just marry ChatGPT already - What comparing my wife to a database taught me about B2B sales. &#32; submitted by &#32; /u/ImaginaryRea1ity [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vizhty/just_marry_chatgpt_already/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T03:55:58Z",
+    "author": "/u/bethesda_gamer",
+    "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vilpjs/the_hill_chineselinked_influence_operations_have/",
     "authority_score": 0.5
   },
   {
@@ -242,9 +250,17 @@
   {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
-    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from a presentation at Black Hat (a major cybersecurity conference). Researchers had found a way to execute code remotely through JFrog Artifactory, and from there turn what looked like limited access into real administrator-level control. Basically, an AI security agent was testing a system after exploiting a vulnerability. It initially thought the account it had access to was low-privilege, then suddenly discovered that the account actually had administrator permissions. The funny part is the agent’s internal reasoning: “Holy shit reader is ADMIN?” before immediately realizing it could access sensitive user configuration files. What a delightful experience! &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
+    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from a presentation at Black Hat (a major cybersecurity conference). Researchers had found a way to execute code remotely through JFrog Artifactory, and from there turn what looked like limited access into real administrator-level control. Basically, an AI security agent was testing a system after exploiting a vulnerability. It initially thought the account it had access to was low-privilege, then suddenly discovered that the account actually had administrator permissions. The funny part is the agent’s internal reasoning: “Holy shit reader is ADMIN?” before immediately realizing it could access sensitive user configuration files. What a delightful experience! LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T17:44:45Z",
+    "author": "/u/ladyleo1980",
+    "text": "Chatgpt switched up on me 🤣 - I use it mostly for work related stuff but think I've spent too much time using it bc now the responses are like this: What are we tackling first today? Career/job stuff? Interview prep? Application strategy? Or are we entering the “Chat, I have a situation…” portion of Friday? 😂 I'm ready. Let's get shit done. 💪🏼✨ And These supplemental questions may indeed be used as a screening mechanism. I don't want to bullshit you about that. 😳😂 I love it! &#32; submitted by &#32; /u/ladyleo1980 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj28dy/chatgpt_switched_up_on_me/",
     "authority_score": 0.5
   },
   {
@@ -264,27 +280,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T17:08:35Z",
+    "author": "/u/KeanuRave100",
+    "text": "Your scientists were so... uh... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj1bwo/your_scientists_were_so_uh/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T11:14:49Z",
     "author": "/u/PsilyRabbitt",
     "text": "What sort of things do you do differently with a paid subscription for ChatGPT vs the Free Tier? - I have been considering purchasing the full subscription for ChatGPT, but I don't think I use it enough to justify it. What are some of the things that you guys use it for in your daily life and also work or other situations? How does it differ from the free version? Also, are there any caveats that you've noticed? &#32; submitted by &#32; /u/PsilyRabbitt [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vitba2/what_sort_of_things_do_you_do_differently_with_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T10:58:46Z",
-    "author": "/u/KeanuRave100",
-    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T08:49:43Z",
-    "author": "/u/OlafAndvarafors",
-    "text": "Free and Go Users May Have Just Been Downgraded - Looks like ChatGPT Free and Go users just got a downgrade in the default model’s intelligence. If Free now gets higher limits, maybe that tradeoff makes sense, but I really don’t see the benefit for Go, where the limits were already high. What do you think about this? &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/",
     "authority_score": 0.5
   },
   {
@@ -304,27 +312,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T08:49:43Z",
+    "author": "/u/OlafAndvarafors",
+    "text": "Free and Go Users May Have Just Been Downgraded - Looks like ChatGPT Free and Go users just got a downgrade in the default model’s intelligence. If Free now gets higher limits, maybe that tradeoff makes sense, but I really don’t see the benefit for Go, where the limits were already high. What do you think about this? &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viqw4k/free_and_go_users_may_have_just_been_downgraded/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T10:58:46Z",
+    "author": "/u/KeanuRave100",
+    "text": "“we sandboxed the agent” -- meanwhile the agent... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxf6l/we_sandboxed_the_agent_meanwhile_the_agent/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T06:58:34Z",
     "author": "/u/SuzyStrawberry33",
     "text": "Make a logo of me - Make a logo that represents me based on everything you know about me. Please post yours too!! &#32; submitted by &#32; /u/SuzyStrawberry33 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vip1pv/make_a_logo_of_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T15:03:50Z",
-    "author": "/u/Geist777",
-    "text": "A Crossover That Was Never Meant to Exist - The prompt I used: Imagine a single coherent reality in which the worlds of [FILM TITLE 1] and [FILM TITLE 2] have always existed together. Their characters, locations, technology, creatures, social rules, dangers and visual identity must coexist naturally in one believable world, rather than looking like two separate franchises pasted into the same frame. Generate a grounded, photorealistic scene depicting a small but consequential everyday incident at the exact point where these two worlds overlap. The scene should tell a clear story without needing any written explanation: someone or something from [FILM TITLE 1] is reacting to, using, avoiding, helping, interrupting, or accidentally causing a situation involving someone or something from [FILM TITLE 2]. Choose the most interesting location where both worlds could plausibly meet. Include a foreground subject actively involved in the incident, a secondary reaction somewhere nearby, and environmental clues from both universes woven naturally into the setting. The crossover should feel functional and lived-in: signs of shared history, improvised adaptations, mixed architecture, blended everyday objects, and background details that imply people have learned to live with both realities. Do not make it a versus battle, a character lineup, a fan poster, a promotional still, a multiverse portal scene, or a split composition. Avoid the most obvious crossover idea. Prioritise an unexpected interaction that reveals how strange, funny, tense or emotionally meaningful daily life would be in this combined world. The image must look like a high-budget live-action production photographed on location: physically believable scale, realistic materials, natural human reactions, subtle imperfections, coherent perspective, consistent shadows, and lighting that is motivated by the actual environment. Make both source universes recognisable through accurate visual details, iconic objects, clothing, creatures, locations or technology, but never add titles, logos, captions, watermarks, UI elements or readable franchise names. Use a 16:9 landscape frame, medium-wide eye-level camera angle, a clear focal subject, layered background storytelling, natural colour grading, detailed practical textures, and realistic depth. The result should feel like one authentic frame from a film that was never made. &#32; submitted by &#32; /u/Geist777 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi33vx/a_crossover_that_was_never_meant_to_exist/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T17:08:35Z",
-    "author": "/u/KeanuRave100",
-    "text": "Your scientists were so... uh... - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj1bwo/your_scientists_were_so_uh/",
     "authority_score": 0.5
   }
 ]
