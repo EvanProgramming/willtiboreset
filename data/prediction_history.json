@@ -11304,8 +11304,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T00:01:43.667634Z"
   },
   {
     "prediction_time": "2026-08-06T00:31:16.100244Z",
@@ -14548,6 +14548,55 @@
           "The text mentions 'reset' but in a speculative or humorous context about Theo, not about usage limits.",
           "It does not confirm any reset event or discuss quota issues.",
           "The text highlights capabilities of Codex with GPT-5.6 Sol but does not mention resets or limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T00:01:43.651348Z",
+    "prediction": {
+      "within_5h": 0.0965,
+      "within_24h": 0.3136,
+      "within_48h": 0.4538
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 164.49545706777778,
+      "next_reset": {
+        "expected_time": "2026-08-08T03:32:00+00:00",
+        "hours_until": 3.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.68,
+      "time_pressure": 0.9926,
+      "hazard_rate": 0.015557,
+      "evidence_score": 0.0314,
+      "tibo_signal": 0.0243,
+      "community_signal": 0.0393,
+      "release_signal": 0.0941,
+      "llm_scores": {
+        "reset_intent": 0.02,
+        "limit_complaint": 0.042499999999999996,
+        "official_change": 0.0975,
+        "reset_confirmation": 0.02375,
+        "confidence": 0.88375,
+        "reason": [
+          "The text promotes a product feature but does not mention resets or limits.",
+          "It is a general promotional statement about the magic of the product.",
+          "The text mentions 'reset' but in a speculative or joking manner about Theo, not about usage limits.",
+          "It does not confirm any actual reset event.",
+          "The text discusses capabilities of Codex with GPT-5.6 Sol, not resets or limits."
         ]
       },
       "prior_applied": false,
