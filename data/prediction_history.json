@@ -14333,5 +14333,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T20:40:57.652256Z",
+    "prediction": {
+      "within_5h": 0.0665,
+      "within_24h": 0.2305,
+      "within_48h": 0.3486
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 185.14934605277776,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 150.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0164,
+      "time_pressure": 0.6714,
+      "hazard_rate": 0.010858,
+      "evidence_score": 0.0118,
+      "tibo_signal": 0.0049,
+      "community_signal": 0.0069,
+      "release_signal": 0.0213,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8902439024390244,
+        "reason": [
+          "Text is about an Anthropic account suspension, not related to ChatGPT/Codex quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol', completely irrelevant.",
+          "No signals related to resets or complaints.",
+          "Text mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
