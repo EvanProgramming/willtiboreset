@@ -232,19 +232,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T12:32:01Z",
-    "author": "/u/Legitimate_Split_325",
-    "text": "Come on, commit some crimes - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhzcr0/come_on_commit_some_crimes/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T06:58:34Z",
     "author": "/u/SuzyStrawberry33",
     "text": "Make a logo of me - Make a logo that represents me based on everything you know about me &#32; submitted by &#32; /u/SuzyStrawberry33 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vip1pv/make_a_logo_of_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T12:32:01Z",
+    "author": "/u/Legitimate_Split_325",
+    "text": "Come on, commit some crimes - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhzcr0/come_on_commit_some_crimes/",
     "authority_score": 0.5
   },
   {
@@ -269,6 +269,14 @@
     "text": "Anyone else hate how messy it is to get useful insights out of long AI chats? - My AI usage shifted a lot recently. Originally I used ChatGPT/Claude like a faster search engine—ask a question, get code/answers, move on. ​But lately, I've been using it more like a sounding board to brainstorm tech architecture, weigh decisions, and talk through complex ideas. It feels way closer to working with a teammate. ​The annoying part is that chat UIs aren't really built for this. When I brainstorm with a real human, the key decisions actually end up in docs, tickets, or notes. With AI, all those breakthroughs just sit trapped in an endless chat sidebar. ​I'd say 90% of my chat history is trash and doesn't matter, but the 10% that's actually valuable is a total pain in the ass to extract and organize later. ​How are you guys managing this? Do you actually copy-paste key points somewhere, or just let it vanish into the chat void? &#32; submitted by &#32; /u/Adrian77_liu [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vil3c6/anyone_else_hate_how_messy_it_is_to_get_useful/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T08:36:11Z",
+    "author": "/u/Captain_Chris-",
+    "text": "Does ChatGPT has Info About Me? - If i delete all of our convarsation, all of the saved memory, all of everything and even my chatgpt account. Will chatgpt have anything stored about me somewhere? &#32; submitted by &#32; /u/Captain_Chris- [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viqo9d/does_chatgpt_has_info_about_me/",
     "authority_score": 0.5
   },
   {
@@ -304,27 +312,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T07:47:26Z",
+    "author": "/u/PrimusArtifex",
+    "text": "Does ChatGPT have a better level of understanding than Gemini? - I swear ChatGPT’s image engine seems to understand instructions much easier. It also keeps track of the conversation and understands where you’re at, so you don’t have to keep explaining the same details over and over again. With Gemini, I often feel like I have to repeat everything constantly because it either forgets the context or just doesn’t fully understand what I’m asking for. The most frustrating part is when I give it a very specific instruction and it does almost the exact opposite. Then I have to regenerate it several times, which ends up wasting both credits and time. When it gets it right, though, the results are great. I’ve had the same problem with both image and video generation. With ChatGPT, sometimes I don’t even have to write a full prompt after a long conversation. I can just type a word or a short instruction, and it understands what I want because it follows the logical progression of previous requests. With Gemini, despite having all the previous context, it will sometimes ask, “What do you want me to do with that?” or “Provide more information.” Has anyone else had this experience with Gemini? Do you find ChatGPT better at following image-editing instructions and keeping track of context? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vipvye/does_chatgpt_have_a_better_level_of_understanding/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T16:49:38Z",
     "author": "/u/silvxxz",
     "text": "Is ChatGPT Plus actually worth it for the average person? - For those of you who pay for Plus, what made you finally go “yeah, this is worth paying for”? I’m talking about regular everyday use, not coding, programming, or anything super technical. If GPT-5.6 Luna already handles like 99% of normal stuff for free, what’s the actual selling point of Plus? What do you get out of it that genuinely makes the subscription worth it? &#32; submitted by &#32; /u/silvxxz [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vi5yvk/is_chatgpt_plus_actually_worth_it_for_the_average/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T07:06:07Z",
-    "author": "/u/behopeyandabide",
-    "text": "Anyone else on android noticing the model switching ks different each day? - I swear this week they have changed the UI every day. I opened a new chat just now and being told I am on 5.5 despite my Plus plan and being set to high effort (the model switcher where the slider is is now missing completely today). I have found ZERO way to change the model on Android and for the last week or more, the UI has been changing. How hard is it to just settle on something and leave it? Ugh 😫 &#32; submitted by &#32; /u/behopeyandabide [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vip6m9/anyone_else_on_android_noticing_the_model/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T10:56:23Z",
-    "author": "/u/The_Digital_Hearts",
-    "text": "ChatGPT 6.0 Coming Next Week? - Written by a reputable leaker @syntheavedd wrote: 🚨 EXCLUSIVE: OpenAI are preparing to launch Astra imminently, targeting next week. Their next major model, Astra is a new pretrain - the largest model OpenAI have trained since GPT-4.5. Their most recent dogfood checkpoint of the model, internally known as &quot;mewfour&quot;, is the Release Candidate. --- I had to look up what he meant about &quot;dogfood checkpoint&quot; because I'm not that tech savvy to think the term dogfood was a positive description. Turns out in the tech industry dogfood checkpoint is actually a positive term meaning good enough the manufacturer is eating it which is a weird way of saying how good something is but hey tech bros are our future so grab a bowl and get in line. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vhxdll/chatgpt_60_coming_next_week/",
     "authority_score": 0.5
   }
 ]
