@@ -442,6 +442,7 @@ def build_features(
     model_state: Optional[ModelState] = None,
     recent_reset_time: Optional[datetime] = None,
     now: Optional[datetime] = None,
+    expected_weekly_interval_hours: Optional[float] = None,
 ) -> PredictionFeatures:
     """
     Build PredictionFeatures (V2) from analysis features and LLM signal scores.
@@ -493,6 +494,7 @@ def build_features(
         community_signal=evidence["community_signal"],
         release_signal=evidence["release_signal"],
         evidence_score=evidence["overall"],
+        expected_weekly_interval_hours=expected_weekly_interval_hours,
     )
 
 
@@ -606,8 +608,18 @@ class ResetPredictor:
         features.average_reset_interval = avg
         features.median_reset_interval = median
         features.interval_uncertainty = uncertainty
+
+        # Use expected weekly interval for time_pressure when available.
+        # The historical median interval includes short intervals from early
+        # double-reset days, which makes 145.7h seem "extremely overdue"
+        # when it is actually right on schedule for a weekly pattern.
+        time_interval = (
+            features.expected_weekly_interval_hours
+            if features.expected_weekly_interval_hours is not None
+            else median
+        )
         features.time_pressure = _compute_time_pressure(
-            hours_since, median, uncertainty
+            hours_since, time_interval, uncertainty
         )
 
     def _compute_time_ratio(self, features: PredictionFeatures) -> Optional[float]:

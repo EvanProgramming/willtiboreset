@@ -188,6 +188,10 @@ class PredictionFeatures(BaseModel):
         default=0.0, ge=0.0, le=1.0,
         description="Combined evidence strength (V2, aggregated from LLM signals and source weights)"
     )
+    expected_weekly_interval_hours: Optional[float] = Field(
+        default=None, gt=0.0,
+        description="Expected weekly reset interval (168h); overrides median_interval for time_pressure calculation when set"
+    )
 
 
 class FactorImpact(BaseModel):
