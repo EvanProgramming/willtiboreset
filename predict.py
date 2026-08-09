@@ -74,6 +74,7 @@ def collect_data() -> list[Tweet]:
     """
     all_tweets: list[Tweet] = []
 
+    # Tibo RSS (via self-hosted RSSHub with Twitter cookies)
     tibo = TiboRSSCollector(timeout=config.rss_request_timeout)
     all_tweets.extend(tibo.collect())
 

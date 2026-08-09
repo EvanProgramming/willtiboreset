@@ -22,7 +22,7 @@ class TestConfig:
         """Credential flags are False when not configured"""
         config = Config()
         # Re-create after clearing environment variables
-        assert config.has_twitter_credentials in (True, False)
+        assert config.has_rss_feeds in (True, False)
         assert config.has_openai_credentials in (True, False)
 
     def test_path_properties(self):

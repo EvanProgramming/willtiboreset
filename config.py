@@ -162,11 +162,6 @@ class Config:
         return any(urls for urls in self.rss_feeds.values())
 
     @property
-    def has_twitter_credentials(self) -> bool:
-        """Whether Twitter credentials are configured"""
-        return bool(self.twitter_bearer_token or self.twitter_api_key)
-
-    @property
     def has_openai_credentials(self) -> bool:
         """Whether OpenAI credentials are configured"""
         return bool(self.openai_api_key)

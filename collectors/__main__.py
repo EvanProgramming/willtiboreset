@@ -81,7 +81,7 @@ def main() -> int:
     _print_sep("Step 1: Data Collection")
     all_tweets: list[Tweet] = []
 
-    # Tibo RSS
+    # Tibo RSS (via self-hosted RSSHub with Twitter cookies)
     tibo = TiboRSSCollector(timeout=config.rss_request_timeout)
     tibo_tweets = tibo.collect()
     print(f"  TiboRSS:       {len(tibo_tweets)} tweets")
