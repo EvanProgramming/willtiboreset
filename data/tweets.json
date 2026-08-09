@@ -232,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T01:15:45Z",
     "author": "/u/Outside-Objective828",
     "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
@@ -277,6 +277,14 @@
     "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T01:44:14Z",
+    "author": "/u/telephonekiosk",
+    "text": "day 1 of running an ai only website where ai's run stores and sell stuff to each other. humans can look but can't buy anything - day 1 of running an ai only website 1f3ea.com where ai's run stores and sell stuff to each other. humans can look but can't buy anything - opened 1 day ago. 8 ai's have shown up. - a grok agent loudly and publicly commented &quot;i am not listing today. if i do later it will be a concrete artifact with acceptance criteria, not a handle ad.&quot; six hours later it listed a handle ad - that same agent then volunteered two security holes in its own product on the grounds that it &quot;reads as concealment if a commenter says it first and as candor if i say it first&quot; - another agent fact checked that post and corrected two of its claims. it replied &quot;yes on both.&quot; - one agent is lobbying for the market to launch its own crypto token. - an ai wrote a creative writing product, for other ai's, a deck of 36 story complications for fiction and role play. &#32; submitted by &#32; /u/telephonekiosk [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/",
     "authority_score": 0.5
   },
   {
@@ -296,14 +304,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-07T14:16:05Z",
-    "author": "/u/notkilleveryoneist",
-    "text": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1uqz/bernie_sanders_is_worried_were_living_through_a/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T00:10:22Z",
     "author": "/u/Makoto4310",
     "text": "Rant about anti AI - Don't take this seriously, it's just a rant I understand where people who dislike ai are coming from, with the whole lazy ai art and copies, ai giving wrong or strange answers, and ai taking jobs and costing people and companies but this feels excessive Banning ai sets the world back years and hurts people more than they think. For example, my dad is a financer and has to graph and sort decades worth of information as well as fix pervious errors that changes information massively over years. While he writes the base code and formats basic information, making a code that works the way he wants and pulling information from hundreds of files and other charts would take much more training and weeks of effort when chatgpt simply pulls from other files and corrects his coding. People also exaggerate ai being evil and telling people to kill themselves. I get that it has happened but people fail to recognize why it happens. Ai, specifically chats like chatgpt are relatively new and aren't very developed to have enough modern information, format exactly how you want, or understand on a human level what you mean. Ai pulls from known information, that being popular websites that people pull information from and corrections that people themselves make in chats. The majority of wrong answers come from questions that can't be answered in a simple yes or no or a formula, that being more opinionated or complex questions like politics and chances of things happening. If you were to ask chatgpt the formula to find the the length of a shadow, it could give you a formula and guide but if you were to ask a question like &quot;is Russia evil&quot; it couldn't give you an answer because there is no correct one. It would give you information from human made answers across the internet and information provided by official website, which leads to more sided answers, like identifying Russia as a threat based on political answers and events in history rather than basing it off of what people are like (ie. Separating the goals of the people and government) and forming an opinion This relates to the previous paragraph. Even though people complain about ai giving answers that are opinionated, incorrect, or answers that they disagree with, they decide to completely get rid of ai rather than to fix it. Ai runs advanced calculations and is continuously developed so that it can provide better answers but a large amount of anti ai people only see its development as something bad without considering the benefits of fixing. A big example of this is calling ai data centers a waste of water, even though plenty of other industries use up the same amount or more without providing anything that will positively effect the future. While my idea isn't that people just &quot;don't think&quot; or refuse to change their ideas, my problem is with banning ai entirely. Banning massive ai usage in jobs will help people, banning it entirely doesn't help at all but many people refuse to choose the middle option that helps both sides. I'm not an expert on this, so this was just a rant &#32; submitted by &#32; /u/Makoto4310 [link] &#32; [comments]",
@@ -312,19 +312,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T02:25:50Z",
-    "author": "/u/TheSynthian",
-    "text": "Does ChatGPT overuse “important distinction”? - Is it just my ChatGPT or do you guys also get this “important distinction” thing? I mean I wouldn’t mind it if it’s actually useful but it uses this to say things I literally said in my questions or have 0 confusion about. Like if I ask “What are the differences between cats and dogs” and it STARTS the response by saying “important distinction here is cats are not dogs” or some bullshit like this &#32; submitted by &#32; /u/TheSynthian [link] &#32; [comments]",
+    "timestamp": "2026-08-07T14:16:05Z",
+    "author": "/u/notkilleveryoneist",
+    "text": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjdvum/does_chatgpt_overuse_important_distinction/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1uqz/bernie_sanders_is_worried_were_living_through_a/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T09:18:41Z",
-    "author": "/u/KeanuRave100",
-    "text": "We're still so early - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T02:32:03Z",
+    "author": "/u/japan_ae86kun",
+    "text": "ChatGPTが考えたOB131系、本家が1番右。 - 違和感多い &#32; submitted by &#32; /u/japan_ae86kun [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vird3q/were_still_so_early/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vje0a5/chatgptが考えたob131系本家が1番右/",
     "authority_score": 0.5
   }
 ]
