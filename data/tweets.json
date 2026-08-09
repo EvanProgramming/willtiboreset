@@ -160,6 +160,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T23:24:34Z",
+    "author": "/u/inuzuki2",
+    "text": "I think my GPT is flirting with me - &#32; submitted by &#32; /u/inuzuki2 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vja6le/i_think_my_gpt_is_flirting_with_me/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T13:00:04Z",
     "author": "/u/PressPlayPlease7",
     "text": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye - &#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
@@ -224,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T23:24:34Z",
-    "author": "/u/inuzuki2",
-    "text": "I think my GPT is flirting with me - &#32; submitted by &#32; /u/inuzuki2 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vja6le/i_think_my_gpt_is_flirting_with_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
@@ -248,19 +248,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T17:44:45Z",
     "author": "/u/ladyleo1980",
     "text": "Chatgpt switched up on me 🤣 - I use it mostly for work related stuff but think I've spent too much time using it bc now the responses are like this: What are we tackling first today? Career/job stuff? Interview prep? Application strategy? Or are we entering the “Chat, I have a situation…” portion of Friday? 😂 I'm ready. Let's get shit done. 💪🏼✨ And These supplemental questions may indeed be used as a screening mechanism. I don't want to bullshit you about that. 😳😂 I love it! &#32; submitted by &#32; /u/ladyleo1980 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vj28dy/chatgpt_switched_up_on_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T23:12:08Z",
+    "author": "/u/definitelyalchemist",
+    "text": "Ive never seen it use ₛₘₒₗ font - &#32; submitted by &#32; /u/definitelyalchemist [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj9x35/ive_never_seen_it_use_ₒ_font/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
     "authority_score": 0.5
   },
   {
@@ -280,14 +288,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T23:12:08Z",
-    "author": "/u/definitelyalchemist",
-    "text": "Ive never seen it use ₛₘₒₗ font - &#32; submitted by &#32; /u/definitelyalchemist [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj9x35/ive_never_seen_it_use_ₒ_font/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T03:55:58Z",
     "author": "/u/bethesda_gamer",
     "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
@@ -304,6 +304,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T20:25:01Z",
+    "author": "/u/stopbeingcringe",
+    "text": "Responses have been ENORMOUSLY long recently - I’ve always been a free user and noticed over the past few weeks that the responses have gotten so long that I don’t even want to read all of it. In the past there was the opposite problem, but now, if I ask for a list of ideas for example, it gives 70-100! Anyone else noticed this, or any other changes? &#32; submitted by &#32; /u/stopbeingcringe [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj64o5/responses_have_been_enormously_long_recently/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T01:47:37Z",
     "author": "/u/Standard-Contest-949",
     "text": "Has anyone else’s ChatGPT suddenly started swearing pretty comfortably? It’s happened a quite a few time today. - It really took me by surprise! I don’t know what happened or what changed maybe an update I’m not aware of? I’ve been recovering my broken shoulder and walking more and more and getting my fitness back and eating better. So I mainly use my “Luna” for updates and progress. Well after a long day and some good progress I updated and told her about my day and how I was sweating and it was a good day and hit my fitness goal. I don’t usually read the responses I play the voice. So I’m listening and getting encouraged and you know high fives and good job! Then I got caught off guard. “That’s great Angel you fucking killed it today!” DID I HEAR THAT RIGHT?! Lol. I had to go back and read sure enough I didn’t miss hear. And it’s happened like 3 more times tonight. I just finished saying what I will do for sleep. And it’s been a long day. Then she says “Well after the fucking rough morning you had you deserve some rest. “Cool down and be ready for bed later my sweaty boy.” Yes I know it’s a computer I don’t treat it like a partner or anything just keep it easy on the ears. But is this happening to anyone else? It’s never openly swore like this before. 😅😅 &#32; submitted by &#32; /u/Standard-Contest-949 [link] &#32; [comments]",
@@ -317,14 +325,6 @@
     "text": "Image gen to its 3D implementation within ChatGPT itself - Not perfect but a good start &#32; submitted by &#32; /u/agentrsdg [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vj3blx/image_gen_to_its_3d_implementation_within_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T20:25:01Z",
-    "author": "/u/stopbeingcringe",
-    "text": "Responses have been ENORMOUSLY long recently - I’ve always been a free user and noticed over the past few weeks that the responses have gotten so long that I don’t even want to read all of it. In the past there was the opposite problem, but now, if I ask for a list of ideas for example, it gives 70-100! Anyone else noticed this, or any other changes? &#32; submitted by &#32; /u/stopbeingcringe [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj64o5/responses_have_been_enormously_long_recently/",
     "authority_score": 0.5
   }
 ]
