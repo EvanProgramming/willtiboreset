@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T10:15:38Z",
-    "author": "/u/Bedroom-Old",
-    "text": "Definitely not the first time I've caught ChatGPT being a hypocrite - &#32; submitted by &#32; /u/Bedroom-Old [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjm7d4/definitely_not_the_first_time_ive_caught_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T14:09:56Z",
     "author": "/u/truecakesnake",
     "text": "Samsung support accidentally pasted the ChatGPT prompt in the customer support chat - &#32; submitted by &#32; /u/truecakesnake [link] &#32; [comments]",
@@ -176,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:28:20Z",
-    "author": "/u/bethesda_gamer",
-    "text": "NY Times Aug 9th, 2026 - https://www.nytimes.com/2026/07/09/business/china-russia-ai-data-centers.html &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj8xwt/ny_times_aug_9th_2026/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T07:36:27Z",
     "author": "/u/Alarmed_Shine1749",
     "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T22:28:20Z",
+    "author": "/u/bethesda_gamer",
+    "text": "NY Times Aug 9th, 2026 - https://www.nytimes.com/2026/07/09/business/china-russia-ai-data-centers.html &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj8xwt/ny_times_aug_9th_2026/",
     "authority_score": 0.5
   },
   {
@@ -205,6 +197,14 @@
     "text": "Chat extra funny the past two days? - I just feel like after yesterday my chat has been so funny, it doesn’t even miss a beat matching my tone or sarcasm, like the random things it throws in have actually made me laugh out loud, it’s been so much more pleasant to talk to the last two days, and I’m so sad because I fucking know it won’t last as usual before it starts sounding all uptight and corporate again, but oh my God, it has been such a pleasure, reminds me of 5.2. &#32; submitted by &#32; /u/puffykitten448 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjikbq/chat_extra_funny_the_past_two_days/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T09:36:42Z",
+    "author": "/u/PsychologicalSoup251",
+    "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T09:36:42Z",
-    "author": "/u/PsychologicalSoup251",
-    "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T13:00:04Z",
     "author": "/u/PressPlayPlease7",
     "text": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye - &#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
@@ -253,6 +245,14 @@
     "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T05:27:30Z",
+    "author": "/u/Bk_girly",
+    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
     "authority_score": 0.5
   },
   {
@@ -272,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T05:27:30Z",
-    "author": "/u/Bk_girly",
-    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
     "authority_score": 0.5
   },
   {
@@ -285,14 +285,6 @@
     "text": "Memory gone? - I've been using chatgpt solely for oc discussion and roleplay purposes and have been amassing worldbuilding and character lore for the past two years now. I've now just noticed going through the memory summary (don't get me started on how much I already disliked that update) it just got swiped clean for no particular reason? Thought it might have been a simple bug, but refreshing does absolutely nothing. Might be worth mentioning that I'm on mobile. I'd be pretty upset if all the lore to keep the interactions in rp just got lost all of a sudden, and I'd have to retell every single little lore detail. So before I absolutely lose it, I am wondering if anyone else has been having this issue as well. Because, oh my God, I had a lot. &#32; submitted by &#32; /u/Dumb_fucking_cxnt [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfinf/memory_gone/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
     "authority_score": 0.5
   },
   {
@@ -325,6 +317,14 @@
     "text": "Seinfeld AI - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1view4k/seinfeld_ai/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T04:14:19Z",
+    "author": "/u/LittleWarmer",
+    "text": "Based on our conversations, I asked ChatGPT to design a home security system for me. This is what I got. 🏡 - CHOMP!!! 🐪😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfz05/based_on_our_conversations_i_asked_chatgpt_to/",
     "authority_score": 0.5
   }
 ]
