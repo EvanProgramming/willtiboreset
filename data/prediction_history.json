@@ -12655,8 +12655,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-09T01:40:59.467082Z"
   },
   {
     "prediction_time": "2026-08-07T05:11:16.626317Z",
@@ -14816,6 +14816,55 @@
           "Text is just a title with no relevant content.",
           "No signals related to resets or limits.",
           "Mentions shipping a product but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T01:40:59.448121Z",
+    "prediction": {
+      "within_5h": 0.0647,
+      "within_24h": 0.2257,
+      "within_48h": 0.3431
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 190.14984486361112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 145.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0979,
+      "time_pressure": 0.7156,
+      "hazard_rate": 0.010602,
+      "evidence_score": 0.0096,
+      "tibo_signal": 0.004,
+      "community_signal": 0.0,
+      "release_signal": 0.019,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.041463414634146344,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9048780487804878,
+        "reason": [
+          "Text is about an Anthropic account suspension, not about quota resets.",
+          "No mention of usage limits or reset events.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product feature but no reset context."
         ]
       },
       "prior_applied": false,
