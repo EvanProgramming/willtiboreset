@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-09T03:40:55.090857+00:00",
+  "updated_at": "2026-08-09T04:00:57.246333+00:00",
   "prediction": {
-    "within_5h": 0.0621,
-    "within_24h": 0.2185,
-    "within_48h": 0.334
+    "within_5h": 0.064,
+    "within_24h": 0.2239,
+    "within_48h": 0.3409
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 143.9,
+    "hours_until": 143.5,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 192.1486361438889,
+    "hours_since_last_reset": 192.48256821750002,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 143.9,
+      "hours_until": 143.5,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.1305,
-    "time_pressure": 0.7323,
-    "hazard_rate": 0.01022,
-    "evidence_score": 0.0072,
-    "tibo_signal": 0.0039,
+    "time_ratio": 3.1359,
+    "time_pressure": 0.735,
+    "hazard_rate": 0.010506,
+    "evidence_score": 0.0087,
+    "tibo_signal": 0.0035,
     "community_signal": 0.0,
-    "release_signal": 0.0183,
+    "release_signal": 0.0181,
     "llm_scores": {
-      "reset_intent": 0.012195121951219513,
-      "limit_complaint": 0.012195121951219513,
-      "official_change": 0.07073170731707316,
+      "reset_intent": 0.007317073170731709,
+      "limit_complaint": 0.0,
+      "official_change": 0.04390243902439024,
       "reset_confirmation": 0.0,
-      "confidence": 0.9109756097560976,
+      "confidence": 0.901219512195122,
       "reason": [
-        "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+        "The text is about an account suspension issue with Anthropic, not about quota resets.",
         "No mention of usage limits or resets.",
-        "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+        "The text is just a title 'Astro Boy and Sol' with no relevant content.",
         "No signals related to resets or limits.",
-        "Mentions shipping magic on phone, but no reset or limit context."
+        "The text mentions a shipped product but no reset or limit complaints."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "192.1 hours since last reset",
+      "factor": "192.5 hours since last reset",
       "impact": "+5%",
       "score": 0.73
     },
@@ -64,8 +64,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "192.1 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "192.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 192.1 hours since last reset (+5%)"
+    "Main factor: 192.5 hours since last reset (+5%)"
   ]
 }
