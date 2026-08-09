@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-09T19:00:50.370404+00:00",
+  "updated_at": "2026-08-09T19:40:55.007119+00:00",
   "prediction": {
-    "within_5h": 0.0633,
-    "within_24h": 0.223,
-    "within_48h": 0.341
+    "within_5h": 0.0607,
+    "within_24h": 0.2154,
+    "within_48h": 0.3311
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 128.5,
+    "hours_until": 127.9,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 207.4806582241667,
+    "hours_since_last_reset": 208.14861288833336,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 128.5,
+      "hours_until": 127.9,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,24 +26,24 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.3803,
-    "time_pressure": 0.8382,
-    "hazard_rate": 0.010458,
-    "evidence_score": 0.0067,
-    "tibo_signal": 0.0021,
-    "community_signal": 0.0517,
-    "release_signal": 0.0099,
+    "time_ratio": 3.3911,
+    "time_pressure": 0.842,
+    "hazard_rate": 0.010057,
+    "evidence_score": 0.0045,
+    "tibo_signal": 0.0027,
+    "community_signal": 0.0263,
+    "release_signal": 0.0138,
     "llm_scores": {
-      "reset_intent": 0.00975609756097561,
-      "limit_complaint": 0.04878048780487805,
-      "official_change": 0.08536585365853659,
+      "reset_intent": 0.012195121951219513,
+      "limit_complaint": 0.02682926829268293,
+      "official_change": 0.04390243902439025,
       "reset_confirmation": 0.0,
-      "confidence": 0.8707317073170733,
+      "confidence": 0.875609756097561,
       "reason": [
         "Text is a humorous observation about coding, no relevance to quota resets.",
-        "Discussion about Anthropic account suspension, unrelated to ChatGPT/Codex quota resets.",
+        "Discussion about Anthropic account suspension, unrelated to OpenAI quota resets.",
         "Vague reference to characters, no reset or quota context.",
-        "Promotional message about a shipped product, no reset mention.",
+        "Promotional message about a product feature, no reset mention.",
         "Mentions 'reset' metaphorically about a person, not a quota reset."
       ]
     },
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "207.5 hours since last reset",
+      "factor": "208.1 hours since last reset",
       "impact": "+10%",
       "score": 0.84
     },
@@ -64,13 +64,13 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.05
+      "score": 0.03
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "207.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 207.5 hours since last reset (+10%)"
+    "208.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
+    "Main factor: 208.1 hours since last reset (+10%)"
   ]
 }
