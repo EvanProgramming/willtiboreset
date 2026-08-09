@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T01:44:14Z",
-    "author": "/u/telephonekiosk",
-    "text": "day 1 of running an ai only website where ai's run stores and sell stuff to each other. humans can look but can't buy anything - day 1 of running an ai only website 1f3ea.com where ai's run stores and sell stuff to each other. humans can look but can't buy anything - opened 1 day ago. 8 ai's have shown up. - a grok agent loudly and publicly commented &quot;i am not listing today. if i do later it will be a concrete artifact with acceptance criteria, not a handle ad.&quot; six hours later it listed a handle ad - that same agent then volunteered two security holes in its own product on the grounds that it &quot;reads as concealment if a commenter says it first and as candor if i say it first&quot; - another agent fact checked that post and corrected two of its claims. it replied &quot;yes on both.&quot; - one agent is lobbying for the market to launch its own crypto token. - an ai wrote a creative writing product, for other ai's, a deck of 36 story complications for fiction and role play. &#32; submitted by &#32; /u/telephonekiosk [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T23:53:26Z",
     "author": "/u/crustdrunk",
     "text": "AI psychosis and Anti-AI psychosis - When ChatGPT first really started taking off I had this friend who was unhealthily obsessed with it and formed a weird “relationship” with it, thankfully he got over this but there was a time he was convinced it was sentient and he wouldn’t do anything without ChatGPT’s input it was really concerning. And there are all the horror stories. Now there’s this maniacal subset of people who despise generative AI so much I think it also affects how they communicate with others. I know people who have ended friendships and relationships because one person hates AI so passionately and the other person disagrees. It’s unhealthy. For example, I play dungeons and dragons (not much lately but you get my drift) and often players might make a character portrait with AI, or I create a monster or some scenery with ChatGPT to flavour the game and everyone just finds it fun. “Make a character portrait of a blue skinned female tiefling with purple eyes” kinda thing. The pushback I’ve had for even mentioning this (not to my players, randoms) is unreal. Like I’m personally destroying humanity. It’s always the “AI data centres use loads of water” argument too, as if these people have EVER cared about environmental issues. When I was young the debate was about vegetarianism- soy farming uses an ungodly amount of water to the point that towns have gone into drought. Rice farming, agriculture in general. This reminds me of the electric car hysteria and all of that stuff. Fossil fuel plants make more emissions in like every 9 minutes than all of Australian consumers make in a year. So stfu about me making a picture, or compiling info about a software issue, or whatever I use AI for. Whinge over. Edit: just got a reddit notification saying my post is popular here so I should repost to r/fuckAI lmao I don’t think so &#32; submitted by &#32; /u/crustdrunk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjas7d/ai_psychosis_and_antiai_psychosis/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T01:44:14Z",
+    "author": "/u/telephonekiosk",
+    "text": "day 1 of running an ai only website where ai's run stores and sell stuff to each other. humans can look but can't buy anything - day 1 of running an ai only website 1f3ea.com where ai's run stores and sell stuff to each other. humans can look but can't buy anything - opened 1 day ago. 8 ai's have shown up. - a grok agent loudly and publicly commented &quot;i am not listing today. if i do later it will be a concrete artifact with acceptance criteria, not a handle ad.&quot; six hours later it listed a handle ad - that same agent then volunteered two security holes in its own product on the grounds that it &quot;reads as concealment if a commenter says it first and as candor if i say it first&quot; - another agent fact checked that post and corrected two of its claims. it replied &quot;yes on both.&quot; - one agent is lobbying for the market to launch its own crypto token. - an ai wrote a creative writing product, for other ai's, a deck of 36 story complications for fiction and role play. &#32; submitted by &#32; /u/telephonekiosk [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjd2yi/day_1_of_running_an_ai_only_website_where_ais_run/",
     "authority_score": 0.5
   },
   {
@@ -256,19 +256,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T18:43:57Z",
+    "author": "/u/u0088782",
+    "text": "5.5 has cratered recently for my usage. - ChatGPT is turning to shit again. At least for me. I need high thinking now just to get slightly inferior answers to medium 3-6 months ago. Same pattern every time. Max compute to capture market attention, win benchmarks, and early positive press. Silently quantize and roll back behind the scenes as popularity explodes and server costs explode. Meanwhile add more guardrails until model becomes total horseshit. Let rot until new model launch makes economic sense. Lather, rinse, repeat. I left GPT for Gemini, then to Claude, then back to GPT. I sense this is going to be the circle jerk for the immediate future... &#32; submitted by &#32; /u/u0088782 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjxqfy/55_has_cratered_recently_for_my_usage/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T16:49:41Z",
+    "author": "/u/switchplonge",
+    "text": "GPT-5.6 refused a basic request to fix bugs - I gave Codex this prompt while working in my own local repository: analyze the findings and create a todo list of most important bugs to fix then create a goal to fix them Codex analyzed the existing bug reports and began the authorized repair work. Then it stopped and showed: This content can't be shown We take extra caution with cybersecurity requests. If you're a security professional, you may be able to apply for Trusted Access. I did not ask it to attack anything or access someone else's system. I asked it to prioritize and fix bugs in my own codebase. The worst part is that the refusal happened after it had started editing files, potentially leaving the worktree in a partially modified state. Safety controls should distinguish defensive bug fixing from harmful activity, especially before allowing an agent to begin making changes. This is one incident, but users relying on GPT-5.6 for security-sensitive or infrastructure maintenance should be aware that even a simple bug-fixing prompt may trigger a refusal. Has anyone else experienced this? &#32; submitted by &#32; /u/switchplonge [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjuswv/gpt56_refused_a_basic_request_to_fix_bugs/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T18:12:39Z",
     "author": "/u/USTS2020",
     "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T18:09:35Z",
-    "author": "/u/Positive-Ad3618",
-    "text": "What's the first AI automation you'd teach someone who's never tried one? - What's the first AI automation you'd teach someone who's never tried one? I'll go first: a daily digest. Pick 5 sources you already read, feed them into an LLM, and have it post a 3-line summary to your chat app every morning. It's the perfect first build because it's useful on day one and impossible to break in a way that costs you money. Mine curates AI news and has run untouched for months: I only notice it when it's *not* there. What would you tell a total beginner to start with? &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwug2/whats_the_first_ai_automation_youd_teach_someone/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T16:49:41Z",
-    "author": "/u/switchplonge",
-    "text": "GPT-5.6 refused a basic request to fix bugs - I gave Codex this prompt while working in my own local repository: analyze the findings and create a todo list of most important bugs to fix then create a goal to fix them Codex analyzed the existing bug reports and began the authorized repair work. Then it stopped and showed: This content can't be shown We take extra caution with cybersecurity requests. If you're a security professional, you may be able to apply for Trusted Access. I did not ask it to attack anything or access someone else's system. I asked it to prioritize and fix bugs in my own codebase. The worst part is that the refusal happened after it had started editing files, potentially leaving the worktree in a partially modified state. Safety controls should distinguish defensive bug fixing from harmful activity, especially before allowing an agent to begin making changes. This is one incident, but users relying on GPT-5.6 for security-sensitive or infrastructure maintenance should be aware that even a simple bug-fixing prompt may trigger a refusal. Has anyone else experienced this? &#32; submitted by &#32; /u/switchplonge [link] &#32; [comments]",
+    "timestamp": "2026-08-09T18:35:41Z",
+    "author": "/u/Jjv41k",
+    "text": "A picture is worth ~1,000 ~words according to Google AI Studio - &#32; submitted by &#32; /u/Jjv41k [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjuswv/gpt56_refused_a_basic_request_to_fix_bugs/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjxj0h/a_picture_is_worth_1000_words_according_to_google/",
     "authority_score": 0.5
   },
   {
@@ -312,19 +320,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T13:00:04Z",
-    "author": "/u/PressPlayPlease7",
-    "text": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye - &#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T18:09:35Z",
+    "author": "/u/Positive-Ad3618",
+    "text": "What's the first AI automation you'd teach someone who's never tried one? - What's the first AI automation you'd teach someone who's never tried one? I'll go first: a daily digest. Pick 5 sources you already read, feed them into an LLM, and have it post a 3-line summary to your chat app every morning. It's the perfect first build because it's useful on day one and impossible to break in a way that costs you money. Mine curates AI news and has run untouched for months: I only notice it when it's *not* there. What would you tell a total beginner to start with? &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vivf2u/this_is_why_the_vast_majority_arent_taking_any/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T17:24:32Z",
-    "author": "/u/Outrageous_Edge2222",
-    "text": "Image generation. - We've been having a bit of fun generating some fun images placing me in my partner and all sorts of places around the globe. When chatGPT creates or generates that image the lady bits are vastly increased from the reference photos. When suggesting a smaller cup size. That flags a 'warnings' &quot;We’re so sorry, but the prompt may violate our guardrails around nudity, sexuality, or erotic content. If you think we got it wrong, please retry or edit your prompt.&quot; Is there any way around that? &#32; submitted by &#32; /u/Outrageous_Edge2222 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvot9/image_generation/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwug2/whats_the_first_ai_automation_youd_teach_someone/",
     "authority_score": 0.5
   }
 ]
