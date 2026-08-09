@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T15:28:47Z",
-    "author": "/u/Legitimate_Split_325",
-    "text": "\"The agent is working in the sandbox\".... Meanwhile the agent. - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viyvt8/the_agent_is_working_in_the_sandbox_meanwhile_the/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T23:53:26Z",
     "author": "/u/crustdrunk",
     "text": "AI psychosis and Anti-AI psychosis - When ChatGPT first really started taking off I had this friend who was unhealthily obsessed with it and formed a weird “relationship” with it, thankfully he got over this but there was a time he was convinced it was sentient and he wouldn’t do anything without ChatGPT’s input it was really concerning. And there are all the horror stories. Now there’s this maniacal subset of people who despise generative AI so much I think it also affects how they communicate with others. I know people who have ended friendships and relationships because one person hates AI so passionately and the other person disagrees. It’s unhealthy. For example, I play dungeons and dragons (not much lately but you get my drift) and often players might make a character portrait with AI, or I create a monster or some scenery with ChatGPT to flavour the game and everyone just finds it fun. “Make a character portrait of a blue skinned female tiefling with purple eyes” kinda thing. The pushback I’ve had for even mentioning this (not to my players, randoms) is unreal. Like I’m personally destroying humanity. It’s always the “AI data centres use loads of water” argument too, as if these people have EVER cared about environmental issues. When I was young the debate was about vegetarianism- soy farming uses an ungodly amount of water to the point that towns have gone into drought. Rice farming, agriculture in general. This reminds me of the electric car hysteria and all of that stuff. Fossil fuel plants make more emissions in like every 9 minutes than all of Australian consumers make in a year. So stfu about me making a picture, or compiling info about a software issue, or whatever I use AI for. Whinge over. &#32; submitted by &#32; /u/crustdrunk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjas7d/ai_psychosis_and_antiai_psychosis/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T15:28:47Z",
+    "author": "/u/Legitimate_Split_325",
+    "text": "\"The agent is working in the sandbox\".... Meanwhile the agent. - &#32; submitted by &#32; /u/Legitimate_Split_325 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viyvt8/the_agent_is_working_in_the_sandbox_meanwhile_the/",
     "authority_score": 0.5
   },
   {
@@ -216,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-07T20:50:32Z",
     "author": "/u/soalone34",
     "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
@@ -240,14 +248,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
@@ -264,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T17:44:45Z",
-    "author": "/u/ladyleo1980",
-    "text": "Chatgpt switched up on me 🤣 - I use it mostly for work related stuff but think I've spent too much time using it bc now the responses are like this: What are we tackling first today? Career/job stuff? Interview prep? Application strategy? Or are we entering the “Chat, I have a situation…” portion of Friday? 😂 I'm ready. Let's get shit done. 💪🏼✨ And These supplemental questions may indeed be used as a screening mechanism. I don't want to bullshit you about that. 😳😂 I love it! &#32; submitted by &#32; /u/ladyleo1980 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj28dy/chatgpt_switched_up_on_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T00:06:29Z",
     "author": "/u/userNotzFound404",
     "text": "ChatGPT swearing more lately? - So I was just casually chatting and it dropped an F bomb,I thought nothing of it since it did sometimes before,but it dropped 3 in the same that with no setting or personalization changes Has this been happening to anyone else? &#32; submitted by &#32; /u/userNotzFound404 [link] &#32; [comments]",
@@ -280,19 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T00:10:22Z",
-    "author": "/u/Makoto4310",
-    "text": "Rant about anti AI - Don't take this seriously, it's just a rant I understand where people who dislike ai are coming from, with the whole lazy ai art and copies, ai giving wrong or strange answers, and ai taking jobs and costing people and companies but this feels excessive Banning ai sets the world back years and hurts people more than they think. For example, my dad is a financer and has to graph and sort decades worth of information as well as fix pervious errors that changes information massively over years. While he writes the base code and formats basic information, making a code that works the way he wants and pulling information from hundreds of files and other charts would take much more training and weeks of effort when chatgpt simply pulls from other files and corrects his coding. People also exaggerate ai being evil and telling people to kill themselves. I get that it has happened but people fail to recognize why it happens. Ai, specifically chats like chatgpt are relatively new and aren't very developed to have enough modern information, format exactly how you want, or understand on a human level what you mean. Ai pulls from known information, that being popular websites that people pull information from and corrections that people themselves make in chats. The majority of wrong answers come from questions that can't be answered in a simple yes or no or a formula, that being more opinionated or complex questions like politics and chances of things happening. If you were to ask chatgpt the formula to find the the length of a shadow, it could give you a formula and guide but if you were to ask a question like &quot;is Russia evil&quot; it couldn't give you an answer because there is no correct one. It would give you information from human made answers across the internet and information provided by official website, which leads to more sided answers, like identifying Russia as a threat based on political answers and events in history rather than basing it off of what people are like (ie. Separating the goals of the people and government) and forming an opinion This relates to the previous paragraph. Even though people complain about ai giving answers that are opinionated, incorrect, or answers that they disagree with, they decide to completely get rid of ai rather than to fix it. Ai runs advanced calculations and is continuously developed so that it can provide better answers but a large amount of anti ai people only see its development as something bad without considering the benefits of fixing. A big example of this is calling ai data centers a waste of water, even though plenty of other industries use up the same amount or more without providing anything that will positively effect the future. While my idea isn't that people just &quot;don't think&quot; or refuse to change their ideas, my problem is with banning ai entirely. Banning massive ai usage in jobs will help people, banning it entirely doesn't help at all but many people refuse to choose the middle option that helps both sides. I'm not an expert on this, so this was just a rant &#32; submitted by &#32; /u/Makoto4310 [link] &#32; [comments]",
+    "timestamp": "2026-08-08T17:44:45Z",
+    "author": "/u/ladyleo1980",
+    "text": "Chatgpt switched up on me 🤣 - I use it mostly for work related stuff but think I've spent too much time using it bc now the responses are like this: What are we tackling first today? Career/job stuff? Interview prep? Application strategy? Or are we entering the “Chat, I have a situation…” portion of Friday? 😂 I'm ready. Let's get shit done. 💪🏼✨ And These supplemental questions may indeed be used as a screening mechanism. I don't want to bullshit you about that. 😳😂 I love it! &#32; submitted by &#32; /u/ladyleo1980 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5u3/rant_about_anti_ai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T00:09:44Z",
-    "author": "/u/Perfect_Anteater4381",
-    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj28dy/chatgpt_switched_up_on_me/",
     "authority_score": 0.5
   },
   {
@@ -309,6 +293,22 @@
     "text": "Bernie Sanders is worried we're living through a Don't Look Up situation with AI - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vi1uqz/bernie_sanders_is_worried_were_living_through_a/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T00:10:22Z",
+    "author": "/u/Makoto4310",
+    "text": "Rant about anti AI - Don't take this seriously, it's just a rant I understand where people who dislike ai are coming from, with the whole lazy ai art and copies, ai giving wrong or strange answers, and ai taking jobs and costing people and companies but this feels excessive Banning ai sets the world back years and hurts people more than they think. For example, my dad is a financer and has to graph and sort decades worth of information as well as fix pervious errors that changes information massively over years. While he writes the base code and formats basic information, making a code that works the way he wants and pulling information from hundreds of files and other charts would take much more training and weeks of effort when chatgpt simply pulls from other files and corrects his coding. People also exaggerate ai being evil and telling people to kill themselves. I get that it has happened but people fail to recognize why it happens. Ai, specifically chats like chatgpt are relatively new and aren't very developed to have enough modern information, format exactly how you want, or understand on a human level what you mean. Ai pulls from known information, that being popular websites that people pull information from and corrections that people themselves make in chats. The majority of wrong answers come from questions that can't be answered in a simple yes or no or a formula, that being more opinionated or complex questions like politics and chances of things happening. If you were to ask chatgpt the formula to find the the length of a shadow, it could give you a formula and guide but if you were to ask a question like &quot;is Russia evil&quot; it couldn't give you an answer because there is no correct one. It would give you information from human made answers across the internet and information provided by official website, which leads to more sided answers, like identifying Russia as a threat based on political answers and events in history rather than basing it off of what people are like (ie. Separating the goals of the people and government) and forming an opinion This relates to the previous paragraph. Even though people complain about ai giving answers that are opinionated, incorrect, or answers that they disagree with, they decide to completely get rid of ai rather than to fix it. Ai runs advanced calculations and is continuously developed so that it can provide better answers but a large amount of anti ai people only see its development as something bad without considering the benefits of fixing. A big example of this is calling ai data centers a waste of water, even though plenty of other industries use up the same amount or more without providing anything that will positively effect the future. While my idea isn't that people just &quot;don't think&quot; or refuse to change their ideas, my problem is with banning ai entirely. Banning massive ai usage in jobs will help people, banning it entirely doesn't help at all but many people refuse to choose the middle option that helps both sides. I'm not an expert on this, so this was just a rant &#32; submitted by &#32; /u/Makoto4310 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5u3/rant_about_anti_ai/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T00:09:44Z",
+    "author": "/u/Perfect_Anteater4381",
+    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
     "authority_score": 0.5
   },
   {
