@@ -75,7 +75,7 @@ def show_status() -> None:
 
     # API credentials
     print_separator("API Credentials")
-    print(f"  Twitter:  {'✓ configured' if config.has_twitter_credentials else '✗ not configured'}")
+    print(f"  RSS feeds:  {'✓ configured' if config.has_rss_feeds else '✗ not configured'}")
     print(f"  OpenAI:   {'✓ configured' if config.has_openai_credentials else '✗ not configured'}")
     print()
 
