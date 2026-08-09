@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-09T00:40:57.540033+00:00",
+  "updated_at": "2026-08-09T01:00:55.499361+00:00",
   "prediction": {
-    "within_5h": 0.0651,
-    "within_24h": 0.2269,
-    "within_48h": 0.3445
+    "within_5h": 0.0656,
+    "within_24h": 0.2284,
+    "within_48h": 0.3464
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 146.9,
+    "hours_until": 146.5,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 189.14931647749998,
+    "hours_since_last_reset": 189.48208295111112,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 146.9,
+      "hours_until": 146.5,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.0816,
-    "time_pressure": 0.7071,
-    "hazard_rate": 0.010666,
-    "evidence_score": 0.0101,
-    "tibo_signal": 0.0044,
-    "community_signal": 0.0054,
-    "release_signal": 0.0191,
+    "time_ratio": 3.087,
+    "time_pressure": 0.7099,
+    "hazard_rate": 0.010746,
+    "evidence_score": 0.0105,
+    "tibo_signal": 0.004,
+    "community_signal": 0.0,
+    "release_signal": 0.019,
     "llm_scores": {
       "reset_intent": 0.00975609756097561,
       "limit_complaint": 0.0,
-      "official_change": 0.053658536585365846,
+      "official_change": 0.03902439024390244,
       "reset_confirmation": 0.0,
-      "confidence": 0.9060975609756097,
+      "confidence": 0.9195121951219511,
       "reason": [
         "Text is about an account suspension at Anthropic, not about quota resets.",
         "No mention of usage limits or resets.",
-        "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+        "Text is just a title with no relevant content.",
         "No signals related to resets or limits.",
-        "Mentions a shipped product but no reset or limit context."
+        "Mentions shipping a product but no reset context."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "189.1 hours since last reset",
+      "factor": "189.5 hours since last reset",
       "impact": "+5%",
       "score": 0.71
     },
@@ -60,17 +60,12 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.0
-    },
-    {
-      "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.01
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "189.1 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "189.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 189.1 hours since last reset (+5%)"
+    "Main factor: 189.5 hours since last reset (+5%)"
   ]
 }
