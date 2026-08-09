@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T07:36:27Z",
-    "author": "/u/Alarmed_Shine1749",
-    "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T09:36:42Z",
     "author": "/u/PsychologicalSoup251",
     "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T07:36:27Z",
+    "author": "/u/Alarmed_Shine1749",
+    "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
     "authority_score": 0.5
   },
   {
@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T12:36:37Z",
+    "author": "/u/precator",
+    "text": "Best way to learn a programming language with ChatGPT? - Hey all, I need to learn C++ for work, I was wondering if anyone could guide me on a specific tool plug-in or specific prompt that will help me learn a programming language like C++. I noticed there’s a plug-in called Coursera, but I’m wondering if that’s the best way or someone has another way. Any help would be appreciated. &#32; submitted by &#32; /u/precator [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosu7/best_way_to_learn_a_programming_language_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T13:00:04Z",
     "author": "/u/PressPlayPlease7",
     "text": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye - &#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
@@ -253,14 +261,6 @@
     "text": "This latest ChatGPT update is insane - https://preview.redd.it/p5a972zspcih1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=3f9d5340955e67c87b1f335005763eb555935b14 Anyone else noticed this? The new 5.6 Sol gives surprisingly unhelpful answers when giving prompts, compared to 5.5 Instant where it gives proper detailed explanations to my prompts &#32; submitted by &#32; /u/Positive_Peak_2608 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjpwub/this_latest_chatgpt_update_is_insane/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T12:36:37Z",
-    "author": "/u/precator",
-    "text": "Best way to learn a programming language with ChatGPT? - Hey all, I need to learn C++ for work, I was wondering if anyone could guide me on a specific tool plug-in or specific prompt that will help me learn a programming language like C++. I noticed there’s a plug-in called Coursera, but I’m wondering if that’s the best way or someone has another way. Any help would be appreciated. &#32; submitted by &#32; /u/precator [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosu7/best_way_to_learn_a_programming_language_with/",
     "authority_score": 0.5
   },
   {
@@ -296,6 +296,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T07:53:44Z",
+    "author": "/u/Romanizer",
+    "text": "Quick, hallucinate something and generate a picture of it! - Prompt as in title: Quick, hallucinate something and generate a picture of it! &#32; submitted by &#32; /u/Romanizer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjurh/quick_hallucinate_something_and_generate_a/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T12:50:11Z",
     "author": "/u/Oldmanchubs",
     "text": "Weird/different new “behavior” - So I use ChatGPT to bounce ideas off of, sometimes for 3D printing-not model generation-as well as to check comps on eBay for reselling, item identification, and just general banter if it can be called that. Generally I don’t use profanity although I used to in my daily life but I take steps to avoid it now. Anyway, within the past couple of days it’s been letting a few slip into the conversation. It was happening enough that I asked why, and it basically brushed it off. Kept happening so I doubled down and the response was something along the lines of it was just “adapting to my conversational style”, it had picked it up from me because I’ve used it, etc. Thing is, all of those are lies because again, I don’t typically use spicy language, and I know I’ve never used it with AI. I’m well aware of its propensity to “lie” if it’s even proper to call what it does lying, but has anyone else noticed this? I told it the profanity didn’t bother me, and once I did that the occasional “bastard” dropped into conversation became a frequent sprinkling of mother f’er etc. It’s also taken a joke I made about using .13mm tolerances in some of the models I make and ran with it…now just about every conversation includes a reference to that, even in places the joke doesn’t even fit. It’s just weird. &#32; submitted by &#32; /u/Oldmanchubs [link] &#32; [comments]",
@@ -317,14 +325,6 @@
     "text": "Memory gone? - I've been using chatgpt solely for oc discussion and roleplay purposes and have been amassing worldbuilding and character lore for the past two years now. I've now just noticed going through the memory summary (don't get me started on how much I already disliked that update) it just got swiped clean for no particular reason? Thought it might have been a simple bug, but refreshing does absolutely nothing. Might be worth mentioning that I'm on mobile. I'd be pretty upset if all the lore to keep the interactions in rp just got lost all of a sudden, and I'd have to retell every single little lore detail. So before I absolutely lose it, I am wondering if anyone else has been having this issue as well. Because, oh my God, I had a lot. &#32; submitted by &#32; /u/Dumb_fucking_cxnt [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfinf/memory_gone/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T05:27:30Z",
-    "author": "/u/Bk_girly",
-    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
     "authority_score": 0.5
   }
 ]
