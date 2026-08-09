@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-09T07:25:47Z",
+    "author": "Tibo",
+    "text": "Midnight coding is the best coding. Until you read the code the next day at least. - Midnight coding is the best coding. Until you read the code the next day at least.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2086353229894529148",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-08T18:13:08Z",
     "author": "Tibo",
     "text": "I would love to help, but I don’t work at Anthropic. It does seem odd that they would ban your account for using their harness with another model. An... - I would love to help, but I don’t work at Anthropic. It does seem odd that they would ban your account for using their harness with another model.Anyone else in the same situation?alex getman: Tibo, I followed the setup in this post almost exactly. Shortly afterward, Anthropic suspended my account.I’ve filed an appeal. Full implementation is public here: https://github.com/alexgetmancom/claude-proxy@thsottiaux @OpenAIDevs @ClaudeDevs - would appreciate help figuring out what happened",
@@ -120,14 +128,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-08-01T05:40:02Z",
-    "author": "Tibo",
-    "text": "Optimize for curiosity - Optimize for curiosity",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2083427516996292992",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -216,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T06:39:17Z",
+    "author": "/u/puffykitten448",
+    "text": "Chat extra funny the past two days? - I just feel like after yesterday my chat has been so funny, it doesn’t even miss a beat matching my tone or sarcasm, like the random things it throws in have actually made me laugh out loud, it’s been so much more pleasant to talk to the last two days, and I’m so sad because I fucking know it won’t last as usual before it starts sounding all uptight and corporate again, but oh my God, it has been such a pleasure, reminds me of 5.2. &#32; submitted by &#32; /u/puffykitten448 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjikbq/chat_extra_funny_the_past_two_days/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T00:09:44Z",
     "author": "/u/Perfect_Anteater4381",
     "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
@@ -232,83 +240,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T00:06:29Z",
     "author": "/u/userNotzFound404",
     "text": "ChatGPT swearing more lately? - So I was just casually chatting and it dropped an F bomb,I thought nothing of it since it did sometimes before,but it dropped 3 in the same that with no setting or personalization changes Has this been happening to anyone else? &#32; submitted by &#32; /u/userNotzFound404 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb2yh/chatgpt_swearing_more_lately/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T20:50:32Z",
-    "author": "/u/soalone34",
-    "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vicesi/israel_is_paying_millions_to_train_ai_chatbots/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T15:50:53Z",
-    "author": "/u/Echo_Tech_Labs",
-    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T01:15:45Z",
-    "author": "/u/Outside-Objective828",
-    "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1viihar/dark_fantasy_battle_scene_gpt2_and_seedance_25/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T03:44:19Z",
-    "author": "/u/No_Idea_479",
-    "text": "This image was accidentally created by ChatGPT. How is it so realistic? - I asked: &quot;Is there any image of Armenian and Greek rebels fighting together in the Greco-Turkish War or WWI?&quot;. I used thinking mode and I think it's clear that I was looking for real images. However, ChatGPT thought for 1 minute 20 seconds and it proceeded to create this image that, I believed, was real. I asked it and it said it didn't know what happened: &quot;You're right to question it. I didn't get that image from a historical source. I made a serious mistake: the image I showed you was AI-generated, despite presenting it as though it were a historical photograph. In the caption “GREEK AND ARMENIAN FIGHTERS IN CILICIA — From a Photograph by Garo Studio, Mersina” was also generated as part of the image. I have not found evidence that such a photograph exists in the searches I've just run&quot;. I reverse-image searched it and nothing showed up. I ran it on an AI image detector and it got 99%. I am baffled by how realistic it looks. &#32; submitted by &#32; /u/No_Idea_479 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfel5/this_image_was_accidentally_created_by_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-07T22:31:51Z",
-    "author": "/u/Darri3D",
-    "text": "Seinfeld AI - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1view4k/seinfeld_ai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T05:55:17Z",
-    "author": "/u/LeafRunner",
-    "text": "Got an interesting ad in this subreddit - &#32; submitted by &#32; /u/LeafRunner [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhss6/got_an_interesting_ad_in_this_subreddit/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T05:27:30Z",
-    "author": "/u/Bk_girly",
-    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T05:03:06Z",
-    "author": "/u/Savings_Extent",
-    "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
     "authority_score": 0.5
   },
   {
@@ -320,11 +256,75 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T02:25:50Z",
-    "author": "/u/TheSynthian",
-    "text": "Does ChatGPT overuse “important distinction”? - Is it just my ChatGPT or do you guys also get this “important distinction” thing? I mean I wouldn’t mind it if it’s actually useful but it uses this to say things I literally said in my questions or have 0 confusion about. Like if I ask “What are the differences between cats and dogs” and it STARTS the response by saying “important distinction here is cats are not dogs” or some bullshit like this &#32; submitted by &#32; /u/TheSynthian [link] &#32; [comments]",
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjdvum/does_chatgpt_overuse_important_distinction/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T03:44:19Z",
+    "author": "/u/No_Idea_479",
+    "text": "This image was accidentally created by ChatGPT. How is it so realistic? - I asked: &quot;Is there any image of Armenian and Greek rebels fighting together in the Greco-Turkish War or WWI?&quot;. I used thinking mode and I think it's clear that I was looking for real images. However, ChatGPT thought for 1 minute 20 seconds and it proceeded to create this image that, I believed, was real. I asked it and it said it didn't know what happened: &quot;You're right to question it. I didn't get that image from a historical source. I made a serious mistake: the image I showed you was AI-generated, despite presenting it as though it were a historical photograph. In the caption “GREEK AND ARMENIAN FIGHTERS IN CILICIA — From a Photograph by Garo Studio, Mersina” was also generated as part of the image. I have not found evidence that such a photograph exists in the searches I've just run&quot;. I reverse-image searched it and nothing showed up. I ran it on an AI image detector and it got 99%. I am baffled by how realistic it looks. &#32; submitted by &#32; /u/No_Idea_479 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfel5/this_image_was_accidentally_created_by_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T15:50:53Z",
+    "author": "/u/Echo_Tech_Labs",
+    "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T20:50:32Z",
+    "author": "/u/soalone34",
+    "text": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza. It’s Working. - &#32; submitted by &#32; /u/soalone34 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vicesi/israel_is_paying_millions_to_train_ai_chatbots/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T01:15:45Z",
+    "author": "/u/Outside-Objective828",
+    "text": "Dark Fantasy Battle Scene - GPT-2 and Seedance 2.5 - I ran a quick GPT-2 with Seedance 2.5 test using a dark fantasy battle scene, focusing on cinematic action, character consistency, camera movement and visual continuity across the sequence. The goal was simple: see how far I could push AI filmmaking in a scene with fast combat, multiple characters, atmosphere and a consistent visual language from shot to shot. Really interesting results from this experiment. &#32; submitted by &#32; /u/Outside-Objective828 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1viihar/dark_fantasy_battle_scene_gpt2_and_seedance_25/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T05:27:30Z",
+    "author": "/u/Bk_girly",
+    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-07T22:31:51Z",
+    "author": "/u/Darri3D",
+    "text": "Seinfeld AI - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1view4k/seinfeld_ai/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T04:14:19Z",
+    "author": "/u/LittleWarmer",
+    "text": "Based on our conversations, I asked ChatGPT to design a home security system for me. This is what I got. 🏡 - CHOMP!!! 🐪😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfz05/based_on_our_conversations_i_asked_chatgpt_to/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T05:03:06Z",
+    "author": "/u/Savings_Extent",
+    "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
     "authority_score": 0.5
   }
 ]
