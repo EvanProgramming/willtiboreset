@@ -16195,5 +16195,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T15:40:50.819201Z",
+    "prediction": {
+      "within_5h": 0.0614,
+      "within_24h": 0.217,
+      "within_48h": 0.333
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 204.14744823916666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 131.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.326,
+      "time_pressure": 0.8185,
+      "hazard_rate": 0.010141,
+      "evidence_score": 0.0053,
+      "tibo_signal": 0.0027,
+      "community_signal": 0.0,
+      "release_signal": 0.0116,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevance to resets or limits.",
+          "Mentions shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
