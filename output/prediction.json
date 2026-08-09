@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-09T08:40:55.520761+00:00",
+  "updated_at": "2026-08-09T09:00:53.064646+00:00",
   "prediction": {
-    "within_5h": 0.0628,
-    "within_24h": 0.2207,
-    "within_48h": 0.3372
+    "within_5h": 0.0627,
+    "within_24h": 0.2205,
+    "within_48h": 0.337
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 138.9,
+    "hours_until": 138.5,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 197.14875553694444,
+    "hours_since_last_reset": 197.481406625,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 138.9,
+      "hours_until": 138.5,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.2119,
-    "time_pressure": 0.7711,
-    "hazard_rate": 0.010336,
+    "time_ratio": 3.2174,
+    "time_pressure": 0.7735,
+    "hazard_rate": 0.010326,
     "evidence_score": 0.0071,
-    "tibo_signal": 0.0036,
-    "community_signal": 0.0038,
-    "release_signal": 0.0207,
+    "tibo_signal": 0.0031,
+    "community_signal": 0.0,
+    "release_signal": 0.0136,
     "llm_scores": {
       "reset_intent": 0.012195121951219513,
       "limit_complaint": 0.0,
-      "official_change": 0.046341463414634146,
+      "official_change": 0.04390243902439025,
       "reset_confirmation": 0.0,
-      "confidence": 0.873170731707317,
+      "confidence": 0.8731707317073172,
       "reason": [
-        "Text is a casual remark about coding, no mention of resets or limits.",
-        "No relevance to quota resets or official changes.",
-        "Discussion about Anthropic account suspension, not about ChatGPT/Codex quota resets.",
-        "No mention of usage limits or resets.",
-        "Text is a simple reference to 'Astro Boy and Sol', no reset or limit context."
+        "Text is a casual remark about coding, no relevance to resets or limits.",
+        "Discussion about Anthropic account suspension, not related to ChatGPT/Codex quota resets.",
+        "Vague title with no context, no reset or limit signals.",
+        "Promotional message about a product feature, no reset or limit mention.",
+        "Mentions 'reset' metaphorically about a person, not a quota reset."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "197.1 hours since last reset",
+      "factor": "197.5 hours since last reset",
       "impact": "+5%",
       "score": 0.77
     },
@@ -60,17 +60,12 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.0
-    },
-    {
-      "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.0
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "197.1 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "197.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 197.1 hours since last reset (+5%)"
+    "Main factor: 197.5 hours since last reset (+5%)"
   ]
 }

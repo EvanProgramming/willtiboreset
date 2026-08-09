@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T00:09:44Z",
-    "author": "/u/Perfect_Anteater4381",
-    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T07:36:27Z",
     "author": "/u/Alarmed_Shine1749",
     "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T00:09:44Z",
+    "author": "/u/Perfect_Anteater4381",
+    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
     "authority_score": 0.5
   },
   {
@@ -264,11 +264,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T05:27:30Z",
+    "author": "/u/Bk_girly",
+    "text": "Just for fun - Copy &amp; Paste this prompt to your chatGPT - “ Can you generate a picture of how you see me? As a color? As a feeling? As a song? As a weather? As a season? As a scent? As a flower? As a flood? “ This is mine generated image haha, interesting &amp; pretty accurate ngl . &#32; submitted by &#32; /u/Bk_girly [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjhbf0/just_for_fun/",
     "authority_score": 0.5
   },
   {
@@ -277,6 +277,14 @@
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vizeuv/one_of_the_funniest_things_i_have_seen_a_long/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "Based on our conversations, I asked ChatGPT to design a home security system for me. This is what I got. 🏡 - CHOMP!!! 🐪😂 &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjfz05/based_on_our_conversations_i_asked_chatgpt_to/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T07:56:39Z",
-    "author": "/u/Cubic_Inequality504",
-    "text": "is it me or Chatgpt has got a bit dumber in the last 2 days? - like, I point out to him that the image he just created ignores some requirements I expressed in the prompt. Normally he would have created a new image or responded with &quot;you're right, I did X instead of Y. The solution is to change the prompt like this....&quot;. INSTEAD for 2 days he's had this obnoxious attitude that responds &quot;Yes 😭 the model has taken a turn all its own hahahaha&quot; - &quot;So?&quot; - &quot;So yes 😅 it didn't do what you asked&quot; and doesn't create any image nor suggests any solution!! lol is it just me? i have a Go account, and thinking mode off &#32; submitted by &#32; /u/Cubic_Inequality504 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjwhx/is_it_me_or_chatgpt_has_got_a_bit_dumber_in_the/",
     "authority_score": 0.5
   }
 ]
