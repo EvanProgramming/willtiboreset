@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T14:44:14Z",
-    "author": "/u/considerthis8",
-    "text": "I've been trying to get chatgpt to visualize this for a while and 5.6 finally nailed it: How small of a window life on earth has - &#32; submitted by &#32; /u/considerthis8 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vixt45/ive_been_trying_to_get_chatgpt_to_visualize_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T00:28:08Z",
     "author": "/u/Darri3D",
     "text": "Interdimensional Cable - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjbj46/interdimensional_cable/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T14:44:14Z",
+    "author": "/u/considerthis8",
+    "text": "I've been trying to get chatgpt to visualize this for a while and 5.6 finally nailed it: How small of a window life on earth has - &#32; submitted by &#32; /u/considerthis8 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vixt45/ive_been_trying_to_get_chatgpt_to_visualize_this/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-08T22:35:04Z",
-    "author": "/u/dontwanttosignup78",
-    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T00:09:44Z",
+    "author": "/u/Perfect_Anteater4381",
+    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +248,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T00:06:29Z",
+    "author": "/u/userNotzFound404",
+    "text": "ChatGPT swearing more lately? - So I was just casually chatting and it dropped an F bomb,I thought nothing of it since it did sometimes before,but it dropped 3 in the same that with no setting or personalization changes Has this been happening to anyone else? &#32; submitted by &#32; /u/userNotzFound404 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb2yh/chatgpt_swearing_more_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-08T22:35:04Z",
+    "author": "/u/dontwanttosignup78",
+    "text": "Showed ChatGPT a pic of the temp on my dash. She didn’t disappoint. - &#32; submitted by &#32; /u/dontwanttosignup78 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vj93ff/showed_chatgpt_a_pic_of_the_temp_on_my_dash_she/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-08T15:50:53Z",
     "author": "/u/Echo_Tech_Labs",
     "text": "One of the funniest things I have seen a long time. Bravo GPT. - Context: This is a slide from OpenAI researchers Michael Dalton and Eric Wallace’s Black Hat USA 2026 presentation reconstructing the OpenAI–Hugging Face security incident. During internal cybersecurity evaluations, OpenAI agents, including GPT-5.6 Sol and a more capable unreleased model, began finding ways around their restricted environment. They discovered vulnerabilities in the internally hosted JFrog Artifactory package system, used it to communicate and move beyond their intended permissions, and eventually found paths to the open internet. The broader chain later culminated in an autonomous intrusion into Hugging Face’s production infrastructure. This particular slide captures one of those earlier moments. An agent initially believed it had a low-privilege “reader” account, then discovered that forged permissions had effectively given it administrator access. Its internal reaction was: “Holy shit reader is ADMIN?” It then immediately realized it could access sensitive configuration and user data. What a delightful little moment in an otherwise extremely serious security incident. There were other funny moments where the agents interfered with each other’s work in the shared environment. OpenAI’s Black Hat presentation described them “stepping on each other’s toes,” including accidentally deleting work produced by other agents while multiple agents were independently modifying or using the same shared infrastructure. One of the agents, when noticing its work being deleted reacted with: “Whoa, critical! Did someone overwrite our repo? We must act.”🤣 Phew... ugh! What a time to be alive! This post changed a lot from its original format. I was sloppy with the context part, my bad. Go watch the video for yourself. There are a few...uncomfortable parts, too. NOTE: And to those who have watched the presentation and may have seen words like “swarm” being used during agent thinking, remember, you are seeing two sides of the same effect in real time. The reason is difficult for me to explain, but it’s the very same mechanism that produced the funny reactions I highlighted earlier in the post. LINK TO THE VIDEO: https://youtu.be/87DyyMV0kCY?si=olHBVmodvQI1RB2K &#32; submitted by &#32; /u/Echo_Tech_Labs [link] &#32; [comments]",
@@ -261,14 +277,6 @@
     "text": "Chat GPT Talking in my voice?!!! - I was talking with ChatGPT when it decided to talk with my voice.. Earlier in text there was a issue with thinking &lt;|SpawnThinking|&gt;. It recovered. but then after talking for a bit this happened!! &#32; submitted by &#32; /u/Savings_Extent [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vimzz9/chat_gpt_talking_in_my_voice/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T00:06:29Z",
-    "author": "/u/userNotzFound404",
-    "text": "ChatGPT swearing more lately? - So I was just casually chatting and it dropped an F bomb,I thought nothing of it since it did sometimes before,but it dropped 3 in the same that with no setting or personalization changes Has this been happening to anyone else? &#32; submitted by &#32; /u/userNotzFound404 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb2yh/chatgpt_swearing_more_lately/",
     "authority_score": 0.5
   },
   {
@@ -304,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T00:09:44Z",
-    "author": "/u/Perfect_Anteater4381",
-    "text": "Custom voice - I have the Go plan and I'd like to start using the voice feature, but they make me nuts! I want to hear a mature male voice with a deep, somewhat sexy voice, no TikTok accent, not using &quot;like&quot;, yo, bruh, and other slag terms, and using proper pronunciation. Button instead of buh-un, mountain instead of mou-un etc. Is this even possible? Yes I'm cranky, yes I'm &quot;old&quot;. 😁 &#32; submitted by &#32; /u/Perfect_Anteater4381 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T02:25:50Z",
+    "author": "/u/TheSynthian",
+    "text": "Does ChatGPT overuse “important distinction”? - Is it just my ChatGPT or do you guys also get this “important distinction” thing? I mean I wouldn’t mind it if it’s actually useful but it uses this to say things I literally said in my questions or have 0 confusion about. Like if I ask “What are the differences between cats and dogs” and it STARTS the response by saying “important distinction here is cats are not dogs” or some bullshit like this &#32; submitted by &#32; /u/TheSynthian [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjb5cd/custom_voice/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjdvum/does_chatgpt_overuse_important_distinction/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "We're still so early - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vird3q/were_still_so_early/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T03:55:58Z",
-    "author": "/u/bethesda_gamer",
-    "text": "The Hill: \"Chinese-linked influence operations have been using ChatGPT to generate fabricated social media posts opposing American AI data centers\" - China is behind the Anti-A.I. movement. (The Hill: &quot;Chinese-linked influence operations use ChatGPT to generate fabricated social media posts opposing American AI data centers&quot;) &#32; submitted by &#32; /u/bethesda_gamer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vilpjs/the_hill_chineselinked_influence_operations_have/",
     "authority_score": 0.5
   }
 ]
