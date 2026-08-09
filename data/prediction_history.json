@@ -16097,5 +16097,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T14:40:54.009205Z",
+    "prediction": {
+      "within_5h": 0.06,
+      "within_24h": 0.2128,
+      "within_48h": 0.3274
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 203.14833394972223,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 132.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3097,
+      "time_pressure": 0.8122,
+      "hazard_rate": 0.00992,
+      "evidence_score": 0.0043,
+      "tibo_signal": 0.0033,
+      "community_signal": 0.002,
+      "release_signal": 0.018,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "No official or product change context.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "No mention of usage limits or reset events.",
+          "Text is a simple reference to characters, no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
