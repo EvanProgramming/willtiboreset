@@ -15166,5 +15166,54 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T05:01:01.745072Z",
+    "prediction": {
+      "within_5h": 0.0644,
+      "within_24h": 0.2251,
+      "within_48h": 0.3426
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 193.48381621000001,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 142.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1522,
+      "time_pressure": 0.743,
+      "hazard_rate": 0.01057,
+      "evidence_score": 0.0089,
+      "tibo_signal": 0.0037,
+      "community_signal": 0.0,
+      "release_signal": 0.0174,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8878048780487805,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
