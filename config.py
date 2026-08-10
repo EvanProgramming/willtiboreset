@@ -104,6 +104,14 @@ class Config:
         )
     )
 
+    # --- Manual override: explicit future reset ---
+    # Set to "true" when Tibo has announced a reset that RSS missed
+    # (e.g., reply-only tweet). This pushes probability to near-max.
+    explicit_future_reset: bool = field(
+        default_factory=lambda: os.getenv("EXPLICIT_FUTURE_RESET", "").lower()
+        in ("true", "1", "yes")
+    )
+
     # --- Data paths ---
     data_dir: Path = field(
         default_factory=lambda: Path(

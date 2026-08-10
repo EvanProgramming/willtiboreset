@@ -293,9 +293,12 @@ def _compute_weekly_cycle_factor(
         total = sum(day_counts)
         if total > 0:
             hist_dist = [c / total for c in day_counts]
-            # Blend: 60% known pattern + 40% historical distribution
+            # Blend: 80% known pattern + 20% historical distribution
+            # Known pattern (Tibo's explicit statement) gets higher weight
+            # because historical data includes exceptional/event-driven resets
+            # that don't reflect the regular weekly schedule.
             blended = [
-                0.6 * known_pattern[i] + 0.4 * hist_dist[i]
+                0.8 * known_pattern[i] + 0.2 * hist_dist[i]
                 for i in range(7)
             ]
         else:

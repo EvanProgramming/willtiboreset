@@ -263,7 +263,11 @@ def main() -> int:
     # (e.g., "I will reset usage limits tonight")
     future_reset = detect_future_reset_signal(tweets)
     explicit_future_reset = future_reset is not None
-    if explicit_future_reset:
+    # Also check manual override via environment variable
+    if not explicit_future_reset and config.explicit_future_reset:
+        explicit_future_reset = True
+        print("  EXPLICIT_FUTURE_RESET override enabled via environment variable")
+    if future_reset:
         print(f"  FUTURE RESET ANNOUNCEMENT DETECTED: {future_reset[1][:100]}")
 
     print("\n[3/4] Running prediction model...")

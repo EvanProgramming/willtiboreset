@@ -1,8 +1,8 @@
 {
-  "total_predictions": 402,
-  "resolved_predictions": 302,
-  "overall_brier_score": 0.09795307954746137,
-  "overall_accuracy": 0.9370860927152318,
+  "total_predictions": 403,
+  "resolved_predictions": 303,
+  "overall_brier_score": 0.09967915265126512,
+  "overall_accuracy": 0.933993399339934,
   "horizons": [
     {
       "horizon_hours": 5,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-10T10:00:50.853388Z"
+  "updated_at": "2026-08-10T10:18:14.997243Z"
 }

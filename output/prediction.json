@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-10T10:00:50.811674+00:00",
+  "updated_at": "2026-08-10T10:18:14.961641+00:00",
   "prediction": {
-    "within_5h": 0.3729,
-    "within_24h": 0.6414,
-    "within_48h": 0.788
+    "within_5h": 0.3986,
+    "within_24h": 0.6832,
+    "within_48h": 0.814
   },
   "confidence": "medium",
   "next_reset": {
-    "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 113.5,
-    "status": "overdue"
+    "expected_time": "2026-08-16T03:30:00+00:00",
+    "hours_until": 137.2,
+    "status": "on_schedule"
   },
   "signals": {
-    "tweet_count": 41,
-    "hours_since_last_reset": 222.48078074055556,
+    "tweet_count": 16,
+    "hours_since_last_reset": 30.804155563055552,
     "next_reset": {
-      "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 113.5,
-      "status": "overdue"
+      "expected_time": "2026-08-16T03:30:00+00:00",
+      "hours_until": 137.2,
+      "status": "on_schedule"
     },
     "average_reset_interval": 61.38,
     "median_reset_interval": 46.93,
@@ -26,54 +26,58 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.6246,
-    "time_pressure": 0.9064,
-    "hazard_rate": 0.015587,
-    "evidence_score": 0.0025,
-    "tibo_signal": 0.0262,
+    "time_ratio": 0.5019,
+    "time_pressure": 0.0033,
+    "hazard_rate": 0.046766,
+    "evidence_score": 0.3668,
+    "tibo_signal": 0.4685,
     "community_signal": 0.0,
-    "release_signal": 0.2282,
+    "release_signal": 0.5042,
     "llm_scores": {
       "reset_intent": 0.19375,
       "limit_complaint": 0.0,
-      "official_change": 0.05609756097560975,
-      "reset_confirmation": 0.0,
-      "confidence": 0.875609756097561,
+      "official_change": 0.175,
+      "reset_confirmation": 0.096875,
+      "confidence": 0.50625,
       "reason": [
-        "Text is a casual remark about coding, no mention of resets or limits.",
-        "Discussion about Anthropic account suspension, unrelated to quota resets.",
-        "Vague reference to characters, no relevance to resets or limits.",
-        "Promotional message about a product, no reset or limit mention.",
-        "Mentions 'reset' metaphorically about a person, not a quota reset."
+        "No relevant signals detected; possibly unrelated content",
+        "Community pressure signal detected (score: 0.40)",
+        "No relevant signals detected; possibly unrelated content",
+        "Moderate reset signal detected (score: 0.40)",
+        "Release/update signal detected (score: 0.50)"
       ]
     },
     "prior_applied": false,
     "interval_count": 13,
-    "weekly_cycle_factor": 0.6286,
+    "weekly_cycle_factor": 0.8143,
     "explicit_future_reset": false
   },
   "main_factors": [
     {
-      "factor": "222.5 hours since last reset",
-      "impact": "+10%",
-      "score": 0.91
+      "factor": "30.8 hours since last reset",
+      "impact": "-5%",
+      "score": 0.0
     },
     {
       "factor": "Weekly cycle: today is a typical reset day (US Monday)",
-      "impact": "+18%",
-      "score": 0.63
+      "impact": "+24%",
+      "score": 0.81
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+0%",
-      "score": 0.03
+      "impact": "+9%",
+      "score": 0.47
+    },
+    {
+      "factor": "Official release/change signal",
+      "impact": "+10%",
+      "score": 0.5
     }
   ],
   "reasons": [
-    "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "222.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
-    "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
-    "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
-    "Main factor: 222.5 hours since last reset (+10%)"
+    "Recently reset (30.8 hours ago), low time pressure (0.00)",
+    "Weak reset evidence detected (evidence_score=0.37), insufficient to confirm",
+    "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
+    "Main factor: 30.8 hours since last reset (-5%)"
   ]
 }
