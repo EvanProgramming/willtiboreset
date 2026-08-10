@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T16:38:26Z",
-    "author": "/u/hellohellowhatyoube",
-    "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T17:56:02Z",
     "author": "/u/bigus-_-dickus",
     "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T16:38:26Z",
+    "author": "/u/hellohellowhatyoube",
+    "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
     "authority_score": 0.5
   },
   {
@@ -200,19 +200,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T22:11:47Z",
     "author": "/u/PsychologicalBox5208",
     "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T07:00:43Z",
-    "author": "/u/KeanuRave100",
-    "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
     "authority_score": 0.5
   },
   {
@@ -224,19 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T07:00:43Z",
+    "author": "/u/KeanuRave100",
+    "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
     "authority_score": 0.5
   },
   {
@@ -245,6 +237,14 @@
     "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {
@@ -288,14 +288,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T19:36:44Z",
-    "author": "/u/love1008",
-    "text": "A Poet ( GPT + Flux 3 ) - &#32; submitted by &#32; /u/love1008 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkuxxf/a_poet_gpt_flux_3/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T15:18:23Z",
     "author": "/u/paul_blanchard",
     "text": "Anyone else getting messy answers like this? - &#32; submitted by &#32; /u/paul_blanchard [link] &#32; [comments]",
@@ -309,6 +301,14 @@
     "text": "Deftones' Geometric Headdress Lady - I was bored, so I asked ChatGPT to generate an image of the lady from the song ‘Geometric Headdress’ by Deftones based on Chinos description in the lyrics. If there's Deftones fans here, let her relax as we hail her :) &#32; submitted by &#32; /u/Icy-Guard-7598 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkohqu/deftones_geometric_headdress_lady/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T19:36:44Z",
+    "author": "/u/love1008",
+    "text": "A Poet ( GPT + Flux 3 ) - &#32; submitted by &#32; /u/love1008 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkuxxf/a_poet_gpt_flux_3/",
     "authority_score": 0.5
   },
   {
