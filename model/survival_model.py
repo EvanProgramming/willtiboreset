@@ -916,12 +916,19 @@ class ResetPredictor:
             )
 
         # Schedule floor reason
-        if features.weekly_cycle_factor >= 0.5 and features.time_pressure >= 0.8:
-            reasons.append(
-                f"Schedule floor applied: overdue + known reset day, "
-                f"probability floor set to 45%/75%/85% (5h/24h/48h) "
-                f"regardless of LLM evidence (compensates for RSS-missed announcements)"
-            )
+        if features.weekly_cycle_factor >= 0.5:
+            if features.time_pressure >= 0.8:
+                reasons.append(
+                    f"Schedule floor applied: overdue + known reset day, "
+                    f"probability floor set to 45%/75%/85% (5h/24h/48h) "
+                    f"regardless of LLM evidence (compensates for RSS-missed announcements)"
+                )
+            else:
+                reasons.append(
+                    f"Schedule floor applied: known reset day (factor={features.weekly_cycle_factor:.2f}), "
+                    f"probability floor set to 30%/55%/70% (5h/24h/48h) "
+                    f"regardless of LLM evidence"
+                )
 
         if features.explicit_future_reset:
             reasons.insert(0,
