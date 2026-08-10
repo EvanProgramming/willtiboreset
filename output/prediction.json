@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T11:26:02.534025+00:00",
+  "updated_at": "2026-08-10T11:36:45.165404+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 136.1,
+    "hours_until": 135.9,
     "status": "on_schedule"
   },
   "signals": {
-    "tweet_count": 16,
-    "hours_since_last_reset": 31.93403465111111,
+    "tweet_count": 41,
+    "hours_since_last_reset": 32.112545654722226,
     "next_reset": {
       "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 136.1,
+      "hours_until": 135.9,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.4825,
+    "time_ratio": 0.4852,
     "time_pressure": 0.002,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.3664,
-    "tibo_signal": 0.4691,
+    "evidence_score": 0.0018,
+    "tibo_signal": 0.0222,
     "community_signal": 0.0,
-    "release_signal": 0.504,
+    "release_signal": 0.1806,
     "llm_scores": {
-      "reset_intent": 0.19375,
+      "reset_intent": 0.012195121951219513,
       "limit_complaint": 0.0,
-      "official_change": 0.175,
-      "reset_confirmation": 0.096875,
-      "confidence": 0.50625,
+      "official_change": 0.04390243902439024,
+      "reset_confirmation": 0.0,
+      "confidence": 0.873170731707317,
       "reason": [
-        "No relevant signals detected; possibly unrelated content",
-        "Community pressure signal detected (score: 0.40)",
-        "No relevant signals detected; possibly unrelated content",
-        "Moderate reset signal detected (score: 0.40)",
-        "Release/update signal detected (score: 0.50)"
+        "Text is a casual remark about coding, no mention of resets or limits.",
+        "Discussion about Anthropic account suspension, unrelated to quota resets.",
+        "Vague title with no relevant content.",
+        "Promotional message about a product, no reset or limit mention.",
+        "Mentions 'reset' but in a metaphorical sense about a person, not usage limits."
       ]
     },
     "prior_applied": false,
@@ -54,7 +54,7 @@
   },
   "main_factors": [
     {
-      "factor": "31.9 hours since last reset",
+      "factor": "32.1 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
@@ -65,20 +65,15 @@
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+9%",
-      "score": 0.47
-    },
-    {
-      "factor": "Official release/change signal",
-      "impact": "+10%",
-      "score": 0.5
+      "impact": "+0%",
+      "score": 0.02
     }
   ],
   "reasons": [
-    "Recently reset (31.9 hours ago), low time pressure (0.00)",
-    "Weak reset evidence detected (evidence_score=0.37), insufficient to confirm",
+    "Recently reset (32.1 hours ago), low time pressure (0.00)",
+    "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
     "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.81), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 31.9 hours since last reset (-5%)"
+    "Main factor: 32.1 hours since last reset (-5%)"
   ]
 }
