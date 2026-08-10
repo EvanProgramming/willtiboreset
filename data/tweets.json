@@ -200,6 +200,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T22:11:47Z",
+    "author": "/u/PsychologicalBox5208",
+    "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T20:27:10Z",
     "author": "/u/Dry-Blueberry-1768",
     "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
@@ -208,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T22:11:47Z",
-    "author": "/u/PsychologicalBox5208",
-    "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T19:53:10Z",
+    "author": "/u/LeadershipTrue8164",
+    "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T19:53:10Z",
-    "author": "/u/LeadershipTrue8164",
-    "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T12:46:00Z",
     "author": "/u/CR972",
     "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
@@ -253,6 +253,14 @@
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T20:09:56Z",
+    "author": "/u/Outside-Session-6002",
+    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
     "authority_score": 0.5
   },
   {
@@ -272,11 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:09:56Z",
-    "author": "/u/Outside-Session-6002",
-    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T15:18:23Z",
+    "author": "/u/paul_blanchard",
+    "text": "Anyone else getting messy answers like this? - &#32; submitted by &#32; /u/paul_blanchard [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknrhs/anyone_else_getting_messy_answers_like_this/",
     "authority_score": 0.5
   },
   {
@@ -285,14 +293,6 @@
     "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T15:18:23Z",
-    "author": "/u/paul_blanchard",
-    "text": "Anyone else getting messy answers like this? - &#32; submitted by &#32; /u/paul_blanchard [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknrhs/anyone_else_getting_messy_answers_like_this/",
     "authority_score": 0.5
   },
   {
@@ -312,11 +312,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T14:01:31Z",
-    "author": "/u/Made_Human_Music",
-    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
+    "timestamp": "2026-08-10T16:32:02Z",
+    "author": "/u/pros_and_meh",
+    "text": "Does anyone else feel like, on medical topics, ChatGPT is becoming what Google search was like 10 years ago? - For me, it became like Google Search from like 10 years ago when you'd look up: &quot;why do i have a cough&quot; and the answer might be &quot;yeah, cancer bro&quot;. I actually get the feeling that every time i ask it something medical, no matter the topic, it goes &quot;oh, it doesnt sound bad, but watch out for X, Y, Z, cause that might mean &quot;W&quot;, which might mean you'll need to call 911 or go to the hospital as soon as possible cause it's imminent fatal risk&quot; Like no fucking need to get so overly-cautious in the way it responds, and even if i instructed it to not do it anymore, it keeps doing it. Anyone else experiencing this? &#32; submitted by &#32; /u/pros_and_meh [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpsn6/does_anyone_else_feel_like_on_medical_topics/",
     "authority_score": 0.5
   }
 ]
