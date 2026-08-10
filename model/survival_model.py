@@ -97,6 +97,21 @@ MIN_UNCERTAINTY_HOURS: float = 6.0
 # Weekly cycle: how much the day-of-week factor can boost base probability
 WEEKLY_CYCLE_BOOST_STRENGTH: float = 0.6  # Max 60% boost on high-factor days
 
+# Schedule-aware probability floor: when overdue AND on a known reset day,
+# the model outputs a minimum probability regardless of evidence.
+# This reflects the real-world pattern: Tibo resets on US Mondays, and when
+# the weekly window has passed, a reset is very likely imminent.
+SCHEDULE_FLOOR_OVERDUE: dict[int, float] = {
+    5: 0.45,   # 45% minimum for 5h when overdue + Monday
+    24: 0.75,  # 75% minimum for 24h
+    48: 0.85,  # 85% minimum for 48h
+}
+SCHEDULE_FLOOR_ON_SCHEDULE: dict[int, float] = {
+    5: 0.30,   # 30% minimum for 5h when on-schedule + Monday
+    24: 0.55,  # 55% minimum for 24h
+    48: 0.70,  # 70% minimum for 48h
+}
+
 
 # ──────────────────────────────────────────────
 # Helper functions
@@ -425,6 +440,35 @@ def _bayesian_update(prior: float, evidence_score: float) -> float:
     return posterior
 
 
+def _schedule_prior(
+    horizons: list[int],
+    weekly_cycle_factor: float,
+    time_pressure: float,
+) -> dict[str, float]:
+    """
+    Schedule-aware probability floor.
+
+    When the current day is a known reset day (high weekly_cycle_factor) and
+    we are overdue (high time_pressure), the model should output a minimum
+    probability regardless of LLM evidence. This reflects the real-world
+    pattern: Tibo resets on US Mondays, and when the weekly window has
+    passed, a reset is very likely imminent — even if no explicit tweet
+    has been detected yet (e.g., reply-only announcements missed by RSS).
+    """
+    floors: dict[str, float] = {}
+    # Determine if we're in an overdue scenario (time_pressure > 0.8)
+    is_overdue = time_pressure >= 0.8
+    for h in horizons:
+        if is_overdue:
+            base_floor = SCHEDULE_FLOOR_OVERDUE.get(h, 0.3)
+        else:
+            base_floor = SCHEDULE_FLOOR_ON_SCHEDULE.get(h, 0.15)
+        # Scale by weekly_cycle_factor (0 = no floor, 1 = full floor)
+        floor = base_floor * weekly_cycle_factor
+        floors[f"{h}h"] = floor
+    return floors
+
+
 def _probabilities(
     time_pressure: float,
     evidence_score: float,
@@ -432,6 +476,11 @@ def _probabilities(
     weekly_cycle_factor: float = 0.0,
 ) -> dict[str, float]:
     """Compute posterior probability for each time horizon."""
+    # Compute schedule-aware probability floor
+    schedule_floors = _schedule_prior(
+        horizons, weekly_cycle_factor, time_pressure,
+    )
+
     probability: dict[str, float] = {}
     for h in horizons:
         prior = _base_probability(h, time_pressure, weekly_cycle_factor)
@@ -455,7 +504,13 @@ def _probabilities(
         else:
             cap = base_cap
 
-        prob = min(cap, posterior)
+        # The final probability is the max of:
+        # 1. Bayesian posterior (evidence-driven)
+        # 2. Schedule floor (schedule-driven)
+        # This ensures that on known reset days when overdue, probability
+        # is high even without explicit LLM-detected signals.
+        schedule_floor = schedule_floors.get(f"{h}h", 0.0)
+        prob = max(schedule_floor, min(cap, posterior))
         probability[f"{h}h"] = round(prob, 4)
     return probability
 
@@ -858,6 +913,14 @@ class ResetPredictor:
             reasons.append(
                 f"Weekly cycle boost active (factor={features.weekly_cycle_factor:.2f}): "
                 f"today is a typical reset day, base probability and probability cap raised"
+            )
+
+        # Schedule floor reason
+        if features.weekly_cycle_factor >= 0.5 and features.time_pressure >= 0.8:
+            reasons.append(
+                f"Schedule floor applied: overdue + known reset day, "
+                f"probability floor set to 45%/75%/85% (5h/24h/48h) "
+                f"regardless of LLM evidence (compensates for RSS-missed announcements)"
             )
 
         if features.explicit_future_reset:
