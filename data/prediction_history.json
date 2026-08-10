@@ -11744,8 +11744,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T05:40:52.106760Z"
   },
   {
     "prediction_time": "2026-08-06T05:31:06.143500Z",
@@ -11788,8 +11788,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T05:40:52.106760Z"
   },
   {
     "prediction_time": "2026-08-06T06:01:02.621749Z",
@@ -11832,8 +11832,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T06:40:56.477374Z"
   },
   {
     "prediction_time": "2026-08-06T06:31:00.948137Z",
@@ -11876,8 +11876,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T06:40:56.477374Z"
   },
   {
     "prediction_time": "2026-08-06T07:01:10.336069Z",
@@ -11920,8 +11920,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T07:40:54.935141Z"
   },
   {
     "prediction_time": "2026-08-06T07:30:58.995149Z",
@@ -11964,8 +11964,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T07:40:54.935141Z"
   },
   {
     "prediction_time": "2026-08-06T08:01:09.149851Z",
@@ -12008,8 +12008,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T08:40:59.661259Z"
   },
   {
     "prediction_time": "2026-08-06T08:31:00.161328Z",
@@ -12052,8 +12052,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T08:40:59.661259Z"
   },
   {
     "prediction_time": "2026-08-06T09:00:56.912455Z",
@@ -12096,8 +12096,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T09:41:02.012040Z"
   },
   {
     "prediction_time": "2026-08-06T09:30:59.348392Z",
@@ -12140,8 +12140,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T09:41:02.012040Z"
   },
   {
     "prediction_time": "2026-08-06T10:00:57.957326Z",
@@ -12184,8 +12184,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T10:01:05.200639Z"
   },
   {
     "prediction_time": "2026-08-06T10:30:55.844777Z",
@@ -12228,8 +12228,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T10:40:48.211121Z"
   },
   {
     "prediction_time": "2026-08-06T11:01:03.375836Z",
@@ -12272,8 +12272,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T11:40:53.036461Z"
   },
   {
     "prediction_time": "2026-08-06T11:31:00.008527Z",
@@ -12316,8 +12316,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T11:40:53.036461Z"
   },
   {
     "prediction_time": "2026-08-06T12:00:59.115336Z",
@@ -12360,8 +12360,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T12:40:54.701273Z"
   },
   {
     "prediction_time": "2026-08-06T12:31:02.669368Z",
@@ -12404,8 +12404,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T12:40:54.701273Z"
   },
   {
     "prediction_time": "2026-08-06T13:01:14.418405Z",
@@ -12448,8 +12448,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T13:40:53.917550Z"
   },
   {
     "prediction_time": "2026-08-06T13:31:07.887818Z",
@@ -12492,8 +12492,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T13:40:53.917550Z"
   },
   {
     "prediction_time": "2026-08-06T14:01:14.889191Z",
@@ -12536,8 +12536,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T14:40:52.178536Z"
   },
   {
     "prediction_time": "2026-08-06T14:31:03.280114Z",
@@ -12580,8 +12580,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T14:40:52.178536Z"
   },
   {
     "prediction_time": "2026-08-06T15:00:59.821434Z",
@@ -12624,8 +12624,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-08T15:40:58.580911Z"
   },
   {
     "prediction_time": "2026-08-07T01:31:36.556077Z",
@@ -12655,8 +12655,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-09T01:40:59.467082Z"
   },
   {
     "prediction_time": "2026-08-07T05:11:16.626317Z",
@@ -12691,8 +12691,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-09T05:40:54.081917Z"
   },
   {
     "prediction_time": "2026-08-08T04:37:59.011631Z",
@@ -12727,8 +12727,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-10T04:41:03.162786Z"
   },
   {
     "prediction_time": "2026-08-08T04:38:53.462184Z",
@@ -12762,6 +12762,5299 @@
       "llm_scores": null,
       "prior_applied": false,
       "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T04:41:03.162786Z"
+  },
+  {
+    "prediction_time": "2026-08-08T04:41:59.665553Z",
+    "prediction": {
+      "within_5h": 0.0785,
+      "within_24h": 0.2624,
+      "within_48h": 0.3867
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 169.16657210138888,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 166.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7561,
+      "time_pressure": 0.5121,
+      "hazard_rate": 0.012601,
+      "evidence_score": 0.0255,
+      "tibo_signal": 0.0141,
+      "community_signal": 0.0302,
+      "release_signal": 0.0627,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.03414634146341463,
+        "official_change": 0.11951219512195123,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "No mention of resets, limits, or official changes.",
+          "Promotes a shipped feature but no reset or limit context.",
+          "Vague product mention without official change details.",
+          "User suggests Theo needs a reset, implying limits but not an official reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T05:00:53.189851Z"
+  },
+  {
+    "prediction_time": "2026-08-08T05:00:58.671828Z",
+    "prediction": {
+      "within_5h": 0.0738,
+      "within_24h": 0.2496,
+      "within_48h": 0.371
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 169.48296279916667,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 166.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7612,
+      "time_pressure": 0.5154,
+      "hazard_rate": 0.011893,
+      "evidence_score": 0.0211,
+      "tibo_signal": 0.0134,
+      "community_signal": 0.018,
+      "release_signal": 0.057,
+      "llm_scores": {
+        "reset_intent": 0.01707317073170732,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User suggests Theo needs a reset, but it's not about usage limits.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset mention.",
+          "Announces a new standard for agents, a product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T05:40:49.650914Z"
+  },
+  {
+    "prediction_time": "2026-08-08T05:40:52.093565Z",
+    "prediction": {
+      "within_5h": 0.0777,
+      "within_24h": 0.2601,
+      "within_48h": 0.3841
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 170.14780247027778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 165.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.772,
+      "time_pressure": 0.5224,
+      "hazard_rate": 0.012473,
+      "evidence_score": 0.0245,
+      "tibo_signal": 0.0143,
+      "community_signal": 0.0257,
+      "release_signal": 0.0613,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8719512195121951,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or quota context.",
+          "User speculates about a reset for Theo, but it's not about quota reset.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product standard, no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T06:00:53.617125Z"
+  },
+  {
+    "prediction_time": "2026-08-08T06:00:55.635061Z",
+    "prediction": {
+      "within_5h": 0.0774,
+      "within_24h": 0.2594,
+      "within_48h": 0.3832
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 170.4821192275,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 165.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7775,
+      "time_pressure": 0.5258,
+      "hazard_rate": 0.012434,
+      "evidence_score": 0.0242,
+      "tibo_signal": 0.0141,
+      "community_signal": 0.0231,
+      "release_signal": 0.0601,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.10243902439024391,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8670731707317074,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or official.",
+          "Praises Codex capabilities, no reset or limit mention.",
+          "Announces a new standard/plugin, official product change, no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T06:40:55.832004Z"
+  },
+  {
+    "prediction_time": "2026-08-08T06:40:56.464694Z",
+    "prediction": {
+      "within_5h": 0.0768,
+      "within_24h": 0.2579,
+      "within_48h": 0.3815
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 171.14901666333333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 164.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7884,
+      "time_pressure": 0.5328,
+      "hazard_rate": 0.012351,
+      "evidence_score": 0.0235,
+      "tibo_signal": 0.0129,
+      "community_signal": 0.0231,
+      "release_signal": 0.0526,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8719512195121951,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset or limit mention.",
+          "Announces a new standard (Agent Plugins) involving Codex and ChatGPT, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T07:00:55.333265Z"
+  },
+  {
+    "prediction_time": "2026-08-08T07:00:59.692001Z",
+    "prediction": {
+      "within_5h": 0.0727,
+      "within_24h": 0.2467,
+      "within_48h": 0.3676
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 171.48324611750002,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 164.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7938,
+      "time_pressure": 0.5362,
+      "hazard_rate": 0.011734,
+      "evidence_score": 0.0197,
+      "tibo_signal": 0.0135,
+      "community_signal": 0.0337,
+      "release_signal": 0.0597,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.03414634146341463,
+        "official_change": 0.09268292682926829,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates Theo needs a reset, but it's not about usage limits or an official reset.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Announces a new standard/plugin, an official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T07:44:32.119344Z"
+  },
+  {
+    "prediction_time": "2026-08-08T07:40:54.923591Z",
+    "prediction": {
+      "within_5h": 0.076,
+      "within_24h": 0.2558,
+      "within_48h": 0.379
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 172.1485886311111,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 163.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8046,
+      "time_pressure": 0.5431,
+      "hazard_rate": 0.012235,
+      "evidence_score": 0.0226,
+      "tibo_signal": 0.0168,
+      "community_signal": 0.0102,
+      "release_signal": 0.059,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.0902439024390244,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8719512195121951,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' but in a metaphorical sense about Theo, not usage limits.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset or limit context.",
+          "Announces a new open standard for agent plugins, a product/policy change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T07:44:32.119344Z"
+  },
+  {
+    "prediction_time": "2026-08-08T08:00:55.860288Z",
+    "prediction": {
+      "within_5h": 0.0803,
+      "within_24h": 0.2675,
+      "within_48h": 0.3933
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 172.48218208055556,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 163.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8101,
+      "time_pressure": 0.5466,
+      "hazard_rate": 0.012887,
+      "evidence_score": 0.0265,
+      "tibo_signal": 0.0174,
+      "community_signal": 0.0502,
+      "release_signal": 0.0645,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.08048780487804878,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit information.",
+          "User suggests Theo needs a reset but this is not about usage limits.",
+          "Describes Codex capabilities but no reset or limit context.",
+          "Announces a new standard/plugin, a product change but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T08:40:49.212584Z"
+  },
+  {
+    "prediction_time": "2026-08-08T08:40:59.643743Z",
+    "prediction": {
+      "within_5h": 0.0752,
+      "within_24h": 0.2538,
+      "within_48h": 0.3766
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 173.14989939361112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 162.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8209,
+      "time_pressure": 0.5534,
+      "hazard_rate": 0.012124,
+      "evidence_score": 0.0216,
+      "tibo_signal": 0.0175,
+      "community_signal": 0.0587,
+      "release_signal": 0.0622,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.0902439024390244,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8646341463414635,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit-related content.",
+          "User speculates Theo needs a reset, but it's not about usage limits or an official reset.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Announces a new standard/plugin, an official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T09:00:50.357585Z"
+  },
+  {
+    "prediction_time": "2026-08-08T09:00:54.555677Z",
+    "prediction": {
+      "within_5h": 0.0749,
+      "within_24h": 0.2531,
+      "within_48h": 0.3758
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 173.48181932583336,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 162.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8264,
+      "time_pressure": 0.5569,
+      "hazard_rate": 0.012086,
+      "evidence_score": 0.0213,
+      "tibo_signal": 0.012,
+      "community_signal": 0.0224,
+      "release_signal": 0.0478,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8792682926829269,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User suggests Theo needs a reset, but this is not about usage quota reset; it's a vague hint.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Announces a new standard/plugin, an official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T09:39:28.584023Z"
+  },
+  {
+    "prediction_time": "2026-08-08T09:41:01.994824Z",
+    "prediction": {
+      "within_5h": 0.0719,
+      "within_24h": 0.2448,
+      "within_48h": 0.3655
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 174.15055247805557,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 161.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8373,
+      "time_pressure": 0.5637,
+      "hazard_rate": 0.011631,
+      "evidence_score": 0.0185,
+      "tibo_signal": 0.0118,
+      "community_signal": 0.0274,
+      "release_signal": 0.0475,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product feature but no reset or limit context.",
+          "User speculates Theo needs a reset, but it's not about usage limits or an official reset.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Announces a new standard/plugin, an official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": false,
+    "resolved_at": "2026-08-10T09:46:37.790154Z"
+  },
+  {
+    "prediction_time": "2026-08-08T10:01:05.183640Z",
+    "prediction": {
+      "within_5h": 0.0692,
+      "within_24h": 0.2372,
+      "within_48h": 0.3561
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 174.48477155444445,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 161.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8427,
+      "time_pressure": 0.5671,
+      "hazard_rate": 0.011218,
+      "evidence_score": 0.016,
+      "tibo_signal": 0.0157,
+      "community_signal": 0.0548,
+      "release_signal": 0.049,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' but in a metaphorical sense about Theo, not about usage limits.",
+          "Describes capabilities of Codex, no reset or limit context.",
+          "Announces a new standard/feature, official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T10:40:48.193879Z",
+    "prediction": {
+      "within_5h": 0.074,
+      "within_24h": 0.2507,
+      "within_48h": 0.3731
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 175.14671861805556,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 160.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8535,
+      "time_pressure": 0.5739,
+      "hazard_rate": 0.011954,
+      "evidence_score": 0.0202,
+      "tibo_signal": 0.0161,
+      "community_signal": 0.0394,
+      "release_signal": 0.0585,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.04390243902439024,
+        "official_change": 0.0975609756097561,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8719512195121951,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or official.",
+          "Describes Codex capabilities, no reset or limit mention.",
+          "Official announcement of Agent Plugins, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T11:00:47.991678Z",
+    "prediction": {
+      "within_5h": 0.0733,
+      "within_24h": 0.2489,
+      "within_48h": 0.3708
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 175.47999586055556,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 160.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8589,
+      "time_pressure": 0.5773,
+      "hazard_rate": 0.011855,
+      "evidence_score": 0.0195,
+      "tibo_signal": 0.016,
+      "community_signal": 0.0523,
+      "release_signal": 0.0578,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8792682926829269,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product feature but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official reset.",
+          "Describes Codex capabilities but no reset or limit mention.",
+          "Announces a new product standard, but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T11:40:53.019158Z",
+    "prediction": {
+      "within_5h": 0.0733,
+      "within_24h": 0.2489,
+      "within_48h": 0.3709
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 176.1480592,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 159.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8698,
+      "time_pressure": 0.5841,
+      "hazard_rate": 0.011855,
+      "evidence_score": 0.0193,
+      "tibo_signal": 0.0158,
+      "community_signal": 0.0403,
+      "release_signal": 0.0597,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Describes Codex capabilities but no reset or limit mention.",
+          "Official announcement of Agent Plugins, a product standard, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T12:00:50.704123Z",
+    "prediction": {
+      "within_5h": 0.0728,
+      "within_24h": 0.2476,
+      "within_48h": 0.3693
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 176.48074947833334,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 159.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8752,
+      "time_pressure": 0.5874,
+      "hazard_rate": 0.011784,
+      "evidence_score": 0.0188,
+      "tibo_signal": 0.012,
+      "community_signal": 0.0252,
+      "release_signal": 0.0526,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.021951219512195124,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Describes Codex capabilities but no reset or limit mention.",
+          "Announces a new standard/plugin, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T12:40:54.686064Z",
+    "prediction": {
+      "within_5h": 0.0726,
+      "within_24h": 0.2471,
+      "within_48h": 0.3688
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 177.14852225805555,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 158.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8861,
+      "time_pressure": 0.5942,
+      "hazard_rate": 0.011756,
+      "evidence_score": 0.0186,
+      "tibo_signal": 0.0144,
+      "community_signal": 0.0252,
+      "release_signal": 0.0468,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.07560975609756097,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T13:00:53.251883Z",
+    "prediction": {
+      "within_5h": 0.0722,
+      "within_24h": 0.2458,
+      "within_48h": 0.3673
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 177.4814571788889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 158.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.8915,
+      "time_pressure": 0.5975,
+      "hazard_rate": 0.011685,
+      "evidence_score": 0.0181,
+      "tibo_signal": 0.0142,
+      "community_signal": 0.045,
+      "release_signal": 0.0439,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.10243902439024391,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is a simple title with no relevant content.",
+          "Mentions a shipped product but no reset or limit information.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T13:40:53.899607Z",
+    "prediction": {
+      "within_5h": 0.0717,
+      "within_24h": 0.2447,
+      "within_48h": 0.366
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 178.1483036663889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 157.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9024,
+      "time_pressure": 0.6042,
+      "hazard_rate": 0.011625,
+      "evidence_score": 0.0176,
+      "tibo_signal": 0.0148,
+      "community_signal": 0.0256,
+      "release_signal": 0.0499,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is a title with no relevant content about resets or limits.",
+          "Mentions a shipped product feature but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Discusses Codex capabilities but no reset or limit mention.",
+          "Announces a new standard for agents, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T14:00:56.118603Z",
+    "prediction": {
+      "within_5h": 0.0715,
+      "within_24h": 0.2442,
+      "within_48h": 0.3653
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 178.4822534163889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 157.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9078,
+      "time_pressure": 0.6075,
+      "hazard_rate": 0.011598,
+      "evidence_score": 0.0173,
+      "tibo_signal": 0.0143,
+      "community_signal": 0.0366,
+      "release_signal": 0.0501,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.04390243902439025,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.852439024390244,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit-related content.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official reset.",
+          "Discusses Codex capabilities but no reset or limit complaints.",
+          "Announces a new standard/plugin, an official product change, but no reset mention."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T14:40:52.164606Z",
+    "prediction": {
+      "within_5h": 0.0669,
+      "within_24h": 0.2313,
+      "within_48h": 0.349
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 179.14782209833334,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 156.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9187,
+      "time_pressure": 0.6141,
+      "hazard_rate": 0.010901,
+      "evidence_score": 0.0131,
+      "tibo_signal": 0.0117,
+      "community_signal": 0.0347,
+      "release_signal": 0.0564,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.04390243902439025,
+        "official_change": 0.10731707317073172,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8646341463414635,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "No mention of resets, limits, or official changes.",
+          "Promotes a product feature but no reset or limit discussion.",
+          "Vague product mention, not an official announcement.",
+          "User speculates about a reset for Theo, but not about ChatGPT/Codex."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T15:00:56.385738Z",
+    "prediction": {
+      "within_5h": 0.0709,
+      "within_24h": 0.2426,
+      "within_48h": 0.3635
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 179.48232760805556,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 156.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9241,
+      "time_pressure": 0.6174,
+      "hazard_rate": 0.011511,
+      "evidence_score": 0.0166,
+      "tibo_signal": 0.0164,
+      "community_signal": 0.054,
+      "release_signal": 0.0711,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.03902439024390244,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official reset.",
+          "Discusses Codex capabilities but no reset or limit mention.",
+          "Official announcement of Agent Plugins, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T15:40:58.568823Z",
+    "prediction": {
+      "within_5h": 0.0698,
+      "within_24h": 0.2396,
+      "within_48h": 0.3598
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 180.14960120249998,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 155.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.935,
+      "time_pressure": 0.6239,
+      "hazard_rate": 0.011348,
+      "evidence_score": 0.0155,
+      "tibo_signal": 0.0103,
+      "community_signal": 0.0494,
+      "release_signal": 0.0425,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.05609756097560975,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions shipping a product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Describes Codex capabilities, no reset or limit mention.",
+          "Official announcement of Agent Plugins, a product standard, no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T16:05:58.227025Z",
+    "prediction": {
+      "within_5h": 0.0703,
+      "within_24h": 0.241,
+      "within_48h": 0.3615
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 180.56617241527778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 155.4,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9418,
+      "time_pressure": 0.628,
+      "hazard_rate": 0.011424,
+      "evidence_score": 0.0159,
+      "tibo_signal": 0.0154,
+      "community_signal": 0.0197,
+      "release_signal": 0.0614,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.021951219512195124,
+        "official_change": 0.10975609756097561,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8670731707317074,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset mention.",
+          "Announces a new open standard for agents, a product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T16:40:53.578584Z",
+    "prediction": {
+      "within_5h": 0.07,
+      "within_24h": 0.2402,
+      "within_48h": 0.3605
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 181.1482141911111,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 154.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9513,
+      "time_pressure": 0.6336,
+      "hazard_rate": 0.011381,
+      "evidence_score": 0.0155,
+      "tibo_signal": 0.0132,
+      "community_signal": 0.0219,
+      "release_signal": 0.0468,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.03902439024390244,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8695121951219512,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit discussion.",
+          "User speculates about a reset for Theo, but it's not about usage limits.",
+          "Discusses Codex capabilities, no reset or limit complaints.",
+          "Official announcement of Agent Plugins, a product change, no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T17:00:51.970325Z",
+    "prediction": {
+      "within_5h": 0.0698,
+      "within_24h": 0.2397,
+      "within_48h": 0.36
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 181.48110101083333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 154.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9567,
+      "time_pressure": 0.6368,
+      "hazard_rate": 0.011353,
+      "evidence_score": 0.0153,
+      "tibo_signal": 0.0132,
+      "community_signal": 0.0481,
+      "release_signal": 0.0494,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.03414634146341463,
+        "official_change": 0.08292682926829269,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.874390243902439,
+        "reason": [
+          "Text is just a title with no relevant content about resets or limits.",
+          "Mentions a shipped product feature but no reset or limit discussion.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset or limit mention.",
+          "Official announcement of Agent Plugins standard, a product change, but no reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T17:40:53.582741Z",
+    "prediction": {
+      "within_5h": 0.0697,
+      "within_24h": 0.2394,
+      "within_48h": 0.3597
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 182.14821564083334,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 153.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9675,
+      "time_pressure": 0.6433,
+      "hazard_rate": 0.011337,
+      "evidence_score": 0.0151,
+      "tibo_signal": 0.0131,
+      "community_signal": 0.0477,
+      "release_signal": 0.0463,
+      "llm_scores": {
+        "reset_intent": 0.017073170731707315,
+        "limit_complaint": 0.041463414634146344,
+        "official_change": 0.08048780487804878,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.8719512195121951,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Promotes a product feature but no mention of reset or limits.",
+          "User speculates about a reset for Theo, but it's not about usage limits or an official announcement.",
+          "Describes capabilities of Codex with GPT-5.6 Sol, no reset or limit discussion.",
+          "Announces a new standard (Agent Plugins) involving Codex and ChatGPT, an official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T18:00:52.631247Z",
+    "prediction": {
+      "within_5h": 0.0666,
+      "within_24h": 0.2306,
+      "within_48h": 0.3486
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 182.48128469444447,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 153.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.973,
+      "time_pressure": 0.6464,
+      "hazard_rate": 0.010863,
+      "evidence_score": 0.0123,
+      "tibo_signal": 0.0134,
+      "community_signal": 0.0572,
+      "release_signal": 0.051,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.023170731707317073,
+        "confidence": 0.876829268292683,
+        "reason": [
+          "Text is just a title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "User speculates about a reset but it's not confirmed or official.",
+          "Describes capabilities of a model, no reset or limit mention.",
+          "Announces a new standard/plugin, official product change."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T18:41:05.746785Z",
+    "prediction": {
+      "within_5h": 0.0675,
+      "within_24h": 0.2332,
+      "within_48h": 0.3519
+    },
+    "signals": {
+      "tweet_count": 42,
+      "hours_since_last_reset": 183.15159452833333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 152.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9839,
+      "time_pressure": 0.6528,
+      "hazard_rate": 0.011003,
+      "evidence_score": 0.013,
+      "tibo_signal": 0.0048,
+      "community_signal": 0.0149,
+      "release_signal": 0.0222,
+      "llm_scores": {
+        "reset_intent": 0.011904761904761904,
+        "limit_complaint": 0.01904761904761905,
+        "official_change": 0.04285714285714286,
+        "reset_confirmation": 0.02261904761904762,
+        "confidence": 0.9154761904761903,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T19:00:58.830591Z",
+    "prediction": {
+      "within_5h": 0.0686,
+      "within_24h": 0.2363,
+      "within_48h": 0.3559
+    },
+    "signals": {
+      "tweet_count": 42,
+      "hours_since_last_reset": 183.48300674222222,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 152.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.9893,
+      "time_pressure": 0.6559,
+      "hazard_rate": 0.01117,
+      "evidence_score": 0.0139,
+      "tibo_signal": 0.0051,
+      "community_signal": 0.034,
+      "release_signal": 0.0221,
+      "llm_scores": {
+        "reset_intent": 0.011904761904761904,
+        "limit_complaint": 0.02619047619047619,
+        "official_change": 0.05714285714285714,
+        "reset_confirmation": 0.02261904761904762,
+        "confidence": 0.9119047619047619,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets for ChatGPT/Codex.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets, limits, or official changes.",
+          "Mentions a shipped product but no reset or limit information."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T19:41:01.643926Z",
+    "prediction": {
+      "within_5h": 0.0669,
+      "within_24h": 0.2317,
+      "within_48h": 0.3501
+    },
+    "signals": {
+      "tweet_count": 42,
+      "hours_since_last_reset": 184.15045488777778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 151.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0002,
+      "time_pressure": 0.6622,
+      "hazard_rate": 0.010922,
+      "evidence_score": 0.0123,
+      "tibo_signal": 0.0058,
+      "community_signal": 0.0185,
+      "release_signal": 0.0297,
+      "llm_scores": {
+        "reset_intent": 0.0071428571428571435,
+        "limit_complaint": 0.01904761904761905,
+        "official_change": 0.03333333333333333,
+        "reset_confirmation": 0.02261904761904762,
+        "confidence": 0.9071428571428571,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol', completely irrelevant.",
+          "No signals related to resets or complaints.",
+          "Mentions shipping magic on phone, a product update but not about resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T20:01:02.172735Z",
+    "prediction": {
+      "within_5h": 0.0676,
+      "within_24h": 0.2338,
+      "within_48h": 0.3528
+    },
+    "signals": {
+      "tweet_count": 42,
+      "hours_since_last_reset": 184.48393510583332,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 151.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0056,
+      "time_pressure": 0.6653,
+      "hazard_rate": 0.011035,
+      "evidence_score": 0.0129,
+      "tibo_signal": 0.0046,
+      "community_signal": 0.0279,
+      "release_signal": 0.0214,
+      "llm_scores": {
+        "reset_intent": 0.011904761904761904,
+        "limit_complaint": 0.03571428571428571,
+        "official_change": 0.05714285714285714,
+        "reset_confirmation": 0.02261904761904762,
+        "confidence": 0.9095238095238094,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is a simple title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T20:40:57.652256Z",
+    "prediction": {
+      "within_5h": 0.0665,
+      "within_24h": 0.2305,
+      "within_48h": 0.3486
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 185.14934605277776,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 150.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0164,
+      "time_pressure": 0.6714,
+      "hazard_rate": 0.010858,
+      "evidence_score": 0.0118,
+      "tibo_signal": 0.0049,
+      "community_signal": 0.0069,
+      "release_signal": 0.0213,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8902439024390244,
+        "reason": [
+          "Text is about an Anthropic account suspension, not related to ChatGPT/Codex quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol', completely irrelevant.",
+          "No signals related to resets or complaints.",
+          "Text mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T21:01:01.116468Z",
+    "prediction": {
+      "within_5h": 0.0672,
+      "within_24h": 0.2325,
+      "within_48h": 0.3513
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 185.48364169222222,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 150.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0219,
+      "time_pressure": 0.6745,
+      "hazard_rate": 0.010965,
+      "evidence_score": 0.0123,
+      "tibo_signal": 0.0045,
+      "community_signal": 0.0,
+      "release_signal": 0.0211,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8999999999999999,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol', completely irrelevant.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T21:40:54.274601Z",
+    "prediction": {
+      "within_5h": 0.0661,
+      "within_24h": 0.2294,
+      "within_48h": 0.3474
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 186.1484078113889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 149.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0327,
+      "time_pressure": 0.6805,
+      "hazard_rate": 0.010799,
+      "evidence_score": 0.0113,
+      "tibo_signal": 0.0048,
+      "community_signal": 0.0,
+      "release_signal": 0.021,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9182926829268292,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T22:00:56.141921Z",
+    "prediction": {
+      "within_5h": 0.0636,
+      "within_24h": 0.2222,
+      "within_48h": 0.3382
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 186.48225985027779,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 149.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0382,
+      "time_pressure": 0.6835,
+      "hazard_rate": 0.010416,
+      "evidence_score": 0.0091,
+      "tibo_signal": 0.0061,
+      "community_signal": 0.0101,
+      "release_signal": 0.0208,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.007317073170731707,
+        "official_change": 0.05609756097560975,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9060975609756097,
+        "reason": [
+          "Text is about an Anthropic account suspension, not about ChatGPT/Codex usage limits.",
+          "No mention of quota resets or related signals.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets, limits, or official changes.",
+          "Mentions a shipped product feature but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T22:40:59.982429Z",
+    "prediction": {
+      "within_5h": 0.0634,
+      "within_24h": 0.2217,
+      "within_48h": 0.3376
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 187.14999331527778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 148.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.049,
+      "time_pressure": 0.6895,
+      "hazard_rate": 0.010389,
+      "evidence_score": 0.0089,
+      "tibo_signal": 0.0077,
+      "community_signal": 0.0035,
+      "release_signal": 0.0232,
+      "llm_scores": {
+        "reset_intent": 0.01951219512195122,
+        "limit_complaint": 0.0,
+        "official_change": 0.053658536585365846,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9048780487804878,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is a simple title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or complaints.",
+          "Mentions a shipped product feature but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T23:01:01.690172Z",
+    "prediction": {
+      "within_5h": 0.0664,
+      "within_24h": 0.2304,
+      "within_48h": 0.3488
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 187.4838010158333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 148.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0545,
+      "time_pressure": 0.6925,
+      "hazard_rate": 0.010853,
+      "evidence_score": 0.0114,
+      "tibo_signal": 0.0043,
+      "community_signal": 0.0066,
+      "release_signal": 0.0203,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9146341463414634,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product feature but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-08T23:41:08.085935Z",
+    "prediction": {
+      "within_5h": 0.0662,
+      "within_24h": 0.2298,
+      "within_48h": 0.3482
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 188.15224463472222,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 147.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0654,
+      "time_pressure": 0.6984,
+      "hazard_rate": 0.01082,
+      "evidence_score": 0.0111,
+      "tibo_signal": 0.0042,
+      "community_signal": 0.031,
+      "release_signal": 0.0197,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9024390243902439,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or reset events.",
+          "Text is a simple title with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product feature but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T00:02:14.059493Z",
+    "prediction": {
+      "within_5h": 0.066,
+      "within_24h": 0.2295,
+      "within_48h": 0.3478
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 188.50390361916666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 147.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0711,
+      "time_pressure": 0.7015,
+      "hazard_rate": 0.010804,
+      "evidence_score": 0.0109,
+      "tibo_signal": 0.0042,
+      "community_signal": 0.0377,
+      "release_signal": 0.0197,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8939024390243903,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T00:40:57.545865Z",
+    "prediction": {
+      "within_5h": 0.0651,
+      "within_24h": 0.2269,
+      "within_48h": 0.3445
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 189.14931647749998,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 146.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0816,
+      "time_pressure": 0.7071,
+      "hazard_rate": 0.010666,
+      "evidence_score": 0.0101,
+      "tibo_signal": 0.0044,
+      "community_signal": 0.0054,
+      "release_signal": 0.0191,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.053658536585365846,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9060975609756097,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T01:00:55.505098Z",
+    "prediction": {
+      "within_5h": 0.0656,
+      "within_24h": 0.2284,
+      "within_48h": 0.3464
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 189.48208295111112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 146.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.087,
+      "time_pressure": 0.7099,
+      "hazard_rate": 0.010746,
+      "evidence_score": 0.0105,
+      "tibo_signal": 0.004,
+      "community_signal": 0.0,
+      "release_signal": 0.019,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9195121951219511,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T01:40:59.448121Z",
+    "prediction": {
+      "within_5h": 0.0647,
+      "within_24h": 0.2257,
+      "within_48h": 0.3431
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 190.14984486361112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 145.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.0979,
+      "time_pressure": 0.7156,
+      "hazard_rate": 0.010602,
+      "evidence_score": 0.0096,
+      "tibo_signal": 0.004,
+      "community_signal": 0.0,
+      "release_signal": 0.019,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.041463414634146344,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9048780487804878,
+        "reason": [
+          "Text is about an Anthropic account suspension, not about quota resets.",
+          "No mention of usage limits or reset events.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product feature but no reset context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T02:01:00.971232Z",
+    "prediction": {
+      "within_5h": 0.0646,
+      "within_24h": 0.2254,
+      "within_48h": 0.3428
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 190.48360126527777,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 145.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1033,
+      "time_pressure": 0.7185,
+      "hazard_rate": 0.010586,
+      "evidence_score": 0.0094,
+      "tibo_signal": 0.004,
+      "community_signal": 0.0021,
+      "release_signal": 0.019,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.00975609756097561,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9060975609756097,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T02:40:59.620844Z",
+    "prediction": {
+      "within_5h": 0.0644,
+      "within_24h": 0.2249,
+      "within_48h": 0.3421
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 191.14989261361112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 144.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1142,
+      "time_pressure": 0.724,
+      "hazard_rate": 0.010559,
+      "evidence_score": 0.0092,
+      "tibo_signal": 0.0039,
+      "community_signal": 0.0052,
+      "release_signal": 0.0187,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9097560975609755,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Title only, no relevant content about resets or limits.",
+          "Irrelevant to the topic.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T03:00:55.320157Z",
+    "prediction": {
+      "within_5h": 0.065,
+      "within_24h": 0.2267,
+      "within_48h": 0.3445
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 191.48203189555556,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 144.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1196,
+      "time_pressure": 0.7268,
+      "hazard_rate": 0.010655,
+      "evidence_score": 0.0097,
+      "tibo_signal": 0.0042,
+      "community_signal": 0.0,
+      "release_signal": 0.0183,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9073170731707316,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or reset events.",
+          "Title only, no relevant content about resets or limits.",
+          "Irrelevant to the analysis dimensions.",
+          "Mentions a shipped product feature but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T03:40:55.096860Z",
+    "prediction": {
+      "within_5h": 0.0621,
+      "within_24h": 0.2185,
+      "within_48h": 0.334
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 192.1486361438889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 143.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1305,
+      "time_pressure": 0.7323,
+      "hazard_rate": 0.01022,
+      "evidence_score": 0.0072,
+      "tibo_signal": 0.0039,
+      "community_signal": 0.0,
+      "release_signal": 0.0183,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.07073170731707316,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9109756097560976,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping magic on phone, but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T04:00:57.252246Z",
+    "prediction": {
+      "within_5h": 0.064,
+      "within_24h": 0.2239,
+      "within_48h": 0.3409
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 192.48256821750002,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 143.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1359,
+      "time_pressure": 0.735,
+      "hazard_rate": 0.010506,
+      "evidence_score": 0.0087,
+      "tibo_signal": 0.0035,
+      "community_signal": 0.0,
+      "release_signal": 0.0181,
+      "llm_scores": {
+        "reset_intent": 0.007317073170731709,
+        "limit_complaint": 0.0,
+        "official_change": 0.04390243902439024,
+        "reset_confirmation": 0.0,
+        "confidence": 0.901219512195122,
+        "reason": [
+          "The text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "The text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "The text mentions a shipped product but no reset or limit complaints."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T04:40:55.406896Z",
+    "prediction": {
+      "within_5h": 0.0645,
+      "within_24h": 0.2253,
+      "within_48h": 0.3429
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 193.14872230416668,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 142.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1468,
+      "time_pressure": 0.7404,
+      "hazard_rate": 0.01058,
+      "evidence_score": 0.009,
+      "tibo_signal": 0.0037,
+      "community_signal": 0.002,
+      "release_signal": 0.0175,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.004878048780487805,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8987804878048781,
+        "reason": [
+          "Text is about an Anthropic account suspension, not about ChatGPT/Codex quota resets.",
+          "No mention of usage limits or resets.",
+          "Content is just a title 'Astro Boy and Sol' with no relevant context.",
+          "No signals related to resets or limits.",
+          "Mentions shipping magic on phone, likely a product update but not about resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T05:01:01.745072Z",
+    "prediction": {
+      "within_5h": 0.0644,
+      "within_24h": 0.2251,
+      "within_48h": 0.3426
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 193.48381621000001,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 142.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1522,
+      "time_pressure": 0.743,
+      "hazard_rate": 0.01057,
+      "evidence_score": 0.0089,
+      "tibo_signal": 0.0037,
+      "community_signal": 0.0,
+      "release_signal": 0.0174,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8878048780487805,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T05:40:54.067014Z",
+    "prediction": {
+      "within_5h": 0.0641,
+      "within_24h": 0.2244,
+      "within_48h": 0.3418
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 194.14835045944443,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 141.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1631,
+      "time_pressure": 0.7483,
+      "hazard_rate": 0.010532,
+      "evidence_score": 0.0086,
+      "tibo_signal": 0.0037,
+      "community_signal": 0.0,
+      "release_signal": 0.0173,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8890243902439026,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T06:01:17.829322Z",
+    "prediction": {
+      "within_5h": 0.0634,
+      "within_24h": 0.2224,
+      "within_48h": 0.3392
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 194.4882840725,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 141.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1686,
+      "time_pressure": 0.7509,
+      "hazard_rate": 0.010426,
+      "evidence_score": 0.008,
+      "tibo_signal": 0.0037,
+      "community_signal": 0.0,
+      "release_signal": 0.0173,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is about an Anthropic account suspension, not about ChatGPT/Codex quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T06:40:59.582261Z",
+    "prediction": {
+      "within_5h": 0.0632,
+      "within_24h": 0.222,
+      "within_48h": 0.3387
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 195.14988212194444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 140.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1794,
+      "time_pressure": 0.7561,
+      "hazard_rate": 0.010405,
+      "evidence_score": 0.0078,
+      "tibo_signal": 0.0034,
+      "community_signal": 0.0,
+      "release_signal": 0.0173,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is about an account suspension issue with Anthropic, not related to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets or limits.",
+          "Mentions shipping a product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T07:00:59.586798Z",
+    "prediction": {
+      "within_5h": 0.0632,
+      "within_24h": 0.2217,
+      "within_48h": 0.3384
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 195.48321668083332,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 140.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1848,
+      "time_pressure": 0.7586,
+      "hazard_rate": 0.010389,
+      "evidence_score": 0.0077,
+      "tibo_signal": 0.0036,
+      "community_signal": 0.0029,
+      "release_signal": 0.0171,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.017073170731707315,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8829268292682928,
+        "reason": [
+          "Text is about an account suspension at Anthropic, not about quota resets.",
+          "No mention of usage limits or resets for ChatGPT/Codex.",
+          "Text is just a title 'Astro Boy and Sol' with no relevant content.",
+          "No signals related to resets, limits, or official changes.",
+          "Mentions a shipped product but no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T07:40:52.458712Z",
+    "prediction": {
+      "within_5h": 0.0609,
+      "within_24h": 0.2152,
+      "within_48h": 0.33
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 196.1479033452778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 139.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.1956,
+      "time_pressure": 0.7637,
+      "hazard_rate": 0.010046,
+      "evidence_score": 0.0057,
+      "tibo_signal": 0.0032,
+      "community_signal": 0.0,
+      "release_signal": 0.0141,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.05609756097560975,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8682926829268293,
+        "reason": [
+          "Text is a casual remark about coding, no reset or limit mentions.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product feature, no reset or limit context.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T08:00:53.298101Z",
+    "prediction": {
+      "within_5h": 0.0629,
+      "within_24h": 0.2211,
+      "within_48h": 0.3377
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 196.4814698286111,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 139.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2011,
+      "time_pressure": 0.7662,
+      "hazard_rate": 0.010357,
+      "evidence_score": 0.0074,
+      "tibo_signal": 0.0029,
+      "community_signal": 0.0,
+      "release_signal": 0.0137,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no relevance to resets or limits.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T08:40:55.527194Z",
+    "prediction": {
+      "within_5h": 0.0628,
+      "within_24h": 0.2207,
+      "within_48h": 0.3372
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 197.14875553694444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 138.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2119,
+      "time_pressure": 0.7711,
+      "hazard_rate": 0.010336,
+      "evidence_score": 0.0071,
+      "tibo_signal": 0.0036,
+      "community_signal": 0.0038,
+      "release_signal": 0.0207,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.873170731707317,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "No relevance to quota resets or official changes.",
+          "Discussion about Anthropic account suspension, not about ChatGPT/Codex quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is a simple reference to 'Astro Boy and Sol', no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T09:00:53.070672Z",
+    "prediction": {
+      "within_5h": 0.0627,
+      "within_24h": 0.2205,
+      "within_48h": 0.337
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 197.481406625,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 138.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2174,
+      "time_pressure": 0.7735,
+      "hazard_rate": 0.010326,
+      "evidence_score": 0.0071,
+      "tibo_signal": 0.0031,
+      "community_signal": 0.0,
+      "release_signal": 0.0136,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a casual remark about coding, no relevance to resets or limits.",
+          "Discussion about Anthropic account suspension, not related to ChatGPT/Codex quota resets.",
+          "Vague title with no context, no reset or limit signals.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T09:40:45.993637Z",
+    "prediction": {
+      "within_5h": 0.0625,
+      "within_24h": 0.2201,
+      "within_48h": 0.3365
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 198.14610748416666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 137.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2282,
+      "time_pressure": 0.7784,
+      "hazard_rate": 0.010304,
+      "evidence_score": 0.0069,
+      "tibo_signal": 0.0031,
+      "community_signal": 0.0038,
+      "release_signal": 0.0137,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.04878048780487805,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a shipped product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T10:00:51.996170Z",
+    "prediction": {
+      "within_5h": 0.0625,
+      "within_24h": 0.2199,
+      "within_48h": 0.3363
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 198.4811079488889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 137.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2336,
+      "time_pressure": 0.7808,
+      "hazard_rate": 0.010294,
+      "evidence_score": 0.0068,
+      "tibo_signal": 0.0025,
+      "community_signal": 0.0252,
+      "release_signal": 0.0093,
+      "llm_scores": {
+        "reset_intent": 0.007317073170731709,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.031707317073170725,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8804878048780488,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product, no reset or limit context.",
+          "Mentions 'reset' but in a metaphorical sense about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T10:40:53.105572Z",
+    "prediction": {
+      "within_5h": 0.0623,
+      "within_24h": 0.2195,
+      "within_48h": 0.3359
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 199.1480829827778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 136.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2445,
+      "time_pressure": 0.7855,
+      "hazard_rate": 0.010273,
+      "evidence_score": 0.0066,
+      "tibo_signal": 0.0034,
+      "community_signal": 0.0023,
+      "release_signal": 0.017,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotes a shipped product feature, but no reset or limit mention.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T11:00:55.340926Z",
+    "prediction": {
+      "within_5h": 0.0621,
+      "within_24h": 0.219,
+      "within_48h": 0.3352
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 199.48203723583336,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 136.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.25,
+      "time_pressure": 0.7878,
+      "hazard_rate": 0.010246,
+      "evidence_score": 0.0064,
+      "tibo_signal": 0.0035,
+      "community_signal": 0.0023,
+      "release_signal": 0.0202,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.007317073170731707,
+        "official_change": 0.07804878048780488,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a humorous observation about coding, no relevance to resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T11:40:49.505523Z",
+    "prediction": {
+      "within_5h": 0.0631,
+      "within_24h": 0.2217,
+      "within_48h": 0.3389
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 200.14708297777779,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 135.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2608,
+      "time_pressure": 0.7924,
+      "hazard_rate": 0.010389,
+      "evidence_score": 0.0071,
+      "tibo_signal": 0.0031,
+      "community_signal": 0.0,
+      "release_signal": 0.0136,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a casual remark about coding, no relevance to resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T12:00:59.196022Z",
+    "prediction": {
+      "within_5h": 0.0619,
+      "within_24h": 0.2185,
+      "within_48h": 0.3346
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 200.48310811916667,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 135.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2663,
+      "time_pressure": 0.7947,
+      "hazard_rate": 0.01022,
+      "evidence_score": 0.0061,
+      "tibo_signal": 0.003,
+      "community_signal": 0.0,
+      "release_signal": 0.013,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a shipped product, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T12:40:51.937039Z",
+    "prediction": {
+      "within_5h": 0.0609,
+      "within_24h": 0.2155,
+      "within_48h": 0.3308
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 201.1477582516667,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 134.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2771,
+      "time_pressure": 0.7992,
+      "hazard_rate": 0.010062,
+      "evidence_score": 0.0052,
+      "tibo_signal": 0.0026,
+      "community_signal": 0.0172,
+      "release_signal": 0.0125,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.06585365853658537,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotes a shipped product feature, but no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T13:00:59.019132Z",
+    "prediction": {
+      "within_5h": 0.0618,
+      "within_24h": 0.2183,
+      "within_48h": 0.3344
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 201.48305889972224,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 134.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2826,
+      "time_pressure": 0.8014,
+      "hazard_rate": 0.010209,
+      "evidence_score": 0.006,
+      "tibo_signal": 0.0035,
+      "community_signal": 0.0197,
+      "release_signal": 0.0187,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.03414634146341463,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about phone features, no reset mention.",
+          "Mentions 'reset' but in a metaphorical sense about Theo, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T13:40:50.796413Z",
+    "prediction": {
+      "within_5h": 0.0601,
+      "within_24h": 0.2131,
+      "within_48h": 0.3277
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 202.14744146416666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 133.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2934,
+      "time_pressure": 0.8058,
+      "hazard_rate": 0.009936,
+      "evidence_score": 0.0045,
+      "tibo_signal": 0.0033,
+      "community_signal": 0.0027,
+      "release_signal": 0.0181,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Uses 'reset' metaphorically for a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T14:00:54.103799Z",
+    "prediction": {
+      "within_5h": 0.0617,
+      "within_24h": 0.2178,
+      "within_48h": 0.3339
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 202.48169357972222,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 133.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.2988,
+      "time_pressure": 0.8079,
+      "hazard_rate": 0.010183,
+      "evidence_score": 0.0057,
+      "tibo_signal": 0.0033,
+      "community_signal": 0.0,
+      "release_signal": 0.018,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.046341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8804878048780488,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no relevance to resets or limits.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T14:40:54.009205Z",
+    "prediction": {
+      "within_5h": 0.06,
+      "within_24h": 0.2128,
+      "within_48h": 0.3274
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 203.14833394972223,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 132.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3097,
+      "time_pressure": 0.8122,
+      "hazard_rate": 0.00992,
+      "evidence_score": 0.0043,
+      "tibo_signal": 0.0033,
+      "community_signal": 0.002,
+      "release_signal": 0.018,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "No official or product change context.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "No mention of usage limits or reset events.",
+          "Text is a simple reference to characters, no reset or limit context."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T15:00:50.410364Z",
+    "prediction": {
+      "within_5h": 0.0599,
+      "within_24h": 0.2127,
+      "within_48h": 0.3273
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 203.48066761861114,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 132.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3151,
+      "time_pressure": 0.8143,
+      "hazard_rate": 0.009915,
+      "evidence_score": 0.0042,
+      "tibo_signal": 0.0027,
+      "community_signal": 0.0156,
+      "release_signal": 0.0119,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8634146341463415,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content about resets or limits.",
+          "Promotes a shipped product but no mention of resets or limits.",
+          "Uses 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T15:40:50.819201Z",
+    "prediction": {
+      "within_5h": 0.0614,
+      "within_24h": 0.217,
+      "within_48h": 0.333
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 204.14744823916666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 131.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.326,
+      "time_pressure": 0.8185,
+      "hazard_rate": 0.010141,
+      "evidence_score": 0.0053,
+      "tibo_signal": 0.0027,
+      "community_signal": 0.0,
+      "release_signal": 0.0116,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevance to resets or limits.",
+          "Mentions shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T16:06:42.855444Z",
+    "prediction": {
+      "within_5h": 0.0621,
+      "within_24h": 0.2192,
+      "within_48h": 0.3359
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 204.57856899111113,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 131.4,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.333,
+      "time_pressure": 0.8211,
+      "hazard_rate": 0.010257,
+      "evidence_score": 0.0059,
+      "tibo_signal": 0.0044,
+      "community_signal": 0.002,
+      "release_signal": 0.0291,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotes a shipped product feature, but no reset or limit context.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T16:40:53.738483Z",
+    "prediction": {
+      "within_5h": 0.062,
+      "within_24h": 0.2189,
+      "within_48h": 0.3355
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 205.14825875694444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 130.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3423,
+      "time_pressure": 0.8246,
+      "hazard_rate": 0.010241,
+      "evidence_score": 0.0058,
+      "tibo_signal": 0.0032,
+      "community_signal": 0.0,
+      "release_signal": 0.0175,
+      "llm_scores": {
+        "reset_intent": 0.014634146341463417,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8999999999999999,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "'Reset' used metaphorically for Theo's state, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T17:00:53.478361Z",
+    "prediction": {
+      "within_5h": 0.0611,
+      "within_24h": 0.2162,
+      "within_48h": 0.332
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 205.48151980000003,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 130.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3477,
+      "time_pressure": 0.8266,
+      "hazard_rate": 0.010099,
+      "evidence_score": 0.005,
+      "tibo_signal": 0.0029,
+      "community_signal": 0.0,
+      "release_signal": 0.0168,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8682926829268293,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no relevance to resets or limits.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T17:40:52.826458Z",
+    "prediction": {
+      "within_5h": 0.061,
+      "within_24h": 0.2161,
+      "within_48h": 0.332
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 206.14800538861112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 129.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3586,
+      "time_pressure": 0.8305,
+      "hazard_rate": 0.010093,
+      "evidence_score": 0.0049,
+      "tibo_signal": 0.0029,
+      "community_signal": 0.0263,
+      "release_signal": 0.0157,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8682926829268293,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T18:00:51.615408Z",
+    "prediction": {
+      "within_5h": 0.0634,
+      "within_24h": 0.2231,
+      "within_48h": 0.3411
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 206.48100230583333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 129.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.364,
+      "time_pressure": 0.8325,
+      "hazard_rate": 0.010463,
+      "evidence_score": 0.0068,
+      "tibo_signal": 0.0029,
+      "community_signal": 0.0282,
+      "release_signal": 0.0156,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8682926829268293,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions shipped magic but no reset or limit context.",
+          "Uses 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T18:41:00.465190Z",
+    "prediction": {
+      "within_5h": 0.0595,
+      "within_24h": 0.2118,
+      "within_48h": 0.3263
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 207.15012720194446,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 128.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3749,
+      "time_pressure": 0.8363,
+      "hazard_rate": 0.009868,
+      "evidence_score": 0.0036,
+      "tibo_signal": 0.0025,
+      "community_signal": 0.024,
+      "release_signal": 0.0154,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.017073170731707315,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T19:00:50.376808Z",
+    "prediction": {
+      "within_5h": 0.0633,
+      "within_24h": 0.223,
+      "within_48h": 0.341
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 207.4806582241667,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 128.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3803,
+      "time_pressure": 0.8382,
+      "hazard_rate": 0.010458,
+      "evidence_score": 0.0067,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0517,
+      "release_signal": 0.0099,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.04878048780487805,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a humorous observation about coding, no relevance to quota resets.",
+          "Discussion about Anthropic account suspension, unrelated to ChatGPT/Codex quota resets.",
+          "Vague reference to characters, no reset or quota context.",
+          "Promotional message about a shipped product, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T19:40:55.013400Z",
+    "prediction": {
+      "within_5h": 0.0607,
+      "within_24h": 0.2154,
+      "within_48h": 0.3311
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 208.14861288833336,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 127.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3911,
+      "time_pressure": 0.842,
+      "hazard_rate": 0.010057,
+      "evidence_score": 0.0045,
+      "tibo_signal": 0.0027,
+      "community_signal": 0.0263,
+      "release_signal": 0.0138,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.02682926829268293,
+        "official_change": 0.04390243902439025,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a humorous observation about coding, no relevance to quota resets.",
+          "Discussion about Anthropic account suspension, unrelated to OpenAI quota resets.",
+          "Vague reference to characters, no reset or quota context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T20:00:53.203333Z",
+    "prediction": {
+      "within_5h": 0.0606,
+      "within_24h": 0.215,
+      "within_48h": 0.3307
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 208.48144335611113,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 127.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.3966,
+      "time_pressure": 0.8438,
+      "hazard_rate": 0.010036,
+      "evidence_score": 0.0044,
+      "tibo_signal": 0.0025,
+      "community_signal": 0.0231,
+      "release_signal": 0.0122,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.05365853658536586,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a shipped product, no reset mention.",
+          "Mentions 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T20:40:52.054255Z",
+    "prediction": {
+      "within_5h": 0.0628,
+      "within_24h": 0.2214,
+      "within_48h": 0.3391
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 209.14779079055555,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 126.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4074,
+      "time_pressure": 0.8474,
+      "hazard_rate": 0.010373,
+      "evidence_score": 0.0061,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0269,
+      "release_signal": 0.0098,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.0878048780487805,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a humorous observation about coding, no relevance to resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T21:00:58.782692Z",
+    "prediction": {
+      "within_5h": 0.0599,
+      "within_24h": 0.2128,
+      "within_48h": 0.3278
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 209.48299378833332,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 126.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4129,
+      "time_pressure": 0.8492,
+      "hazard_rate": 0.00992,
+      "evidence_score": 0.0037,
+      "tibo_signal": 0.0027,
+      "community_signal": 0.0223,
+      "release_signal": 0.0168,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8804878048780488,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotes a shipped product feature, but no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T21:40:50.604567Z",
+    "prediction": {
+      "within_5h": 0.0593,
+      "within_24h": 0.2111,
+      "within_48h": 0.3257
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 210.14738818583334,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 125.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4237,
+      "time_pressure": 0.8527,
+      "hazard_rate": 0.009831,
+      "evidence_score": 0.0032,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0216,
+      "release_signal": 0.0092,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.041463414634146344,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product, no reset or limit discussion.",
+          "Mentions 'reset' but in a playful context about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T22:00:51.087719Z",
+    "prediction": {
+      "within_5h": 0.0593,
+      "within_24h": 0.211,
+      "within_48h": 0.3256
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 210.48085566083336,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 125.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4291,
+      "time_pressure": 0.8545,
+      "hazard_rate": 0.009826,
+      "evidence_score": 0.0032,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0214,
+      "release_signal": 0.0091,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.053658536585365846,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a casual remark about coding at midnight, no relevance to resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to ChatGPT/Codex quota resets.",
+          "Vague reference to 'Astro Boy and Sol', no reset or limit context.",
+          "Promotional message about a shipped product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T22:40:53.693660Z",
+    "prediction": {
+      "within_5h": 0.0632,
+      "within_24h": 0.2228,
+      "within_48h": 0.341
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 211.14824648277778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 124.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.44,
+      "time_pressure": 0.8579,
+      "hazard_rate": 0.010447,
+      "evidence_score": 0.0063,
+      "tibo_signal": 0.0029,
+      "community_signal": 0.0312,
+      "release_signal": 0.0178,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.026829268292682923,
+        "official_change": 0.08048780487804878,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8585365853658538,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about account suspension, not usage limits or resets.",
+          "Irrelevant content, just names.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T23:00:58.282648Z",
+    "prediction": {
+      "within_5h": 0.0664,
+      "within_24h": 0.2319,
+      "within_48h": 0.3528
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 211.482854245,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 124.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4455,
+      "time_pressure": 0.8596,
+      "hazard_rate": 0.010933,
+      "evidence_score": 0.0088,
+      "tibo_signal": 0.002,
+      "community_signal": 0.0612,
+      "release_signal": 0.0089,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.031707317073170725,
+        "official_change": 0.053658536585365846,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8634146341463415,
+        "reason": [
+          "Text is a humorous observation about coding, no reset or limit context.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product feature, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-09T23:40:49.092095Z",
+    "prediction": {
+      "within_5h": 0.0629,
+      "within_24h": 0.2219,
+      "within_48h": 0.3399
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 212.14696795916666,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 123.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4563,
+      "time_pressure": 0.8629,
+      "hazard_rate": 0.0104,
+      "evidence_score": 0.006,
+      "tibo_signal": 0.0025,
+      "community_signal": 0.0508,
+      "release_signal": 0.0134,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.036585365853658534,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T00:01:40.707751Z",
+    "prediction": {
+      "within_5h": 0.0628,
+      "within_24h": 0.2216,
+      "within_48h": 0.3396
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 212.4946389977778,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 123.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.462,
+      "time_pressure": 0.8646,
+      "hazard_rate": 0.010384,
+      "evidence_score": 0.0059,
+      "tibo_signal": 0.002,
+      "community_signal": 0.0293,
+      "release_signal": 0.0086,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.017073170731707315,
+        "official_change": 0.03414634146341463,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8634146341463415,
+        "reason": [
+          "Text is a casual remark about coding, no relevance to resets or limits.",
+          "Discussion about Anthropic account ban, unrelated to quota resets.",
+          "Vague title with no context, no reset or limit signals.",
+          "Mentions shipped product but no reset or limit relevance.",
+          "Uses 'reset' metaphorically about Theo, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T00:40:57.607952Z",
+    "prediction": {
+      "within_5h": 0.0671,
+      "within_24h": 0.2341,
+      "within_48h": 0.3557
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 213.14933348083332,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 122.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4726,
+      "time_pressure": 0.8678,
+      "hazard_rate": 0.011051,
+      "evidence_score": 0.0093,
+      "tibo_signal": 0.0039,
+      "community_signal": 0.0783,
+      "release_signal": 0.0158,
+      "llm_scores": {
+        "reset_intent": 0.007317073170731709,
+        "limit_complaint": 0.036585365853658534,
+        "official_change": 0.04390243902439024,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Text discusses an account suspension at Anthropic, unrelated to quota resets.",
+          "Text is a simple reference to characters, no relevance to resets or limits.",
+          "Text promotes a product feature but does not mention resets or limits.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T01:02:16.626874Z",
+    "prediction": {
+      "within_5h": 0.0678,
+      "within_24h": 0.2363,
+      "within_48h": 0.3585
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 213.5046165188889,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 122.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4784,
+      "time_pressure": 0.8694,
+      "hazard_rate": 0.01117,
+      "evidence_score": 0.0099,
+      "tibo_signal": 0.0039,
+      "community_signal": 0.0783,
+      "release_signal": 0.0293,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.04390243902439025,
+        "official_change": 0.06097560975609756,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8658536585365854,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T01:41:06.041817Z",
+    "prediction": {
+      "within_5h": 0.0626,
+      "within_24h": 0.2211,
+      "within_48h": 0.339
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 214.15167624555554,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 121.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4889,
+      "time_pressure": 0.8725,
+      "hazard_rate": 0.010357,
+      "evidence_score": 0.0056,
+      "tibo_signal": 0.002,
+      "community_signal": 0.0305,
+      "release_signal": 0.0086,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.017073170731707315,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T02:00:58.335169Z",
+    "prediction": {
+      "within_5h": 0.0625,
+      "within_24h": 0.221,
+      "within_48h": 0.3388
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 214.4828694186111,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 121.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.4943,
+      "time_pressure": 0.874,
+      "hazard_rate": 0.010352,
+      "evidence_score": 0.0055,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0298,
+      "release_signal": 0.0106,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.024390243902439025,
+        "official_change": 0.05365853658536586,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8829268292682928,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a shipped product, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T02:40:50.421421Z",
+    "prediction": {
+      "within_5h": 0.0624,
+      "within_24h": 0.2204,
+      "within_48h": 0.3382
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 215.14733726305553,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 120.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5052,
+      "time_pressure": 0.877,
+      "hazard_rate": 0.01032,
+      "evidence_score": 0.0054,
+      "tibo_signal": 0.0023,
+      "community_signal": 0.0289,
+      "release_signal": 0.0122,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.029268292682926828,
+        "official_change": 0.08536585365853659,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no reset or limit context.",
+          "Promotes a shipped product feature, but no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T03:00:50.637217Z",
+    "prediction": {
+      "within_5h": 0.0598,
+      "within_24h": 0.2129,
+      "within_48h": 0.3283
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 215.48073061861112,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 120.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5106,
+      "time_pressure": 0.8785,
+      "hazard_rate": 0.009925,
+      "evidence_score": 0.0033,
+      "tibo_signal": 0.002,
+      "community_signal": 0.0,
+      "release_signal": 0.01,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.07560975609756097,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8731707317073172,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "No official or product change discussed.",
+          "Text discusses an account ban at Anthropic, unrelated to quota resets.",
+          "No mention of usage limits or resets.",
+          "Text is a simple reference to Astro Boy and Sol, no relevance to resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T03:40:55.514869Z",
+    "prediction": {
+      "within_5h": 0.0589,
+      "within_24h": 0.2101,
+      "within_48h": 0.3246
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 216.14875203694444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 119.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5215,
+      "time_pressure": 0.8814,
+      "hazard_rate": 0.009779,
+      "evidence_score": 0.0025,
+      "tibo_signal": 0.0022,
+      "community_signal": 0.0116,
+      "release_signal": 0.0119,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.007317073170731707,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8682926829268293,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no relevance to resets or limits.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T04:00:47.085013Z",
+    "prediction": {
+      "within_5h": 0.0594,
+      "within_24h": 0.2117,
+      "within_48h": 0.3268
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 216.47974374194445,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 119.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5269,
+      "time_pressure": 0.8829,
+      "hazard_rate": 0.009863,
+      "evidence_score": 0.0029,
+      "tibo_signal": 0.0013,
+      "community_signal": 0.0013,
+      "release_signal": 0.0043,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.01951219512195122,
+        "official_change": 0.06341463414634146,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual remark about midnight coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a shipped product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T04:41:03.140448Z",
+    "prediction": {
+      "within_5h": 0.0602,
+      "within_24h": 0.2141,
+      "within_48h": 0.33
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 217.15087027861114,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 118.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5378,
+      "time_pressure": 0.8857,
+      "hazard_rate": 0.009988,
+      "evidence_score": 0.0035,
+      "tibo_signal": 0.0026,
+      "community_signal": 0.0134,
+      "release_signal": 0.0166,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.051219512195121955,
+        "reset_confirmation": 0.0,
+        "confidence": 0.875609756097561,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T05:00:53.167371Z",
+    "prediction": {
+      "within_5h": 0.0588,
+      "within_24h": 0.2099,
+      "within_48h": 0.3245
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 217.48143330611111,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 118.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5432,
+      "time_pressure": 0.8871,
+      "hazard_rate": 0.009768,
+      "evidence_score": 0.0024,
+      "tibo_signal": 0.0021,
+      "community_signal": 0.0021,
+      "release_signal": 0.0112,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8487804878048781,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions shipped magic on phone, a minor product reference, no reset signal.",
+          "Uses 'reset' metaphorically about Theo, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T05:40:49.628801Z",
+    "prediction": {
+      "within_5h": 0.0587,
+      "within_24h": 0.2098,
+      "within_48h": 0.3244
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 218.14711704583334,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 117.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.554,
+      "time_pressure": 0.8899,
+      "hazard_rate": 0.009763,
+      "evidence_score": 0.0023,
+      "tibo_signal": 0.0017,
+      "community_signal": 0.002,
+      "release_signal": 0.009,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.04390243902439024,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a humorous observation about coding, no mention of resets or limits.",
+          "Text discusses an account suspension issue with Anthropic, unrelated to quota resets.",
+          "Text is a simple reference to characters, no relevant content.",
+          "Text promotes using a product, no mention of resets or limits.",
+          "Text mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T06:00:53.594956Z",
+    "prediction": {
+      "within_5h": 0.0596,
+      "within_24h": 0.2123,
+      "within_48h": 0.3277
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 218.4815520522222,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 117.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5595,
+      "time_pressure": 0.8912,
+      "hazard_rate": 0.009894,
+      "evidence_score": 0.0029,
+      "tibo_signal": 0.0015,
+      "community_signal": 0.002,
+      "release_signal": 0.0071,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.031707317073170725,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8829268292682928,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title, no relevant content about resets or limits.",
+          "Promotional message about a product, no reset or limit context.",
+          "Mentions 'reset' but in a metaphorical sense about Theo, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T06:40:55.808144Z",
+    "prediction": {
+      "within_5h": 0.0595,
+      "within_24h": 0.212,
+      "within_48h": 0.3273
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 219.14883344472221,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 116.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5704,
+      "time_pressure": 0.8939,
+      "hazard_rate": 0.009878,
+      "evidence_score": 0.0028,
+      "tibo_signal": 0.0016,
+      "community_signal": 0.0,
+      "release_signal": 0.0069,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8804878048780488,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T07:00:55.313504Z",
+    "prediction": {
+      "within_5h": 0.0595,
+      "within_24h": 0.2121,
+      "within_48h": 0.3274
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 219.48202956583336,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 116.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5758,
+      "time_pressure": 0.8952,
+      "hazard_rate": 0.009884,
+      "evidence_score": 0.0028,
+      "tibo_signal": 0.0016,
+      "community_signal": 0.024,
+      "release_signal": 0.0071,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.014634146341463414,
+        "official_change": 0.05609756097560975,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8512195121951219,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T07:44:32.096813Z",
+    "prediction": {
+      "within_5h": 0.0586,
+      "within_24h": 0.2095,
+      "within_48h": 0.3241
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 220.20891366083333,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 115.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5876,
+      "time_pressure": 0.898,
+      "hazard_rate": 0.009748,
+      "evidence_score": 0.0021,
+      "tibo_signal": 0.0015,
+      "community_signal": 0.0,
+      "release_signal": 0.007,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.0,
+        "official_change": 0.041463414634146344,
+        "reset_confirmation": 0.0,
+        "confidence": 0.9170731707317074,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account ban, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' but in a metaphorical sense about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T08:00:54.859531Z",
+    "prediction": {
+      "within_5h": 0.0591,
+      "within_24h": 0.2109,
+      "within_48h": 0.326
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 220.48190329083332,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 115.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.5921,
+      "time_pressure": 0.8991,
+      "hazard_rate": 0.009821,
+      "evidence_score": 0.0025,
+      "tibo_signal": 0.0013,
+      "community_signal": 0.0024,
+      "release_signal": 0.004,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.00975609756097561,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8780487804878049,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title, no relevant content.",
+          "Promotes a product feature but no reset or limit mention.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T08:40:49.193247Z",
+    "prediction": {
+      "within_5h": 0.0586,
+      "within_24h": 0.2094,
+      "within_48h": 0.324
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 221.14698915444444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 114.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.6029,
+      "time_pressure": 0.9015,
+      "hazard_rate": 0.009742,
+      "evidence_score": 0.002,
+      "tibo_signal": 0.0016,
+      "community_signal": 0.002,
+      "release_signal": 0.007,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.012195121951219513,
+        "official_change": 0.058536585365853655,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8829268292682928,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Mentions a shipped product but no reset or limit context.",
+          "Uses 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T09:00:50.335024Z",
+    "prediction": {
+      "within_5h": 0.0593,
+      "within_24h": 0.2115,
+      "within_48h": 0.3268
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 221.48064652194444,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 114.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.6084,
+      "time_pressure": 0.9028,
+      "hazard_rate": 0.009852,
+      "evidence_score": 0.0026,
+      "tibo_signal": 0.0019,
+      "community_signal": 0.0,
+      "release_signal": 0.0103,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.05609756097560975,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8804878048780488,
+        "reason": [
+          "Text is a casual remark about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content.",
+          "Promotional message about a product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T09:39:28.418078Z",
+    "prediction": {
+      "within_5h": 0.0954,
+      "within_24h": 0.3099,
+      "within_48h": 0.4483
+    },
+    "signals": {
+      "tweet_count": 16,
+      "hours_since_last_reset": 222.12453688,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 113.9,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.6188,
+      "time_pressure": 0.9051,
+      "hazard_rate": 0.015336,
+      "evidence_score": 0.0323,
+      "tibo_signal": 0.0804,
+      "community_signal": 0.0,
+      "release_signal": 0.1044,
+      "llm_scores": {
+        "reset_intent": 0.19375,
+        "limit_complaint": 0.0,
+        "official_change": 0.175,
+        "reset_confirmation": 0.096875,
+        "confidence": 0.50625,
+        "reason": [
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content",
+          "Moderate reset signal detected (score: 0.40)",
+          "Release/update signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T09:46:37.778716Z",
+    "prediction": {
+      "within_5h": 0.1394,
+      "within_24h": 0.4335,
+      "within_48h": 0.6103
+    },
+    "signals": {
+      "tweet_count": 16,
+      "hours_since_last_reset": 222.24382493388887,
+      "next_reset": {
+        "expected_time": "2026-08-15T03:32:00+00:00",
+        "hours_until": 113.8,
+        "status": "overdue"
+      },
+      "average_reset_interval": 61.38,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 24.0,
+      "std_reset_interval": 79.61254615354608,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 3.6208,
+      "time_pressure": 0.9055,
+      "hazard_rate": 0.0234,
+      "evidence_score": 0.0321,
+      "tibo_signal": 0.0804,
+      "community_signal": 0.0,
+      "release_signal": 0.1044,
+      "llm_scores": {
+        "reset_intent": 0.19375,
+        "limit_complaint": 0.0,
+        "official_change": 0.175,
+        "reset_confirmation": 0.096875,
+        "confidence": 0.50625,
+        "reason": [
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content",
+          "Moderate reset signal detected (score: 0.40)",
+          "Release/update signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 11,
+      "weekly_cycle_factor": 0.8233
     },
     "actual_result": null,
     "resolved_at": null
