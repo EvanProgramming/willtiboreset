@@ -14135,8 +14135,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-10T18:01:05.012496Z"
   },
   {
     "prediction_time": "2026-08-08T18:41:05.746785Z",
@@ -19170,6 +19170,57 @@
           "Vague reference to characters, no relevance to resets or limits.",
           "Promotional message about a product, no mention of resets.",
           "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T18:01:04.986566Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 38.51804936472222,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 129.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.582,
+      "time_pressure": 0.0027,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.0943,
+      "tibo_signal": 0.0937,
+      "community_signal": 0.4421,
+      "release_signal": 0.7606,
+      "llm_scores": {
+        "reset_intent": 0.015,
+        "limit_complaint": 0.034999999999999996,
+        "official_change": 0.0925,
+        "reset_confirmation": 0.0,
+        "confidence": 0.905,
+        "reason": [
+          "Announcement of new cybersecurity initiative and model, no reset mention.",
+          "Official product expansion, high official_change.",
+          "Humorous comment about coding, completely irrelevant to reset or limits.",
+          "No signals for any dimension.",
+          "Discussion about account suspension, not usage limits or reset."
         ]
       },
       "prior_applied": false,

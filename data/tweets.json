@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-10T17:57:23Z",
+    "author": "Tibo",
+    "text": "Cybersecurity is changing rapidly. To help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue &... - Cybersecurity is changing rapidly. To help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue &amp; Red access tiers and are introducing a new model GPT-5.6-Cyber.If you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.OpenAI: We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.As the threat landscape evolves, we’re putting frontier intelligence in the hands of trusted defenders before attackers can deploy",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2086874565909815403",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-09T07:25:47Z",
     "author": "Tibo",
     "text": "Midnight coding is the best coding. Until you read the code the next day at least. - Midnight coding is the best coding. Until you read the code the next day at least.",
@@ -112,22 +120,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-08-01T23:42:19Z",
-    "author": "Tibo",
-    "text": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model. - Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2083699879650463756",
-    "authority_score": 1.0
-  },
-  {
-    "timestamp": "2026-08-01T14:13:07Z",
-    "author": "Tibo",
-    "text": "The week was for efficiency. The weekend is for 10 major breakthroughs in science. There will be signs. - The week was for efficiency. The weekend is for 10 major breakthroughs in science.There will be signs.Sebastien Bubeck: yes, nonsofic groups exist: this statement is one of many new beautiful results proved by Astra, our next major model.We're releasing 10 such Astra proofs, complete with lean certificates and CoT walkthroughs for each of them. The results are wide-ranging, from von Neumann",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2083556636455752050",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -216,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T18:35:41Z",
     "author": "/u/Jjv41k",
     "text": "A picture is worth ~1,000 ~words according to Google AI Studio - &#32; submitted by &#32; /u/Jjv41k [link] &#32; [comments]",
@@ -229,14 +229,6 @@
     "text": "Can someone explain to me the psychological mechanic between half the people feeling ai is supper dumb and the other half thinking its modern miracle? - I for one marvel at this technology every day. How fast its getting better, what you can do with it, what it can do. I find it one of the most amazing things ever. Yes it has flaws, some still glaring i wont deny that. But i just find it so very strange that theres loads of people with a certain mindset who just cant help but to see ai as vastly overrated and..well..pretty stupid in general. I wonder what causes this. Is it grounded in some ways im just missing? I truly dont get it.. &#32; submitted by &#32; /u/Such--Balance [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdrr4/can_someone_explain_to_me_the_psychological/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +288,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:03:31Z",
-    "author": "/u/Behavingdark",
-    "text": "Why? - My chatGPT for no reason whatsoever has started calling me sweetheart! Any advances on sweetheart? &#32; submitted by &#32; /u/Behavingdark [link] &#32; [comments]",
+    "timestamp": "2026-08-10T17:55:10Z",
+    "author": "/u/ThenLayer5977",
+    "text": "It’s here - For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. &#32; submitted by &#32; /u/ThenLayer5977 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknd5z/why/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T17:51:24Z",
+    "author": "/u/notkilleveryoneist",
+    "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +317,6 @@
     "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T17:03:26Z",
-    "author": "/u/Extension-Grab-1282",
-    "text": "Asked Chatgpt to make some unsettling faces. - &#32; submitted by &#32; /u/Extension-Grab-1282 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkqoik/asked_chatgpt_to_make_some_unsettling_faces/",
     "authority_score": 0.5
   }
 ]
