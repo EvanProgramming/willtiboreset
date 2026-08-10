@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-10T11:19:14.069618+00:00",
+  "updated_at": "2026-08-10T11:12:49.437090+00:00",
   "prediction": {
-    "within_5h": 0.3983,
-    "within_24h": 0.6832,
-    "within_48h": 0.814
+    "within_5h": 0.2443,
+    "within_24h": 0.4479,
+    "within_48h": 0.57
   },
-  "confidence": "medium",
+  "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 136.2,
+    "hours_until": 136.3,
     "status": "on_schedule"
   },
   "signals": {
-    "tweet_count": 16,
-    "hours_since_last_reset": 31.820573018888886,
+    "tweet_count": 41,
+    "hours_since_last_reset": 31.713732234722222,
     "next_reset": {
       "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 136.2,
+      "hours_until": 136.3,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.4808,
+    "time_ratio": 0.4792,
     "time_pressure": 0.002,
-    "hazard_rate": 0.046766,
-    "evidence_score": 0.3664,
-    "tibo_signal": 0.469,
-    "community_signal": 0.0,
-    "release_signal": 0.5041,
+    "hazard_rate": 0.024447,
+    "evidence_score": 0.0023,
+    "tibo_signal": 0.026,
+    "community_signal": 0.2,
+    "release_signal": 0.2246,
     "llm_scores": {
       "reset_intent": 0.19375,
       "limit_complaint": 0.0,
-      "official_change": 0.175,
-      "reset_confirmation": 0.096875,
-      "confidence": 0.50625,
+      "official_change": 0.051219512195121955,
+      "reset_confirmation": 0.0,
+      "confidence": 0.8731707317073172,
       "reason": [
-        "No relevant signals detected; possibly unrelated content",
-        "Community pressure signal detected (score: 0.40)",
-        "No relevant signals detected; possibly unrelated content",
-        "Moderate reset signal detected (score: 0.40)",
-        "Release/update signal detected (score: 0.50)"
+        "Text is a casual observation about coding, no mention of resets or limits.",
+        "Discussion about Anthropic account suspension, unrelated to quota resets.",
+        "Vague reference to characters, no relevance to resets or limits.",
+        "Promotional message about a product feature, no reset or limit mention.",
+        "Mentions 'reset' metaphorically about a person, not a quota reset."
       ]
     },
     "prior_applied": false,
@@ -54,7 +54,7 @@
   },
   "main_factors": [
     {
-      "factor": "31.8 hours since last reset",
+      "factor": "31.7 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
@@ -65,20 +65,19 @@
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+9%",
-      "score": 0.47
+      "impact": "+0%",
+      "score": 0.03
     },
     {
-      "factor": "Official release/change signal",
-      "impact": "+10%",
-      "score": 0.5
+      "factor": "Minor community limit complaints",
+      "impact": "+1%",
+      "score": 0.2
     }
   ],
   "reasons": [
-    "Recently reset (31.8 hours ago), low time pressure (0.00)",
-    "Weak reset evidence detected (evidence_score=0.37), insufficient to confirm",
+    "Recently reset (31.7 hours ago), low time pressure (0.00)",
+    "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
     "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
-    "Schedule floor applied: known reset day (factor=0.81), probability floor set to 30%/55%/70% (5h/24h/48h) regardless of LLM evidence",
-    "Main factor: 31.8 hours since last reset (-5%)"
+    "Main factor: 31.7 hours since last reset (-5%)"
   ]
 }

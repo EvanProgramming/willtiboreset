@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T07:00:43Z",
-    "author": "/u/KeanuRave100",
-    "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T09:22:35Z",
     "author": "/u/_Coord",
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T07:00:43Z",
+    "author": "/u/KeanuRave100",
+    "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
     "authority_score": 0.5
   },
   {
@@ -264,6 +264,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T10:24:52Z",
+    "author": "/u/Big_Restaurant4822",
+    "text": "Model now has poor internal consistency - Has anyone face this issue with the free tier ChatGPT 5.6 Luna where it consistently gets things wrong? Like, at the start of the message it'll say 'You cleaned the tank today' then at the third paragraph it says 'John cleaned the tank yesterday'? What the heck is going on? 5.5 and before never had this issue and no amount of prompt engineering could fix it. &#32; submitted by &#32; /u/Big_Restaurant4822 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkh006/model_now_has_poor_internal_consistency/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T00:28:08Z",
     "author": "/u/Darri3D",
     "text": "Interdimensional Cable - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
@@ -317,14 +325,6 @@
     "text": "I saw a post saying “Add ‘and one vampire’ to your prompts”… so I tried it with my Camel Home Security. 😂🐪🧛🏻‍♂️ - He’s already inside!!! 😭😂 CHOMP!! Original post : https://www.reddit.com/r/ChatGPT/s/7gjlo102Fh &#32; submitted by &#32; /u/LittleWarmer [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vka3n0/i_saw_a_post_saying_add_and_one_vampire_to_your/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T10:56:54Z",
-    "author": "/u/Lord2troie",
-    "text": "A banter between GPT and myself 😁 - https://preview.redd.it/ms6bt63i3jih1.png?width=851&amp;format=png&amp;auto=webp&amp;s=c0ab5be37836d5b631818629f224d3f4b44cf060 &#32; submitted by &#32; /u/Lord2troie [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkhkgc/a_banter_between_gpt_and_myself/",
     "authority_score": 0.5
   }
 ]
