@@ -14282,8 +14282,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-10T20:00:55.900253Z"
   },
   {
     "prediction_time": "2026-08-08T20:01:02.172735Z",
@@ -19374,6 +19374,57 @@
           "Humorous remark about midnight coding, completely irrelevant to resets or limits.",
           "No signals of any kind.",
           "Discussion about Anthropic account suspension, unrelated to OpenAI quota resets."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T20:00:55.875838Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 40,
+      "hours_since_last_reset": 40.51551838583333,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 127.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.6122,
+      "time_pressure": 0.0029,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.1026,
+      "tibo_signal": 0.1293,
+      "community_signal": 0.6487,
+      "release_signal": 0.7624,
+      "llm_scores": {
+        "reset_intent": 0.015,
+        "limit_complaint": 0.045,
+        "official_change": 0.08249999999999999,
+        "reset_confirmation": 0.01,
+        "confidence": 0.9037499999999999,
+        "reason": [
+          "Announces new cybersecurity initiative and model, a major official product change.",
+          "No mention of usage quota resets.",
+          "Humorous remark about coding at night, completely irrelevant to resets or limits.",
+          "Discussion about account suspension at Anthropic, not related to OpenAI quota resets.",
+          "Vague title with no relevant content."
         ]
       },
       "prior_applied": false,
