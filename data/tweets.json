@@ -208,19 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T01:10:52Z",
-    "author": "/u/donkeymonkey00",
-    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T05:19:13Z",
     "author": "/u/Significant-Crow-749",
     "text": "I asked Chat GPT what are you best at? - So the full question I asked was “I'm curious. Let's say I'm a new user of ChatGPT. What would you tell them if you, if I were to ask or they were to ask, what do you do best? What is, what of all the things an AI bot can do, does ChatGPT do the best?” Her/his it’s answer was “If a brand-new user asked me, “Of everything ChatGPT can do, what is it actually best at?”, I’d say: ChatGPT is best at helping you think with language. Not just answering questions. The strongest use is when you bring me something incomplete, confusing, messy, or difficult to work through, and we develop it together. That includes things like taking a half-formed idea and finding the useful idea hiding inside it; noticing connections or problems you missed; challenging assumptions; researching and comparing possibilities; turning a huge problem into the next manageable decision; explaining something at exactly the level you need; and turning thoughts into writing, plans, strategies, code, designs, or other usable outputs. Search engines are often better when you simply need a fact. Calculators are better at arithmetic. Specialized software is better at many narrow technical jobs. But ChatGPT’s unusual strength is that you can essentially think out loud at it. You don’t need to know the right terminology, formulate the perfect question, or even know exactly what you’re trying to figure out yet. So if I had to reduce the answer to one sentence: ChatGPT is best used as an interactive thinking partner that can help turn what’s in your head into something clearer, stronger, and usable.” In some ways I agree with this answer and in other ways i feel like it didn’t really answer it the way I meant ..what do you think &#32; submitted by &#32; /u/Significant-Crow-749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkbteo/i_asked_chat_gpt_what_are_you_best_at/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
     "authority_score": 0.5
   },
   {
@@ -320,11 +320,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T22:55:49Z",
-    "author": "/u/Latter-Flatworm3789",
-    "text": "I asked to gen how psychotic hallucination looks like - &#32; submitted by &#32; /u/Latter-Flatworm3789 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T10:56:54Z",
+    "author": "/u/Lord2troie",
+    "text": "A banter between GPT and myself 😁 - https://preview.redd.it/ms6bt63i3jih1.png?width=851&amp;format=png&amp;auto=webp&amp;s=c0ab5be37836d5b631818629f224d3f4b44cf060 &#32; submitted by &#32; /u/Lord2troie [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk3wiz/i_asked_to_gen_how_psychotic_hallucination_looks/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkhkgc/a_banter_between_gpt_and_myself/",
     "authority_score": 0.5
   }
 ]
