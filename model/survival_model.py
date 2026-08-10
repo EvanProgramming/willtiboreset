@@ -94,6 +94,9 @@ MAX_PROBABILITY_STRONG_EVIDENCE: dict[int, float] = {
 RECENCY_DECAY_HOURS: float = 24.0
 MIN_UNCERTAINTY_HOURS: float = 6.0
 
+# Weekly cycle: how much the day-of-week factor can boost base probability
+WEEKLY_CYCLE_BOOST_STRENGTH: float = 0.6  # Max 60% boost on high-factor days
+
 
 # ──────────────────────────────────────────────
 # Helper functions
@@ -358,17 +361,24 @@ def _aggregate_weighted_evidence(
     }
 
 
-def _base_probability(horizon: int, time_pressure: float) -> float:
+def _base_probability(
+    horizon: int,
+    time_pressure: float,
+    weekly_cycle_factor: float = 0.0,
+) -> float:
     """
     Weak time prior probability when no signal is present.
 
     Low time pressure → lower probability; high time pressure → slightly higher probability.
-    However 24h/48h will not exceed 0.5/0.7 because of this.
+    Weekly cycle factor boosts the base when current day is a typical reset day.
     """
     base = BASE_PROBABILITY.get(horizon, 0.1)
     # time_pressure ∈ [0,1]; adjustment range ±TIME_ADJUSTMENT_STRENGTH
     adjustment = TIME_ADJUSTMENT_STRENGTH * (time_pressure - 0.5)
     adjusted = base * (1.0 + adjustment)
+    # Weekly cycle boost: up to WEEKLY_CYCLE_BOOST_STRENGTH multiplicative boost
+    cycle_boost = 1.0 + weekly_cycle_factor * WEEKLY_CYCLE_BOOST_STRENGTH
+    adjusted *= cycle_boost
     return max(0.01, min(adjusted, MAX_PROBABILITY_NO_SIGNAL[horizon]))
 
 
@@ -398,22 +408,31 @@ def _probabilities(
     time_pressure: float,
     evidence_score: float,
     horizons: list[int],
+    weekly_cycle_factor: float = 0.0,
 ) -> dict[str, float]:
     """Compute posterior probability for each time horizon."""
     probability: dict[str, float] = {}
     for h in horizons:
-        prior = _base_probability(h, time_pressure)
+        prior = _base_probability(h, time_pressure, weekly_cycle_factor)
         posterior = _bayesian_update(prior, evidence_score)
+
+        # Raise no-signal cap when weekly cycle factor is high:
+        # on a typical reset day, probability should not be artificially
+        # capped at the same level as a non-reset day.
+        cycle_cap_boost = weekly_cycle_factor * 0.5  # up to 50% of gap
+        base_cap = MAX_PROBABILITY_NO_SIGNAL[h] + (
+            MAX_PROBABILITY_STRONG_EVIDENCE[h] - MAX_PROBABILITY_NO_SIGNAL[h]
+        ) * cycle_cap_boost
 
         # Choose cap based on evidence strength
         if evidence_score >= 0.7:
             cap = MAX_PROBABILITY_STRONG_EVIDENCE[h]
         elif evidence_score >= 0.4:
-            cap = MAX_PROBABILITY_NO_SIGNAL[h] + (
-                MAX_PROBABILITY_STRONG_EVIDENCE[h] - MAX_PROBABILITY_NO_SIGNAL[h]
+            cap = base_cap + (
+                MAX_PROBABILITY_STRONG_EVIDENCE[h] - base_cap
             ) * (evidence_score - 0.4) / 0.3
         else:
-            cap = MAX_PROBABILITY_NO_SIGNAL[h]
+            cap = base_cap
 
         prob = min(cap, posterior)
         probability[f"{h}h"] = round(prob, 4)
@@ -443,6 +462,7 @@ def build_features(
     recent_reset_time: Optional[datetime] = None,
     now: Optional[datetime] = None,
     expected_weekly_interval_hours: Optional[float] = None,
+    weekly_cycle_factor: float = 0.0,
 ) -> PredictionFeatures:
     """
     Build PredictionFeatures (V2) from analysis features and LLM signal scores.
@@ -495,6 +515,7 @@ def build_features(
         release_signal=evidence["release_signal"],
         evidence_score=evidence["overall"],
         expected_weekly_interval_hours=expected_weekly_interval_hours,
+        weekly_cycle_factor=weekly_cycle_factor,
     )
 
 
@@ -551,6 +572,7 @@ class ResetPredictor:
             features.time_pressure,
             features.evidence_score,
             self._horizons,
+            features.weekly_cycle_factor,
         )
 
         main_factors = self._build_main_factors(features)
@@ -669,6 +691,25 @@ class ResetPredictor:
                 )
             )
 
+        # Weekly cycle factor
+        if features.weekly_cycle_factor >= 0.5:
+            impact_pct = int(features.weekly_cycle_factor * 30)
+            factors.append(
+                FactorImpact(
+                    factor="Weekly cycle: today is a typical reset day (US Monday)",
+                    impact=f"+{impact_pct}%",
+                    score=round(features.weekly_cycle_factor, 2),
+                )
+            )
+        elif features.weekly_cycle_factor >= 0.2:
+            factors.append(
+                FactorImpact(
+                    factor="Weekly cycle: moderate reset-day proximity",
+                    impact=f"+{int(features.weekly_cycle_factor * 15)}%",
+                    score=round(features.weekly_cycle_factor, 2),
+                )
+            )
+
         # Signal factors
         if features.evidence_score > 0.0:
             if features.tibo_signal >= 0.5:
@@ -775,6 +816,12 @@ class ResetPredictor:
             )
         else:
             reasons.append("No significant reset signal detected; probability constrained by time prior")
+
+        if features.weekly_cycle_factor >= 0.5:
+            reasons.append(
+                f"Weekly cycle boost active (factor={features.weekly_cycle_factor:.2f}): "
+                f"today is a typical reset day, base probability and probability cap raised"
+            )
 
         if main_factors:
             top = main_factors[0]

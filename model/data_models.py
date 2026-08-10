@@ -192,6 +192,10 @@ class PredictionFeatures(BaseModel):
         default=None, gt=0.0,
         description="Expected weekly reset interval (168h); overrides median_interval for time_pressure calculation when set"
     )
+    weekly_cycle_factor: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="Day-of-week cycle factor (0=unlikely day, 1=very likely reset day); boosts base probability and raises no-signal cap"
+    )
 
 
 class FactorImpact(BaseModel):

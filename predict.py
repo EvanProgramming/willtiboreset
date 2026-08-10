@@ -271,6 +271,7 @@ def main() -> int:
         model_state=model_state,
         recent_reset_time=recent_reset_time,
         expected_weekly_interval_hours=expected_weekly_interval,
+        weekly_cycle_factor=analysis_features.weekly_cycle_factor,
     )
 
     predictor = ResetPredictor(
@@ -344,6 +345,7 @@ def main() -> int:
         ),
         "prior_applied": prior_applied,
         "interval_count": analysis_features.reset_interval_count,
+        "weekly_cycle_factor": analysis_features.weekly_cycle_factor,
     }
 
     output = {

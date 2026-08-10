@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-10T09:39:28.346698+00:00",
+  "updated_at": "2026-08-10T09:46:37.771065+00:00",
   "prediction": {
-    "within_5h": 0.0954,
-    "within_24h": 0.3099,
-    "within_48h": 0.4483
+    "within_5h": 0.1394,
+    "within_24h": 0.4335,
+    "within_48h": 0.6103
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 113.9,
+    "hours_until": 113.8,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 16,
-    "hours_since_last_reset": 222.12453688,
+    "hours_since_last_reset": 222.24382493388887,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 113.9,
+      "hours_until": 113.8,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.6188,
-    "time_pressure": 0.9051,
-    "hazard_rate": 0.015336,
-    "evidence_score": 0.0323,
+    "time_ratio": 3.6208,
+    "time_pressure": 0.9055,
+    "hazard_rate": 0.0234,
+    "evidence_score": 0.0321,
     "tibo_signal": 0.0804,
     "community_signal": 0.0,
     "release_signal": 0.1044,
@@ -48,13 +48,19 @@
       ]
     },
     "prior_applied": false,
-    "interval_count": 11
+    "interval_count": 11,
+    "weekly_cycle_factor": 0.8233
   },
   "main_factors": [
     {
-      "factor": "222.1 hours since last reset",
+      "factor": "222.2 hours since last reset",
       "impact": "+10%",
       "score": 0.91
+    },
+    {
+      "factor": "Weekly cycle: today is a typical reset day (US Monday)",
+      "impact": "+24%",
+      "score": 0.82
     },
     {
       "factor": "Some reset discussion detected",
@@ -64,8 +70,9 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "222.1 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "222.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 222.1 hours since last reset (+10%)"
+    "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
+    "Main factor: 222.2 hours since last reset (+10%)"
   ]
 }
