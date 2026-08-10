@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T01:10:52Z",
-    "author": "/u/donkeymonkey00",
-    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T07:00:43Z",
     "author": "/u/KeanuRave100",
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
     "authority_score": 0.5
   },
   {
