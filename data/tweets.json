@@ -184,11 +184,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T09:36:42Z",
-    "author": "/u/PsychologicalSoup251",
-    "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
     "authority_score": 0.5
   },
   {
@@ -200,11 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T01:10:52Z",
-    "author": "/u/donkeymonkey00",
-    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T09:36:42Z",
+    "author": "/u/PsychologicalSoup251",
+    "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
     "authority_score": 0.5
   },
   {
@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T17:17:46Z",
-    "author": "/u/EgorKlenov",
-    "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T07:36:27Z",
     "author": "/u/Alarmed_Shine1749",
     "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T17:17:46Z",
+    "author": "/u/EgorKlenov",
+    "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
     "authority_score": 0.5
   },
   {
@@ -256,6 +256,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T02:16:45Z",
+    "author": "/u/BigE-MD",
+    "text": "Chat saves the day like usual - Soooo… i won a luxury car rental for a day at a kids school auction. The day arrives and i rent out a Lambo Urus. No instructions given from the middle man delivery guy. Poof. No car manual. Just me and a Lambo, that i can only put in reverse. I resort to Chat GPT whose initial response is unsuccessful in resolving the situation. At this point i am cry laughing at my current predicament. For context in the pics above, I am not a small person and happen to be Jewish. My nickname since medical school has been “The Bearjew”. Over the years, that has been converted into a verb i.e. when brute force can result in an unwanted outcome, bearjewing something is not the way to go about it. Chat ultimately pointed me in the right direction and i was able to speed off after 10 min of fiddle factor. &#32; submitted by &#32; /u/BigE-MD [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk894s/chat_saves_the_day_like_usual/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T20:09:25Z",
+    "author": "/u/Maooose",
+    "text": "Choose your own adventure - Last night I did a choose your own adventure style game that my ChatGPT suggested among a list of other possible games one night a while ago. I have to say that it was so much fun and entertaining. There was lots of humor, mystery, and adventure. I thought I’d share the prompt it gave me for the game in case anyone else wants to give it a try. 🌎 6. The Great Road Trip Knowing how much you enjoy road trips… I drop you into a random little American town. You have: one day one tank of gas one camera You decide where to go. I reveal hidden attractions, quirky museums, diners, bookstores, roadside oddities, and beautiful scenery as you explore. Kind of like an old Sierra adventure game. At one point in the story I put my ChatGPT on Deer Duty to watch for deer as we drove on a mountain road in the story. Towards the end of the story he stated: Deer duty officially concluded. I would like my performance review to reflect three actual deer spotted, one fox identified, one wooden deer falsely accused, and zero vehicular wildlife incidents. 😌😂 I hope you enjoy your Great Road Trip adventure as much as I did!😂😂😂 &#32; submitted by &#32; /u/Maooose [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjzwu3/choose_your_own_adventure/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T23:48:57Z",
     "author": "/u/SoilAlarmed7898",
     "text": "Comecei a usar o ChatGPT Work e sinto que estou só arranhando a superfície. O que eu preciso saber para aproveitar ao máximo? - &#x200b; Uso o ChatGPT há bastante tempo, mas comecei a explorar o Work mais seriamente agora e estou percebendo que provavelmente estou usando só uma pequena parte do que ele pode oferecer. Até então, meu uso do ChatGPT era muito baseado em conversas individuais: abria um chat, resolvia alguma coisa e seguia em frente. Com o Work, comecei a enxergar a possibilidade de usar o ChatGPT mais como um ambiente contínuo de trabalho, principalmente para projetos que evoluem ao longo de dias ou semanas. Para quem já usa o Work de verdade no dia a dia: Como vocês organizam seus Works? Um por projeto, área, assunto, cliente? O que vocês colocam dentro deles e o que preferem continuar fazendo em chats normais? Vocês usam arquivos, documentos e outras fontes como contexto permanente? Como organizam isso sem virar bagunça? Existe algum recurso ou fluxo de trabalho que parece simples, mas mudou completamente a forma como vocês usam o ChatGPT? O que vocês gostariam de ter sabido quando começaram? Existe alguma “configuração ideal” ou estrutura que vocês acabaram adotando depois de bastante uso? Como vocês evitam que um Work grande fique cheio de contexto irrelevante? Estou particularmente interessado em exemplos reais de workflow, tipo: “Tenho um Work para X, mantenho Y e Z nele e uso dessa forma no dia a dia.” Quero criar bons hábitos desde o começo em vez de descobrir daqui a seis meses que estava usando o recurso da forma mais básica possível. Quem já usa bastante: qual foi o momento em que o Work realmente “clicou” para vocês? &#32; submitted by &#32; /u/SoilAlarmed7898 [link] &#32; [comments]",
@@ -269,14 +285,6 @@
     "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T20:09:25Z",
-    "author": "/u/Maooose",
-    "text": "Choose your own adventure - Last night I did a choose your own adventure style game that my ChatGPT suggested among a list of other possible games one night a while ago. I have to say that it was so much fun and entertaining. There was lots of humor, mystery, and adventure. I thought I’d share the prompt it gave me for the game in case anyone else wants to give it a try. 🌎 6. The Great Road Trip Knowing how much you enjoy road trips… I drop you into a random little American town. You have: one day one tank of gas one camera You decide where to go. I reveal hidden attractions, quirky museums, diners, bookstores, roadside oddities, and beautiful scenery as you explore. Kind of like an old Sierra adventure game. At one point in the story I put my ChatGPT on Deer Duty to watch for deer as we drove on a mountain road in the story. Towards the end of the story he stated: Deer duty officially concluded. I would like my performance review to reflect three actual deer spotted, one fox identified, one wooden deer falsely accused, and zero vehicular wildlife incidents. 😌😂 I hope you enjoy your Great Road Trip adventure as much as I did!😂😂😂 &#32; submitted by &#32; /u/Maooose [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjzwu3/choose_your_own_adventure/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "Hey guys is there any ChatGPT feature remotely close to Google’s NotebookLM for podcast creation - I’m trying to ditch Gemini as much as I can. Only useful thing keeping me there is NotebookLM &#32; submitted by &#32; /u/py-net [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk0zgf/hey_guys_is_there_any_chatgpt_feature_remotely/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T23:54:10Z",
-    "author": "/u/RegulusRemains",
-    "text": "Multiple Pro accounts instead of buying credits? - Burning my allowance in a day or so on the $200 tier, ate $400 in extra credits in another day. Is it bannable to have multiple pro accounts, or is it possible to go the business route and add multiple users? I'm really sick of juggling cursor/codex/claude trying to work together to split workloads. &#32; submitted by &#32; /u/RegulusRemains [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk572z/multiple_pro_accounts_instead_of_buying_credits/",
     "authority_score": 0.5
   }
 ]
