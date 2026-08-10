@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T20:00:55.867254+00:00",
+  "updated_at": "2026-08-10T20:40:59.601377+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 127.5,
+    "hours_until": 126.8,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 40,
-    "hours_since_last_reset": 40.51551838583333,
+    "hours_since_last_reset": 41.1832223025,
     "next_reset": {
       "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 127.5,
+      "hours_until": 126.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.6122,
-    "time_pressure": 0.0029,
+    "time_ratio": 0.6223,
+    "time_pressure": 0.003,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.1026,
-    "tibo_signal": 0.1293,
-    "community_signal": 0.6487,
+    "evidence_score": 0.0998,
+    "tibo_signal": 0.1204,
+    "community_signal": 0.695,
     "release_signal": 0.7624,
     "llm_scores": {
-      "reset_intent": 0.015,
-      "limit_complaint": 0.045,
-      "official_change": 0.08249999999999999,
-      "reset_confirmation": 0.01,
-      "confidence": 0.9037499999999999,
+      "reset_intent": 0.01,
+      "limit_complaint": 0.025,
+      "official_change": 0.10500000000000001,
+      "reset_confirmation": 0.015,
+      "confidence": 0.9112499999999999,
       "reason": [
-        "Announces new cybersecurity initiative and model, a major official product change.",
+        "Official announcement of new cybersecurity initiative and model GPT-5.6-Cyber.",
         "No mention of usage quota resets.",
-        "Humorous remark about coding at night, completely irrelevant to resets or limits.",
-        "Discussion about account suspension at Anthropic, not related to OpenAI quota resets.",
-        "Vague title with no relevant content."
+        "Humorous comment about midnight coding, no relevance to resets or limits.",
+        "Discussion about account suspension at Anthropic, not about quota resets.",
+        "Vague title with no context, no relevance to resets."
       ]
     },
     "prior_applied": false,
@@ -54,7 +54,7 @@
   },
   "main_factors": [
     {
-      "factor": "40.5 hours since last reset",
+      "factor": "41.2 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
@@ -66,12 +66,12 @@
     {
       "factor": "Some reset discussion detected",
       "impact": "+2%",
-      "score": 0.13
+      "score": 0.12
     },
     {
       "factor": "High community limit complaints",
-      "impact": "+9%",
-      "score": 0.65
+      "impact": "+10%",
+      "score": 0.7
     },
     {
       "factor": "Official release/change signal",
@@ -80,10 +80,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (40.5 hours ago), low time pressure (0.00)",
+    "Recently reset (41.2 hours ago), low time pressure (0.00)",
     "Weak reset evidence detected (evidence_score=0.10), insufficient to confirm",
     "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.81), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 40.5 hours since last reset (-5%)"
+    "Main factor: 41.2 hours since last reset (-5%)"
   ]
 }
