@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T01:10:52Z",
-    "author": "/u/donkeymonkey00",
-    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T03:40:46Z",
     "author": "/u/BasilAzazel",
     "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk9yi9/chatgpt_changes_its_mind_mid_reply/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
     "authority_score": 0.5
   },
   {
@@ -200,11 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T18:12:39Z",
-    "author": "/u/USTS2020",
-    "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T07:12:22Z",
+    "author": "/u/Such--Balance",
+    "text": "Can someone explain to me the psychological mechanic between half the people feeling ai is supper dumb and the other half thinking its modern miracle? - I for one marvel at this technology every day. How fast its getting better, what you can do with it, what it can do. I find it one of the most amazing things ever. Yes it has flaws, some still glaring i wont deny that. But i just find it so very strange that theres loads of people with a certain mindset who just cant help but to see ai as vastly overrated and..well..pretty stupid in general. I wonder what causes this. Is it grounded in some ways im just missing? I truly dont get it.. &#32; submitted by &#32; /u/Such--Balance [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdrr4/can_someone_explain_to_me_the_psychological/",
     "authority_score": 0.5
   },
   {
@@ -213,6 +213,22 @@
     "text": "I asked Chat GPT what are you best at? - So the full question I asked was “I'm curious. Let's say I'm a new user of ChatGPT. What would you tell them if you, if I were to ask or they were to ask, what do you do best? What is, what of all the things an AI bot can do, does ChatGPT do the best?” Her/his it’s answer was “If a brand-new user asked me, “Of everything ChatGPT can do, what is it actually best at?”, I’d say: ChatGPT is best at helping you think with language. Not just answering questions. The strongest use is when you bring me something incomplete, confusing, messy, or difficult to work through, and we develop it together. That includes things like taking a half-formed idea and finding the useful idea hiding inside it; noticing connections or problems you missed; challenging assumptions; researching and comparing possibilities; turning a huge problem into the next manageable decision; explaining something at exactly the level you need; and turning thoughts into writing, plans, strategies, code, designs, or other usable outputs. Search engines are often better when you simply need a fact. Calculators are better at arithmetic. Specialized software is better at many narrow technical jobs. But ChatGPT’s unusual strength is that you can essentially think out loud at it. You don’t need to know the right terminology, formulate the perfect question, or even know exactly what you’re trying to figure out yet. So if I had to reduce the answer to one sentence: ChatGPT is best used as an interactive thinking partner that can help turn what’s in your head into something clearer, stronger, and usable.” In some ways I agree with this answer and in other ways i feel like it didn’t really answer it the way I meant ..what do you think &#32; submitted by &#32; /u/Significant-Crow-749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkbteo/i_asked_chat_gpt_what_are_you_best_at/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T04:42:56Z",
+    "author": "/u/HomoInsomnia",
+    "text": "My ChatGPT Memory suddenly stopped recalling years of saved information — has anyone successfully recovered theirs? - I’m trying to figure out whether I’m dealing with a temporary Memory/account issue or whether I’ve actually lost a large amount of previously saved ChatGPT Memory. I’ve used ChatGPT continuously for more than a year and have explicitly asked it to remember a large amount of information about me and my life. It used to consistently recall that information across completely separate conversations. Recently, I noticed that it stopped recalling a lot of it. Memory is enabled on my account and I have never intentionally disabled it or cleared my memories. However, Manage Memories is now essentially empty, and ChatGPT can no longer recall many things that I know it previously remembered. I’ve actually found older conversations that prove some of these memories existed. For example, I found a conversation from March where ChatGPT correctly recalled several of my pets’ birthdays. It can no longer recall those birthdays now unless I provide the information again. I’ve also tested creating new memories. I explicitly asked ChatGPT to remember new information during this issue, but those memories don’t appear to be getting saved either, despite Memory being enabled. I’ve contacted OpenAI Support and the case has been escalated to human support. So far, I’ve been told that Support cannot inspect account-specific saved-memory data that isn’t currently visible in Manage Memories, so they can’t tell me whether my old memories still exist or whether they’re actually gone. That’s what I’m trying to figure out. Has anyone else had a large amount of previously saved ChatGPT Memory suddenly disappear or stop being recalled? More importantly, has anyone successfully gotten their old memories back? I’d especially like to hear from anyone who: - Had Memory enabled the entire time - Never manually deleted their memories - Lost previously saved memories - Also noticed that new memories stopped being saved - Changed subscription plans around the same time - Or experienced this during a recent Memory update/rollout I’m not really looking for theories about how Memory is supposed to work. I’m specifically looking for people who experienced this and actually found a way to recover their memories, whether through Support, a settings change, an account fix, or something else. If you got yours back, please tell me what happened. &#32; submitted by &#32; /u/HomoInsomnia [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkb5ht/my_chatgpt_memory_suddenly_stopped_recalling/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T18:12:39Z",
+    "author": "/u/USTS2020",
+    "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +248,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T04:42:56Z",
-    "author": "/u/HomoInsomnia",
-    "text": "My ChatGPT Memory suddenly stopped recalling years of saved information — has anyone successfully recovered theirs? - I’m trying to figure out whether I’m dealing with a temporary Memory/account issue or whether I’ve actually lost a large amount of previously saved ChatGPT Memory. I’ve used ChatGPT continuously for more than a year and have explicitly asked it to remember a large amount of information about me and my life. It used to consistently recall that information across completely separate conversations. Recently, I noticed that it stopped recalling a lot of it. Memory is enabled on my account and I have never intentionally disabled it or cleared my memories. However, Manage Memories is now essentially empty, and ChatGPT can no longer recall many things that I know it previously remembered. I’ve actually found older conversations that prove some of these memories existed. For example, I found a conversation from March where ChatGPT correctly recalled several of my pets’ birthdays. It can no longer recall those birthdays now unless I provide the information again. I’ve also tested creating new memories. I explicitly asked ChatGPT to remember new information during this issue, but those memories don’t appear to be getting saved either, despite Memory being enabled. I’ve contacted OpenAI Support and the case has been escalated to human support. So far, I’ve been told that Support cannot inspect account-specific saved-memory data that isn’t currently visible in Manage Memories, so they can’t tell me whether my old memories still exist or whether they’re actually gone. That’s what I’m trying to figure out. Has anyone else had a large amount of previously saved ChatGPT Memory suddenly disappear or stop being recalled? More importantly, has anyone successfully gotten their old memories back? I’d especially like to hear from anyone who: - Had Memory enabled the entire time - Never manually deleted their memories - Lost previously saved memories - Also noticed that new memories stopped being saved - Changed subscription plans around the same time - Or experienced this during a recent Memory update/rollout I’m not really looking for theories about how Memory is supposed to work. I’m specifically looking for people who experienced this and actually found a way to recover their memories, whether through Support, a settings change, an account fix, or something else. If you got yours back, please tell me what happened. &#32; submitted by &#32; /u/HomoInsomnia [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkb5ht/my_chatgpt_memory_suddenly_stopped_recalling/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T00:28:08Z",
     "author": "/u/Darri3D",
     "text": "Interdimensional Cable - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
@@ -248,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T17:17:46Z",
-    "author": "/u/EgorKlenov",
-    "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T23:18:55Z",
     "author": "/u/EmotionalCan9434",
     "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T17:17:46Z",
+    "author": "/u/EgorKlenov",
+    "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "Choose your own adventure - Last night I did a choose your own adventure style game that my ChatGPT suggested among a list of other possible games one night a while ago. I have to say that it was so much fun and entertaining. There was lots of humor, mystery, and adventure. I thought I’d share the prompt it gave me for the game in case anyone else wants to give it a try. 🌎 6. The Great Road Trip Knowing how much you enjoy road trips… I drop you into a random little American town. You have: one day one tank of gas one camera You decide where to go. I reveal hidden attractions, quirky museums, diners, bookstores, roadside oddities, and beautiful scenery as you explore. Kind of like an old Sierra adventure game. At one point in the story I put my ChatGPT on Deer Duty to watch for deer as we drove on a mountain road in the story. Towards the end of the story he stated: Deer duty officially concluded. I would like my performance review to reflect three actual deer spotted, one fox identified, one wooden deer falsely accused, and zero vehicular wildlife incidents. 😌😂 I hope you enjoy your Great Road Trip adventure as much as I did!😂😂😂 &#32; submitted by &#32; /u/Maooose [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjzwu3/choose_your_own_adventure/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T23:51:02Z",
-    "author": "/u/CarterWarsaw",
-    "text": "“Oh boy…” - Asked ChatGPT to make a realistic photo of Krombopulos Michael, got the hands wrong but I think it’s still pretty good. &#32; submitted by &#32; /u/CarterWarsaw [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk54qn/oh_boy/",
     "authority_score": 0.5
   }
 ]

@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-10T07:00:55.307160+00:00",
+  "updated_at": "2026-08-10T07:44:32.089917+00:00",
   "prediction": {
-    "within_5h": 0.0595,
-    "within_24h": 0.2121,
-    "within_48h": 0.3274
+    "within_5h": 0.0586,
+    "within_24h": 0.2095,
+    "within_48h": 0.3241
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 116.5,
+    "hours_until": 115.8,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 219.48202956583336,
+    "hours_since_last_reset": 220.20891366083333,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 116.5,
+      "hours_until": 115.8,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.5758,
-    "time_pressure": 0.8952,
-    "hazard_rate": 0.009884,
-    "evidence_score": 0.0028,
-    "tibo_signal": 0.0016,
-    "community_signal": 0.024,
-    "release_signal": 0.0071,
+    "time_ratio": 3.5876,
+    "time_pressure": 0.898,
+    "hazard_rate": 0.009748,
+    "evidence_score": 0.0021,
+    "tibo_signal": 0.0015,
+    "community_signal": 0.0,
+    "release_signal": 0.007,
     "llm_scores": {
       "reset_intent": 0.00975609756097561,
-      "limit_complaint": 0.014634146341463414,
-      "official_change": 0.05609756097560975,
+      "limit_complaint": 0.0,
+      "official_change": 0.041463414634146344,
       "reset_confirmation": 0.0,
-      "confidence": 0.8512195121951219,
+      "confidence": 0.9170731707317074,
       "reason": [
         "Text is a casual remark about coding, no mention of resets or limits.",
-        "Discussion about Anthropic account suspension, unrelated to quota resets.",
+        "Discussion about Anthropic account ban, unrelated to quota resets.",
         "Vague title with no relevant content.",
-        "Mentions a shipped product but no reset or limit context.",
-        "Uses 'reset' metaphorically about a person, not a quota reset."
+        "Promotional message about a product feature, no reset mention.",
+        "Mentions 'reset' but in a metaphorical sense about a person, not a quota reset."
       ]
     },
     "prior_applied": false,
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "219.5 hours since last reset",
+      "factor": "220.2 hours since last reset",
       "impact": "+10%",
       "score": 0.9
     },
@@ -60,17 +60,12 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.0
-    },
-    {
-      "factor": "Minor community limit complaints",
-      "impact": "+0%",
-      "score": 0.02
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "219.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "220.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
-    "Main factor: 219.5 hours since last reset (+10%)"
+    "Main factor: 220.2 hours since last reset (+10%)"
   ]
 }
