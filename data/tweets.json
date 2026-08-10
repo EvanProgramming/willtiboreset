@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T22:11:47Z",
-    "author": "/u/PsychologicalBox5208",
-    "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T12:04:59Z",
     "author": "/u/terenscendent",
     "text": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay - &#32; submitted by &#32; /u/terenscendent [link] &#32; [comments]",
@@ -165,6 +157,14 @@
     "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T22:11:47Z",
+    "author": "/u/PsychologicalBox5208",
+    "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
     "authority_score": 0.5
   },
   {
@@ -200,19 +200,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T12:36:05Z",
-    "author": "/u/leonleungjeehei",
-    "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T09:22:35Z",
     "author": "/u/_Coord",
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T12:36:05Z",
+    "author": "/u/leonleungjeehei",
+    "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
     "authority_score": 0.5
   },
   {
@@ -256,6 +256,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T13:22:53Z",
+    "author": "/u/PigeonWithAgenda",
+    "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T04:42:56Z",
     "author": "/u/HomoInsomnia",
     "text": "My ChatGPT Memory suddenly stopped recalling years of saved information — has anyone successfully recovered theirs? - I’m trying to figure out whether I’m dealing with a temporary Memory/account issue or whether I’ve actually lost a large amount of previously saved ChatGPT Memory. I’ve used ChatGPT continuously for more than a year and have explicitly asked it to remember a large amount of information about me and my life. It used to consistently recall that information across completely separate conversations. Recently, I noticed that it stopped recalling a lot of it. Memory is enabled on my account and I have never intentionally disabled it or cleared my memories. However, Manage Memories is now essentially empty, and ChatGPT can no longer recall many things that I know it previously remembered. I’ve actually found older conversations that prove some of these memories existed. For example, I found a conversation from March where ChatGPT correctly recalled several of my pets’ birthdays. It can no longer recall those birthdays now unless I provide the information again. I’ve also tested creating new memories. I explicitly asked ChatGPT to remember new information during this issue, but those memories don’t appear to be getting saved either, despite Memory being enabled. I’ve contacted OpenAI Support and the case has been escalated to human support. So far, I’ve been told that Support cannot inspect account-specific saved-memory data that isn’t currently visible in Manage Memories, so they can’t tell me whether my old memories still exist or whether they’re actually gone. That’s what I’m trying to figure out. Has anyone else had a large amount of previously saved ChatGPT Memory suddenly disappear or stop being recalled? More importantly, has anyone successfully gotten their old memories back? I’d especially like to hear from anyone who: - Had Memory enabled the entire time - Never manually deleted their memories - Lost previously saved memories - Also noticed that new memories stopped being saved - Changed subscription plans around the same time - Or experienced this during a recent Memory update/rollout I’m not really looking for theories about how Memory is supposed to work. I’m specifically looking for people who experienced this and actually found a way to recover their memories, whether through Support, a settings change, an account fix, or something else. If you got yours back, please tell me what happened. &#32; submitted by &#32; /u/HomoInsomnia [link] &#32; [comments]",
@@ -264,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T12:13:58Z",
-    "author": "/u/No-Purchase-2980",
-    "text": "Why doesnt ChatGPT have a select to delete? - As an example, Claude's &#32; submitted by &#32; /u/No-Purchase-2980 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkj4rl/why_doesnt_chatgpt_have_a_select_to_delete/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T18:12:39Z",
     "author": "/u/USTS2020",
     "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T13:30:57Z",
+    "author": "/u/Ethan_techie",
+    "text": "oai is great - as a plus user,the 5.6L Luna is extremely durable,it offers even better value for money than the DSV4 Flash—not to mention that GPT is a multimodal model. &#32; submitted by &#32; /u/Ethan_techie [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkxv2/oai_is_great/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "Planninging?? - &#32; submitted by &#32; /u/shoshingrid [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk7yw9/planninging/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T00:28:08Z",
-    "author": "/u/Darri3D",
-    "text": "Interdimensional Cable - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjbj46/interdimensional_cable/",
     "authority_score": 0.5
   }
 ]
