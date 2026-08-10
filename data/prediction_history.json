@@ -13596,8 +13596,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-10T12:40:58.301963Z"
   },
   {
     "prediction_time": "2026-08-08T13:00:53.251883Z",
@@ -18609,6 +18609,57 @@
           "Text is a simple reference to characters, no relevance to resets or limits.",
           "Text promotes a product feature but does not mention resets or limits.",
           "Text uses 'reset' metaphorically about a person, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T12:40:58.277882Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 33.1828527225,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 134.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.5014,
+      "time_pressure": 0.0021,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.0022,
+      "tibo_signal": 0.0283,
+      "community_signal": 0.1126,
+      "release_signal": 0.2299,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.00975609756097561,
+        "official_change": 0.05365853658536586,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague title with no relevant content about resets or limits.",
+          "Promotional message about a shipped product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
         ]
       },
       "prior_applied": false,

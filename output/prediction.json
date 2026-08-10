@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T12:00:51.067679+00:00",
+  "updated_at": "2026-08-10T12:40:58.270863+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 135.5,
+    "hours_until": 134.8,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 32.51418517305556,
+    "hours_since_last_reset": 33.1828527225,
     "next_reset": {
       "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 135.5,
+      "hours_until": 134.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.4913,
-    "time_pressure": 0.002,
+    "time_ratio": 0.5014,
+    "time_pressure": 0.0021,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0023,
+    "evidence_score": 0.0022,
     "tibo_signal": 0.0283,
-    "community_signal": 0.0,
-    "release_signal": 0.2282,
+    "community_signal": 0.1126,
+    "release_signal": 0.2299,
     "llm_scores": {
       "reset_intent": 0.00975609756097561,
-      "limit_complaint": 0.0,
-      "official_change": 0.03902439024390244,
+      "limit_complaint": 0.00975609756097561,
+      "official_change": 0.05365853658536586,
       "reset_confirmation": 0.0,
-      "confidence": 0.8780487804878049,
+      "confidence": 0.8707317073170733,
       "reason": [
-        "Text is a humorous observation about coding, no mention of resets or limits.",
-        "Text discusses an account suspension issue with Anthropic, unrelated to quota resets.",
-        "Text is a simple reference to characters, no relevance to resets or limits.",
-        "Text promotes a product feature but does not mention resets or limits.",
-        "Text uses 'reset' metaphorically about a person, not about usage limits."
+        "Text is a casual observation about coding, no mention of resets or limits.",
+        "Discussion about Anthropic account suspension, unrelated to quota resets.",
+        "Vague title with no relevant content about resets or limits.",
+        "Promotional message about a shipped product, no reset or limit mention.",
+        "Mentions 'reset' metaphorically about a person, not a quota reset."
       ]
     },
     "prior_applied": false,
@@ -54,7 +54,7 @@
   },
   "main_factors": [
     {
-      "factor": "32.5 hours since last reset",
+      "factor": "33.2 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
@@ -67,13 +67,18 @@
       "factor": "Some reset discussion detected",
       "impact": "+0%",
       "score": 0.03
+    },
+    {
+      "factor": "Minor community limit complaints",
+      "impact": "+0%",
+      "score": 0.11
     }
   ],
   "reasons": [
-    "Recently reset (32.5 hours ago), low time pressure (0.00)",
+    "Recently reset (33.2 hours ago), low time pressure (0.00)",
     "Weak reset evidence detected (evidence_score=0.00), insufficient to confirm",
     "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.81), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 32.5 hours since last reset (-5%)"
+    "Main factor: 33.2 hours since last reset (-5%)"
   ]
 }
