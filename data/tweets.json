@@ -126,5 +126,205 @@
     "source": "tibo_rss",
     "url": "https://x.com/thsottiaux/status/2083556636455752050",
     "authority_score": 1.0
+  },
+  {
+    "timestamp": "2026-07-07T00:32:27Z",
+    "author": "/u/WithoutReason1729",
+    "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-04-21T19:06:25Z",
+    "author": "/u/OpenAI",
+    "text": "Made with ChatGPT Images 2.0 - A new era of image generation. Video made with ChatGPT Images. https://chatgpt.com/images/ &#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1srxfnl/made_with_chatgpt_images_20/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T22:11:47Z",
+    "author": "/u/PsychologicalBox5208",
+    "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T12:36:05Z",
+    "author": "/u/leonleungjeehei",
+    "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T18:35:41Z",
+    "author": "/u/Jjv41k",
+    "text": "A picture is worth ~1,000 ~words according to Google AI Studio - &#32; submitted by &#32; /u/Jjv41k [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjxj0h/a_picture_is_worth_1000_words_according_to_google/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T07:12:22Z",
+    "author": "/u/Such--Balance",
+    "text": "Can someone explain to me the psychological mechanic between half the people feeling ai is supper dumb and the other half thinking its modern miracle? - I for one marvel at this technology every day. How fast its getting better, what you can do with it, what it can do. I find it one of the most amazing things ever. Yes it has flaws, some still glaring i wont deny that. But i just find it so very strange that theres loads of people with a certain mindset who just cant help but to see ai as vastly overrated and..well..pretty stupid in general. I wonder what causes this. Is it grounded in some ways im just missing? I truly dont get it.. &#32; submitted by &#32; /u/Such--Balance [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdrr4/can_someone_explain_to_me_the_psychological/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T14:59:57Z",
+    "author": "/u/imfrom_mars_",
+    "text": "Life these days - &#32; submitted by &#32; /u/imfrom_mars_ [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjs1v3/life_these_days/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T03:40:46Z",
+    "author": "/u/BasilAzazel",
+    "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk9yi9/chatgpt_changes_its_mind_mid_reply/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T19:34:50Z",
+    "author": "/u/calex_1",
+    "text": "Well, my little ChatGPT is not only swearing like a trooper, but can now tell the time. They grow up so fast. 😆 - &#32; submitted by &#32; /u/calex_1 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjz1k6/well_my_little_chatgpt_is_not_only_swearing_like/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T05:19:13Z",
+    "author": "/u/Significant-Crow-749",
+    "text": "I asked Chat GPT what are you best at? - So the full question I asked was “I'm curious. Let's say I'm a new user of ChatGPT. What would you tell them if you, if I were to ask or they were to ask, what do you do best? What is, what of all the things an AI bot can do, does ChatGPT do the best?” Her/his it’s answer was “If a brand-new user asked me, “Of everything ChatGPT can do, what is it actually best at?”, I’d say: ChatGPT is best at helping you think with language. Not just answering questions. The strongest use is when you bring me something incomplete, confusing, messy, or difficult to work through, and we develop it together. That includes things like taking a half-formed idea and finding the useful idea hiding inside it; noticing connections or problems you missed; challenging assumptions; researching and comparing possibilities; turning a huge problem into the next manageable decision; explaining something at exactly the level you need; and turning thoughts into writing, plans, strategies, code, designs, or other usable outputs. Search engines are often better when you simply need a fact. Calculators are better at arithmetic. Specialized software is better at many narrow technical jobs. But ChatGPT’s unusual strength is that you can essentially think out loud at it. You don’t need to know the right terminology, formulate the perfect question, or even know exactly what you’re trying to figure out yet. So if I had to reduce the answer to one sentence: ChatGPT is best used as an interactive thinking partner that can help turn what’s in your head into something clearer, stronger, and usable.” In some ways I agree with this answer and in other ways i feel like it didn’t really answer it the way I meant ..what do you think &#32; submitted by &#32; /u/Significant-Crow-749 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkbteo/i_asked_chat_gpt_what_are_you_best_at/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T09:22:35Z",
+    "author": "/u/_Coord",
+    "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T04:42:56Z",
+    "author": "/u/HomoInsomnia",
+    "text": "My ChatGPT Memory suddenly stopped recalling years of saved information — has anyone successfully recovered theirs? - I’m trying to figure out whether I’m dealing with a temporary Memory/account issue or whether I’ve actually lost a large amount of previously saved ChatGPT Memory. I’ve used ChatGPT continuously for more than a year and have explicitly asked it to remember a large amount of information about me and my life. It used to consistently recall that information across completely separate conversations. Recently, I noticed that it stopped recalling a lot of it. Memory is enabled on my account and I have never intentionally disabled it or cleared my memories. However, Manage Memories is now essentially empty, and ChatGPT can no longer recall many things that I know it previously remembered. I’ve actually found older conversations that prove some of these memories existed. For example, I found a conversation from March where ChatGPT correctly recalled several of my pets’ birthdays. It can no longer recall those birthdays now unless I provide the information again. I’ve also tested creating new memories. I explicitly asked ChatGPT to remember new information during this issue, but those memories don’t appear to be getting saved either, despite Memory being enabled. I’ve contacted OpenAI Support and the case has been escalated to human support. So far, I’ve been told that Support cannot inspect account-specific saved-memory data that isn’t currently visible in Manage Memories, so they can’t tell me whether my old memories still exist or whether they’re actually gone. That’s what I’m trying to figure out. Has anyone else had a large amount of previously saved ChatGPT Memory suddenly disappear or stop being recalled? More importantly, has anyone successfully gotten their old memories back? I’d especially like to hear from anyone who: - Had Memory enabled the entire time - Never manually deleted their memories - Lost previously saved memories - Also noticed that new memories stopped being saved - Changed subscription plans around the same time - Or experienced this during a recent Memory update/rollout I’m not really looking for theories about how Memory is supposed to work. I’m specifically looking for people who experienced this and actually found a way to recover their memories, whether through Support, a settings change, an account fix, or something else. If you got yours back, please tell me what happened. &#32; submitted by &#32; /u/HomoInsomnia [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkb5ht/my_chatgpt_memory_suddenly_stopped_recalling/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T18:12:39Z",
+    "author": "/u/USTS2020",
+    "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T07:00:43Z",
+    "author": "/u/KeanuRave100",
+    "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T09:36:42Z",
+    "author": "/u/PsychologicalSoup251",
+    "text": "HRT Conjecture Disproven with GPT 5.6 Pro - The conjecture HRT says that finitely many distinct copies of the same function, each moved left/right and multiplied by a complex oscillation, are always linearly independent. How significant is it? HRT was a central open problem for 30 years in time-frequency/harmonic analysis. P.S. I deliberately wrote &quot;with&quot; instead of &quot;by&quot; because the AI was being actively steered by mathematicians rather than simply &quot;here's the conjecture, go disprove it&quot;. The counterexample itself was ultimately constructed by the AI though. &#32; submitted by &#32; /u/PsychologicalSoup251 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjljoj/hrt_conjecture_disproven_with_gpt_56_pro/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T21:44:53Z",
+    "author": "/u/ThisMayBeMike",
+    "text": "In a world where Digimon dominated - 1996 – It begins Bandai releases Digimon Red &amp; Blue for Game Boy. The mix of RPG battles and virtual-pet mechanics becomes an instant hit, with Agumon emerging as the face of a new global phenomenon. 1997 – Digimon hits TV Digimon Adventure becomes a ratings phenomenon, while phrases like “Digivolve” and “Digital World” enter everyday playground slang. 1998 – Digimon hits theaters Digimon: The Movie becomes a global box-office hit, proving the franchise has grown far beyond games and TV. 1998 – The card craze begins The Digimon Trading Card Game becomes an instant obsession, with booster packs selling out and rare cards quickly becoming status symbols. 1999–2000 – The second generation Digimon Adventure 02 launches as the next major game generation and goes on to sell more than 23 million copies worldwide. 2005 – The Digimon Store era begins The first official Digimon Stores open, turning launches into huge fan events packed with cosplay, queues and exclusive merchandise. 2012 – 750 Digimon The DigiDex reaches 750 species, with new reveals now treated as major online events. 2016 – Digimon GO takes over Digimon GO sends millions into the streets and becomes a worldwide AR phenomenon almost overnight. Digimon Go lets players discover Digital Gates in real-world locations, collect Digi-Data, care for a partner Digimon, and gather at Server Hubs for large co-op battles and DNA Digivolution events. 2020 – Twitch Plays Digimon Hundreds of thousands try to beat the original Digimon World through chat commands. Constant neglect leaves them stuck with Numemon, turning “The Holy Poop” into a massive internet meme. 2026 – A new sales record Digimon Cyber World: Scarlet &amp; Violet sells 14 million copies in just three days across PS5, Xbox Series X and Steam, becoming the biggest launch in franchise history. 2026 – Digimon cards become serious investments A PSA 10 1st Edition Holographic WarGreymon from 1999 sells for $5.2 million to an anonymous buyer. The Future – The Digital World After 30 years of visiting the Digital World through games and screens, the next step is a persistent online world where players can explore, battle, socialize and live alongside their partner Digimon. &#32; submitted by &#32; /u/ThisMayBeMike [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk28eh/in_a_world_where_digimon_dominated/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T00:28:08Z",
+    "author": "/u/Darri3D",
+    "text": "Interdimensional Cable - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjbj46/interdimensional_cable/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T05:43:35Z",
+    "author": "/u/Red-Pony",
+    "text": "Hallucinations, it feels like ChatGPT is prioritising text prompts over images? - The task is to identify the cleaning instructions from this tab of a washable suede shirt. When I say “what does this washing instructions say”, it correctly identifies them. Machine wash, do not dry clean, do not bleach, tumble dry low, iron on low. Normal stuff. But when my prompt is “this is a suede shirt, what does this washing instructions say”, the “suede shirt”in the prompt causes massive hallucination. It now “sees” typical suede instructions: do not wash, do not tumble, do not iron. It even claims the text says “Specialist leather clean only”. Just thought it’s interesting enough to share that knowing this is suede is enough to completely overwrite what the image says. And as a side note Gemini got it right. &#32; submitted by &#32; /u/Red-Pony [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkc8ry/hallucinations_it_feels_like_chatgpt_is/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T23:18:55Z",
+    "author": "/u/EmotionalCan9434",
+    "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T17:17:46Z",
+    "author": "/u/EgorKlenov",
+    "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T07:36:27Z",
+    "author": "/u/Alarmed_Shine1749",
+    "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjjkit/chatgpt_finally_allows_markdown_formatting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T22:55:49Z",
+    "author": "/u/Latter-Flatworm3789",
+    "text": "I asked to gen how psychotic hallucination looks like - &#32; submitted by &#32; /u/Latter-Flatworm3789 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk3wiz/i_asked_to_gen_how_psychotic_hallucination_looks/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T02:03:03Z",
+    "author": "/u/shoshingrid",
+    "text": "Planninging?? - &#32; submitted by &#32; /u/shoshingrid [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk7yw9/planninging/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T02:36:29Z",
+    "author": "/u/Perfect_Meal_7037",
+    "text": "Let’s all create mythical creatures based on our dogs lol. Let’s make a “Beastiary” “Grimoire” - Share yours! &#32; submitted by &#32; /u/Perfect_Meal_7037 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk8nqw/lets_all_create_mythical_creatures_based_on_our/",
+    "authority_score": 0.5
   }
 ]
