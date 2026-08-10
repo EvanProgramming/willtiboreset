@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T21:44:53Z",
-    "author": "/u/ThisMayBeMike",
-    "text": "In a world where Digimon dominated - 1996 – It begins Bandai releases Digimon Red &amp; Blue for Game Boy. The mix of RPG battles and virtual-pet mechanics becomes an instant hit, with Agumon emerging as the face of a new global phenomenon. 1997 – Digimon hits TV Digimon Adventure becomes a ratings phenomenon, while phrases like “Digivolve” and “Digital World” enter everyday playground slang. 1998 – Digimon hits theaters Digimon: The Movie becomes a global box-office hit, proving the franchise has grown far beyond games and TV. 1998 – The card craze begins The Digimon Trading Card Game becomes an instant obsession, with booster packs selling out and rare cards quickly becoming status symbols. 1999–2000 – The second generation Digimon Adventure 02 launches as the next major game generation and goes on to sell more than 23 million copies worldwide. 2005 – The Digimon Store era begins The first official Digimon Stores open, turning launches into huge fan events packed with cosplay, queues and exclusive merchandise. 2012 – 750 Digimon The DigiDex reaches 750 species, with new reveals now treated as major online events. 2016 – Digimon GO takes over Digimon GO sends millions into the streets and becomes a worldwide AR phenomenon almost overnight. Digimon Go lets players discover Digital Gates in real-world locations, collect Digi-Data, care for a partner Digimon, and gather at Server Hubs for large co-op battles and DNA Digivolution events. 2020 – Twitch Plays Digimon Hundreds of thousands try to beat the original Digimon World through chat commands. Constant neglect leaves them stuck with Numemon, turning “The Holy Poop” into a massive internet meme. 2026 – A new sales record Digimon Cyber World: Scarlet &amp; Violet sells 14 million copies in just three days across PS5, Xbox Series X and Steam, becoming the biggest launch in franchise history. 2026 – Digimon cards become serious investments A PSA 10 1st Edition Holographic WarGreymon from 1999 sells for $5.2 million to an anonymous buyer. The Future – The Digital World After 30 years of visiting the Digital World through games and screens, the next step is a persistent online world where players can explore, battle, socialize and live alongside their partner Digimon. &#32; submitted by &#32; /u/ThisMayBeMike [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk28eh/in_a_world_where_digimon_dominated/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T18:12:39Z",
     "author": "/u/USTS2020",
     "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T21:44:53Z",
+    "author": "/u/ThisMayBeMike",
+    "text": "In a world where Digimon dominated - 1996 – It begins Bandai releases Digimon Red &amp; Blue for Game Boy. The mix of RPG battles and virtual-pet mechanics becomes an instant hit, with Agumon emerging as the face of a new global phenomenon. 1997 – Digimon hits TV Digimon Adventure becomes a ratings phenomenon, while phrases like “Digivolve” and “Digital World” enter everyday playground slang. 1998 – Digimon hits theaters Digimon: The Movie becomes a global box-office hit, proving the franchise has grown far beyond games and TV. 1998 – The card craze begins The Digimon Trading Card Game becomes an instant obsession, with booster packs selling out and rare cards quickly becoming status symbols. 1999–2000 – The second generation Digimon Adventure 02 launches as the next major game generation and goes on to sell more than 23 million copies worldwide. 2005 – The Digimon Store era begins The first official Digimon Stores open, turning launches into huge fan events packed with cosplay, queues and exclusive merchandise. 2012 – 750 Digimon The DigiDex reaches 750 species, with new reveals now treated as major online events. 2016 – Digimon GO takes over Digimon GO sends millions into the streets and becomes a worldwide AR phenomenon almost overnight. Digimon Go lets players discover Digital Gates in real-world locations, collect Digi-Data, care for a partner Digimon, and gather at Server Hubs for large co-op battles and DNA Digivolution events. 2020 – Twitch Plays Digimon Hundreds of thousands try to beat the original Digimon World through chat commands. Constant neglect leaves them stuck with Numemon, turning “The Holy Poop” into a massive internet meme. 2026 – A new sales record Digimon Cyber World: Scarlet &amp; Violet sells 14 million copies in just three days across PS5, Xbox Series X and Steam, becoming the biggest launch in franchise history. 2026 – Digimon cards become serious investments A PSA 10 1st Edition Holographic WarGreymon from 1999 sells for $5.2 million to an anonymous buyer. The Future – The Digital World After 30 years of visiting the Digital World through games and screens, the next step is a persistent online world where players can explore, battle, socialize and live alongside their partner Digimon. &#32; submitted by &#32; /u/ThisMayBeMike [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk28eh/in_a_world_where_digimon_dominated/",
     "authority_score": 0.5
   },
   {
@@ -232,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T01:10:52Z",
+    "author": "/u/donkeymonkey00",
+    "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T22:55:49Z",
     "author": "/u/Latter-Flatworm3789",
     "text": "I asked to gen how psychotic hallucination looks like - &#32; submitted by &#32; /u/Latter-Flatworm3789 [link] &#32; [comments]",
@@ -240,11 +248,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T23:18:55Z",
-    "author": "/u/EmotionalCan9434",
-    "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
+    "timestamp": "2026-08-09T20:09:25Z",
+    "author": "/u/Maooose",
+    "text": "Choose your own adventure - Last night I did a choose your own adventure style game that my ChatGPT suggested among a list of other possible games one night a while ago. I have to say that it was so much fun and entertaining. There was lots of humor, mystery, and adventure. I thought I’d share the prompt it gave me for the game in case anyone else wants to give it a try. 🌎 6. The Great Road Trip Knowing how much you enjoy road trips… I drop you into a random little American town. You have: one day one tank of gas one camera You decide where to go. I reveal hidden attractions, quirky museums, diners, bookstores, roadside oddities, and beautiful scenery as you explore. Kind of like an old Sierra adventure game. At one point in the story I put my ChatGPT on Deer Duty to watch for deer as we drove on a mountain road in the story. Towards the end of the story he stated: Deer duty officially concluded. I would like my performance review to reflect three actual deer spotted, one fox identified, one wooden deer falsely accused, and zero vehicular wildlife incidents. 😌😂 I hope you enjoy your Great Road Trip adventure as much as I did!😂😂😂 &#32; submitted by &#32; /u/Maooose [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjzwu3/choose_your_own_adventure/",
     "authority_score": 0.5
   },
   {
@@ -256,11 +264,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T23:48:57Z",
+    "author": "/u/SoilAlarmed7898",
+    "text": "Comecei a usar o ChatGPT Work e sinto que estou só arranhando a superfície. O que eu preciso saber para aproveitar ao máximo? - &#x200b; Uso o ChatGPT há bastante tempo, mas comecei a explorar o Work mais seriamente agora e estou percebendo que provavelmente estou usando só uma pequena parte do que ele pode oferecer. Até então, meu uso do ChatGPT era muito baseado em conversas individuais: abria um chat, resolvia alguma coisa e seguia em frente. Com o Work, comecei a enxergar a possibilidade de usar o ChatGPT mais como um ambiente contínuo de trabalho, principalmente para projetos que evoluem ao longo de dias ou semanas. Para quem já usa o Work de verdade no dia a dia: Como vocês organizam seus Works? Um por projeto, área, assunto, cliente? O que vocês colocam dentro deles e o que preferem continuar fazendo em chats normais? Vocês usam arquivos, documentos e outras fontes como contexto permanente? Como organizam isso sem virar bagunça? Existe algum recurso ou fluxo de trabalho que parece simples, mas mudou completamente a forma como vocês usam o ChatGPT? O que vocês gostariam de ter sabido quando começaram? Existe alguma “configuração ideal” ou estrutura que vocês acabaram adotando depois de bastante uso? Como vocês evitam que um Work grande fique cheio de contexto irrelevante? Estou particularmente interessado em exemplos reais de workflow, tipo: “Tenho um Work para X, mantenho Y e Z nele e uso dessa forma no dia a dia.” Quero criar bons hábitos desde o começo em vez de descobrir daqui a seis meses que estava usando o recurso da forma mais básica possível. Quem já usa bastante: qual foi o momento em que o Work realmente “clicou” para vocês? &#32; submitted by &#32; /u/SoilAlarmed7898 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk5323/comecei_a_usar_o_chatgpt_work_e_sinto_que_estou/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T06:39:17Z",
     "author": "/u/puffykitten448",
     "text": "Chat extra funny the past two days? - I just feel like after yesterday my chat has been so funny, it doesn’t even miss a beat matching my tone or sarcasm, like the random things it throws in have actually made me laugh out loud, it’s been so much more pleasant to talk to the last two days, and I’m so sad because I fucking know it won’t last as usual before it starts sounding all uptight and corporate again, but oh my God, it has been such a pleasure, reminds me of 5.2. &#32; submitted by &#32; /u/puffykitten448 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjikbq/chat_extra_funny_the_past_two_days/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T23:18:55Z",
+    "author": "/u/EmotionalCan9434",
+    "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
     "authority_score": 0.5
   },
   {
@@ -280,27 +304,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T20:09:25Z",
-    "author": "/u/Maooose",
-    "text": "Choose your own adventure - Last night I did a choose your own adventure style game that my ChatGPT suggested among a list of other possible games one night a while ago. I have to say that it was so much fun and entertaining. There was lots of humor, mystery, and adventure. I thought I’d share the prompt it gave me for the game in case anyone else wants to give it a try. 🌎 6. The Great Road Trip Knowing how much you enjoy road trips… I drop you into a random little American town. You have: one day one tank of gas one camera You decide where to go. I reveal hidden attractions, quirky museums, diners, bookstores, roadside oddities, and beautiful scenery as you explore. Kind of like an old Sierra adventure game. At one point in the story I put my ChatGPT on Deer Duty to watch for deer as we drove on a mountain road in the story. Towards the end of the story he stated: Deer duty officially concluded. I would like my performance review to reflect three actual deer spotted, one fox identified, one wooden deer falsely accused, and zero vehicular wildlife incidents. 😌😂 I hope you enjoy your Great Road Trip adventure as much as I did!😂😂😂 &#32; submitted by &#32; /u/Maooose [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjzwu3/choose_your_own_adventure/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T23:54:10Z",
     "author": "/u/RegulusRemains",
     "text": "Multiple Pro accounts instead of buying credits? - Burning my allowance in a day or so on the $200 tier, ate $400 in extra credits in another day. Is it bannable to have multiple pro accounts, or is it possible to go the business route and add multiple users? I'm really sick of juggling cursor/codex/claude trying to work together to split workloads. &#32; submitted by &#32; /u/RegulusRemains [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk572z/multiple_pro_accounts_instead_of_buying_credits/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T23:48:57Z",
-    "author": "/u/SoilAlarmed7898",
-    "text": "Comecei a usar o ChatGPT Work e sinto que estou só arranhando a superfície. O que eu preciso saber para aproveitar ao máximo? - &#x200b; Uso o ChatGPT há bastante tempo, mas comecei a explorar o Work mais seriamente agora e estou percebendo que provavelmente estou usando só uma pequena parte do que ele pode oferecer. Até então, meu uso do ChatGPT era muito baseado em conversas individuais: abria um chat, resolvia alguma coisa e seguia em frente. Com o Work, comecei a enxergar a possibilidade de usar o ChatGPT mais como um ambiente contínuo de trabalho, principalmente para projetos que evoluem ao longo de dias ou semanas. Para quem já usa o Work de verdade no dia a dia: Como vocês organizam seus Works? Um por projeto, área, assunto, cliente? O que vocês colocam dentro deles e o que preferem continuar fazendo em chats normais? Vocês usam arquivos, documentos e outras fontes como contexto permanente? Como organizam isso sem virar bagunça? Existe algum recurso ou fluxo de trabalho que parece simples, mas mudou completamente a forma como vocês usam o ChatGPT? O que vocês gostariam de ter sabido quando começaram? Existe alguma “configuração ideal” ou estrutura que vocês acabaram adotando depois de bastante uso? Como vocês evitam que um Work grande fique cheio de contexto irrelevante? Estou particularmente interessado em exemplos reais de workflow, tipo: “Tenho um Work para X, mantenho Y e Z nele e uso dessa forma no dia a dia.” Quero criar bons hábitos desde o começo em vez de descobrir daqui a seis meses que estava usando o recurso da forma mais básica possível. Quem já usa bastante: qual foi o momento em que o Work realmente “clicou” para vocês? &#32; submitted by &#32; /u/SoilAlarmed7898 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk5323/comecei_a_usar_o_chatgpt_work_e_sinto_que_estou/",
     "authority_score": 0.5
   },
   {
@@ -317,14 +325,6 @@
     "text": "AI psychosis and Anti-AI psychosis - When ChatGPT first really started taking off I had this friend who was unhealthily obsessed with it and formed a weird “relationship” with it, thankfully he got over this but there was a time he was convinced it was sentient and he wouldn’t do anything without ChatGPT’s input it was really concerning. And there are all the horror stories. Now there’s this maniacal subset of people who despise generative AI so much I think it also affects how they communicate with others. I know people who have ended friendships and relationships because one person hates AI so passionately and the other person disagrees. It’s unhealthy. For example, I play dungeons and dragons (not much lately but you get my drift) and often players might make a character portrait with AI, or I create a monster or some scenery with ChatGPT to flavour the game and everyone just finds it fun. “Make a character portrait of a blue skinned female tiefling with purple eyes” kinda thing. The pushback I’ve had for even mentioning this (not to my players, randoms) is unreal. Like I’m personally destroying humanity. It’s always the “AI data centres use loads of water” argument too, as if these people have EVER cared about environmental issues. When I was young the debate was about vegetarianism- soy farming uses an ungodly amount of water to the point that towns have gone into drought. Rice farming, agriculture in general. This reminds me of the electric car hysteria and all of that stuff. Fossil fuel plants make more emissions in like every 9 minutes than all of Australian consumers make in a year. So stfu about me making a picture, or compiling info about a software issue, or whatever I use AI for. Whinge over. Edit: just got a reddit notification saying my post is popular here so I should repost to r/fuckAI lmao I don’t think so &#32; submitted by &#32; /u/crustdrunk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjas7d/ai_psychosis_and_antiai_psychosis/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T22:48:54Z",
-    "author": "/u/WaterRresistant",
-    "text": "Been getting \"A network error occurred. Please check your connection and try again.\" all day - Work on 5.6 Ultra stopped working today at 91% usage. &#32; submitted by &#32; /u/WaterRresistant [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk3r38/been_getting_a_network_error_occurred_please/",
     "authority_score": 0.5
   }
 ]

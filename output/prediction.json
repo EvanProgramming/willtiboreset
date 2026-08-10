@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-10T01:02:16.620310+00:00",
+  "updated_at": "2026-08-10T01:41:06.035229+00:00",
   "prediction": {
-    "within_5h": 0.0678,
-    "within_24h": 0.2363,
-    "within_48h": 0.3585
+    "within_5h": 0.0626,
+    "within_24h": 0.2211,
+    "within_48h": 0.339
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-15T03:32:00+00:00",
-    "hours_until": 122.5,
+    "hours_until": 121.8,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 41,
-    "hours_since_last_reset": 213.5046165188889,
+    "hours_since_last_reset": 214.15167624555554,
     "next_reset": {
       "expected_time": "2026-08-15T03:32:00+00:00",
-      "hours_until": 122.5,
+      "hours_until": 121.8,
       "status": "overdue"
     },
     "average_reset_interval": 61.38,
@@ -26,19 +26,19 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 3.4784,
-    "time_pressure": 0.8694,
-    "hazard_rate": 0.01117,
-    "evidence_score": 0.0099,
-    "tibo_signal": 0.0039,
-    "community_signal": 0.0783,
-    "release_signal": 0.0293,
+    "time_ratio": 3.4889,
+    "time_pressure": 0.8725,
+    "hazard_rate": 0.010357,
+    "evidence_score": 0.0056,
+    "tibo_signal": 0.002,
+    "community_signal": 0.0305,
+    "release_signal": 0.0086,
     "llm_scores": {
-      "reset_intent": 0.00975609756097561,
-      "limit_complaint": 0.04390243902439025,
-      "official_change": 0.06097560975609756,
+      "reset_intent": 0.012195121951219513,
+      "limit_complaint": 0.017073170731707315,
+      "official_change": 0.058536585365853655,
       "reset_confirmation": 0.0,
-      "confidence": 0.8658536585365854,
+      "confidence": 0.8731707317073172,
       "reason": [
         "Text is a casual remark about coding, no mention of resets or limits.",
         "Discussion about Anthropic account suspension, unrelated to quota resets.",
@@ -52,7 +52,7 @@
   },
   "main_factors": [
     {
-      "factor": "213.5 hours since last reset",
+      "factor": "214.2 hours since last reset",
       "impact": "+10%",
       "score": 0.87
     },
@@ -64,13 +64,13 @@
     {
       "factor": "Minor community limit complaints",
       "impact": "+0%",
-      "score": 0.08
+      "score": 0.03
     }
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "213.5 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "214.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 213.5 hours since last reset (+10%)"
+    "Main factor: 214.2 hours since last reset (+10%)"
   ]
 }
