@@ -184,6 +184,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T09:22:35Z",
+    "author": "/u/_Coord",
+    "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T03:40:46Z",
     "author": "/u/BasilAzazel",
     "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
@@ -205,14 +213,6 @@
     "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T09:22:35Z",
-    "author": "/u/_Coord",
-    "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
     "authority_score": 0.5
   },
   {
@@ -280,6 +280,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T02:03:03Z",
+    "author": "/u/shoshingrid",
+    "text": "Planninging?? - &#32; submitted by &#32; /u/shoshingrid [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk7yw9/planninging/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T23:18:55Z",
     "author": "/u/EmotionalCan9434",
     "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
@@ -293,14 +301,6 @@
     "text": "ChatGPT by the end of its each reply - &#32; submitted by &#32; /u/EgorKlenov [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjvil4/chatgpt_by_the_end_of_its_each_reply/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T02:03:03Z",
-    "author": "/u/shoshingrid",
-    "text": "Planninging?? - &#32; submitted by &#32; /u/shoshingrid [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk7yw9/planninging/",
     "authority_score": 0.5
   },
   {
