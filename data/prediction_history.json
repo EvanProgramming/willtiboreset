@@ -13743,8 +13743,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-10T14:00:56.686135Z"
   },
   {
     "prediction_time": "2026-08-08T14:40:52.164606Z",
@@ -18762,6 +18762,57 @@
           "Vague title with no relevant content.",
           "Promotional message about a shipped product, no reset or limit context.",
           "Mentions 'reset' metaphorically about a person, not usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T14:00:56.662001Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 34.515737136666665,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 133.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.5215,
+      "time_pressure": 0.0022,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.0024,
+      "tibo_signal": 0.023,
+      "community_signal": 0.1252,
+      "release_signal": 0.2058,
+      "llm_scores": {
+        "reset_intent": 0.00975609756097561,
+        "limit_complaint": 0.007317073170731709,
+        "official_change": 0.05609756097560975,
+        "reset_confirmation": 0.0,
+        "confidence": 0.8707317073170733,
+        "reason": [
+          "Text is a humorous observation about coding, no relevance to quota resets.",
+          "Discussion about Anthropic account suspension, unrelated to OpenAI quota resets.",
+          "Vague reference to characters, no reset or quota context.",
+          "Promotional message about a product feature, no reset mention.",
+          "Mentions 'reset' metaphorically about a person, not quota reset."
         ]
       },
       "prior_applied": false,

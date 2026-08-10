@@ -232,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T13:22:53Z",
+    "author": "/u/PigeonWithAgenda",
+    "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T03:40:46Z",
     "author": "/u/BasilAzazel",
     "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T13:22:53Z",
-    "author": "/u/PigeonWithAgenda",
-    "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T04:42:56Z",
     "author": "/u/HomoInsomnia",
     "text": "My ChatGPT Memory suddenly stopped recalling years of saved information — has anyone successfully recovered theirs? - I’m trying to figure out whether I’m dealing with a temporary Memory/account issue or whether I’ve actually lost a large amount of previously saved ChatGPT Memory. I’ve used ChatGPT continuously for more than a year and have explicitly asked it to remember a large amount of information about me and my life. It used to consistently recall that information across completely separate conversations. Recently, I noticed that it stopped recalling a lot of it. Memory is enabled on my account and I have never intentionally disabled it or cleared my memories. However, Manage Memories is now essentially empty, and ChatGPT can no longer recall many things that I know it previously remembered. I’ve actually found older conversations that prove some of these memories existed. For example, I found a conversation from March where ChatGPT correctly recalled several of my pets’ birthdays. It can no longer recall those birthdays now unless I provide the information again. I’ve also tested creating new memories. I explicitly asked ChatGPT to remember new information during this issue, but those memories don’t appear to be getting saved either, despite Memory being enabled. I’ve contacted OpenAI Support and the case has been escalated to human support. So far, I’ve been told that Support cannot inspect account-specific saved-memory data that isn’t currently visible in Manage Memories, so they can’t tell me whether my old memories still exist or whether they’re actually gone. That’s what I’m trying to figure out. Has anyone else had a large amount of previously saved ChatGPT Memory suddenly disappear or stop being recalled? More importantly, has anyone successfully gotten their old memories back? I’d especially like to hear from anyone who: - Had Memory enabled the entire time - Never manually deleted their memories - Lost previously saved memories - Also noticed that new memories stopped being saved - Changed subscription plans around the same time - Or experienced this during a recent Memory update/rollout I’m not really looking for theories about how Memory is supposed to work. I’m specifically looking for people who experienced this and actually found a way to recover their memories, whether through Support, a settings change, an account fix, or something else. If you got yours back, please tell me what happened. &#32; submitted by &#32; /u/HomoInsomnia [link] &#32; [comments]",
@@ -277,6 +277,14 @@
     "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T13:35:49Z",
+    "author": "/u/nitemare9",
+    "text": "Magic The Gathering MCP - First of all I love magic and love ai! So I wanted to build an MCP that I could connect to and analyze and update my decks. I already use ChatGPT for my decks but don’t have a way to manage them. I use AI a ton fit work but fitting this into a hobby is such a great way to learn. If you play Magic and especially commander you can search cards. The gaming community that I have interacted with has no experience with MCP but I’ve shown several people who have ChatGPT and they thought it was so cool. So I’m hoping if people haven’t used MCP connectors this can be a great start by leveraging your hobby. It has tools for managing your decks but also just general card lookup which has been a hassle cause the models aren’t up to date with cards I wrote up this article on how to get started Magic the Gathering MCP Server &#32; submitted by &#32; /u/nitemare9 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkl2er/magic_the_gathering_mcp/",
     "authority_score": 0.5
   },
   {
@@ -296,6 +304,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T21:44:53Z",
     "author": "/u/ThisMayBeMike",
     "text": "In a world where Digimon dominated - 1996 – It begins Bandai releases Digimon Red &amp; Blue for Game Boy. The mix of RPG battles and virtual-pet mechanics becomes an instant hit, with Agumon emerging as the face of a new global phenomenon. 1997 – Digimon hits TV Digimon Adventure becomes a ratings phenomenon, while phrases like “Digivolve” and “Digital World” enter everyday playground slang. 1998 – Digimon hits theaters Digimon: The Movie becomes a global box-office hit, proving the franchise has grown far beyond games and TV. 1998 – The card craze begins The Digimon Trading Card Game becomes an instant obsession, with booster packs selling out and rare cards quickly becoming status symbols. 1999–2000 – The second generation Digimon Adventure 02 launches as the next major game generation and goes on to sell more than 23 million copies worldwide. 2005 – The Digimon Store era begins The first official Digimon Stores open, turning launches into huge fan events packed with cosplay, queues and exclusive merchandise. 2012 – 750 Digimon The DigiDex reaches 750 species, with new reveals now treated as major online events. 2016 – Digimon GO takes over Digimon GO sends millions into the streets and becomes a worldwide AR phenomenon almost overnight. Digimon Go lets players discover Digital Gates in real-world locations, collect Digi-Data, care for a partner Digimon, and gather at Server Hubs for large co-op battles and DNA Digivolution events. 2020 – Twitch Plays Digimon Hundreds of thousands try to beat the original Digimon World through chat commands. Constant neglect leaves them stuck with Numemon, turning “The Holy Poop” into a massive internet meme. 2026 – A new sales record Digimon Cyber World: Scarlet &amp; Violet sells 14 million copies in just three days across PS5, Xbox Series X and Steam, becoming the biggest launch in franchise history. 2026 – Digimon cards become serious investments A PSA 10 1st Edition Holographic WarGreymon from 1999 sells for $5.2 million to an anonymous buyer. The Future – The Digital World After 30 years of visiting the Digital World through games and screens, the next step is a persistent online world where players can explore, battle, socialize and live alongside their partner Digimon. &#32; submitted by &#32; /u/ThisMayBeMike [link] &#32; [comments]",
@@ -309,22 +325,6 @@
     "text": "Suspicious chat plus activation method via JSON - Hello everyone. Recently I found that sellers on sites like plati market or funpay offer users from countries where the GPT is blocked to purchase a subscription using third-party sites, where the user inserts the json of his account and activates the subscription without logging in. This method is very popular especially in Russia because open ai does not accept local cards. I was wondering how these sellers do this in general? Isn't this json an analog of account data? After all, it says in the window with it that you can't show it to anyone. A similar system also often pops up on Chinese websites. Accounts are not banned after that. Does anyone know how it works? &#32; submitted by &#32; /u/Ill_Addendum_6696 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkja5s/suspicious_chat_plus_activation_method_via_json/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T11:50:54Z",
-    "author": "/u/Denisedeboer",
-    "text": "Making architectural renders/visualisation with Business account - Hi everyone, First time poster on this sub but I would really appreciate your help. At work I am currently one of the few people whom are leading the AI development in our company. Our company writes permit applications, designs buildings, calculates structures and is, among other things, specialized in agricultural entrepeneurs. My question mainly is for my colleagues that design buildings. Considering the fact that making renders is a time-consuming activity, we were hoping that chat would be able to help us and make accurate (based on a sketchup file or pdf) images. I have made a simple GPT for this where you should be able to 'lock' certain preferences (like the user has said that the facade needs to be grey wood or there should be no windows in a certain wall), which then will be maintained when altering the image. Yet chat changes those set things often, even when we have explicitly told it to not do that. We are wondering if chat is truely the best way to make these visualizations or if we should consider another AI. Also, maybe my gpt is not that great so if there are other gpts out there that should do this properly, please let me know! If someone can thus provide me with some guidance, it would be greatly appreciated! &#32; submitted by &#32; /u/Denisedeboer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkim9c/making_architectural_rendersvisualisation_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T02:03:03Z",
-    "author": "/u/shoshingrid",
-    "text": "Planninging?? - &#32; submitted by &#32; /u/shoshingrid [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk7yw9/planninging/",
     "authority_score": 0.5
   }
 ]
