@@ -224,6 +224,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T03:40:46Z",
+    "author": "/u/BasilAzazel",
+    "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk9yi9/chatgpt_changes_its_mind_mid_reply/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T07:36:27Z",
     "author": "/u/Alarmed_Shine1749",
     "text": "ChatGPT finally allows markdown formatting in users' prompts!! - This is something that reddit also allows by enabling us to italicize, or make things bold. But it's the first time I'm seeing it in ChatGPT. I did just upgrade from Go to Plus earlier today, so I don't know if it's related. I used *italic* and **bold**. &#32; submitted by &#32; /u/Alarmed_Shine1749 [link] &#32; [comments]",
@@ -248,19 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T22:55:49Z",
-    "author": "/u/Latter-Flatworm3789",
-    "text": "I asked to gen how psychotic hallucination looks like - &#32; submitted by &#32; /u/Latter-Flatworm3789 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk3wiz/i_asked_to_gen_how_psychotic_hallucination_looks/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T23:18:55Z",
     "author": "/u/EmotionalCan9434",
     "text": "ChatGPT loves using redundant words. Sometimes writing notes myself is more efficient. - After I discuss something with ChatGPT, I sometimes ask it to turn the discussion into notes or a summary. But the result is usually full of redundant words. Even just a week later, it becomes hard to tell what the most important points from the discussion were. I've found that sometimes just writing the notes myself is more efficient than asking AI to do it. Does anyone else feel the same way? &#32; submitted by &#32; /u/EmotionalCan9434 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk4fcf/chatgpt_loves_using_redundant_words_sometimes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-09T22:55:49Z",
+    "author": "/u/Latter-Flatworm3789",
+    "text": "I asked to gen how psychotic hallucination looks like - &#32; submitted by &#32; /u/Latter-Flatworm3789 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk3wiz/i_asked_to_gen_how_psychotic_hallucination_looks/",
     "authority_score": 0.5
   },
   {
@@ -296,6 +304,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-09T23:51:02Z",
+    "author": "/u/CarterWarsaw",
+    "text": "“Oh boy…” - Asked ChatGPT to make a realistic photo of Krombopulos Michael, got the hands wrong but I think it’s still pretty good. &#32; submitted by &#32; /u/CarterWarsaw [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk54qn/oh_boy/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-09T14:00:26Z",
     "author": "/u/No-Lifeguard-8173",
     "text": "Saturn Devouring His Son — felt sculpture — Chatgpt vs Gemini - https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son The first two are from ChatGPT, and the last two are from Gemini; made with a roughly 400 word custom generalized prompt. The main difference is that ChatGPT was more likely to refuse prompts involving violent imagery, but when it did generate them, the results stayed closer to the look of the original painting. Gemini was more flexible with the designs and produced more variation, though the characters tended to look more like hand-sewn felt figurines. &#32; submitted by &#32; /u/No-Lifeguard-8173 [link] &#32; [comments]",
@@ -309,22 +325,6 @@
     "text": "Chat extra funny the past two days? - I just feel like after yesterday my chat has been so funny, it doesn’t even miss a beat matching my tone or sarcasm, like the random things it throws in have actually made me laugh out loud, it’s been so much more pleasant to talk to the last two days, and I’m so sad because I fucking know it won’t last as usual before it starts sounding all uptight and corporate again, but oh my God, it has been such a pleasure, reminds me of 5.2. &#32; submitted by &#32; /u/puffykitten448 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjikbq/chat_extra_funny_the_past_two_days/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-09T23:51:02Z",
-    "author": "/u/CarterWarsaw",
-    "text": "“Oh boy…” - Asked ChatGPT to make a realistic photo of Krombopulos Michael, got the hands wrong but I think it’s still pretty good. &#32; submitted by &#32; /u/CarterWarsaw [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vk54qn/oh_boy/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-08T14:44:14Z",
-    "author": "/u/considerthis8",
-    "text": "I've been trying to get chatgpt to visualize this for a while and 5.6 finally nailed it: How small of a window life on earth has - &#32; submitted by &#32; /u/considerthis8 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vixt45/ive_been_trying_to_get_chatgpt_to_visualize_this/",
     "authority_score": 0.5
   }
 ]
