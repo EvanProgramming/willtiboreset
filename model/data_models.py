@@ -196,6 +196,10 @@ class PredictionFeatures(BaseModel):
         default=0.0, ge=0.0, le=1.0,
         description="Day-of-week cycle factor (0=unlikely day, 1=very likely reset day); boosts base probability and raises no-signal cap"
     )
+    explicit_future_reset: bool = Field(
+        default=False,
+        description="True when Tibo has explicitly announced an upcoming reset; pushes probability near max regardless of other signals"
+    )
 
 
 class FactorImpact(BaseModel):

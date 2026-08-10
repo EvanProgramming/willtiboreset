@@ -48,6 +48,38 @@ _RESET_PATTERNS = [
     re.compile(r"\breset\b.*\b(now|today|tonight|enjoy|again|done)\b", re.IGNORECASE),
 ]
 
+# Future-tense reset announcement phrases (Tibo announcing an UPCOMING reset)
+_FUTURE_RESET_PHRASES = [
+    "will reset",
+    "going to reset",
+    "resetting tonight",
+    "resetting today",
+    "resetting tomorrow",
+    "reset later",
+    "reset coming",
+    "reset soon",
+    "reset in the next",
+    "will be reset",
+    "going to be reset",
+    "planning to reset",
+    "another reset",
+    "enjoy reset",
+    "reset for all",
+    "reset for everyone",
+]
+
+_FUTURE_RESET_PATTERNS = [
+    re.compile(r"\bwill\s+reset\b", re.IGNORECASE),
+    re.compile(r"\bgoing\s+to\s+reset\b", re.IGNORECASE),
+    re.compile(r"\bresetting\s+(tonight|today|tomorrow|soon|later)\b", re.IGNORECASE),
+    re.compile(r"\breset\s+(coming|soon|later|tonight|today|tomorrow)\b", re.IGNORECASE),
+    re.compile(r"\bwill\s+be\s+reset\b", re.IGNORECASE),
+    re.compile(r"\breset\s+in\s+the\s+next\b", re.IGNORECASE),
+    re.compile(r"\banother\s+reset\b", re.IGNORECASE),
+    re.compile(r"\benjoy\s+reset\b", re.IGNORECASE),
+    re.compile(r"\breset\s+for\s+(all|everyone)\b", re.IGNORECASE),
+]
+
 # Proximity window to avoid duplicate reset records (seconds)
 _DUPLICATE_WINDOW_SECONDS = 3600
 
@@ -88,6 +120,58 @@ def detect_auto_confirm(tweets: list[Tweet]) -> Optional[tuple[datetime, str]]:
         if not _is_tibo_tweet(tweet):
             continue
         if _text_matches_reset(tweet.text):
+            return tweet.timestamp, tweet.text
+    return None
+
+
+def _text_matches_future_reset(text: str) -> bool:
+    """Check whether a text announces an UPCOMING reset (future tense)."""
+    text_lower = text.lower()
+    # Exclude negation context
+    if re.search(r"\bno\s+reset\b", text_lower) or re.search(
+        r"\b(never|won'?t|not)\s+(reset|be\s+reset)\b", text_lower
+    ):
+        return False
+    if any(phrase in text_lower for phrase in _FUTURE_RESET_PHRASES):
+        return True
+    for pattern in _FUTURE_RESET_PATTERNS:
+        if pattern.search(text_lower):
+            return True
+    return False
+
+
+def detect_future_reset_signal(
+    tweets: list[Tweet],
+    max_age_hours: float = 48.0,
+    now: Optional[datetime] = None,
+) -> Optional[tuple[datetime, str]]:
+    """
+    Detect a FUTURE reset announcement from Tibo's tweets.
+
+    Unlike detect_auto_confirm (which detects past-tense "I have reset"),
+    this detects future-tense announcements like "I will reset tonight".
+
+    Only considers tweets within max_age_hours to avoid stale announcements.
+
+    Returns:
+        (announcement_time, text) if a future reset signal is found, otherwise None.
+    """
+    from datetime import timezone as tz
+
+    if now is None:
+        now = datetime.now(tz.utc)
+
+    for tweet in tweets:
+        if not _is_tibo_tweet(tweet):
+            continue
+        # Check recency — stale announcements are irrelevant
+        tweet_time = tweet.timestamp
+        if tweet_time.tzinfo is None:
+            tweet_time = tweet_time.replace(tzinfo=tz.utc)
+        age_hours = (now - tweet_time).total_seconds() / 3600.0
+        if age_hours > max_age_hours:
+            continue
+        if _text_matches_future_reset(tweet.text):
             return tweet.timestamp, tweet.text
     return None
 

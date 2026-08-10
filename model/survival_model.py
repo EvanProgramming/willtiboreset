@@ -248,7 +248,13 @@ def _aggregate_weighted_evidence(
         "community": 0.0,
         "release": 0.0,
     }
-    signal_weight_sum = 0.0
+    # Use separate weight sums per signal type so that unrelated tweets
+    # (signal=0) do NOT dilute the average of tweets that DO carry signal.
+    signal_weights = {
+        "tibo": 0.0,
+        "community": 0.0,
+        "release": 0.0,
+    }
 
     for i, score in enumerate(signal_scores):
         if use_default_weights:
@@ -262,6 +268,12 @@ def _aggregate_weighted_evidence(
             recency = _recency_weight(tweet.timestamp, now)
             source = tweet.source
             tweet_time = tweet.timestamp
+
+        # Strong reset signals should NOT decay quickly. An explicit
+        # announcement ("I will reset tonight") remains valid for days,
+        # not hours. Boost recency floor for high-signal tweets.
+        if score.reset_confirmation >= 0.5 or score.reset_intent >= 0.5:
+            recency = max(recency, 0.8)
 
         priority = _source_priority(source)
         w = authority * recency * priority
@@ -311,10 +323,17 @@ def _aggregate_weighted_evidence(
         )
         community = score.limit_complaint
         release = score.official_change
-        signal_sums["tibo"] += tibo * w
-        signal_sums["community"] += community * w
-        signal_sums["release"] += release * w
-        signal_weight_sum += w
+        # Only include non-zero signals in the average to prevent dilution
+        # from unrelated tweets posted after a reset announcement
+        if tibo > 0.0:
+            signal_sums["tibo"] += tibo * w
+            signal_weights["tibo"] += w
+        if community > 0.0:
+            signal_sums["community"] += community * w
+            signal_weights["community"] += w
+        if release > 0.0:
+            signal_sums["release"] += release * w
+            signal_weights["release"] += w
 
     category_scores: dict[str, float] = {}
     for cat in ["tibo", "openai", "community"]:
@@ -344,15 +363,17 @@ def _aggregate_weighted_evidence(
         "community_signal": 0.0,
         "release_signal": 0.0,
     }
-    if signal_weight_sum > 0:
+    if signal_weights["tibo"] > 0:
         signal_results["tibo_signal"] = min(
-            signal_sums["tibo"] / signal_weight_sum, 1.0
+            signal_sums["tibo"] / signal_weights["tibo"], 1.0
         )
+    if signal_weights["community"] > 0:
         signal_results["community_signal"] = min(
-            signal_sums["community"] / signal_weight_sum, 1.0
+            signal_sums["community"] / signal_weights["community"], 1.0
         )
+    if signal_weights["release"] > 0:
         signal_results["release_signal"] = min(
-            signal_sums["release"] / signal_weight_sum, 1.0
+            signal_sums["release"] / signal_weights["release"], 1.0
         )
 
     return {
@@ -463,6 +484,7 @@ def build_features(
     now: Optional[datetime] = None,
     expected_weekly_interval_hours: Optional[float] = None,
     weekly_cycle_factor: float = 0.0,
+    explicit_future_reset: bool = False,
 ) -> PredictionFeatures:
     """
     Build PredictionFeatures (V2) from analysis features and LLM signal scores.
@@ -516,6 +538,7 @@ def build_features(
         evidence_score=evidence["overall"],
         expected_weekly_interval_hours=expected_weekly_interval_hours,
         weekly_cycle_factor=weekly_cycle_factor,
+        explicit_future_reset=explicit_future_reset,
     )
 
 
@@ -574,6 +597,13 @@ class ResetPredictor:
             self._horizons,
             features.weekly_cycle_factor,
         )
+
+        # Explicit future reset announcement: Tibo said "I will reset today/tonight".
+        # This overrides normal evidence logic — probability should be near max.
+        if features.explicit_future_reset:
+            for key in probability:
+                h = int(key.rstrip("h"))
+                probability[key] = round(MAX_PROBABILITY_STRONG_EVIDENCE.get(h, 0.95), 4)
 
         main_factors = self._build_main_factors(features)
         reasons = self._generate_reasons(features, time_ratio, main_factors)
@@ -692,6 +722,13 @@ class ResetPredictor:
             )
 
         # Weekly cycle factor
+        if features.explicit_future_reset:
+            factors.insert(0, FactorImpact(
+                factor="Explicit reset announcement from Tibo",
+                impact="+MAX",
+                score=1.0,
+            ))
+
         if features.weekly_cycle_factor >= 0.5:
             impact_pct = int(features.weekly_cycle_factor * 30)
             factors.append(
@@ -821,6 +858,12 @@ class ResetPredictor:
             reasons.append(
                 f"Weekly cycle boost active (factor={features.weekly_cycle_factor:.2f}): "
                 f"today is a typical reset day, base probability and probability cap raised"
+            )
+
+        if features.explicit_future_reset:
+            reasons.insert(0,
+                "EXPLICIT FUTURE RESET DETECTED: Tibo has announced an upcoming reset. "
+                "Probability set to near-maximum for all horizons."
             )
 
         if main_factors:
