@@ -39,7 +39,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from analyzer import SignalAnalyzer
 from analyzer.llm_signal import DeepSeekAnalyzer, LLMAnalyzer, MockLLMAnalyzer
-from auto_confirm import auto_confirm_reset
+from auto_confirm import auto_confirm_reset, detect_future_reset_signal
 from calibration import (
     append_prediction,
     resolve_history,
@@ -259,6 +259,13 @@ def main() -> int:
         else None
     )
 
+    # Check for explicit FUTURE reset announcement from Tibo
+    # (e.g., "I will reset usage limits tonight")
+    future_reset = detect_future_reset_signal(tweets)
+    explicit_future_reset = future_reset is not None
+    if explicit_future_reset:
+        print(f"  FUTURE RESET ANNOUNCEMENT DETECTED: {future_reset[1][:100]}")
+
     print("\n[3/4] Running prediction model...")
     pred_features = build_features(
         hours_since_last_reset=analysis_features.hours_since_last_reset,
@@ -272,6 +279,7 @@ def main() -> int:
         recent_reset_time=recent_reset_time,
         expected_weekly_interval_hours=expected_weekly_interval,
         weekly_cycle_factor=analysis_features.weekly_cycle_factor,
+        explicit_future_reset=explicit_future_reset,
     )
 
     predictor = ResetPredictor(
@@ -346,6 +354,7 @@ def main() -> int:
         "prior_applied": prior_applied,
         "interval_count": analysis_features.reset_interval_count,
         "weekly_cycle_factor": analysis_features.weekly_cycle_factor,
+        "explicit_future_reset": explicit_future_reset,
     }
 
     output = {
