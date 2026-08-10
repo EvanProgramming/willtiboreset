@@ -184,6 +184,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T15:05:08Z",
+    "author": "/u/KeanuRave100",
+    "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T13:22:53Z",
     "author": "/u/PigeonWithAgenda",
     "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
@@ -224,19 +232,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:05:08Z",
-    "author": "/u/KeanuRave100",
-    "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:03:31Z",
-    "author": "/u/Behavingdark",
-    "text": "Why? - My chatGPT for no reason whatsoever has started calling me sweetheart! Any advances on sweetheart? &#32; submitted by &#32; /u/Behavingdark [link] &#32; [comments]",
+    "timestamp": "2026-08-10T14:01:31Z",
+    "author": "/u/Made_Human_Music",
+    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknd5z/why/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
     "authority_score": 0.5
   },
   {
@@ -256,11 +264,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T15:03:31Z",
+    "author": "/u/Behavingdark",
+    "text": "Why? - My chatGPT for no reason whatsoever has started calling me sweetheart! Any advances on sweetheart? &#32; submitted by &#32; /u/Behavingdark [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknd5z/why/",
     "authority_score": 0.5
   },
   {
@@ -269,14 +277,6 @@
     "text": "I asked Chat GPT what are you best at? - So the full question I asked was “I'm curious. Let's say I'm a new user of ChatGPT. What would you tell them if you, if I were to ask or they were to ask, what do you do best? What is, what of all the things an AI bot can do, does ChatGPT do the best?” Her/his it’s answer was “If a brand-new user asked me, “Of everything ChatGPT can do, what is it actually best at?”, I’d say: ChatGPT is best at helping you think with language. Not just answering questions. The strongest use is when you bring me something incomplete, confusing, messy, or difficult to work through, and we develop it together. That includes things like taking a half-formed idea and finding the useful idea hiding inside it; noticing connections or problems you missed; challenging assumptions; researching and comparing possibilities; turning a huge problem into the next manageable decision; explaining something at exactly the level you need; and turning thoughts into writing, plans, strategies, code, designs, or other usable outputs. Search engines are often better when you simply need a fact. Calculators are better at arithmetic. Specialized software is better at many narrow technical jobs. But ChatGPT’s unusual strength is that you can essentially think out loud at it. You don’t need to know the right terminology, formulate the perfect question, or even know exactly what you’re trying to figure out yet. So if I had to reduce the answer to one sentence: ChatGPT is best used as an interactive thinking partner that can help turn what’s in your head into something clearer, stronger, and usable.” In some ways I agree with this answer and in other ways i feel like it didn’t really answer it the way I meant ..what do you think &#32; submitted by &#32; /u/Significant-Crow-749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkbteo/i_asked_chat_gpt_what_are_you_best_at/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T14:01:31Z",
-    "author": "/u/Made_Human_Music",
-    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
     "authority_score": 0.5
   },
   {
