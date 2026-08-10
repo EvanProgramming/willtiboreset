@@ -184,14 +184,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T14:30:02Z",
-    "author": "/u/Chuka444",
-    "text": "Testing a new AI motion capture workflow - The latest video generation model is coming this afternoon to Uisato Studio, and this is a new showcase of one of it's powerful capabilities: easy, one-shot, 30 seconds motion capture, on-a-budget. Just select the new model, &quot;character swap&quot; prompt-recipe, and voilá; you've got yourself a fun, silly video of you performing whatever you can think of. More experiments, through Instagram, or YouTube. &#32; submitted by &#32; /u/Chuka444 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkmgqh/testing_a_new_ai_motion_capture_workflow/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-09T18:35:41Z",
     "author": "/u/Jjv41k",
     "text": "A picture is worth ~1,000 ~words according to Google AI Studio - &#32; submitted by &#32; /u/Jjv41k [link] &#32; [comments]",
@@ -248,6 +240,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T14:01:31Z",
+    "author": "/u/Made_Human_Music",
+    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T14:34:36Z",
+    "author": "/u/butterflymon",
+    "text": "ChatGPT 5.6 Chat or Work for coding? - Do you prefer ChatGPT 5.6 Chat or Work for coding? &#32; submitted by &#32; /u/butterflymon [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkml11/chatgpt_56_chat_or_work_for_coding/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T03:40:46Z",
     "author": "/u/BasilAzazel",
     "text": "ChatGPT changes its mind mid reply - Asked it for some advice on figma fading out an image and it changed its mind in the middle of the steps. &#32; submitted by &#32; /u/BasilAzazel [link] &#32; [comments]",
@@ -261,14 +269,6 @@
     "text": "Chat glitched when GPT wrote a string of unicode chraracters - I don't know what happened exactly, it was trying to emulate the sound of a dump truck, and this happened lol. According to it when I asked: I can't recover the exact giant character sequence I generated in that previous response from the conversation state I have now. And I was a little too confident earlier when I said exactly what it contained. What I can tell from the result is that it was using Unicode combining characters — little marks designed to attach themselves to the preceding character. For example, these are combining marks: ̷ ̸ ̶ ̴ ̵ ̲ ̳ They aren't really standalone letters. They modify whatever comes immediately before them. So something like: #̷̸̶̴̵̷̸̶̴̵̷̸̶̴̵̲̳̲̳̲̳ is technically a # followed by a ridiculous pile of Unicode modifiers. And here's the cursed part. If you tell a renderer to deal with hundreds or thousands of combining marks, different browsers/fonts/layout engines can behave extremely stupidly. Instead of keeping them visually attached to the #, you can get things like what happened to your screenshot. &#32; submitted by &#32; /u/donkeymonkey00 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk6v87/chat_glitched_when_gpt_wrote_a_string_of_unicode/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T14:01:31Z",
-    "author": "/u/Made_Human_Music",
-    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
     "authority_score": 0.5
   },
   {
@@ -288,6 +288,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T14:18:21Z",
     "author": "/u/buccothepitbull",
     "text": "For those of You who appreciate a little Joe Goldberg Humor --my dude is hilariously funny - &#32; submitted by &#32; /u/buccothepitbull [link] &#32; [comments]",
@@ -296,11 +304,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T14:34:36Z",
-    "author": "/u/butterflymon",
-    "text": "ChatGPT 5.6 Chat or Work for coding? - Do you prefer ChatGPT 5.6 Chat or Work for coding? &#32; submitted by &#32; /u/butterflymon [link] &#32; [comments]",
+    "timestamp": "2026-08-10T14:57:58Z",
+    "author": "/u/Kindly_Revenue3077",
+    "text": "Finally: chat folders and a way to send your next prompt while ChatGPT is still replying. - ChatGPT is barebones once you use it every day. My sidebar was 200 &quot;Untitled Chat&quot; rows I could never search. And I kept sitting there watching the text stream, waiting for it to stop so I could type the next thing. So I built a free extension called Superpower for ChatGPT. It turns the sidebar and the input bar into a proper command center. Quick honesty first: this one is new. The Gemini version I built has about 11,000 users and a Featured badge on the Chrome Web Store. The ChatGPT version is only a few months old and much smaller, so I am still adding whatever people ask for. That is why I am posting. What you get (see screenshot): 📂 Chat Folders: Nest folders up to 10 levels deep. Foldered chats hide from the recents list, so it stays clean. ⏳ Smart Message Queue: Press Enter while ChatGPT is still replying. Your next prompt queues and sends itself. Line up 3 tasks, then go do something else. 📊 Daily Usage Counter: See how many Instant and Thinking messages you sent today, right next to the composer. No more surprise cutoff mid task. ✨ One-Click Optimizer: A button that rewrites your rough prompt into a detailed one before you send it. 📚 Prompt Library and Slash Commands: Save your best prompts. Type // to drop one in. Use {{variables}} for the parts that change. 🔗 Prompt Chains: Multi step workflows that run one after another on their own. Type ,, to start one. 💾 Export: Any chat to Markdown or PDF in one click. ⌨️ 12 Keyboard Shortcuts: All rebindable. Alt+T for Thinking, Alt+W for web search, Alt+I for Images. ➕ And more: live word counter, chat notes, timestamps, wide chat mode, floating scroll buttons,... ⚙️ Modular Control: Every button has an off switch. Hide what you do not want and it looks stock again. It is free and it runs in your browser. No servers, no analytics, no telemetry. Tell me what the interface is still missing. Half of this list came from people replying to posts like this one. Try it here: Chrome Web Store &#32; submitted by &#32; /u/Kindly_Revenue3077 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkml11/chatgpt_56_chat_or_work_for_coding/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkn7jc/finally_chat_folders_and_a_way_to_send_your_next/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T12:20:52Z",
+    "author": "/u/Ill_Addendum_6696",
+    "text": "Suspicious chat plus activation method via JSON - Hello everyone. Recently I found that sellers on sites like plati market or funpay offer users from countries where the GPT is blocked to purchase a subscription using third-party sites, where the user inserts the json of his account and activates the subscription without logging in. This method is very popular especially in Russia because open ai does not accept local cards. I was wondering how these sellers do this in general? Isn't this json an analog of account data? After all, it says in the window with it that you can't show it to anyone. A similar system also often pops up on Chinese websites. Accounts are not banned after that. Does anyone know how it works? &#32; submitted by &#32; /u/Ill_Addendum_6696 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkja5s/suspicious_chat_plus_activation_method_via_json/",
     "authority_score": 0.5
   },
   {
@@ -309,22 +325,6 @@
     "text": "I saw a fragrance at the store called mind games and this was the first thing that came to mind. - &#32; submitted by &#32; /u/USTS2020 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vjwxck/i_saw_a_fragrance_at_the_store_called_mind_games/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T13:35:49Z",
-    "author": "/u/nitemare9",
-    "text": "Magic The Gathering MCP - First of all I love magic and love ai! So I wanted to build an MCP that I could connect to and analyze and update my decks. I already use ChatGPT for my decks but don’t have a way to manage them. I use AI a ton fit work but fitting this into a hobby is such a great way to learn. If you play Magic and especially commander you can search cards. The gaming community that I have interacted with has no experience with MCP but I’ve shown several people who have ChatGPT and they thought it was so cool. So I’m hoping if people haven’t used MCP connectors this can be a great start by leveraging your hobby. It has tools for managing your decks but also just general card lookup which has been a hassle cause the models aren’t up to date with cards I wrote up this article on how to get started Magic the Gathering MCP Server &#32; submitted by &#32; /u/nitemare9 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkl2er/magic_the_gathering_mcp/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T13:30:57Z",
-    "author": "/u/Ethan_techie",
-    "text": "oai is great - as a plus user,the 5.6L Luna is extremely durable,it offers even better value for money than the DSV4 Flash—not to mention that GPT is a multimodal model. &#32; submitted by &#32; /u/Ethan_techie [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkxv2/oai_is_great/",
     "authority_score": 0.5
   }
 ]
