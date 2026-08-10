@@ -97,19 +97,18 @@ MIN_UNCERTAINTY_HOURS: float = 6.0
 # Weekly cycle: how much the day-of-week factor can boost base probability
 WEEKLY_CYCLE_BOOST_STRENGTH: float = 0.6  # Max 60% boost on high-factor days
 
-# Schedule-aware probability floor: when overdue AND on a known reset day,
-# the model outputs a minimum probability regardless of evidence.
-# This reflects the real-world pattern: Tibo resets on US Mondays, and when
-# the weekly window has passed, a reset is very likely imminent.
+# Schedule-aware probability floor: when on a known reset day (Tibo explicitly
+# stated he resets on US Mondays), the model outputs a minimum probability
+# regardless of LLM evidence. This compensates for RSS-missed announcements.
 SCHEDULE_FLOOR_OVERDUE: dict[int, float] = {
-    5: 0.45,   # 45% minimum for 5h when overdue + Monday
-    24: 0.75,  # 75% minimum for 24h
-    48: 0.85,  # 85% minimum for 48h
+    5: 0.70,   # 70% minimum for 5h when overdue + known reset day
+    24: 0.92,  # 92% minimum for 24h
+    48: 0.96,  # 96% minimum for 48h
 }
 SCHEDULE_FLOOR_ON_SCHEDULE: dict[int, float] = {
-    5: 0.30,   # 30% minimum for 5h when on-schedule + Monday
-    24: 0.55,  # 55% minimum for 24h
-    48: 0.70,  # 70% minimum for 48h
+    5: 0.50,   # 50% minimum for 5h when on-schedule + known reset day
+    24: 0.80,  # 80% minimum for 24h
+    48: 0.90,  # 90% minimum for 48h
 }
 
 
@@ -450,21 +449,30 @@ def _schedule_prior(
 
     When the current day is a known reset day (high weekly_cycle_factor) and
     we are overdue (high time_pressure), the model should output a minimum
-    probability regardless of LLM evidence. This reflects the real-world
-    pattern: Tibo resets on US Mondays, and when the weekly window has
-    passed, a reset is very likely imminent — even if no explicit tweet
-    has been detected yet (e.g., reply-only announcements missed by RSS).
+    probability regardless of LLM evidence.
+
+    Tibo has EXPLICITLY stated he resets on US Mondays. This is not a
+    statistical inference — it's a stated policy. When weekly_cycle_factor
+    >= 0.7 (strong match, e.g., Monday), the FULL floor is applied without
+    scaling. Moderate days (0.3-0.7) get partial floor. Other days get none.
     """
     floors: dict[str, float] = {}
-    # Determine if we're in an overdue scenario (time_pressure > 0.8)
     is_overdue = time_pressure >= 0.8
+
+    # Determine scaling: strong match = full floor, moderate = half, weak = none
+    if weekly_cycle_factor >= 0.7:
+        scale = 1.0    # Monday: Tibo explicitly said he resets — full weight
+    elif weekly_cycle_factor >= 0.3:
+        scale = 0.4    # Sunday/Tuesday: adjacent days, partial weight
+    else:
+        scale = 0.0    # Other days: no schedule floor
+
     for h in horizons:
         if is_overdue:
             base_floor = SCHEDULE_FLOOR_OVERDUE.get(h, 0.3)
         else:
             base_floor = SCHEDULE_FLOOR_ON_SCHEDULE.get(h, 0.15)
-        # Scale by weekly_cycle_factor (0 = no floor, 1 = full floor)
-        floor = base_floor * weekly_cycle_factor
+        floor = base_floor * scale
         floors[f"{h}h"] = floor
     return floors
 
@@ -916,19 +924,24 @@ class ResetPredictor:
             )
 
         # Schedule floor reason
-        if features.weekly_cycle_factor >= 0.5:
+        if features.weekly_cycle_factor >= 0.7:
             if features.time_pressure >= 0.8:
                 reasons.append(
-                    f"Schedule floor applied: overdue + known reset day, "
-                    f"probability floor set to 45%/75%/85% (5h/24h/48h) "
-                    f"regardless of LLM evidence (compensates for RSS-missed announcements)"
+                    f"Schedule floor applied: overdue + known reset day (factor={features.weekly_cycle_factor:.2f}), "
+                    f"probability floor set to 70%/92%/96% (5h/24h/48h) — "
+                    f"Tibo explicitly resets on US Mondays, full weight applied"
                 )
             else:
                 reasons.append(
                     f"Schedule floor applied: known reset day (factor={features.weekly_cycle_factor:.2f}), "
-                    f"probability floor set to 30%/55%/70% (5h/24h/48h) "
-                    f"regardless of LLM evidence"
+                    f"probability floor set to 50%/80%/90% (5h/24h/48h) — "
+                    f"Tibo explicitly resets on US Mondays, full weight applied"
                 )
+        elif features.weekly_cycle_factor >= 0.3:
+            reasons.append(
+                f"Moderate reset-day proximity (factor={features.weekly_cycle_factor:.2f}), "
+                f"partial schedule floor applied"
+            )
 
         if features.explicit_future_reset:
             reasons.insert(0,
