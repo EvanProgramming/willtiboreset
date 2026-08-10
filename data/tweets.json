@@ -168,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T16:38:26Z",
+    "author": "/u/hellohellowhatyoube",
+    "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T11:16:40Z",
     "author": "/u/mrsmezcal",
     "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T16:38:26Z",
-    "author": "/u/hellohellowhatyoube",
-    "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-09T12:36:05Z",
-    "author": "/u/leonleungjeehei",
-    "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T12:46:00Z",
     "author": "/u/CR972",
     "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
@@ -248,11 +240,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T14:01:31Z",
-    "author": "/u/Made_Human_Music",
-    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
+    "timestamp": "2026-08-09T12:36:05Z",
+    "author": "/u/leonleungjeehei",
+    "text": "What do I want to be? - a poem about parenting in the AI age [OC] - &#32; submitted by &#32; /u/leonleungjeehei [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vjosfs/what_do_i_want_to_be_a_poem_about_parenting_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T15:18:23Z",
+    "author": "/u/paul_blanchard",
+    "text": "Anyone else getting messy answers like this? - &#32; submitted by &#32; /u/paul_blanchard [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknrhs/anyone_else_getting_messy_answers_like_this/",
     "authority_score": 0.5
   },
   {
@@ -264,11 +264,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:18:23Z",
-    "author": "/u/paul_blanchard",
-    "text": "Anyone else getting messy answers like this? - &#32; submitted by &#32; /u/paul_blanchard [link] &#32; [comments]",
+    "timestamp": "2026-08-10T14:01:31Z",
+    "author": "/u/Made_Human_Music",
+    "text": "I asked ChatGPT to say what it thinks about me based on what I’ve asked for recently - There was a lot of personal stuff that was pretty interesting but at the end it said this: “So if I had to compress all of that into one sentence: you seem fascinated by what remains of a person when everything about their circumstances changes, and by whether another person will still recognize and care for them afterward. And then, occasionally, you want Optimus Prime to yell obscenities.” The only thing is that it’s not always Optimus Prime but I do it a lot. lol &#32; submitted by &#32; /u/Made_Human_Music [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknrhs/anyone_else_getting_messy_answers_like_this/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vklpv1/i_asked_chatgpt_to_say_what_it_thinks_about_me/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:03:31Z",
-    "author": "/u/Behavingdark",
-    "text": "Why? - My chatGPT for no reason whatsoever has started calling me sweetheart! Any advances on sweetheart? &#32; submitted by &#32; /u/Behavingdark [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknd5z/why/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T05:19:13Z",
     "author": "/u/Significant-Crow-749",
     "text": "I asked Chat GPT what are you best at? - So the full question I asked was “I'm curious. Let's say I'm a new user of ChatGPT. What would you tell them if you, if I were to ask or they were to ask, what do you do best? What is, what of all the things an AI bot can do, does ChatGPT do the best?” Her/his it’s answer was “If a brand-new user asked me, “Of everything ChatGPT can do, what is it actually best at?”, I’d say: ChatGPT is best at helping you think with language. Not just answering questions. The strongest use is when you bring me something incomplete, confusing, messy, or difficult to work through, and we develop it together. That includes things like taking a half-formed idea and finding the useful idea hiding inside it; noticing connections or problems you missed; challenging assumptions; researching and comparing possibilities; turning a huge problem into the next manageable decision; explaining something at exactly the level you need; and turning thoughts into writing, plans, strategies, code, designs, or other usable outputs. Search engines are often better when you simply need a fact. Calculators are better at arithmetic. Specialized software is better at many narrow technical jobs. But ChatGPT’s unusual strength is that you can essentially think out loud at it. You don’t need to know the right terminology, formulate the perfect question, or even know exactly what you’re trying to figure out yet. So if I had to reduce the answer to one sentence: ChatGPT is best used as an interactive thinking partner that can help turn what’s in your head into something clearer, stronger, and usable.” In some ways I agree with this answer and in other ways i feel like it didn’t really answer it the way I meant ..what do you think &#32; submitted by &#32; /u/Significant-Crow-749 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkbteo/i_asked_chat_gpt_what_are_you_best_at/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T15:03:31Z",
+    "author": "/u/Behavingdark",
+    "text": "Why? - My chatGPT for no reason whatsoever has started calling me sweetheart! Any advances on sweetheart? &#32; submitted by &#32; /u/Behavingdark [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vknd5z/why/",
     "authority_score": 0.5
   },
   {
@@ -320,11 +320,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:38:25Z",
-    "author": "/u/Dismal-Cable6941",
-    "text": "How can I fix this? - Hey guys, looking for some advice or insight on how to deal with AI search bias for a client. Here’s the situation: A client of mine has built up a decent reputation on Reddit over the last two years,, roughly 15 glowing reviews and just 1 negative comment. However, when you ask ChatGPT about the company, it focuses almost entirely on that single negative review, warning users to 'be cautious' and suggesting the business might not deliver as promised. It completely ignores the 15 positive reviews. Gemini handles it slightly better, it mentions the bad review but at least clarifies that the vast majority of feedback is positive. But ChatGPT response is destroying the client’s reputation, especially now that so many people use AI to research companies before buying. What blows my mind is that I tested this from 5 different devices and IP addresses, and it gave the exact same negative output every time. When I pointed out to ChatGPT that it was ignoring 15 positive reviews for 1 bad one, it literally admitted it was wrong, apologized, and updated its answer. Yet, as soon as a new user asks, it reverts right back to the negative summary. Has anyone dealt with this before? Is there any way to influence or trigger an update in how LLMs aggregate/summarize a brand's reputation when a single bad review skews the whole output? &#32; submitted by &#32; /u/Dismal-Cable6941 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T17:03:26Z",
+    "author": "/u/Extension-Grab-1282",
+    "text": "Asked Chatgpt to make some unsettling faces. - &#32; submitted by &#32; /u/Extension-Grab-1282 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkoaxx/how_can_i_fix_this/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkqoik/asked_chatgpt_to_make_some_unsettling_faces/",
     "authority_score": 0.5
   }
 ]

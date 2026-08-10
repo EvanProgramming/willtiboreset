@@ -14086,8 +14086,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-10T17:40:56.943563Z"
   },
   {
     "prediction_time": "2026-08-08T18:00:52.631247Z",
@@ -19118,6 +19118,57 @@
           "Discussion about Anthropic account suspension, unrelated to ChatGPT/Codex quota resets.",
           "Vague reference to characters, no reset or limit context.",
           "Promotional message about a shipped product, no reset or limit mention.",
+          "Mentions 'reset' metaphorically about a person, not a quota reset."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-10T17:40:56.925487Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 41,
+      "hours_since_last_reset": 38.18247742138889,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 129.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.5769,
+      "time_pressure": 0.0026,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.0018,
+      "tibo_signal": 0.0403,
+      "community_signal": 0.0,
+      "release_signal": 0.5877,
+      "llm_scores": {
+        "reset_intent": 0.012195121951219513,
+        "limit_complaint": 0.0,
+        "official_change": 0.03902439024390244,
+        "reset_confirmation": 0.0,
+        "confidence": 0.873170731707317,
+        "reason": [
+          "Text is a casual observation about coding, no mention of resets or limits.",
+          "Discussion about Anthropic account suspension, unrelated to quota resets.",
+          "Vague reference to characters, no relevance to resets or limits.",
+          "Promotional message about a product, no mention of resets.",
           "Mentions 'reset' metaphorically about a person, not a quota reset."
         ]
       },
