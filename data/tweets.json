@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:51:24Z",
-    "author": "/u/notkilleveryoneist",
-    "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T21:11:50Z",
     "author": "/u/ladyshastadaisy",
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T17:51:24Z",
+    "author": "/u/notkilleveryoneist",
+    "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
     "authority_score": 0.5
   },
   {
@@ -200,19 +200,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T19:53:10Z",
-    "author": "/u/LeadershipTrue8164",
-    "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T00:11:28Z",
     "author": "/u/JagroCrag",
     "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T19:53:10Z",
+    "author": "/u/LeadershipTrue8164",
+    "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
     "authority_score": 0.5
   },
   {
@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T13:22:53Z",
     "author": "/u/PigeonWithAgenda",
     "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
@@ -256,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T02:55:07Z",
-    "author": "/u/AmbientMorning",
-    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T07:00:43Z",
     "author": "/u/KeanuRave100",
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -272,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T22:14:54Z",
-    "author": "/u/Impossible-Sleep-597",
-    "text": "Thoughts on using ChatGPT for messaging? - Admittedly, when I need to send what I feel will be a conflict starting or at least heavy message, I will tell my thoughts (what I want to say) to ChatGPT and ask it to edit it to make sure it’s clear, and it’s not an emotionally charged message because I’ve already taken the time to get through my stronger emotions before reaching out. I genuinely want others opinions on this, even if you disagree. I feel like taking the time to make sure the message is written in an healthy way is showing a lot of care, but I’m also open to hearing why you would think it’s not. &#32; submitted by &#32; /u/Impossible-Sleep-597 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T00:28:32Z",
+    "author": "/u/abcfh",
+    "text": "Thinking mode just quotes from websites when asked medical questions - I've noticed that whenever I ask medical questions to ChatGPT while it's in thinking mode, it just pulls several direct quotes from 2 or 3 different websites and presents them without much interpretation or nuance. So rather than taking medical guidelines from places like the National Institute of Health website and explaining what they mean or how they might apply to my situation, it will instead just quote the guidelines directly and say almost nothing about it. That seems like it's potentially one of the downsides of using thinking mode when researching medical questions, that it basically reverts to being a Google search. &#32; submitted by &#32; /u/abcfh [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkz4q5/thoughts_on_using_chatgpt_for_messaging/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2ah3/thinking_mode_just_quotes_from_websites_when/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T22:14:54Z",
+    "author": "/u/Impossible-Sleep-597",
+    "text": "Thoughts on using ChatGPT for messaging? - Admittedly, when I need to send what I feel will be a conflict starting or at least heavy message, I will tell my thoughts (what I want to say) to ChatGPT and ask it to edit it to make sure it’s clear, and it’s not an emotionally charged message because I’ve already taken the time to get through my stronger emotions before reaching out. I genuinely want others opinions on this, even if you disagree. I feel like taking the time to make sure the message is written in an healthy way is showing a lot of care, but I’m also open to hearing why you would think it’s not. &#32; submitted by &#32; /u/Impossible-Sleep-597 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkz4q5/thoughts_on_using_chatgpt_for_messaging/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T09:22:35Z",
     "author": "/u/_Coord",
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T00:20:41Z",
-    "author": "/u/Cr4bby-P477y",
-    "text": "Another reset! - &#32; submitted by &#32; /u/Cr4bby-P477y [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2441/another_reset/",
     "authority_score": 0.5
   }
 ]

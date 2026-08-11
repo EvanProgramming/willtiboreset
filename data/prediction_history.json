@@ -20199,5 +20199,56 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T04:00:52.108283Z",
+    "prediction": {
+      "within_5h": 0.2,
+      "within_24h": 0.3788,
+      "within_48h": 0.522
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 48.51447200416666,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 119.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.7331,
+      "time_pressure": 0.0042,
+      "hazard_rate": 0.019642,
+      "evidence_score": 0.0657,
+      "tibo_signal": 0.0674,
+      "community_signal": 0.6449,
+      "release_signal": 0.7634,
+      "llm_scores": {
+        "reset_intent": 0.015789473684210527,
+        "limit_complaint": 0.08421052631578947,
+        "official_change": 0.09210526315789473,
+        "reset_confirmation": 0.013157894736842105,
+        "confidence": 0.9026315789473683,
+        "reason": [
+          "Official announcement of new cybersecurity initiative and model GPT-5.6-Cyber.",
+          "No mention of usage limit resets.",
+          "Humorous comment about midnight coding, completely irrelevant to resets or limits.",
+          "Discussion about account suspension with Anthropic, not related to quota resets.",
+          "Vague title with no relevant content."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.4143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
