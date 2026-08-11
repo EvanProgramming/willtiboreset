@@ -1,72 +1,72 @@
 {
-  "updated_at": "2026-08-10T11:26:02.534025+00:00",
+  "updated_at": "2026-08-11T03:54:34.698348+00:00",
   "prediction": {
-    "within_5h": 0.5,
-    "within_24h": 0.8,
-    "within_48h": 0.9
+    "within_5h": 0.4818,
+    "within_24h": 0.7989,
+    "within_48h": 0.8834
   },
-  "confidence": "medium",
+  "confidence": "high",
   "next_reset": {
-    "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 136.1,
+    "expected_time": "2026-08-17T08:45:00+00:00",
+    "hours_until": 148.8,
     "status": "on_schedule"
   },
   "signals": {
-    "tweet_count": 16,
-    "hours_since_last_reset": 31.93403465111111,
+    "tweet_count": 13,
+    "hours_since_last_reset": 19.159637978611112,
     "next_reset": {
-      "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 136.1,
+      "expected_time": "2026-08-17T08:45:00+00:00",
+      "hours_until": 148.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
     "median_reset_interval": 46.93,
     "interval_uncertainty": 21.88,
-    "std_reset_interval": 78.89459839998653,
+    "std_reset_interval": 87.23215806256616,
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.4825,
-    "time_pressure": 0.002,
-    "hazard_rate": 0.064861,
-    "evidence_score": 0.3664,
-    "tibo_signal": 0.4691,
+    "time_ratio": 0.2895,
+    "time_pressure": 0.0011,
+    "hazard_rate": 0.064647,
+    "evidence_score": 0.5277,
+    "tibo_signal": 0.434,
     "community_signal": 0.0,
-    "release_signal": 0.504,
+    "release_signal": 0.5011,
     "llm_scores": {
-      "reset_intent": 0.19375,
+      "reset_intent": 0.22307692307692306,
       "limit_complaint": 0.0,
-      "official_change": 0.175,
-      "reset_confirmation": 0.096875,
-      "confidence": 0.50625,
+      "official_change": 0.21538461538461537,
+      "reset_confirmation": 0.11153846153846153,
+      "confidence": 0.5307692307692308,
       "reason": [
+        "Moderate reset signal detected (score: 0.50)",
+        "Release/update signal detected (score: 0.50)",
         "No relevant signals detected; possibly unrelated content",
         "Community pressure signal detected (score: 0.40)",
-        "No relevant signals detected; possibly unrelated content",
-        "Moderate reset signal detected (score: 0.40)",
-        "Release/update signal detected (score: 0.50)"
+        "No relevant signals detected; possibly unrelated content"
       ]
     },
     "prior_applied": false,
-    "interval_count": 13,
-    "weekly_cycle_factor": 0.8143,
+    "interval_count": 12,
+    "weekly_cycle_factor": 0.8308,
     "explicit_future_reset": false
   },
   "main_factors": [
     {
-      "factor": "31.9 hours since last reset",
+      "factor": "19.2 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
     {
       "factor": "Weekly cycle: today is a typical reset day (US Monday)",
       "impact": "+24%",
-      "score": 0.81
+      "score": 0.83
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+9%",
-      "score": 0.47
+      "impact": "+8%",
+      "score": 0.43
     },
     {
       "factor": "Official release/change signal",
@@ -75,10 +75,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (31.9 hours ago), low time pressure (0.00)",
-    "Weak reset evidence detected (evidence_score=0.37), insufficient to confirm",
-    "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
-    "Schedule floor applied: known reset day (factor=0.81), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 31.9 hours since last reset (-5%)"
+    "Recently reset (19.2 hours ago), low time pressure (0.00)",
+    "Moderate reset evidence detected (evidence_score=0.53)",
+    "Weekly cycle boost active (factor=0.83): today is a typical reset day, base probability and probability cap raised",
+    "Schedule floor applied: known reset day (factor=0.83), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
+    "Main factor: 19.2 hours since last reset (-5%)"
   ]
 }

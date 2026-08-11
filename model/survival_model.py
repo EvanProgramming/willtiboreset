@@ -443,6 +443,7 @@ def _schedule_prior(
     horizons: list[int],
     weekly_cycle_factor: float,
     time_pressure: float,
+    hours_since_last_reset: Optional[float] = None,
 ) -> dict[str, float]:
     """
     Schedule-aware probability floor.
@@ -450,6 +451,10 @@ def _schedule_prior(
     When the current day is a known reset day (high weekly_cycle_factor) and
     we are overdue (high time_pressure), the model should output a minimum
     probability regardless of LLM evidence.
+
+    SAFETY: The floor is DISABLED if a reset occurred very recently
+    (< 6 hours). This prevents the system from showing high reset probability
+    immediately after a confirmed reset, which would be incorrect.
 
     Tibo has EXPLICITLY stated he resets on US Mondays. This is not a
     statistical inference — it's a stated policy. When weekly_cycle_factor
@@ -459,6 +464,12 @@ def _schedule_prior(
     floors: dict[str, float] = {}
     is_overdue = time_pressure >= 0.8
 
+    # SAFETY: Disable schedule floor if recently reset (< 24 hours).
+    # Tibo's typical reset cycle is ~66h (median) or ~168h (weekly).
+    # Within 24h of a reset, probability should be low regardless of
+    # whether it's a known reset day — the cycle just started.
+    recently_reset = (hours_since_last_reset is not None and hours_since_last_reset < 24)
+
     # Determine scaling: strong match = full floor, moderate = half, weak = none
     if weekly_cycle_factor >= 0.7:
         scale = 1.0    # Monday: Tibo explicitly said he resets — full weight
@@ -466,6 +477,9 @@ def _schedule_prior(
         scale = 0.4    # Sunday/Tuesday: adjacent days, partial weight
     else:
         scale = 0.0    # Other days: no schedule floor
+
+    if recently_reset:
+        scale = 0.0    # Just reset — no schedule floor, let time_pressure dominate
 
     for h in horizons:
         if is_overdue:
@@ -482,11 +496,12 @@ def _probabilities(
     evidence_score: float,
     horizons: list[int],
     weekly_cycle_factor: float = 0.0,
+    hours_since_last_reset: Optional[float] = None,
 ) -> dict[str, float]:
     """Compute posterior probability for each time horizon."""
     # Compute schedule-aware probability floor
     schedule_floors = _schedule_prior(
-        horizons, weekly_cycle_factor, time_pressure,
+        horizons, weekly_cycle_factor, time_pressure, hours_since_last_reset,
     )
 
     probability: dict[str, float] = {}
@@ -659,6 +674,7 @@ class ResetPredictor:
             features.evidence_score,
             self._horizons,
             features.weekly_cycle_factor,
+            features.hours_since_last_reset,
         )
 
         # Explicit future reset announcement: Tibo said "I will reset today/tonight".
