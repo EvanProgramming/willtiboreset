@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-11T19:05:13Z",
+    "author": "Tibo",
+    "text": "We did it, finally... Codex & ChatGPT desktop, now on Linux. Thanks for waiting and you can cancel that MacBook order if you got impatient. It’s that... - We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. Thanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.👀OpenAI: Now in preview: The ChatGPT desktop app for Linux.Use ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2087254026232775052",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-11T18:59:16Z",
     "author": "Tibo",
     "text": "Import your world. Codex. Run. - Import your world. Codex. Run.OpenAI Developers: You can now keep your work from other agents in sync with ChatGPT Work and Codex.Import projects, chats, skills, and plugins, review your import history, and opt in to automatic updates in Settings.Now available in the ChatGPT desktop app.",
@@ -96,14 +104,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-08-04T20:27:31Z",
-    "author": "Tibo",
-    "text": "What is my title at OpenAI - What is my title at OpenAI",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2084738022650892544",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -136,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T14:35:01Z",
-    "author": "/u/Tiny_Dirt6979",
-    "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T16:48:30Z",
     "author": "/u/Shot-Dimension-1405",
     "text": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 - If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
@@ -152,11 +144,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T14:40:28Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "timestamp": "2026-08-11T14:35:01Z",
+    "author": "/u/Tiny_Dirt6979",
+    "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
     "authority_score": 0.5
   },
   {
@@ -165,6 +157,14 @@
     "text": "It's been months now, any news / solutions about the dot pattern on generated images? - I don't use image generation too often, but when I do I'm usually blown away by how good it's gotten. But that freaking pattern of dots is so obvious to me, and I immediately see it in so many random pictures online. Has anyone found a solution that doesn't hurt the quality / detail of the pictures? Does anyone have any information about OpenAI trying to tackle this? &#32; submitted by &#32; /u/OmriY1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlowyx/its_been_months_now_any_news_solutions_about_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:40:28Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
     "authority_score": 0.5
   },
   {
@@ -181,6 +181,14 @@
     "text": "What's a ChatGPT workflow you use daily that most people overlook? - What's a ChatGPT workflow you use daily that most people overlook? I'll go first: using it as a blunt editor. I paste my own writing and ask &quot;what would you cut?&quot; with no rewriting, just deletions. It's brutally good at spotting the sentence I'm attached to that adds nothing. The second one: asking it to explain the same concept to me at three different levels until one clicks. What's the unglamorous workflow you actually use every day? &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlp9hl/whats_a_chatgpt_workflow_you_use_daily_that_most/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T15:12:42Z",
+    "author": "/u/takeyoufergranite",
+    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:12:42Z",
-    "author": "/u/takeyoufergranite",
-    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
+    "timestamp": "2026-08-11T18:39:29Z",
+    "author": "/u/lazarovpavlin04",
+    "text": "How to add GPTS in ChatGPT? The \"GPTS\" section disappeared - &#32; submitted by &#32; /u/lazarovpavlin04 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq0oj/how_to_add_gpts_in_chatgpt_the_gpts_section/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +256,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T02:55:07Z",
     "author": "/u/AmbientMorning",
     "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
@@ -256,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T17:43:14Z",
+    "author": "/u/Complex-Poet-6809",
+    "text": "ChatGPT has been starting every response with “Yes—“ regardless of my prompt being a yes-or-no question or not. - Yes—this is a very interesting development in ChatGPT’s behavior. Make it stop please OpenAI, it’s getting annoying. &#32; submitted by &#32; /u/Complex-Poet-6809 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlofev/chatgpt_has_been_starting_every_response_with_yes/",
     "authority_score": 0.5
   },
   {
@@ -285,22 +301,6 @@
     "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T00:11:28Z",
-    "author": "/u/JagroCrag",
-    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T15:46:36Z",
-    "author": "/u/Lepla",
-    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
     "authority_score": 0.5
   }
 ]
