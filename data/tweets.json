@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T11:53:59Z",
-    "author": "/u/Imaginary-Sun1350",
-    "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T16:38:26Z",
     "author": "/u/hellohellowhatyoube",
     "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T11:53:59Z",
+    "author": "/u/Imaginary-Sun1350",
+    "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T23:45:30Z",
+    "author": "/u/giperborey-us",
+    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T19:53:10Z",
     "author": "/u/LeadershipTrue8164",
     "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T11:16:40Z",
-    "author": "/u/mrsmezcal",
-    "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkhxvb/i_asked_cgpt_to_create_a_graph_of_cat/",
     "authority_score": 0.5
   },
   {
@@ -200,11 +200,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T23:45:30Z",
-    "author": "/u/giperborey-us",
-    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "timestamp": "2026-08-10T11:16:40Z",
+    "author": "/u/mrsmezcal",
+    "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkhxvb/i_asked_cgpt_to_create_a_graph_of_cat/",
     "authority_score": 0.5
   },
   {
@@ -216,19 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T13:22:53Z",
     "author": "/u/PigeonWithAgenda",
     "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {
@@ -240,6 +240,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T00:11:28Z",
+    "author": "/u/JagroCrag",
+    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T07:00:43Z",
     "author": "/u/KeanuRave100",
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -248,11 +256,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:11:28Z",
-    "author": "/u/JagroCrag",
-    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
+    "timestamp": "2026-08-10T20:09:56Z",
+    "author": "/u/Outside-Session-6002",
+    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
     "authority_score": 0.5
   },
   {
@@ -264,11 +272,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:09:56Z",
-    "author": "/u/Outside-Session-6002",
-    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T22:31:39Z",
+    "author": "/u/Streetboylover_",
+    "text": "Anyone else having issues uploading files to ChatGPT? - Has anyone else been having issues uploading files to ChatGPT recently? I upload PDFs pretty regularly and it used to work fine. Occasionally I’d get the “Failed upload to files.oaiusercontent.com” error, but lately it’s happening constantly. For example, I’ll upload 3 files and maybe 1 goes through while the other 2 fail. Even uploading them one at a time doesn’t consistently work. I’ve tried different browsers, Wi-Fi, and even a mobile hotspot with the same issue on my laptop. Weirdly, uploading from my phone seems to work. Just curious if anyone else has been seeing this lately or found a fix? &#32; submitted by &#32; /u/Streetboylover_ [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkzjbx/anyone_else_having_issues_uploading_files_to/",
     "authority_score": 0.5
   },
   {
@@ -285,14 +293,6 @@
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T22:31:39Z",
-    "author": "/u/Streetboylover_",
-    "text": "Anyone else having issues uploading files to ChatGPT? - Has anyone else been having issues uploading files to ChatGPT recently? I upload PDFs pretty regularly and it used to work fine. Occasionally I’d get the “Failed upload to files.oaiusercontent.com” error, but lately it’s happening constantly. For example, I’ll upload 3 files and maybe 1 goes through while the other 2 fail. Even uploading them one at a time doesn’t consistently work. I’ve tried different browsers, Wi-Fi, and even a mobile hotspot with the same issue on my laptop. Weirdly, uploading from my phone seems to work. Just curious if anyone else has been seeing this lately or found a fix? &#32; submitted by &#32; /u/Streetboylover_ [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkzjbx/anyone_else_having_issues_uploading_files_to/",
     "authority_score": 0.5
   },
   {
