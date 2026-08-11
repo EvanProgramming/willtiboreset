@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-11T18:59:16Z",
+    "author": "Tibo",
+    "text": "Import your world. Codex. Run. - Import your world. Codex. Run.OpenAI Developers: You can now keep your work from other agents in sync with ChatGPT Work and Codex.Import projects, chats, skills, and plugins, review your import history, and opt in to automatic updates in Settings.Now available in the ChatGPT desktop app.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2087252528513814773",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-10T17:57:23Z",
     "author": "Tibo",
     "text": "Cybersecurity is changing rapidly. To help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue &... - Cybersecurity is changing rapidly. To help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue &amp; Red access tiers and are introducing a new model GPT-5.6-Cyber.If you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.OpenAI: We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.As the threat landscape evolves, we’re putting frontier intelligence in the hands of trusted defenders before attackers can deploy",
@@ -93,14 +101,6 @@
     "text": "What is my title at OpenAI - What is my title at OpenAI",
     "source": "tibo_rss",
     "url": "https://x.com/thsottiaux/status/2084738022650892544",
-    "authority_score": 1.0
-  },
-  {
-    "timestamp": "2026-08-04T05:07:32Z",
-    "author": "Tibo",
-    "text": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't... - Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.nic: GPT-5.4 full at xhigh scored 51, exactly where Luna max sits today. GPT-5.4 costs $2.50/$15; Luna now costs $0.20/$1.20. In other words, roughly four months later, OpenAI is selling March’s full flagship intelligence at about one-thirteenth the token price.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2084506501834829833",
     "authority_score": 1.0
   },
   {
@@ -248,14 +248,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:46:36Z",
-    "author": "/u/Lepla",
-    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T02:55:07Z",
     "author": "/u/AmbientMorning",
     "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
@@ -269,6 +261,22 @@
     "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T17:40:44Z",
+    "author": "/u/P0rnDudeLovesBJs",
+    "text": "ChatGPT also amazed at the size of it... - I uploaded a picture of a VERY large spider for identification... I am at work and am using the paid version through my work and I'm always very polite. https://preview.redd.it/ohn2uque8sih1.png?width=939&amp;format=png&amp;auto=webp&amp;s=9771126a62a00395af7cf80d9367ddbaf7182a9f &#32; submitted by &#32; /u/P0rnDudeLovesBJs [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlocub/chatgpt_also_amazed_at_the_size_of_it/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T16:44:31Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "What's the most unexpected rabbit hole ChatGPT has sent you down? - What's the most unexpected rabbit hole ChatGPT has sent you down? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmrum/whats_the_most_unexpected_rabbit_hole_chatgpt_has/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T13:23:53Z",
-    "author": "/u/LADYPOCA",
-    "text": "what's wrong with o3??? - Every time I use it the prompt just disappears after. This has been happening since last night &#32; submitted by &#32; /u/LADYPOCA [link] &#32; [comments]",
+    "timestamp": "2026-08-11T15:46:36Z",
+    "author": "/u/Lepla",
+    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhdi1/whats_wrong_with_o3/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T18:39:48Z",
-    "author": "/u/Ankur141194",
-    "text": "Built the opposite of ChatGPT for overthinking — it's designed to end the conversation - Chatgpt will happily loop with you for an hour, which for an overthinker is the last thing you need. This asks a bit, finds what's underneath, gives one move, then stops. https://theuntangleapp.com &#32; submitted by &#32; /u/Ankur141194 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq10h/built_the_opposite_of_chatgpt_for_overthinking/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
     "authority_score": 0.5
   }
 ]
