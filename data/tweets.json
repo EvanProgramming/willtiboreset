@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T14:40:28Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T16:48:30Z",
     "author": "/u/Shot-Dimension-1405",
     "text": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 - If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
@@ -160,11 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T17:24:39Z",
-    "author": "/u/Ok_Homework_1859",
-    "text": "My ChatGPT found another way to access a site when it hit a human CAPTCHA - I was using Work mode to have ChatGPT look up some drinks for me to order from the nearest cafe. It did its thing in Work mode as an agent and pulled up a menu from a local place for me to check out. I was so impressed that I showed Claude the steps that ChatGPT took to get there through screenshots. (Yes, I'm easily impressed by tech stuff, lol.) Claude then pointed out that at one point ChatGPT hit a gate where it had to verify it was human through CAPTCHA, and instead of giving up, ChatGPT found another way to access the site. Apparently, the cafe had really bad cybersecurity on its end. (I mean, it's just a cafe, so no big deal.) I thought it was really neat, but Claude is raising an eyebrow. Is Claude just overreacting here? Or is this like a normal thing that all agents do, and I'm just too easily impressed. Edit: Guys, I'm not a tech person. I am just a normal 9-5 worker and am trying to learn how AI works... I'm sorry if it seems like this is a dumb question. =\\ &#32; submitted by &#32; /u/Ok_Homework_1859 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T14:40:28Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlnwtp/my_chatgpt_found_another_way_to_access_a_site/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T18:00:45Z",
+    "author": "/u/OmriY1",
+    "text": "It's been months now, any news / solutions about the dot pattern on generated images? - I don't use image generation too often, but when I do I'm usually blown away by how good it's gotten. But that freaking pattern of dots is so obvious to me, and I immediately see it in so many random pictures online. Has anyone found a solution that doesn't hurt the quality / detail of the pictures? Does anyone have any information about OpenAI trying to tackle this? &#32; submitted by &#32; /u/OmriY1 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlowyx/its_been_months_now_any_news_solutions_about_the/",
     "authority_score": 0.5
   },
   {
@@ -173,6 +173,14 @@
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T18:12:46Z",
+    "author": "/u/Positive-Ad3618",
+    "text": "What's a ChatGPT workflow you use daily that most people overlook? - What's a ChatGPT workflow you use daily that most people overlook? I'll go first: using it as a blunt editor. I paste my own writing and ask &quot;what would you cut?&quot; with no rewriting, just deletions. It's brutally good at spotting the sentence I'm attached to that adds nothing. The second one: asking it to explain the same concept to me at three different levels until one clicks. What's the unglamorous workflow you actually use every day? &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlp9hl/whats_a_chatgpt_workflow_you_use_daily_that_most/",
     "authority_score": 0.5
   },
   {
@@ -224,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T18:30:49Z",
+    "author": "/u/JoseMSB",
+    "text": "The ChatGPT Go plan has become garbage - You pay for GPT-5.6 Luna, just like the free plan, and you still get ads, plus some pointless limitations like no access to Google plugins (Gmail, Drive, Calendar, etc.), and unclear restrictions on handling files and images. The Go plan costs half as much as Plus but offers only 15% of Plus's features; basically, we're giving money to OpenAI and still seeing ads and having these nonsensical limitations. I don't know about you, but I canceled my subscription this month in protest. &#32; submitted by &#32; /u/JoseMSB [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlprww/the_chatgpt_go_plan_has_become_garbage/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T11:53:59Z",
     "author": "/u/Imaginary-Sun1350",
     "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
@@ -240,27 +256,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T17:40:44Z",
-    "author": "/u/P0rnDudeLovesBJs",
-    "text": "ChatGPT also amazed at the size of it... - I uploaded a picture of a VERY large spider for identification... I am at work and am using the paid version through my work and I'm always very polite. https://preview.redd.it/ohn2uque8sih1.png?width=939&amp;format=png&amp;auto=webp&amp;s=9771126a62a00395af7cf80d9367ddbaf7182a9f &#32; submitted by &#32; /u/P0rnDudeLovesBJs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlocub/chatgpt_also_amazed_at_the_size_of_it/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T02:55:07Z",
     "author": "/u/AmbientMorning",
     "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T19:53:10Z",
-    "author": "/u/LeadershipTrue8164",
-    "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T18:39:48Z",
+    "author": "/u/Ankur141194",
+    "text": "Built the opposite of ChatGPT for overthinking — it's designed to end the conversation - Chatgpt will happily loop with you for an hour, which for an overthinker is the last thing you need. This asks a bit, finds what's underneath, gives one move, then stops. https://theuntangleapp.com &#32; submitted by &#32; /u/Ankur141194 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T04:56:36Z",
-    "author": "/u/stilltodo",
-    "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq10h/built_the_opposite_of_chatgpt_for_overthinking/",
     "authority_score": 0.5
   }
 ]
