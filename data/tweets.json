@@ -176,14 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:56:02Z",
-    "author": "/u/bigus-_-dickus",
-    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T12:04:59Z",
     "author": "/u/terenscendent",
     "text": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay - &#32; submitted by &#32; /u/terenscendent [link] &#32; [comments]",
@@ -192,11 +184,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T17:56:02Z",
+    "author": "/u/bigus-_-dickus",
+    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T15:05:08Z",
     "author": "/u/KeanuRave100",
     "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T15:12:42Z",
+    "author": "/u/takeyoufergranite",
+    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
     "authority_score": 0.5
   },
   {
@@ -232,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:12:42Z",
-    "author": "/u/takeyoufergranite",
-    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T17:51:24Z",
     "author": "/u/notkilleveryoneist",
     "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
@@ -264,14 +264,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:11:02Z",
-    "author": "/u/Used-Call-3503",
-    "text": "I got tired of screenshotting things into ChatGPT everyday, so I built this - For the last 4 months on weekends I’ve been grinding and building Lumini uselumini.com, a desktop app that lets you ask about whatever is on your screen. I made it because I kept doing the same stupid thing over and over. I’d get stuck on something, take a screenshot, open ChatGPT, upload it, explain what I was looking at… just to ask one question. With Lumini you just press a shortcut and you can speak to it about literally anything. Its like Chatgpt + Siri together. For example you could say “Why is this error happening on the terminal?” “Is this a good trading entry set up?” “What are veggie restaurants open in this city and send it to me as a text.” “Can you teach what the best chess move is here” Lumini can see what you’re looking at, so it’s useful for getting unstuck but also for learning stuff. Would love feedback from anyone and will extend the usage for anyone who uses from this sub &#32; submitted by &#32; /u/Used-Call-3503 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk64y/i_got_tired_of_screenshotting_things_into_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T19:53:10Z",
     "author": "/u/LeadershipTrue8164",
     "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
@@ -285,6 +277,14 @@
     "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T16:44:31Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "What's the most unexpected rabbit hole ChatGPT has sent you down? - What's the most unexpected rabbit hole ChatGPT has sent you down? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmrum/whats_the_most_unexpected_rabbit_hole_chatgpt_has/",
     "authority_score": 0.5
   },
   {
