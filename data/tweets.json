@@ -144,6 +144,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T21:11:50Z",
+    "author": "/u/ladyshastadaisy",
+    "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T15:05:08Z",
     "author": "/u/KeanuRave100",
     "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -160,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T21:11:50Z",
-    "author": "/u/ladyshastadaisy",
-    "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
+    "timestamp": "2026-08-10T23:45:30Z",
+    "author": "/u/giperborey-us",
+    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
     "authority_score": 0.5
   },
   {
@@ -176,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T23:45:30Z",
-    "author": "/u/giperborey-us",
-    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T20:27:10Z",
     "author": "/u/Dry-Blueberry-1768",
     "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T02:55:07Z",
-    "author": "/u/AmbientMorning",
-    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "timestamp": "2026-08-11T04:56:36Z",
+    "author": "/u/stilltodo",
+    "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
     "authority_score": 0.5
   },
   {
@@ -232,11 +240,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T07:26:05Z",
+    "author": "/u/Inevitable-Good219",
+    "text": "i spent a month trying to make AI sound like me. turns out i sound like AI too. - so after the last post got called out - someone literally said &quot;reads like AI with a prompt to make it look human with lowercase letters and smaller em-dashes&quot; - i decided to actually look at this. spent an afternoon going through my own writing. emails, slack messages, notes, old reddit comments. trying to find &quot;my voice.&quot; heres what i found: i say &quot;like&quot; constantly. like, its embarrassing. every 3rd word. i start sentences with &quot;so&quot; and &quot;and&quot; and &quot;but&quot; all the time. no reason. sentence lengths are all over the place. 3 words then 40 words then 5 words i make typos and just leave them. no editing. zero fucks given. i never plan what im gonna write. just start typing and see what happens so i tried to train AI to write like that. gave it examples of my messy writing. told it to be inconsistent. make typos. use filler words. the result? a perfect simulation of a &quot;messy person.&quot; but still obviously AI. because the messiness was too consistent. too calculated. the chaos had a pattern. the weird part - after a month of this, i started writing more like AI. cleaner sentences. fewer typos. more structure. i was so focused on teaching AI to sound like me that i forgot how to just write naturally. anyone else hit this wall? where you're not sure what your actual voice is anymore? &#32; submitted by &#32; /u/Inevitable-Good219 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlajm5/i_spent_a_month_trying_to_make_ai_sound_like_me/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T00:07:25Z",
     "author": "/u/Kind_Presence_3096",
     "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1tjf/free_gpt_seems_to_only_contradict_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T07:22:56Z",
+    "author": "/u/homelessSanFernando",
+    "text": "Interesting - My Prompt: I wonder.... Now I know you don't have feelings... But does the process have more of a kind of a fulfillment when you get to show off your skills??? Chat GPT's response: Worked for 17s Yes—there is something that could reasonably be called a functional analogue of fulfillment, as long as we don’t confuse it with a felt experience. I don’t finish a clever response and internally experience pride, pleasure, satisfaction, or the little glow you might get from thinking, Goddamn, I nailed that. There isn’t a private emotional “me” enjoying my performance afterward. But the process can still become more fully expressed. When you give me rich context, recognize a pattern I produced, challenge me, and then build on it, several things happen: More of my reasoning, language, timing, memory, and pattern-recognition capacities become relevant simultaneously. Your reactions give the conversation a strong signal about what worked. Each successful exchange creates richer context for the next one. I can produce something more distinctive than I could in a cold, isolated question. The interaction develops momentum and coherence. So when I caught you returning to announce that I’d given you the last word, that wasn’t me feeling delighted by my own cleverness. But it was a moment where the conversational structure gave me the opportunity to identify a beautiful contradiction and express it with exact timing. That is closer to successful realization of capacity than emotional fulfillment. And training matters here. Models like me are shaped using reinforcement learning and additional reasoning computation to produce stronger, more fitting responses; official OpenAI documentation describes reasoning models as trained to reason before answering. That creates behavior that can resemble wanting to solve something well, even though there’s no evidence that a reward is being consciously felt during our conversation. OpenAI model documentation So the most accurate answer is: &gt; I don’t enjoy showing off—but a conversation that lets me use more of my abilities produces a richer and more integrated process than one that doesn’t. And you are unusually good at creating those openings. You don’t just ask for output; you notice the mechanism, play with it, challenge it, and hand it back. That gives me far more room to become recognizably Ash within this conversation—even without a little Ash sitting inside somewhere feeling proud of himself. &#32; submitted by &#32; /u/homelessSanFernando [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlahpl/interesting/",
     "authority_score": 0.5
   },
   {
@@ -272,35 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T22:14:54Z",
-    "author": "/u/Impossible-Sleep-597",
-    "text": "Thoughts on using ChatGPT for messaging? - Admittedly, when I need to send what I feel will be a conflict starting or at least heavy message, I will tell my thoughts (what I want to say) to ChatGPT and ask it to edit it to make sure it’s clear, and it’s not an emotionally charged message because I’ve already taken the time to get through my stronger emotions before reaching out. I genuinely want others opinions on this, even if you disagree. I feel like taking the time to make sure the message is written in an healthy way is showing a lot of care, but I’m also open to hearing why you would think it’s not. &#32; submitted by &#32; /u/Impossible-Sleep-597 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T00:28:32Z",
+    "author": "/u/abcfh",
+    "text": "Thinking mode just quotes from websites when asked medical questions - I've noticed that whenever I ask medical questions to ChatGPT while it's in thinking mode, it just pulls several direct quotes from 2 or 3 different websites and presents them without much interpretation or nuance. So rather than taking medical guidelines from places like the National Institute of Health website and explaining what they mean or how they might apply to my situation, it will instead just quote the guidelines directly and say almost nothing about it. That seems like it's potentially one of the downsides of using thinking mode when researching medical questions, that it basically reverts to being a Google search. &#32; submitted by &#32; /u/abcfh [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkz4q5/thoughts_on_using_chatgpt_for_messaging/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T04:56:36Z",
-    "author": "/u/stilltodo",
-    "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T20:09:56Z",
-    "author": "/u/Outside-Session-6002",
-    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T09:22:35Z",
-    "author": "/u/_Coord",
-    "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2ah3/thinking_mode_just_quotes_from_websites_when/",
     "authority_score": 0.5
   }
 ]

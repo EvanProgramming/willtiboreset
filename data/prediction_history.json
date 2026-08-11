@@ -15262,8 +15262,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T06:01:17.829322Z",
@@ -15311,8 +15311,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T06:40:59.582261Z",
@@ -15360,8 +15360,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T07:00:59.586798Z",
@@ -15409,8 +15409,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T07:40:52.458712Z",
@@ -15458,8 +15458,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T08:00:53.298101Z",
@@ -15507,8 +15507,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T08:38:46.149766Z"
   },
   {
     "prediction_time": "2026-08-09T08:40:55.527194Z",
@@ -20394,6 +20394,57 @@
           "Humorous comment about coding, completely irrelevant to resets or limits.",
           "No signals related to quota or official changes.",
           "Discussion about account suspension with Anthropic, not about usage limits."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.4154,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T08:38:46.123993Z",
+    "prediction": {
+      "within_5h": 0.3456,
+      "within_24h": 0.6191,
+      "within_48h": 0.7741
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 23.89614253138889,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 144.1,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 70.04,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 25.18,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3412,
+      "time_pressure": 0.0033,
+      "hazard_rate": 0.039419,
+      "evidence_score": 0.4216,
+      "tibo_signal": 0.3919,
+      "community_signal": 0.5475,
+      "release_signal": 0.528,
+      "llm_scores": {
+        "reset_intent": 0.10789473684210525,
+        "limit_complaint": 0.028947368421052635,
+        "official_change": 0.12105263157894736,
+        "reset_confirmation": 0.053947368421052626,
+        "confidence": 0.4394736842105263,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
         ]
       },
       "prior_applied": false,
