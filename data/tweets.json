@@ -216,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:11:28Z",
-    "author": "/u/JagroCrag",
-    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T13:23:53Z",
     "author": "/u/LADYPOCA",
     "text": "what's wrong with o3??? - Every time I use it the prompt just disappears after. This has been happening since last night &#32; submitted by &#32; /u/LADYPOCA [link] &#32; [comments]",
@@ -232,11 +224,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T00:11:28Z",
+    "author": "/u/JagroCrag",
+    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:35:01Z",
+    "author": "/u/Tiny_Dirt6979",
+    "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T19:53:10Z",
     "author": "/u/LeadershipTrue8164",
     "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T13:20:16Z",
+    "author": "/u/toxic_prince21",
+    "text": "Reset is live ! Everyone get to work ! - Reset is live ! Everyone get to work ! &#32; submitted by &#32; /u/toxic_prince21 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlha9x/reset_is_live_everyone_get_to_work/",
     "authority_score": 0.5
   },
   {
@@ -256,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T09:00:17Z",
-    "author": "/u/SomeOneRandomOP",
-    "text": "Using the different models in different industries - your experience? - Hi all, I'm seeing so many conversations from people discussing how they're &quot;using the models wrong&quot; and &quot;don't use Sol max as high is enough for you&quot;, yet all the conversations lack the nuance of what people are using them for. I think we know that these AI models/companies have a financial incentive to target the high earning industries, so it makes sense that they would be better at coding and financial analysis, rather than creative story telling. But I think it also goes further for example with UI development it kinda sucks, yet backend and database management it works well - even with the model and strength. In my experience (medical research bioinformatics) the 5.5 high produces better, concise code, whilst the 5.6 Sol tends to write it in a website development style. With Sol Max it gets even worse and is almost unusable as I have to constantly correct it and wrangle it in with safeguard and boundaries. However, I also develop websites and have found the 5.6 Sol max is fantastic at integrating changes across complex websites/webapps and compex architectural changes. Question: tell me what industry you work in and what work you use chatgpt for, and then your experience of using the different models. 5.5 high to 5.6 Sol high and Max ect. Thanks all, I'm genuinely quite interested to see the results and might try to model them in a follow up post.... using Chatgpt 😅 &#32; submitted by &#32; /u/SomeOneRandomOP [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlc59q/using_the_different_models_in_different/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T00:07:25Z",
     "author": "/u/Kind_Presence_3096",
     "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
@@ -272,35 +280,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T13:47:53Z",
-    "author": "/u/VampyreLust",
-    "text": "Claude will now include invisible marks to show a text was made with AI, ChatGPT to follow? - &#32; submitted by &#32; /u/VampyreLust [link] &#32; [comments]",
+    "timestamp": "2026-08-11T09:00:17Z",
+    "author": "/u/SomeOneRandomOP",
+    "text": "Using the different models in different industries - your experience? - Hi all, I'm seeing so many conversations from people discussing how they're &quot;using the models wrong&quot; and &quot;don't use Sol max as high is enough for you&quot;, yet all the conversations lack the nuance of what people are using them for. I think we know that these AI models/companies have a financial incentive to target the high earning industries, so it makes sense that they would be better at coding and financial analysis, rather than creative story telling. But I think it also goes further for example with UI development it kinda sucks, yet backend and database management it works well - even with the model and strength. In my experience (medical research bioinformatics) the 5.5 high produces better, concise code, whilst the 5.6 Sol tends to write it in a website development style. With Sol Max it gets even worse and is almost unusable as I have to constantly correct it and wrangle it in with safeguard and boundaries. However, I also develop websites and have found the 5.6 Sol max is fantastic at integrating changes across complex websites/webapps and compex architectural changes. Question: tell me what industry you work in and what work you use chatgpt for, and then your experience of using the different models. 5.5 high to 5.6 Sol high and Max ect. Thanks all, I'm genuinely quite interested to see the results and might try to model them in a follow up post.... using Chatgpt 😅 &#32; submitted by &#32; /u/SomeOneRandomOP [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhyvb/claude_will_now_include_invisible_marks_to_show_a/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlc59q/using_the_different_models_in_different/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T14:31:31Z",
+    "author": "/u/No_Charge_8773",
+    "text": "Log in stuck - Hey everyone, I've been trying to log into my ChatGPT account today, but I keep running into an issue and can't get past the login page. Every time I try to sign it gets stuck on a the logging screen all the time. Does somebody have the same problem or somebody has a solution to this?? Because its really annoying. Thank you. &#32; submitted by &#32; /u/No_Charge_8773 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj3v7/log_in_stuck/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T13:20:16Z",
-    "author": "/u/toxic_prince21",
-    "text": "Reset is live ! Everyone get to work ! - Reset is live ! Everyone get to work ! &#32; submitted by &#32; /u/toxic_prince21 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T14:29:58Z",
+    "author": "/u/Asohailwahab",
+    "text": "I will pay 1 million for a developer to build this - I WILL PAY 1 MILLION FOR THIS 😭 I will literally pay 1,000,000 to the developer who fixes this. ChatGPT macOS: ⌘C text → ⌘Tab back to ChatGPT → ⌘V …and the search box ISN’T FOCUSED. 🤦‍♂️ Why do I have to grab my mouse and click the prompt every single time?! PLEASE just give us a keyboard shortcut like / to instantly focus the ChatGPT prompt, the same way Google focuses its search bar. 1 MILLION. I’m serious. 😂 OpenAI, please. 🙏⌨️ &#32; submitted by &#32; /u/Asohailwahab [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlha9x/reset_is_live_everyone_get_to_work/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T09:22:08Z",
-    "author": "/u/abditefera",
-    "text": "Made an AI Wizard that interviews you before generating anything — curious what people think of the approach - Most AI tools give you a text box. You write something, it generates something, and you spend the rest of the time trying to get it to understand what you actually meant. AI Wizard does it differently. You pick a workflow — website, app, pitch deck, logo, API, etc. — and it asks you a short series of adaptive questions before generating anything. Each answer narrows the next question. By the end, it has enough context to produce something genuinely useful. It's free. I'm absorbing the API costs myself for now. My country isn't listed on Stripe or PayPal, so I can't take traditional payments — there's a Binance link if anyone wants to chip in, but no pressure at all. Would love honest feedback — does the interview feel like a better UX, or is it just extra steps? 🔗 https://aiwizard-a.vercel.app/ &#32; submitted by &#32; /u/abditefera [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlcit1/made_an_ai_wizard_that_interviews_you_before/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj298/i_will_pay_1_million_for_a_developer_to_build_this/",
     "authority_score": 0.5
   }
 ]
