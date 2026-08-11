@@ -15997,8 +15997,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T13:36:53.605586Z"
   },
   {
     "prediction_time": "2026-08-09T13:40:50.796413Z",
@@ -20959,6 +20959,58 @@
         "official_change": 0.1131578947368421,
         "reset_confirmation": 0.06763157894736843,
         "confidence": 0.4473684210526316,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content",
+          "Moderate reset signal detected (score: 0.40)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.4154,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T13:36:53.520508Z",
+    "prediction": {
+      "within_5h": 0.3587,
+      "within_24h": 0.6298,
+      "within_48h": 0.7808
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 28.86485509777778,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 139.1,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 70.04,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 25.18,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.4121,
+      "time_pressure": 0.004,
+      "hazard_rate": 0.040559,
+      "evidence_score": 0.4306,
+      "tibo_signal": 0.4094,
+      "community_signal": 0.7386,
+      "release_signal": 0.5006,
+      "llm_scores": {
+        "reset_intent": 0.15,
+        "limit_complaint": 0.03815789473684211,
+        "official_change": 0.1131578947368421,
+        "reset_confirmation": 0.0781578947368421,
+        "confidence": 0.4618421052631579,
         "reason": [
           "Moderate reset signal detected (score: 0.50)",
           "Release/update signal detected (score: 0.50)",

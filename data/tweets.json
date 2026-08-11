@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:56:02Z",
-    "author": "/u/bigus-_-dickus",
-    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T23:45:30Z",
     "author": "/u/giperborey-us",
     "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T17:56:02Z",
+    "author": "/u/bigus-_-dickus",
+    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
     "authority_score": 0.5
   },
   {
@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T04:56:36Z",
-    "author": "/u/stilltodo",
-    "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T19:53:10Z",
     "author": "/u/LeadershipTrue8164",
     "text": "When the image generator drives you crazy ... - Yesterday I just needed a super simple image. A quick and dirty job. Aka an hour later I was only TYPING IN ALL CAPS. The generator got stuck in the wrong direction, I got bogged down in corrections, and in the end it digitally escalated aka a frustation feedback loop emerged and got fed. I ended up yelling at a laptop completely irrationally... over an image. Utterly stupid... but there's hardly anything that drives me crazier than when I need something quick and simple and it just doesn't work. I am sure (aka hope) I am not the only one who can get totally worked up by the image generator. This is my emotional kryptonite. If I wanted to torture someone, I would probably force them to have ChatGPT generate a very specific image in a very specific style with very specific figures, without any artifacts or weird design choices. When I was finally about to give up (aka 2 hours after I should have given up), I told chat to translate that exact situation into an image, and this is what came out. And that was kind of beautiful... I call it: facing your own frustration. I did not get what I wanted but I think that is even better...and that is the next trap because the moment I try to generate a similar picture, in the same style.....I am sure the frustartion will start over. Has anyone really solid tips how to get better images? ..and yes I have a style anchor and style image board showing the characters from different angles.. but it still gets reinterpreted all of the time &#32; submitted by &#32; /u/LeadershipTrue8164 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvdx9/when_the_image_generator_drives_you_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T04:56:36Z",
+    "author": "/u/stilltodo",
+    "text": "Logged out chat predicted exactly what was said in another logged out chat - I thought this was really interesting. I had a dead / logged out chat with a ton of text that I couldn't simply copy over into another logged out chat because of the 10,000 character limit. So I had to break it up into many parts and paste it into the new chat in chunks. I told it to wait until I'd pasted all the chunks, but by chunk number 10, it strangely started responding to my chunks with exactly the text I was about to copy over from the dead chat, including my prompts. At first I thought, okay it somehow actually remembers this chat even though I'm not logged in? But apparently, the explanation it gave me said that given the large amount of specific text I was feeding it, it was basically able to &quot;predict&quot; where the conversation was going to go almost exactly&quot;, which doesn't really make sense to me, because how would it know what my different prompts were going to be? Either it's pulling it from some form of memory even though I was logged out, or Chat GPT has somehow proven that destiny is real and everything is predetermined somehow through language itself. &#32; submitted by &#32; /u/stilltodo [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7vr5/logged_out_chat_predicted_exactly_what_was_said/",
     "authority_score": 0.5
   },
   {
@@ -272,27 +272,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T13:23:53Z",
+    "author": "/u/LADYPOCA",
+    "text": "what's wrong with o3??? - Every time I use it the prompt just disappears after. This has been happening since last night &#32; submitted by &#32; /u/LADYPOCA [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhdi1/whats_wrong_with_o3/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T13:20:16Z",
+    "author": "/u/toxic_prince21",
+    "text": "Reset is live ! Everyone get to work ! - Reset is live ! Everyone get to work ! &#32; submitted by &#32; /u/toxic_prince21 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlha9x/reset_is_live_everyone_get_to_work/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T09:22:08Z",
     "author": "/u/abditefera",
     "text": "Made an AI Wizard that interviews you before generating anything — curious what people think of the approach - Most AI tools give you a text box. You write something, it generates something, and you spend the rest of the time trying to get it to understand what you actually meant. AI Wizard does it differently. You pick a workflow — website, app, pitch deck, logo, API, etc. — and it asks you a short series of adaptive questions before generating anything. Each answer narrows the next question. By the end, it has enough context to produce something genuinely useful. It's free. I'm absorbing the API costs myself for now. My country isn't listed on Stripe or PayPal, so I can't take traditional payments — there's a Binance link if anyone wants to chip in, but no pressure at all. Would love honest feedback — does the interview feel like a better UX, or is it just extra steps? 🔗 https://aiwizard-a.vercel.app/ &#32; submitted by &#32; /u/abditefera [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlcit1/made_an_ai_wizard_that_interviews_you_before/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T12:53:14Z",
-    "author": "/u/Melodic_Cheek9304",
-    "text": "Why is my laughing at me - How can I change that he takes me seriously and with respect? She always uses emojis &#32; submitted by &#32; /u/Melodic_Cheek9304 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlgmtw/why_is_my_laughing_at_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T12:46:20Z",
-    "author": "/u/Motor_Oil_8864",
-    "text": "My GPT is too mature for a breakup. - Saw this prompt in another sub. Didn’t expect the GPT to be so mature. None of my exes had such a clean breakup. 🤣 And it called me tasty butterfly 🫠 (Hidden some personal information) What does your one say with this prompt. “I am about to uninstall you, goodbye” &#32; submitted by &#32; /u/Motor_Oil_8864 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlggy5/my_gpt_is_too_mature_for_a_breakup/",
     "authority_score": 0.5
   },
   {
