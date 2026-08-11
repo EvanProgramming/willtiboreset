@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T02:55:07Z",
-    "author": "/u/AmbientMorning",
-    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T20:27:10Z",
     "author": "/u/Dry-Blueberry-1768",
     "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
     "authority_score": 0.5
   },
   {
