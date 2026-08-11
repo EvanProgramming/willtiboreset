@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T11:53:59Z",
-    "author": "/u/Imaginary-Sun1350",
-    "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T21:11:50Z",
     "author": "/u/ladyshastadaisy",
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T11:53:59Z",
+    "author": "/u/Imaginary-Sun1350",
+    "text": "I think I broke chatgpt - &#32; submitted by &#32; /u/Imaginary-Sun1350 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkioly/i_think_i_broke_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -216,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T11:16:40Z",
     "author": "/u/mrsmezcal",
     "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
@@ -229,14 +237,6 @@
     "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1tjf/free_gpt_seems_to_only_contradict_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T02:55:07Z",
-    "author": "/u/AmbientMorning",
-    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
     "authority_score": 0.5
   },
   {
@@ -272,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T04:28:32Z",
-    "author": "/u/Potential_Internet48",
-    "text": "ChatGPT 5.6 is a complete disappointment compared to 5.5. Need your help! - Hey everyone, I need your help now more than ever. I thought that with the release of version 5.6, ChatGPT's performance would reach a new level (especially since I really liked 5.5). But 5.6 turned out to be a complete disappointment; I'm just tired of its false and incomplete answers. It constantly beats around the bush on the same topic and forgets the main goal of our conversation - I need a result, not endless &quot;exploration&quot;. I'm exhausted from having to prompt and repeat myself: we end up diving into a long analysis, it forgets the entire context, and starts working not on the original task, but on side issues we were just clarifying along the way. The entire focus shifts there! Meanwhile, even the free versions of Claude and Gemini give much better answers. I've repeatedly set up custom instructions, asked it to broaden its search scope, highlight blind spots, and point out logical inconsistencies, but 5.6 still continues to write nonsense. Let me give you a basic everyday example. I asked if it was possible to export all your days from the Yazio app. In the end, ChatGPT said that you can only request an export directly from the company. But Gemini, Claude, and Grok replied that there's also a second method - an open-source project on GitHub. And when I asked ChatGPT why it didn't mention GitHub, it went into its classic routine: &quot;Oh, right, I should have mentioned that, exactly, you've asked me about this repeatedly.&quot; So I'm asking for your help. Maybe you know how to set it up correctly? What do you do to get ChatGPT 5.6 to give you normal, comprehensive answers? ChatGPT plus &#32; submitted by &#32; /u/Potential_Internet48 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl7cre/chatgpt_56_is_a_complete_disappointment_compared/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T22:14:54Z",
     "author": "/u/Impossible-Sleep-597",
     "text": "Thoughts on using ChatGPT for messaging? - Admittedly, when I need to send what I feel will be a conflict starting or at least heavy message, I will tell my thoughts (what I want to say) to ChatGPT and ask it to edit it to make sure it’s clear, and it’s not an emotionally charged message because I’ve already taken the time to get through my stronger emotions before reaching out. I genuinely want others opinions on this, even if you disagree. I feel like taking the time to make sure the message is written in an healthy way is showing a lot of care, but I’m also open to hearing why you would think it’s not. &#32; submitted by &#32; /u/Impossible-Sleep-597 [link] &#32; [comments]",
@@ -301,6 +293,14 @@
     "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T00:28:32Z",
+    "author": "/u/abcfh",
+    "text": "Thinking mode just quotes from websites when asked medical questions - I've noticed that whenever I ask medical questions to ChatGPT while it's in thinking mode, it just pulls several direct quotes from 2 or 3 different websites and presents them without much interpretation or nuance. So rather than taking medical guidelines from places like the National Institute of Health website and explaining what they mean or how they might apply to my situation, it will instead just quote the guidelines directly and say almost nothing about it. That seems like it's potentially one of the downsides of using thinking mode when researching medical questions, that it basically reverts to being a Google search. &#32; submitted by &#32; /u/abcfh [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2ah3/thinking_mode_just_quotes_from_websites_when/",
     "authority_score": 0.5
   }
 ]
