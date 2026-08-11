@@ -16781,8 +16781,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T21:40:23.158505Z"
   },
   {
     "prediction_time": "2026-08-09T21:40:50.604567Z",
@@ -22051,6 +22051,58 @@
         "official_change": 0.12000000000000001,
         "reset_confirmation": 0.05078947368421053,
         "confidence": 0.4381578947368421,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.4154,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T21:40:23.136121Z",
+    "prediction": {
+      "within_5h": 0.4049,
+      "within_24h": 0.6683,
+      "within_48h": 0.8047
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 36.923090700833335,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 131.1,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 70.04,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 25.18,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.5272,
+      "time_pressure": 0.0055,
+      "hazard_rate": 0.044939,
+      "evidence_score": 0.463,
+      "tibo_signal": 0.3214,
+      "community_signal": 0.668,
+      "release_signal": 0.516,
+      "llm_scores": {
+        "reset_intent": 0.09526315789473684,
+        "limit_complaint": 0.053947368421052626,
+        "official_change": 0.12000000000000001,
+        "reset_confirmation": 0.05078947368421053,
+        "confidence": 0.44999999999999996,
         "reason": [
           "Community pressure signal detected (score: 0.50)",
           "Release/update signal detected (score: 0.50)",
