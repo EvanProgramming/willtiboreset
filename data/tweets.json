@@ -208,14 +208,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T02:55:07Z",
-    "author": "/u/AmbientMorning",
-    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T20:27:10Z",
     "author": "/u/Dry-Blueberry-1768",
     "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
@@ -224,11 +216,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T17:51:24Z",
     "author": "/u/notkilleveryoneist",
     "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T15:46:36Z",
+    "author": "/u/Lepla",
+    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
     "authority_score": 0.5
   },
   {
@@ -245,6 +253,14 @@
     "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T15:12:42Z",
+    "author": "/u/takeyoufergranite",
+    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
     "authority_score": 0.5
   },
   {
@@ -280,27 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:31:48Z",
-    "author": "/u/Ok-Layer9291",
-    "text": "One of the best use cases of chat gpt to track online application openings regularly, so I don't miss it - &#32; submitted by &#32; /u/Ok-Layer9291 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T15:56:07Z",
+    "author": "/u/remembergoodtimes",
+    "text": "what's the closest mode to Instant (iOS app) I can use in my web/desktop version of ChatGPT pro? - I want the fastest reply possible. What do I pick? Luna light? It still shows &quot;Thinking&quot; for too long. &#32; submitted by &#32; /u/remembergoodtimes [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlkrg4/one_of_the_best_use_cases_of_chat_gpt_to_track/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T00:07:25Z",
-    "author": "/u/Kind_Presence_3096",
-    "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1tjf/free_gpt_seems_to_only_contradict_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T15:24:41Z",
-    "author": "/u/Ok_Novel2563",
-    "text": "Guys I’m telling you something is wrong with Chat GPT. Why does it keep changing accents? - Why does the voice chat change accents all the time? Earlier it was talking like some gangsta telling me “Wassup my boy” and now it’s turned into the British equivalent of somebodies uncle! I was telling it the shop replaced my salad with a bag of leaves and it started saying “Looks like you been lumbered with a bag of leaves” and loads of other bizarre little sentences in the most British accent possible. I am dead 💀😂 it doesn’t know if it wants to be gangsta or someone from some Dads Army or some shit…. This is hilarious. &#32; submitted by &#32; /u/Ok_Novel2563 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlkkco/guys_im_telling_you_something_is_wrong_with_chat/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vllfa6/whats_the_closest_mode_to_instant_ios_app_i_can/",
     "authority_score": 0.5
   }
 ]
