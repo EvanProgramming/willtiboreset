@@ -349,12 +349,19 @@ class DeepSeekAnalyzer(LLMAnalyzer):
         )
 
     def analyze(self, texts: list[str]) -> list[SignalScores]:
-        """Call DeepSeek API to analyze texts"""
+        """
+        Call DeepSeek API to analyze texts in a SINGLE batch request.
+
+        All texts are sent in one prompt to minimize API calls and cost.
+        The prompt includes all texts with numbered markers, and DeepSeek
+        returns a JSON array with one score object per text.
+        """
         if not texts:
             return []
 
         self._ensure_client()
 
+        # Format all texts as numbered list in single prompt
         lines = []
         for i, text in enumerate(texts, 1):
             lines.append(f"[{i}] {text}")

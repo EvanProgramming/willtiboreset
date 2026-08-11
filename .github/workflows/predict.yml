@@ -2,12 +2,9 @@ name: WillTiboReset Prediction
 
 on:
   workflow_dispatch:
-  # Schedule trigger intentionally disabled. A server-side cron job calls the
-  # workflow_dispatch API every 30 minutes because GitHub's native schedule
-  # queue is unreliable for sub-hourly intervals and frequently delays/skips
-  # runs during high-load periods.
-  # schedule:
-  #   - cron: '7,37 * * * *'
+  schedule:
+    # Run every hour at :07 (to avoid peak load)
+    - cron: '7 * * * *'
 
 permissions:
   contents: write

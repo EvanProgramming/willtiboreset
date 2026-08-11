@@ -54,7 +54,7 @@ from collectors import (
 )
 from collectors.rss_base import _build_dedup_key
 from config import config
-from model.data_models import Tweet
+from model.data_models import SignalScores, Tweet
 from model.model_state import ModelStateManager
 from model.survival_model import ResetPredictor, build_features
 
@@ -225,8 +225,24 @@ def main() -> int:
     batch_scores = None
 
     if tweets:
+        # Single batch call: analyze all tweets once, then reuse the results
         signal_scores = analyzer.analyze_tweets(tweets)
-        batch_scores = analyzer.analyze_batch([t.text for t in tweets])
+        # Compute batch aggregate from the same call (no extra API cost)
+        if signal_scores:
+            n = len(signal_scores)
+            all_reasons: list[str] = []
+            for s in signal_scores:
+                all_reasons.extend(s.reason[:2])
+            batch_scores = SignalScores(
+                reset_intent=sum(s.reset_intent for s in signal_scores) / n,
+                limit_complaint=sum(s.limit_complaint for s in signal_scores) / n,
+                official_change=sum(s.official_change for s in signal_scores) / n,
+                reset_confirmation=sum(s.reset_confirmation for s in signal_scores) / n,
+                confidence=sum(s.confidence for s in signal_scores) / n,
+                reason=all_reasons[:6],
+            )
+        else:
+            batch_scores = analyzer.analyze_batch([t.text for t in tweets])
         print(f"  reset_intent:        {batch_scores.reset_intent:.2f}")
         print(f"  reset_confirmation:  {batch_scores.reset_confirmation:.2f}")
         print(f"  limit_complaint:     {batch_scores.limit_complaint:.2f}")
