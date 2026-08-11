@@ -14772,8 +14772,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T01:01:32.088830Z"
   },
   {
     "prediction_time": "2026-08-09T01:00:55.505098Z",
@@ -14821,8 +14821,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T01:01:32.088830Z"
   },
   {
     "prediction_time": "2026-08-09T01:40:59.448121Z",
@@ -19884,6 +19884,57 @@
           "Humorous comment about coding, completely irrelevant to resets or limits.",
           "Discussion about account suspension with Anthropic, not about usage limits or resets.",
           "Vague title, no relevant content."
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T01:01:32.063586Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 45.52557083333333,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 122.5,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.6879,
+      "time_pressure": 0.0037,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.0706,
+      "tibo_signal": 0.0789,
+      "community_signal": 0.5925,
+      "release_signal": 0.6188,
+      "llm_scores": {
+        "reset_intent": 0.0368421052631579,
+        "limit_complaint": 0.06315789473684211,
+        "official_change": 0.09473684210526316,
+        "reset_confirmation": 0.03421052631578947,
+        "confidence": 0.9065789473684212,
+        "reason": [
+          "Official announcement of new cybersecurity model and access tiers.",
+          "No mention of usage limit resets.",
+          "Humorous comment about coding at night, no relevance to resets or limits.",
+          "Discussion about account suspension with Anthropic, not related to quota resets.",
+          "Vague title with no context, no reset signals."
         ]
       },
       "prior_applied": false,

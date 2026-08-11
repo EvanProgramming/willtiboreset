@@ -200,6 +200,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T23:45:30Z",
+    "author": "/u/giperborey-us",
+    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T21:11:50Z",
     "author": "/u/ladyshastadaisy",
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
@@ -208,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T23:45:30Z",
-    "author": "/u/giperborey-us",
-    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "timestamp": "2026-08-10T12:46:00Z",
+    "author": "/u/CR972",
+    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {
@@ -229,14 +237,6 @@
     "text": "Australian man's AI agent goes rogue and hacks his own Gym to push him up the waiting list. - https://preview.redd.it/v8mmzfezafih1.png?width=869&amp;format=png&amp;auto=webp&amp;s=6527014990d1e7e7b0ef89af1e7fa09893e794be &#32; submitted by &#32; /u/PsychologicalBox5208 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vk2vmp/australian_mans_ai_agent_goes_rogue_and_hacks_his/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T12:46:00Z",
-    "author": "/u/CR972",
-    "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
     "authority_score": 0.5
   },
   {

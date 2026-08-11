@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T00:40:55.164450+00:00",
+  "updated_at": "2026-08-11T01:01:32.056086+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-16T03:30:00+00:00",
-    "hours_until": 122.8,
+    "hours_until": 122.5,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 38,
-    "hours_since_last_reset": 45.18198985916667,
+    "hours_since_last_reset": 45.52557083333333,
     "next_reset": {
       "expected_time": "2026-08-16T03:30:00+00:00",
-      "hours_until": 122.8,
+      "hours_until": 122.5,
       "status": "on_schedule"
     },
     "average_reset_interval": 66.18,
@@ -26,25 +26,25 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.6827,
-    "time_pressure": 0.0036,
+    "time_ratio": 0.6879,
+    "time_pressure": 0.0037,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0854,
-    "tibo_signal": 0.1158,
-    "community_signal": 0.6422,
-    "release_signal": 0.7634,
+    "evidence_score": 0.0706,
+    "tibo_signal": 0.0789,
+    "community_signal": 0.5925,
+    "release_signal": 0.6188,
     "llm_scores": {
-      "reset_intent": 0.015789473684210527,
-      "limit_complaint": 0.018421052631578946,
-      "official_change": 0.06842105263157895,
-      "reset_confirmation": 0.0,
-      "confidence": 0.8894736842105264,
+      "reset_intent": 0.0368421052631579,
+      "limit_complaint": 0.06315789473684211,
+      "official_change": 0.09473684210526316,
+      "reset_confirmation": 0.03421052631578947,
+      "confidence": 0.9065789473684212,
       "reason": [
-        "Announces new cybersecurity initiative and model, a major official product change.",
-        "No mention of usage limits or resets.",
-        "Humorous comment about coding, completely irrelevant to resets or limits.",
-        "Discussion about account suspension with Anthropic, not about usage limits or resets.",
-        "Vague title, no relevant content."
+        "Official announcement of new cybersecurity model and access tiers.",
+        "No mention of usage limit resets.",
+        "Humorous comment about coding at night, no relevance to resets or limits.",
+        "Discussion about account suspension with Anthropic, not related to quota resets.",
+        "Vague title with no context, no reset signals."
       ]
     },
     "prior_applied": false,
@@ -54,7 +54,7 @@
   },
   "main_factors": [
     {
-      "factor": "45.2 hours since last reset",
+      "factor": "45.5 hours since last reset",
       "impact": "-5%",
       "score": 0.0
     },
@@ -65,25 +65,25 @@
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+2%",
-      "score": 0.12
+      "impact": "+1%",
+      "score": 0.08
     },
     {
       "factor": "High community limit complaints",
-      "impact": "+9%",
-      "score": 0.64
+      "impact": "+8%",
+      "score": 0.59
     },
     {
       "factor": "Official release/change signal",
-      "impact": "+15%",
-      "score": 0.76
+      "impact": "+12%",
+      "score": 0.62
     }
   ],
   "reasons": [
-    "Recently reset (45.2 hours ago), low time pressure (0.00)",
-    "Weak reset evidence detected (evidence_score=0.09), insufficient to confirm",
+    "Recently reset (45.5 hours ago), low time pressure (0.00)",
+    "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
     "Weekly cycle boost active (factor=0.81): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.81), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 45.2 hours since last reset (-5%)"
+    "Main factor: 45.5 hours since last reset (-5%)"
   ]
 }
