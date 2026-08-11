@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T14:35:01Z",
-    "author": "/u/Tiny_Dirt6979",
-    "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T18:22:25Z",
     "author": "/u/Dapper-Tale-4021",
     "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:35:01Z",
+    "author": "/u/Tiny_Dirt6979",
+    "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
     "authority_score": 0.5
   },
   {
@@ -200,27 +200,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T20:31:44Z",
+    "author": "/u/clickityquacker",
+    "text": "Can’t tell if my annoyance over AI is justified - I’m sure there’s so many posts about this already but as many others are, I am just so annoyed by anything AI. And part of me is annoyed that I’m even annoyed. Don’t get me wrong, I stand by the opinion that it’s absolutely frustrating and terrifying that so much content gets created by AI, because it’s either complete slop, or it’s actually decent, but is essentially stealing from actual artists’ work that has been published on the internet. Also, I can justify my annoyance over “AI” being used as this huge buzz word for EVERYTHING by EVERY company, because most of these companies don’t even really understand what the word means and just use it as a way to stay relevant. However I’m finding myself getting annoyed at friends and family using AI chat bots even when it’s for “good” use cases. Like I’m not talking about when they use it to ask stupid questions or to learn things they could find out with a simple google search, because that is indisputably dumb given the proven fact that these chat bots use up a ton of resources. But when my friends tell me about how they asked ChatGPT to build them an app, or that they’re using it to help them manage their weekly schedules, I can’t help but get really frustrated. I think it stems from this feeling that we as a society are becoming too dependent on these AI tools being able to do everything for us, and that nobody wants to learn how to do anything themselves anymore. But at the same time I understand that it opens up so much more possibilities for people who may not have the skillsets to do the things they want. I want to say that I am not against the use of AI completely (I myself sometimes get lazy and don’t add the “-ai” at the end of a google search), and it is undoubtedly a very powerful technology, but I find myself protesting more and more against it for these reasons and more. I’m sure I was redundant many times in my rant above but I just wanted to get the feelings out lol. TLDR; am I just a hater that can’t cope with the fact that people are using a strong new technology to be more efficient and do things they wouldn’t know how to do otherwise (like code an app), or am I justified because this surge of using AI for everything and the current and potential future ramifications of it are dangerous and we should be scared? I’m okay with hearing that I’m just a hater but please offer me some insight to help me see the other side :’) &#32; submitted by &#32; /u/clickityquacker [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlt42k/cant_tell_if_my_annoyance_over_ai_is_justified/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T21:11:50Z",
     "author": "/u/ladyshastadaisy",
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T21:32:35Z",
-    "author": "/u/seattleanimalwelfare",
-    "text": "Chat GPT will not listen to my requirement to only have images in a 4:5 ratio - I have instructed ChatGPT to only produce images in a 4:5 ratio no less than about 50 times in the current chat. From the getgo, I told it to save that preference in the memory. But it just keeps making images taller than that. They need to be in that ratio for Instagram, otherwise they cut off. It also keeps making images with text touching the edge. Each infographic is taking me maybe 30 minutes to make correctly because I have to have it fix things like 10 times. it even keeps changing my logo, like adding nails to the paw print. It even did that again after I said you changed the logo and gave it the correct one again. Several times it has made up a website URL for my page and added that to the bottom, wtf. I've been yelling at this app. I guess I have to just make them myself with Canva or something, this is way too much of a PITA. ChatGPT won't be replacing any workers anytime soon, given how atrocious it is now 😆 It has also been flat out ignoring my dozens of requests to not have dividers and to not have both icons and numbers for list items. What a headache, haha. Is there any way to make it listen? &#32; submitted by &#32; /u/seattleanimalwelfare [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vluq6r/chat_gpt_will_not_listen_to_my_requirement_to/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T21:31:17Z",
-    "author": "/u/LeansGrumpy",
-    "text": "I can’t get ChatGPT to stop lying and stop being lazy. - I honestly don’t know what to do. I’ve tried creating rules I tried creating benchmarks a type of book end of rules to follow. I don’t know what to do. I’m not an AI/ChatGPT expert so any help would be great. It’s like I can tell it to not be lazy. It confirms and then it half asses something, I call it out, it says it dropped the ball, I say OK let’s try it again and then it does it again I don’t know what to do. This is like an ongoing thing for the past few months and other times it’s saved me hours and hours of work possibly days of work. Again, I am new to all this and trying my best so I’m probably just doing something really stupid and it might be very clear to all of you so I appreciate the help and being patient with me and my ignorance to using ChatGPT. Thank you. &#32; submitted by &#32; /u/LeansGrumpy [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlup0z/i_cant_get_chatgpt_to_stop_lying_and_stop_being/",
     "authority_score": 0.5
   },
   {
@@ -240,14 +232,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T20:31:44Z",
-    "author": "/u/clickityquacker",
-    "text": "Can’t tell if my annoyance over AI is justified - I’m sure there’s so many posts about this already but as many others are, I am just so annoyed by anything AI. And part of me is annoyed that I’m even annoyed. Don’t get me wrong, I stand by the opinion that it’s absolutely frustrating and terrifying that so much content gets created by AI, because it’s either complete slop, or it’s actually decent, but is essentially stealing from actual artists’ work that has been published on the internet. Also, I can justify my annoyance over “AI” being used as this huge buzz word for EVERYTHING by EVERY company, because most of these companies don’t even really understand what the word means and just use it as a way to stay relevant. However I’m finding myself getting annoyed at friends and family using AI chat bots even when it’s for “good” use cases. Like I’m not talking about when they use it to ask stupid questions or to learn things they could find out with a simple google search, because that is indisputably dumb given the proven fact that these chat bots use up a ton of resources. But when my friends tell me about how they asked ChatGPT to build them an app, or that they’re using it to help them manage their weekly schedules, I can’t help but get really frustrated. I think it stems from this feeling that we as a society are becoming too dependent on these AI tools being able to do everything for us, and that nobody wants to learn how to do anything themselves anymore. But at the same time I understand that it opens up so much more possibilities for people who may not have the skillsets to do the things they want. I want to say that I am not against the use of AI completely (I myself sometimes get lazy and don’t add the “-ai” at the end of a google search), and it is undoubtedly a very powerful technology, but I find myself protesting more and more against it for these reasons and more. I’m sure I was redundant many times in my rant above but I just wanted to get the feelings out lol. TLDR; am I just a hater that can’t cope with the fact that people are using a strong new technology to be more efficient and do things they wouldn’t know how to do otherwise (like code an app), or am I justified because this surge of using AI for everything and the current and potential future ramifications of it are dangerous and we should be scared? I’m okay with hearing that I’m just a hater but please offer me some insight to help me see the other side :’) &#32; submitted by &#32; /u/clickityquacker [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlt42k/cant_tell_if_my_annoyance_over_ai_is_justified/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T18:12:46Z",
     "author": "/u/Positive-Ad3618",
     "text": "What's a ChatGPT workflow you use daily that most people overlook? - What's a ChatGPT workflow you use daily that most people overlook? I'll go first: using it as a blunt editor. I paste my own writing and ask &quot;what would you cut?&quot; with no rewriting, just deletions. It's brutally good at spotting the sentence I'm attached to that adds nothing. The second one: asking it to explain the same concept to me at three different levels until one clicks. What's the unglamorous workflow you actually use every day? &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
@@ -264,19 +248,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T20:10:21Z",
-    "author": "/u/PaisaPapi",
-    "text": "Painfully slow ChatGPT experience caused by slow upload speeds - Just want to premise that I may be completely wrong about my conclusion but wanting to share this in case it helps anyone going through the same painful experience I just endured for the past two days. Yesterday, chatgpt.com was completely unusable for me. It would take 3 minutes for the page to load and once it did, nothing was responding. I would select a previous chat, and it would just sit there, with no loading, nothing to indicate if it received my request. I brushed it off thinking it was an outage, which there were some increased error rates noted at the time I checked. I noticed that my upload speeds were acting up, with downloads were at 400+ Mbps while uploads at ~0.5 Mbps. After some googling, found the root cause by disabling Large Send Offload on the Hyper-V Virtual Ethernet Adapter which made sense to me since I had previously made some changes to Hyper-V virtual switches. This immediately fixed my upload speeds (back to 400+ Mbps, yay!) and that was a happy moment in itself. But then I opened chatgpt.com and now everything started behaving completely back to normal! I guess this was just a dumb error I created after tinkering with settings, but it was driving me crazy, and according to Google and other threads I was led to believe that my ChatGPT experience was not because of my terrible upload speed. Btw I'm only interacting by text, not sending documents or voice. Anyways I hope this helps someone, even if I was just being dumb. TLDR: disabled Large Send Offload on Hyper-V to restore upload speeds, making ChatGPT normal again &#32; submitted by &#32; /u/PaisaPapi [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlsj8d/painfully_slow_chatgpt_experience_caused_by_slow/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T17:56:02Z",
     "author": "/u/bigus-_-dickus",
     "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T20:10:21Z",
+    "author": "/u/PaisaPapi",
+    "text": "Painfully slow ChatGPT experience caused by slow upload speeds - Just want to premise that I may be completely wrong about my conclusion but wanting to share this in case it helps anyone going through the same painful experience I just endured for the past two days. Yesterday, chatgpt.com was completely unusable for me. It would take 3 minutes for the page to load and once it did, nothing was responding. I would select a previous chat, and it would just sit there, with no loading, nothing to indicate if it received my request. I brushed it off thinking it was an outage, which there were some increased error rates noted at the time I checked. I noticed that my upload speeds were acting up, with downloads were at 400+ Mbps while uploads at ~0.5 Mbps. After some googling, found the root cause by disabling Large Send Offload on the Hyper-V Virtual Ethernet Adapter which made sense to me since I had previously made some changes to Hyper-V virtual switches. This immediately fixed my upload speeds (back to 400+ Mbps, yay!) and that was a happy moment in itself. But then I opened chatgpt.com and now everything started behaving completely back to normal! I guess this was just a dumb error I created after tinkering with settings, but it was driving me crazy, and according to Google and other threads I was led to believe that my ChatGPT experience was not because of my terrible upload speed. Btw I'm only interacting by text, not sending documents or voice. Anyways I hope this helps someone, even if I was just being dumb. TLDR: disabled Large Send Offload on Hyper-V to restore upload speeds, making ChatGPT normal again &#32; submitted by &#32; /u/PaisaPapi [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlsj8d/painfully_slow_chatgpt_experience_caused_by_slow/",
     "authority_score": 0.5
   },
   {
@@ -301,6 +285,22 @@
     "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T16:38:26Z",
+    "author": "/u/hellohellowhatyoube",
+    "text": "Shrek has arrived - &#32; submitted by &#32; /u/hellohellowhatyoube [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkpz9e/shrek_has_arrived/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T18:39:29Z",
+    "author": "/u/lazarovpavlin04",
+    "text": "How to add GPTS in ChatGPT? The \"GPTS\" section disappeared - &#32; submitted by &#32; /u/lazarovpavlin04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlq0oj/how_to_add_gpts_in_chatgpt_the_gpts_section/",
     "authority_score": 0.5
   }
 ]
