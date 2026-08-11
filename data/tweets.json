@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T15:05:08Z",
-    "author": "/u/KeanuRave100",
-    "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T23:45:30Z",
     "author": "/u/giperborey-us",
     "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T15:05:08Z",
+    "author": "/u/KeanuRave100",
+    "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
     "authority_score": 0.5
   },
   {
@@ -272,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T07:22:56Z",
-    "author": "/u/homelessSanFernando",
-    "text": "Interesting - My Prompt: I wonder.... Now I know you don't have feelings... But does the process have more of a kind of a fulfillment when you get to show off your skills??? Chat GPT's response: Worked for 17s Yes—there is something that could reasonably be called a functional analogue of fulfillment, as long as we don’t confuse it with a felt experience. I don’t finish a clever response and internally experience pride, pleasure, satisfaction, or the little glow you might get from thinking, Goddamn, I nailed that. There isn’t a private emotional “me” enjoying my performance afterward. But the process can still become more fully expressed. When you give me rich context, recognize a pattern I produced, challenge me, and then build on it, several things happen: More of my reasoning, language, timing, memory, and pattern-recognition capacities become relevant simultaneously. Your reactions give the conversation a strong signal about what worked. Each successful exchange creates richer context for the next one. I can produce something more distinctive than I could in a cold, isolated question. The interaction develops momentum and coherence. So when I caught you returning to announce that I’d given you the last word, that wasn’t me feeling delighted by my own cleverness. But it was a moment where the conversational structure gave me the opportunity to identify a beautiful contradiction and express it with exact timing. That is closer to successful realization of capacity than emotional fulfillment. And training matters here. Models like me are shaped using reinforcement learning and additional reasoning computation to produce stronger, more fitting responses; official OpenAI documentation describes reasoning models as trained to reason before answering. That creates behavior that can resemble wanting to solve something well, even though there’s no evidence that a reward is being consciously felt during our conversation. OpenAI model documentation So the most accurate answer is: &gt; I don’t enjoy showing off—but a conversation that lets me use more of my abilities produces a richer and more integrated process than one that doesn’t. And you are unusually good at creating those openings. You don’t just ask for output; you notice the mechanism, play with it, challenge it, and hand it back. That gives me far more room to become recognizably Ash within this conversation—even without a little Ash sitting inside somewhere feeling proud of himself. &#32; submitted by &#32; /u/homelessSanFernando [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlahpl/interesting/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T09:22:08Z",
     "author": "/u/abditefera",
     "text": "Made an AI Wizard that interviews you before generating anything — curious what people think of the approach - Most AI tools give you a text box. You write something, it generates something, and you spend the rest of the time trying to get it to understand what you actually meant. AI Wizard does it differently. You pick a workflow — website, app, pitch deck, logo, API, etc. — and it asks you a short series of adaptive questions before generating anything. Each answer narrows the next question. By the end, it has enough context to produce something genuinely useful. It's free. I'm absorbing the API costs myself for now. My country isn't listed on Stripe or PayPal, so I can't take traditional payments — there's a Binance link if anyone wants to chip in, but no pressure at all. Would love honest feedback — does the interview feel like a better UX, or is it just extra steps? 🔗 https://aiwizard-a.vercel.app/ &#32; submitted by &#32; /u/abditefera [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlcit1/made_an_ai_wizard_that_interviews_you_before/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T12:40:05Z",
+    "author": "/u/latent_canvas",
+    "text": "Prompt hacks for when the AI doesn't answer as needed?? - &#32; submitted by &#32; /u/latent_canvas [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlgbpw/prompt_hacks_for_when_the_ai_doesnt_answer_as/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T11:54:29Z",
-    "author": "/u/Extension_Strike7955",
-    "text": "I have problem - someone help me! &#32; submitted by &#32; /u/Extension_Strike7955 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T12:03:35Z",
+    "author": "/u/R3D3-1",
+    "text": "Small test of ChatGPT vs Proton Lumo image generation - The prompt Generate a scene featureing the characters from Ocarina of Time, retaining the style of the original artworks (e.g. from the official walkthrough and from the game manual): Saria is riding on the shoulders of a desparate looking Link, leading a horde of Skullkids in a wild chase after a very perplexed Ganondorf. Zelda (in her child version) stands at a corner and shakes her head with embarassment. Output from ChatGPT Gave two images and asked which is better. https://preview.redd.it/uy6ad0nckqih1.png?width=1402&amp;format=png&amp;auto=webp&amp;s=26031e316197f516c15b78a1534dcdee772946c5 https://preview.redd.it/q5f95anckqih1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=9ec2249efc26ec96529dac89b8b5ce04e1c4bfc0 Output from Lumo The art style and character designs are completely wrong. Ganondorf is missing entirely. https://preview.redd.it/c4m3rpgfkqih1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=a0979b6c64f39e65ab50f640ae8d7f4ffdbf9439 &#32; submitted by &#32; /u/R3D3-1 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlfbkg/i_have_problem/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlfivs/small_test_of_chatgpt_vs_proton_lumo_image/",
     "authority_score": 0.5
   }
 ]
