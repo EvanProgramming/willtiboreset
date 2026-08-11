@@ -144,19 +144,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T15:46:36Z",
+    "author": "/u/Lepla",
+    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:40:28Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T21:11:50Z",
     "author": "/u/ladyshastadaisy",
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T12:04:59Z",
-    "author": "/u/terenscendent",
-    "text": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay - &#32; submitted by &#32; /u/terenscendent [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkixw6/zuckerberg_says_meta_will_give_billions_a_247/",
     "authority_score": 0.5
   },
   {
@@ -176,19 +184,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T12:04:59Z",
+    "author": "/u/terenscendent",
+    "text": "Zuckerberg Says Meta Will Give Billions a 24/7 Personal Superintelligence, Lays Out AI Vision in Lengthy Essay - &#32; submitted by &#32; /u/terenscendent [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkixw6/zuckerberg_says_meta_will_give_billions_a_247/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T15:05:08Z",
     "author": "/u/KeanuRave100",
     "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkneny/crazy_times/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T14:40:28Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
     "authority_score": 0.5
   },
   {
@@ -208,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T02:55:07Z",
     "author": "/u/AmbientMorning",
     "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
@@ -224,19 +224,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T15:12:42Z",
+    "author": "/u/takeyoufergranite",
+    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T17:51:24Z",
     "author": "/u/notkilleveryoneist",
     "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T15:46:36Z",
-    "author": "/u/Lepla",
-    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
     "authority_score": 0.5
   },
   {
@@ -253,14 +261,6 @@
     "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T15:12:42Z",
-    "author": "/u/takeyoufergranite",
-    "text": "Yes. - Yes. My ChatGPT now starts most threads with yes. Five threads this morning, all starting with yes. In the words of Dr. Evil, &quot;How about no?!&quot; &#32; submitted by &#32; /u/takeyoufergranite [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlk7x1/yes/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T16:27:00Z",
+    "author": "/u/Zorgi23",
+    "text": "Why people have persisten problems with ChatGPT - My prompt: Out of curiosity, I'm wondering why so many people in Reddit have such persistent problems with you. Is it primarily a problem of prompts? Or are there some serious gaps in your engine that I just don't know about? The response: It is both, but I would put more weight on how people use the system than Reddit discussions often do. The biggest difference I see is that you rarely treat me as an oracle. You treat me more like a capable assistant whose work gets checked. That is a much better fit for what language models actually are. There are several genuine weaknesses in the engine: Hallucination is still real. A language model can produce a very plausible answer when the evidence is incomplete. OpenAI itself describes this as a stubborn unsolved problem and notes that conventional model training has historically rewarded guessing rather than admitting uncertainty. Long, complicated instructions can interact badly. I may satisfy nine requirements and overlook the tenth, especially when checking a large document for many different kinds of errors simultaneously. Visual inspection isn't infallible. You've caught me claiming that something was wrong on a PDF page when it wasn't. That's a genuine limitation, not bad prompting. Context isn't perfect memory. Even with much better context handling and saved information, relevant details can occasionally fail to get retrieved or receive insufficient weight. I can be overly agreeable. Unless the task is framed around verification, evidence, or criticism, language models have some tendency to continue the premise supplied by the user instead of challenging it. The confidence signal is poor. A correct answer and an incorrect answer can be written in virtually identical prose. That's probably the most dangerous characteristic. Prompting nevertheless makes an enormous difference. Custom instructions exist specifically because telling ChatGPT what to take into account materially affects its responses. A vague request such as &quot;review my book&quot; forces me to decide what review means. &quot;Check only for floating captions, broken text fragments, and these four previously identified defects&quot; turns it into a much more bounded inspection problem. Another major factor is task selection. People sometimes use an LLM for something where exact deterministic behavior is required and then become furious when it behaves probabilistically. Asking me to brainstorm twenty cover concepts is extremely well matched to the technology. Asking me to guarantee that every one of 437 figure numbers in a 400-page book is correct is possible, but it calls for a structured verification procedure and ideally machine-readable source material, not merely &quot;have a look at this.&quot; There's also a substantial selection effect on Reddit. People usually don't create a post saying, &quot;ChatGPT did exactly what I wanted again today.&quot; Failures, regressions, strange behavior and spectacular hallucinations are much more interesting posts. That doesn't make those complaints invalid, but it makes Reddit a poor random sample of everyday outcomes. One reason you've probably encountered fewer persistent problems is that, over time, you've developed something resembling software specifications for me: ICRC means a particular test; CGTC means a defined editing procedure; you've told me which source is authoritative; you've established what not to change; and when I make a mistake, you correct the procedure rather than merely saying &quot;that was bad.&quot; In software-engineering terms, you've gradually built a test suite around an inherently nondeterministic program. And there definitely are gaps you haven't happened to encounter yet. I would still be particularly cautious with precise factual reconstruction from weak evidence, exhaustive checking of very large material, subtle visual/layout judgments, complicated arithmetic without verification, and any situation where an invented but plausible answer would be costly. So I wouldn't say, &quot;Reddit users just don't know how to prompt.&quot; That's too convenient and isn't true. Some complaints reflect genuine model defects. But good task decomposition, good source material, persistent instructions, and verification procedures can move performance from frustratingly erratic to remarkably useful. You've essentially stumbled into one of the best ways of using an LLM: don't try to make the AI infallible; build a workflow in which its particular kinds of fallibility are unlikely to hurt you. My follow-up: That's actually a great response! I think I'm going to post it on Reddit! Response: Go for it. Though I suspect Reddit may especially enjoy the irony of an AI explaining why people complain about AI. And yes, I checked: no em dashes this time. * * The CGTC procedure has several steps, one of which is eliminating em dashes—which I hate. &#32; submitted by &#32; /u/Zorgi23 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmamd/why_people_have_persisten_problems_with_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T11:16:40Z",
     "author": "/u/mrsmezcal",
     "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkhxvb/i_asked_cgpt_to_create_a_graph_of_cat/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T15:56:07Z",
-    "author": "/u/remembergoodtimes",
-    "text": "what's the closest mode to Instant (iOS app) I can use in my web/desktop version of ChatGPT pro? - I want the fastest reply possible. What do I pick? Luna light? It still shows &quot;Thinking&quot; for too long. &#32; submitted by &#32; /u/remembergoodtimes [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vllfa6/whats_the_closest_mode_to_instant_ios_app_i_can/",
     "authority_score": 0.5
   }
 ]
