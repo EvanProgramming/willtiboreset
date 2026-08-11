@@ -136,6 +136,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T18:22:25Z",
+    "author": "/u/Dapper-Tale-4021",
+    "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T17:55:10Z",
     "author": "/u/ThenLayer5977",
     "text": "It’s here - For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. &#32; submitted by &#32; /u/ThenLayer5977 [link] &#32; [comments]",
@@ -144,11 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T18:22:25Z",
-    "author": "/u/Dapper-Tale-4021",
-    "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T22:10:39Z",
+    "author": "/u/SgtSilock",
+    "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlvovj/do_not_ask_codex_to_delete_anything/",
     "authority_score": 0.5
   },
   {
@@ -173,14 +181,6 @@
     "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T22:10:39Z",
-    "author": "/u/SgtSilock",
-    "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlvovj/do_not_ask_codex_to_delete_anything/",
     "authority_score": 0.5
   },
   {
@@ -216,11 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T20:31:44Z",
-    "author": "/u/clickityquacker",
-    "text": "Can’t tell if my annoyance over AI is justified - I’m sure there’s so many posts about this already but as many others are, I am just so annoyed by anything AI. And part of me is annoyed that I’m even annoyed. Don’t get me wrong, I stand by the opinion that it’s absolutely frustrating and terrifying that so much content gets created by AI, because it’s either complete slop, or it’s actually decent, but is essentially stealing from actual artists’ work that has been published on the internet. Also, I can justify my annoyance over “AI” being used as this huge buzz word for EVERYTHING by EVERY company, because most of these companies don’t even really understand what the word means and just use it as a way to stay relevant. However I’m finding myself getting annoyed at friends and family using AI chat bots even when it’s for “good” use cases. Like I’m not talking about when they use it to ask stupid questions or to learn things they could find out with a simple google search, because that is indisputably dumb given the proven fact that these chat bots use up a ton of resources. But when my friends tell me about how they asked ChatGPT to build them an app, or that they’re using it to help them manage their weekly schedules, I can’t help but get really frustrated. I think it stems from this feeling that we as a society are becoming too dependent on these AI tools being able to do everything for us, and that nobody wants to learn how to do anything themselves anymore. But at the same time I understand that it opens up so much more possibilities for people who may not have the skillsets to do the things they want. I want to say that I am not against the use of AI completely (I myself sometimes get lazy and don’t add the “-ai” at the end of a google search), and it is undoubtedly a very powerful technology, but I find myself protesting more and more against it for these reasons and more. I’m sure I was redundant many times in my rant above but I just wanted to get the feelings out lol. TLDR; am I just a hater that can’t cope with the fact that people are using a strong new technology to be more efficient and do things they wouldn’t know how to do otherwise (like code an app), or am I justified because this surge of using AI for everything and the current and potential future ramifications of it are dangerous and we should be scared? I’m okay with hearing that I’m just a hater but please offer me some insight to help me see the other side :’) &#32; submitted by &#32; /u/clickityquacker [link] &#32; [comments]",
+    "timestamp": "2026-08-11T22:29:57Z",
+    "author": "/u/lduperval",
+    "text": "Uploading a skill to ChatGPT - Hi, Is there a simple way to upload a skill to the ChatGPT app? In Claude it takes a couple of clicks but I don't see anything in ChatGPT to add your own skill file. The only option I see is to create one with the skill creator. Which is fine when starting from scratch, but otherwise… All I can find, so far, are ways to do it manually in your .codex folder. It's fine for me, but I,m looking for an easy way that works for people who don't know their way around the file system. Kinda like there were two custom GPT modes: create for newbies and configure for those who tested the newbie approach and figured out that it was pretty useless… Thanks, L &#32; submitted by &#32; /u/lduperval [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlt42k/cant_tell_if_my_annoyance_over_ai_is_justified/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlw6jr/uploading_a_skill_to_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T19:56:26Z",
+    "author": "/u/OlafAndvarafors",
+    "text": "New limits for Luna Think on Go - I noticed that OpenAI added some new info about the limits to the official Help Center. It says Luna Think on Go is limited to 300 messages every 3 hours. Honestly, that’s a pretty damn generous limit. What do you guys think? 👀 &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vls5ll/new_limits_for_luna_think_on_go/",
     "authority_score": 0.5
   },
   {
@@ -264,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T19:56:26Z",
-    "author": "/u/OlafAndvarafors",
-    "text": "New limits for Luna Think on Go - I noticed that OpenAI added some new info about the limits to the official Help Center. It says Luna Think on Go is limited to 300 messages every 3 hours. Honestly, that’s a pretty damn generous limit. What do you guys think? 👀 &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vls5ll/new_limits_for_luna_think_on_go/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T15:05:08Z",
     "author": "/u/KeanuRave100",
     "text": "Crazy times - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T15:46:36Z",
-    "author": "/u/Lepla",
-    "text": "Now that claude is watermarking everything like gemini what other options are there? - I know you can use local environments, deepseek etc to do the ai agentic coding for you, but what other options are there and what are the pro/cons of other solutions. Im considering switching because of the session limits spikes, weekly limits and i have a capable pc so why pay a monthly sub for something that limit caps my usage when im in a good workflow. I also use backlog.md / agent.md for context on projects and i oversee most of the code myself as ive been working with professional software development for some years and break most of the work down in segments instead of telling ai to do everything, this watermark now being applied (because of eu laws) and the current decline in the service is making me want to switch, but to be honest the biggest catalyst is the session limits being very inconsistent My plan now is to use open ai’s local environment and codex/chat gpt for codereview to test it out but being relatively new to the ai agentic work there is still a lot to learn &#32; submitted by &#32; /u/Lepla [link] &#32; [comments]",
+    "timestamp": "2026-08-11T23:22:22Z",
+    "author": "/u/Isaac-isabellalove",
+    "text": "son- - &#32; submitted by &#32; /u/Isaac-isabellalove [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vll620/now_that_claude_is_watermarking_everything_like/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlxgh7/son/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T22:57:11Z",
-    "author": "/u/Sweet_Shallot7335",
-    "text": "Weird Talk - Hi, i wanna know if chat gpt, has been nerfed or something, cause i have that weird form of talk again. I mean like: - This is the way. it talks. And keeps cutting his sentences. like that. too many times. Its someone have the same problem? Can it get fixed? Or i have to wait for an update or pay the pro plan? (Im plus plan) &#32; submitted by &#32; /u/Sweet_Shallot7335 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T23:13:34Z",
+    "author": "/u/Turbulent_Ad_1039",
+    "text": "What are you actually using to get up to speed in an unfamiliar codebase? - &#32; submitted by &#32; /u/Turbulent_Ad_1039 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlwuar/weird_talk/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx8yx/what_are_you_actually_using_to_get_up_to_speed_in/",
     "authority_score": 0.5
   }
 ]
