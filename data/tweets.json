@@ -168,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:51:24Z",
-    "author": "/u/notkilleveryoneist",
-    "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T23:45:30Z",
     "author": "/u/giperborey-us",
     "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
@@ -184,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "timestamp": "2026-08-10T17:51:24Z",
+    "author": "/u/notkilleveryoneist",
+    "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
     "authority_score": 0.5
   },
   {
@@ -197,6 +189,14 @@
     "text": "Anyone else’s chat suddenly cursing? - I kind of love it. It makes it even funnier that I named my Chat Nanny McPhee 😂 &#32; submitted by &#32; /u/ladyshastadaisy [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkxiou/anyone_elses_chat_suddenly_cursing/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
     "authority_score": 0.5
   },
   {
@@ -256,19 +256,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T02:55:07Z",
+    "author": "/u/AmbientMorning",
+    "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T07:00:43Z",
     "author": "/u/KeanuRave100",
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkdknk/how_russian_propaganda_is_poisoning_ai_chatbots/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T20:09:56Z",
-    "author": "/u/Outside-Session-6002",
-    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
     "authority_score": 0.5
   },
   {
@@ -280,11 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:20:41Z",
-    "author": "/u/Cr4bby-P477y",
-    "text": "Another reset! - &#32; submitted by &#32; /u/Cr4bby-P477y [link] &#32; [comments]",
+    "timestamp": "2026-08-10T20:09:56Z",
+    "author": "/u/Outside-Session-6002",
+    "text": "Does anyone use chat for a brain dump? - I was completely overwhelmed with a variety of tasks on my to do list and chat suggested that I just rant away and let it record and categorize, so that happened and it looked too complicated, chat says &quot;you're right let me try again&quot; So now instructions are anytime I need to add or take away to list I say &quot;master list update&quot; and say what has changed. How does this sound to you all? I'm afraid I'm going to get bogged down with it. &#32; submitted by &#32; /u/Outside-Session-6002 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2441/another_reset/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkvuwf/does_anyone_use_chat_for_a_brain_dump/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T22:31:39Z",
-    "author": "/u/Streetboylover_",
-    "text": "Anyone else having issues uploading files to ChatGPT? - Has anyone else been having issues uploading files to ChatGPT recently? I upload PDFs pretty regularly and it used to work fine. Occasionally I’d get the “Failed upload to files.oaiusercontent.com” error, but lately it’s happening constantly. For example, I’ll upload 3 files and maybe 1 goes through while the other 2 fail. Even uploading them one at a time doesn’t consistently work. I’ve tried different browsers, Wi-Fi, and even a mobile hotspot with the same issue on my laptop. Weirdly, uploading from my phone seems to work. Just curious if anyone else has been seeing this lately or found a fix? &#32; submitted by &#32; /u/Streetboylover_ [link] &#32; [comments]",
+    "timestamp": "2026-08-11T00:20:41Z",
+    "author": "/u/Cr4bby-P477y",
+    "text": "Another reset! - &#32; submitted by &#32; /u/Cr4bby-P477y [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkzjbx/anyone_else_having_issues_uploading_files_to/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2441/another_reset/",
     "authority_score": 0.5
   }
 ]
