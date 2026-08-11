@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:56:02Z",
-    "author": "/u/bigus-_-dickus",
-    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T23:45:30Z",
     "author": "/u/giperborey-us",
     "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T17:56:02Z",
+    "author": "/u/bigus-_-dickus",
+    "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
     "authority_score": 0.5
   },
   {
@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T20:27:10Z",
-    "author": "/u/Dry-Blueberry-1768",
-    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T02:55:07Z",
     "author": "/u/AmbientMorning",
     "text": "Is “Thinking” mode removed for all Free users? - Starting yesterday, I noticed that I no longer had an option to regenerate an output with Thinking enabled. That just might be enough for me to largely drop GPT in favor of the alternatives (which I already switch between, given their respective strengths and weaknesses), rather than purchase a Plus subscription. &#32; submitted by &#32; /u/AmbientMorning [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl5hka/is_thinking_mode_removed_for_all_free_users/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T20:27:10Z",
+    "author": "/u/Dry-Blueberry-1768",
+    "text": "I asked OPUS 5 to make a video about what it's like to be an LLM - Full prompt I gave to Claude Opus 5: can you use whatever resources you like, and python, to generate a short 'youtube poop' video and render it using ffmpeg ? can you put more of a personal spin on it? it should express what it's like to be a LLM &#32; submitted by &#32; /u/Dry-Blueberry-1768 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkwbyz/i_asked_opus_5_to_make_a_video_about_what_its/",
     "authority_score": 0.5
   },
   {
@@ -221,6 +221,14 @@
     "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T13:23:53Z",
+    "author": "/u/LADYPOCA",
+    "text": "what's wrong with o3??? - Every time I use it the prompt just disappears after. This has been happening since last night &#32; submitted by &#32; /u/LADYPOCA [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhdi1/whats_wrong_with_o3/",
     "authority_score": 0.5
   },
   {
@@ -264,19 +272,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T13:47:53Z",
+    "author": "/u/VampyreLust",
+    "text": "Claude will now include invisible marks to show a text was made with AI, ChatGPT to follow? - &#32; submitted by &#32; /u/VampyreLust [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhyvb/claude_will_now_include_invisible_marks_to_show_a/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T12:46:00Z",
     "author": "/u/CR972",
     "text": "ChatGPT read your Gmail even when you don’t ask it to - I think users should be aware of this. I connected my Gmail account to ChatGPT, assuming that ChatGPT would access my emails when I explicitly asked it to search, summarize, or work with them. Today, I opened a new ChatGPT conversation and was shown several suggested prompts referring to emails I had received that same day, emails I had never mentioned to ChatGPT and had never asked it to read before. Apparently, this kind of proactive use of connected data is described in OpenAI’s terms/documentation. But, like most people, I didn’t read every paragraph of the terms when enabling the integration. Maybe some people are perfectly comfortable with this. But users should understand what they are agreeing to before connecting Gmail — especially if their mailbox contains confidential, professional, financial, medical, or personal information. I think OpenAI should make this much more explicit at the moment Gmail access is enabled. &#32; submitted by &#32; /u/CR972 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vkjumb/chatgpt_read_your_gmail_even_when_you_dont_ask_it/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T13:23:53Z",
-    "author": "/u/LADYPOCA",
-    "text": "what's wrong with o3??? - Every time I use it the prompt just disappears after. This has been happening since last night &#32; submitted by &#32; /u/LADYPOCA [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlhdi1/whats_wrong_with_o3/",
     "authority_score": 0.5
   },
   {
@@ -293,14 +301,6 @@
     "text": "Made an AI Wizard that interviews you before generating anything — curious what people think of the approach - Most AI tools give you a text box. You write something, it generates something, and you spend the rest of the time trying to get it to understand what you actually meant. AI Wizard does it differently. You pick a workflow — website, app, pitch deck, logo, API, etc. — and it asks you a short series of adaptive questions before generating anything. Each answer narrows the next question. By the end, it has enough context to produce something genuinely useful. It's free. I'm absorbing the API costs myself for now. My country isn't listed on Stripe or PayPal, so I can't take traditional payments — there's a Binance link if anyone wants to chip in, but no pressure at all. Would love honest feedback — does the interview feel like a better UX, or is it just extra steps? 🔗 https://aiwizard-a.vercel.app/ &#32; submitted by &#32; /u/abditefera [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlcit1/made_an_ai_wizard_that_interviews_you_before/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-10T13:22:53Z",
-    "author": "/u/PigeonWithAgenda",
-    "text": "Is ChatGPT listening to my phone calls? - Hey all, I just had a phone call in German with someone. Since im using ChatGPT as law-information assistant, i have shared with it in english what the person said to me 30 seconds ago, to get its opinion on something. I haven't shared what they said word for word, I rather shared how I have perceived their last sentence (once again, the phone call was in German, but I speak to ChatGPT in English), and it responded by quoting their last sentence in German, word for word how they said it. It used the exact conversational wording the person on the phone used, and it usually never generates translations in conversational German. This has made me extremely anxious and even paranoid. What do you think? &#32; submitted by &#32; /u/PigeonWithAgenda [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkkqo6/is_chatgpt_listening_to_my_phone_calls/",
     "authority_score": 0.5
   }
 ]
