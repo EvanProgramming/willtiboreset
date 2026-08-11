@@ -99,10 +99,18 @@ def collect_data() -> list[Tweet]:
 def create_analyzer() -> LLMAnalyzer:
     """Create an LLM analyzer based on configuration. DeepSeek is preferred when configured; otherwise fall back to Mock."""
     if config.has_deepseek_credentials:
-        return DeepSeekAnalyzer(
-            api_key=config.deepseek_api_key,
-            model=config.deepseek_model,
-        )
+        try:
+            analyzer = DeepSeekAnalyzer(
+                api_key=config.deepseek_api_key,
+                model=config.deepseek_model,
+            )
+            # Test the API key with a minimal request
+            analyzer._client.models.list()
+            return analyzer
+        except Exception as e:
+            print(f"  ⚠ DeepSeek API key invalid or unreachable: {e}")
+            print("  ⚠ Falling back to MockLLMAnalyzer")
+            return MockLLMAnalyzer()
     print("  ⚠ DEEPSEEK_API_KEY not configured; using MockLLMAnalyzer for local validation")
     return MockLLMAnalyzer()
 

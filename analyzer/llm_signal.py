@@ -360,15 +360,29 @@ class DeepSeekAnalyzer(LLMAnalyzer):
             lines.append(f"[{i}] {text}")
         user_input = "\n".join(lines)
 
-        response = self._client.chat.completions.create(
-            model=self._model,
-            messages=[
-                {"role": "system", "content": _SYSTEM_PROMPT},
-                {"role": "user", "content": user_input},
-            ],
-            temperature=0.1,
-        )
-        response_text = response.choices[0].message.content or ""
+        try:
+            response = self._client.chat.completions.create(
+                model=self._model,
+                messages=[
+                    {"role": "system", "content": _SYSTEM_PROMPT},
+                    {"role": "user", "content": user_input},
+                ],
+                temperature=0.1,
+            )
+            response_text = response.choices[0].message.content or ""
+        except Exception as e:
+            print(f"  ⚠ DeepSeek API error: {e}")
+            print("  ⚠ Returning default scores for all texts")
+            return [
+                SignalScores(
+                    reset_intent=0.0,
+                    limit_complaint=0.0,
+                    official_change=0.0,
+                    reset_confirmation=0.0,
+                    reason="API error: returning default scores",
+                )
+                for _ in texts
+            ]
 
         raw_list = _extract_json_array(response_text)
 
