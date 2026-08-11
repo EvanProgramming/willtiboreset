@@ -152,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T23:45:30Z",
-    "author": "/u/giperborey-us",
-    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T17:56:02Z",
     "author": "/u/bigus-_-dickus",
     "text": "me and my childhood self - &#32; submitted by &#32; /u/bigus-_-dickus [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks5ym/me_and_my_childhood_self/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T23:45:30Z",
+    "author": "/u/giperborey-us",
+    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
     "authority_score": 0.5
   },
   {
