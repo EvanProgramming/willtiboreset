@@ -13498,8 +13498,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T12:00:50.704123Z",
@@ -13547,8 +13547,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T12:40:54.686064Z",
@@ -13596,8 +13596,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T13:00:53.251883Z",
@@ -13645,8 +13645,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T13:40:53.899607Z",
@@ -13694,8 +13694,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T14:00:56.118603Z",
@@ -13743,8 +13743,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T14:40:52.164606Z",
@@ -13792,8 +13792,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T15:00:56.385738Z",
@@ -13841,8 +13841,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T15:40:58.568823Z",
@@ -13890,8 +13890,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T16:05:58.227025Z",
@@ -13939,8 +13939,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T16:40:53.578584Z",
@@ -13988,8 +13988,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T17:00:51.970325Z",
@@ -14037,8 +14037,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T17:40:53.582741Z",
@@ -14086,8 +14086,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T18:00:52.631247Z",
@@ -14135,8 +14135,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T18:41:05.746785Z",
@@ -14184,8 +14184,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T19:00:58.830591Z",
@@ -14233,8 +14233,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T19:41:01.643926Z",
@@ -14282,8 +14282,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T20:01:02.172735Z",
@@ -14331,8 +14331,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T20:40:57.652256Z",
@@ -14380,8 +14380,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T21:01:01.116468Z",
@@ -14429,8 +14429,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T21:40:54.274601Z",
@@ -14478,8 +14478,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T22:00:56.141921Z",
@@ -14527,8 +14527,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T22:40:59.982429Z",
@@ -14576,8 +14576,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T23:01:01.690172Z",
@@ -14625,8 +14625,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-08T23:41:08.085935Z",
@@ -14674,8 +14674,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T00:02:14.059493Z",
@@ -14723,8 +14723,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T00:40:57.545865Z",
@@ -14772,8 +14772,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T01:00:55.505098Z",
@@ -14821,8 +14821,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T01:40:59.448121Z",
@@ -14870,8 +14870,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T02:01:00.971232Z",
@@ -14919,8 +14919,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T02:40:59.620844Z",
@@ -14968,8 +14968,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T03:00:55.320157Z",
@@ -15017,8 +15017,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:40:21.605658Z"
   },
   {
     "prediction_time": "2026-08-09T03:40:55.096860Z",
@@ -15066,8 +15066,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-11T03:46:57.709358Z"
   },
   {
     "prediction_time": "2026-08-09T04:00:57.252246Z",
@@ -18461,6 +18461,261 @@
       "prior_applied": false,
       "interval_count": 13,
       "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T03:40:21.596361Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 13,
+      "hours_since_last_reset": 48.172662503611114,
+      "next_reset": {
+        "expected_time": "2026-08-16T03:30:00+00:00",
+        "hours_until": 119.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 78.89459839998653,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.7279,
+      "time_pressure": 0.0042,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.5278,
+      "tibo_signal": 0.434,
+      "community_signal": 0.0,
+      "release_signal": 0.5011,
+      "llm_scores": {
+        "reset_intent": 0.22307692307692306,
+        "limit_complaint": 0.0,
+        "official_change": 0.21538461538461537,
+        "reset_confirmation": 0.11153846153846153,
+        "confidence": 0.5307692307692308,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 13,
+      "weekly_cycle_factor": 0.8143,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T03:46:57.699942Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 13,
+      "hours_since_last_reset": 19.032691829444445,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 149.0,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2876,
+      "time_pressure": 0.0011,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.5277,
+      "tibo_signal": 0.434,
+      "community_signal": 0.0,
+      "release_signal": 0.5011,
+      "llm_scores": {
+        "reset_intent": 0.22307692307692306,
+        "limit_complaint": 0.0,
+        "official_change": 0.21538461538461537,
+        "reset_confirmation": 0.11153846153846153,
+        "confidence": 0.5307692307692308,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.8308,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T03:53:02.071135Z",
+    "prediction": {
+      "within_5h": 0.5,
+      "within_24h": 0.8,
+      "within_48h": 0.9
+    },
+    "signals": {
+      "tweet_count": 13,
+      "hours_since_last_reset": 19.133906134166665,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 148.9,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2891,
+      "time_pressure": 0.0011,
+      "hazard_rate": 0.064861,
+      "evidence_score": 0.5277,
+      "tibo_signal": 0.434,
+      "community_signal": 0.0,
+      "release_signal": 0.5011,
+      "llm_scores": {
+        "reset_intent": 0.22307692307692306,
+        "limit_complaint": 0.0,
+        "official_change": 0.21538461538461537,
+        "reset_confirmation": 0.11153846153846153,
+        "confidence": 0.5307692307692308,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.8308,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T03:54:15.693208Z",
+    "prediction": {
+      "within_5h": 0.4818,
+      "within_24h": 0.7989,
+      "within_48h": 0.8834
+    },
+    "signals": {
+      "tweet_count": 13,
+      "hours_since_last_reset": 19.15435664888889,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 148.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2894,
+      "time_pressure": 0.0011,
+      "hazard_rate": 0.064647,
+      "evidence_score": 0.5277,
+      "tibo_signal": 0.434,
+      "community_signal": 0.0,
+      "release_signal": 0.5011,
+      "llm_scores": {
+        "reset_intent": 0.22307692307692306,
+        "limit_complaint": 0.0,
+        "official_change": 0.21538461538461537,
+        "reset_confirmation": 0.11153846153846153,
+        "confidence": 0.5307692307692308,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.8308,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-11T03:54:34.705512Z",
+    "prediction": {
+      "within_5h": 0.4818,
+      "within_24h": 0.7989,
+      "within_48h": 0.8834
+    },
+    "signals": {
+      "tweet_count": 13,
+      "hours_since_last_reset": 19.159637978611112,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 148.8,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 66.18,
+      "median_reset_interval": 46.93,
+      "interval_uncertainty": 21.88,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.2895,
+      "time_pressure": 0.0011,
+      "hazard_rate": 0.064647,
+      "evidence_score": 0.5277,
+      "tibo_signal": 0.434,
+      "community_signal": 0.0,
+      "release_signal": 0.5011,
+      "llm_scores": {
+        "reset_intent": 0.22307692307692306,
+        "limit_complaint": 0.0,
+        "official_change": 0.21538461538461537,
+        "reset_confirmation": 0.11153846153846153,
+        "confidence": 0.5307692307692308,
+        "reason": [
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.40)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.8308,
       "explicit_future_reset": false
     },
     "actual_result": null,
