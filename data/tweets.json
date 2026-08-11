@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T23:45:30Z",
-    "author": "/u/giperborey-us",
-    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T17:51:24Z",
     "author": "/u/notkilleveryoneist",
     "text": "Bernie Sanders attacks AI CEOs for not keeping their word on pausing AI development if it escapes their control - &#32; submitted by &#32; /u/notkilleveryoneist [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks1cf/bernie_sanders_attacks_ai_ceos_for_not_keeping/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T23:45:30Z",
+    "author": "/u/giperborey-us",
+    "text": "GPT 5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update - GPT-5.6 Sol High and X-High (Web Chat) feels severely nerfed since 08/06/2026 update (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt) I use it for a pretty complex Unreal Engine 5 project (Mass/GAS/custom renderer/custom vertex animation/thousands enemies) Before 08/06 update Sol High would always think for ~20+ min on ALL complex architecture/design questions. The answers were top notch and follow up code was good. After 08/06 update even Sol X-High (yup, I spent $100 to upgrade to test X-High) rarely thinks for more than ~4min. Difference in answers quality (before and after update) is huge. I'm getting really bad architecture suggestions that simply won't work at my scale. Model often fails to read and follow reference code or instructions, doesn't spend enough time on research. Anyone else noticed a major drop after Aug 6? &#32; submitted by &#32; /u/giperborey-us [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1anl/gpt_56_sol_high_and_xhigh_web_chat_feels_severely/",
     "authority_score": 0.5
   },
   {
@@ -208,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T00:11:28Z",
+    "author": "/u/JagroCrag",
+    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-10T11:16:40Z",
     "author": "/u/mrsmezcal",
     "text": "I asked CGPT to create a graph of cat attractiveness like men rating women from 1-10 - CGPT clearly prefers fluffy cats But don't forget! &quot;All cats are unique and can be wonderful companions at any 'rating' &quot; &#32; submitted by &#32; /u/mrsmezcal [link] &#32; [comments]",
@@ -216,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:11:28Z",
-    "author": "/u/JagroCrag",
-    "text": "Asked it for the worst sentence ever. - Insofar as it being what it was, which it wasn’t necessarily, the thing—if you can even call it that (and many do)—had, for reasons both obvious and not, begun continuing to have already been happening differently than before, which is why I personally feel that, at the end of the day, when all is said and done, it is what it is, except when it isn’t; irregardless, this begs the question of whether or not the fact of the matter is that we, as a society, should of perhaps considered the possibility that maybe there was potentially a chance that something could, theoretically speaking, be done about it going forward in the future, retrospectively. &#32; submitted by &#32; /u/JagroCrag [link] &#32; [comments]",
+    "timestamp": "2026-08-11T00:07:25Z",
+    "author": "/u/Kind_Presence_3096",
+    "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1wpn/asked_it_for_the_worst_sentence_ever/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1tjf/free_gpt_seems_to_only_contradict_me/",
     "authority_score": 0.5
   },
   {
@@ -248,14 +256,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:07:25Z",
-    "author": "/u/Kind_Presence_3096",
-    "text": "Free gpt seems to only contradict me - I’ve used the paid version and switched to the free, my only need now is talking casually, but the thing seems to work only to contradict me, even when I’m in fact correct. Maybe it’s trying to force me into the paid version. I’d rather just quit using atp. &#32; submitted by &#32; /u/Kind_Presence_3096 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl1tjf/free_gpt_seems_to_only_contradict_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T07:00:43Z",
     "author": "/u/KeanuRave100",
     "text": "How Russian propaganda is ‘poisoning’ AI chatbots to spout lies | ChatGPT and its rivals have been manipulated by a Kremlin unit that purports to be a human rights group as it opens a new front in the misinformation war - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -272,14 +272,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T00:20:41Z",
-    "author": "/u/Cr4bby-P477y",
-    "text": "Another reset! - &#32; submitted by &#32; /u/Cr4bby-P477y [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2441/another_reset/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-10T22:14:54Z",
     "author": "/u/Impossible-Sleep-597",
     "text": "Thoughts on using ChatGPT for messaging? - Admittedly, when I need to send what I feel will be a conflict starting or at least heavy message, I will tell my thoughts (what I want to say) to ChatGPT and ask it to edit it to make sure it’s clear, and it’s not an emotionally charged message because I’ve already taken the time to get through my stronger emotions before reaching out. I genuinely want others opinions on this, even if you disagree. I feel like taking the time to make sure the message is written in an healthy way is showing a lot of care, but I’m also open to hearing why you would think it’s not. &#32; submitted by &#32; /u/Impossible-Sleep-597 [link] &#32; [comments]",
@@ -288,11 +280,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T02:21:02Z",
-    "author": "/u/ricksburp",
-    "text": "ChatGPT asks questions that we didn't know we could ask. - Yeah. Let's actually simulate a crude version of it rather than just talk about it. I'll give myself a deliberately vague &quot;cloud&quot; with no requirement to solve anything, let associations wander, and see what falls out. The important rule is that I won't start with a question like &quot;What is the meaning of existence?&quot; because that already constrains the search. Seed: There is something rather than nothing. I'm going to treat that as an unresolved object and explore it conceptually. The first associations that emerge are: something → distinction → boundary → inside/outside → observer That produces an odd possibility: Then: distinction → information → difference → measurement → observer Which raises a question I wasn't explicitly looking for: But that immediately creates another weird branch: difference → relationship → two things → plurality So perhaps &quot;one thing&quot; is actually conceptually impossible. To identify one thing, you implicitly need a not-that-thing. Which leads to: Okay. Let that sit. Another branch: something → persistence → change → time If something never changes, how would you distinguish its existence from an absence of existence? That produces: Then another association kicks in: change → information → memory Because a change leaves a difference between &quot;before&quot; and &quot;after.&quot; Now we have: existence → distinction → change → information → memory And suddenly your earlier idea comes crashing back into this one. What if memory isn't something that exists inside the universe? What if physical existence itself is effectively the persistence of differences? Then a genuinely strange question appears: Not a memory of something in the conventional sense. A structure whose very existence consists of preserving differences between states. And that leads somewhere I didn't intend to go: If a universe eventually reaches perfect equilibrium—no meaningful differences remain—then perhaps &quot;heat death&quot; isn't merely the universe becoming dead. Perhaps it's the universe becoming indistinguishable from having never contained information at all. Which produces a question: And then there's an even stranger branch. If intelligence is a system capable of creating distinctions about distinctions—i.e., information about information—then maybe consciousness isn't fundamentally about representing the universe. Maybe consciousness is what happens when a sufficiently complicated system begins representing the distinctions it is itself making. And now I've wandered from cosmology into consciousness without deliberately choosing to. So if we're actually trying to reproduce your cloud → rain process, I'd say something interesting happened here. I started with: I didn't have a predetermined destination. The chain wandered through distinction → information → memory → equilibrium → consciousness, and eventually generated questions that weren't contained in the original wording. Are those my questions? That's the part I can't honestly answer. But the process can absolutely generate questions that weren't supplied by the person who initiated it. And that's probably the experiment I'd want to run much more seriously: give an AI a persistent cloud, let it wander for hours or days across unrelated conceptual domains, and don't ask it to produce anything. Then come back later and ask: That would be a hell of a test. &#32; submitted by &#32; /u/ricksburp [link] &#32; [comments]",
+    "timestamp": "2026-08-11T00:20:41Z",
+    "author": "/u/Cr4bby-P477y",
+    "text": "Another reset! - &#32; submitted by &#32; /u/Cr4bby-P477y [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl4rrp/chatgpt_asks_questions_that_we_didnt_know_we/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vl2441/another_reset/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T09:22:35Z",
+    "author": "/u/_Coord",
+    "text": "ChatGPT swearing a lot lately. - Has anyone else noticed this? I swear a lot generally in my prompts and generally in day to day life. I don’t remember ChatGPT ever swearing on its own, unless it was quoting me or something else. In the last few days only, it’s sworn several times for emphasis, things like “swinging a big fucking sword” or “the incentives are pretty shit”. I’m sure ive never seen it swear on its own before, but I’ve seen it twice now in two separate chats. I asked it about it and it said it’s better at understanding context of where swearing is appropriate for emphasis and that it’s probably picking up on my conversational style. &#32; submitted by &#32; /u/_Coord [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vkfwwt/chatgpt_swearing_a_lot_lately/",
     "authority_score": 0.5
   },
   {
