@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T22:10:39Z",
-    "author": "/u/SgtSilock",
-    "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlvovj/do_not_ask_codex_to_delete_anything/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-12T02:03:16Z",
     "author": "/u/mercuriNg8rade",
     "text": "I heard Canada retired Smokey? What a shame… - &#32; submitted by &#32; /u/mercuriNg8rade [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vm1248/i_heard_canada_retired_smokey_what_a_shame/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T22:10:39Z",
+    "author": "/u/SgtSilock",
+    "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlvovj/do_not_ask_codex_to_delete_anything/",
     "authority_score": 0.5
   },
   {
@@ -184,11 +184,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T20:15:35Z",
-    "author": "/u/dry_towelette99",
-    "text": "Today it was apparently my turn - I’ve been using ChatGPT for about two months now after giving up on Claude and Gemini and I became a true zealot. I’m now using Pro, and despite having the personality, set to default, never had any problems like the sort you sometimes read about on here. Until today. Today, my ChatGPT is hot garbage. It has hallucinated a number of facts, is using old instructions and outdated information, and is generally not getting the job done. At least it’s as polite as always. I’m just hoping this is a temporary issue, otherwise I’m gonna be downgrading my subscription very quickly. If I wanted poor performance and bad answers, I’d just go back to Claude. &#32; submitted by &#32; /u/dry_towelette99 [link] &#32; [comments]",
+    "timestamp": "2026-08-12T02:11:03Z",
+    "author": "/u/tozumura",
+    "text": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos - https://preview.redd.it/8q5bp59iruih1.png?width=741&amp;format=png&amp;auto=webp&amp;s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said &quot;yes&quot; to this email. &#32; submitted by &#32; /u/tozumura [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlso9e/today_it_was_apparently_my_turn/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
     "authority_score": 0.5
   },
   {
@@ -200,6 +200,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T20:15:35Z",
+    "author": "/u/dry_towelette99",
+    "text": "Today it was apparently my turn - I’ve been using ChatGPT for about two months now after giving up on Claude and Gemini and I became a true zealot. I’m now using Pro, and despite having the personality, set to default, never had any problems like the sort you sometimes read about on here. Until today. Today, my ChatGPT is hot garbage. It has hallucinated a number of facts, is using old instructions and outdated information, and is generally not getting the job done. At least it’s as polite as always. I’m just hoping this is a temporary issue, otherwise I’m gonna be downgrading my subscription very quickly. If I wanted poor performance and bad answers, I’d just go back to Claude. &#32; submitted by &#32; /u/dry_towelette99 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlso9e/today_it_was_apparently_my_turn/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T14:35:01Z",
     "author": "/u/Tiny_Dirt6979",
     "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
@@ -208,11 +216,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T02:11:03Z",
-    "author": "/u/tozumura",
-    "text": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos - https://preview.redd.it/8q5bp59iruih1.png?width=741&amp;format=png&amp;auto=webp&amp;s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said &quot;yes&quot; to this email. &#32; submitted by &#32; /u/tozumura [link] &#32; [comments]",
+    "timestamp": "2026-08-12T01:43:50Z",
+    "author": "/u/Aine_123",
+    "text": "O3 glitching - Ive not seen anything like this happen in the last several years of chatgpt use. O3 generates incomplete replies, stopping midsentence. The options of &quot;copy&quot; &quot;regenerate&quot; etc that typically appear at the end of each response dont appear. If i type a new response the same thing happens. If I refresh the conversation, all those incomplete responses disappear leaving only my prompts. What is going on? Is this happening to others? I need to be able to use O3 on the web app till the sunset date. Hopefully they fix this fast. &#32; submitted by &#32; /u/Aine_123 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0mjt/o3_glitching/",
     "authority_score": 0.5
   },
   {
@@ -232,19 +240,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T01:43:50Z",
-    "author": "/u/Aine_123",
-    "text": "O3 glitching - Ive not seen anything like this happen in the last several years of chatgpt use. O3 generates incomplete replies, stopping midsentence. The options of &quot;copy&quot; &quot;regenerate&quot; etc that typically appear at the end of each response dont appear. If i type a new response the same thing happens. If I refresh the conversation, all those incomplete responses disappear leaving only my prompts. What is going on? Is this happening to others? I need to be able to use O3 on the web app till the sunset date. Hopefully they fix this fast. &#32; submitted by &#32; /u/Aine_123 [link] &#32; [comments]",
+    "timestamp": "2026-08-11T23:08:57Z",
+    "author": "/u/MerlinMimer",
+    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0mjt/o3_glitching/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:31:04Z",
-    "author": "/u/spooningTHENforking",
-    "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
     "authority_score": 0.5
   },
   {
@@ -256,19 +256,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T23:08:57Z",
-    "author": "/u/MerlinMimer",
-    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T14:40:28Z",
     "author": "/u/Smart_AI_Hustle",
     "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T00:31:04Z",
+    "author": "/u/spooningTHENforking",
+    "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T00:25:46Z",
+    "author": "/u/PaidInFeeling",
+    "text": "Can you show me a picture of every single part on my bike and a brief description of what the part does? - https://preview.redd.it/7q3dmg8s8uih1.png?width=864&amp;format=png&amp;auto=webp&amp;s=53c5390eb68314c1a21866cae6fde6fa8176380d &#32; submitted by &#32; /u/PaidInFeeling [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlywz6/can_you_show_me_a_picture_of_every_single_part_on/",
     "authority_score": 0.5
   },
   {
@@ -293,14 +301,6 @@
     "text": "ChatGPT unable to access audio from uploaded MP3/WAV files - I've been using ChatGPT to clean up scientific speech to text transcripts by having it going through the audio and correcting technical jargon errors in the text that the ASR engine made. Yesterday, after an outage, audio uploads were no longer accessible. They will upload, ChatGPT can recognize them, but cannot access the contents. Is anybody else having this problem? &#32; submitted by &#32; /u/dragnabbit [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0e1u/chatgpt_unable_to_access_audio_from_uploaded/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T17:43:14Z",
-    "author": "/u/Complex-Poet-6809",
-    "text": "ChatGPT has been starting every response with “Yes—“ regardless of my prompt being a yes-or-no question or not. - Yes—this is a very interesting development in ChatGPT’s behavior. Make it stop please OpenAI, it’s getting annoying. &#32; submitted by &#32; /u/Complex-Poet-6809 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlofev/chatgpt_has_been_starting_every_response_with_yes/",
     "authority_score": 0.5
   }
 ]
