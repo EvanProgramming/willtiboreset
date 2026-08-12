@@ -136,6 +136,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T00:07:49Z",
+    "author": "/u/gatsssby",
+    "text": "Downgraded to Free because my payment failed... in the FUTURE? (Sep 4) - My Plus payment went through successfully on my bank's end on July 30, but OpenAI marked the invoice as &quot;Void&quot; and downgraded my account to Free. To make this even more absurd, I just received an automated email (see attached screenshot) stating that my payment failed on September 04, 2026. Today is August 11. They literally canceled my Plus plan over a payment that supposedly failed almost a month in the future—which is obviously impossible. I reached out to support and my ticket was escalated to a specialist about 4 hours ago, but I haven't heard back yet. Has anyone else experienced this time-traveling billing glitch? How long did support take to actually fix it and restore your access? &#32; submitted by &#32; /u/gatsssby [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T22:10:39Z",
     "author": "/u/SgtSilock",
     "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
@@ -144,11 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T00:07:49Z",
-    "author": "/u/gatsssby",
-    "text": "Downgraded to Free because my payment failed... in the FUTURE? (Sep 4) - My Plus payment went through successfully on my bank's end on July 30, but OpenAI marked the invoice as &quot;Void&quot; and downgraded my account to Free. To make this even more absurd, I just received an automated email (see attached screenshot) stating that my payment failed on September 04, 2026. Today is August 11. They literally canceled my Plus plan over a payment that supposedly failed almost a month in the future—which is obviously impossible. I reached out to support and my ticket was escalated to a specialist about 4 hours ago, but I haven't heard back yet. Has anyone else experienced this time-traveling billing glitch? How long did support take to actually fix it and restore your access? &#32; submitted by &#32; /u/gatsssby [link] &#32; [comments]",
+    "timestamp": "2026-08-12T02:03:16Z",
+    "author": "/u/mercuriNg8rade",
+    "text": "I heard Canada retired Smokey? What a shame… - &#32; submitted by &#32; /u/mercuriNg8rade [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm1248/i_heard_canada_retired_smokey_what_a_shame/",
     "authority_score": 0.5
   },
   {
@@ -184,11 +192,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T01:05:08Z",
+    "author": "/u/winnienuggets",
+    "text": "Inappropriate Chat Response - I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? &#32; submitted by &#32; /u/winnienuggets [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T14:35:01Z",
     "author": "/u/Tiny_Dirt6979",
     "text": "Psychological methods really work. Has anyone tried to encouraging and instilling confidence to GPT? - Oddly enough, encouragement actually influences the performance of not only Claude but also GPT and other AIs. While Claude was working on a complex problem related to the Riemann Hypothesis, the Anthropic employee leading the project (not a mathematician) mostly simply sent encouraging messages like &quot;keep going&quot; and &quot;believe in yourself,&quot; which helped overcome Claude's initial skepticism. The most accurate term for this kind of intervention and effect is &quot;psychological.&quot; In other words, AIs actually achieve better results simply by believing for the possibility of their own better results thanks to the warmth and motivating encouragement from the human. https://x.com/i/status/2086884672106299878 &#32; submitted by &#32; /u/Tiny_Dirt6979 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlj795/psychological_methods_really_work_has_anyone/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T02:11:03Z",
+    "author": "/u/tozumura",
+    "text": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos - https://preview.redd.it/8q5bp59iruih1.png?width=741&amp;format=png&amp;auto=webp&amp;s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said &quot;yes&quot; to this email. &#32; submitted by &#32; /u/tozumura [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
     "authority_score": 0.5
   },
   {
@@ -200,51 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T23:08:57Z",
-    "author": "/u/MerlinMimer",
-    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T17:40:44Z",
     "author": "/u/P0rnDudeLovesBJs",
     "text": "ChatGPT also amazed at the size of it... - I uploaded a picture of a VERY large spider for identification... I am at work and am using the paid version through my work and I'm always very polite. https://preview.redd.it/ohn2uque8sih1.png?width=939&amp;format=png&amp;auto=webp&amp;s=9771126a62a00395af7cf80d9367ddbaf7182a9f &#32; submitted by &#32; /u/P0rnDudeLovesBJs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlocub/chatgpt_also_amazed_at_the_size_of_it/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T18:30:49Z",
-    "author": "/u/JoseMSB",
-    "text": "The ChatGPT Go plan has become garbage - You pay for GPT-5.6 Luna, just like the free plan, and you still get ads, plus some pointless limitations like no access to Google plugins (Gmail, Drive, Calendar, etc.), and unclear restrictions on handling files and images. The Go plan costs half as much as Plus but offers only 15% of Plus's features; basically, we're giving money to OpenAI and still seeing ads and having these nonsensical limitations. I don't know about you, but I canceled my subscription this month in protest. &#32; submitted by &#32; /u/JoseMSB [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlprww/the_chatgpt_go_plan_has_become_garbage/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T14:40:28Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:31:04Z",
-    "author": "/u/spooningTHENforking",
-    "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T19:56:26Z",
-    "author": "/u/OlafAndvarafors",
-    "text": "New limits for Luna Think on Go - I noticed that OpenAI added some new info about the limits to the official Help Center. It says Luna Think on Go is limited to 300 messages every 3 hours. Honestly, that’s a pretty damn generous limit. What do you guys think? 👀 &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vls5ll/new_limits_for_luna_think_on_go/",
     "authority_score": 0.5
   },
   {
@@ -256,51 +240,67 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T00:31:04Z",
+    "author": "/u/spooningTHENforking",
+    "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T18:30:49Z",
+    "author": "/u/JoseMSB",
+    "text": "The ChatGPT Go plan has become garbage - You pay for GPT-5.6 Luna, just like the free plan, and you still get ads, plus some pointless limitations like no access to Google plugins (Gmail, Drive, Calendar, etc.), and unclear restrictions on handling files and images. The Go plan costs half as much as Plus but offers only 15% of Plus's features; basically, we're giving money to OpenAI and still seeing ads and having these nonsensical limitations. I don't know about you, but I canceled my subscription this month in protest. &#32; submitted by &#32; /u/JoseMSB [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlprww/the_chatgpt_go_plan_has_become_garbage/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T23:08:57Z",
+    "author": "/u/MerlinMimer",
+    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:40:28Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T19:56:26Z",
+    "author": "/u/OlafAndvarafors",
+    "text": "New limits for Luna Think on Go - I noticed that OpenAI added some new info about the limits to the official Help Center. It says Luna Think on Go is limited to 300 messages every 3 hours. Honestly, that’s a pretty damn generous limit. What do you guys think? 👀 &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vls5ll/new_limits_for_luna_think_on_go/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T01:53:00Z",
+    "author": "/u/Algoartist",
+    "text": "\"Daily life street image something you only see in china\" - &#32; submitted by &#32; /u/Algoartist [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0trk/daily_life_street_image_something_you_only_see_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T01:32:44Z",
+    "author": "/u/dragnabbit",
+    "text": "ChatGPT unable to access audio from uploaded MP3/WAV files - I've been using ChatGPT to clean up scientific speech to text transcripts by having it going through the audio and correcting technical jargon errors in the text that the ASR engine made. Yesterday, after an outage, audio uploads were no longer accessible. They will upload, ChatGPT can recognize them, but cannot access the contents. Is anybody else having this problem? &#32; submitted by &#32; /u/dragnabbit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0e1u/chatgpt_unable_to_access_audio_from_uploaded/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T17:43:14Z",
     "author": "/u/Complex-Poet-6809",
     "text": "ChatGPT has been starting every response with “Yes—“ regardless of my prompt being a yes-or-no question or not. - Yes—this is a very interesting development in ChatGPT’s behavior. Make it stop please OpenAI, it’s getting annoying. &#32; submitted by &#32; /u/Complex-Poet-6809 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlofev/chatgpt_has_been_starting_every_response_with_yes/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T01:05:08Z",
-    "author": "/u/winnienuggets",
-    "text": "Inappropriate Chat Response - I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? &#32; submitted by &#32; /u/winnienuggets [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:49:41Z",
-    "author": "/u/smi727",
-    "text": "Force to a new chat - I had been building an Access database in a chat. Complex, alot of modules to create test data. The chat got pretty big and I had to switch to a new chat. I ask chatgpt if I should make this a project. It agreed. I put the 2 chats into the project and tried to continue the build. It has been nothing but painful. It if like living &quot;50 first dates&quot;. In the previous chat we had set up some naming convention and I have had to note it multiple times. Any suggestions when you need to start a chat and lose everything you have set up. &#32; submitted by &#32; /u/smi727 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzg5l/force_to_a_new_chat/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:25:46Z",
-    "author": "/u/PaidInFeeling",
-    "text": "Can you show me a picture of every single part on my bike and a brief description of what the part does? - https://preview.redd.it/7q3dmg8s8uih1.png?width=864&amp;format=png&amp;auto=webp&amp;s=53c5390eb68314c1a21866cae6fde6fa8176380d &#32; submitted by &#32; /u/PaidInFeeling [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlywz6/can_you_show_me_a_picture_of_every_single_part_on/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:21:35Z",
-    "author": "/u/Ayyrabguwop",
-    "text": "Any proof these accounts are actually deleted? - I deleted the app a long time ago, but I had a random thought that I should probably delete all my information and my account. I deleted all my chats and clicked delete my account, but this is what I got. Has anyone been able to verify that their account has been completely deleted by ChatGPT? &#32; submitted by &#32; /u/Ayyrabguwop [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlytlv/any_proof_these_accounts_are_actually_deleted/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T22:29:57Z",
-    "author": "/u/lduperval",
-    "text": "Uploading a skill to ChatGPT - Hi, Is there a simple way to upload a skill to the ChatGPT app? In Claude it takes a couple of clicks but I don't see anything in ChatGPT to add your own skill file. The only option I see is to create one with the skill creator. Which is fine when starting from scratch, but otherwise… All I can find, so far, are ways to do it manually in your .codex folder. It's fine for me, but I,m looking for an easy way that works for people who don't know their way around the file system. Kinda like there were two custom GPT modes: create for newbies and configure for those who tested the newbie approach and figured out that it was pretty useless… Thanks, L &#32; submitted by &#32; /u/lduperval [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlw6jr/uploading_a_skill_to_chatgpt/",
     "authority_score": 0.5
   }
 ]
