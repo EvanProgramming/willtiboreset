@@ -128,11 +128,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T16:48:30Z",
-    "author": "/u/Shot-Dimension-1405",
-    "text": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 - If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "timestamp": "2026-08-12T00:37:34Z",
+    "author": "/u/DijonAndDragons",
+    "text": "That wasn't a star... - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmvti/if_your_chatgpt_chats_were_leaked_whats_the/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz6g5/that_wasnt_a_star/",
     "authority_score": 0.5
   },
   {
@@ -144,6 +144,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T16:48:30Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 - If your ChatGPT chats were leaked, what's the weirdest thing people would find? 😂 &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlmvti/if_your_chatgpt_chats_were_leaked_whats_the/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T18:22:25Z",
     "author": "/u/Dapper-Tale-4021",
     "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
@@ -152,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-10T17:55:10Z",
-    "author": "/u/ThenLayer5977",
-    "text": "It’s here - For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. &#32; submitted by &#32; /u/ThenLayer5977 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-12T00:07:49Z",
     "author": "/u/gatsssby",
     "text": "Downgraded to Free because my payment failed... in the FUTURE? (Sep 4) - My Plus payment went through successfully on my bank's end on July 30, but OpenAI marked the invoice as &quot;Void&quot; and downgraded my account to Free. To make this even more absurd, I just received an automated email (see attached screenshot) stating that my payment failed on September 04, 2026. Today is August 11. They literally canceled my Plus plan over a payment that supposedly failed almost a month in the future—which is obviously impossible. I reached out to support and my ticket was escalated to a specialist about 4 hours ago, but I haven't heard back yet. Has anyone else experienced this time-traveling billing glitch? How long did support take to actually fix it and restore your access? &#32; submitted by &#32; /u/gatsssby [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyi9w/downgraded_to_free_because_my_payment_failed_in/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-10T17:55:10Z",
+    "author": "/u/ThenLayer5977",
+    "text": "It’s here - For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. &#32; submitted by &#32; /u/ThenLayer5977 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/",
     "authority_score": 0.5
   },
   {
@@ -208,6 +216,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-11T23:08:57Z",
+    "author": "/u/MerlinMimer",
+    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T00:21:35Z",
     "author": "/u/Ayyrabguwop",
     "text": "Any proof these accounts are actually deleted? - I deleted the app a long time ago, but I had a random thought that I should probably delete all my information and my account. I deleted all my chats and clicked delete my account, but this is what I got. Has anyone been able to verify that their account has been completely deleted by ChatGPT? &#32; submitted by &#32; /u/Ayyrabguwop [link] &#32; [comments]",
@@ -224,14 +240,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T23:08:57Z",
-    "author": "/u/MerlinMimer",
-    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T17:43:14Z",
     "author": "/u/Complex-Poet-6809",
     "text": "ChatGPT has been starting every response with “Yes—“ regardless of my prompt being a yes-or-no question or not. - Yes—this is a very interesting development in ChatGPT’s behavior. Make it stop please OpenAI, it’s getting annoying. &#32; submitted by &#32; /u/Complex-Poet-6809 [link] &#32; [comments]",
@@ -245,6 +253,14 @@
     "text": "New limits for Luna Think on Go - I noticed that OpenAI added some new info about the limits to the official Help Center. It says Luna Think on Go is limited to 300 messages every 3 hours. Honestly, that’s a pretty damn generous limit. What do you guys think? 👀 &#32; submitted by &#32; /u/OlafAndvarafors [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vls5ll/new_limits_for_luna_think_on_go/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T00:49:41Z",
+    "author": "/u/smi727",
+    "text": "Force to a new chat - I had been building an Access database in a chat. Complex, alot of modules to create test data. The chat got pretty big and I had to switch to a new chat. I ask chatgpt if I should make this a project. It agreed. I put the 2 chats into the project and tried to continue the build. It has been nothing but painful. It if like living &quot;50 first dates&quot;. In the previous chat we had set up some naming convention and I have had to note it multiple times. Any suggestions when you need to start a chat and lose everything you have set up. &#32; submitted by &#32; /u/smi727 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzg5l/force_to_a_new_chat/",
     "authority_score": 0.5
   },
   {
@@ -272,11 +288,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T00:37:34Z",
-    "author": "/u/DijonAndDragons",
-    "text": "That wasn't a star... - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
+    "timestamp": "2026-08-12T00:57:57Z",
+    "author": "/u/Kind_Substance_8981",
+    "text": "My Hero Amogus - This took a while to get right. The workflow that finally worked was (1) discuss character until chat understands appearance and personality well (2) generate character page (3) refine character page until it's not shit (4) tell it the narrative frame of the comic page (5) generate blank page layout (6) enter extra reference photos, generate comic, edit until you're okay with it &#32; submitted by &#32; /u/Kind_Substance_8981 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz6g5/that_wasnt_a_star/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzmnz/my_hero_amogus/",
     "authority_score": 0.5
   },
   {
@@ -285,22 +301,6 @@
     "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:25:46Z",
-    "author": "/u/PaidInFeeling",
-    "text": "Can you show me a picture of every single part on my bike and a brief description of what the part does? - https://preview.redd.it/7q3dmg8s8uih1.png?width=864&amp;format=png&amp;auto=webp&amp;s=53c5390eb68314c1a21866cae6fde6fa8176380d &#32; submitted by &#32; /u/PaidInFeeling [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlywz6/can_you_show_me_a_picture_of_every_single_part_on/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:15:55Z",
-    "author": "/u/Empty_Technician_573",
-    "text": "My personal tier list since i subbed to Plus in 2024 - I normally use ChatGPT for Roleplay/Simulation, and the models who we're good at it or not. What about how you rate the models? &#32; submitted by &#32; /u/Empty_Technician_573 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlyote/my_personal_tier_list_since_i_subbed_to_plus_in/",
     "authority_score": 0.5
   }
 ]
