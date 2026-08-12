@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-12T06:20:37Z",
+    "author": "Tibo",
+    "text": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. We blew past that and have been silent since 10M. Little s... - I previously promised a reset for every 1M in additional active users for Codex, until 10M. We blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2087423996115681767",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-11T19:05:13Z",
     "author": "Tibo",
     "text": "We did it, finally... Codex & ChatGPT desktop, now on Linux. Thanks for waiting and you can cancel that MacBook order if you got impatient. It’s that... - We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. Thanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.👀OpenAI: Now in preview: The ChatGPT desktop app for Linux.Use ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems.",
@@ -96,14 +104,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-08-05T04:29:28Z",
-    "author": "Tibo",
-    "text": "Better Cyber. Excited to welcome Halvar Flake to the team soon. - Better Cyber. Excited to welcome Halvar Flake to the team soon.Noise2Signal: I am excited to welcome Thomas Dullien @Noise2SignalPod to the Noise2Signal podcast!This episode's title was inspired by Thomas Ptacek’s excellent write-up, \"Vulnerability Research is Cooked,\" which is equal parts inspiring and depressing. Inspiring because finding",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2084859308165271658",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T02:11:03Z",
-    "author": "/u/tozumura",
-    "text": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos - https://preview.redd.it/8q5bp59iruih1.png?width=741&amp;format=png&amp;auto=webp&amp;s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said &quot;yes&quot; to this email. &#32; submitted by &#32; /u/tozumura [link] &#32; [comments]",
+    "timestamp": "2026-08-12T03:29:12Z",
+    "author": "/u/epicfan_16",
+    "text": "Desktop app shows GPT 5.6 Sol? But, I'm on Go plan - I installed ChatGPT desktop app on Ubuntu and noticed that the model is listed as GPT 5.6 Sol. I thought they were giving 5.6 Luna for Free and Go users, but I'm seeing Sol. Do you guys also have this? &#32; submitted by &#32; /u/epicfan_16 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2uhg/desktop_app_shows_gpt_56_sol_but_im_on_go_plan/",
     "authority_score": 0.5
   },
   {
@@ -208,11 +208,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T03:29:12Z",
-    "author": "/u/epicfan_16",
-    "text": "Desktop app shows GPT 5.6 Sol? But, I'm on Go plan - I installed ChatGPT desktop app on Ubuntu and noticed that the model is listed as GPT 5.6 Sol. I thought they were giving 5.6 Luna for Free and Go users, but I'm seeing Sol. Do you guys also have this? &#32; submitted by &#32; /u/epicfan_16 [link] &#32; [comments]",
+    "timestamp": "2026-08-12T02:11:03Z",
+    "author": "/u/tozumura",
+    "text": "Youtuber gets multiple sponsor requests from doomers/decels to make anti AI videos - https://preview.redd.it/8q5bp59iruih1.png?width=741&amp;format=png&amp;auto=webp&amp;s=65c2bbcadd2a637b4eee1b86a330932d7340e7d9 https://fixupx.com/benawad/status/2086953365284732931 Next time you see a popular Youtuber jump onto the anti AI train, they probably said &quot;yes&quot; to this email. &#32; submitted by &#32; /u/tozumura [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2uhg/desktop_app_shows_gpt_56_sol_but_im_on_go_plan/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm180u/youtuber_gets_multiple_sponsor_requests_from/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T06:17:52Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI’s head of ethics leaves start-up less than one year after joining - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm60iy/openais_head_of_ethics_leaves_startup_less_than/",
     "authority_score": 0.5
   },
   {
@@ -229,14 +237,6 @@
     "text": "It’s here - For context, I normally have the $200 plan, but for this month I just got the basic plan. Luna is a great value, and I can use other AI models, but that’s beside the point. Today, when I went in, I was already out of usage, and since he had said he was going to reset it so I could check, I noticed they’re now offering me the option to pay $8 to reset my usage. I’m not sure how much a reset costs on the $200 plan, but on the $20 plan, it’s $8 per reset, and I guess the feature is already live.I don’t know who else has access to this feature yet, but it’s showing up for me. &#32; submitted by &#32; /u/ThenLayer5977 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vks54h/its_here/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T01:53:00Z",
-    "author": "/u/Algoartist",
-    "text": "\"Daily life street image something you only see in china\" - &#32; submitted by &#32; /u/Algoartist [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm0trk/daily_life_street_image_something_you_only_see_in/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T06:28:06Z",
+    "author": "/u/RipArtistic8799",
+    "text": "Summarize what you know about me... - So, I asked chat GPT to &quot;Summarize what you know about me.&quot; It had a pretty detailed summary. I noticed, however, that is seemed pretty positive, so I entered the follow up prompt: &quot;Don't flatter me. Tell me some things you noticed that are not so flattering.&quot; Then I got quite a different list. &#32; submitted by &#32; /u/RipArtistic8799 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm66vp/summarize_what_you_know_about_me/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T17:40:44Z",
     "author": "/u/P0rnDudeLovesBJs",
     "text": "ChatGPT also amazed at the size of it... - I uploaded a picture of a VERY large spider for identification... I am at work and am using the paid version through my work and I'm always very polite. https://preview.redd.it/ohn2uque8sih1.png?width=939&amp;format=png&amp;auto=webp&amp;s=9771126a62a00395af7cf80d9367ddbaf7182a9f &#32; submitted by &#32; /u/P0rnDudeLovesBJs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlocub/chatgpt_also_amazed_at_the_size_of_it/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T05:07:57Z",
-    "author": "/u/EnkiAwakened",
-    "text": "Looking for the best ChatGPT prompt for medical school lectures ( clinical stages ) - What do you guys recommend, and which prompts have you actually tried that worked well for studying medical school lectures? I’m looking for something that explains lectures in detail and in an organized way, rather than just summarizing them. Not specifically for Step 1. &#32; submitted by &#32; /u/EnkiAwakened [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm4r7h/looking_for_the_best_chatgpt_prompt_for_medical/",
     "authority_score": 0.5
   }
 ]
