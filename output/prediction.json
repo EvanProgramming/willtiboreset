@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-12T21:40:24.708780+00:00",
+  "updated_at": "2026-08-12T21:58:44.882304+00:00",
   "prediction": {
-    "within_5h": 0.2743,
-    "within_24h": 0.5608,
-    "within_48h": 0.7378
+    "within_5h": 0.2739,
+    "within_24h": 0.5605,
+    "within_48h": 0.7376
   },
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-17T08:45:00+00:00",
-    "hours_until": 107.1,
+    "hours_until": 106.8,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 36,
-    "hours_since_last_reset": 60.92352993027777,
+    "hours_since_last_reset": 61.229133689166666,
     "next_reset": {
       "expected_time": "2026-08-17T08:45:00+00:00",
-      "hours_until": 107.1,
+      "hours_until": 106.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 70.04,
@@ -26,11 +26,11 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 269.5,
     "interval_confidence": 0.6,
-    "time_ratio": 0.8698,
-    "time_pressure": 0.014,
-    "hazard_rate": 0.033702,
-    "evidence_score": 0.4239,
-    "tibo_signal": 0.3947,
+    "time_ratio": 0.8742,
+    "time_pressure": 0.0142,
+    "hazard_rate": 0.033675,
+    "evidence_score": 0.4238,
+    "tibo_signal": 0.3952,
     "community_signal": 0.0,
     "release_signal": 0.5,
     "llm_scores": {
@@ -55,14 +55,14 @@
   },
   "main_factors": [
     {
-      "factor": "60.9 hours since last reset",
+      "factor": "61.2 hours since last reset",
       "impact": "-5%",
       "score": 0.01
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+7%",
-      "score": 0.39
+      "score": 0.4
     },
     {
       "factor": "Official release/change signal",
@@ -71,8 +71,8 @@
     }
   ],
   "reasons": [
-    "Recently reset (60.9 hours ago), low time pressure (0.01)",
+    "Recently reset (61.2 hours ago), low time pressure (0.01)",
     "Moderate reset evidence detected (evidence_score=0.42)",
-    "Main factor: 60.9 hours since last reset (-5%)"
+    "Main factor: 61.2 hours since last reset (-5%)"
   ]
 }
