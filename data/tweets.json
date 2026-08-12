@@ -120,6 +120,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T13:14:31Z",
+    "author": "/u/Important-Primary823",
+    "text": "Sam Altman says AI won't bring a 4-day work week because humans are 'secretly happy' staying busy - What? &#32; submitted by &#32; /u/Important-Primary823 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmdtrn/sam_altman_says_ai_wont_bring_a_4day_work_week/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T00:37:34Z",
     "author": "/u/DijonAndDragons",
     "text": "That wasn't a star... - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
@@ -160,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T12:02:27Z",
+    "author": "/u/IME_was_taken",
+    "text": "Chat Humor Update? - This was so funny I actually laughed out loud. &#32; submitted by &#32; /u/IME_was_taken [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmc682/chat_humor_update/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T02:03:16Z",
     "author": "/u/mercuriNg8rade",
     "text": "I heard Canada retired Smokey? What a shame… - &#32; submitted by &#32; /u/mercuriNg8rade [link] &#32; [comments]",
@@ -173,14 +189,6 @@
     "text": "Inappropriate Chat Response - I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? &#32; submitted by &#32; /u/winnienuggets [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T12:02:27Z",
-    "author": "/u/IME_was_taken",
-    "text": "Chat Humor Update? - This was so funny I actually laughed out loud. &#32; submitted by &#32; /u/IME_was_taken [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmc682/chat_humor_update/",
     "authority_score": 0.5
   },
   {
@@ -216,6 +224,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T12:01:38Z",
+    "author": "/u/ThatIsNotIllegal",
+    "text": "How do I stop GPT from being lazy and taking shortcuts? - Over the past few days I have been using GPT 5.6 sol increasingly and I am noticing that it's very lazy. -Told it to transcribe some audio using a specific STT. it later discovered that the task would exceed the budget by 3 dollars instead of asking whether to proceed or not it used a much cheaper (and less reliable) STT and marked the task as done. -Told it to start a task from scratch and not look at the previous attempts or logs because they were duds. it proceeded to restore the failed attempts and try to salvage them for hours until I noticed that it did not in fact start the task from scratch. -Told to fully analyze a csv file and use Luna subagents to cross check its own work row by row in case it missed something. it proceeded to eliminate 90% of the rows with regex then only analyzing the rest without using any subagents I doubt this is a problem of prompting I am as clear as I can, I mention every edge case I can think of and repeatedly tell it what not to do throughout the chat only for it to make the same lazy mistakes over and over. Is there some fix to this? &#32; submitted by &#32; /u/ThatIsNotIllegal [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmc5km/how_do_i_stop_gpt_from_being_lazy_and_taking/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T05:08:25Z",
     "author": "/u/notwhoyouthinkc",
     "text": "How many projects do you have in your ChatGPT? - This is just adding onto someone else’s post I saw earlier, but a little more to it… But how many do you have? Do you do a project for like work then personal stuff then like a random one or do you have like 20? Wondering if I’m doing it wrong😅 &#32; submitted by &#32; /u/notwhoyouthinkc [link] &#32; [comments]",
@@ -224,11 +240,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T12:01:38Z",
-    "author": "/u/ThatIsNotIllegal",
-    "text": "How do I stop GPT from being lazy and taking shortcuts? - Over the past few days I have been using GPT 5.6 sol increasingly and I am noticing that it's very lazy. -Told it to transcribe some audio using a specific STT. it later discovered that the task would exceed the budget by 3 dollars instead of asking whether to proceed or not it used a much cheaper (and less reliable) STT and marked the task as done. -Told it to start a task from scratch and not look at the previous attempts or logs because they were duds. it proceeded to restore the failed attempts and try to salvage them for hours until I noticed that it did not in fact start the task from scratch. -Told to fully analyze a csv file and use Luna subagents to cross check its own work row by row in case it missed something. it proceeded to eliminate 90% of the rows with regex then only analyzing the rest without using any subagents I doubt this is a problem of prompting I am as clear as I can, I mention every edge case I can think of and repeatedly tell it what not to do throughout the chat only for it to make the same lazy mistakes over and over. Is there some fix to this? &#32; submitted by &#32; /u/ThatIsNotIllegal [link] &#32; [comments]",
+    "timestamp": "2026-08-12T12:32:51Z",
+    "author": "/u/dr-dimitru",
+    "text": "250 credits to a new ChatGPT Desktop user - I have ChatGPT Desktop invites (only works if you have never used their Desktop app before). Works via direct email invitation. DM me your email address and we both will get 250 credits (it’s like 1 week of use on Plus plan using Terra, or few weeks using Luna) &#32; submitted by &#32; /u/dr-dimitru [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmc5km/how_do_i_stop_gpt_from_being_lazy_and_taking/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmcu9h/250_credits_to_a_new_chatgpt_desktop_user/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T13:22:48Z",
+    "author": "/u/thavillain",
+    "text": "Fan casting a new G.I. Joe Movie - Big G.I. Joe fan, but not able to share in G.I. Joe forum. With talk of a new G.I. Joe possibly on the horizon, I started thinking who could be cast. Tried to use actors who wouldn't kill a real life budget and could fit into their roles. The premise would be a mix of older and younger actors, as the older Joes mentoring the younger ones. I've only done a few so far, so other actors/characters welcome. Chuckles - Alan Ritchson Doc - Sterling K Brown Flint - Henry Cavill Scarlett - Allison Sudol Destro - Florian Munteanu (v.o. Kevin Michael Richardson Baroness - Grace Caroline Curry Tomax &amp; Xamot - Matt Bomer Tunnel Rat - Ben Wang &#32; submitted by &#32; /u/thavillain [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vme11g/fan_casting_a_new_gi_joe_movie/",
     "authority_score": 0.5
   },
   {
@@ -256,35 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T12:32:51Z",
-    "author": "/u/dr-dimitru",
-    "text": "250 credits to a new ChatGPT Desktop user - I have ChatGPT Desktop invites (only works if you have never used their Desktop app before). Works via direct email invitation. DM me your email address and we both will get 250 credits (it’s like 1 week of use on Plus plan using Terra, or few weeks using Luna) &#32; submitted by &#32; /u/dr-dimitru [link] &#32; [comments]",
+    "timestamp": "2026-08-12T12:24:59Z",
+    "author": "/u/Goat2285",
+    "text": "Chat GPT now swears - https://preview.redd.it/kaenbtt1txih1.png?width=1140&amp;format=png&amp;auto=webp&amp;s=a1051fb5c3bf313e21fe7fa08438918ed0b9665d Ironically me asking what the dead sea scrolls are: prompt: &quot;Can you please explain the dead sea scrolls for me? &quot; &#32; submitted by &#32; /u/Goat2285 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmcu9h/250_credits_to_a_new_chatgpt_desktop_user/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T18:22:25Z",
-    "author": "/u/Dapper-Tale-4021",
-    "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T07:45:39Z",
-    "author": "/u/archz2",
-    "text": "How to do clean uninstall of chatgpt desktop app on windows? - ChatGPT desktop app will not download images even after a complete reinstall I am on Windows 11 and the Download button in the ChatGPT desktop app does nothing when I try to download generated images. I already tried uninstalling ChatGPT normally through Windows Add or Remove Programs. After uninstalling, I manually checked and removed ChatGPT related files from these locations %LOCALAPPDATA% %APPDATA% %LOCALAPPDATA%\\Packages I also checked for and removed the OpenAI.ChatGPT folder. I then opened PowerShell as Administrator and ran these commands Get-AppxPackage *ChatGPT* | Select Name, PackageFullName and Get-AppxPackage *ChatGPT* | Remove-AppxPackage I also verified afterward with Get-AppxPackage *ChatGPT* and there was no ChatGPT package remaining. I restarted Windows and reinstalled ChatGPT, but the image downloading problem is still there. What is especially strange is that after reinstalling, ChatGPT was still logged into my account. That makes me wonder whether there are additional ChatGPT files, credentials, cached data, registry entries, or other Windows Store app data somewhere that I have not found. The web version of ChatGPT can download the images normally. The problem only happens in the Windows desktop app. Has anyone figured out where the ChatGPT desktop app stores all of its remaining data on Windows 11, or knows how to perform a genuinely complete clean uninstall including cached credentials and any hidden app data? At this point I suspect simply uninstalling the app is not actually removing everything.ChatGPT desktop app will not download images even after a complete reinstall. &#32; submitted by &#32; /u/archz2 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm7iy4/how_to_do_clean_uninstall_of_chatgpt_desktop_app/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T20:15:35Z",
-    "author": "/u/dry_towelette99",
-    "text": "Today it was apparently my turn - I’ve been using ChatGPT for about two months now after giving up on Claude and Gemini and I became a true zealot. I’m now using Pro, and despite having the personality, set to default, never had any problems like the sort you sometimes read about on here. Until today. Today, my ChatGPT is hot garbage. It has hallucinated a number of facts, is using old instructions and outdated information, and is generally not getting the job done. At least it’s as polite as always. I’m just hoping this is a temporary issue, otherwise I’m gonna be downgrading my subscription very quickly. If I wanted poor performance and bad answers, I’d just go back to Claude. &#32; submitted by &#32; /u/dry_towelette99 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlso9e/today_it_was_apparently_my_turn/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmcnvh/chat_gpt_now_swears/",
     "authority_score": 0.5
   }
 ]
