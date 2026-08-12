@@ -216,19 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T18:22:25Z",
-    "author": "/u/Dapper-Tale-4021",
-    "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-12T07:52:20Z",
     "author": "/u/Independent-Zone6635",
     "text": "Anyone else noticing ChatGPT being weird lately? - Hey guys, is it just me or has ChatGPT been acting kinda off lately? Like the answers I'm getting are pretty random/nonsensical sometimes. I end up having to ask the same question like 3 times just to get something that actually makes sense. Also it keeps forgetting stuff I told it earlier in the SAME conversation, which is annoying. Anyone else dealing with this or is it just me? &#32; submitted by &#32; /u/Independent-Zone6635 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vm7muf/anyone_else_noticing_chatgpt_being_weird_lately/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T18:22:25Z",
+    "author": "/u/Dapper-Tale-4021",
+    "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
     "authority_score": 0.5
   },
   {
