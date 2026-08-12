@@ -17957,8 +17957,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T09:40:20.565469Z"
   },
   {
     "prediction_time": "2026-08-10T09:39:28.418078Z",
@@ -18006,8 +18006,8 @@
       "prior_applied": false,
       "interval_count": 11
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T09:40:20.565469Z"
   },
   {
     "prediction_time": "2026-08-10T09:40:53.820587Z",
@@ -23611,6 +23611,58 @@
         "official_change": 0.12666666666666668,
         "reset_confirmation": 0.07250000000000001,
         "confidence": 0.44999999999999996,
+        "reason": [
+          "Strong reset signal detected (score: 0.80)",
+          "Community pressure signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.12,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-12T09:40:20.535163Z",
+    "prediction": {
+      "within_5h": 0.3359,
+      "within_24h": 0.6112,
+      "within_48h": 0.7692
+    },
+    "signals": {
+      "tweet_count": 36,
+      "hours_since_last_reset": 48.92236741222222,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 119.1,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 70.04,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 25.18,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.6985,
+      "time_pressure": 0.0088,
+      "hazard_rate": 0.038597,
+      "evidence_score": 0.4597,
+      "tibo_signal": 0.3592,
+      "community_signal": 0.85,
+      "release_signal": 0.5263,
+      "llm_scores": {
+        "reset_intent": 0.11722222222222221,
+        "limit_complaint": 0.023611111111111114,
+        "official_change": 0.1127777777777778,
+        "reset_confirmation": 0.06694444444444445,
+        "confidence": 0.4375,
         "reason": [
           "Strong reset signal detected (score: 0.80)",
           "Community pressure signal detected (score: 0.50)",
