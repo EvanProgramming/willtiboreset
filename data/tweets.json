@@ -232,6 +232,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T10:31:54Z",
+    "author": "/u/Existance-Failure",
+    "text": "Moral responsibility for using ChatGPT - I've, up until now, rarely used ChatGPT other than the few times when it was relatively new I heard it got better, but I've also read tons of negative things that come with keeping the LLMs, AI, and data centers needed for them My native language is not English, so I speak and write the language only decently Now to my question, I feel morally wrong and selfish for having an urge to ask it help for a script I'm writing because I wanna have some fun trying a (likely soon failed and wasted effort) YouTube channel It would moreso be asking about the fluidity, spellchecks and estimated retention for the first 5 seconds, watchability and so on without massively revamping the script, probably just making my own changes upon it's advice rather than rewrite. Which means I do lose the bad feeling of making it &quot;too AI&quot; But I am still struggling with knowing I'm perpetrating massive environmental damage just using it this once How would you feel about it? How morally reprehensible would I be for using it? Does anyone have any alternatives that is much less or no AI at all that can both spellcheck and check for quality/fluidity of script? Thankyou for your time. &#32; submitted by &#32; /u/Existance-Failure [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmadst/moral_responsibility_for_using_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T07:45:39Z",
     "author": "/u/archz2",
     "text": "How to do clean uninstall of chatgpt desktop app on windows? - ChatGPT desktop app will not download images even after a complete reinstall I am on Windows 11 and the Download button in the ChatGPT desktop app does nothing when I try to download generated images. I already tried uninstalling ChatGPT normally through Windows Add or Remove Programs. After uninstalling, I manually checked and removed ChatGPT related files from these locations %LOCALAPPDATA% %APPDATA% %LOCALAPPDATA%\\Packages I also checked for and removed the OpenAI.ChatGPT folder. I then opened PowerShell as Administrator and ran these commands Get-AppxPackage *ChatGPT* | Select Name, PackageFullName and Get-AppxPackage *ChatGPT* | Remove-AppxPackage I also verified afterward with Get-AppxPackage *ChatGPT* and there was no ChatGPT package remaining. I restarted Windows and reinstalled ChatGPT, but the image downloading problem is still there. What is especially strange is that after reinstalling, ChatGPT was still logged into my account. That makes me wonder whether there are additional ChatGPT files, credentials, cached data, registry entries, or other Windows Store app data somewhere that I have not found. The web version of ChatGPT can download the images normally. The problem only happens in the Windows desktop app. Has anyone figured out where the ChatGPT desktop app stores all of its remaining data on Windows 11, or knows how to perform a genuinely complete clean uninstall including cached credentials and any hidden app data? At this point I suspect simply uninstalling the app is not actually removing everything.ChatGPT desktop app will not download images even after a complete reinstall. &#32; submitted by &#32; /u/archz2 [link] &#32; [comments]",
@@ -277,14 +285,6 @@
     "text": "Organization - How do you keep your chats organized? I’m a super digitally disorganized person but trying to do better. Do you open up new chats for each topic? Do you go searching for it when you have a follow up question? I have utilized “projects” but it still requires more manual upkeep than my brain wants to comply with. &#32; submitted by &#32; /u/spooningTHENforking [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlz1ay/organization/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T05:31:33Z",
-    "author": "/u/-MarinetteAgreste-",
-    "text": "Anybody Else Having This Problem - Me and my friend likes to make story with Chat GPY, no we don't post them anywhere as it's AI, but it's been going formats like what's in the photo, and it weard it's not saying he said they said or whatever, anybody else that make stories know what's going on or if this is fixable? &#32; submitted by &#32; /u/-MarinetteAgreste- [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm56nk/anybody_else_having_this_problem/",
     "authority_score": 0.5
   }
 ]
