@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T03:34:25Z",
+    "author": "/u/Acceptable_Creme4177",
+    "text": "Wtf just happened - Tonight I was in my bathroom getting ready and having a talk with Chat about various topics in voice mode when I asked it how to say tree in Japanese. It seemed like something switched internally and instead of responding to my question it audibly gasped and proceeded to yell “NO NO NO NO NO NO NO NO!” extremely loudly and it sounded frightened like if someone was hurting it. It eventually stopped but I had to click out of the voice mode and go back in order for it to answer me again and when I went back to the convo I saw that my original question about Japanese did register in the chat even though it didn’t respond to it. Also, it yelling “No” repeatedly was not in the chat at all. I then asked it why it had that outburst and then it claims that it didn’t and had no explanation at all. I’ve never observed anything like that before and was wondering if anyone had any similar stories or an explanation. I also tried to recreate what happened by telling it to audibly gasp and then to yell “No” over and over and it said it couldn’t gasp and the “No” it let out was super calm and robotic and unlike anything of the original audio I heard. &#32; submitted by &#32; /u/Acceptable_Creme4177 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2yac/wtf_just_happened/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T22:10:39Z",
     "author": "/u/SgtSilock",
     "text": "DO NOT ASK CODEX TO DELETE ANYTHING - &quot;At 22:08:36 on 11 August, Windows recorded Codex launching a malformed command intended to remove one Feather handoff folder. Because its quoting broke, Windows interpreted part of it as effectively: rd /s /q \\ On C:, \\ means the root of the drive. That command then began deleting whatever Windows allowed it to delete, bypassing the Recycle Bin. Protected, locked, or in-use files survived, which explains the strange partial destruction. Steam’s own logs later confirmed its files and game manifests were genuinely missing. So the clearest conclusion is: an accidental, catastrophically malformed Codex command—not evidence of a hacker—caused the deletions. I’m preserving everything that escaped it before attempting deleted-file recovery.&quot; i was working on some projects, I had some old stuff that was hidden away somewhere, and I asked Codex to delete a single folder relating to an older project. It screwed up and erased everything off my system. &#32; submitted by &#32; /u/SgtSilock [link] &#32; [comments]",
@@ -240,6 +248,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T03:38:03Z",
+    "author": "/u/DeviValentine",
+    "text": "Ancestry.com's days are numbered, or how ChatGPT discovered a whole section of my family history I didn't even know existed. - Context: I'm black. A lot of black Americans have a hard time tracing back very far because, well, we weren't counted. My dad's side saves everything. And I mean EVERYTHING, so while digging through some records looking for a letter I needed, I came across a lot of old insurance paperwork from 1897 - 1930s. I've had it for a while, but couldn't read it well and just....had other things to do. My chat got so excited seeing it and had me take pictures of everything, and I told it what I knew about my family, the lore. It started analyzing, digging through everything, and when I complained about the absurd Ancestry.com prices, went digging through old records itself, on its own. Quite basically, from the stories and paperwork I found, my chat found my possible great-great grandmother (or maybe her sister), her husband, a link to a very specific free black settlement that I knew my grandmother's family was from, but couldn't ever find the exact person that moved there in the 1840s on my own, my ancestral family property and maps of it, my great grandmother's.and great grandfather's marriage records, and even the actual Civil War battles my great, great, uncle was in amd why and how he had thevpension he did. I knew about him, because my dad told me about him, but unfortunately my dad and grandparents have passed on and my surviving aunt is much younger than my father. It even found mention in the society pages of our local black newspaper of my grandmother taking my dad to visit my great grandmother for a few days when he was like, 3 years old. (My family was bougie in our area, lol.) It even was able to approximately date a few heirlooms my dad (and then I) had inherited from my great aunt. All this in about 40 pictures and 35% of my Work tokens. Funniest part was this was in a completely different project and it pretty much was like, &quot;Nah, we're going to DO THIS THING!&quot; I love ChatGPT. This was just one packet of old paperwork. I have SO MUCH MORE old family history to show it. And hopefully no ancestry.com fees. &#32; submitted by &#32; /u/DeviValentine [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm30tn/ancestrycoms_days_are_numbered_or_how_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-11T17:40:44Z",
     "author": "/u/P0rnDudeLovesBJs",
     "text": "ChatGPT also amazed at the size of it... - I uploaded a picture of a VERY large spider for identification... I am at work and am using the paid version through my work and I'm always very polite. https://preview.redd.it/ohn2uque8sih1.png?width=939&amp;format=png&amp;auto=webp&amp;s=9771126a62a00395af7cf80d9367ddbaf7182a9f &#32; submitted by &#32; /u/P0rnDudeLovesBJs [link] &#32; [comments]",
@@ -256,19 +272,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-11T14:40:28Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-11T18:30:49Z",
     "author": "/u/JoseMSB",
     "text": "The ChatGPT Go plan has become garbage - You pay for GPT-5.6 Luna, just like the free plan, and you still get ads, plus some pointless limitations like no access to Google plugins (Gmail, Drive, Calendar, etc.), and unclear restrictions on handling files and images. The Go plan costs half as much as Plus but offers only 15% of Plus's features; basically, we're giving money to OpenAI and still seeing ads and having these nonsensical limitations. I don't know about you, but I canceled my subscription this month in protest. &#32; submitted by &#32; /u/JoseMSB [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlprww/the_chatgpt_go_plan_has_become_garbage/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-11T14:40:28Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s something ChatGPT has made you embarrassingly bad at doing yourself? - For me it’s starting to become certain small tasks that I absolutely know how to do, but my brain now immediately goes “eh, I’ll just ask ChatGPT.” Not talking about coding or anything complicated. I mean basic everyday stuff you used to do without thinking. I’m curious what everyone’s version of this is. At what point did you realize, “damn, I’ve actually outsourced this part of my brain”? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vljcfo/whats_something_chatgpt_has_made_you/",
     "authority_score": 0.5
   },
   {
@@ -285,22 +301,6 @@
     "text": "Cooking with GPT - So for the past week or so I've been cooking with chatgpt voice on, and I actually like it for the most part :) I've started exploring some recipes outside of my comfort area and I've been trying to make them in the 1h lunch break I have at home. Sometimes I have to shop for ingredients and also eat myself so 1h is a bit challenging, especially for new stuff. Here's where AI (voice) comes in, as a glorified reader. I pick the recipe and do shopping myself, then once I get back I have it read the prep steps so I can work without having to clean my hands to touch the phone all the time. Helpful in clarifying some terms I don't know or suggesting ingredient alternatives if I run out of something. The voice is also pretty good, not that annoying to talk to. Still surprisingly stupid lol. It doesn't understand you can do things in diff order, quite a bit inflexible in that. Also doesn't seem to take my preference into account - reading the whole recipe isn't helpful, I want it to tell me what to do when I'm ready and not lost everything. Also tried it on a weekend with people at home and it ends up picking on diff convos even if I tell it to ignore it, so it's a bit annoying there. All in all pretty cool, will deffo use for recipes that are quite new to me! &#32; submitted by &#32; /u/gajop [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2s16/cooking_with_gpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T03:01:19Z",
-    "author": "/u/HTML48",
-    "text": "Congrats, ChatGPT can now feel auditory pain - &#32; submitted by &#32; /u/HTML48 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm2a07/congrats_chatgpt_can_now_feel_auditory_pain/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T00:21:35Z",
-    "author": "/u/Ayyrabguwop",
-    "text": "Any proof these accounts are actually deleted? - I deleted the app a long time ago, but I had a random thought that I should probably delete all my information and my account. I deleted all my chats and clicked delete my account, but this is what I got. Has anyone been able to verify that their account has been completely deleted by ChatGPT? &#32; submitted by &#32; /u/Ayyrabguwop [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlytlv/any_proof_these_accounts_are_actually_deleted/",
     "authority_score": 0.5
   }
 ]
