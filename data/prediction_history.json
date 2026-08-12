@@ -18361,8 +18361,8 @@
       "weekly_cycle_factor": 0.6286,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T11:40:25.254197Z"
   },
   {
     "prediction_time": "2026-08-10T11:12:49.444522Z",
@@ -18412,8 +18412,8 @@
       "weekly_cycle_factor": 0.8143,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T11:40:25.254197Z"
   },
   {
     "prediction_time": "2026-08-10T11:26:02.561293Z",
@@ -18463,8 +18463,8 @@
       "weekly_cycle_factor": 0.8143,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T11:40:25.254197Z"
   },
   {
     "prediction_time": "2026-08-10T11:36:45.172679Z",
@@ -18514,8 +18514,8 @@
       "weekly_cycle_factor": 0.8143,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-12T11:40:25.254197Z"
   },
   {
     "prediction_time": "2026-08-10T11:40:51.625741Z",
@@ -23865,6 +23865,58 @@
       "tibo_signal": 0.3611,
       "community_signal": 0.85,
       "release_signal": 0.5254,
+      "llm_scores": {
+        "reset_intent": 0.11722222222222221,
+        "limit_complaint": 0.023611111111111114,
+        "official_change": 0.1127777777777778,
+        "reset_confirmation": 0.06694444444444445,
+        "confidence": 0.4375,
+        "reason": [
+          "Strong reset signal detected (score: 0.80)",
+          "Community pressure signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "Moderate reset signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.12,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-12T11:40:25.223515Z",
+    "prediction": {
+      "within_5h": 0.3139,
+      "within_24h": 0.5932,
+      "within_48h": 0.758
+    },
+    "signals": {
+      "tweet_count": 36,
+      "hours_since_last_reset": 50.92366970472222,
+      "next_reset": {
+        "expected_time": "2026-08-17T08:45:00+00:00",
+        "hours_until": 117.1,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 70.04,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 25.18,
+      "std_reset_interval": 87.23215806256616,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 269.5,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.7271,
+      "time_pressure": 0.0095,
+      "hazard_rate": 0.036783,
+      "evidence_score": 0.4469,
+      "tibo_signal": 0.3621,
+      "community_signal": 0.85,
+      "release_signal": 0.5249,
       "llm_scores": {
         "reset_intent": 0.11722222222222221,
         "limit_complaint": 0.023611111111111114,
