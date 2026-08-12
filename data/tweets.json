@@ -136,6 +136,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T06:17:52Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI’s head of ethics leaves start-up less than one year after joining - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm60iy/openais_head_of_ethics_leaves_startup_less_than/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T02:03:16Z",
     "author": "/u/mercuriNg8rade",
     "text": "I heard Canada retired Smokey? What a shame… - &#32; submitted by &#32; /u/mercuriNg8rade [link] &#32; [comments]",
@@ -157,14 +165,6 @@
     "text": "Inappropriate Chat Response - I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? &#32; submitted by &#32; /u/winnienuggets [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T06:17:52Z",
-    "author": "/u/KeanuRave100",
-    "text": "OpenAI’s head of ethics leaves start-up less than one year after joining - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm60iy/openais_head_of_ethics_leaves_startup_less_than/",
     "authority_score": 0.5
   },
   {
@@ -213,6 +213,14 @@
     "text": "OpenAI just launched a cybersecurity model that answers 95% of advanced threat queries. And Meta put a frontier model on your laptop. Same day. - Something happened today that I think most people are going to miss because there are two separate stories and neither one is getting the full picture. OpenAI expanded Daybreak. If you haven't heard of it, it's their program for verified security researchers that removes the standard guardrails. Today they split it into two tiers. Daybreak Blue gives you GPT-5.6 Sol with the safety filters off for defensive work. Daybreak Red gives you GPT-5.6-Cyber, a model specifically trained for offensive security research. The number that caught my attention: GPT-5.6-Cyber answered 95% of advanced cybersecurity queries in internal testing. The standard model with default protections answered 1.5% of those same queries. That gap tells you something important. The model you're using every day is being significantly throttled on anything security-related. Which makes sense for obvious reasons. But it also means there's a version of this technology that's dramatically more capable for specialized use cases. Then on the same day Meta released Muse Glimmer. 30 billion parameters. Runs on a single consumer GPU. Free. Apache 2.0. No cloud, no subscription, your data never leaves your machine. I've spent years helping companies figure out their AI strategy and the local vs cloud question always came down to capability. Local models weren't good enough. That argument is getting harder to make. Anyone here actually running local models for day to day tasks? Genuinely curious how close the gap feels from the user side. &#32; submitted by &#32; /u/Dapper-Tale-4021 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlpjhe/openai_just_launched_a_cybersecurity_model_that/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T08:02:25Z",
+    "author": "/u/archenzeel",
+    "text": "Astral Atlas 3D App - comprehensive Deep sky astrology App for everyone! - Hey guys , check out Astral Atlas 3D. A deep sky Natal Chart calculator and analytics app made from using chat GPT for everyone that uses fixed stars , aspects , major celestial bodies , Skyprint and a Time machine https://astral-atlas-3d.archenzeel.chatgpt.site/ Test it out and give me your feedback! &#32; submitted by &#32; /u/archenzeel [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vm7t0p/astral_atlas_3d_app_comprehensive_deep_sky/",
     "authority_score": 0.5
   },
   {
@@ -277,14 +285,6 @@
     "text": "It's been months now, any news / solutions about the dot pattern on generated images? - I don't use image generation too often, but when I do I'm usually blown away by how good it's gotten. But that freaking pattern of dots is so obvious to me, and I immediately see it in so many random pictures online. Has anyone found a solution that doesn't hurt the quality / detail of the pictures? Does anyone have any information about OpenAI trying to tackle this? &#32; submitted by &#32; /u/OmriY1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vlowyx/its_been_months_now_any_news_solutions_about_the/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-11T23:08:57Z",
-    "author": "/u/MerlinMimer",
-    "text": "The new ChatGPT moved my old projects into Codex and now I literally cannot delete individual conversations - This is so fucked up. I hate the new Chatgpt trying to be Codex! ChatGPT moved my existing Classic ChatGPT projects into this completely different new ChatGPT/Codex interface without asking me. I didn’t opt into having my workspace reorganized like this. The old chats are harder to find, the interface is worse, and now I’ve discovered something much more serious. I apparently cannot delete individual conversations. There is no Delete button at all, only &quot;archive&quot; like what they are calling &quot;classic&quot; ChatGPT. And no, Archive is not Delete. Archiving just hides the conversation. It remains stored. I’m talking about permanently deleting a conversation because I do not want it sitting in my history, associated with my account, retained in their systems, or potentially used for training. This isn’t some tiny UI complaint. The ability to delete your own private conversations is a basic data-control feature. If OpenAI is going to force people’s existing projects into a new interface, then every conversation needs a clear Delete option. Not Archive. Delete. I want to know how to permanently delete one specific conversation without deleting my entire account. I also want to know why this interface was shipped without such an obvious privacy control, and why people’s projects were moved over without a clear opt-in or rollback option. Has anyone found a real deletion path for these new Codex-style tasks? I am specifically not asking how to archive them. I know how to archive them. Archive is not deletion. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlx50o/the_new_chatgpt_moved_my_old_projects_into_codex/",
     "authority_score": 0.5
   }
 ]
