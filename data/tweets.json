@@ -192,6 +192,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T20:33:08Z",
+    "author": "/u/croakyossum7",
+    "text": "Custom GPTs are being retired?? - Weren't these explicitly marketed as a paid feature? Pretty bad that they just pulled it with no warning. &#32; submitted by &#32; /u/croakyossum7 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmps5h/custom_gpts_are_being_retired/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T00:07:49Z",
     "author": "/u/gatsssby",
     "text": "Downgraded to Free because my payment failed... in the FUTURE? (Sep 4) - My Plus payment went through successfully on my bank's end on July 30, but OpenAI marked the invoice as &quot;Void&quot; and downgraded my account to Free. To make this even more absurd, I just received an automated email (see attached screenshot) stating that my payment failed on September 04, 2026. Today is August 11. They literally canceled my Plus plan over a payment that supposedly failed almost a month in the future—which is obviously impossible. I reached out to support and my ticket was escalated to a specialist about 4 hours ago, but I haven't heard back yet. Has anyone else experienced this time-traveling billing glitch? How long did support take to actually fix it and restore your access? &#32; submitted by &#32; /u/gatsssby [link] &#32; [comments]",
@@ -208,19 +216,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T20:22:55Z",
-    "author": "/u/DNRDIT",
-    "text": "Asked for \"the human centipede\" but with artificial intelligences - &#32; submitted by &#32; /u/DNRDIT [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmpiiz/asked_for_the_human_centipede_but_with_artificial/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-12T14:03:31Z",
     "author": "/u/BirdMastery",
     "text": "Image generation has been flagging everything as nsfw - I just need to ask for a female character and the prompt gets automatically blocked. What is going on today? It's like gpt is trying to add sexualization to anything I ask and then censors itself. &#32; submitted by &#32; /u/BirdMastery [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vmf1um/image_generation_has_been_flagging_everything_as/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T20:22:55Z",
+    "author": "/u/DNRDIT",
+    "text": "Asked for \"the human centipede\" but with artificial intelligences - &#32; submitted by &#32; /u/DNRDIT [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmpiiz/asked_for_the_human_centipede_but_with_artificial/",
     "authority_score": 0.5
   },
   {
@@ -232,11 +240,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T17:17:06Z",
-    "author": "/u/Personal-Try2776",
-    "text": "New DeepSeek v4 pro neck and neck with Frontier models in coding. Time for GPT 6? - &#32; submitted by &#32; /u/Personal-Try2776 [link] &#32; [comments]",
+    "timestamp": "2026-08-12T20:33:41Z",
+    "author": "/u/Bebo991_Gaming",
+    "text": "Chinese in the titles? - Anybody else? &#32; submitted by &#32; /u/Bebo991_Gaming [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmkene/new_deepseek_v4_pro_neck_and_neck_with_frontier/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmpsni/chinese_in_the_titles/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T18:02:27Z",
+    "author": "/u/Shot-Dimension-1405",
+    "text": "What’s the most “bro WHAT are you talking about” moment you’ve had with ChatGPT? - What’s the most “bro WHAT are you talking about” moment you’ve had with ChatGPT? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmloob/whats_the_most_bro_what_are_you_talking_about/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +264,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T17:17:06Z",
+    "author": "/u/Personal-Try2776",
+    "text": "New DeepSeek v4 pro neck and neck with Frontier models in coding. Time for GPT 6? - &#32; submitted by &#32; /u/Personal-Try2776 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmkene/new_deepseek_v4_pro_neck_and_neck_with_frontier/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-12T16:57:59Z",
     "author": "/u/mYTH_2k4",
     "text": "Has anyone seen ChatGPT quietly change the text of an OLD response? - [I used ChatGPT to help frame this so please don’t crucify me for slop, the scenario was pretty curious hence I wanted to share] Something genuinely odd happened with one of my old ChatGPT responses, and I’m curious whether anyone else has seen this. This is probably an issue with “Writing Blocks”. I didn’t give the same prompt twice and got different answers, I’m talking about the same assistant message, inside the same existing chat, displaying different wording now from when it was originally generated. The response was a children’s bedtime story. That’s actually why I noticed: the story had been read aloud several times, and my daughter started pointing out that particular sentences weren’t the same anymore. My wife and I use the same ChatGPT account on separate devices. The story was originally read several times from my phone. Later it was opened and read from my wife’s phone, where some wording seemed different. When we subsequently checked my device again, it too showed the newer wording. Here are some exact examples. Before: “… sipped it like a grown-up picnic explorer.” Now: “… sipped it like a careful little explorer.” Another: “One looked like a bunny, another looked like an elephant, and one looked like a big fluffy pillow.” Now: “One looked like a bunny, another like an elephant, and one like a fluffy pillow drifting by.” And the most obvious one: Before: “Her tummy was happy. Her heart was happy. Her eyes began to feel sleepy.” Now: “Her tummy felt full and warm. Her heart felt light. Her eyelids grew heavy.” And the ending: Before: “And it really, truly was.” Now: “And it truly was.” What’s particularly interesting is that the changes have a consistent style: they read like someone/AI has done a light copy-edit while preserving the meaning. The response was created as one of ChatGPT’s Writing Blocks. OpenAI’s documentation says Writing Blocks are editable: you can directly edit them or ask ChatGPT to revise them, and edits are saved back to the conversation. So there’s a perfectly ordinary mechanism by which the text could have changed. What I don’t understand is what triggered the edit. We don’t know of an intentional rewrite request that explains these changes. An accidental editing gesture is certainly possible but my wife or I didn’t change anything nor can we see it in the history. But if an edit happened accidentally, there’s another interesting UX issue: when looking at the historical conversation now, I can’t easily tell: - that the block was edited; - when it was edited; - what the original AI-generated text was; - what changed; - or which device/session made the edit. Because the changed version appears on both devices, it seems to have been saved to the conversation rather than merely being a local display issue. For a children’s story this is amusing more than anything else: we only caught it because a 5-year-old apparently has a better diff engine than the adults. But imagine the same thing with a business document, compliance wording, research notes, code, or something where you later want to know exactly what the model originally said. It raises an interesting provenance question: Are Writing Blocks effectively mutable documents embedded inside chat history rather than immutable historical assistant messages? And if so, shouldn’t there be a visible “Edited” indicator or version history? I’ve reported it to OpenAI and asked whether they can see a server-side revision history and determine where the change came from. Has anyone else noticed existing Writing Blocks changing after the fact? &#32; submitted by &#32; /u/mYTH_2k4 [link] &#32; [comments]",
@@ -256,35 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T20:33:08Z",
-    "author": "/u/croakyossum7",
-    "text": "Custom GPTs are being retired?? - Weren't these explicitly marketed as a paid feature? Pretty bad that they just pulled it with no warning. &#32; submitted by &#32; /u/croakyossum7 [link] &#32; [comments]",
+    "timestamp": "2026-08-12T20:40:37Z",
+    "author": "/u/Real_Description1273",
+    "text": "Where did the default go? - The default (gray) accent color disappeared out of nowhere and I can't find it. Now it's automatically set to blue which is annoying and too bright. The other options are just as bad. Does anyone know what happened? &#32; submitted by &#32; /u/Real_Description1273 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmps5h/custom_gpts_are_being_retired/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T20:29:04Z",
-    "author": "/u/Formal-Category-2388",
-    "text": "Are AI tools making us better at managing information, or worse at remembering it? - A few months ago, I started helping my parents organize their health information. As they get older, I realized how much medical history builds up over time: test results, medication changes, doctor visits, and small details that seem insignificant when they happen but become important later. The frustrating part was not that we lacked information. We actually had too much. Some records were in hospital portals, some were saved as PDFs, some were buried in emails, and some details only existed in conversations I barely remembered. Trying to understand the overall picture often felt like putting together a puzzle. I started using some AI tools to make this easier. They helped organize my parents' health information so it was easier to search and review when needed. Instead of spending a lot of time looking through different sources, I could quickly find previous records and get a clearer view of what had happened. It definitely made managing this kind of information much easier. But it also made me notice something interesting about how we interact with AI. When a doctor asks about my parents' history, or when I want to understand whether something has changed recently, my first instinct is now to open the tool instead of trying to recall it myself. The information is available, but I don't necessarily remember it anymore. It reminds me of how smartphones changed the way we remember phone numbers. We didn't lose the ability to memorize numbers overnight; we simply stopped needing to because the information was always available. I wonder if AI will create a similar shift. Having AI organize and remember complex information is incredibly useful, especially when dealing with years of health records and personal history, but at the same time, there is a question about whether convenience changes the way we build our own understanding. Maybe the goal isn't for AI to remember everything instead of us, but to help us understand things better without replacing our own judgment. &#32; submitted by &#32; /u/Formal-Category-2388 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmpoau/are_ai_tools_making_us_better_at_managing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T16:06:50Z",
-    "author": "/u/cheezeerd",
-    "text": "I pay for ChatGPT Pro. Stop hiding the “Think harder” button. - Since the selector update about a week ago, the “Think harder” setting keeps randomly disappearing. I used to keep ChatGPT on Pro mode and just tap once. Now I have to open the stupid menu and manually enable reasoning again and again. Codex desktop remebers the same mode across chats, so why cant ChatGPT?? Honestly it feels like reasoning is being hidden to save compute. Im paying for Pro because I usually dont want the fastest, dumbest answer. Just let me keep “Think harder” always on. Is anyone else extremely annoyed by this? I hate unneccessary changes like this. &#32; submitted by &#32; /u/cheezeerd [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmieiv/i_pay_for_chatgpt_pro_stop_hiding_the_think/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T01:05:08Z",
-    "author": "/u/winnienuggets",
-    "text": "Inappropriate Chat Response - I’m just over here planning our winter vacation when chat gpt went a little sideways with the response. It left me a bit uncomfortable. Chat GPT don’t know me like that ☺️and we don’t have this type of dialogue at all so I’m befuddled. Any thoughts? &#32; submitted by &#32; /u/winnienuggets [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vlzsja/inappropriate_chat_response/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmpz4o/where_did_the_default_go/",
     "authority_score": 0.5
   }
 ]
