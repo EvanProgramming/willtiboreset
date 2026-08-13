@@ -1,68 +1,68 @@
 {
-  "updated_at": "2026-08-13T01:00:20.630887+00:00",
+  "updated_at": "2026-08-13T01:40:22.250432+00:00",
   "prediction": {
-    "within_5h": 0.2708,
-    "within_24h": 0.5579,
-    "within_48h": 0.736
+    "within_5h": 0.3472,
+    "within_24h": 0.6204,
+    "within_48h": 0.7749
   },
   "confidence": "medium",
   "next_reset": {
-    "expected_time": "2026-08-17T08:45:00+00:00",
-    "hours_until": 103.7,
+    "expected_time": "2026-08-20T01:01:00+00:00",
+    "hours_until": 167.3,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 36,
-    "hours_since_last_reset": 64.25573053138889,
+    "hours_since_last_reset": 0.6561803577777777,
     "next_reset": {
-      "expected_time": "2026-08-17T08:45:00+00:00",
-      "hours_until": 103.7,
+      "expected_time": "2026-08-20T01:01:00+00:00",
+      "hours_until": 167.3,
       "status": "on_schedule"
     },
     "average_reset_interval": 70.04,
     "median_reset_interval": 47.08,
     "interval_uncertainty": 25.18,
-    "std_reset_interval": 87.23215806256616,
+    "std_reset_interval": 97.71626712851851,
     "min_reset_interval": 0.0,
-    "max_reset_interval": 269.5,
+    "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 0.9174,
-    "time_pressure": 0.016,
-    "hazard_rate": 0.033437,
-    "evidence_score": 0.4219,
-    "tibo_signal": 0.3999,
+    "time_ratio": 0.0094,
+    "time_pressure": 0.0013,
+    "hazard_rate": 0.039556,
+    "evidence_score": 0.4643,
+    "tibo_signal": 0.4816,
     "community_signal": 0.0,
     "release_signal": 0.5,
     "llm_scores": {
-      "reset_intent": 0.08388888888888889,
+      "reset_intent": 0.10944444444444444,
       "limit_complaint": 0.0,
       "official_change": 0.05555555555555555,
-      "reset_confirmation": 0.04694444444444444,
-      "confidence": 0.3763888888888889,
+      "reset_confirmation": 0.06738888888888889,
+      "confidence": 0.39166666666666666,
       "reason": [
+        "Strong reset signal detected (score: 0.92)",
         "No relevant signals detected; possibly unrelated content",
         "Strong reset signal detected (score: 0.80)",
         "Community pressure signal detected (score: 0.50)",
         "Release/update signal detected (score: 0.50)",
-        "Moderate reset signal detected (score: 0.50)",
-        "Release/update signal detected (score: 0.50)"
+        "Moderate reset signal detected (score: 0.50)"
       ]
     },
     "prior_applied": false,
     "interval_count": 12,
-    "weekly_cycle_factor": 0.12,
+    "weekly_cycle_factor": 0.1354,
     "explicit_future_reset": false
   },
   "main_factors": [
     {
-      "factor": "64.3 hours since last reset",
+      "factor": "0.7 hours since last reset",
       "impact": "-5%",
-      "score": 0.02
+      "score": 0.0
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+7%",
-      "score": 0.4
+      "impact": "+9%",
+      "score": 0.48
     },
     {
       "factor": "Official release/change signal",
@@ -71,8 +71,11 @@
     }
   ],
   "reasons": [
-    "Recently reset (64.3 hours ago), low time pressure (0.02)",
-    "Moderate reset evidence detected (evidence_score=0.42)",
-    "Main factor: 64.3 hours since last reset (-5%)"
-  ]
+    "Auto-confirmed reset announced by Tibo at 2026-08-13T01:01:37+00:00; reset already occurred, so short-term probabilities are lowered",
+    "Recently reset (0.7 hours ago), low time pressure (0.00)",
+    "Moderate reset evidence detected (evidence_score=0.46)",
+    "Main factor: 0.7 hours since last reset (-5%)"
+  ],
+  "auto_confirmed": true,
+  "confirmed_reset_time": "2026-08-13T01:01:37+00:00"
 }
