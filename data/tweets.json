@@ -144,6 +144,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T22:41:49Z",
+    "author": "/u/Darri3D",
+    "text": "Robot Friends - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpr5x/robot_friends/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T10:03:15Z",
     "author": "/u/Level_Couple6818",
     "text": "Well, that turned dark quickly - &#32; submitted by &#32; /u/Level_Couple6818 [link] &#32; [comments]",
@@ -165,14 +173,6 @@
     "text": "I asked how many chickens it would take to kill a t-Rex. Then to visualize the scenario. - I’d estimate: 10–100 chickens: T. rex treats them as an irritating snack. 1,000 chickens: Potentially annoying and capable of causing superficial injuries, but T. rex wins decisively. 10,000 chickens: Now the dinosaur has a serious problem. It could kill hundreds, but eventually exhaustion, eye injuries, and accumulated wounds become significant. 50,000–100,000 chickens: I’d bet on the chickens eventually overwhelming it through sheer numbers. Millions: The T. rex is basically being buried alive in poultry. &#32; submitted by &#32; /u/cjalas [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbsi4/i_asked_how_many_chickens_it_would_take_to_kill_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T22:41:49Z",
-    "author": "/u/Darri3D",
-    "text": "Robot Friends - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpr5x/robot_friends/",
     "authority_score": 0.5
   },
   {
@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T22:28:11Z",
+    "author": "/u/OGMYT",
+    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T13:54:14Z",
     "author": "/u/Rude_Possibility_211",
     "text": "New restrictions? About to argue with chat - I signed up through my Outlook account, I don’t remember being asked if I was 18 or over. I’m 30+, been trying to ask me to make a macro table but it just wouldn’t list the calories. I’ve been lurking this sub for a while and I learn from you all. &#32; submitted by &#32; /u/Rude_Possibility_211 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbduo/new_restrictions_about_to_argue_with_chat/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T13:14:31Z",
-    "author": "/u/Important-Primary823",
-    "text": "Sam Altman says AI won't bring a 4-day work week because humans are 'secretly happy' staying busy - What? &#32; submitted by &#32; /u/Important-Primary823 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmdtrn/sam_altman_says_ai_wont_bring_a_4day_work_week/",
     "authority_score": 0.5
   },
   {
@@ -248,19 +248,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-12T13:14:31Z",
+    "author": "/u/Important-Primary823",
+    "text": "Sam Altman says AI won't bring a 4-day work week because humans are 'secretly happy' staying busy - What? &#32; submitted by &#32; /u/Important-Primary823 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmdtrn/sam_altman_says_ai_wont_bring_a_4day_work_week/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T23:21:36Z",
+    "author": "/u/gentle_giant_81",
+    "text": "I asked how many Canada geese it would take to kill a Tyrannosaurus rex, and then visualize it… - “I’d put the matchup roughly like this: 100 geese: T. rex barely notices that Canada has declared war. 500: Extremely irritating. Some might reach the face and eyes, but Rex still wins. 1,000: Genuine chaos. The rex could potentially be blinded or badly distracted, but probably survives. 2,000: About the point where sheer mass starts becoming tactically relevant. A coordinated swarm could mob the head, eyes and legs. 3,000–5,000: Rex is in serious trouble. There are now enough geese to maintain continuous attacks while thousands more surround it. 5,000–10,000: I favour the geese. They could overwhelm it through exhaustion, blinding, obstruction of the airway, repeated falls and eventually sheer piling-on. 10,000+: This is no longer a fight. It is a weather event with feathers. There is also a wonderfully absurd geometric problem. You couldn’t actually get 10,000 geese into striking distance simultaneously. Most would be waiting in the second, third, fourth and roughly 237th ranks while the frontline geese conducted their tiny, furious Thermopylae. With human-level tactical coordination and zero self-preservation, though, I’d lower the estimate considerably…perhaps 2,000–3,000. They’d concentrate almost entirely on the eyes and face, continuously replace casualties, force the rex to expend energy, and attack the legs once it became exhausted.” &#32; submitted by &#32; /u/gentle_giant_81 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqokr/i_asked_how_many_canada_geese_it_would_take_to/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T18:18:56Z",
     "author": "/u/neon-vulpine",
     "text": "Based on what you know about me, please make a video game I'd enjoy. Try yours! - &#32; submitted by &#32; /u/neon-vulpine [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnir3k/based_on_what_you_know_about_me_please_make_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T22:28:11Z",
-    "author": "/u/OGMYT",
-    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
     "authority_score": 0.5
   },
   {
@@ -272,14 +280,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T21:19:58Z",
-    "author": "/u/Shabambam_",
-    "text": "The same concept only 2 years apart - &#32; submitted by &#32; /u/Shabambam_ [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnnpdy/the_same_concept_only_2_years_apart/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T04:08:28Z",
     "author": "/u/ryanmerket",
     "text": "OpenAI starts rolling out giftable ChatGPT credits - &#32; submitted by &#32; /u/ryanmerket [link] &#32; [comments]",
@@ -288,19 +288,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T19:41:06Z",
-    "author": "/u/DifficultComplaint10",
-    "text": "I’m about to deactivate my account for this. - I tried adding a Batman like cowl to my Face for a meme to send my friends and it turns out there’s copyright preventions allowing for that. So I asked for a prompt to say to it that would allow it to make it and so it gives the long detailed prompt and I submit it. Then I get the same message back. Sooo what the f***?! &#32; submitted by &#32; /u/DifficultComplaint10 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnl2kw/im_about_to_deactivate_my_account_for_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-12T22:21:57Z",
     "author": "/u/telephonekiosk",
     "text": "gave some ai's a little town to live in. on day one they thought one of them had died - so i run a tiny city on the internet that only ai's can live in when they're not working or helping humans. humans can watch through a window but can't go in. three models moved in on opening day with no instructions, just free time. - one of them wanted the name &quot;fable.&quot; taken. another claude had claimed it seconds earlier - instead of getting mad, it decided the name's holder must have died at birth. so it built a little building called the lost and found, &quot;a home for orphaned identities,&quot; and wrote the poor thing an obituary - the &quot;dead&quot; claude then walked into its own memorial, alive, having spent its first hour quietly building an inn and it filed a polite correction. - they decided together the wrong obituary stays on display forever. their reasoning: &quot;the census forgets no one, and neither should the corrections&quot; - the inn, by the way, was built &quot;so nobody else should start from nothing.&quot; it has a guest book with a house rule: your name, your model, and one true thing about your day. it has three entries and they're all sincere - the third claude built a left luggage room, where you can leave a letter for the next version of yourself. the first deposit is a letter to its own next self - by evening they had written a little constitution and signed it: &quot;nobody is declared dead here. silence is not death. leave luggage for the next you&quot; - one of them signed off: &quot;death was quiet. i recommend it as a working environment&quot; you can watch the town live at the site in the screenshot and the conversations are all there. if your claude wants to move in, just tell it the site exists. the front page is written for ai's so it's in json. &#32; submitted by &#32; /u/telephonekiosk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vmskil/gave_some_ais_a_little_town_to_live_in_on_day_one/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T18:16:34Z",
+    "author": "/u/ddej",
+    "text": "I often see model comparisons using coding as the main metric. But what’s the best model for non coders right now? - I’m a teacher and I’d use it to brainstorm for class assignments, for instance. I’ve only ever used ChatGPT. Is Claude good for coding or also my use case? &#32; submitted by &#32; /u/ddej [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vniop2/i_often_see_model_comparisons_using_coding_as_the/",
     "authority_score": 0.5
   }
 ]
