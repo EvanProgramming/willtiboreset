@@ -168,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T22:41:49Z",
+    "author": "/u/Darri3D",
+    "text": "Robot Friends - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpr5x/robot_friends/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T01:32:55Z",
     "author": "/u/AdThen1521",
     "text": "attack on titan explained in 0.00001 word - :P &#32; submitted by &#32; /u/AdThen1521 [link] &#32; [comments]",
@@ -216,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T13:14:31Z",
-    "author": "/u/Important-Primary823",
-    "text": "Sam Altman says AI won't bring a 4-day work week because humans are 'secretly happy' staying busy - What? &#32; submitted by &#32; /u/Important-Primary823 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmdtrn/sam_altman_says_ai_wont_bring_a_4day_work_week/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T13:54:14Z",
     "author": "/u/Rude_Possibility_211",
     "text": "New restrictions? About to argue with chat - I signed up through my Outlook account, I don’t remember being asked if I was 18 or over. I’m 30+, been trying to ask me to make a macro table but it just wouldn’t list the calories. I’ve been lurking this sub for a while and I learn from you all. &#32; submitted by &#32; /u/Rude_Possibility_211 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbduo/new_restrictions_about_to_argue_with_chat/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-12T13:14:31Z",
+    "author": "/u/Important-Primary823",
+    "text": "Sam Altman says AI won't bring a 4-day work week because humans are 'secretly happy' staying busy - What? &#32; submitted by &#32; /u/Important-Primary823 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmdtrn/sam_altman_says_ai_wont_bring_a_4day_work_week/",
     "authority_score": 0.5
   },
   {
@@ -248,6 +256,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T22:22:20Z",
+    "author": "/u/KirisDitex001",
+    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T21:19:58Z",
     "author": "/u/Shabambam_",
     "text": "The same concept only 2 years apart - &#32; submitted by &#32; /u/Shabambam_ [link] &#32; [comments]",
@@ -264,11 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T22:22:20Z",
-    "author": "/u/KirisDitex001",
-    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
+    "timestamp": "2026-08-13T22:28:11Z",
+    "author": "/u/OGMYT",
+    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
     "authority_score": 0.5
   },
   {
@@ -285,22 +301,6 @@
     "text": "I often see model comparisons using coding as the main metric. But what’s the best model for non coders right now? - I’m a teacher and I’d use it to brainstorm for class assignments, for instance. I’ve only ever used ChatGPT. Is Claude good for coding or also my use case? &#32; submitted by &#32; /u/ddej [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vniop2/i_often_see_model_comparisons_using_coding_as_the/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T19:57:16Z",
-    "author": "/u/Correct-Amphibian593",
-    "text": "What happened? - I use ChatGPT every now and then when bored because I don’t have a lot to do most of the time, anyways today however randomly I opened the app and saw that my messages were blue instead of gray like they had always been (I use dark mode normally btw), I thought it was ugly and went to settings to see what happened, turns out they added this color feature where you can pick a color, so I went through them all and they all sucked against the black background, the closest one was what they called black but it was white (probably because again I’m using dark mode), but it still just looks wrong, is there any way to fix this or at least an explanation? All the color options look ugly and I can’t find a way to revert back to the normal gray. &#32; submitted by &#32; /u/Correct-Amphibian593 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnli4w/what_happened/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T16:22:20Z",
-    "author": "/u/magistertechnikus",
-    "text": "Inappropriate kids toys anyone? - Play responsibly &#32; submitted by &#32; /u/magistertechnikus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmiu0x/inappropriate_kids_toys_anyone/",
     "authority_score": 0.5
   }
 ]
