@@ -22065,8 +22065,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-13T21:40:20.824983Z"
   },
   {
     "prediction_time": "2026-08-11T21:40:23.136121Z",
@@ -28350,6 +28350,58 @@
           "Community pressure signal detected (score: 0.50)",
           "Release/update signal detected (score: 0.50)",
           "Moderate reset signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.1354,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-13T21:40:20.790091Z",
+    "prediction": {
+      "within_5h": 0.4175,
+      "within_24h": 0.7469,
+      "within_48h": 0.8377
+    },
+    "signals": {
+      "tweet_count": 37,
+      "hours_since_last_reset": 20.65577112138889,
+      "next_reset": {
+        "expected_time": "2026-08-20T01:01:00+00:00",
+        "hours_until": 147.3,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.282,
+      "time_pressure": 0.0054,
+      "hazard_rate": 0.055641,
+      "evidence_score": 0.5772,
+      "tibo_signal": 0.4906,
+      "community_signal": 0.0,
+      "release_signal": 0.5,
+      "llm_scores": {
+        "reset_intent": 0.09027027027027026,
+        "limit_complaint": 0.0,
+        "official_change": 0.05405405405405406,
+        "reset_confirmation": 0.05259459459459459,
+        "confidence": 0.377027027027027,
+        "reason": [
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.92)",
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.80)",
+          "Community pressure signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)"
         ]
       },
       "prior_applied": false,
