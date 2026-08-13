@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-13T22:00:21.891001+00:00",
+  "updated_at": "2026-08-13T22:40:24.019885+00:00",
   "prediction": {
-    "within_5h": 0.4576,
-    "within_24h": 0.7764,
-    "within_48h": 0.8586
+    "within_5h": 0.4565,
+    "within_24h": 0.7757,
+    "within_48h": 0.8581
   },
   "confidence": "high",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 147.0,
+    "hours_until": 146.3,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 38,
-    "hours_since_last_reset": 20.989413894166667,
+    "hours_since_last_reset": 21.656671893888888,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 147.0,
+      "hours_until": 146.3,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,13 +26,13 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 0.2865,
-    "time_pressure": 0.0054,
-    "hazard_rate": 0.060505,
-    "evidence_score": 0.6866,
-    "tibo_signal": 0.3964,
+    "time_ratio": 0.2957,
+    "time_pressure": 0.0056,
+    "hazard_rate": 0.060382,
+    "evidence_score": 0.6834,
+    "tibo_signal": 0.3987,
     "community_signal": 0.5,
-    "release_signal": 0.6096,
+    "release_signal": 0.6078,
     "llm_scores": {
       "reset_intent": 0.08789473684210526,
       "limit_complaint": 0.013157894736842105,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "21.0 hours since last reset",
+      "factor": "21.7 hours since last reset",
       "impact": "-5%",
       "score": 0.01
     },
@@ -76,8 +76,8 @@
     }
   ],
   "reasons": [
-    "Recently reset (21.0 hours ago), low time pressure (0.01)",
-    "Moderate reset evidence detected (evidence_score=0.69)",
-    "Main factor: 21.0 hours since last reset (-5%)"
+    "Recently reset (21.7 hours ago), low time pressure (0.01)",
+    "Moderate reset evidence detected (evidence_score=0.68)",
+    "Main factor: 21.7 hours since last reset (-5%)"
   ]
 }
