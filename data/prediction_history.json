@@ -20350,8 +20350,8 @@
       "weekly_cycle_factor": 0.4143,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-13T05:01:24.722889Z"
   },
   {
     "prediction_time": "2026-08-11T05:13:38.649532Z",
@@ -26203,6 +26203,58 @@
       "hazard_rate": 0.038505,
       "evidence_score": 0.4571,
       "tibo_signal": 0.4778,
+      "community_signal": 0.0,
+      "release_signal": 0.5,
+      "llm_scores": {
+        "reset_intent": 0.10944444444444444,
+        "limit_complaint": 0.0,
+        "official_change": 0.05555555555555555,
+        "reset_confirmation": 0.06738888888888889,
+        "confidence": 0.39166666666666666,
+        "reason": [
+          "Strong reset signal detected (score: 0.92)",
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.80)",
+          "Community pressure signal detected (score: 0.50)",
+          "Release/update signal detected (score: 0.50)",
+          "Moderate reset signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.1354,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-13T05:01:24.689780Z",
+    "prediction": {
+      "within_5h": 0.3347,
+      "within_24h": 0.6102,
+      "within_48h": 0.7686
+    },
+    "signals": {
+      "tweet_count": 36,
+      "hours_since_last_reset": 4.006854536944444,
+      "next_reset": {
+        "expected_time": "2026-08-20T01:01:00+00:00",
+        "hours_until": 164.0,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.0547,
+      "time_pressure": 0.003,
+      "hazard_rate": 0.038495,
+      "evidence_score": 0.457,
+      "tibo_signal": 0.4777,
       "community_signal": 0.0,
       "release_signal": 0.5,
       "llm_scores": {
