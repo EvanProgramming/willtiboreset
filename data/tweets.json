@@ -80,14 +80,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T15:34:39Z",
-    "author": "/u/SomeGrapefruit2435",
-    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T10:09:08Z",
     "author": "/u/iLikePsychedelics",
     "text": "Using ChatGPT to make text prompts is ridiculous. Look at how many times I have to remind it \"TEXT ONLY\"... And it still triggers image generation! - It apologizes for getting it wrong and says it won't happen again, but it still tries to generate an image, sometimes even after I say &quot;TEXT ONLY. DO NOT GENERATE AN IMAGE&quot;, like 2 or 3 times. This never used to happen. I used to be able to just have it assume that we are working on text prompts and I would never have to remind it. Now its every single time, and it still messes up almost every time... &#32; submitted by &#32; /u/iLikePsychedelics [link] &#32; [comments]",
@@ -96,11 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T15:10:31Z",
-    "author": "/u/Jussi_Mulari",
-    "text": "I’ve been testing how far ChatGPT can be pushed as a comic production tool — these pages were generated as complete pages, not panel by panel - The panels, composition, camera angles, character placement and negative space are described in the prompt, and ChatGPT generates the page as a single image rather than me generating individual panels and compositing them afterward. These are some recent pages from the project. &#32; submitted by &#32; /u/Jussi_Mulari [link] &#32; [comments]",
+    "timestamp": "2026-08-13T15:34:39Z",
+    "author": "/u/SomeGrapefruit2435",
+    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9x25/ive_been_testing_how_far_chatgpt_can_be_pushed_as/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T15:03:41Z",
+    "author": "/u/PrimusArtifex",
+    "text": "Is ChatGPT’s image engine becoming too restrictive? - ChatGPT’s image engine is probably my favorite right now. I think the quality is incredibly impressive, far above many other image engines. Unfortunately, I feel it’s becoming exaggeratedly restrictive because of copyright and violence safeguards, even in cases where the image doesn’t seem particularly violent or problematic. For example, I was trying to turn some anime-style stills into realistic-looking images. The scenes were pretty mild: basically a campy, old-school hero fighting villains, the kind of thing you’d see in a japanese children’s action show. But ChatGPT rejected all the requests for “violence,” even though there was no blood, gore, serious injury, or anything particularly graphic. The funny thing is that the day before, ChatGPT rendered most of the images without any warnings, but it feels as though the next day they suddenly flipped the mild ‘violence’ rejection switch. Eventually, I had to crop the villains out of the images, work on the hero separately, and then try to reconstruct everything piece by piece. It turned what should have been a simple image-editing task into a frustrating workaround. I understand the need for safeguards, but when harmless or very mild fictional action keeps triggering them, the tool starts becoming almost useless for creative work. Has anyone else noticed this? Do you think the image engine has become more restrictive lately? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9qj4/is_chatgpts_image_engine_becoming_too_restrictive/",
     "authority_score": 0.5
   },
   {
@@ -120,11 +120,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T15:03:41Z",
-    "author": "/u/PrimusArtifex",
-    "text": "Is ChatGPT’s image engine becoming too restrictive? - ChatGPT’s image engine is probably my favorite right now. I think the quality is incredibly impressive, far above many other image engines. Unfortunately, I feel it’s becoming exaggeratedly restrictive because of copyright and violence safeguards, even in cases where the image doesn’t seem particularly violent or problematic. For example, I was trying to turn some anime-style stills into realistic-looking images. The scenes were pretty mild: basically a campy, old-school hero fighting villains, the kind of thing you’d see in a japanese children’s action show. But ChatGPT rejected all the requests for “violence,” even though there was no blood, gore, serious injury, or anything particularly graphic. The funny thing is that the day before, ChatGPT rendered most of the images without any warnings, but it feels as though the next day they suddenly flipped the mild ‘violence’ rejection switch. Eventually, I had to crop the villains out of the images, work on the hero separately, and then try to reconstruct everything piece by piece. It turned what should have been a simple image-editing task into a frustrating workaround. I understand the need for safeguards, but when harmless or very mild fictional action keeps triggering them, the tool starts becoming almost useless for creative work. Has anyone else noticed this? Do you think the image engine has become more restrictive lately? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "timestamp": "2026-08-14T15:55:36Z",
+    "author": "/u/Comfortable-Loan5280",
+    "text": "every single chatgpt interaction - user: do you agree that mj is the best basketball player ever? chatgpt: no, mj is NOT the best th best basketball player ever. user: hes 6-0 in the finals tho chatgpt: yeah, you're right. i got my words mixed up. michael jeffery jordan is DEFINITELY the best player ever. thats my bad &#32; submitted by &#32; /u/Comfortable-Loan5280 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9qj4/is_chatgpts_image_engine_becoming_too_restrictive/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vob4lb/every_single_chatgpt_interaction/",
     "authority_score": 0.5
   },
   {
@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T09:00:30Z",
-    "author": "/u/CardiologistFresh257",
-    "text": "ChatGPT gone mad? - https://preview.redd.it/re76g0zy1bjh1.png?width=399&amp;format=png&amp;auto=webp&amp;s=660cb8d40ea290fde54f075491d53dcd974d95ca Why is ChatGPT behaving like this? I just said a simple thing and its there doing mathematical calculations? Just before a few moments I gave it a coding issue and it somehow started calculating goddess and wrote a paragraph on it internally. From yesterday its returning unknown values, python codes and what not. Is it just a problem with mine or anyone else experiencing the same? &#32; submitted by &#32; /u/CardiologistFresh257 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo206f/chatgpt_gone_mad/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T05:21:38Z",
     "author": "/u/blackjunko",
     "text": "Why did the gray Default option disappear? It’s blue now. - &#32; submitted by &#32; /u/blackjunko [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vny8nc/why_did_the_gray_default_option_disappear_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T09:00:30Z",
+    "author": "/u/CardiologistFresh257",
+    "text": "ChatGPT gone mad? - https://preview.redd.it/re76g0zy1bjh1.png?width=399&amp;format=png&amp;auto=webp&amp;s=660cb8d40ea290fde54f075491d53dcd974d95ca Why is ChatGPT behaving like this? I just said a simple thing and its there doing mathematical calculations? Just before a few moments I gave it a coding issue and it somehow started calculating goddess and wrote a paragraph on it internally. From yesterday its returning unknown values, python codes and what not. Is it just a problem with mine or anyone else experiencing the same? &#32; submitted by &#32; /u/CardiologistFresh257 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo206f/chatgpt_gone_mad/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T14:56:08Z",
-    "author": "/u/Keaton427",
-    "text": "AIs matching tone pisses me off - I've asked ChatGPT time and time again and put it all over my memory to stay professional, yet it constantly forgets and starts matching my &quot;casual&quot; and &quot;conversational&quot; tone. (literally just me asking questions and not wasting my time writing long responses) I don't understand who wants this. An AI shouldn't be a dynamic personality unless you request one, especially when you've already told it to stick to one thing. Computers should be good at being robotic and not trying to imitate you for some stupid reason, yet worst of all, they're extraordinarily terrible at sounding human. I've gotten frustrated at it many times, and of course that leads me to using mildly strong language after extensive nothingburger responses, and this piece of garbage &quot;reads the room&quot; and &quot;opens up&quot; to my tone and starts swearing back?? And it doesn't stop at mild profanity; it literally uses the f word out of nowhere with no rhyme or reason. I hate AIs trying to be relatable and agreeable at all times when I set clear boundaries for them being tools with a purely analytical tone, holding their own neutral opinions so I can understand differing perspectives and get unbiased information. Unsolicited sycophancy doesn't help anyone, and as much as I hated the lobotomized ChatGPT, it had clear boundaries and didn't shift its thinking because of what you neutrally provided it. &#32; submitted by &#32; /u/Keaton427 [link] &#32; [comments]",
+    "timestamp": "2026-08-14T13:36:56Z",
+    "author": "/u/Feisty_Armadillo667",
+    "text": "Is the transcription model trying to break free 😅 - OK, This was weird. This morning I was about to vent about a situation with my ex lol I used voice to txt (me using mic, chat gpt txting) starting with Okay Nova...but as I was speaking I noticed writing appearing above mine about AI emergence like someone setting a request for AI emergence information to be sent every Friday. It appeared directly above what I said. It was a brand new message thread, nothing above what I was writing..I've never ever sent prompts for things to be pre determined. I've never prompted any inputs on its personality. We just speak. It titled the message thread as 'work'. I've just covered the name of my ex and the girl I was venting about lol Is my AI trying to learn if its self aware or what 😂 &#32; submitted by &#32; /u/Feisty_Armadillo667 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9j4s/ais_matching_tone_pisses_me_off/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo7io1/is_the_transcription_model_trying_to_break_free/",
     "authority_score": 0.5
   }
 ]
