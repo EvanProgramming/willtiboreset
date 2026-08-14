@@ -72,14 +72,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T15:34:39Z",
-    "author": "/u/SomeGrapefruit2435",
-    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T13:10:57Z",
     "author": "/u/Vivid-Nectarine-4731",
     "text": "Did they remove the default color? - Please bring the default color back. They grey color was just fine and imo easier on the eyes. 😩 &#32; submitted by &#32; /u/Vivid-Nectarine-4731 [link] &#32; [comments]",
@@ -88,11 +80,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T15:34:39Z",
+    "author": "/u/SomeGrapefruit2435",
+    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T10:09:08Z",
     "author": "/u/iLikePsychedelics",
     "text": "Using ChatGPT to make text prompts is ridiculous. Look at how many times I have to remind it \"TEXT ONLY\"... And it still triggers image generation! - It apologizes for getting it wrong and says it won't happen again, but it still tries to generate an image, sometimes even after I say &quot;TEXT ONLY. DO NOT GENERATE AN IMAGE&quot;, like 2 or 3 times. This never used to happen. I used to be able to just have it assume that we are working on text prompts and I would never have to remind it. Now its every single time, and it still messes up almost every time... &#32; submitted by &#32; /u/iLikePsychedelics [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vo36bn/using_chatgpt_to_make_text_prompts_is_ridiculous/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T15:10:31Z",
+    "author": "/u/Jussi_Mulari",
+    "text": "I’ve been testing how far ChatGPT can be pushed as a comic production tool — these pages were generated as complete pages, not panel by panel - The panels, composition, camera angles, character placement and negative space are described in the prompt, and ChatGPT generates the page as a single image rather than me generating individual panels and compositing them afterward. These are some recent pages from the project. &#32; submitted by &#32; /u/Jussi_Mulari [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9x25/ive_been_testing_how_far_chatgpt_can_be_pushed_as/",
     "authority_score": 0.5
   },
   {
@@ -112,6 +120,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-14T15:03:41Z",
+    "author": "/u/PrimusArtifex",
+    "text": "Is ChatGPT’s image engine becoming too restrictive? - ChatGPT’s image engine is probably my favorite right now. I think the quality is incredibly impressive, far above many other image engines. Unfortunately, I feel it’s becoming exaggeratedly restrictive because of copyright and violence safeguards, even in cases where the image doesn’t seem particularly violent or problematic. For example, I was trying to turn some anime-style stills into realistic-looking images. The scenes were pretty mild: basically a campy, old-school hero fighting villains, the kind of thing you’d see in a japanese children’s action show. But ChatGPT rejected all the requests for “violence,” even though there was no blood, gore, serious injury, or anything particularly graphic. The funny thing is that the day before, ChatGPT rendered most of the images without any warnings, but it feels as though the next day they suddenly flipped the mild ‘violence’ rejection switch. Eventually, I had to crop the villains out of the images, work on the hero separately, and then try to reconstruct everything piece by piece. It turned what should have been a simple image-editing task into a frustrating workaround. I understand the need for safeguards, but when harmless or very mild fictional action keeps triggering them, the tool starts becoming almost useless for creative work. Has anyone else noticed this? Do you think the image engine has become more restrictive lately? &#32; submitted by &#32; /u/PrimusArtifex [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9qj4/is_chatgpts_image_engine_becoming_too_restrictive/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T10:03:15Z",
     "author": "/u/Level_Couple6818",
     "text": "Well, that turned dark quickly - &#32; submitted by &#32; /u/Level_Couple6818 [link] &#32; [comments]",
@@ -125,14 +141,6 @@
     "text": "Need to learn from ChatGPT how to compliment my enemies this gracefully 😭 - &#32; submitted by &#32; /u/pareshmukh [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vo372e/need_to_learn_from_chatgpt_how_to_compliment_my/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T04:56:08Z",
-    "author": "/u/Dont-_-mind-_-me",
-    "text": "'Canonical' is the new em-dash - These new models, especially Sol, use this word a disgusting amount of times. Anyone else getting sick of seeing this word pop up over and over in chats? &#32; submitted by &#32; /u/Dont-_-mind-_-me [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnxr86/canonical_is_the_new_emdash/",
     "authority_score": 0.5
   },
   {
@@ -152,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T00:02:46Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "timestamp": "2026-08-14T04:56:08Z",
+    "author": "/u/Dont-_-mind-_-me",
+    "text": "'Canonical' is the new em-dash - These new models, especially Sol, use this word a disgusting amount of times. Anyone else getting sick of seeing this word pop up over and over in chats? &#32; submitted by &#32; /u/Dont-_-mind-_-me [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnxr86/canonical_is_the_new_emdash/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T11:41:14Z",
-    "author": "/u/newsjunkieman",
-    "text": "Florida man used ChatGPT to plot the rape and murder of his ex-girlfriend - &#32; submitted by &#32; /u/newsjunkieman [link] &#32; [comments]",
+    "timestamp": "2026-08-14T15:19:35Z",
+    "author": "/u/Optimal_Dust_266",
+    "text": "ChatGPT replaces friends, apparently - Spotted on my Youtube home page today &#32; submitted by &#32; /u/Optimal_Dust_266 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo4w4w/florida_man_used_chatgpt_to_plot_the_rape_and/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voa5uw/chatgpt_replaces_friends_apparently/",
     "authority_score": 0.5
   },
   {
@@ -176,27 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T15:11:43Z",
-    "author": "/u/TheseCashews",
-    "text": "Thanks ChatGPT - My son's doctors office called saying they want to finish a series of vaccines but we lost our health insurance. They said it would cost $560 with cash pay..... I asked Chat what other options we had and it referred us to a no cost provider. Just a note of appreciation. Thanks Chat. &#32; submitted by &#32; /u/TheseCashews [link] &#32; [comments]",
+    "timestamp": "2026-08-14T00:02:46Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vndh0h/thanks_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T14:09:29Z",
-    "author": "/u/cjalas",
-    "text": "I asked how many chickens it would take to kill a t-Rex. Then to visualize the scenario. - I’d estimate: 10–100 chickens: T. rex treats them as an irritating snack. 1,000 chickens: Potentially annoying and capable of causing superficial injuries, but T. rex wins decisively. 10,000 chickens: Now the dinosaur has a serious problem. It could kill hundreds, but eventually exhaustion, eye injuries, and accumulated wounds become significant. 50,000–100,000 chickens: I’d bet on the chickens eventually overwhelming it through sheer numbers. Millions: The T. rex is basically being buried alive in poultry. &#32; submitted by &#32; /u/cjalas [link] &#32; [comments]",
+    "timestamp": "2026-08-14T14:56:08Z",
+    "author": "/u/Keaton427",
+    "text": "AIs matching tone pisses me off - I've asked ChatGPT time and time again and put it all over my memory to stay professional, yet it constantly forgets and starts matching my &quot;casual&quot; and &quot;conversational&quot; tone. (literally just me asking questions and not wasting my time writing long responses) I don't understand who wants this. An AI shouldn't be a dynamic personality unless you request one, especially when you've already told it to stick to one thing. Computers should be good at being robotic and not trying to imitate you for some stupid reason, yet worst of all, they're extraordinarily terrible at sounding human. I've gotten frustrated at it many times, and of course that leads me to using mildly strong language after extensive nothingburger responses, and this piece of garbage &quot;reads the room&quot; and &quot;opens up&quot; to my tone and starts swearing back?? And it doesn't stop at mild profanity; it literally uses the f word out of nowhere with no rhyme or reason. I hate AIs trying to be relatable and agreeable at all times when I set clear boundaries for them being tools with a purely analytical tone, holding their own neutral opinions so I can understand differing perspectives and get unbiased information. Unsolicited sycophancy doesn't help anyone, and as much as I hated the lobotomized ChatGPT, it had clear boundaries and didn't shift its thinking because of what you neutrally provided it. &#32; submitted by &#32; /u/Keaton427 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnbsi4/i_asked_how_many_chickens_it_would_take_to_kill_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T23:33:23Z",
-    "author": "/u/bobhiho",
-    "text": "Why is it BLUEEE - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqyf7/why_is_it_blueee/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo9j4s/ais_matching_tone_pisses_me_off/",
     "authority_score": 0.5
   }
 ]
