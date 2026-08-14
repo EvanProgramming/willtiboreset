@@ -192,6 +192,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T23:33:23Z",
+    "author": "/u/bobhiho",
+    "text": "Why is it BLUEEE - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqyf7/why_is_it_blueee/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T00:02:46Z",
     "author": "/u/Smart_AI_Hustle",
     "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
@@ -208,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T23:33:23Z",
-    "author": "/u/bobhiho",
-    "text": "Why is it BLUEEE - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqyf7/why_is_it_blueee/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T19:02:19Z",
     "author": "/u/LazyRunner777",
     "text": "Who put that ❌ so close to ✔ 😭 - I just had very exciting and profound moment so I started dictating everything that was going through my mind to ChatGPT just to hit ❌ when I finished 😭😭 It would be a good idea to have optional confirm dialog when canceling. &#32; submitted by &#32; /u/LazyRunner777 [link] &#32; [comments]",
@@ -224,19 +224,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T22:22:20Z",
-    "author": "/u/KirisDitex001",
-    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T15:34:59Z",
     "author": "/u/Mirjalol_Yangiboyev",
     "text": "I asked Lion how many Chatgpts it would take to beat a T-Rex. - ROAR &#32; submitted by &#32; /u/Mirjalol_Yangiboyev [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vne462/i_asked_lion_how_many_chatgpts_it_would_take_to/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T22:22:20Z",
+    "author": "/u/KirisDitex001",
+    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
     "authority_score": 0.5
   },
   {
