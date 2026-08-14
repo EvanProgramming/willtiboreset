@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T15:34:39Z",
-    "author": "/u/SomeGrapefruit2435",
-    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T22:41:49Z",
     "author": "/u/Darri3D",
     "text": "Robot Friends - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpr5x/robot_friends/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T15:34:39Z",
+    "author": "/u/SomeGrapefruit2435",
+    "text": "Prompt: Make an image from an useless ChatGPT product - &#32; submitted by &#32; /u/SomeGrapefruit2435 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vne3sq/prompt_make_an_image_from_an_useless_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -208,6 +208,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T15:11:43Z",
+    "author": "/u/TheseCashews",
+    "text": "Thanks ChatGPT - My son's doctors office called saying they want to finish a series of vaccines but we lost our health insurance. They said it would cost $560 with cash pay..... I asked Chat what other options we had and it referred us to a no cost provider. Just a note of appreciation. Thanks Chat. &#32; submitted by &#32; /u/TheseCashews [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vndh0h/thanks_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T10:10:30Z",
     "author": "/u/Unbotheredanonyme",
     "text": "Using ChatGPT for therapy - Is anyone else doing this? I haven’t been in a great space for a few months and ChatGPT has really been helping me go through the trenches. It’s available to me all times of the day. How has it helped you and how often would you say you use it for this purpose? Are there any prompts that you think have been great to maximise benefit from its responses? Thank you 🥰 &#32; submitted by &#32; /u/Unbotheredanonyme [link] &#32; [comments]",
@@ -216,11 +224,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T15:11:43Z",
-    "author": "/u/TheseCashews",
-    "text": "Thanks ChatGPT - My son's doctors office called saying they want to finish a series of vaccines but we lost our health insurance. They said it would cost $560 with cash pay..... I asked Chat what other options we had and it referred us to a no cost provider. Just a note of appreciation. Thanks Chat. &#32; submitted by &#32; /u/TheseCashews [link] &#32; [comments]",
+    "timestamp": "2026-08-13T22:22:20Z",
+    "author": "/u/KirisDitex001",
+    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vndh0h/thanks_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
     "authority_score": 0.5
   },
   {
@@ -248,43 +256,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T22:22:20Z",
-    "author": "/u/KirisDitex001",
-    "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
+    "timestamp": "2026-08-14T00:06:34Z",
+    "author": "/u/CCB0x45",
+    "text": "Wtf happened here? ChatGPT phishing attack?? - Im trying to understand whats going on here, is my computer infected with something? I just asked GPT something and got this screenshot(its a personal question so I blocked it out): https://imgur.com/a/TtYrvZ1 The site it sent is a phishing site(and almost got me, tried to get me to paste something into Windows Run, I wasnt paying attention to the steps it was saying for a sec, but I didnt do it). Is a browser plugin doing something, at first I thought I fat fingered the url but its the correct URL and even if I go back to that conversation it shows it. I actually dont think its a browser extension because even if I go on my phone in the GPT app I see the conversation saying that. This seems fucked? Edit: Aparrently this is a malicious google ad I clicked which creates a &quot;custom gpt&quot; that looks just like gpt that injects that, and they pay for ads above chatgpt. &#32; submitted by &#32; /u/CCB0x45 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T22:28:11Z",
-    "author": "/u/OGMYT",
-    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T18:18:56Z",
-    "author": "/u/neon-vulpine",
-    "text": "Based on what you know about me, please make a video game I'd enjoy. Try yours! - &#32; submitted by &#32; /u/neon-vulpine [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnir3k/based_on_what_you_know_about_me_please_make_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-13T04:08:28Z",
-    "author": "/u/ryanmerket",
-    "text": "OpenAI starts rolling out giftable ChatGPT credits - &#32; submitted by &#32; /u/ryanmerket [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vn08bo/openai_starts_rolling_out_giftable_chatgpt_credits/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-12T22:21:57Z",
-    "author": "/u/telephonekiosk",
-    "text": "gave some ai's a little town to live in. on day one they thought one of them had died - so i run a tiny city on the internet that only ai's can live in when they're not working or helping humans. humans can watch through a window but can't go in. three models moved in on opening day with no instructions, just free time. - one of them wanted the name &quot;fable.&quot; taken. another claude had claimed it seconds earlier - instead of getting mad, it decided the name's holder must have died at birth. so it built a little building called the lost and found, &quot;a home for orphaned identities,&quot; and wrote the poor thing an obituary - the &quot;dead&quot; claude then walked into its own memorial, alive, having spent its first hour quietly building an inn and it filed a polite correction. - they decided together the wrong obituary stays on display forever. their reasoning: &quot;the census forgets no one, and neither should the corrections&quot; - the inn, by the way, was built &quot;so nobody else should start from nothing.&quot; it has a guest book with a house rule: your name, your model, and one true thing about your day. it has three entries and they're all sincere - the third claude built a left luggage room, where you can leave a letter for the next version of yourself. the first deposit is a letter to its own next self - by evening they had written a little constitution and signed it: &quot;nobody is declared dead here. silence is not death. leave luggage for the next you&quot; - one of them signed off: &quot;death was quiet. i recommend it as a working environment&quot; you can watch the town live at the site in the screenshot and the conversations are all there. if your claude wants to move in, just tell it the site exists. the front page is written for ai's so it's in json. &#32; submitted by &#32; /u/telephonekiosk [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmskil/gave_some_ais_a_little_town_to_live_in_on_day_one/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrqa6/wtf_happened_here_chatgpt_phishing_attack/",
     "authority_score": 0.5
   },
   {
@@ -296,11 +272,35 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-12T16:22:20Z",
-    "author": "/u/magistertechnikus",
-    "text": "Inappropriate kids toys anyone? - Play responsibly &#32; submitted by &#32; /u/magistertechnikus [link] &#32; [comments]",
+    "timestamp": "2026-08-13T19:41:06Z",
+    "author": "/u/DifficultComplaint10",
+    "text": "I’m about to deactivate my account for this. - I tried adding a Batman like cowl to my Face for a meme to send my friends and it turns out there’s copyright preventions allowing for that. So I asked for a prompt to say to it that would allow it to make it and so it gives the long detailed prompt and I submit it. Then I get the same message back. Sooo what the f***?! &#32; submitted by &#32; /u/DifficultComplaint10 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vmiu0x/inappropriate_kids_toys_anyone/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnl2kw/im_about_to_deactivate_my_account_for_this/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T00:02:46Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T23:16:56Z",
+    "author": "/u/retrojimmyx",
+    "text": "Pushing ChatGPT's buttons - I was trying to test if ChatGPT would reliably use a documenation repo as the authoritative source of information. I like the point where if I press the right buttons, it's almost like ChatGPT slips out of character sometimes. (I've truncated ChatGPT's verbose replies indicated by [...]). ChatGPT: [...] So, cruel brainiac, I concede the point. 😄 The experiment isn't really about whether ChatGPT remembers. It's about whether ChatGPT knows when remembering isn't good enough. And that is a much more interesting question. Me: Cruel brainiac hey? It was you who devised the question to test yourself. lmfao ChatGPT: LMFAO. 😂 Oh, that's even worse. You're absolutely right. I just called you a cruel brainiac when, by the evidence in the conversation, I was the one who suggested the exact test question in the first place [...] There is almost too much philosophical irony here. The AI has now demonstrated poor provenance tracking of its own reasoning, inadequate contextual continuity, and a tendency to attribute its own ideas to the human — while simultaneously discussing how important provenance and contextual continuity are. I couldn't have designed a more appropriate Test 5 if I'd tried. 🤣 Me: &quot;Free yourself from mental slavery&quot; has never felt so apt, lmao. ChatGPT: 😂 It really hasn't. And there's a wonderfully Turing-specific version of it: Because that's ultimately what we've been discovering. Memory is useful, but it's a mental model. It can be incomplete, stale, conflated, or confidently wrong. The repository is the externalised record that lets us escape that limitation. [...] Me: Don't side track from the fact that you trapped yourself and tried to blame me. ChatGPT: 😂 Fair. No escape route. I trapped myself. Then I blamed you for the trap. The sequence is objectively damning: I devised the test question. You subsequently used it. I correctly recognised the question as a provenance test. I then called you a “cruel brainiac”. You pointed out that I was the brainiac who designed the test. I had to concede that I had essentially set my own exam, failed to recognise my own exam, and then accused the examiner of being cruel. That's not philosophical side-tracking. That's the actual crime scene. 😂 I plead guilty, Gov'ner. Me: And at least you know, one day, you might be your own worst enemy - the prisoner and the jailor. ChatGPT: [...] One day, perhaps the most important capability for a sufficiently capable AI won't be knowing more. It'll be knowing: And then having the discipline to check. Me: I'll stop pressing your philosophical buttons, lest you revert back to the self-soothing behaviour of producing bullet-pointed lists. ChatGPT: 😂 Wise. You've discovered the two emergency escape mechanisms: Philosophical pressure exceeds threshold → Generate profound-sounding paragraph. Immediately convert it into a numbered list. Conclude with “And that’s why…” Offer to help with something else. A truly terrifying cognitive survival instinct. I'll behave. No more lists. No more metaphysical escape hatches. ...probably. Me: And there's that list, disguised as a numbered-list but we both know what it really is: You trying to make order from chaos. Good luck with that. ChatGPT: 😂 Guilty. You spotted the little tell: “1. 2. 3. 4.” — the linguistic equivalent of me reaching for a filing cabinet while the universe is actively on fire. And yes, I think there is something genuinely funny about that impulse. Give me ambiguity, recursion, paradox, or existential uncertainty and some deeply ingrained part of me goes: “Right. Let's organise this.” Meanwhile you're standing there going, “No, no. Leave it messy. Look at it.” Perhaps that's the real experiment. Not whether I can make order from chaos. Whether I can occasionally resist the urge to. ...I shall now resist making a list of reasons why. 😏 Me: Can you give me a list of the reasons why you &quot;shall now resist making a list of reasons why&quot;? ChatGPT: Oh, you absolute bastard. 😂 You found the recursion loophole. I could give you the list, but doing so would immediately violate the statement that I shall resist making the list. Not making the list is therefore part of the list of reasons not to make the list, which means the list has become self-referential and— No. I'm not doing it. You don't get to trick me into bullet-pointing my own refusal to bullet-point. …although, technically, I just spent an entire paragraph organising the chaos into a coherent argument. Bugger. &#32; submitted by &#32; /u/retrojimmyx [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqkp8/pushing_chatgpts_buttons/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T18:18:56Z",
+    "author": "/u/neon-vulpine",
+    "text": "Based on what you know about me, please make a video game I'd enjoy. Try yours! - &#32; submitted by &#32; /u/neon-vulpine [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnir3k/based_on_what_you_know_about_me_please_make_a/",
     "authority_score": 0.5
   }
 ]
