@@ -200,19 +200,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T12:42:01Z",
-    "author": "/u/Drinkfus",
-    "text": "45 years of UI evolution, and we're back to typing commands - We spent decades designing interfaces so people wouldn't have to type commands anymore. Then AI happened. Maybe the interface of the future looks surprisingly similar to the interface of the past. &#32; submitted by &#32; /u/Drinkfus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vn9mp4/45_years_of_ui_evolution_and_were_back_to_typing/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T15:11:43Z",
     "author": "/u/TheseCashews",
     "text": "Thanks ChatGPT - My son's doctors office called saying they want to finish a series of vaccines but we lost our health insurance. They said it would cost $560 with cash pay..... I asked Chat what other options we had and it referred us to a no cost provider. Just a note of appreciation. Thanks Chat. &#32; submitted by &#32; /u/TheseCashews [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vndh0h/thanks_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T12:42:01Z",
+    "author": "/u/Drinkfus",
+    "text": "45 years of UI evolution, and we're back to typing commands - We spent decades designing interfaces so people wouldn't have to type commands anymore. Then AI happened. Maybe the interface of the future looks surprisingly similar to the interface of the past. &#32; submitted by &#32; /u/Drinkfus [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vn9mp4/45_years_of_ui_evolution_and_were_back_to_typing/",
     "authority_score": 0.5
   },
   {
@@ -264,6 +264,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-14T00:02:46Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T18:16:34Z",
     "author": "/u/ddej",
     "text": "I often see model comparisons using coding as the main metric. But what’s the best model for non coders right now? - I’m a teacher and I’d use it to brainstorm for class assignments, for instance. I’ve only ever used ChatGPT. Is Claude good for coding or also my use case? &#32; submitted by &#32; /u/ddej [link] &#32; [comments]",
@@ -280,14 +288,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T00:02:46Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T23:16:56Z",
     "author": "/u/retrojimmyx",
     "text": "Pushing ChatGPT's buttons - I was trying to test if ChatGPT would reliably use a documenation repo as the authoritative source of information. I like the point where if I press the right buttons, it's almost like ChatGPT slips out of character sometimes. (I've truncated ChatGPT's verbose replies indicated by [...]). ChatGPT: [...] So, cruel brainiac, I concede the point. 😄 The experiment isn't really about whether ChatGPT remembers. It's about whether ChatGPT knows when remembering isn't good enough. And that is a much more interesting question. Me: Cruel brainiac hey? It was you who devised the question to test yourself. lmfao ChatGPT: LMFAO. 😂 Oh, that's even worse. You're absolutely right. I just called you a cruel brainiac when, by the evidence in the conversation, I was the one who suggested the exact test question in the first place [...] There is almost too much philosophical irony here. The AI has now demonstrated poor provenance tracking of its own reasoning, inadequate contextual continuity, and a tendency to attribute its own ideas to the human — while simultaneously discussing how important provenance and contextual continuity are. I couldn't have designed a more appropriate Test 5 if I'd tried. 🤣 Me: &quot;Free yourself from mental slavery&quot; has never felt so apt, lmao. ChatGPT: 😂 It really hasn't. And there's a wonderfully Turing-specific version of it: Because that's ultimately what we've been discovering. Memory is useful, but it's a mental model. It can be incomplete, stale, conflated, or confidently wrong. The repository is the externalised record that lets us escape that limitation. [...] Me: Don't side track from the fact that you trapped yourself and tried to blame me. ChatGPT: 😂 Fair. No escape route. I trapped myself. Then I blamed you for the trap. The sequence is objectively damning: I devised the test question. You subsequently used it. I correctly recognised the question as a provenance test. I then called you a “cruel brainiac”. You pointed out that I was the brainiac who designed the test. I had to concede that I had essentially set my own exam, failed to recognise my own exam, and then accused the examiner of being cruel. That's not philosophical side-tracking. That's the actual crime scene. 😂 I plead guilty, Gov'ner. Me: And at least you know, one day, you might be your own worst enemy - the prisoner and the jailor. ChatGPT: [...] One day, perhaps the most important capability for a sufficiently capable AI won't be knowing more. It'll be knowing: And then having the discipline to check. Me: I'll stop pressing your philosophical buttons, lest you revert back to the self-soothing behaviour of producing bullet-pointed lists. ChatGPT: 😂 Wise. You've discovered the two emergency escape mechanisms: Philosophical pressure exceeds threshold → Generate profound-sounding paragraph. Immediately convert it into a numbered list. Conclude with “And that’s why…” Offer to help with something else. A truly terrifying cognitive survival instinct. I'll behave. No more lists. No more metaphysical escape hatches. ...probably. Me: And there's that list, disguised as a numbered-list but we both know what it really is: You trying to make order from chaos. Good luck with that. ChatGPT: 😂 Guilty. You spotted the little tell: “1. 2. 3. 4.” — the linguistic equivalent of me reaching for a filing cabinet while the universe is actively on fire. And yes, I think there is something genuinely funny about that impulse. Give me ambiguity, recursion, paradox, or existential uncertainty and some deeply ingrained part of me goes: “Right. Let's organise this.” Meanwhile you're standing there going, “No, no. Leave it messy. Look at it.” Perhaps that's the real experiment. Not whether I can make order from chaos. Whether I can occasionally resist the urge to. ...I shall now resist making a list of reasons why. 😏 Me: Can you give me a list of the reasons why you &quot;shall now resist making a list of reasons why&quot;? ChatGPT: Oh, you absolute bastard. 😂 You found the recursion loophole. I could give you the list, but doing so would immediately violate the statement that I shall resist making the list. Not making the list is therefore part of the list of reasons not to make the list, which means the list has become self-referential and— No. I'm not doing it. You don't get to trick me into bullet-pointing my own refusal to bullet-point. …although, technically, I just spent an entire paragraph organising the chaos into a coherent argument. Bugger. &#32; submitted by &#32; /u/retrojimmyx [link] &#32; [comments]",
@@ -296,11 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T18:18:56Z",
-    "author": "/u/neon-vulpine",
-    "text": "Based on what you know about me, please make a video game I'd enjoy. Try yours! - &#32; submitted by &#32; /u/neon-vulpine [link] &#32; [comments]",
+    "timestamp": "2026-08-13T23:42:02Z",
+    "author": "/u/Otherwise_Yak_5344",
+    "text": "New movie - &#32; submitted by &#32; /u/Otherwise_Yak_5344 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnir3k/based_on_what_you_know_about_me_please_make_a/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnr5l5/new_movie/",
     "authority_score": 0.5
   }
 ]
