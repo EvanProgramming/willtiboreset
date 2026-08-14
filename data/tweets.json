@@ -224,14 +224,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T22:28:11Z",
-    "author": "/u/OGMYT",
-    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T13:54:14Z",
     "author": "/u/Rude_Possibility_211",
     "text": "New restrictions? About to argue with chat - I signed up through my Outlook account, I don’t remember being asked if I was 18 or over. I’m 30+, been trying to ask me to make a macro table but it just wouldn’t list the calories. I’ve been lurking this sub for a while and I learn from you all. &#32; submitted by &#32; /u/Rude_Possibility_211 [link] &#32; [comments]",
@@ -261,6 +253,14 @@
     "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T22:28:11Z",
+    "author": "/u/OGMYT",
+    "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted - There is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and debugging failures is not meaningfully described by the same word. The tool is not the quality standard. We did not call every manually written codebase “human slop” because production software had bugs before 2022. Humans have shipped oceans of terrible code for decades. AI changes the volume and speed, which means validation matters more, but the engineering criteria are still engineering criteria. What I think is happening is that an old status signal is being disrupted. “I know how to write the code” used to imply a lot more scarcity. Increasingly the differentiator is “I know how to make the right system exist and prove that it works.” That includes understanding the problem, specifying behavior, architecture, failure modes, security boundaries, tests, observability and maintenance. Those skills become more important when generation gets cheap. The developers who combine real engineering knowledge with AI are going to be dramatically more productive than either pure prompt-and-pray users or people who refuse the tools on principle. So yes: call out slop. But define the failure. Broken? Say broken. Insecure? Say insecure. Unmaintainable? Say unmaintainable. Fake? Say fake. Untested? Say untested. “AI touched it” is not a diagnosis. &#32; submitted by &#32; /u/OGMYT [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
     "authority_score": 0.5
   },
   {
