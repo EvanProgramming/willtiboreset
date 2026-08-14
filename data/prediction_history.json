@@ -22845,8 +22845,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-14T03:40:19.880256Z"
   },
   {
     "prediction_time": "2026-08-12T03:40:19.977609Z",
@@ -29130,6 +29130,58 @@
           "Strong reset signal detected (score: 0.92)",
           "No relevant signals detected; possibly unrelated content",
           "Strong reset signal detected (score: 0.80)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.1354,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-14T03:40:19.843138Z",
+    "prediction": {
+      "within_5h": 0.2372,
+      "within_24h": 0.5305,
+      "within_48h": 0.719
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 26.6555077375,
+      "next_reset": {
+        "expected_time": "2026-08-20T01:01:00+00:00",
+        "hours_until": 141.3,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3639,
+      "time_pressure": 0.0066,
+      "hazard_rate": 0.031013,
+      "evidence_score": 0.3524,
+      "tibo_signal": 0.3822,
+      "community_signal": 0.5175,
+      "release_signal": 0.651,
+      "llm_scores": {
+        "reset_intent": 0.06894736842105263,
+        "limit_complaint": 0.028947368421052635,
+        "official_change": 0.08052631578947368,
+        "reset_confirmation": 0.04173684210526316,
+        "confidence": 0.40131578947368424,
+        "reason": [
+          "No relevant signals detected; possibly unrelated content",
+          "Limit-related keywords detected (score: 0.50)",
+          "Release/update signal detected (score: 0.80)",
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.92)",
+          "No relevant signals detected; possibly unrelated content"
         ]
       },
       "prior_applied": false,
