@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-08-14T05:21:13Z",
+    "author": "Tibo",
+    "text": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior... - Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀=====- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+    "source": "tibo_rss",
+    "url": "https://x.com/thsottiaux/status/2088133823619895712",
+    "authority_score": 1.0
+  },
+  {
     "timestamp": "2026-08-14T03:21:10Z",
     "author": "Tibo",
     "text": "Work with Google docs, sheets and slides right inside ChatGPT. This has changed how I write documents, brainstorm or proofread things. I just open it ... - Work with Google docs, sheets and slides right inside ChatGPT.This has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.ChatGPT: You probably hate tab switching. Understandable.You can now open any @googledrive Doc, Sheet, or Slide right inside ChatGPT and work side by side without switching tabs.Rolling out on web to Plus, Pro, Business, and Enterprise users in ChatGPT and ChatGPT Work.",
@@ -96,14 +104,6 @@
     "authority_score": 1.0
   },
   {
-    "timestamp": "2026-08-07T22:09:44Z",
-    "author": "Tibo",
-    "text": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. - Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it.",
-    "source": "tibo_rss",
-    "url": "https://x.com/thsottiaux/status/2085850908559298732",
-    "authority_score": 1.0
-  },
-  {
     "timestamp": "2026-07-07T00:32:27Z",
     "author": "/u/WithoutReason1729",
     "text": "We're trying something new. On Tuesdays, we're doing text posts only - A lot of people complain that there's too much AI image/video content. It's been something people have messaged us about frequently ever since the new GPT image generator dropped. We're going to try Text Tuesdays and see how it goes. If people like it we'll keep it, and if not, we won't Please let us know your thoughts on this matter &#32; submitted by &#32; /u/WithoutReason1729 [link] &#32; [comments]",
@@ -192,19 +192,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T23:33:23Z",
-    "author": "/u/bobhiho",
-    "text": "Why is it BLUEEE - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqyf7/why_is_it_blueee/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T00:02:46Z",
     "author": "/u/Smart_AI_Hustle",
     "text": "Google just launched Gemini 3.7 Flash at half the previous price — is the AI race becoming a price war? - Google released Gemini 3.7 Flash today, focused on coding and autonomous agent workflows. The interesting part to me isn’t just the performance — it’s the pricing. Google is launching it at $0.75 per million input tokens and $3.75 per million output tokens through the end of the year, roughly half the original cost of Gemini 3.6 Flash. At this point, it feels like the competition between Google, OpenAI, Anthropic, DeepSeek and others may be shifting from “who has the smartest model?” to “who can deliver good-enough intelligence at the lowest cost?” For people actually using these models for coding or agents: **does model quality still matter more to you than price, or are we reaching the point where cost wins?** &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnrn26/google_just_launched_gemini_37_flash_at_half_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-13T23:33:23Z",
+    "author": "/u/bobhiho",
+    "text": "Why is it BLUEEE - &#32; submitted by &#32; /u/bobhiho [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqyf7/why_is_it_blueee/",
     "authority_score": 0.5
   },
   {
@@ -216,14 +216,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T19:02:19Z",
-    "author": "/u/LazyRunner777",
-    "text": "Who put that ❌ so close to ✔ 😭 - I just had very exciting and profound moment so I started dictating everything that was going through my mind to ChatGPT just to hit ❌ when I finished 😭😭 It would be a good idea to have optional confirm dialog when canceling. &#32; submitted by &#32; /u/LazyRunner777 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnjzm6/who_put_that_so_close_to/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-13T15:34:59Z",
     "author": "/u/Mirjalol_Yangiboyev",
     "text": "I asked Lion how many Chatgpts it would take to beat a T-Rex. - ROAR &#32; submitted by &#32; /u/Mirjalol_Yangiboyev [link] &#32; [comments]",
@@ -232,11 +224,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-13T19:02:19Z",
+    "author": "/u/LazyRunner777",
+    "text": "Who put that ❌ so close to ✔ 😭 - I just had very exciting and profound moment so I started dictating everything that was going through my mind to ChatGPT just to hit ❌ when I finished 😭😭 It would be a good idea to have optional confirm dialog when canceling. &#32; submitted by &#32; /u/LazyRunner777 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnjzm6/who_put_that_so_close_to/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T05:21:38Z",
+    "author": "/u/blackjunko",
+    "text": "Why did the gray Default option disappear? It’s blue now. - &#32; submitted by &#32; /u/blackjunko [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vny8nc/why_did_the_gray_default_option_disappear_its/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-13T22:22:20Z",
     "author": "/u/KirisDitex001",
     "text": "Clever Apes - Was having a discussion about the Earth and Human civilization when gpt returned this. I thought it was worth a couple yuks and decided to share it. &#32; submitted by &#32; /u/KirisDitex001 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnp9tj/clever_apes/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T01:33:16Z",
+    "author": "/u/hoeforamozzstick",
+    "text": "Asked Chat to come up with a ABC poster like you'd see in a preschool classroom specific to my life based on everything it knew about me & this is what it came up with - &#32; submitted by &#32; /u/hoeforamozzstick [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vntmkx/asked_chat_to_come_up_with_a_abc_poster_like_youd/",
     "authority_score": 0.5
   },
   {
@@ -264,19 +280,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T01:33:16Z",
-    "author": "/u/hoeforamozzstick",
-    "text": "Asked Chat to come up with a ABC poster like you'd see in a preschool classroom specific to my life based on everything it knew about me & this is what it came up with - &#32; submitted by &#32; /u/hoeforamozzstick [link] &#32; [comments]",
+    "timestamp": "2026-08-14T04:56:08Z",
+    "author": "/u/Dont-_-mind-_-me",
+    "text": "'Canonical' is the new em-dash - These new models, especially Sol, use this word a disgusting amount of times. Anyone else getting sick of seeing this word pop up over and over in chats? &#32; submitted by &#32; /u/Dont-_-mind-_-me [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vntmkx/asked_chat_to_come_up_with_a_abc_poster_like_youd/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T03:08:36Z",
-    "author": "/u/Independent-Date393",
-    "text": "Same impressionist oil prompt, two moods of the sea: Seedream V5 Pro vs GPT Image 2 - I ran the same impressionist oil painting prompt through Seedream V5 Pro and GPT Image 2, two moods of the same coast: one storm, one calm. Thick palette-knife strokes, heavy impasto, the kind of prompt that lives or dies on how the model handles texture and light. Both hold the painterly style well and diverge in character. GPT Image 2 renders cooler and more realistic; Seedream V5 Pro leans warmer and looser with the strokes. Neither is &quot;better&quot;, they're two readings of the same brief. These are the long, texture-heavy prompts (the storm one is a full paragraph on stroke direction and impasto). I keep the GPT Image 2 ones I reuse in a library, sorted by type, each with its generated image: https://github.com/AtlasCloudAI/awesome-gpt-image-2-prompts For painterly work the takeaway was the same on both: describe the stroke and the material (palette knife, impasto, ragged edges), not just &quot;oil painting&quot;. &#32; submitted by &#32; /u/Independent-Date393 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnvmzl/same_impressionist_oil_prompt_two_moods_of_the/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnxr86/canonical_is_the_new_emdash/",
     "authority_score": 0.5
   },
   {
@@ -288,19 +296,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-13T23:16:56Z",
-    "author": "/u/retrojimmyx",
-    "text": "Pushing ChatGPT's buttons - I was trying to test if ChatGPT would reliably use a documenation repo as the authoritative source of information. I like the point where if I press the right buttons, it's almost like ChatGPT slips out of character sometimes. (I've truncated ChatGPT's verbose replies indicated by [...]). ChatGPT: [...] So, cruel brainiac, I concede the point. 😄 The experiment isn't really about whether ChatGPT remembers. It's about whether ChatGPT knows when remembering isn't good enough. And that is a much more interesting question. Me: Cruel brainiac hey? It was you who devised the question to test yourself. lmfao ChatGPT: LMFAO. 😂 Oh, that's even worse. You're absolutely right. I just called you a cruel brainiac when, by the evidence in the conversation, I was the one who suggested the exact test question in the first place [...] There is almost too much philosophical irony here. The AI has now demonstrated poor provenance tracking of its own reasoning, inadequate contextual continuity, and a tendency to attribute its own ideas to the human — while simultaneously discussing how important provenance and contextual continuity are. I couldn't have designed a more appropriate Test 5 if I'd tried. 🤣 Me: &quot;Free yourself from mental slavery&quot; has never felt so apt, lmao. ChatGPT: 😂 It really hasn't. And there's a wonderfully Turing-specific version of it: Because that's ultimately what we've been discovering. Memory is useful, but it's a mental model. It can be incomplete, stale, conflated, or confidently wrong. The repository is the externalised record that lets us escape that limitation. [...] Me: Don't side track from the fact that you trapped yourself and tried to blame me. ChatGPT: 😂 Fair. No escape route. I trapped myself. Then I blamed you for the trap. The sequence is objectively damning: I devised the test question. You subsequently used it. I correctly recognised the question as a provenance test. I then called you a “cruel brainiac”. You pointed out that I was the brainiac who designed the test. I had to concede that I had essentially set my own exam, failed to recognise my own exam, and then accused the examiner of being cruel. That's not philosophical side-tracking. That's the actual crime scene. 😂 I plead guilty, Gov'ner. Me: And at least you know, one day, you might be your own worst enemy - the prisoner and the jailor. ChatGPT: [...] One day, perhaps the most important capability for a sufficiently capable AI won't be knowing more. It'll be knowing: And then having the discipline to check. Me: I'll stop pressing your philosophical buttons, lest you revert back to the self-soothing behaviour of producing bullet-pointed lists. ChatGPT: 😂 Wise. You've discovered the two emergency escape mechanisms: Philosophical pressure exceeds threshold → Generate profound-sounding paragraph. Immediately convert it into a numbered list. Conclude with “And that’s why…” Offer to help with something else. A truly terrifying cognitive survival instinct. I'll behave. No more lists. No more metaphysical escape hatches. ...probably. Me: And there's that list, disguised as a numbered-list but we both know what it really is: You trying to make order from chaos. Good luck with that. ChatGPT: 😂 Guilty. You spotted the little tell: “1. 2. 3. 4.” — the linguistic equivalent of me reaching for a filing cabinet while the universe is actively on fire. And yes, I think there is something genuinely funny about that impulse. Give me ambiguity, recursion, paradox, or existential uncertainty and some deeply ingrained part of me goes: “Right. Let's organise this.” Meanwhile you're standing there going, “No, no. Leave it messy. Look at it.” Perhaps that's the real experiment. Not whether I can make order from chaos. Whether I can occasionally resist the urge to. ...I shall now resist making a list of reasons why. 😏 Me: Can you give me a list of the reasons why you &quot;shall now resist making a list of reasons why&quot;? ChatGPT: Oh, you absolute bastard. 😂 You found the recursion loophole. I could give you the list, but doing so would immediately violate the statement that I shall resist making the list. Not making the list is therefore part of the list of reasons not to make the list, which means the list has become self-referential and— No. I'm not doing it. You don't get to trick me into bullet-pointing my own refusal to bullet-point. …although, technically, I just spent an entire paragraph organising the chaos into a coherent argument. Bugger. &#32; submitted by &#32; /u/retrojimmyx [link] &#32; [comments]",
+    "timestamp": "2026-08-14T03:08:36Z",
+    "author": "/u/Independent-Date393",
+    "text": "Same impressionist oil prompt, two moods of the sea: Seedream V5 Pro vs GPT Image 2 - I ran the same impressionist oil painting prompt through Seedream V5 Pro and GPT Image 2, two moods of the same coast: one storm, one calm. Thick palette-knife strokes, heavy impasto, the kind of prompt that lives or dies on how the model handles texture and light. Both hold the painterly style well and diverge in character. GPT Image 2 renders cooler and more realistic; Seedream V5 Pro leans warmer and looser with the strokes. Neither is &quot;better&quot;, they're two readings of the same brief. These are the long, texture-heavy prompts (the storm one is a full paragraph on stroke direction and impasto). I keep the GPT Image 2 ones I reuse in a library, sorted by type, each with its generated image: https://github.com/AtlasCloudAI/awesome-gpt-image-2-prompts For painterly work the takeaway was the same on both: describe the stroke and the material (palette knife, impasto, ragged edges), not just &quot;oil painting&quot;. &#32; submitted by &#32; /u/Independent-Date393 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnqkp8/pushing_chatgpts_buttons/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T04:56:08Z",
-    "author": "/u/Dont-_-mind-_-me",
-    "text": "'Canonical' is the new em-dash - These new models, especially Sol, use this word a disgusting amount of times. Anyone else getting sick of seeing this word pop up over and over in chats? &#32; submitted by &#32; /u/Dont-_-mind-_-me [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnxr86/canonical_is_the_new_emdash/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnvmzl/same_impressionist_oil_prompt_two_moods_of_the/",
     "authority_score": 0.5
   }
 ]
