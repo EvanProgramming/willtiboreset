@@ -22689,8 +22689,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-14T02:40:25.741386Z"
   },
   {
     "prediction_time": "2026-08-12T02:39:37.561285Z",
@@ -22741,8 +22741,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": true,
+    "resolved_at": "2026-08-14T02:40:25.741386Z"
   },
   {
     "prediction_time": "2026-08-12T02:40:31.063954Z",
@@ -29013,6 +29013,58 @@
       "tibo_signal": 0.3953,
       "community_signal": 0.5175,
       "release_signal": 0.6099,
+      "llm_scores": {
+        "reset_intent": 0.08789473684210526,
+        "limit_complaint": 0.028947368421052635,
+        "official_change": 0.09368421052631579,
+        "reset_confirmation": 0.05121052631578947,
+        "confidence": 0.4157894736842105,
+        "reason": [
+          "Limit-related keywords detected (score: 0.50)",
+          "Release/update signal detected (score: 0.80)",
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.92)",
+          "No relevant signals detected; possibly unrelated content",
+          "Strong reset signal detected (score: 0.80)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.1354,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-14T02:40:25.703024Z",
+    "prediction": {
+      "within_5h": 0.3928,
+      "within_24h": 0.6937,
+      "within_48h": 0.8205
+    },
+    "signals": {
+      "tweet_count": 38,
+      "hours_since_last_reset": 25.65713586916667,
+      "next_reset": {
+        "expected_time": "2026-08-20T01:01:00+00:00",
+        "hours_until": 142.3,
+        "status": "on_schedule"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 0.3503,
+      "time_pressure": 0.0064,
+      "hazard_rate": 0.048104,
+      "evidence_score": 0.5167,
+      "tibo_signal": 0.3976,
+      "community_signal": 0.5175,
+      "release_signal": 0.6081,
       "llm_scores": {
         "reset_intent": 0.08789473684210526,
         "limit_complaint": 0.028947368421052635,
