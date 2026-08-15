@@ -72,19 +72,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T14:26:51Z",
-    "author": "/u/keep-hauntingme",
-    "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp495y/it_knows_time_now/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T17:49:00Z",
     "author": "/u/SensoriRumeMusic",
     "text": "I think we're barely scratching the surface of what people can actually do with generative AI - A lot of generative AI is just fun disposable stuff like memes, funny songs, weird AI videos, interesting pictures etc. I've done tons of that and that's probably what most casual users use it for. But I wonder what happens when people start using it for things that are like a lot more personal. So I recently finished a 9 song concept album using AI. I'm not linking it because I'm not trying to promote it, but it's just what got me thinking about this. I've played guitar for something like 37 years, so music isn't new to me, but there's no realistic or practical way I could have made something like this on my own. Multiple voices, numerous instruments, arrangements, production, all of it. What surprised me wasn't really that AI could generate the music (which it's getting even scarily better at, hence the new changes in ToS for all the major AI music players), but more what happens when we start putting something actually personal into it. The album is loosely based around my relationship with my daughter, who is mostly nonverbal, and autistic. I turned that into a rock opera science fiction story about communication and had an album built around it. Interestingly, it got way more emotional than I expected. There were parts I worked on over and over, because they weren't saying what I wanted them to say, or it did say what I wanted but not how, for example. A lot of it frankly caught me off guard emotionally. I cried making some of it given the personal nature of it. But not because I thought the AI understood what it was making, but because I did and how it made me feel. I just think there's something interesting and emergent happening here that gets lost in all the daily arguments about AI slop. People use ChatGPT to talk through incredibly personal things all the time. So why couldn't somebody use generative music, video, images, writing, whatever, to build a larger experience around something they actually care about? Not just &quot;look at this cool thing AI made&quot; and especially not with hopes of turning it into some kind of &quot;side hustle&quot;. It's more like, &quot;this was something in my head that I didn't have a practical way to make before, and now I do.&quot; I really believe we're going to see some really interesting and profound things once more people start experimenting with that. PS I probably should've asked ChatGPT to make it sound less like ChatGPT. I'm old, I like to write sentences. &#32; submitted by &#32; /u/SensoriRumeMusic [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp99lq/i_think_were_barely_scratching_the_surface_of/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T14:26:51Z",
+    "author": "/u/keep-hauntingme",
+    "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp495y/it_knows_time_now/",
     "authority_score": 0.5
   },
   {
@@ -136,6 +136,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T19:39:13Z",
+    "author": "/u/Nanquak",
+    "text": "I asked what the most expensive property in GTA Vice City is, and it corrected itself mid reply - &#32; submitted by &#32; /u/Nanquak [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc0y7/i_asked_what_the_most_expensive_property_in_gta/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T06:10:41Z",
     "author": "/u/KeanuRave100",
     "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -152,14 +160,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T17:04:19Z",
-    "author": "/u/grahamw01",
-    "text": "AGI is here - &#32; submitted by &#32; /u/grahamw01 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp849n/agi_is_here/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T15:43:55Z",
     "author": "/u/Longjumping-Soft6311",
     "text": "Chatgpt acting weird - Calculating gravitational potential fraction??? &#32; submitted by &#32; /u/Longjumping-Soft6311 [link] &#32; [comments]",
@@ -168,11 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T08:27:25Z",
-    "author": "/u/uisato",
-    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
+    "timestamp": "2026-08-15T19:53:24Z",
+    "author": "/u/Bitter-insides",
+    "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T17:04:19Z",
+    "author": "/u/grahamw01",
+    "text": "AGI is here - &#32; submitted by &#32; /u/grahamw01 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp849n/agi_is_here/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:47:40Z",
-    "author": "/u/Independent-Reader",
-    "text": "Even Gemini doesn't recommend Gemini - Google paid how much money(?) for an insanely intelligent ad for other companies' AIs? &#32; submitted by &#32; /u/Independent-Reader [link] &#32; [comments]",
+    "timestamp": "2026-08-15T08:27:25Z",
+    "author": "/u/uisato",
+    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vond66/even_gemini_doesnt_recommend_gemini/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T16:21:57Z",
-    "author": "/u/b3ta_blocker",
-    "text": "Has your ChatGPT made up its own expressions? - I asked if it was going to rain and it said 'not exactly a Watford downpour'. I asked what that meant and it said it just made it up. &#32; submitted by &#32; /u/b3ta_blocker [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp725m/has_your_chatgpt_made_up_its_own_expressions/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
     "authority_score": 0.5
   }
 ]
