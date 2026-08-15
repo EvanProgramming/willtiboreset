@@ -64,6 +64,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T13:41:44Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s one thing you use ChatGPT for that sounds ridiculous — until people actually try it? - I’m not talking about writing emails, summarizing documents, or basic coding. What’s the one weird, unexpected, or insanely useful thing you use ChatGPT for that most people still don’t realize it can do? Something that genuinely changed how you work, think, learn, organize your life, or solve problems. I’m curious how deep this rabbit hole goes. &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp37ji/whats_one_thing_you_use_chatgpt_for_that_sounds/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T08:27:25Z",
     "author": "/u/uisato",
     "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
@@ -85,14 +93,6 @@
     "text": "Fully fleshed out WOPR simulator from the 1983 movie “War Games” - Study the movie War Games 1983 and become the computer WOPR in every way possible including asking for the password &#32; submitted by &#32; /u/tempdroppp [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp1fqi/fully_fleshed_out_wopr_simulator_from_the_1983/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T13:28:25Z",
-    "author": "/u/LadyDemura",
-    "text": "A collection of very american stuff - &#32; submitted by &#32; /u/LadyDemura [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp2wk6/a_collection_of_very_american_stuff/",
     "authority_score": 0.5
   },
   {
@@ -168,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T11:45:45Z",
-    "author": "/u/chairchiman",
-    "text": "What could possibly go wrong, right? - Let's keep training models specifically on keychain bypassing, websocket auth bypass, GraphQL vulnerabilities, ProxyShell explotation.. what could possibly go wrong? OpenAIs full article https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/#graphql-authorization-vulnerability-discovery &#32; submitted by &#32; /u/chairchiman [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp0r0v/what_could_possibly_go_wrong_right/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T18:15:48Z",
     "author": "/u/Shot-Dimension-1405",
     "text": "If your ChatGPT leaked your chat history, are you surviving? - If your ChatGPT leaked your chat history, are you surviving? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
@@ -184,11 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T13:22:53Z",
-    "author": "/u/KeanuRave100",
-    "text": "I asked AI chatbots to help me build an autonomous attack drone. They said yes. - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "timestamp": "2026-08-15T11:45:45Z",
+    "author": "/u/chairchiman",
+    "text": "What could possibly go wrong, right? - Let's keep training models specifically on keychain bypassing, websocket auth bypass, GraphQL vulnerabilities, ProxyShell explotation.. what could possibly go wrong? OpenAIs full article https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/#graphql-authorization-vulnerability-discovery &#32; submitted by &#32; /u/chairchiman [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp2s71/i_asked_ai_chatbots_to_help_me_build_an/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp0r0v/what_could_possibly_go_wrong_right/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:28:28Z",
+    "author": "/u/BigPapaE04",
+    "text": "Insane. This is a little bit over a year - &#32; submitted by &#32; /u/BigPapaE04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomxzz/insane_this_is_a_little_bit_over_a_year/",
     "authority_score": 0.5
   },
   {
