@@ -48,22 +48,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:11:12Z",
-    "author": "/u/ThereWas",
-    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T18:09:56Z",
-    "author": "/u/VisWare",
-    "text": "I can't spot any AI mistake in this image - &#32; submitted by &#32; /u/VisWare [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T14:26:51Z",
     "author": "/u/keep-hauntingme",
     "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
@@ -72,11 +56,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T10:47:28Z",
-    "author": "/u/chaitanyagiri",
-    "text": "Run an office of your clones to do your work with your ChatGPT subscription (free and open source) - Hi I am Chaitanya, I have built the coolest free and open source wrapper around codex agents. It’s called Munder Difflin It allows you to run an office of persisted agents as your clones. It is calming to look at. I’d like to invite all of you to try the app it runs 100% locally and uses your existing subscriptions it also supports 10 other popular coding agents(CC). Notes: The simulation is deterministic, it does not consume tokens You can use multiple coding agents from different providers together. Please drop a star on github if you like it we are at 938 stars as we speak. &#32; submitted by &#32; /u/chaitanyagiri [link] &#32; [comments]",
+    "timestamp": "2026-08-14T23:11:12Z",
+    "author": "/u/ThereWas",
+    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vozofe/run_an_office_of_your_clones_to_do_your_work_with/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
     "authority_score": 0.5
   },
   {
@@ -88,11 +72,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-14T18:09:56Z",
+    "author": "/u/VisWare",
+    "text": "I can't spot any AI mistake in this image - &#32; submitted by &#32; /u/VisWare [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T10:47:28Z",
+    "author": "/u/chaitanyagiri",
+    "text": "Run an office of your clones to do your work with your ChatGPT subscription (free and open source) - Hi I am Chaitanya, I have built the coolest free and open source wrapper around codex agents. It’s called Munder Difflin It allows you to run an office of persisted agents as your clones. It is calming to look at. I’d like to invite all of you to try the app it runs 100% locally and uses your existing subscriptions it also supports 10 other popular coding agents(CC). Notes: The simulation is deterministic, it does not consume tokens You can use multiple coding agents from different providers together. Please drop a star on github if you like it we are at 938 stars as we speak. &#32; submitted by &#32; /u/chaitanyagiri [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vozofe/run_an_office_of_your_clones_to_do_your_work_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T00:13:26Z",
     "author": "/u/Calcaware",
     "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vony4v/cant_make_switches/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T16:46:51Z",
+    "author": "/u/Adventurous_Tea_2945",
+    "text": "Yo wtf is this, first time getting this. - I am doing my class project with gpt, just sending excel screenshot and asking it what to do. Actually at a much slower pace than I usually do with any other stuff. I get this out of nowhere! What to do &#32; submitted by &#32; /u/Adventurous_Tea_2945 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp7oab/yo_wtf_is_this_first_time_getting_this/",
     "authority_score": 0.5
   },
   {
@@ -112,6 +120,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T17:04:19Z",
+    "author": "/u/grahamw01",
+    "text": "AGI is here - &#32; submitted by &#32; /u/grahamw01 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp849n/agi_is_here/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T08:27:25Z",
     "author": "/u/uisato",
     "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
@@ -120,11 +136,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T16:46:51Z",
-    "author": "/u/Adventurous_Tea_2945",
-    "text": "Yo wtf is this, first time getting this. - I am doing my class project with gpt, just sending excel screenshot and asking it what to do. Actually at a much slower pace than I usually do with any other stuff. I get this out of nowhere! What to do &#32; submitted by &#32; /u/Adventurous_Tea_2945 [link] &#32; [comments]",
+    "timestamp": "2026-08-15T15:43:55Z",
+    "author": "/u/Longjumping-Soft6311",
+    "text": "Chatgpt acting weird - Calculating gravitational potential fraction??? &#32; submitted by &#32; /u/Longjumping-Soft6311 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp7oab/yo_wtf_is_this_first_time_getting_this/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp63qb/chatgpt_acting_weird/",
     "authority_score": 0.5
   },
   {
@@ -141,6 +157,22 @@
     "text": "This whole issue in embedding AI output with watermarks is that it attempts to create a boundary which is already impossible to draw cleanly - Anyone that does this is playing catch-up. AI-assisted writing is already embedded in ordinary tools and workflows in such a way that it is ambient, in the overall process of creating written works. The policy is an overreach. Invisible linguistic marking goes beyond provenance and starts tracking how a person produced their words. (I feel like it's thought policing, but that's just my opinion.) Grammar and structural correction is already everywhere. Word processors, browsers, citation apps, phones, email, keyboards, and other software routinely alter human-written text. “AI touched this” is becoming a meaningless category. The important distinction is whether AI supplied the thinking, not whether software helped shape the wording. Human-originated text can still get marked. Editing, proofreading, restructuring, or grammar help can create detectable Claude involvement even when the ideas are entirely the user's. Canned AI output is already often easy to recognize. Generic, over-structured, formulaic model prose usually announces itself without forensic watermarking. The harder cases are hard for a reason. Once a person has rewritten, challenged, integrated, and understood the material, “AI-authored” may no longer accurately describe the work. Education should assess understanding, not tool history. Can the student explain, defend, apply, and extend the argument? That matters more than whether a model touched the prose. It creates a bad power asymmetry. The vendor embeds the signal, others interpret it, and the writer may have little control over what conclusions are drawn. It may punish ordinary users more than determined cheaters. Sophisticated users can switch models, paraphrase, translate, or otherwise evade detection. The product is modifying text partly for third parties, not just for the user. That creates a genuine trust problem. People have an obvious competitive alternative. If comparable tools do not leave a forensic signature, users have a reason to move their workflows elsewhere. Anthropic appears willing to absorb the backlash. Rather than retreating, it is defending the policy and trying to establish watermarking as a norm. It is fundamentally unjust. These systems were built from enormous bodies of human-created language, knowledge, culture, and creative work. After benefiting from that collective human output, companies now want to police and mark the ways humans benefit from the systems built on it. The central question: why should a software company get to decide that its involvement in your private writing process should remain detectable afterward? &#32; submitted by &#32; /u/RADICCHI0 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp5juj/this_whole_issue_in_embedding_ai_output_with/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T17:28:02Z",
+    "author": "/u/KeanuRave100",
+    "text": "Living rent free - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp8q10/living_rent_free/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T17:24:57Z",
+    "author": "/u/wakanakisarazu",
+    "text": "GPT, you are connected to the internet buddy - It exposing it's internal thinking state I guess. Gave me a giggle tho. &#32; submitted by &#32; /u/wakanakisarazu [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp8n7p/gpt_you_are_connected_to_the_internet_buddy/",
     "authority_score": 0.5
   },
   {
@@ -165,38 +197,6 @@
     "text": "Is anyone noticing this lately? - ChatGPT has been swearing unexpectedly lately, and using strong language Even tho i never swear in any conversation If you have any opinion on this just write it down &#32; submitted by &#32; /u/EyadYT2008 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp35vq/is_anyone_noticing_this_lately/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T16:21:57Z",
-    "author": "/u/b3ta_blocker",
-    "text": "Has your ChatGPT made up its own expressions? - I asked if it was going to rain and it said 'not exactly a Watford downpour'. I asked what that meant and it said it just made it up. &#32; submitted by &#32; /u/b3ta_blocker [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp725m/has_your_chatgpt_made_up_its_own_expressions/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T17:24:48Z",
-    "author": "/u/ainsoph00",
-    "text": "Prototype ( GPT + Kling ) - &#32; submitted by &#32; /u/ainsoph00 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vodkm6/prototype_gpt_kling/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T15:43:55Z",
-    "author": "/u/Longjumping-Soft6311",
-    "text": "Chatgpt acting weird - Calculating gravitational potential fraction??? &#32; submitted by &#32; /u/Longjumping-Soft6311 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp63qb/chatgpt_acting_weird/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T15:42:23Z",
-    "author": "/u/Organic-Blueberry102",
-    "text": "ChatGPT is not finishing a task - I keep asking ChatGPT to help me create a project. It created part of the project. But when I’m asking you to develop the other part, it’s only giving me the instructions and then it stops. I keep asking it to do it over and over and it keeps doing the same exact thing it only goes to a certain point. Any idea why this is happening? It’s not that it’s taking too long to respond. It’s just doing part of what I needed to do. And it stops in the exact same spot every single time. It knows it’s not finishing because I ask it and it says that it is sorry for not finishing. And then when I say, please do it again it does the exact same thing. &#32; submitted by &#32; /u/Organic-Blueberry102 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp62eb/chatgpt_is_not_finishing_a_task/",
     "authority_score": 0.5
   }
 ]
