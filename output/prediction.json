@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-15T12:42:37.284270+00:00",
+  "updated_at": "2026-08-15T13:02:36.535743+00:00",
   "prediction": {
-    "within_5h": 0.0512,
-    "within_24h": 0.1817,
-    "within_48h": 0.2796
+    "within_5h": 0.0655,
+    "within_24h": 0.2239,
+    "within_48h": 0.3352
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 108.3,
+    "hours_until": 108.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 59.693689903333336,
+    "hours_since_last_reset": 60.02681533333334,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 108.3,
+      "hours_until": 108.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,19 +26,19 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 0.8149,
-    "time_pressure": 0.0211,
-    "hazard_rate": 0.00832,
-    "evidence_score": 0.0051,
+    "time_ratio": 0.8195,
+    "time_pressure": 0.0213,
+    "hazard_rate": 0.010506,
+    "evidence_score": 0.0191,
     "tibo_signal": 0.05,
-    "community_signal": 0.6,
+    "community_signal": 0.0,
     "release_signal": 0.5,
     "llm_scores": {
       "reset_intent": 0.0,
-      "limit_complaint": 0.024,
-      "official_change": 0.02,
+      "limit_complaint": 0.0,
+      "official_change": 0.04,
       "reset_confirmation": 0.0,
-      "confidence": 0.324,
+      "confidence": 0.33,
       "reason": [
         "Community pressure signal detected (score: 0.50)",
         "No relevant signals detected; possibly unrelated content",
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "59.7 hours since last reset",
+      "factor": "60.0 hours since last reset",
       "impact": "-5%",
       "score": 0.02
     },
@@ -65,19 +65,14 @@
       "score": 0.05
     },
     {
-      "factor": "High community limit complaints",
-      "impact": "+9%",
-      "score": 0.6
-    },
-    {
       "factor": "Official release/change signal",
       "impact": "+10%",
       "score": 0.5
     }
   ],
   "reasons": [
-    "Recently reset (59.7 hours ago), low time pressure (0.02)",
-    "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 59.7 hours since last reset (-5%)"
+    "Recently reset (60.0 hours ago), low time pressure (0.02)",
+    "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
+    "Main factor: 60.0 hours since last reset (-5%)"
   ]
 }
