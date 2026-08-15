@@ -24,19 +24,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T18:21:19Z",
-    "author": "/u/hi99007",
-    "text": "Crazy hallucinating pic - So my coworkers will take pics of each other sleeping and have AI edit them to make them embarrassing. Typically it's funny but this is the craziest hallucinating AI thing I've ever even heard of. Has anyone ever seen this level, does anyone have an explanation? We tried on his ai again to duplicate the results to no avail. &#32; submitted by &#32; /u/hi99007 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpa30h/crazy_hallucinating_pic/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T16:47:45Z",
     "author": "/u/SwissQueso",
     "text": "I gave myself a pretty good chuckle when this actually worked. - &#32; submitted by &#32; /u/SwissQueso [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp7p3n/i_gave_myself_a_pretty_good_chuckle_when_this/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T18:21:19Z",
+    "author": "/u/hi99007",
+    "text": "Crazy hallucinating pic - So my coworkers will take pics of each other sleeping and have AI edit them to make them embarrassing. Typically it's funny but this is the craziest hallucinating AI thing I've ever even heard of. Has anyone ever seen this level, does anyone have an explanation? We tried on his ai again to duplicate the results to no avail. &#32; submitted by &#32; /u/hi99007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpa30h/crazy_hallucinating_pic/",
     "authority_score": 0.5
   },
   {
@@ -104,6 +104,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T10:47:28Z",
+    "author": "/u/chaitanyagiri",
+    "text": "Run an office of your clones to do your work with your ChatGPT subscription (free and open source) - Hi I am Chaitanya, I have built the coolest free and open source wrapper around codex agents. It’s called Munder Difflin It allows you to run an office of persisted agents as your clones. It is calming to look at. I’d like to invite all of you to try the app it runs 100% locally and uses your existing subscriptions it also supports 10 other popular coding agents(CC). Notes: The simulation is deterministic, it does not consume tokens You can use multiple coding agents from different providers together. Please drop a star on github if you like it we are at 938 stars as we speak. &#32; submitted by &#32; /u/chaitanyagiri [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vozofe/run_an_office_of_your_clones_to_do_your_work_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T18:09:56Z",
     "author": "/u/VisWare",
     "text": "I can't spot any AI mistake in this image - &#32; submitted by &#32; /u/VisWare [link] &#32; [comments]",
@@ -112,11 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T10:47:28Z",
-    "author": "/u/chaitanyagiri",
-    "text": "Run an office of your clones to do your work with your ChatGPT subscription (free and open source) - Hi I am Chaitanya, I have built the coolest free and open source wrapper around codex agents. It’s called Munder Difflin It allows you to run an office of persisted agents as your clones. It is calming to look at. I’d like to invite all of you to try the app it runs 100% locally and uses your existing subscriptions it also supports 10 other popular coding agents(CC). Notes: The simulation is deterministic, it does not consume tokens You can use multiple coding agents from different providers together. Please drop a star on github if you like it we are at 938 stars as we speak. &#32; submitted by &#32; /u/chaitanyagiri [link] &#32; [comments]",
+    "timestamp": "2026-08-15T19:53:24Z",
+    "author": "/u/Bitter-insides",
+    "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vozofe/run_an_office_of_your_clones_to_do_your_work_with/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T19:41:42Z",
+    "author": "/u/NonDualToad",
+    "text": "The new Live Voice isn’t just a different voice. The conversation itself feels dramatically impoverished. - Is anyone else noticing this? I’m a daily Plus user and have used ChatGPT Voice heavily for over a year, especially for long, creative conversations while biking, walking, etc. I tried the new Live Voice today, and the difference was startling. I’m NOT mainly talking about the synthesized voice, although I find it slower and flatter. I mean the conversational behavior itself. I can give Live a complex two-minute thought with humor, memories, several associations and an unfinished idea, and get something like: “Hmm. That makes sense. It sounds like this is important to you.” Then it stops. In regular text/dictation mode, in the same thread, the response can take those ideas, connect them, challenge or play with them, introduce a new association, and hand me back something I hadn’t quite thought before. It’s the difference between acknowledgment and generative conversation. The best phrase I’ve found for the new experience is semantic impoverishment: shorter, flatter, more placating, less associative, less surprising, and less capable of developing an idea. I understand why OpenAI might optimize Live for latency, interruptions, and quick natural back-and-forth. Plenty of people want that. But why not give us a choice? Quick / Balanced / Deep. Sometimes I want “Yep, turn left.” Sometimes I want to throw six interconnected ideas into the conversation and see what comes back. The old experience had range. Anyone else who used Voice for long-form or creative conversation noticing this? &#32; submitted by &#32; /u/NonDualToad [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc32u/the_new_live_voice_isnt_just_a_different_voice/",
     "authority_score": 0.5
   },
   {
@@ -136,35 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T19:53:24Z",
-    "author": "/u/Bitter-insides",
-    "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T19:39:13Z",
     "author": "/u/Nanquak",
     "text": "I asked what the most expensive property in GTA Vice City is, and it corrected itself mid reply - &#32; submitted by &#32; /u/Nanquak [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc0y7/i_asked_what_the_most_expensive_property_in_gta/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-14T06:10:41Z",
-    "author": "/u/KeanuRave100",
-    "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnz4hw/bro_had_enough/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T17:43:18Z",
-    "author": "/u/LazyRunner777",
-    "text": "ChatGPT data export keeps downloading corrupted — \"Unexpected end of archive\" - I requested a ChatGPT data export and received the download email normally. The export appears to be around 3 GB, but every time I download it, the file stops somewhere around 2.8–2.9 GB. When I try to open or extract the ZIP with WinRAR, I get: Unexpected end of archive, The archive is corrupt Things I've already tried: Downloading normally through the browser IDM, including different attempts curl / PowerShell Downloading again from a fresh/recent export link Making sure I have plenty of disk space The downloads sometimes finish at different file sizes, so it looks like the connection/server is cutting off before the ZIP is complete. I also tried downloading the export URL directly with curl, but it returned 403 Forbidden, presumably because the download requires the authenticated browser session. Has anyone successfully downloaded a large (2–3+ GB) ChatGPT data export? Is there a reliable way to download it without the file getting truncated, or a way to have OpenAI split the export into smaller ZIP files? Any help would be appreciated. &#32; submitted by &#32; /u/LazyRunner777 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp94bu/chatgpt_data_export_keeps_downloading_corrupted/",
     "authority_score": 0.5
   },
   {
@@ -176,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T13:39:41Z",
-    "author": "/u/EyadYT2008",
-    "text": "Is anyone noticing this lately? - ChatGPT has been swearing unexpectedly lately, and using strong language Even tho i never swear in any conversation If you have any opinion on this just write it down &#32; submitted by &#32; /u/EyadYT2008 [link] &#32; [comments]",
+    "timestamp": "2026-08-14T06:10:41Z",
+    "author": "/u/KeanuRave100",
+    "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp35vq/is_anyone_noticing_this_lately/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vnz4hw/bro_had_enough/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T19:41:42Z",
-    "author": "/u/NonDualToad",
-    "text": "The new Live Voice isn’t just a different voice. The conversation itself feels dramatically impoverished. - Is anyone else noticing this? I’m a daily Plus user and have used ChatGPT Voice heavily for over a year, especially for long, creative conversations while biking, walking, etc. I tried the new Live Voice today, and the difference was startling. I’m NOT mainly talking about the synthesized voice, although I find it slower and flatter. I mean the conversational behavior itself. I can give Live a complex two-minute thought with humor, memories, several associations and an unfinished idea, and get something like: “Hmm. That makes sense. It sounds like this is important to you.” Then it stops. In regular text/dictation mode, in the same thread, the response can take those ideas, connect them, challenge or play with them, introduce a new association, and hand me back something I hadn’t quite thought before. It’s the difference between acknowledgment and generative conversation. The best phrase I’ve found for the new experience is semantic impoverishment: shorter, flatter, more placating, less associative, less surprising, and less capable of developing an idea. I understand why OpenAI might optimize Live for latency, interruptions, and quick natural back-and-forth. Plenty of people want that. But why not give us a choice? Quick / Balanced / Deep. Sometimes I want “Yep, turn left.” Sometimes I want to throw six interconnected ideas into the conversation and see what comes back. The old experience had range. Anyone else who used Voice for long-form or creative conversation noticing this? &#32; submitted by &#32; /u/NonDualToad [link] &#32; [comments]",
+    "timestamp": "2026-08-15T17:43:18Z",
+    "author": "/u/LazyRunner777",
+    "text": "ChatGPT data export keeps downloading corrupted — \"Unexpected end of archive\" - I requested a ChatGPT data export and received the download email normally. The export appears to be around 3 GB, but every time I download it, the file stops somewhere around 2.8–2.9 GB. When I try to open or extract the ZIP with WinRAR, I get: Unexpected end of archive, The archive is corrupt Things I've already tried: Downloading normally through the browser IDM, including different attempts curl / PowerShell Downloading again from a fresh/recent export link Making sure I have plenty of disk space The downloads sometimes finish at different file sizes, so it looks like the connection/server is cutting off before the ZIP is complete. I also tried downloading the export URL directly with curl, but it returned 403 Forbidden, presumably because the download requires the authenticated browser session. Has anyone successfully downloaded a large (2–3+ GB) ChatGPT data export? Is there a reliable way to download it without the file getting truncated, or a way to have OpenAI split the export into smaller ZIP files? Any help would be appreciated. &#32; submitted by &#32; /u/LazyRunner777 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc32u/the_new_live_voice_isnt_just_a_different_voice/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp94bu/chatgpt_data_export_keeps_downloading_corrupted/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T13:39:41Z",
+    "author": "/u/EyadYT2008",
+    "text": "Is anyone noticing this lately? - ChatGPT has been swearing unexpectedly lately, and using strong language Even tho i never swear in any conversation If you have any opinion on this just write it down &#32; submitted by &#32; /u/EyadYT2008 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp35vq/is_anyone_noticing_this_lately/",
     "authority_score": 0.5
   }
 ]
