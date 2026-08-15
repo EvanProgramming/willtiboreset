@@ -160,6 +160,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T07:24:35Z",
+    "author": "/u/No-Brief-7458",
+    "text": "Learned you can make ChatGPT create its own extensions, Folders/Subfolders - I have been using ChatGPT for years, and I just learned today that you can make ChatGPT create its own extensions. I made it create free folders/subfolders so you can only see them from the folders view and not just copy them from chats. Surprisingly effective. The second one I made is a trash can button where you can drag your chats instead of needing to delete them manually. Doesn't automatically work between devices, sadly; I am still working it out. I don't know if this is widespread information, but I thought it was cool and wanted to share what I found. Prompt I used for V1 of Trashcan: create an extension for chatgpt: a trashcan button in the bottom right corner where I can drag chats, a popup shows up in the middle of the screen and asks me if &quot;Are you sure you want to delete 'Chat Name Inserted'?&quot; Options below the &quot;Yes&quot; &amp; &quot;No&quot; If I click &quot;Yes&quot; the chat gets deleted; if I click &quot;No&quot; the popup goes away and the chat doesn't get deleted. Four versions of trashcan to get it to where it is. Prompt I used for V1 of Folders: Can you code something that I can add to chatgpt, so I can make folders/subfolders that remove chats from recent making them only appear in their assigned folder? 12 versions of folders to get it to where it is. Any other questions, I'll answer in the chat or private message. https://preview.redd.it/907wy0fyohjh1.png?width=273&amp;format=png&amp;auto=webp&amp;s=f300498211dea50e6aab5a99edd39c29b5297f4b https://preview.redd.it/7cm2gjd1phjh1.png?width=277&amp;format=png&amp;auto=webp&amp;s=3e916c54694978b0a27bba9a6cba353bcbc12a86 https://preview.redd.it/ip7ldr23phjh1.png?width=137&amp;format=png&amp;auto=webp&amp;s=03e6d09dbad884c9e034001da93cbc153fa738b2 &#32; submitted by &#32; /u/No-Brief-7458 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowbh5/learned_you_can_make_chatgpt_create_its_own/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T10:09:54Z",
     "author": "/u/AllDaysOff",
     "text": "Does anyone else feel guilty when not typing \"thanks\"? - I know AI doesn't have emotions and doesn't care, but I feel rude when I don't type please and thank you. Makes me feel like someone who's mean to waiters. &#32; submitted by &#32; /u/AllDaysOff [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "Hate continuing exploring - My ChatGPT updated tonight to where after every single response it says continue exploring and then gives me two different options for prompts. This update is driving me insane does anyone know any way to make it stop? Of A not to do it about 15 times and it does not work &#32; submitted by &#32; /u/Icy-Olive1996 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vorezy/hate_continuing_exploring/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T07:24:35Z",
-    "author": "/u/No-Brief-7458",
-    "text": "Learned you can make ChatGPT create its own extensions, Folders/Subfolders - I have been using ChatGPT for years, and I just learned today that you can make ChatGPT create its own extensions. I made it create free folders/subfolders so you can only see them from the folders view and not just copy them from chats. Surprisingly effective. The second one I made is a trash can button where you can drag your chats instead of needing to delete them manually. Doesn't automatically work between devices, sadly; I am still working it out. I don't know if this is widespread information, but I thought it was cool and wanted to share what I found. Prompt I used for V1 of Trashcan: create an extension for chatgpt: a trashcan button in the bottom right corner where I can drag chats, a popup shows up in the middle of the screen and asks me if &quot;Are you sure you want to delete 'Chat Name Inserted'?&quot; Options below the &quot;Yes&quot; &amp; &quot;No&quot; If I click &quot;Yes&quot; the chat gets deleted; if I click &quot;No&quot; the popup goes away and the chat doesn't get deleted. Four versions of trashcan to get it to where it is. Prompt I used for V1 of Folders: Can you code something that I can add to chatgpt, so I can make folders/subfolders that remove chats from recent making them only appear in their assigned folder? 12 versions of folders to get it to where it is. Any other questions, I'll answer in the chat or private message. https://preview.redd.it/907wy0fyohjh1.png?width=273&amp;format=png&amp;auto=webp&amp;s=f300498211dea50e6aab5a99edd39c29b5297f4b https://preview.redd.it/7cm2gjd1phjh1.png?width=277&amp;format=png&amp;auto=webp&amp;s=3e916c54694978b0a27bba9a6cba353bcbc12a86 https://preview.redd.it/ip7ldr23phjh1.png?width=137&amp;format=png&amp;auto=webp&amp;s=03e6d09dbad884c9e034001da93cbc153fa738b2 &#32; submitted by &#32; /u/No-Brief-7458 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowbh5/learned_you_can_make_chatgpt_create_its_own/",
     "authority_score": 0.5
   }
 ]
