@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-15T17:02:38.598705+00:00",
+  "updated_at": "2026-08-15T17:14:23.982559+00:00",
   "prediction": {
-    "within_5h": 0.0814,
-    "within_24h": 0.2673,
-    "within_48h": 0.3894
+    "within_5h": 0.0812,
+    "within_24h": 0.2666,
+    "within_48h": 0.3885
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 104.0,
+    "hours_until": 103.8,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 64.02738836972222,
+    "hours_since_last_reset": 64.2233283136111,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 104.0,
+      "hours_until": 103.8,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 0.8741,
-    "time_pressure": 0.0245,
-    "hazard_rate": 0.012876,
-    "evidence_score": 0.035,
+    "time_ratio": 0.8768,
+    "time_pressure": 0.0246,
+    "hazard_rate": 0.012836,
+    "evidence_score": 0.0347,
     "tibo_signal": 0.1866,
     "community_signal": 0.0,
     "release_signal": 0.6477,
@@ -44,8 +44,8 @@
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
-        "No relevant signals detected; possibly unrelated content",
-        "Moderate reset signal detected (score: 0.40)"
+        "Moderate reset signal detected (score: 0.40)",
+        "Release/update signal detected (score: 0.50)"
       ]
     },
     "prior_applied": false,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "64.0 hours since last reset",
+      "factor": "64.2 hours since last reset",
       "impact": "-5%",
       "score": 0.02
     },
@@ -71,8 +71,8 @@
     }
   ],
   "reasons": [
-    "Recently reset (64.0 hours ago), low time pressure (0.02)",
-    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
-    "Main factor: 64.0 hours since last reset (-5%)"
+    "Recently reset (64.2 hours ago), low time pressure (0.02)",
+    "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
+    "Main factor: 64.2 hours since last reset (-5%)"
   ]
 }
