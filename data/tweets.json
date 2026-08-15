@@ -48,6 +48,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T08:27:25Z",
+    "author": "/u/uisato",
+    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T00:13:26Z",
     "author": "/u/Calcaware",
     "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
@@ -104,11 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:28:28Z",
-    "author": "/u/BigPapaE04",
-    "text": "Insane. This is a little bit over a year - &#32; submitted by &#32; /u/BigPapaE04 [link] &#32; [comments]",
+    "timestamp": "2026-08-15T07:40:39Z",
+    "author": "/u/wadiesama",
+    "text": "Deleting files from ChatGpt Library - Is there any benefit to deleting files from the ChatGPT Library besides freeing up space, and are there any disadvantages? Also, if I delete a chat, will the files uploaded to that chat be deleted as well? &#32; submitted by &#32; /u/wadiesama [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomxzz/insane_this_is_a_little_bit_over_a_year/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowl3u/deleting_files_from_chatgpt_library/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T07:33:05Z",
+    "author": "/u/FroRaut",
+    "text": "Daybreak Blue is available for Trusted Access Verified users - Daybreak Blue right now is available for Trusted Access Verified users. Everyone who verified there via Government ID verification. Available standart speed/effort options SOL has &#32; submitted by &#32; /u/FroRaut [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowgo5/daybreak_blue_is_available_for_trusted_access/",
     "authority_score": 0.5
   },
   {
@@ -117,6 +133,30 @@
     "text": "Where did the ChatGPT sidebar go?! - Is anyone else suddenly missing the ChatGPT sidebar? I opened ChatGPT today and the entire sidebar seems to have disappeared. I can’t see my chat history/conversations on the left like I normally do. I’ve tried refreshing the page and reopening ChatGPT, but it’s still gone. Is this a new UI change, a temporary bug, or is there some setting I accidentally changed? Anyone else experiencing this right now? &#32; submitted by &#32; /u/MightyZeuz [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vou597/where_did_the_chatgpt_sidebar_go/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T06:54:08Z",
+    "author": "/u/Balance-",
+    "text": "A 5-task limit on scheduled tasks is absurd for an otherwise solid ChatGPT plan. - Just encountered this limit on Plus. Makes no sense. The issue isn’t that I need five things running constantly. Some scheduled tasks might run once a week, once a month, or only check for something occasionally. Yet a monthly reminder apparently consumes the same scarce slot as a daily recurring task. That makes the feature weirdly self-defeating: the more useful you find scheduled tasks, the faster you hit an arbitrary ceiling. Limiting users to five active task definitions total, regardless of how rarely they run, feels like the wrong constraint. At minimum, infrequent tasks should either count differently or the cap should be substantially higher. Maybe 5 daily? Where a monthly tasks counts as 1/30th of a daily task? &#32; submitted by &#32; /u/Balance- [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vovs2v/a_5task_limit_on_scheduled_tasks_is_absurd_for_an/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:28:28Z",
+    "author": "/u/BigPapaE04",
+    "text": "Insane. This is a little bit over a year - &#32; submitted by &#32; /u/BigPapaE04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomxzz/insane_this_is_a_little_bit_over_a_year/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T06:06:35Z",
+    "author": "/u/SoundBwoy_10011",
+    "text": "Honey badger don’t give a… - 1 honey badger - T. Rex didn’t stand a chance &#32; submitted by &#32; /u/SoundBwoy_10011 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vouy6l/honey_badger_dont_give_a/",
     "authority_score": 0.5
   },
   {
@@ -136,27 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T07:40:39Z",
-    "author": "/u/wadiesama",
-    "text": "Deleting files from ChatGpt Library - Is there any benefit to deleting files from the ChatGPT Library besides freeing up space, and are there any disadvantages? Also, if I delete a chat, will the files uploaded to that chat be deleted as well? &#32; submitted by &#32; /u/wadiesama [link] &#32; [comments]",
+    "timestamp": "2026-08-15T06:03:49Z",
+    "author": "/u/ilovemymonkey1980",
+    "text": "Free trial - Thought I'd put this out there, I previously had a free trial with chatgpt and then a plus membership (now cancelled) As I understand it each account is limited to one free trial... However when I visited https://chatgpt.com/promo\\_campaign=plus-1-month-free I found the free trial button was visible again and I was able to sign up for a second free trial &#32; submitted by &#32; /u/ilovemymonkey1980 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowl3u/deleting_files_from_chatgpt_library/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T06:06:35Z",
-    "author": "/u/SoundBwoy_10011",
-    "text": "Honey badger don’t give a… - 1 honey badger - T. Rex didn’t stand a chance &#32; submitted by &#32; /u/SoundBwoy_10011 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vouy6l/honey_badger_dont_give_a/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T06:54:08Z",
-    "author": "/u/Balance-",
-    "text": "A 5-task limit on scheduled tasks is absurd for an otherwise solid ChatGPT plan. - Just encountered this limit on Plus. Makes no sense. The issue isn’t that I need five things running constantly. Some scheduled tasks might run once a week, once a month, or only check for something occasionally. Yet a monthly reminder apparently consumes the same scarce slot as a daily recurring task. That makes the feature weirdly self-defeating: the more useful you find scheduled tasks, the faster you hit an arbitrary ceiling. Limiting users to five active task definitions total, regardless of how rarely they run, feels like the wrong constraint. At minimum, infrequent tasks should either count differently or the cap should be substantially higher. Maybe 5 daily? Where a monthly tasks counts as 1/30th of a daily task? &#32; submitted by &#32; /u/Balance- [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vovs2v/a_5task_limit_on_scheduled_tasks_is_absurd_for_an/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vouweo/free_trial/",
     "authority_score": 0.5
   },
   {
@@ -165,30 +189,6 @@
     "text": "Told ChatGPT I was uninstalling it. I expected more begging if I’m honest 😃 - &#32; submitted by &#32; /u/MJB17 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vndo7r/told_chatgpt_i_was_uninstalling_it_i_expected/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T07:33:05Z",
-    "author": "/u/FroRaut",
-    "text": "Daybreak Blue is available for Trusted Access Verified users - Daybreak Blue right now is available for Trusted Access Verified users. Everyone who verified there via Government ID verification. Available standart speed/effort options SOL has &#32; submitted by &#32; /u/FroRaut [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowgo5/daybreak_blue_is_available_for_trusted_access/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T07:16:31Z",
-    "author": "/u/sourdub",
-    "text": "Search is absolute dog sh*t - Even after all this time, I can't even do a simple search on their web UI. Can't search for a specific chat in the Project. Nope. Can't find the term I'm looking for in the chat. Nope. And to think I'm continue to pay for this crap month after month. &#32; submitted by &#32; /u/sourdub [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vow6d9/search_is_absolute_dog_sht/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T05:04:03Z",
-    "author": "/u/johndoe1985",
-    "text": "Latest Chatgpt MACOS update - overlay window - The latest ChatGPT macOS update finally brings back the floating overlay window that stays on top of the screen. They call it now the &quot;Popup window&quot; However, whenever I open it, it seems to only keep itself to Work or Codex mode. Responses take longer, run locally on my Mac, and do not sync with the ChatGPT iOS app. Is there a way to use the overlay for a regular ChatGPT conversation that syncs across devices, or am I missing a setting? https://preview.redd.it/f73tpvms0hjh1.png?width=954&amp;format=png&amp;auto=webp&amp;s=7d46196e70077123ef496ae4532551f2fa26a625 &#32; submitted by &#32; /u/johndoe1985 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1votu0w/latest_chatgpt_macos_update_overlay_window/",
     "authority_score": 0.5
   },
   {
