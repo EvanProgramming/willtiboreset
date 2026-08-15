@@ -3,8 +3,8 @@ name: WillTiboReset Prediction
 on:
   workflow_dispatch:
   schedule:
-    # Run every hour at :07 (to avoid peak load)
-    - cron: '7 * * * *'
+    # Run every hour at the top of the hour
+    - cron: '0 * * * *'
 
 permissions:
   contents: write
@@ -26,8 +26,10 @@ jobs:
           echo "Triggered by: ${{ github.event_name }}"
           echo "Run at: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
-      - name: Checkout
+      - name: Checkout with full history
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -60,18 +62,15 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci
 
-      - name: Copy data for dashboard
-        run: npm run copy-data
-
       - name: Build dashboard
         run: npm run build
 
       # Rebase before committing to survive race conditions when another
       # commit (e.g. from a concurrent workflow run) lands on main first.
-      # git-auto-commit-action@v7 removed the `rebase` input, so we do it
-      # manually before the action.
-      - name: Pull latest to avoid push race
-        run: git pull --rebase --autostash origin main
+      - name: Checkout main branch and rebase
+        run: |
+          git checkout main
+          git pull --rebase --autostash origin main
 
       - name: Commit prediction and model state
         uses: stefanzweifel/git-auto-commit-action@v7
