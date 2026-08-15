@@ -104,19 +104,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T10:54:21Z",
-    "author": "/u/KeanuRave100",
-    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T19:53:24Z",
     "author": "/u/Bitter-insides",
     "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T10:54:21Z",
+    "author": "/u/KeanuRave100",
+    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T19:40:00Z",
-    "author": "/u/croakyossum7",
-    "text": "Anyone else getting \"message limit reached\" despite not actually hitting any limits? - I'm a plus user for reference, and I'm well under the 160 messages in 3 hours cap. I keep getting this &quot;message limit reached&quot; popup, but strangely it's inline within chat and not a banner. When the pop-up appears, all chatgpt features (voice, work, etc) get disabled and the send button is greyed out/disabled. Even more weirdly is that if I use another platform than wherever the pop-up is, I can often send messages as normal. But the pop-up isn't exclusive to a single platform and has shown on both Android and the web. Any ideas? Anyone else been getting this? &#32; submitted by &#32; /u/croakyossum7 [link] &#32; [comments]",
+    "timestamp": "2026-08-15T21:23:36Z",
+    "author": "/u/DavidM47",
+    "text": "Nearly 3 hour run on Sol Ultra - deployed successfully. - I've spent the last 3-4 weeks building out a website that I plan to share with co-workers at my company. Sure, I'm the quintessential vibe coder, but the website is functional and I'm already using it to save time at work. I have a meeting with my boss/the owner on Monday about implementing it company-wide. Depending on the feedback I get from my co-workers, I may try to sell it to other companies. So, I just asked ChatGPT to (1) finish building out the site's email functionality (which previously consisted of a handful plain-text emails about registration and password resets), and (2) give the sysadmin an HTML editor through which to manage the various email templates that need to exist for sales, billing, account activity/alerts, etc. I know email server stuff can be fairly technical, so I set it to Sol Ultra (regular speed). But only after I submitted it did I think through just how much work I was asking it to do through a single, &lt;100 word prompt (plus a screenshot). Naturally, I was a little nervous when the prompt ran for nearly three hours. But after working for 169 minutes and 55 seconds, ChatGPT delivered a new zip file containing 51 branded HTML templates for every conceivable scenario in which the website might send an automated email to a platform user, along with a portal for editing, enabling/disabling, and testing those emails. Even more impressive, it deployed successfully on the first go. Everything I've tested so far works. &#32; submitted by &#32; /u/DavidM47 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc1n8/anyone_else_getting_message_limit_reached_despite/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpejnp/nearly_3_hour_run_on_sol_ultra_deployed/",
     "authority_score": 0.5
   }
 ]
