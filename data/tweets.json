@@ -48,14 +48,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T08:27:25Z",
-    "author": "/u/uisato",
-    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T06:10:41Z",
     "author": "/u/KeanuRave100",
     "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -64,11 +56,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:47:40Z",
-    "author": "/u/Independent-Reader",
-    "text": "Even Gemini doesn't recommend Gemini - Google paid how much money(?) for an insanely intelligent ad for other companies' AIs? &#32; submitted by &#32; /u/Independent-Reader [link] &#32; [comments]",
+    "timestamp": "2026-08-15T08:27:25Z",
+    "author": "/u/uisato",
+    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vond66/even_gemini_doesnt_recommend_gemini/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
     "authority_score": 0.5
   },
   {
@@ -77,6 +69,14 @@
     "text": "Run an office of your clones to do your work with your ChatGPT subscription (free and open source) - Hi I am Chaitanya, I have built the coolest free and open source wrapper around codex agents. It’s called Munder Difflin It allows you to run an office of persisted agents as your clones. It is calming to look at. I’d like to invite all of you to try the app it runs 100% locally and uses your existing subscriptions it also supports 10 other popular coding agents(CC). Notes: The simulation is deterministic, it does not consume tokens You can use multiple coding agents from different providers together. Please drop a star on github if you like it we are at 938 stars as we speak. &#32; submitted by &#32; /u/chaitanyagiri [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vozofe/run_an_office_of_your_clones_to_do_your_work_with/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:47:40Z",
+    "author": "/u/Independent-Reader",
+    "text": "Even Gemini doesn't recommend Gemini - Google paid how much money(?) for an insanely intelligent ad for other companies' AIs? &#32; submitted by &#32; /u/Independent-Reader [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vond66/even_gemini_doesnt_recommend_gemini/",
     "authority_score": 0.5
   },
   {
@@ -104,11 +104,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T10:38:12Z",
+    "timestamp": "2026-08-15T11:20:24Z",
     "author": "/u/Cbh1525",
-    "text": "I’m a relative noob so please don’t roast me, but I’ve just done about 2 weeks work in an hour. Do I tell my boss or keep it secret? - I wrote 10 strategy documents that are far better than if I done them myself even though I asked for them to be in my kind of language. I might even have to dumb them down ‘by hand’. How do others handle stuff like this? Any tips would be most welcome. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
+    "text": "Biggest inaccuracy ChatGPT has made for you? - I was seriously considering early retirement from my job on ill health grounds. I asked it for pension forecasts etc. so I could make some important decisions. When I looked into it more closely, it had over estimated my lump sum by £60k and annual pension by £15k. Lessons were learned. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vozime/im_a_relative_noob_so_please_dont_roast_me_but/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp09y2/biggest_inaccuracy_chatgpt_has_made_for_you/",
     "authority_score": 0.5
   },
   {
@@ -133,14 +133,6 @@
     "text": "If your ChatGPT leaked your chat history, are you surviving? - If your ChatGPT leaked your chat history, are you surviving? &#32; submitted by &#32; /u/Shot-Dimension-1405 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1voez1m/if_your_chatgpt_leaked_your_chat_history_are_you/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T11:20:24Z",
-    "author": "/u/Cbh1525",
-    "text": "Biggest inaccuracy ChatGPT has made for you? - I was seriously considering early retirement from my job on ill health grounds. I asked it for pension forecasts etc. so I could make some important decisions. When I looked into it more closely, it had over estimated my lump sum by £60k and annual pension by £15k. Lessons were learned. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp09y2/biggest_inaccuracy_chatgpt_has_made_for_you/",
     "authority_score": 0.5
   },
   {
@@ -197,6 +189,14 @@
     "text": "A few 99 rooms inspired generations - &#32; submitted by &#32; /u/MetalOnMetalOnSilk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1voyeqd/a_few_99_rooms_inspired_generations/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:28:28Z",
+    "author": "/u/BigPapaE04",
+    "text": "Insane. This is a little bit over a year - &#32; submitted by &#32; /u/BigPapaE04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomxzz/insane_this_is_a_little_bit_over_a_year/",
     "authority_score": 0.5
   }
 ]
