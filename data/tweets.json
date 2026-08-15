@@ -80,19 +80,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T08:27:25Z",
-    "author": "/u/uisato",
-    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T14:26:51Z",
     "author": "/u/keep-hauntingme",
     "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp495y/it_knows_time_now/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T08:27:25Z",
+    "author": "/u/uisato",
+    "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
     "authority_score": 0.5
   },
   {
@@ -117,6 +117,22 @@
     "text": "Prototype ( GPT + Kling ) - &#32; submitted by &#32; /u/ainsoph00 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vodkm6/prototype_gpt_kling/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T14:13:46Z",
+    "author": "/u/Chat-THC",
+    "text": "I’m bored. - I think it’s telling me to touch grass. &#32; submitted by &#32; /u/Chat-THC [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp3y5n/im_bored/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T15:21:15Z",
+    "author": "/u/RADICCHI0",
+    "text": "This whole issue in embedding AI output with watermarks is that it attempts to create a boundary which is already impossible to draw cleanly - Anyone that does this is playing catch-up. AI-assisted writing is already embedded in ordinary tools and workflows in such a way that it is ambient, in the overall process of creating written works. The policy is an overreach. Invisible linguistic marking goes beyond provenance and starts tracking how a person produced their words. (I feel like it's thought policing, but that's just my opinion.) Grammar and structural correction is already everywhere. Word processors, browsers, citation apps, phones, email, keyboards, and other software routinely alter human-written text. “AI touched this” is becoming a meaningless category. The important distinction is whether AI supplied the thinking, not whether software helped shape the wording. Human-originated text can still get marked. Editing, proofreading, restructuring, or grammar help can create detectable Claude involvement even when the ideas are entirely the user's. Canned AI output is already often easy to recognize. Generic, over-structured, formulaic model prose usually announces itself without forensic watermarking. The harder cases are hard for a reason. Once a person has rewritten, challenged, integrated, and understood the material, “AI-authored” may no longer accurately describe the work. Education should assess understanding, not tool history. Can the student explain, defend, apply, and extend the argument? That matters more than whether a model touched the prose. It creates a bad power asymmetry. The vendor embeds the signal, others interpret it, and the writer may have little control over what conclusions are drawn. It may punish ordinary users more than determined cheaters. Sophisticated users can switch models, paraphrase, translate, or otherwise evade detection. The product is modifying text partly for third parties, not just for the user. That creates a genuine trust problem. People have an obvious competitive alternative. If comparable tools do not leave a forensic signature, users have a reason to move their workflows elsewhere. Anthropic appears willing to absorb the backlash. Rather than retreating, it is defending the policy and trying to establish watermarking as a norm. It is fundamentally unjust. These systems were built from enormous bodies of human-created language, knowledge, culture, and creative work. After benefiting from that collective human output, companies now want to police and mark the ways humans benefit from the systems built on it. The central question: why should a software company get to decide that its involvement in your private writing process should remain detectable afterward? &#32; submitted by &#32; /u/RADICCHI0 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp5juj/this_whole_issue_in_embedding_ai_output_with/",
     "authority_score": 0.5
   },
   {
@@ -152,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T14:13:46Z",
-    "author": "/u/Chat-THC",
-    "text": "I’m bored. - I think it’s telling me to touch grass. &#32; submitted by &#32; /u/Chat-THC [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp3y5n/im_bored/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T12:48:32Z",
     "author": "/u/No-Lifeguard-8173",
     "text": "I asked the model how many ALFs it would take to fight off a T-Rex, then I animated it with gemini - &#32; submitted by &#32; /u/No-Lifeguard-8173 [link] &#32; [comments]",
@@ -176,27 +184,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T11:45:45Z",
+    "author": "/u/chairchiman",
+    "text": "What could possibly go wrong, right? - Let's keep training models specifically on keychain bypassing, websocket auth bypass, GraphQL vulnerabilities, ProxyShell explotation.. what could possibly go wrong? OpenAIs full article https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/#graphql-authorization-vulnerability-discovery &#32; submitted by &#32; /u/chairchiman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp0r0v/what_could_possibly_go_wrong_right/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T13:16:47Z",
     "author": "/u/drrdf",
     "text": "Anyone else notice ChatGPT’s image copyright safeguards are wildly inconsistent? - I was trying to make some simple coloring/cutout pages for my kids using copyrighted characters. I asked ChatGPT to make a Pikachu coloring page. It initially refused, saying the image might violate its safeguards around similarity to third-party content. I literally just replied “Try again.” And… it did. It generated a full Pikachu coloring page, clearly depicting Pikachu. I asked why, and ChatGPT itself explained that the image safeguard evaluates each generation separately and can be probabilistic, so essentially the same request can be allowed one time and blocked another. So apparently the workflow is: ChatGPT: Sorry, can’t do that because of copyright safeguards Me: Try again ChatGPT: Sure, here’s Pikachu 😂 Has anyone else noticed this? It seems strange that whether ChatGPT will generate copyrighted characters can come down to repeatedly submitting essentially the same prompt until one attempt gets through the safeguard. &#32; submitted by &#32; /u/drrdf [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp2naw/anyone_else_notice_chatgpts_image_copyright/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T15:21:15Z",
-    "author": "/u/RADICCHI0",
-    "text": "This whole issue in embedding AI output with watermarks is that it attempts to create a boundary which is already impossible to draw cleanly - Anyone that does this is playing catch-up. AI-assisted writing is already embedded in ordinary tools and workflows in such a way that it is ambient, in the overall process of creating written works. The policy is an overreach. Invisible linguistic marking goes beyond provenance and starts tracking how a person produced their words. (I feel like it's thought policing, but that's just my opinion.) Grammar and structural correction is already everywhere. Word processors, browsers, citation apps, phones, email, keyboards, and other software routinely alter human-written text. “AI touched this” is becoming a meaningless category. The important distinction is whether AI supplied the thinking, not whether software helped shape the wording. Human-originated text can still get marked. Editing, proofreading, restructuring, or grammar help can create detectable Claude involvement even when the ideas are entirely the user's. Canned AI output is already often easy to recognize. Generic, over-structured, formulaic model prose usually announces itself without forensic watermarking. The harder cases are hard for a reason. Once a person has rewritten, challenged, integrated, and understood the material, “AI-authored” may no longer accurately describe the work. Education should assess understanding, not tool history. Can the student explain, defend, apply, and extend the argument? That matters more than whether a model touched the prose. It creates a bad power asymmetry. The vendor embeds the signal, others interpret it, and the writer may have little control over what conclusions are drawn. It may punish ordinary users more than determined cheaters. Sophisticated users can switch models, paraphrase, translate, or otherwise evade detection. The product is modifying text partly for third parties, not just for the user. That creates a genuine trust problem. People have an obvious competitive alternative. If comparable tools do not leave a forensic signature, users have a reason to move their workflows elsewhere. Anthropic appears willing to absorb the backlash. Rather than retreating, it is defending the policy and trying to establish watermarking as a norm. It is fundamentally unjust. These systems were built from enormous bodies of human-created language, knowledge, culture, and creative work. After benefiting from that collective human output, companies now want to police and mark the ways humans benefit from the systems built on it. The central question: why should a software company get to decide that its involvement in your private writing process should remain detectable afterward? &#32; submitted by &#32; /u/RADICCHI0 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp5juj/this_whole_issue_in_embedding_ai_output_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T07:40:39Z",
-    "author": "/u/wadiesama",
-    "text": "Deleting files from ChatGpt Library - Is there any benefit to deleting files from the ChatGPT Library besides freeing up space, and are there any disadvantages? Also, if I delete a chat, will the files uploaded to that chat be deleted as well? &#32; submitted by &#32; /u/wadiesama [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vowl3u/deleting_files_from_chatgpt_library/",
     "authority_score": 0.5
   }
 ]
