@@ -136,6 +136,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T22:53:23Z",
+    "author": "/u/Pristine_Ad3669",
+    "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpgkjw/does_ai_overuse_the_em_dash_an_analysis_of_88927/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T00:13:26Z",
     "author": "/u/Calcaware",
     "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vnz4hw/bro_had_enough/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T22:53:23Z",
-    "author": "/u/Pristine_Ad3669",
-    "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpgkjw/does_ai_overuse_the_em_dash_an_analysis_of_88927/",
     "authority_score": 0.5
   }
 ]
