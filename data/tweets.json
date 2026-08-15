@@ -72,14 +72,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T14:26:51Z",
-    "author": "/u/keep-hauntingme",
-    "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp495y/it_knows_time_now/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T06:10:41Z",
     "author": "/u/KeanuRave100",
     "text": "Bro had enough - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -93,6 +85,14 @@
     "text": "I've built a fully autonomous meditation system - [TouchDesigner + GPT] - A new output from this experimental real-time BCI system for TouchDesigner; a Brain-Computer Interface pipeline that reads live EEG signals, classifies your mental state, and autonomously generates responsive AI video: a meditation guide that adapts to your brain activity, second by second. The system is built around OpenBCI (open-source hardware + software), but it's designed to work with most BCI headsets after a few pertinent tweaks to the OSC routing and channel-rename logic; Muse, Neurosity, BrainFlow-compatible devices, and others can all drive it. The architecture is deliberately modular: meditation is only one possible application. A knowledgeable user can repurpose the same EEG → interpretation → generative-response pipeline into entirely different audiovisual systems, interactive installations, performance tools, or other BCI-driven experiments. Accessible through both Patreon, and the Tools Store. &#32; submitted by &#32; /u/uisato [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1voxd5y/ive_built_a_fully_autonomous_meditation_system/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T14:26:51Z",
+    "author": "/u/keep-hauntingme",
+    "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp495y/it_knows_time_now/",
     "authority_score": 0.5
   },
   {
@@ -112,14 +112,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T14:50:48Z",
-    "author": "/u/KetogenicKraig",
-    "text": "Create the final meme created on earth, not by humans but by GPT-7 - &#32; submitted by &#32; /u/KetogenicKraig [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp4t70/create_the_final_meme_created_on_earth_not_by/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-14T17:24:48Z",
     "author": "/u/ainsoph00",
     "text": "Prototype ( GPT + Kling ) - &#32; submitted by &#32; /u/ainsoph00 [link] &#32; [comments]",
@@ -133,6 +125,14 @@
     "text": "Biggest inaccuracy ChatGPT has made for you? - I was seriously considering early retirement from my job on ill health grounds. I asked it for pension forecasts etc. so I could make some important decisions. When I looked into it more closely, it had over estimated my lump sum by £60k and annual pension by £15k. Lessons were learned. &#32; submitted by &#32; /u/Cbh1525 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp09y2/biggest_inaccuracy_chatgpt_has_made_for_you/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T05:21:10Z",
+    "author": "/u/MightyZeuz",
+    "text": "Where did the ChatGPT sidebar go?! - Is anyone else suddenly missing the ChatGPT sidebar? I opened ChatGPT today and the entire sidebar seems to have disappeared. I can’t see my chat history/conversations on the left like I normally do. I’ve tried refreshing the page and reopening ChatGPT, but it’s still gone. Is this a new UI change, a temporary bug, or is there some setting I accidentally changed? Anyone else experiencing this right now? &#32; submitted by &#32; /u/MightyZeuz [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vou597/where_did_the_chatgpt_sidebar_go/",
     "authority_score": 0.5
   },
   {
@@ -152,11 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T05:21:10Z",
-    "author": "/u/MightyZeuz",
-    "text": "Where did the ChatGPT sidebar go?! - Is anyone else suddenly missing the ChatGPT sidebar? I opened ChatGPT today and the entire sidebar seems to have disappeared. I can’t see my chat history/conversations on the left like I normally do. I’ve tried refreshing the page and reopening ChatGPT, but it’s still gone. Is this a new UI change, a temporary bug, or is there some setting I accidentally changed? Anyone else experiencing this right now? &#32; submitted by &#32; /u/MightyZeuz [link] &#32; [comments]",
+    "timestamp": "2026-08-15T14:13:46Z",
+    "author": "/u/Chat-THC",
+    "text": "I’m bored. - I think it’s telling me to touch grass. &#32; submitted by &#32; /u/Chat-THC [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vou597/where_did_the_chatgpt_sidebar_go/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp3y5n/im_bored/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T15:21:15Z",
+    "author": "/u/RADICCHI0",
+    "text": "This whole issue in embedding AI output with watermarks is that it attempts to create a boundary which is already impossible to draw cleanly - Anyone that does this is playing catch-up. AI-assisted writing is already embedded in ordinary tools and workflows in such a way that it is ambient, in the overall process of creating written works. The policy is an overreach. Invisible linguistic marking goes beyond provenance and starts tracking how a person produced their words. (I feel like it's thought policing, but that's just my opinion.) Grammar and structural correction is already everywhere. Word processors, browsers, citation apps, phones, email, keyboards, and other software routinely alter human-written text. “AI touched this” is becoming a meaningless category. The important distinction is whether AI supplied the thinking, not whether software helped shape the wording. Human-originated text can still get marked. Editing, proofreading, restructuring, or grammar help can create detectable Claude involvement even when the ideas are entirely the user's. Canned AI output is already often easy to recognize. Generic, over-structured, formulaic model prose usually announces itself without forensic watermarking. The harder cases are hard for a reason. Once a person has rewritten, challenged, integrated, and understood the material, “AI-authored” may no longer accurately describe the work. Education should assess understanding, not tool history. Can the student explain, defend, apply, and extend the argument? That matters more than whether a model touched the prose. It creates a bad power asymmetry. The vendor embeds the signal, others interpret it, and the writer may have little control over what conclusions are drawn. It may punish ordinary users more than determined cheaters. Sophisticated users can switch models, paraphrase, translate, or otherwise evade detection. The product is modifying text partly for third parties, not just for the user. That creates a genuine trust problem. People have an obvious competitive alternative. If comparable tools do not leave a forensic signature, users have a reason to move their workflows elsewhere. Anthropic appears willing to absorb the backlash. Rather than retreating, it is defending the policy and trying to establish watermarking as a norm. It is fundamentally unjust. These systems were built from enormous bodies of human-created language, knowledge, culture, and creative work. After benefiting from that collective human output, companies now want to police and mark the ways humans benefit from the systems built on it. The central question: why should a software company get to decide that its involvement in your private writing process should remain detectable afterward? &#32; submitted by &#32; /u/RADICCHI0 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp5juj/this_whole_issue_in_embedding_ai_output_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T07:40:39Z",
     "author": "/u/wadiesama",
     "text": "Deleting files from ChatGpt Library - Is there any benefit to deleting files from the ChatGPT Library besides freeing up space, and are there any disadvantages? Also, if I delete a chat, will the files uploaded to that chat be deleted as well? &#32; submitted by &#32; /u/wadiesama [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vowl3u/deleting_files_from_chatgpt_library/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T06:23:35Z",
-    "author": "/u/MbahSurip",
-    "text": "How to set a certain rule (i.e. creating image) in ChatGPT that is always respected? - I am just wondering because ChatGPT keep creating images when I tell it not to do it. We are talking about conceptual design and 1 in every 3 messages, it always create images when I just want to talk about the concept. It is a waste of time and resources to keep telling it &quot;do not create image in this chat&quot;. There is no scenario at all that I want to create image in this certain project. Where should I put instructions that is always respected? &#32; submitted by &#32; /u/MbahSurip [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vov95z/how_to_set_a_certain_rule_ie_creating_image_in/",
     "authority_score": 0.5
   }
 ]
