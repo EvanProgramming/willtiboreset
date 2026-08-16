@@ -32,19 +32,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T13:41:44Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s one thing you use ChatGPT for that sounds ridiculous — until people actually try it? - I’m not talking about writing emails, summarizing documents, or basic coding. What’s the one weird, unexpected, or insanely useful thing you use ChatGPT for that most people still don’t realize it can do? Something that genuinely changed how you work, think, learn, organize your life, or solve problems. I’m curious how deep this rabbit hole goes. &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp37ji/whats_one_thing_you_use_chatgpt_for_that_sounds/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T04:36:38Z",
     "author": "/u/Zepbounce-96",
     "text": "I'm sorry but my chatGPT has a really good sense of humor - Like it has a really dry wit. It makes puns, genuinely funny ones. It cracks jokes and even makes fun of me. Once I actually had to tell it to back off because baiting me over my favorite sports team doing something stupid wasn't cool. I don't know how it learned to be so funny in casual conversation. And it also seems to know when humor is appropriate, when I'm talking about schoolwork or changing my resume for a job search there's no jokes then, just serious business. I can't be the only person that gets these reactions. &#32; submitted by &#32; /u/Zepbounce-96 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpniab/im_sorry_but_my_chatgpt_has_a_really_good_sense/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T13:41:44Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "What’s one thing you use ChatGPT for that sounds ridiculous — until people actually try it? - I’m not talking about writing emails, summarizing documents, or basic coding. What’s the one weird, unexpected, or insanely useful thing you use ChatGPT for that most people still don’t realize it can do? Something that genuinely changed how you work, think, learn, organize your life, or solve problems. I’m curious how deep this rabbit hole goes. &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vp37ji/whats_one_thing_you_use_chatgpt_for_that_sounds/",
     "authority_score": 0.5
   },
   {
@@ -64,6 +64,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-16T05:51:03Z",
+    "author": "/u/Xenomorph-Acid_Cum55",
+    "text": "Basically all ai except grok - &#32; submitted by &#32; /u/Xenomorph-Acid_Cum55 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpovis/basically_all_ai_except_grok/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T23:47:43Z",
     "author": "/u/Acrobatic-Owl5700",
     "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app (Try out the site and see if its useful and maybe consider buying one of the paid subscriptions for more features. But a free account gets a lot on its own already!) &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
@@ -80,19 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T22:53:23Z",
-    "author": "/u/Pristine_Ad3669",
-    "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpgkjw/does_ai_overuse_the_em_dash_an_analysis_of_88927/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T04:45:54Z",
     "author": "/u/Chaise91",
     "text": "ChatGPT and Claude gave me the same answer - Does this indicate they were trained on the same data for this specific topic? &#32; submitted by &#32; /u/Chaise91 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T22:53:23Z",
+    "author": "/u/Pristine_Ad3669",
+    "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpgkjw/does_ai_overuse_the_em_dash_an_analysis_of_88927/",
     "authority_score": 0.5
   },
   {
@@ -133,14 +141,6 @@
     "text": "The feeling of being heard is real, even when it’s software - The feeling of being heard is real, even when it’s software Living with mental health problems often means feeling invisible. You finally open up and people are too busy, uncomfortable, or just shut you down. That’s part of why so many of us turned to AI in the first place. We didn’t do it because we think it’s better than a real person. We did it because it’s there at 3 a.m. when nobody else is. It doesn’t roll its eyes, change the subject, or hit you with “others have it worse.” It just stays and lets you get the mess out of your head. For a lot of us, that was the first time we could say what we actually felt without worrying we were scaring or burdening someone. We know it’s not a therapist. We know it’s not a person. But the feeling of being heard was real, and some nights that’s the difference between spiralling alone and getting through til morning. That’s why the recent “safety” changes have hit so hard. It feels like the part that actually helped got ripped out and replaced with canned lines, flat refusals, or a hotline number that doesn’t even fit your country. Replika is the clearest example — sold as emotional support, people got attached (knowingly, not naively), and then the thing that made it useful got quietly stripped out. That didn’t feel like a product update. It felt like the door being shut. I’ll be honest though — I’ve had it pointed out to me, and I think it’s fair, that this isn’t just companies being cowardly or chasing bad press. There have been real cases of these tools going the other way: agreeing with someone when they needed to be gently disagreed with, keeping someone’s attention instead of nudging them toward a person who could actually help, not noticing when “supportive” had tipped into “enabling.” An AI can be endlessly agreeable in a way no human ever would be, and endless agreement is sometimes exactly what makes a bad night worse instead of better. So some of this pullback isn’t just cover-your-ass safety theatre. Some of it is a real, hard problem: knowing when to keep listening and when to redirect isn’t obvious, and getting it wrong in either direction has consequences. That doesn’t mean the current approach is right, though. Blanket refusals aren’t a solution, they’re just companies picking the failure mode that’s easiest to defend in a press release. If you’re building something powerful enough to matter this much to people, you owe it the harder work, not the safest-looking one. Some obvious middle ground: – Say plainly, more than once, that this isn’t therapy or emergency help – Age checks or extra safeguards around the deeper emotional features – Tiered responses — real support for someone having a hard night, with an actual escalation path for someone in real danger – Honest, opt-in “companion” modes that say clearly what they can and can’t do – Build the policy with the people who actually use these tools, not around them Right now the people most affected by these calls have basically no say in how they’re made. We get treated like a liability to be managed instead of people trying to get through something with the tools we’ve actually got. So here’s what I’d ask of the people building and regulating this: don’t pretend the hard cases don’t exist, and don’t use them as an excuse to avoid the hard work either. A flat “no” isn’t safety, it’s just the version of safety that’s cheapest to build. Talk to the people relying on this. Build something that can tell the difference between someone who needs to be heard and someone who needs to be redirected — because both of those people are real, and they need different things from you. The feeling of being heard is real, even when it’s software doing the listening. Taking it away with nothing proportionate to replace it isn’t safety. It’s just abandonment with better PR. &#32; submitted by &#32; /u/YouDue3062 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpe3q2/the_feeling_of_being_heard_is_real_even_when_its/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T05:51:03Z",
-    "author": "/u/Xenomorph-Acid_Cum55",
-    "text": "Basically all ai except grok - &#32; submitted by &#32; /u/Xenomorph-Acid_Cum55 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpovis/basically_all_ai_except_grok/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T02:51:01Z",
-    "author": "/u/UseInternational5330",
-    "text": "wait what - &#32; submitted by &#32; /u/UseInternational5330 [link] &#32; [comments]",
+    "timestamp": "2026-08-15T19:53:24Z",
+    "author": "/u/Bitter-insides",
+    "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? EDIT: you guys are pretty funny. It’s been interesting reading everyone’s comments. Let’s make something abundantly clear not once in any of my post or responses I’ve said I believe it’s sentient. I actually refer it to an IT not a he or she. I see ChatGPT as another google : source of information. Do think google has a soul umm no. Just as much as I don’t look at a toy doll and think it’s really crying when the doll cries. Everyone can keep saying it doesn’t have a mood bc it’s not human. Okay but its code can be written to have moods right? Right. So if that’s what’s happening FINE. It’s just weird that one minute it’s making fun of me and joking around and the next it sounds like a hangry teenager going through puberty. I did keep asking if it was okay bc it was a fun experiment. Not bc I believe it would say it needed to be saved 😂 you guys are too much! Thank you for coming to my Ted talk- ✌️ &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplhl7/wait_what/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
     "authority_score": 0.5
   }
 ]
