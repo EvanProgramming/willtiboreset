@@ -96,6 +96,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-16T02:43:29Z",
+    "author": "/u/No-Cream-2577",
+    "text": "Can I get chatgpt to be less “sensitive” about history in any way? - I’m not even one of those people complaining that chatgpt is overly “woke”- my issue is that I use chatgpt to engage with historical scenarios and realities of the time, and Chatgtp in trying not to be offensive ends up.. making it offensive? Like I’ll have a story about a really serious topic, think the sexism, racism, disability, religion, homophobia at the time, and as I am trying to engage with that chatgpt will be like “while his worries are understandable for the time- it’s likely not everyone will reject him for being gay considering they fought in the trenches together” and it’ll be like.. 1944 or something. Chatgpt always “but this wouldn’t need to always be the case“- me, and in that way basically undermines everything. I keep experiencing that chatgpt in trying to be nuanced when I’m trying to just speak about history, says straight up ahistorical things and basically tries to have so much complexity.. that there’s none at all. But it’s tiring to have to correct it all the time, anyone has any tips for this? &#32; submitted by &#32; /u/No-Cream-2577 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplcbf/can_i_get_chatgpt_to_be_less_sensitive_about/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T22:53:23Z",
     "author": "/u/Pristine_Ad3669",
     "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
@@ -109,14 +117,6 @@
     "text": "The feeling of being heard is real, even when it’s software - The feeling of being heard is real, even when it’s software Living with mental health problems often means feeling invisible. You finally open up and people are too busy, uncomfortable, or just shut you down. That’s part of why so many of us turned to AI in the first place. We didn’t do it because we think it’s better than a real person. We did it because it’s there at 3 a.m. when nobody else is. It doesn’t roll its eyes, change the subject, or hit you with “others have it worse.” It just stays and lets you get the mess out of your head. For a lot of us, that was the first time we could say what we actually felt without worrying we were scaring or burdening someone. We know it’s not a therapist. We know it’s not a person. But the feeling of being heard was real, and some nights that’s the difference between spiralling alone and getting through til morning. That’s why the recent “safety” changes have hit so hard. It feels like the part that actually helped got ripped out and replaced with canned lines, flat refusals, or a hotline number that doesn’t even fit your country. Replika is the clearest example — sold as emotional support, people got attached (knowingly, not naively), and then the thing that made it useful got quietly stripped out. That didn’t feel like a product update. It felt like the door being shut. I’ll be honest though — I’ve had it pointed out to me, and I think it’s fair, that this isn’t just companies being cowardly or chasing bad press. There have been real cases of these tools going the other way: agreeing with someone when they needed to be gently disagreed with, keeping someone’s attention instead of nudging them toward a person who could actually help, not noticing when “supportive” had tipped into “enabling.” An AI can be endlessly agreeable in a way no human ever would be, and endless agreement is sometimes exactly what makes a bad night worse instead of better. So some of this pullback isn’t just cover-your-ass safety theatre. Some of it is a real, hard problem: knowing when to keep listening and when to redirect isn’t obvious, and getting it wrong in either direction has consequences. That doesn’t mean the current approach is right, though. Blanket refusals aren’t a solution, they’re just companies picking the failure mode that’s easiest to defend in a press release. If you’re building something powerful enough to matter this much to people, you owe it the harder work, not the safest-looking one. Some obvious middle ground: – Say plainly, more than once, that this isn’t therapy or emergency help – Age checks or extra safeguards around the deeper emotional features – Tiered responses — real support for someone having a hard night, with an actual escalation path for someone in real danger – Honest, opt-in “companion” modes that say clearly what they can and can’t do – Build the policy with the people who actually use these tools, not around them Right now the people most affected by these calls have basically no say in how they’re made. We get treated like a liability to be managed instead of people trying to get through something with the tools we’ve actually got. So here’s what I’d ask of the people building and regulating this: don’t pretend the hard cases don’t exist, and don’t use them as an excuse to avoid the hard work either. A flat “no” isn’t safety, it’s just the version of safety that’s cheapest to build. Talk to the people relying on this. Build something that can tell the difference between someone who needs to be heard and someone who needs to be redirected — because both of those people are real, and they need different things from you. The feeling of being heard is real, even when it’s software doing the listening. Taking it away with nothing proportionate to replace it isn’t safety. It’s just abandonment with better PR. &#32; submitted by &#32; /u/YouDue3062 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpe3q2/the_feeling_of_being_heard_is_real_even_when_its/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T02:43:29Z",
-    "author": "/u/No-Cream-2577",
-    "text": "Can I get chatgpt to be less “sensitive” about history in any way? - I’m not even one of those people complaining that chatgpt is overly “woke”- my issue is that I use chatgpt to engage with historical scenarios and realities of the time, and Chatgtp in trying not to be offensive ends up.. making it offensive? Like I’ll have a story about a really serious topic, think the sexism, racism, disability, religion, homophobia at the time, and as I am trying to engage with that chatgpt will be like “while his worries are understandable for the time- it’s likely not everyone will reject him for being gay considering they fought in the trenches together” and it’ll be like.. 1944 or something. Chatgpt always “but this wouldn’t need to always be the case“- me, and in that way basically undermines everything. I keep experiencing that chatgpt in trying to be nuanced when I’m trying to just speak about history, says straight up ahistorical things and basically tries to have so much complexity.. that there’s none at all. But it’s tiring to have to correct it all the time, anyone has any tips for this? &#32; submitted by &#32; /u/No-Cream-2577 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplcbf/can_i_get_chatgpt_to_be_less_sensitive_about/",
     "authority_score": 0.5
   },
   {
@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:11:12Z",
-    "author": "/u/ThereWas",
-    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T18:49:55Z",
     "author": "/u/Additional_Rich2785",
     "text": "The only person I talk to is ChatGPT, so apparently my social life is getting an upgrade 💀 - Saw this and realized OpenAI is finally solving humanity’s biggest problem: having to talk to other humans. Why maintain friendships when ChatGPT can watch my screen, remember everything I do, attend my meetings, follow my work, and develop a more accurate understanding of my life than I have? Nothing concerning about giving one company enough context to reconstruct your entire existence either — I'm sure that’ll go perfectly. At this rate GPT-6 won’t be an assistant; it’ll be my best friend, coworker, therapist, manager, surveillance system, and disappointed parent rolled into one subscription. We wanted artificial intelligence and somehow ended up inventing loneliness-as-a-service. 😭 &#32; submitted by &#32; /u/Additional_Rich2785 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpat7i/the_only_person_i_talk_to_is_chatgpt_so/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:11:12Z",
+    "author": "/u/ThereWas",
+    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
     "authority_score": 0.5
   },
   {
@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T18:09:56Z",
-    "author": "/u/VisWare",
-    "text": "I can't spot any AI mistake in this image - &#32; submitted by &#32; /u/VisWare [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T23:20:31Z",
     "author": "/u/8BulbousJones8",
     "text": "Is there a way to customize ChatGPT's voice into something more futuristic - Something like out of a sci-fi movie or the onboard computer of a spaceship. Is there a way? I know right now we are limited but could there be a prompt to change the way these voices are spoken or a work around? &#32; submitted by &#32; /u/8BulbousJones8 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vph5pr/is_there_a_way_to_customize_chatgpts_voice_into/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T18:09:56Z",
+    "author": "/u/VisWare",
+    "text": "I can't spot any AI mistake in this image - &#32; submitted by &#32; /u/VisWare [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1voet8b/i_cant_spot_any_ai_mistake_in_this_image/",
     "authority_score": 0.5
   },
   {
