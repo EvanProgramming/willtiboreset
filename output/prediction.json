@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-16T22:13:04.969686+00:00",
+  "updated_at": "2026-08-16T22:42:36.518565+00:00",
   "prediction": {
     "within_5h": 0.2,
-    "within_24h": 0.3207,
-    "within_48h": 0.4602
+    "within_24h": 0.32,
+    "within_48h": 0.458
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 74.8,
+    "hours_until": 74.3,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 93.20138031166667,
+    "hours_since_last_reset": 93.69347722527777,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 74.8,
+      "hours_until": 74.3,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.2724,
-    "time_pressure": 0.0659,
-    "hazard_rate": 0.015983,
-    "evidence_score": 0.0371,
+    "time_ratio": 1.2791,
+    "time_pressure": 0.067,
+    "hazard_rate": 0.015941,
+    "evidence_score": 0.0363,
     "tibo_signal": 0.1962,
     "community_signal": 0.6,
     "release_signal": 0.5,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "93.2 hours since last reset",
+      "factor": "93.7 hours since last reset",
       "impact": "-5%",
       "score": 0.07
     },
@@ -81,9 +81,9 @@
     }
   ],
   "reasons": [
-    "Recently reset (93.2 hours ago), low time pressure (0.07)",
+    "Recently reset (93.7 hours ago), low time pressure (0.07)",
     "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
     "Moderate reset-day proximity (factor=0.46), partial schedule floor applied",
-    "Main factor: 93.2 hours since last reset (-5%)"
+    "Main factor: 93.7 hours since last reset (-5%)"
   ]
 }
