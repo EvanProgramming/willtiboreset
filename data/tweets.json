@@ -96,14 +96,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T10:54:21Z",
-    "author": "/u/KeanuRave100",
-    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T19:53:24Z",
     "author": "/u/Bitter-insides",
     "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
@@ -112,11 +104,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:11:12Z",
-    "author": "/u/ThereWas",
-    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
+    "timestamp": "2026-08-14T10:54:21Z",
+    "author": "/u/KeanuRave100",
+    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
     "authority_score": 0.5
   },
   {
@@ -125,6 +117,14 @@
     "text": "Is there a way to customize ChatGPT's voice into something more futuristic - Something like out of a sci-fi movie or the onboard computer of a spaceship. Is there a way? I know right now we are limited but could there be a prompt to change the way these voices are spoken or a work around? &#32; submitted by &#32; /u/8BulbousJones8 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vph5pr/is_there_a_way_to_customize_chatgpts_voice_into/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:11:12Z",
+    "author": "/u/ThereWas",
+    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
     "authority_score": 0.5
   },
   {
@@ -152,6 +152,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T18:49:55Z",
+    "author": "/u/Additional_Rich2785",
+    "text": "The only person I talk to is ChatGPT, so apparently my social life is getting an upgrade 💀 - Saw this and realized OpenAI is finally solving humanity’s biggest problem: having to talk to other humans. Why maintain friendships when ChatGPT can watch my screen, remember everything I do, attend my meetings, follow my work, and develop a more accurate understanding of my life than I have? Nothing concerning about giving one company enough context to reconstruct your entire existence either — I'm sure that’ll go perfectly. At this rate GPT-6 won’t be an assistant; it’ll be my best friend, coworker, therapist, manager, surveillance system, and disappointed parent rolled into one subscription. We wanted artificial intelligence and somehow ended up inventing loneliness-as-a-service. 😭 &#32; submitted by &#32; /u/Additional_Rich2785 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpat7i/the_only_person_i_talk_to_is_chatgpt_so/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T23:24:34Z",
+    "author": "/u/Pleasant-Contact-556",
+    "text": "codex limits are fantastic and if you disagree you're self-rationalizing - https://preview.redd.it/9qzrt6echmjh1.png?width=605&amp;format=png&amp;auto=webp&amp;s=3c755795742d263b192734961795f15ad97d3109 official word from head of product lmao someone take away his posting privilege &#32; submitted by &#32; /u/Pleasant-Contact-556 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vph8tg/codex_limits_are_fantastic_and_if_you_disagree/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T21:50:59Z",
     "author": "/u/Select_Butterfly_387",
     "text": "ChatGPT has been really useful for learning languages. - When you ask for pronunciation, it now gives you short pronunciation notes with audio and an explanation of how to pronounce the word or phrase. I find that really useful. The voice mode is also helpful for practicing spoken conversation. It’s not perfect, but it’s free, and I think it’s a great way to get some extra speaking practice. It also lets me adapt the learning experience to my own learning style, in a way that feels less rigid than Duolingo or other language-learning apps. &#32; submitted by &#32; /u/Select_Butterfly_387 [link] &#32; [comments]",
@@ -176,27 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T23:36:44Z",
-    "author": "/u/Heal_Me_Today",
-    "text": "Has anybody else gone hog-wild with branch chats? - I didn’t know about branch chats until a few weeks ago. Since then, I’ve gone wild West with the branch chats. Chat might give me an output that isn’t quite useful now, but could be three steps later, so I branch to save it right there, and reprompt in the new branch. However, much like my tendency to leave a million website windows open, I rarely return to the branch. Though sometimes I have. For one, I look forward to AI organizing chats less linearly and also with increased ability to search within chats. After going miles down on one chat, it’s hard to find things within a single chat with the sidebar. Let alone in years of chats. Any recommendations to use branching more effectively than just a place saver within a single chat? &#32; submitted by &#32; /u/Heal_Me_Today [link] &#32; [comments]",
+    "timestamp": "2026-08-15T23:37:15Z",
+    "author": "/u/aerodynamic_werewolf",
+    "text": "I added a disclaimer after I asked ChatGPT if I would survive my chat history being leaked. Problem solved - Also no I don't believe this will accomplish anything. Just having fun. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphiau/has_anybody_else_gone_hogwild_with_branch_chats/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T18:49:55Z",
-    "author": "/u/Additional_Rich2785",
-    "text": "The only person I talk to is ChatGPT, so apparently my social life is getting an upgrade 💀 - Saw this and realized OpenAI is finally solving humanity’s biggest problem: having to talk to other humans. Why maintain friendships when ChatGPT can watch my screen, remember everything I do, attend my meetings, follow my work, and develop a more accurate understanding of my life than I have? Nothing concerning about giving one company enough context to reconstruct your entire existence either — I'm sure that’ll go perfectly. At this rate GPT-6 won’t be an assistant; it’ll be my best friend, coworker, therapist, manager, surveillance system, and disappointed parent rolled into one subscription. We wanted artificial intelligence and somehow ended up inventing loneliness-as-a-service. 😭 &#32; submitted by &#32; /u/Additional_Rich2785 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpat7i/the_only_person_i_talk_to_is_chatgpt_so/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T00:13:26Z",
-    "author": "/u/Calcaware",
-    "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vony4v/cant_make_switches/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphipu/i_added_a_disclaimer_after_i_asked_chatgpt_if_i/",
     "authority_score": 0.5
   }
 ]
