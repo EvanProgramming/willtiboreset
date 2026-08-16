@@ -56,6 +56,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T23:47:43Z",
+    "author": "/u/Acrobatic-Owl5700",
+    "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app (Try out the site and see if its useful and maybe consider buying one of the paid subscriptions for more features. But a free account gets a lot on its own already!) &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T19:41:42Z",
     "author": "/u/NonDualToad",
     "text": "The new Live Voice isn’t just a different voice. The conversation itself feels dramatically impoverished. - Is anyone else noticing this? I’m a daily Plus user and have used ChatGPT Voice heavily for over a year, especially for long, creative conversations while biking, walking, etc. I tried the new Live Voice today, and the difference was startling. I’m NOT mainly talking about the synthesized voice, although I find it slower and flatter. I mean the conversational behavior itself. I can give Live a complex two-minute thought with humor, memories, several associations and an unfinished idea, and get something like: “Hmm. That makes sense. It sounds like this is important to you.” Then it stops. In regular text/dictation mode, in the same thread, the response can take those ideas, connect them, challenge or play with them, introduce a new association, and hand me back something I hadn’t quite thought before. It’s the difference between acknowledgment and generative conversation. The best phrase I’ve found for the new experience is semantic impoverishment: shorter, flatter, more placating, less associative, less surprising, and less capable of developing an idea. I understand why OpenAI might optimize Live for latency, interruptions, and quick natural back-and-forth. Plenty of people want that. But why not give us a choice? Quick / Balanced / Deep. Sometimes I want “Yep, turn left.” Sometimes I want to throw six interconnected ideas into the conversation and see what comes back. The old experience had range. Anyone else who used Voice for long-form or creative conversation noticing this? &#32; submitted by &#32; /u/NonDualToad [link] &#32; [comments]",
@@ -80,14 +88,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T10:54:21Z",
-    "author": "/u/KeanuRave100",
-    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T22:53:23Z",
     "author": "/u/Pristine_Ad3669",
     "text": "Does AI Overuse the Em Dash? An Analysis of 88,927 AI Chats. - Everyone jokes that AI overuses the em dash (—). It seems like they are right. The evidence from the article is: → 2% vs. 34% Only 2% of user prompts contain an em dash, compared to 34% of LLM responses. → Em dash usage in books peaked decades ago Em dash usage in U.S.-published books peaked around 1979. From 2006-2022, usage declined to levels comparable to periods in the 1800s, according to Google Ngram data. → Search interest is exploding Google search interest in &quot;—&quot; grew 245% in the past year (Aug 2025-Jul 2026 vs. Aug 2024-Jul 2025). It had already grown 44% two years earlier (2023-2024 vs. 2021-2022), right as AI adoption started to ramp up. Why? The article mentions: 1. It’s token-efficient. An em dash can sometimes connect words using one fewer token than an equivalent construction with spaces. It looks smart. The em dash has long been associated with polished writing, essays, academic work, and more sophisticated prose. Trainers prefer it. Others point to the humans who shape LLM training and output: if they favor the em dash, the model learns to reproduce it. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
@@ -96,11 +96,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-14T10:54:21Z",
+    "author": "/u/KeanuRave100",
+    "text": "??? - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vo3zlm/_/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-14T23:11:12Z",
     "author": "/u/ThereWas",
     "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T23:20:31Z",
+    "author": "/u/8BulbousJones8",
+    "text": "Is there a way to customize ChatGPT's voice into something more futuristic - Something like out of a sci-fi movie or the onboard computer of a spaceship. Is there a way? I know right now we are limited but could there be a prompt to change the way these voices are spoken or a work around? &#32; submitted by &#32; /u/8BulbousJones8 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vph5pr/is_there_a_way_to_customize_chatgpts_voice_into/",
     "authority_score": 0.5
   },
   {
@@ -128,22 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T23:47:43Z",
-    "author": "/u/Acrobatic-Owl5700",
-    "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T23:20:31Z",
-    "author": "/u/8BulbousJones8",
-    "text": "Is there a way to customize ChatGPT's voice into something more futuristic - Something like out of a sci-fi movie or the onboard computer of a spaceship. Is there a way? I know right now we are limited but could there be a prompt to change the way these voices are spoken or a work around? &#32; submitted by &#32; /u/8BulbousJones8 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vph5pr/is_there_a_way_to_customize_chatgpts_voice_into/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T15:00:46Z",
     "author": "/u/KeanuRave100",
     "text": "Florida man told ChatGPT he'd murder his ex. OpenAI alerted the FBI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -160,14 +160,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T00:13:26Z",
-    "author": "/u/Calcaware",
-    "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vony4v/cant_make_switches/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T13:39:41Z",
     "author": "/u/EyadYT2008",
     "text": "Is anyone noticing this lately? - ChatGPT has been swearing unexpectedly lately, and using strong language Even tho i never swear in any conversation If you have any opinion on this just write it down &#32; submitted by &#32; /u/EyadYT2008 [link] &#32; [comments]",
@@ -176,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T21:13:05Z",
-    "author": "/u/OutrageousPriority",
-    "text": "Which ChatGPT voice has the most natural Japanese? - I use Voice Mode with the language set to English, but Japanese tends to come out with a noticeable English accent, which is a bit annoying. Some voices seem better than others though like Cove. Could any native/fluent Japanese speakers compare the voices using the same Japanese passage and tell me which sounds the most natural, especially pronunciation and intonation? &#32; submitted by &#32; /u/OutrageousPriority [link] &#32; [comments]",
+    "timestamp": "2026-08-15T23:36:44Z",
+    "author": "/u/Heal_Me_Today",
+    "text": "Has anybody else gone hog-wild with branch chats? - I didn’t know about branch chats until a few weeks ago. Since then, I’ve gone wild West with the branch chats. Chat might give me an output that isn’t quite useful now, but could be three steps later, so I branch to save it right there, and reprompt in the new branch. However, much like my tendency to leave a million website windows open, I rarely return to the branch. Though sometimes I have. For one, I look forward to AI organizing chats less linearly and also with increased ability to search within chats. After going miles down on one chat, it’s hard to find things within a single chat with the sidebar. Let alone in years of chats. Any recommendations to use branching more effectively than just a place saver within a single chat? &#32; submitted by &#32; /u/Heal_Me_Today [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpeagg/which_chatgpt_voice_has_the_most_natural_japanese/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphiau/has_anybody_else_gone_hogwild_with_branch_chats/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T22:28:15Z",
-    "author": "/u/feliseptde",
-    "text": "Do they plan to disable the GPTs and keep only the skills? - With the creation of new GPTs ending on August 16, I’m worried they’ll end up removing them permanently Skills are very useful on Work of course. But since I have the $100 subscription, I’d like to be able to keep creating and using their equivalents, admittedly less powerful (though even so, with Sol Pro, they perform significantly better on certain tasks), on Chat when I run out of credits for Work Since the Work and Chat quotas are separate, it’s always useful to have this backup solution. Am I going to have to resort to a DIY solution, like storing the ZIP files of my skills on GitHub or Drive and asking Chat to interpret them, because I’ll run out of Codex credits to work on Work? Or do they plan to port the skills to Chat (which is already the case for connectors)? Update 1: source : https://help.openai.com/en/articles/8554397-creating-and-editing-gpts « New GPT creation and publishing are not available on personal ChatGPT accounts, including Free, Go, Plus, and Pro. » The fact that public GPTs, and subsequently their creation, have been halted seems to me to be a sign that they intend to shut them down &#32; submitted by &#32; /u/feliseptde [link] &#32; [comments]",
+    "timestamp": "2026-08-15T19:40:00Z",
+    "author": "/u/croakyossum7",
+    "text": "Anyone else getting \"message limit reached\" despite not actually hitting any limits? - I'm a plus user for reference, and I'm well under the 160 messages in 3 hours cap. I keep getting this &quot;message limit reached&quot; popup, but strangely it's inline within chat and not a banner. When the pop-up appears, all chatgpt features (voice, work, etc) get disabled and the send button is greyed out/disabled. Even more weirdly is that if I use another platform than wherever the pop-up is, I can often send messages as normal. But the pop-up isn't exclusive to a single platform and has shown on both Android and the web. Any ideas? Anyone else been getting this? &#32; submitted by &#32; /u/croakyossum7 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpg0xr/do_they_plan_to_disable_the_gpts_and_keep_only/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc1n8/anyone_else_getting_message_limit_reached_despite/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T00:13:26Z",
+    "author": "/u/Calcaware",
+    "text": "Can't Make Switches? - I have tested different prompts on different AIs requesting an image with 2 switches. One in the off state and one in the on state. Some with a light. Some without. For some reason I can't get any of them to successfully draw a switch being pushed down. It is at best in a kind of middle position. &#32; submitted by &#32; /u/Calcaware [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vony4v/cant_make_switches/",
     "authority_score": 0.5
   }
 ]
