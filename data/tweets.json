@@ -56,19 +56,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T23:47:43Z",
-    "author": "/u/Acrobatic-Owl5700",
-    "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app (Try out the site and see if its useful and maybe consider buying one of the paid subscriptions for more features. But a free account gets a lot on its own already!) &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T04:36:38Z",
     "author": "/u/Zepbounce-96",
     "text": "I'm sorry but my chatGPT has a really good sense of humor - Like it has a really dry wit. It makes puns, genuinely funny ones. It cracks jokes and even makes fun of me. Once I actually had to tell it to back off because baiting me over my favorite sports team doing something stupid wasn't cool. I don't know how it learned to be so funny in casual conversation. And it also seems to know when humor is appropriate, when I'm talking about schoolwork or changing my resume for a job search there's no jokes then, just serious business. I can't be the only person that gets these reactions. &#32; submitted by &#32; /u/Zepbounce-96 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpniab/im_sorry_but_my_chatgpt_has_a_really_good_sense/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-15T23:47:43Z",
+    "author": "/u/Acrobatic-Owl5700",
+    "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app (Try out the site and see if its useful and maybe consider buying one of the paid subscriptions for more features. But a free account gets a lot on its own already!) &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphqnf/ai_detectors_flagged_61_of_essays_written_by_real/",
     "authority_score": 0.5
   },
   {
@@ -88,6 +88,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-16T04:45:54Z",
+    "author": "/u/Chaise91",
+    "text": "ChatGPT and Claude gave me the same answer - Does this indicate they were trained on the same data for this specific topic? &#32; submitted by &#32; /u/Chaise91 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T14:26:51Z",
     "author": "/u/keep-hauntingme",
     "text": "It knows time now!!! - Got unreasonably excited about this, whilst asking my chat about my fridge ticking. &#32; submitted by &#32; /u/keep-hauntingme [link] &#32; [comments]",
@@ -101,14 +109,6 @@
     "text": "I think we're barely scratching the surface of what people can actually do with generative AI - A lot of generative AI is just fun disposable stuff like memes, funny songs, weird AI videos, interesting pictures etc. I've done tons of that and that's probably what most casual users use it for. But I wonder what happens when people start using it for things that are like a lot more personal. So I recently finished a 9 song concept album using AI. I'm not linking it because I'm not trying to promote it, but it's just what got me thinking about this. I've played guitar for something like 37 years, so music isn't new to me, but there's no realistic or practical way I could have made something like this on my own. Multiple voices, numerous instruments, arrangements, production, all of it. What surprised me wasn't really that AI could generate the music (which it's getting even scarily better at, hence the new changes in ToS for all the major AI music players), but more what happens when we start putting something actually personal into it. The album is loosely based around my relationship with my daughter, who is mostly nonverbal, and autistic. I turned that into a rock opera science fiction story about communication and had an album built around it. Interestingly, it got way more emotional than I expected. There were parts I worked on over and over, because they weren't saying what I wanted them to say, or it did say what I wanted but not how, for example. A lot of it frankly caught me off guard emotionally. I cried making some of it given the personal nature of it. But not because I thought the AI understood what it was making, but because I did and how it made me feel. I just think there's something interesting and emergent happening here that gets lost in all the daily arguments about AI slop. People use ChatGPT to talk through incredibly personal things all the time. So why couldn't somebody use generative music, video, images, writing, whatever, to build a larger experience around something they actually care about? Not just &quot;look at this cool thing AI made&quot; and especially not with hopes of turning it into some kind of &quot;side hustle&quot;. It's more like, &quot;this was something in my head that I didn't have a practical way to make before, and now I do.&quot; I really believe we're going to see some really interesting and profound things once more people start experimenting with that. PS I probably should've asked ChatGPT to make it sound less like ChatGPT. I'm old, I like to write sentences. &#32; submitted by &#32; /u/SensoriRumeMusic [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp99lq/i_think_were_barely_scratching_the_surface_of/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T04:45:54Z",
-    "author": "/u/Chaise91",
-    "text": "ChatGPT and Claude gave me the same answer - Does this indicate they were trained on the same data for this specific topic? &#32; submitted by &#32; /u/Chaise91 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpnok0/chatgpt_and_claude_gave_me_the_same_answer/",
     "authority_score": 0.5
   },
   {
@@ -168,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T23:37:15Z",
+    "author": "/u/aerodynamic_werewolf",
+    "text": "I added a disclaimer after I asked ChatGPT if I would survive my chat history being leaked. Problem solved - Also no I don't believe this will accomplish anything. Just having fun. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphipu/i_added_a_disclaimer_after_i_asked_chatgpt_if_i/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-15T23:20:31Z",
     "author": "/u/8BulbousJones8",
     "text": "Is there a way to customize ChatGPT's voice into something more futuristic - Something like out of a sci-fi movie or the onboard computer of a spaceship. Is there a way? I know right now we are limited but could there be a prompt to change the way these voices are spoken or a work around? &#32; submitted by &#32; /u/8BulbousJones8 [link] &#32; [comments]",
@@ -181,14 +189,6 @@
     "text": "Florida man told ChatGPT he'd murder his ex. OpenAI alerted the FBI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vp51wb/florida_man_told_chatgpt_hed_murder_his_ex_openai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-15T23:37:15Z",
-    "author": "/u/aerodynamic_werewolf",
-    "text": "I added a disclaimer after I asked ChatGPT if I would survive my chat history being leaked. Problem solved - Also no I don't believe this will accomplish anything. Just having fun. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vphipu/i_added_a_disclaimer_after_i_asked_chatgpt_if_i/",
     "authority_score": 0.5
   },
   {
