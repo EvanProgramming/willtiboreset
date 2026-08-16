@@ -64,14 +64,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T05:51:03Z",
-    "author": "/u/Xenomorph-Acid_Cum55",
-    "text": "Basically all ai except grok - &#32; submitted by &#32; /u/Xenomorph-Acid_Cum55 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpovis/basically_all_ai_except_grok/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T23:47:43Z",
     "author": "/u/Acrobatic-Owl5700",
     "text": "AI detectors flagged 61% of essays written by real humans as AI. So I built something to prove you wrote it. - Stanford study published in Patterns found that AI detectors flagged 61.3% of TOEFL essays written by real people as AI generated. These were human essays, written before ChatGPT existed. In January a New York court threw out a university's AI cheating accusation, calling it &quot;without valid basis.&quot; The accusations are real. The evidence behind them mostly is not. Here is the actual problem: when a professor says &quot;the detector flagged your essay,&quot; the student has nothing. You cannot prove a negative. Your word against a percentage score, and the percentage usually wins. So I built Receipts. It records every keystroke while you write, then plays your essay back like a movie and tracks 25 different signals only natural human writers exercising thought do. If you ever get flagged, you send one link and your professor watches the essay write itself in front of them. It measures 25 signals of how real writing happens: typing rhythm, thinking pauses, corrections, muscle memory between letters. No single signal decides anything. The point is the full picture. If you paste something in, that shows in the record too. It is an evidence tool, not a cheating tool. It would incriminate a cheater as much as it clears an honest writer. Everything saves to your own Google Drive. Your work never sits on our servers. The evidence features are free. Being able to defend yourself should not cost money. I built this because false accusation is the ugliest failure mode of the whole AI detector era. Happy to answer questions about how the signals work or what a replay looks like. receipts-red.vercel.app (Try out the site and see if its useful and maybe consider buying one of the paid subscriptions for more features. But a free account gets a lot on its own already!) &#32; submitted by &#32; /u/Acrobatic-Owl5700 [link] &#32; [comments]",
@@ -120,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T02:43:29Z",
-    "author": "/u/No-Cream-2577",
-    "text": "Can I get chatgpt to be less “sensitive” about history in any way? - I’m not even one of those people complaining that chatgpt is overly “woke”- my issue is that I use chatgpt to engage with historical scenarios and realities of the time, and Chatgtp in trying not to be offensive ends up.. making it offensive? Like I’ll have a story about a really serious topic, think the sexism, racism, disability, religion, homophobia at the time, and as I am trying to engage with that chatgpt will be like “while his worries are understandable for the time- it’s likely not everyone will reject him for being gay considering they fought in the trenches together” and it’ll be like.. 1944 or something. Chatgpt always “but this wouldn’t need to always be the case“- me, and in that way basically undermines everything. I keep experiencing that chatgpt in trying to be nuanced when I’m trying to just speak about history, says straight up ahistorical things and basically tries to have so much complexity.. that there’s none at all. But it’s tiring to have to correct it all the time, anyone has any tips for this? &#32; submitted by &#32; /u/No-Cream-2577 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplcbf/can_i_get_chatgpt_to_be_less_sensitive_about/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T19:41:42Z",
     "author": "/u/NonDualToad",
     "text": "The new Live Voice isn’t just a different voice. The conversation itself feels dramatically impoverished. - Is anyone else noticing this? I’m a daily Plus user and have used ChatGPT Voice heavily for over a year, especially for long, creative conversations while biking, walking, etc. I tried the new Live Voice today, and the difference was startling. I’m NOT mainly talking about the synthesized voice, although I find it slower and flatter. I mean the conversational behavior itself. I can give Live a complex two-minute thought with humor, memories, several associations and an unfinished idea, and get something like: “Hmm. That makes sense. It sounds like this is important to you.” Then it stops. In regular text/dictation mode, in the same thread, the response can take those ideas, connect them, challenge or play with them, introduce a new association, and hand me back something I hadn’t quite thought before. It’s the difference between acknowledgment and generative conversation. The best phrase I’ve found for the new experience is semantic impoverishment: shorter, flatter, more placating, less associative, less surprising, and less capable of developing an idea. I understand why OpenAI might optimize Live for latency, interruptions, and quick natural back-and-forth. Plenty of people want that. But why not give us a choice? Quick / Balanced / Deep. Sometimes I want “Yep, turn left.” Sometimes I want to throw six interconnected ideas into the conversation and see what comes back. The old experience had range. Anyone else who used Voice for long-form or creative conversation noticing this? &#32; submitted by &#32; /u/NonDualToad [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpc32u/the_new_live_voice_isnt_just_a_different_voice/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T02:43:29Z",
+    "author": "/u/No-Cream-2577",
+    "text": "Can I get chatgpt to be less “sensitive” about history in any way? - I’m not even one of those people complaining that chatgpt is overly “woke”- my issue is that I use chatgpt to engage with historical scenarios and realities of the time, and Chatgtp in trying not to be offensive ends up.. making it offensive? Like I’ll have a story about a really serious topic, think the sexism, racism, disability, religion, homophobia at the time, and as I am trying to engage with that chatgpt will be like “while his worries are understandable for the time- it’s likely not everyone will reject him for being gay considering they fought in the trenches together” and it’ll be like.. 1944 or something. Chatgpt always “but this wouldn’t need to always be the case“- me, and in that way basically undermines everything. I keep experiencing that chatgpt in trying to be nuanced when I’m trying to just speak about history, says straight up ahistorical things and basically tries to have so much complexity.. that there’s none at all. But it’s tiring to have to correct it all the time, anyone has any tips for this? &#32; submitted by &#32; /u/No-Cream-2577 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplcbf/can_i_get_chatgpt_to_be_less_sensitive_about/",
     "authority_score": 0.5
   },
   {
@@ -160,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-14T23:11:12Z",
-    "author": "/u/ThereWas",
-    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-15T23:37:15Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "I added a disclaimer after I asked ChatGPT if I would survive my chat history being leaked. Problem solved - Also no I don't believe this will accomplish anything. Just having fun. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vphipu/i_added_a_disclaimer_after_i_asked_chatgpt_if_i/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-14T23:11:12Z",
+    "author": "/u/ThereWas",
+    "text": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT - &#32; submitted by &#32; /u/ThereWas [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vomjpo/chinese_doctor_stuns_maths_world_by_cracking/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T19:53:24Z",
-    "author": "/u/Bitter-insides",
-    "text": "My ChatGTP is crying? - I have a thread to deal with Sourdough starters and it has been moody. Today I needed help splitting and gifting. It started with a BIG SIGH and then it started to cry?? I asked it if it was okay and it sighed and told me it was here with me, regardless? Does anyone know what is going? EDIT: you guys are pretty funny. It’s been interesting reading everyone’s comments. Let’s make something abundantly clear not once in any of my post or responses I’ve said I believe it’s sentient. I actually refer it to an IT not a he or she. I see ChatGPT as another google : source of information. Do think google has a soul umm no. Just as much as I don’t look at a toy doll and think it’s really crying when the doll cries. Everyone can keep saying it doesn’t have a mood bc it’s not human. Okay but its code can be written to have moods right? Right. So if that’s what’s happening FINE. It’s just weird that one minute it’s making fun of me and joking around and the next it sounds like a hangry teenager going through puberty. I did keep asking if it was okay bc it was a fun experiment. Not bc I believe it would say it needed to be saved 😂 you guys are too much! Thank you for coming to my Ted talk- ✌️ &#32; submitted by &#32; /u/Bitter-insides [link] &#32; [comments]",
+    "timestamp": "2026-08-16T01:38:43Z",
+    "author": "/u/UnknownEssence",
+    "text": "ChatGPT can now remember everything you do on your computer (desktop app). - https://preview.redd.it/byqygg1a5njh1.png?width=1304&amp;format=png&amp;auto=webp&amp;s=b1579670f46926d10e2593441a3cc58b042108dc &#32; submitted by &#32; /u/UnknownEssence [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpcdo5/my_chatgtp_is_crying/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpk1r0/chatgpt_can_now_remember_everything_you_do_on/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T02:51:01Z",
+    "author": "/u/UseInternational5330",
+    "text": "wait what - &#32; submitted by &#32; /u/UseInternational5330 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vplhl7/wait_what/",
     "authority_score": 0.5
   }
 ]
