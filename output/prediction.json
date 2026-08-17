@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T09:02:32.053937+00:00",
+  "updated_at": "2026-08-17T09:32:54.244588+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "medium",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 64.0,
+    "hours_until": 63.5,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 104.02557037583334,
+    "hours_since_last_reset": 104.53173443944443,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 64.0,
+      "hours_until": 63.5,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,11 +26,11 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.4201,
-    "time_pressure": 0.0938,
+    "time_ratio": 1.4271,
+    "time_pressure": 0.0954,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0833,
-    "tibo_signal": 0.4232,
+    "evidence_score": 0.0823,
+    "tibo_signal": 0.4238,
     "community_signal": 0.6,
     "release_signal": 0.5,
     "llm_scores": {
@@ -55,9 +55,9 @@
   },
   "main_factors": [
     {
-      "factor": "104.0 hours since last reset",
+      "factor": "104.5 hours since last reset",
       "impact": "-5%",
-      "score": 0.09
+      "score": 0.1
     },
     {
       "factor": "Weekly cycle: today is a typical reset day (US Monday)",
@@ -81,10 +81,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (104.0 hours ago), low time pressure (0.09)",
+    "Recently reset (104.5 hours ago), low time pressure (0.10)",
     "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
     "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.82), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 104.0 hours since last reset (-5%)"
+    "Main factor: 104.5 hours since last reset (-5%)"
   ]
 }
