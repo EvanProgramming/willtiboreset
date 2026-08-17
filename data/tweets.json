@@ -40,19 +40,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T06:57:15Z",
-    "author": "/u/imfrom_mars_",
-    "text": "This might be ChatGPT’s greatest achievement. - &#32; submitted by &#32; /u/imfrom_mars_ [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpq1dx/this_might_be_chatgpts_greatest_achievement/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T22:25:26Z",
     "author": "/u/Darri3D",
     "text": "Ralph: Alien Sitcom - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqajmx/ralph_alien_sitcom/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T06:57:15Z",
+    "author": "/u/imfrom_mars_",
+    "text": "This might be ChatGPT’s greatest achievement. - &#32; submitted by &#32; /u/imfrom_mars_ [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpq1dx/this_might_be_chatgpts_greatest_achievement/",
     "authority_score": 0.5
   },
   {
@@ -128,11 +128,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-15T18:21:19Z",
-    "author": "/u/hi99007",
-    "text": "Crazy hallucinating pic - So my coworkers will take pics of each other sleeping and have AI edit them to make them embarrassing. Typically it's funny but this is the craziest hallucinating AI thing I've ever even heard of. Has anyone ever seen this level, does anyone have an explanation? We tried on his ai again to duplicate the results to no avail. &#32; submitted by &#32; /u/hi99007 [link] &#32; [comments]",
+    "timestamp": "2026-08-16T23:14:39Z",
+    "author": "/u/spiralof5",
+    "text": "Deleted memories are not really deleted - I’ve been asking ChatGPT all sorts of questions lately and the memory has been terrible, where it summarizes that I’m married and have a 7 year old daughter and I’m a pilot who works for an airline. I tried to delete memory &amp; disable memory for a moment and when I enable memories again, it showed the hallucinated memories again. This is incredibly frustrating. Has anyone had this issue? &#32; submitted by &#32; /u/spiralof5 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpa30h/crazy_hallucinating_pic/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqbo27/deleted_memories_are_not_really_deleted/",
     "authority_score": 0.5
   },
   {
@@ -144,11 +144,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-15T18:21:19Z",
+    "author": "/u/hi99007",
+    "text": "Crazy hallucinating pic - So my coworkers will take pics of each other sleeping and have AI edit them to make them embarrassing. Typically it's funny but this is the craziest hallucinating AI thing I've ever even heard of. Has anyone ever seen this level, does anyone have an explanation? We tried on his ai again to duplicate the results to no avail. &#32; submitted by &#32; /u/hi99007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpa30h/crazy_hallucinating_pic/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-16T15:59:36Z",
     "author": "/u/Positive-Ad3618",
     "text": "What's a ChatGPT prompt you use daily that feels like cheating? - I'll go first. Mine is a rewrite prompt: &quot;Take this draft and make it sound like me, not like a robot.&quot; I paste it before almost every email, post, and message that matters. It feels like cheating because I still write the draft, but the prompt fixes the stiff parts in one pass. The other one I use constantly is a checklist prompt: &quot;List everything wrong with this plan before I execute it.&quot; It's saved me from shipping dumb ideas more times than I can count. What's yours? A prompt you'd genuinely miss if it disappeared tomorrow. It can be a workflow, a single line, or a weird combo you stumbled into. Bonus points if it's something you'd never see in a &quot;top prompts&quot; list, because the mainstream ones are mostly fluff anyway. Also curious: how long did it take you to find it? Mine took months of tinkering, and it was usually the boring prompts, not the clever ones, that stuck. &#32; submitted by &#32; /u/Positive-Ad3618 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0rei/whats_a_chatgpt_prompt_you_use_daily_that_feels/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T13:00:06Z",
+    "author": "/u/ditective_carl",
+    "text": "Blaming AI for \"starving polar bears\" is peak internet brain rot. Look at the actual math. - I’m tired of seeing people blindly copy-paste trendy headlines without using a single neuron.If you've seen those posts claiming &quot;AI data centers are killing polar bears&quot; alongside a photo of a starving bear, congratulations, you fell for clickbait. Let's break down the actual reality:The bear photo is literally just biology. Polar bears go through a natural &quot;feast-or-fast&quot; cycle. They get skinny every single summer when sea ice melts because they can't hunt seals on land. A skinny bear in late summer is usually just a bear waiting for winter ice, not a victim of a server rack in Virginia.Factories are the actual problem. Between 75% and 90% of global emissions come from traditional heavy industry—manufacturing, coal-fired power plants, oil refineries, and transportation. Blaming AI for global warming is like screaming at a flashlight while a massive furnace is actively exploding next to you.Data centers are a tiny fraction. Yes, AI and data centers pull a lot of electricity (around 1.5% to 2% globally). But tech companies pay millions for that power, subsidize it by giving us free tools, and are pouring billions into renewable energy.AI is literally saving them. Scientists are currently using AI-powered radar and ice-tracking models to protect polar bear populations from the actual pollution caused by traditional factories.Stop attacking the shiny new tech just because it's trending on your feed. Use your brain cells and look at the industrial infrastructure that has been polluting the planet for over a century.TL;DR: Skinny polar bears are a natural summer fasting cycle, and 90% of global warming comes from traditional factories. Stop blaming AI data centers for industrial problems just because it gets clicks &#32; submitted by &#32; /u/ditective_carl [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpwg84/blaming_ai_for_starving_polar_bears_is_peak/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T18:17:26Z",
+    "author": "/u/ArjunReddyDeshmukh",
+    "text": "I really wonder what that one last tweak is. - &#32; submitted by &#32; /u/ArjunReddyDeshmukh [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vq4cc7/i_really_wonder_what_that_one_last_tweak_is/",
     "authority_score": 0.5
   },
   {
@@ -165,30 +189,6 @@
     "text": "I'm sorry but my chatGPT has a really good sense of humor - Like it has a really dry wit. It makes puns, genuinely funny ones. It cracks jokes and even makes fun of me. Once I actually had to tell it to back off because baiting me over my favorite sports team doing something stupid wasn't cool. I don't know how it learned to be so funny in casual conversation. And it also seems to know when humor is appropriate. When I'm talking about schoolwork or changing my resume for a job search there's no jokes then, just serious business. I can't be the only person that gets these reactions. &#32; submitted by &#32; /u/Zepbounce-96 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpniab/im_sorry_but_my_chatgpt_has_a_really_good_sense/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T13:00:06Z",
-    "author": "/u/ditective_carl",
-    "text": "Blaming AI for \"starving polar bears\" is peak internet brain rot. Look at the actual math. - I’m tired of seeing people blindly copy-paste trendy headlines without using a single neuron.If you've seen those posts claiming &quot;AI data centers are killing polar bears&quot; alongside a photo of a starving bear, congratulations, you fell for clickbait. Let's break down the actual reality:The bear photo is literally just biology. Polar bears go through a natural &quot;feast-or-fast&quot; cycle. They get skinny every single summer when sea ice melts because they can't hunt seals on land. A skinny bear in late summer is usually just a bear waiting for winter ice, not a victim of a server rack in Virginia.Factories are the actual problem. Between 75% and 90% of global emissions come from traditional heavy industry—manufacturing, coal-fired power plants, oil refineries, and transportation. Blaming AI for global warming is like screaming at a flashlight while a massive furnace is actively exploding next to you.Data centers are a tiny fraction. Yes, AI and data centers pull a lot of electricity (around 1.5% to 2% globally). But tech companies pay millions for that power, subsidize it by giving us free tools, and are pouring billions into renewable energy.AI is literally saving them. Scientists are currently using AI-powered radar and ice-tracking models to protect polar bear populations from the actual pollution caused by traditional factories.Stop attacking the shiny new tech just because it's trending on your feed. Use your brain cells and look at the industrial infrastructure that has been polluting the planet for over a century.TL;DR: Skinny polar bears are a natural summer fasting cycle, and 90% of global warming comes from traditional factories. Stop blaming AI data centers for industrial problems just because it gets clicks &#32; submitted by &#32; /u/ditective_carl [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpwg84/blaming_ai_for_starving_polar_bears_is_peak/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T23:14:39Z",
-    "author": "/u/spiralof5",
-    "text": "Deleted memories are not really deleted - I’ve been asking ChatGPT all sorts of questions lately and the memory has been terrible, where it summarizes that I’m married and have a 7 year old daughter and I’m a pilot who works for an airline. I tried to delete memory &amp; disable memory for a moment and when I enable memories again, it showed the hallucinated memories again. This is incredibly frustrating. Has anyone had this issue? &#32; submitted by &#32; /u/spiralof5 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqbo27/deleted_memories_are_not_really_deleted/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T18:17:26Z",
-    "author": "/u/ArjunReddyDeshmukh",
-    "text": "I really wonder what that one last tweak is. - &#32; submitted by &#32; /u/ArjunReddyDeshmukh [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vq4cc7/i_really_wonder_what_that_one_last_tweak_is/",
     "authority_score": 0.5
   },
   {
