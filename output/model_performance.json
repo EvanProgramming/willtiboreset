@@ -1,22 +1,22 @@
 {
-  "total_predictions": 597,
-  "resolved_predictions": 456,
-  "overall_brier_score": 0.24087563179093568,
-  "overall_accuracy": 0.6776315789473685,
+  "total_predictions": 598,
+  "resolved_predictions": 457,
+  "overall_brier_score": 0.24041826916849018,
+  "overall_accuracy": 0.6783369803063457,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 456,
-      "brier_score": 0.19997485320175437,
-      "accuracy": 0.7258771929824561,
-      "calibration_error": 0.21614649122807017,
+      "total": 457,
+      "brier_score": 0.1995418815536105,
+      "accuracy": 0.7264770240700219,
+      "calibration_error": 0.2155730853391685,
       "bins": [
         {
           "bin_start": 0.0,
           "bin_end": 0.1,
-          "predicted_mean": 0.07410920634920636,
-          "actual_frequency": 0.2857142857142857,
-          "count": 315
+          "predicted_mean": 0.07401993670886076,
+          "actual_frequency": 0.2848101265822785,
+          "count": 316
         },
         {
           "bin_start": 0.1,
@@ -85,10 +85,10 @@
     },
     {
       "horizon_hours": 24,
-      "total": 456,
-      "brier_score": 0.23664697714912283,
-      "accuracy": 0.7214912280701754,
-      "calibration_error": 0.22611184210526314,
+      "total": 457,
+      "brier_score": 0.23618894019693656,
+      "accuracy": 0.7221006564551422,
+      "calibration_error": 0.2259787746170678,
       "bins": [
         {
           "bin_start": 0.0,
@@ -100,9 +100,9 @@
         {
           "bin_start": 0.1,
           "bin_end": 0.2,
-          "predicted_mean": 0.17786363636363636,
+          "predicted_mean": 0.17681666666666665,
           "actual_frequency": 0.0,
-          "count": 11
+          "count": 12
         },
         {
           "bin_start": 0.2,
@@ -164,10 +164,10 @@
     },
     {
       "horizon_hours": 48,
-      "total": 456,
-      "brier_score": 0.2860050650219298,
-      "accuracy": 0.5855263157894737,
-      "calibration_error": 0.30827741228070177,
+      "total": 457,
+      "brier_score": 0.28552398575492344,
+      "accuracy": 0.5864332603938731,
+      "calibration_error": 0.3081656455142232,
       "bins": [
         {
           "bin_start": 0.0,
@@ -186,9 +186,9 @@
         {
           "bin_start": 0.2,
           "bin_end": 0.3,
-          "predicted_mean": 0.27216,
+          "predicted_mean": 0.2708,
           "actual_frequency": 0.0,
-          "count": 10
+          "count": 11
         },
         {
           "bin_start": 0.3,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-17T14:20:40.005013Z"
+  "updated_at": "2026-08-17T14:42:36.616206Z"
 }
