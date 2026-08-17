@@ -80,19 +80,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T00:44:00Z",
-    "author": "/u/Immobilesteelrims",
-    "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T13:20:04Z",
     "author": "/u/beingmodest",
     "text": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI - &#32; submitted by &#32; /u/beingmodest [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T00:44:00Z",
+    "author": "/u/Immobilesteelrims",
+    "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
     "authority_score": 0.5
   },
   {
@@ -136,6 +136,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-17T22:05:22Z",
+    "author": "/u/SoonBlossom",
+    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T20:26:32Z",
+    "author": "/u/Anonymosity1766",
+    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T12:24:37Z",
     "author": "/u/stwpd",
     "text": "Atlast is Gone??? I woke up to this, was using it as main browser - This is bad, i think i lose backup too it was my main browser for a while, and new update merge to ChatGPT app is very bad atleast let me use it without these ai stuff even grok bot is in beta, running back to something not agentic &#32; submitted by &#32; /u/stwpd [link] &#32; [comments]",
@@ -152,27 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T20:26:32Z",
-    "author": "/u/Anonymosity1766",
-    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T12:53:15Z",
     "author": "/u/GormtheOld25",
     "text": "Super Trump 64 - &#32; submitted by &#32; /u/GormtheOld25 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vpwax7/super_trump_64/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T22:05:22Z",
-    "author": "/u/SoonBlossom",
-    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
     "authority_score": 0.5
   },
   {
