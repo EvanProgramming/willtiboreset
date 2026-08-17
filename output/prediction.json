@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T18:25:43.149577+00:00",
+  "updated_at": "2026-08-17T19:02:35.205792+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 54.6,
+    "hours_until": 54.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 113.41198585222223,
+    "hours_since_last_reset": 114.02644588722222,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 54.6,
+      "hours_until": 54.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5483,
-    "time_pressure": 0.1262,
+    "time_ratio": 1.5567,
+    "time_pressure": 0.1286,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0215,
+    "evidence_score": 0.021,
     "tibo_signal": 0.0554,
     "community_signal": 0.0,
     "release_signal": 0.5542,
@@ -44,8 +44,8 @@
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
-        "No relevant signals detected; possibly unrelated content",
-        "Community pressure signal detected (score: 0.48)"
+        "Community pressure signal detected (score: 0.48)",
+        "No relevant signals detected; possibly unrelated content"
       ]
     },
     "prior_applied": false,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "113.4 hours since last reset",
+      "factor": "114.0 hours since last reset",
       "impact": "-5%",
       "score": 0.13
     },
@@ -76,10 +76,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (113.4 hours ago), low time pressure (0.13)",
+    "Recently reset (114.0 hours ago), low time pressure (0.13)",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
     "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.82), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 113.4 hours since last reset (-5%)"
+    "Main factor: 114.0 hours since last reset (-5%)"
   ]
 }
