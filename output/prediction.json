@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T16:42:37.153793+00:00",
+  "updated_at": "2026-08-17T17:02:36.606112+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 56.3,
+    "hours_until": 56.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 111.69365367027777,
+    "hours_since_last_reset": 112.02683487333333,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 56.3,
+      "hours_until": 56.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5248,
-    "time_pressure": 0.1196,
+    "time_ratio": 1.5294,
+    "time_pressure": 0.1209,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0231,
+    "evidence_score": 0.0228,
     "tibo_signal": 0.0554,
     "community_signal": 0.0,
     "release_signal": 0.5542,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "111.7 hours since last reset",
+      "factor": "112.0 hours since last reset",
       "impact": "-5%",
       "score": 0.12
     },
@@ -76,10 +76,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (111.7 hours ago), low time pressure (0.12)",
+    "Recently reset (112.0 hours ago), low time pressure (0.12)",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
     "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.82), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 111.7 hours since last reset (-5%)"
+    "Main factor: 112.0 hours since last reset (-5%)"
   ]
 }
