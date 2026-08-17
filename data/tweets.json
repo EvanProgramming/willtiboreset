@@ -112,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T08:21:50Z",
-    "author": "/u/KeanuRave100",
-    "text": "New York City nurses say AI is replacing them | Nurses laid off in July by Montefiore Hospitals in the Bronx sounded the alarm about AI in healthcare, a concern shared by nurses across the country - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqmcgz/new_york_city_nurses_say_ai_is_replacing_them/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T18:41:47Z",
     "author": "/u/CrazyGud",
     "text": "Coworkers are using ChatGPT - I went from a salary job in film to freelance. I’ve made commercials, documentaries, socials, everything and have had job interviews for other roles. When I first discovered ai, I was using a lot for script writing. It was awesome. I soon learned everyone was doing that. And not only in script writing, but I found people were using it for email, advertising, art, etc. I could see it everywhere. This made me feel un original so I stopped using it for film and let my mind contemplate again. i still used it though for other things. I left my salary job for a new job. My first job interview felt weird. As though my future employers were using Ai to plan the business and interview questions for me. The questions were almost identical to ChatGPT. The plans and website were also generated as I soon learned. Through the interview process, I would also feed my notes into Ai to see what it would think of the job. I also fed my contract into Ai to see if there were any red flags. I’m assuming they did this too with anything I said. It’s almost like everyone is looking through the lens of Ai. I ended up accepting this job as I believe in the idea. Although, anytime I message everyone in the business about ideas, I’m responded with a ChatGPT message. I’m trying to connect to everyone but everyone seems so distant! It’s like no one wants to work or actually believes in what we’re doing! They just believe in ai because ai said this was a good idea… I’ve been moving to freelance film recently to capture more of a documentary style art form because I believe authenticity will win. Truism and Verite will be the thing everyone wants to see. But for now, the ai stuff is getting annoying. &#32; submitted by &#32; /u/CrazyGud [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T08:21:50Z",
+    "author": "/u/KeanuRave100",
+    "text": "New York City nurses say AI is replacing them | Nurses laid off in July by Montefiore Hospitals in the Bronx sounded the alarm about AI in healthcare, a concern shared by nurses across the country - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqmcgz/new_york_city_nurses_say_ai_is_replacing_them/",
     "authority_score": 0.5
   },
   {
@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-17T20:26:32Z",
+    "author": "/u/Anonymosity1766",
+    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-16T12:53:15Z",
     "author": "/u/GormtheOld25",
     "text": "Super Trump 64 - &#32; submitted by &#32; /u/GormtheOld25 [link] &#32; [comments]",
@@ -160,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T21:06:13Z",
-    "author": "/u/Minute-Annual678",
-    "text": "Claude answers questions fearlessly, chatgpt is somewhere in the middle, and Gemini is downright dishonest - Gemini speaks like a politician whose entire reason of existence is to gaslight you, and avoid taking a position on any social or political question. It does not speak like a normal human being. It's like watching a politician on a talk show. &quot;See, ultimately&quot;. &quot;Studies have shown&quot;. Or my favorite &quot;I am an AI model and I have no opinion&quot;. You could be asking it if &quot;public libraries are a waste of money&quot; and it hedges even on an issue as uncontroversial as this. It refuses to say yes or no. Go ahead, try it. Chatgpt and Claude both will answer. Gemini will go around in circles, gaslighting you. It's like Google cannot get out of Gemini's way, and let it be a useful model. Google is just too big to be dabbling in experimental technologies. It is not their playground anymore. It should get out and let the kids play. At this point, if someone breaks up Google, and makes Gemini a different company, they will do humanity a favor and accelerate AI by a solid 2-5 years. &#32; submitted by &#32; /u/Minute-Annual678 [link] &#32; [comments]",
+    "timestamp": "2026-08-17T22:05:22Z",
+    "author": "/u/SoonBlossom",
+    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr4vxu/claude_answers_questions_fearlessly_chatgpt_is/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
     "authority_score": 0.5
   },
   {
@@ -176,27 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T20:26:32Z",
-    "author": "/u/Anonymosity1766",
-    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "timestamp": "2026-08-17T21:06:13Z",
+    "author": "/u/Minute-Annual678",
+    "text": "Claude answers questions fearlessly, chatgpt is somewhere in the middle, and Gemini is downright dishonest - Gemini speaks like a politician whose entire reason of existence is to gaslight you, and avoid taking a position on any social or political question. It does not speak like a normal human being. It's like watching a politician on a talk show. &quot;See, ultimately&quot;. &quot;Studies have shown&quot;. Or my favorite &quot;I am an AI model and I have no opinion&quot;. You could be asking it if &quot;public libraries are a waste of money&quot; and it hedges even on an issue as uncontroversial as this. It refuses to say yes or no. Go ahead, try it. Chatgpt and Claude both will answer. Gemini will go around in circles, gaslighting you. It's like Google cannot get out of Gemini's way, and let it be a useful model. Google is just too big to be dabbling in experimental technologies. It is not their playground anymore. It should get out and let the kids play. At this point, if someone breaks up Google, and makes Gemini a different company, they will do humanity a favor and accelerate AI by a solid 2-5 years. &#32; submitted by &#32; /u/Minute-Annual678 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr4vxu/claude_answers_questions_fearlessly_chatgpt_is/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T22:25:26Z",
-    "author": "/u/Darri3D",
-    "text": "Ralph: Alien Sitcom - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "timestamp": "2026-08-17T22:11:54Z",
+    "author": "/u/ContactIcy3963",
+    "text": "Thoughts on using AI to mod video games? - I am looking for feedback/justification to utilize AI tools to assist in the coding of video game mods. It’s pretty stigmatized but a lot of the low level code on open source / decompilable games AI can handle without breaking a sweat. So far I’ve limited my scope to updating deprecated mods that were either abandoned or no longer regularly worked on by the modders so old mods for Minecraft, Balatro, 2d Pokemon, stellaris etc. AI has been able to update the mod to be workable to the most recent versions, and it’s been a blast getting it to work this way. Course, I sometimes get flamed for the use of ANY AI here but I feel that this is right up its alley. I went from staring at long forgotten mods praying for an update to updating, and even enhancing, them myself. Y’all get similar sentiments, and how best to address them? I’d like to eventually manage content creation but art assets are still pretty far away from cresting the uncanny valley. Any suggestions on how to improve image generation? Thanks in advance for your feedback. &#32; submitted by &#32; /u/ContactIcy3963 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqajmx/ralph_alien_sitcom/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T17:52:08Z",
-    "author": "/u/Beginning_Anywhere59",
-    "text": "Chat GPT has recently been giving me extensive, lengthy answers. Is it trying to expand my usage so I have to upgrade to $250 per month? - &#32; submitted by &#32; /u/Beginning_Anywhere59 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqzgs4/chat_gpt_has_recently_been_giving_me_extensive/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6kht/thoughts_on_using_ai_to_mod_video_games/",
     "authority_score": 0.5
   }
 ]
