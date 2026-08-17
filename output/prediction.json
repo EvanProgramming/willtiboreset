@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T15:03:20.596015+00:00",
+  "updated_at": "2026-08-17T16:03:10.656269+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 58.0,
+    "hours_until": 57.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 110.0390542738889,
+    "hours_since_last_reset": 111.03629324166667,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 58.0,
+      "hours_until": 57.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.5022,
-    "time_pressure": 0.1136,
+    "time_ratio": 1.5159,
+    "time_pressure": 0.1172,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0107,
+    "evidence_score": 0.0103,
     "tibo_signal": 0.05,
     "community_signal": 0.0,
     "release_signal": 0.5,
@@ -55,9 +55,9 @@
   },
   "main_factors": [
     {
-      "factor": "110.0 hours since last reset",
+      "factor": "111.0 hours since last reset",
       "impact": "-5%",
-      "score": 0.11
+      "score": 0.12
     },
     {
       "factor": "Weekly cycle: today is a typical reset day (US Monday)",
@@ -76,10 +76,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (110.0 hours ago), low time pressure (0.11)",
+    "Recently reset (111.0 hours ago), low time pressure (0.12)",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
     "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.82), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 110.0 hours since last reset (-5%)"
+    "Main factor: 111.0 hours since last reset (-5%)"
   ]
 }
