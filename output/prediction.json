@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T12:42:37.962808+00:00",
+  "updated_at": "2026-08-17T13:02:36.761564+00:00",
   "prediction": {
     "within_5h": 0.5,
     "within_24h": 0.8,
@@ -8,15 +8,15 @@
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 60.3,
+    "hours_until": 60.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 107.69387838388889,
+    "hours_since_last_reset": 108.02687804333334,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 60.3,
+      "hours_until": 60.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.4702,
-    "time_pressure": 0.1055,
+    "time_ratio": 1.4748,
+    "time_pressure": 0.1066,
     "hazard_rate": 0.064861,
-    "evidence_score": 0.0179,
+    "evidence_score": 0.0176,
     "tibo_signal": 0.1193,
     "community_signal": 0.6,
     "release_signal": 0.5,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "107.7 hours since last reset",
+      "factor": "108.0 hours since last reset",
       "impact": "-5%",
       "score": 0.11
     },
@@ -81,10 +81,10 @@
     }
   ],
   "reasons": [
-    "Recently reset (107.7 hours ago), low time pressure (0.11)",
+    "Recently reset (108.0 hours ago), low time pressure (0.11)",
     "Weak reset evidence detected (evidence_score=0.02), insufficient to confirm",
     "Weekly cycle boost active (factor=0.82): today is a typical reset day, base probability and probability cap raised",
     "Schedule floor applied: known reset day (factor=0.82), probability floor set to 50%/80%/90% (5h/24h/48h) — Tibo explicitly resets on US Mondays, full weight applied",
-    "Main factor: 107.7 hours since last reset (-5%)"
+    "Main factor: 108.0 hours since last reset (-5%)"
   ]
 }
