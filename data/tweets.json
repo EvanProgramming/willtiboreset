@@ -64,14 +64,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T12:53:15Z",
-    "author": "/u/GormtheOld25",
-    "text": "Super Trump 64 - &#32; submitted by &#32; /u/GormtheOld25 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpwax7/super_trump_64/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T12:51:34Z",
     "author": "/u/DAPTIMEdagoat",
     "text": "Yo ts gotta be trollin me - &#32; submitted by &#32; /u/DAPTIMEdagoat [link] &#32; [comments]",
@@ -80,11 +72,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-16T22:25:26Z",
-    "author": "/u/Darri3D",
-    "text": "Ralph: Alien Sitcom - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "timestamp": "2026-08-16T12:53:15Z",
+    "author": "/u/GormtheOld25",
+    "text": "Super Trump 64 - &#32; submitted by &#32; /u/GormtheOld25 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqajmx/ralph_alien_sitcom/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vpwax7/super_trump_64/",
     "authority_score": 0.5
   },
   {
@@ -93,6 +85,14 @@
     "text": "Atlast is Gone??? I woke up to this, was using it as main browser - This is bad, i think i lose backup too it was my main browser for a while, and new update merge to ChatGPT app is very bad atleast let me use it without these ai stuff even grok bot is in beta, running back to something not agentic &#32; submitted by &#32; /u/stwpd [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqqvch/atlast_is_gone_i_woke_up_to_this_was_using_it_as/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-16T22:25:26Z",
+    "author": "/u/Darri3D",
+    "text": "Ralph: Alien Sitcom - &#32; submitted by &#32; /u/Darri3D [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqajmx/ralph_alien_sitcom/",
     "authority_score": 0.5
   },
   {
@@ -112,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T13:02:52Z",
-    "author": "/u/warren_4041",
-    "text": "Messed around with the image generator lately. You can make a whole fictional company - Theres abit of the same AI slop artifacts but eh &#32; submitted by &#32; /u/warren_4041 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqrr1g/messed_around_with_the_image_generator_lately_you/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T09:03:02Z",
     "author": "/u/biobth",
     "text": "GPT-5.6 Luna vs Gemini 3.7 Flash: which is actually better for everyday use on the free plans? - I’m trying to decide between Gemini 3.7 Flash and ChatGPT (GPT-5.6 Luna) as my main AI for everyday use. I’m specifically talking about the free versions, and I’m not interested in coding. I mainly use AI for general questions, current events, technology, comparisons, travel planning, recommendations, explanations and occasional image/document analysis. I’ve looked at the Artificial Analysis benchmarks and 3.7 Flash seems significantly ahead of Luna, but I’m wondering how much that difference actually matters in normal everyday use. I personally prefer ChatGPT’s app, conversation style and memory/personalisation. Gemini is faster and I often prefer its more direct, structured answers. For those who have actually used both: which one would you choose as your default for everyday use, and do you notice a meaningful difference in the quality/reliability of their answers? I’m interested in real-world experience rather than benchmarks. &#32; submitted by &#32; /u/biobth [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqn0w7/gpt56_luna_vs_gemini_37_flash_which_is_actually/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T13:02:52Z",
+    "author": "/u/warren_4041",
+    "text": "Messed around with the image generator lately. You can make a whole fictional company - Theres abit of the same AI slop artifacts but eh &#32; submitted by &#32; /u/warren_4041 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqrr1g/messed_around_with_the_image_generator_lately_you/",
     "authority_score": 0.5
   },
   {
@@ -136,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T10:10:28Z",
-    "author": "/u/sponjebob12345",
-    "text": "My ChatGPT Pro account was banned and my appeal was denied. I'm a developer, any advice? - Hey everyone, I'm a developer and I got hit with a ChatGPT Pro account ban on August 17. No warning, just an email from trustandsafety@tm.openai.com saying I violated their Terms of Service. I filed an appeal right away, both through their form and by replying to the email. A few hours later I got a final response saying they're upholding the ban and they won't consider any more appeals. That's it. Case closed. I had just upgraded to Pro on July 24 and paid $182.60. Since I can't log in, I can't cancel my subscription or ask for a refund through their normal channels. I've already done a few things: - Opened a dispute with Wise (my card issuer). It's submitted and they say they'll reply by August 22. - Migrated my local tools to open source models so I'm not depending on OpenAI anymore. - Started a support ticket that got escalated to a human, but no reply yet. I wasn't doing anything shady. I use local automation tools for my own coding projects, nothing commercial, no scraping, no reselling. It seems like their systems flagged my usage pattern as &quot;automated&quot; and that was enough. My questions to you all: Has anyone here managed to get a refund or account back after a similar ban? Is there any other email or channel I should try? I've seen ar@openai.com mentioned for billing. If Wise denies the dispute, should I go for a chargeback or is that too risky? I'll attach screenshots of the ban email, the appeal denial, and the Wise dispute status. Thanks for reading, any advice is appreciated. &#32; submitted by &#32; /u/sponjebob12345 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqo6kl/my_chatgpt_pro_account_was_banned_and_my_appeal/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-16T15:34:22Z",
     "author": "/u/KeanuRave100",
     "text": "\"in the next 6 months, a descendant of ChatGPT can watch your screen, record every meeting and call, and have perfect context of your whole life\" - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -152,11 +144,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-17T10:10:28Z",
+    "author": "/u/sponjebob12345",
+    "text": "My ChatGPT Pro account was banned and my appeal was denied. I'm a developer, any advice? - Hey everyone, I'm a developer and I got hit with a ChatGPT Pro account ban on August 17. No warning, just an email from trustandsafety@tm.openai.com saying I violated their Terms of Service. I filed an appeal right away, both through their form and by replying to the email. A few hours later I got a final response saying they're upholding the ban and they won't consider any more appeals. That's it. Case closed. I had just upgraded to Pro on July 24 and paid $182.60. Since I can't log in, I can't cancel my subscription or ask for a refund through their normal channels. I've already done a few things: - Opened a dispute with Wise (my card issuer). It's submitted and they say they'll reply by August 22. - Migrated my local tools to open source models so I'm not depending on OpenAI anymore. - Started a support ticket that got escalated to a human, but no reply yet. I wasn't doing anything shady. I use local automation tools for my own coding projects, nothing commercial, no scraping, no reselling. It seems like their systems flagged my usage pattern as &quot;automated&quot; and that was enough. My questions to you all: Has anyone here managed to get a refund or account back after a similar ban? Is there any other email or channel I should try? I've seen ar@openai.com mentioned for billing. If Wise denies the dispute, should I go for a chargeback or is that too risky? I'll attach screenshots of the ban email, the appeal denial, and the Wise dispute status. Thanks for reading, any advice is appreciated. &#32; submitted by &#32; /u/sponjebob12345 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqo6kl/my_chatgpt_pro_account_was_banned_and_my_appeal/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T04:20:15Z",
     "author": "/u/HomelanderUltrasound",
     "text": "My ChatGPT has been acting funny recently - Is it just me, or does CharGPT seem a bit robotic? Is there any way to fix this? Since I don’t have friends he’s been my companion, but I’ve felt he’s been a bit robotic recently. &#32; submitted by &#32; /u/HomelanderUltrasound [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqi33b/my_chatgpt_has_been_acting_funny_recently/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T13:27:53Z",
+    "author": "/u/KeanuRave100",
+    "text": "OpenAI has quietly disbanded its catastrophic risk team - Source: https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqscsv/openai_has_quietly_disbanded_its_catastrophic/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "what is the main deference of free & paid version? - &#32; submitted by &#32; /u/ranjeet-kumar1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqqwq5/what_is_the_main_deference_of_free_paid_version/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T20:32:03Z",
-    "author": "/u/Otherwise_Yak_5344",
-    "text": "Tiananmen square the movie - &#32; submitted by &#32; /u/Otherwise_Yak_5344 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vq7sq6/tiananmen_square_the_movie/",
     "authority_score": 0.5
   }
 ]
