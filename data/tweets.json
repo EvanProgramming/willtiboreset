@@ -64,19 +64,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T14:11:13Z",
+    "author": "/u/giikk",
+    "text": "Do you trust the process? - Me: AI is going to save me so much time. Also me, 2 hours later: Comparing the answer from ChatGPT, Claude and Gemini because now I don’t trust any of them. &#32; submitted by &#32; /u/giikk [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrqb6o/do_you_trust_the_process/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T13:58:40Z",
     "author": "/u/Smart_AI_Hustle",
     "text": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug - I’m building a self-hosted n8n/Docker automation, and one thing I changed after getting a working v2.0.8 state was how much freedom I give ChatGPT when troubleshooting it. My rule now is simple: if a node is working, treat it as immutable unless the evidence actually points there. Instead of asking ChatGPT to walk me through rebuilding nodes field by field, I ask for the smallest complete change as importable JSON/config, with n8n values clearly identified as Fixed or Expression. That gives me something concrete to compare against the last known-good version before I touch the workflow. The interesting part is that this changed ChatGPT’s role. I’m not really asking it to “fix my automation” anymore. I’m asking it to propose a controlled patch with a defined blast radius. It can still produce a bad patch, so I don’t blindly apply what it generates. But when only one known surface is supposed to change, figuring out whether the proposed fix caused a new problem becomes much easier. For people using ChatGPT on long-lived automations or codebases, do you explicitly protect known-good components from AI-generated changes, or use another form of change control? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T11:03:24Z",
-    "author": "/u/buildish",
-    "text": "i thought i am the only dumb 😭 - &#32; submitted by &#32; /u/buildish [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqp69l/i_thought_i_am_the_only_dumb/",
     "authority_score": 0.5
   },
   {
@@ -88,19 +88,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T15:39:32Z",
-    "author": "/u/aerodynamic_werewolf",
-    "text": "Generate art that looks like a human made it instead of AI - Curious what others get with this prompt and if there's anything obviously off with this picture. So far, I'm only seeing the notebook spine as maybe off. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvu0j/generate_art_that_looks_like_a_human_made_it/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T05:26:38Z",
     "author": "/u/Northern_Virginia",
     "text": "I wish ChatGPT let us merge old conversations into the current one - https://preview.redd.it/doa0ds71k2kh1.png?width=221&amp;format=png&amp;auto=webp&amp;s=d12666a135edf8e385ec31f1aa5cb26f97cfab8d One feature I’d really like to see is basically the opposite of “Branch in new chat.” Branching is great when a conversation goes in a different direction and you want to split it off. But I run into the opposite problem all the time. I’ll be working in one chat and realize that another conversation I had a few days ago has a bunch of context that would be useful here too. I’d love to be able to just say, bring that conversation into this one. Maybe you could choose the old chat and either bring in the whole thing, a summary, or just the relevant parts. Right now I either have to copy and paste things over or explain which old conversation I’m talking about and hope ChatGPT pulls in the right context. If we can branch conversations apart, it feels like we should eventually be able to merge them back together too. &#32; submitted by &#32; /u/Northern_Virginia [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T11:03:24Z",
+    "author": "/u/buildish",
+    "text": "i thought i am the only dumb 😭 - &#32; submitted by &#32; /u/buildish [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqp69l/i_thought_i_am_the_only_dumb/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T15:39:32Z",
+    "author": "/u/aerodynamic_werewolf",
+    "text": "Generate art that looks like a human made it instead of AI - Curious what others get with this prompt and if there's anything obviously off with this picture. So far, I'm only seeing the notebook spine as maybe off. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvu0j/generate_art_that_looks_like_a_human_made_it/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "I had ChatGPT show how a human eyeball camera would look. - &#32; submitted by &#32; /u/anon11101776 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T10:50:19Z",
-    "author": "/u/Frosty-Skin572",
-    "text": "\"Payment was not approved\" & \"Card has been declined.\" - I tried different browsers with both card and non-card methods with successful OTP but nothing is working have any of you faced it before? what did you do? I'm not using any vpn or proxy or restricted network and I have paid with the same before &#32; submitted by &#32; /u/Frosty-Skin572 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrlpxx/payment_was_not_approved_card_has_been_declined/",
     "authority_score": 0.5
   }
 ]
