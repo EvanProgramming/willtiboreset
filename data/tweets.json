@@ -56,14 +56,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T22:05:22Z",
-    "author": "/u/SoonBlossom",
-    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T14:11:13Z",
     "author": "/u/giikk",
     "text": "Do you trust the process? - Me: AI is going to save me so much time. Also me, 2 hours later: Comparing the answer from ChatGPT, Claude and Gemini because now I don’t trust any of them. &#32; submitted by &#32; /u/giikk [link] &#32; [comments]",
@@ -72,11 +64,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T13:58:40Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug - I’m building a self-hosted n8n/Docker automation, and one thing I changed after getting a working v2.0.8 state was how much freedom I give ChatGPT when troubleshooting it. My rule now is simple: if a node is working, treat it as immutable unless the evidence actually points there. Instead of asking ChatGPT to walk me through rebuilding nodes field by field, I ask for the smallest complete change as importable JSON/config, with n8n values clearly identified as Fixed or Expression. That gives me something concrete to compare against the last known-good version before I touch the workflow. The interesting part is that this changed ChatGPT’s role. I’m not really asking it to “fix my automation” anymore. I’m asking it to propose a controlled patch with a defined blast radius. It can still produce a bad patch, so I don’t blindly apply what it generates. But when only one known surface is supposed to change, figuring out whether the proposed fix caused a new problem becomes much easier. For people using ChatGPT on long-lived automations or codebases, do you explicitly protect known-good components from AI-generated changes, or use another form of change control? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "timestamp": "2026-08-17T22:05:22Z",
+    "author": "/u/SoonBlossom",
+    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
     "authority_score": 0.5
   },
   {
@@ -85,6 +77,14 @@
     "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T13:58:40Z",
+    "author": "/u/Smart_AI_Hustle",
+    "text": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug - I’m building a self-hosted n8n/Docker automation, and one thing I changed after getting a working v2.0.8 state was how much freedom I give ChatGPT when troubleshooting it. My rule now is simple: if a node is working, treat it as immutable unless the evidence actually points there. Instead of asking ChatGPT to walk me through rebuilding nodes field by field, I ask for the smallest complete change as importable JSON/config, with n8n values clearly identified as Fixed or Expression. That gives me something concrete to compare against the last known-good version before I touch the workflow. The interesting part is that this changed ChatGPT’s role. I’m not really asking it to “fix my automation” anymore. I’m asking it to propose a controlled patch with a defined blast radius. It can still produce a bad patch, so I don’t blindly apply what it generates. But when only one known surface is supposed to change, figuring out whether the proposed fix caused a new problem becomes much easier. For people using ChatGPT on long-lived automations or codebases, do you explicitly protect known-good components from AI-generated changes, or use another form of change control? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T11:45:41Z",
-    "author": "/u/Hour_Standard_8211",
-    "text": "ChatGPT web UI clipboard formatting bug - Need help - Multiline code blocks are not copying correctly when I select them and use Ctrl+C. Example: ChatGPT displays a 4-line code block correctly, but after selecting the entire block and pasting it into Confluence or back into ChatGPT, only the first line remains inside the code block. The remaining lines become ordinary paragraphs. What I want: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. What is happening: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. The code-block Copy button is not a workaround because it copies the code as plain text and removes the code-block formatting. I reproduced the issue in: Chrome Chrome Incognito Microsoft Edge Older ChatGPT conversations Claude's multiline code blocks copy correctly using the same workflow. This appears to be a ChatGPT web rich-text/clipboard formatting regression. I use ChatGPT for technical study and need to copy formatted SystemVerilog code into Confluence, so this significantly affects my workflow. What can i do here, can anyone help? &#32; submitted by &#32; /u/Hour_Standard_8211 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmtwb/chatgpt_web_ui_clipboard_formatting_bug_need_help/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T15:29:59Z",
     "author": "/u/anon11101776",
     "text": "I had ChatGPT show how a human eyeball camera would look. - &#32; submitted by &#32; /u/anon11101776 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T11:45:41Z",
+    "author": "/u/Hour_Standard_8211",
+    "text": "ChatGPT web UI clipboard formatting bug - Need help - Multiline code blocks are not copying correctly when I select them and use Ctrl+C. Example: ChatGPT displays a 4-line code block correctly, but after selecting the entire block and pasting it into Confluence or back into ChatGPT, only the first line remains inside the code block. The remaining lines become ordinary paragraphs. What I want: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. What is happening: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. The code-block Copy button is not a workaround because it copies the code as plain text and removes the code-block formatting. I reproduced the issue in: Chrome Chrome Incognito Microsoft Edge Older ChatGPT conversations Claude's multiline code blocks copy correctly using the same workflow. This appears to be a ChatGPT web rich-text/clipboard formatting regression. I use ChatGPT for technical study and need to copy formatted SystemVerilog code into Confluence, so this significantly affects my workflow. What can i do here, can anyone help? &#32; submitted by &#32; /u/Hour_Standard_8211 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmtwb/chatgpt_web_ui_clipboard_formatting_bug_need_help/",
     "authority_score": 0.5
   }
 ]
