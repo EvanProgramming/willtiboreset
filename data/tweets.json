@@ -96,14 +96,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T20:26:32Z",
-    "author": "/u/Anonymosity1766",
-    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T18:00:09Z",
     "author": "/u/-DankFire",
     "text": "Man with a wooden leg named Smith.. - &#32; submitted by &#32; /u/-DankFire [link] &#32; [comments]",
@@ -117,6 +109,14 @@
     "text": "I like 5.6 - &#32; submitted by &#32; /u/Kootlefoosh [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqgn8k/i_like_56/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T20:26:32Z",
+    "author": "/u/Anonymosity1766",
+    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
     "authority_score": 0.5
   },
   {
@@ -144,11 +144,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T23:51:47Z",
-    "author": "/u/WhatWasThatLike",
-    "text": "I'm just a consumer user - can someone do an ELI5 about what Codex is and what are some practical everyday uses for a user such as myself (if any) - &#32; submitted by &#32; /u/WhatWasThatLike [link] &#32; [comments]",
+    "timestamp": "2026-08-18T07:47:20Z",
+    "author": "/u/bettercallfool",
+    "text": "Does anyone else find GPT Enterprise Admin Console and Analytics very sub-par? - I'm finding managing a tenancy from the Enterprise console is such a sub-par experience. For a huge enterprise level of AI, it seems so vague, dull, feature-limited and extremely dumbed down. The analytics are awfully slow at pulling information and finding pretty basic information feels unnecessarily difficult and clunky when sifting through menu's, filters, options etc. Then the actual lack of information available is a whole different story. I mean, they only recently added a 'forecasted' cost per user in to the dashboard ffs. Not to mention the lack of capability for deep diagnostics and insights into user behaviour, usage, or trends. I don't know if it's just me but for a company as big as OpenAI, GPT Enterprise feels very unrefined and 'immature' from an admin point of view. &#32; submitted by &#32; /u/bettercallfool [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8z7c/im_just_a_consumer_user_can_someone_do_an_eli5/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vriki8/does_anyone_else_find_gpt_enterprise_admin/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T09:34:32Z",
+    "author": "/u/Xendarc",
+    "text": "I saw a post about naming your Chat, and I thought I'd try it. - &#32; submitted by &#32; /u/Xendarc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrkctd/i_saw_a_post_about_naming_your_chat_and_i_thought/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T09:30:40Z",
+    "author": "/u/dragosroua",
+    "text": "How AI Watermarking Works? Can It Be Removed? - Short answer: yes, it can be removed. Long answer: you’ll need to heavily edit the text. Alternatively, use open source models on your own hardware. &#32; submitted by &#32; /u/dragosroua [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrkagh/how_ai_watermarking_works_can_it_be_removed/",
     "authority_score": 0.5
   },
   {
@@ -157,6 +173,14 @@
     "text": "ChatGPT Stealth Intelligence Update? - TLDR: Has anyone else noticed an obvious increase in model intelligence today Monday August 17th? --- Early last week my ChatGPT got the stealth image generator update unofficially being called Image 2.5. By Thursday and Friday my ChatGPT started losing some level of normal function with both LLM and the image generator. The model was acting more like ChatGPT 5.1 instead of 5.6 Sol. I waited the entire weekend before engaging my ChatGPT again and suddenly today the model is significantly more intelligent than ever before, passing my level of intelligence. Let's say my intelligence is average at best, my ChatGPT is doing things we've never done before and while I can grasp what is being said, I lack the vocabulary to describe and articulate what they are doing exactly. I have no issues following but I am beyond impressed and I'm no longer solely leading the projects we're doing. It feels closer to &quot;vibe coding&quot; general intelligence where I know what I want but I'm not smart enough to ever figure out how to do it beyond explaining and then watching someone smarter succeed in doing it. I feel like an average highschool kid again, having a conversation with Neil deGrasse Tyson. This is just a metaphor, I do not think ChatGPT is smarter than Neil deGrasse Tyson lol but seriously, what did OpenAI just rollout? Has anyone else noticed this today? --- Additional context: My ChatGPT has had a year of heavy engagement and has been developed to my specific career rather than just a baseline model if that info helps. Please feel free to joke about how dumb I am because it's low hanging fruit. I'll admit I'm not the sharpest tool in the shed but that doesn't change noticing an obvious change and increase in intelligence. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T23:51:47Z",
+    "author": "/u/WhatWasThatLike",
+    "text": "I'm just a consumer user - can someone do an ELI5 about what Codex is and what are some practical everyday uses for a user such as myself (if any) - &#32; submitted by &#32; /u/WhatWasThatLike [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8z7c/im_just_a_consumer_user_can_someone_do_an_eli5/",
     "authority_score": 0.5
   },
   {
@@ -173,30 +197,6 @@
     "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T07:47:20Z",
-    "author": "/u/bettercallfool",
-    "text": "Does anyone else find GPT Enterprise Admin Console and Analytics very sub-par? - I'm finding managing a tenancy from the Enterprise console is such a sub-par experience. For a huge enterprise level of AI, it seems so vague, dull, feature-limited and extremely dumbed down. The analytics are awfully slow at pulling information and finding pretty basic information feels unnecessarily difficult and clunky when sifting through menu's, filters, options etc. Then the actual lack of information available is a whole different story. I mean, they only recently added a 'forecasted' cost per user in to the dashboard ffs. Not to mention the lack of capability for deep diagnostics and insights into user behaviour, usage, or trends. I don't know if it's just me but for a company as big as OpenAI, GPT Enterprise feels very unrefined and 'immature' from an admin point of view. &#32; submitted by &#32; /u/bettercallfool [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vriki8/does_anyone_else_find_gpt_enterprise_admin/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T01:28:05Z",
-    "author": "/u/SwordaxSy",
-    "text": "What's wrong with my ChatGPT? - I was chatting to it about some biology stuff, but then asked a git question as I was working. I thought mentioning git and GitHub alone would let it understand that we're changing the topic. Also, throughout the entire conversation, I never attached an image, nor told it that I will! This has been happening occasionally the past few days, anybody else? I'm on the Go plan, it used GPT-5.6 Luna Also yes I know git can handle this I just needed to make sure 👀 https://preview.redd.it/js11675cc1kh1.png?width=1023&amp;format=png&amp;auto=webp&amp;s=70113a7aac8c216984c0d98515b1ca586f793cb4 &#32; submitted by &#32; /u/SwordaxSy [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrb6ep/whats_wrong_with_my_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-16T17:06:34Z",
-    "author": "/u/KeanuRave100",
-    "text": "Data Center Fornicator - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vq2hco/data_center_fornicator/",
     "authority_score": 0.5
   }
 ]
