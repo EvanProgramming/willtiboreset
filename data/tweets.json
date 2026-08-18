@@ -128,14 +128,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T07:33:26Z",
-    "author": "/u/KeanuRave100",
-    "text": "Cherokee Nation bans hyperscale data centers on its lands, won't support projects without consultation — energy and water consumption, air quality, noise, and cultural resource protection among concerns - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vric5z/cherokee_nation_bans_hyperscale_data_centers_on/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T23:55:57Z",
     "author": "/u/IndividualRate2652",
     "text": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste? - I often hash out requirements in meetings or brainstorm with teammates before switching over to ChatGPT to actually build things. The problem is ChatGPT never has that context. Copy-pasting notes doesn't really work either, it ends up filling in its own assumptions or missing stuff that was already covered in the discussion, so I keep re-explaining the same things over and over. For anyone who works this way, talk it through first, build later, how do you actually bridge the two? Is there a workflow that actually works, or is everyone just stuck copy-pasting? Curious what's working for other people here. &#32; submitted by &#32; /u/IndividualRate2652 [link] &#32; [comments]",
@@ -189,6 +181,14 @@
     "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T07:47:20Z",
+    "author": "/u/bettercallfool",
+    "text": "Does anyone else find GPT Enterprise Admin Console and Analytics very sub-par? - I'm finding managing a tenancy from the Enterprise console is such a sub-par experience. For a huge enterprise level of AI, it seems so vague, dull, feature-limited and extremely dumbed down. The analytics are awfully slow at pulling information and finding pretty basic information feels unnecessarily difficult and clunky when sifting through menu's, filters, options etc. Then the actual lack of information available is a whole different story. I mean, they only recently added a 'forecasted' cost per user in to the dashboard ffs. Not to mention the lack of capability for deep diagnostics and insights into user behaviour, usage, or trends. I don't know if it's just me but for a company as big as OpenAI, GPT Enterprise feels very unrefined and 'immature' from an admin point of view. &#32; submitted by &#32; /u/bettercallfool [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vriki8/does_anyone_else_find_gpt_enterprise_admin/",
     "authority_score": 0.5
   },
   {
