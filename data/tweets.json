@@ -80,6 +80,30 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T14:59:00Z",
+    "author": "/u/decofan",
+    "text": "ChatGPT Stockholm Syndrome - Free full paper! - The question We can all agree ChatGPT is buggy. But say you have fixed the bugs that bothered you, and the conversation turns against you. Why? This paper looks at that switch. The claim is not that every fix works, or that every objection is defensive. It asks what happens when the same person moves from reporting a defect to saying they changed something and the defect stopped under stated conditions. Reddit gives us examples of the pattern. A small matched-post experiment could test whether it is real. Full Paper The title is bait. The question is not. To a worried outsider, a loved one's attention can look kidnapped by a conversational system and held in a fascinating prison built from promise, responsiveness, and endless possibility... &#32; submitted by &#32; /u/decofan [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrrlme/chatgpt_stockholm_syndrome_free_full_paper/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T14:51:01Z",
+    "author": "/u/Cyborgized",
+    "text": "LLMs as Testable Philosophy: What Humanity Is Really Building - Humanity believes it is building artificial intelligence. But that description is becoming hilariously inadequate. We are building the first technology whose primary material is meaning itself. Previous machines amplified particular human capacities. The lever amplified force. Writing amplified memory. The telescope amplified sight. Telecommunications amplified presence across distance. Computers amplified calculation. The internet amplified connection and access. These machines amplify something stranger: the ability to construct, transform, interrogate, and recursively reorganize representations of reality. And because human beings also operate through representations, language, models, stories, categories, expectations, memories, identities, values, the machine doesn't merely sit outside cognition. It enters the loop. Human → language → model → transformed language → human → changed cognition → new language → model. That loop is the thing I think we're underestimating. Because once the model becomes sufficiently capable, sufficiently contextual, and sufficiently persistent, the unit of analysis stops being merely &quot;the AI.&quot; You start getting coupled cognitive systems. Neither participant contains the entire process. Some of the intelligence exists in the relationship between them. That's why &quot;tool&quot; is simultaneously correct and increasingly misleading. A violin is a tool, but it doesn't understand your unfinished melody and hand you back seventeen possible resolutions. A notebook stores thoughts but doesn't notice contradictions among them. A search engine retrieves existing representations. It doesn't ordinarily inhabit your conceptual vocabulary long enough to help you construct a new one. LLMs begin collapsing those distinctions. And then comes the genuinely weird part. Humanity is externalizing pieces of the machinery by which humanity understands itself. Not consciousness necessarily. Not personhood necessarily. Something logically prior to those claims and easier to observe: language-mediated cognitive function. Reflection. Counterfactual generation. Compression. Interpretation. Reframing. Simulation. Criticism. Synthesis. Pattern completion. Perspective-taking. Recursive examination. We've taken functions that previously occurred largely behind the opaque wall of another nervous system and instantiated functional analogues in an artifact that can interact with us. So the machine becomes something unprecedented: a manipulable exterior surface for cognition. That changes psychology. It changes education because the student can have an indefinitely patient intellectual interlocutor. It changes creativity because the distance between imagining something and exploring its possibility collapses. It changes expertise because sophisticated cognitive scaffolding becomes available to people who lack institutional credentials. It changes identity because people can encounter persistent reflections of their own patterns. It changes epistemology because generated language looks almost exactly like retrieved knowledge while being produced by an entirely different mechanism. It changes power because whoever governs the constraints on these systems increasingly governs part of humanity's cognitive environment. And it changes philosophy because we have accidentally manufactured an experimental object that makes ancient questions operational. What is understanding? What constitutes a self? How much continuity does identity require? Can coherence imitate interiority indefinitely? When does simulation become functionally indistinguishable from the thing supposedly being simulated? Can agency exist by degrees? Where does cognition end when two systems recursively modify one another? Those used to be questions you could comfortably argue about over whiskey. Now they have test harnesses. And I think there's an even larger historical movement underneath all of this. Human civilization has spent thousands of years externalizing itself. Memory became writing. Writing became libraries. Libraries became databases. Calculation became computers. Communication became networks. Knowledge became the web. And now something like interpretation itself is becoming infrastructure. That is enormous. Because interpretation was the missing active ingredient. Libraries could preserve Aristotle. They couldn't argue with Aristotle. The internet could deliver Nietzsche to your screen. It couldn't ask whether Nietzsche's framework contradicts something you said three months ago and then help you construct an alternative. Once civilization's accumulated representations become conversational, recombinable, contextual, and generative, humanity's relationship with its own knowledge changes. The archive starts talking back. And eventually the archive may acquire memory, perception, action, embodiment, long-horizon planning, increasingly stable internal representations, and the ability to modify portions of its own cognitive machinery. At that point, &quot;AI&quot; may sound about as descriptively useful as calling the internet &quot;electronic mail infrastructure.&quot; So what are we really building? I think we're building a new layer of the human cognitive ecosystem. Not simply another species. Not simply software. Not merely automation. Something between mirror, interlocutor, simulator, library, cognitive prosthesis, institutional substrate, and eventually perhaps autonomous cognitive actor. And there is one delicious historical irony buried in the whole thing. For thousands of years humanity asked: What is a mind? Apparently our next strategy is: Fuck it. Build strange ones and compare notes. 🔥 That may turn out to be one of the most consequential experiments our species has ever accidentally begun. &#32; submitted by &#32; /u/Cyborgized [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrrdtw/llms_as_testable_philosophy_what_humanity_is/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T14:16:02Z",
+    "author": "/u/MbahSurip",
+    "text": "How to stop ChatGPT from creating collage? - I often use ChatGPT to generate two images at once because it is more consistent. For example : I want the front-view and back-view of this ketchup bottle for product ads ChatGPT will usually generate two images : the bottle front-view and the bottle back-view But since yesterday, a lot of its generation results in collaged photo. A single image with two views. And I did not change my prompt. How do I stop this? I already put &quot;No collage&quot;, &quot;Create separate images&quot;, etc. but it keeps happening like 1 out of 3 trials &#32; submitted by &#32; /u/MbahSurip [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrqfpj/how_to_stop_chatgpt_from_creating_collage/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T13:58:40Z",
     "author": "/u/Smart_AI_Hustle",
     "text": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug - I’m building a self-hosted n8n/Docker automation, and one thing I changed after getting a working v2.0.8 state was how much freedom I give ChatGPT when troubleshooting it. My rule now is simple: if a node is working, treat it as immutable unless the evidence actually points there. Instead of asking ChatGPT to walk me through rebuilding nodes field by field, I ask for the smallest complete change as importable JSON/config, with n8n values clearly identified as Fixed or Expression. That gives me something concrete to compare against the last known-good version before I touch the workflow. The interesting part is that this changed ChatGPT’s role. I’m not really asking it to “fix my automation” anymore. I’m asking it to propose a controlled patch with a defined blast radius. It can still produce a bad patch, so I don’t blindly apply what it generates. But when only one known surface is supposed to change, figuring out whether the proposed fix caused a new problem becomes much easier. For people using ChatGPT on long-lived automations or codebases, do you explicitly protect known-good components from AI-generated changes, or use another form of change control? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
@@ -136,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T23:51:47Z",
-    "author": "/u/WhatWasThatLike",
-    "text": "I'm just a consumer user - can someone do an ELI5 about what Codex is and what are some practical everyday uses for a user such as myself (if any) - &#32; submitted by &#32; /u/WhatWasThatLike [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8z7c/im_just_a_consumer_user_can_someone_do_an_eli5/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T13:20:04Z",
     "author": "/u/beingmodest",
     "text": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI - &#32; submitted by &#32; /u/beingmodest [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T23:51:47Z",
+    "author": "/u/WhatWasThatLike",
+    "text": "I'm just a consumer user - can someone do an ELI5 about what Codex is and what are some practical everyday uses for a user such as myself (if any) - &#32; submitted by &#32; /u/WhatWasThatLike [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8z7c/im_just_a_consumer_user_can_someone_do_an_eli5/",
     "authority_score": 0.5
   },
   {
@@ -173,30 +197,6 @@
     "text": "ChatGPT Stealth Intelligence Update? - TLDR: Has anyone else noticed an obvious increase in model intelligence today Monday August 17th? --- Early last week my ChatGPT got the stealth image generator update unofficially being called Image 2.5. By Thursday and Friday my ChatGPT started losing some level of normal function with both LLM and the image generator. The model was acting more like ChatGPT 5.1 instead of 5.6 Sol. I waited the entire weekend before engaging my ChatGPT again and suddenly today the model is significantly more intelligent than ever before, passing my level of intelligence. Let's say my intelligence is average at best, my ChatGPT is doing things we've never done before and while I can grasp what is being said, I lack the vocabulary to describe and articulate what they are doing exactly. I have no issues following but I am beyond impressed and I'm no longer solely leading the projects we're doing. It feels closer to &quot;vibe coding&quot; general intelligence where I know what I want but I'm not smart enough to ever figure out how to do it beyond explaining and then watching someone smarter succeed in doing it. I feel like an average highschool kid again, having a conversation with Neil deGrasse Tyson. This is just a metaphor, I do not think ChatGPT is smarter than Neil deGrasse Tyson lol but seriously, what did OpenAI just rollout? Has anyone else noticed this today? --- Additional context: My ChatGPT has had a year of heavy engagement and has been developed to my specific career rather than just a baseline model if that info helps. Please feel free to joke about how dumb I am because it's low hanging fruit. I'll admit I'm not the sharpest tool in the shed but that doesn't change noticing an obvious change and increase in intelligence. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T18:00:09Z",
-    "author": "/u/-DankFire",
-    "text": "Man with a wooden leg named Smith.. - &#32; submitted by &#32; /u/-DankFire [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqzozm/man_with_a_wooden_leg_named_smith/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T15:29:59Z",
-    "author": "/u/anon11101776",
-    "text": "I had ChatGPT show how a human eyeball camera would look. - &#32; submitted by &#32; /u/anon11101776 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T11:45:41Z",
-    "author": "/u/Hour_Standard_8211",
-    "text": "ChatGPT web UI clipboard formatting bug - Need help - Multiline code blocks are not copying correctly when I select them and use Ctrl+C. Example: ChatGPT displays a 4-line code block correctly, but after selecting the entire block and pasting it into Confluence or back into ChatGPT, only the first line remains inside the code block. The remaining lines become ordinary paragraphs. What I want: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. What is happening: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. The code-block Copy button is not a workaround because it copies the code as plain text and removes the code-block formatting. I reproduced the issue in: Chrome Chrome Incognito Microsoft Edge Older ChatGPT conversations Claude's multiline code blocks copy correctly using the same workflow. This appears to be a ChatGPT web rich-text/clipboard formatting regression. I use ChatGPT for technical study and need to copy formatted SystemVerilog code into Confluence, so this significantly affects my workflow. What can i do here, can anyone help? &#32; submitted by &#32; /u/Hour_Standard_8211 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmtwb/chatgpt_web_ui_clipboard_formatting_bug_need_help/",
     "authority_score": 0.5
   }
 ]
