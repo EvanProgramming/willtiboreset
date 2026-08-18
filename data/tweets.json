@@ -56,6 +56,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T05:26:38Z",
+    "author": "/u/Northern_Virginia",
+    "text": "I wish ChatGPT let us merge old conversations into the current one - https://preview.redd.it/doa0ds71k2kh1.png?width=221&amp;format=png&amp;auto=webp&amp;s=d12666a135edf8e385ec31f1aa5cb26f97cfab8d One feature I’d really like to see is basically the opposite of “Branch in new chat.” Branching is great when a conversation goes in a different direction and you want to split it off. But I run into the opposite problem all the time. I’ll be working in one chat and realize that another conversation I had a few days ago has a bunch of context that would be useful here too. I’d love to be able to just say, bring that conversation into this one. Maybe you could choose the old chat and either bring in the whole thing, a summary, or just the relevant parts. Right now I either have to copy and paste things over or explain which old conversation I’m talking about and hope ChatGPT pulls in the right context. If we can branch conversations apart, it feels like we should eventually be able to merge them back together too. &#32; submitted by &#32; /u/Northern_Virginia [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T15:39:32Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "Generate art that looks like a human made it instead of AI - Curious what others get with this prompt and if there's anything obviously off with this picture. So far, I'm only seeing the notebook spine as maybe off. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
@@ -72,11 +80,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T05:26:38Z",
-    "author": "/u/Northern_Virginia",
-    "text": "I wish ChatGPT let us merge old conversations into the current one - https://preview.redd.it/doa0ds71k2kh1.png?width=221&amp;format=png&amp;auto=webp&amp;s=d12666a135edf8e385ec31f1aa5cb26f97cfab8d One feature I’d really like to see is basically the opposite of “Branch in new chat.” Branching is great when a conversation goes in a different direction and you want to split it off. But I run into the opposite problem all the time. I’ll be working in one chat and realize that another conversation I had a few days ago has a bunch of context that would be useful here too. I’d love to be able to just say, bring that conversation into this one. Maybe you could choose the old chat and either bring in the whole thing, a summary, or just the relevant parts. Right now I either have to copy and paste things over or explain which old conversation I’m talking about and hope ChatGPT pulls in the right context. If we can branch conversations apart, it feels like we should eventually be able to merge them back together too. &#32; submitted by &#32; /u/Northern_Virginia [link] &#32; [comments]",
+    "timestamp": "2026-08-18T11:23:32Z",
+    "author": "/u/iamsatvik20",
+    "text": "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week - hey guys i have been benchmarking all the new models on my own datasets and real work tasks this week since everyone keeps arguing about which one is the absolute best. here is my honest review based on actual stats and how they feel. my account is pretty new here but i wanted to share this because most online reviews feel like total marketing. lets look at raw intelligence and coding first. gpt 5.6 sol is currently leading the artificial analysis snapshot at 57.2 points while opus 5 is right behind at 56.5 points. for agentic coding tasks opus 5 is a beast and tops the agentic index at 55.3 percent. but glm 5.2 which is an open weight model is crazy good for the price since it gets 62.1 percent on swe bench pro and 81 percent on terminal bench 2.1. deepseek v4 pro claims huge numbers but independent testing on terminal bench 2.1 showed it only hit 54.68 percent which is a bit of a letdown compared to what they promised. for reasoning and hard logic patterns gemini 3.1 pro is the king right now. google deepmind really cooked here because it scored 77.1 percent on arc agi 2 which is literally more than double the performance of the older version. it also completely dominates the omniscience index with a score of positive 30 while opus only got positive 11. gemini has a massive 1 million token context window which handles huge files easily. now lets talk about cost because this is where things get interesting. deepseek v4 pro is ridiculously cheap at 0.435 dollars per million input tokens and 0.87 dollars per million output tokens. that is way cheaper than opus 5 which costs 5 dollars per million input tokens and 25 dollars per million output tokens. glm 5.2 is also super affordable at 0.90 dollars per million tokens for non reasoning tasks. gpt 5.6 has a cheap tier called luna but if you want the full power of sol it gets pricey. my conclusion is that there is no single winner. if you want raw agentic power and coding you go with opus 5 or gpt 5.6 sol. if you need deep reasoning or huge context windows gemini 3.1 pro is unmatched. if you are on a budget or want open source then deepseek v4 pro or glm 5.2 are insane value. what do you guys think. &#32; submitted by &#32; /u/iamsatvik20 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmdrg/my_honest_comparison_of_gpt_56_vs_glm_52_vs/",
     "authority_score": 0.5
   },
   {
@@ -85,14 +93,6 @@
     "text": "Unrecognized Mumbai session — should I be worried? - I need some advice because I'm honestly freaking out . I checked my ChatGPT active sessions and found a session showing: Computer · Linux Mumbai, Maharashtra Date: June 27 I live elsewhere and don't use Linux. The weird part is that I know someone from Mumbai who had access to my Gmail account a few years ago. I can't confirm the Mumbai session was hers, but it's making me wonder whether she may have accessed my ChatGPT account. My ChatGPT contains a LOT of EXTREMELY personal conversations. I'm talking about things I would ABSOLUTELY NOT want someone I know to read. I've already logged out of all ChatGPT sessions. My questions are: Is there any way to determine whether that specific session actually opened/read my conversations? Is there any other evidence I should check before assuming the worst? I'm not trying to accuse anyone, I just want to know whether there's a way to establish what actually happened. &#32; submitted by &#32; /u/royaluc [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqit9h/unrecognized_mumbai_session_should_i_be_worried/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T09:17:25Z",
-    "author": "/u/gamemaniax",
-    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -120,11 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T11:23:32Z",
-    "author": "/u/iamsatvik20",
-    "text": "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week - hey guys i have been benchmarking all the new models on my own datasets and real work tasks this week since everyone keeps arguing about which one is the absolute best. here is my honest review based on actual stats and how they feel. my account is pretty new here but i wanted to share this because most online reviews feel like total marketing. lets look at raw intelligence and coding first. gpt 5.6 sol is currently leading the artificial analysis snapshot at 57.2 points while opus 5 is right behind at 56.5 points. for agentic coding tasks opus 5 is a beast and tops the agentic index at 55.3 percent. but glm 5.2 which is an open weight model is crazy good for the price since it gets 62.1 percent on swe bench pro and 81 percent on terminal bench 2.1. deepseek v4 pro claims huge numbers but independent testing on terminal bench 2.1 showed it only hit 54.68 percent which is a bit of a letdown compared to what they promised. for reasoning and hard logic patterns gemini 3.1 pro is the king right now. google deepmind really cooked here because it scored 77.1 percent on arc agi 2 which is literally more than double the performance of the older version. it also completely dominates the omniscience index with a score of positive 30 while opus only got positive 11. gemini has a massive 1 million token context window which handles huge files easily. now lets talk about cost because this is where things get interesting. deepseek v4 pro is ridiculously cheap at 0.435 dollars per million input tokens and 0.87 dollars per million output tokens. that is way cheaper than opus 5 which costs 5 dollars per million input tokens and 25 dollars per million output tokens. glm 5.2 is also super affordable at 0.90 dollars per million tokens for non reasoning tasks. gpt 5.6 has a cheap tier called luna but if you want the full power of sol it gets pricey. my conclusion is that there is no single winner. if you want raw agentic power and coding you go with opus 5 or gpt 5.6 sol. if you need deep reasoning or huge context windows gemini 3.1 pro is unmatched. if you are on a budget or want open source then deepseek v4 pro or glm 5.2 are insane value. what do you guys think. &#32; submitted by &#32; /u/iamsatvik20 [link] &#32; [comments]",
+    "timestamp": "2026-08-17T18:00:09Z",
+    "author": "/u/-DankFire",
+    "text": "Man with a wooden leg named Smith.. - &#32; submitted by &#32; /u/-DankFire [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmdrg/my_honest_comparison_of_gpt_56_vs_glm_52_vs/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqzozm/man_with_a_wooden_leg_named_smith/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T09:17:25Z",
+    "author": "/u/gamemaniax",
+    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -133,14 +141,6 @@
     "text": "I had ChatGPT show how a human eyeball camera would look. - &#32; submitted by &#32; /u/anon11101776 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T18:00:09Z",
-    "author": "/u/-DankFire",
-    "text": "Man with a wooden leg named Smith.. - &#32; submitted by &#32; /u/-DankFire [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqzozm/man_with_a_wooden_leg_named_smith/",
     "authority_score": 0.5
   },
   {
@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T20:26:32Z",
-    "author": "/u/Anonymosity1766",
-    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T18:41:47Z",
     "author": "/u/CrazyGud",
     "text": "Coworkers are using ChatGPT - I went from a salary job in film to freelance. I’ve made commercials, documentaries, socials, everything and have had job interviews for other roles. When I first discovered ai, I was using a lot for script writing. It was awesome. I soon learned everyone was doing that. And not only in script writing, but I found people were using it for email, advertising, art, etc. I could see it everywhere. This made me feel un original so I stopped using it for film and let my mind contemplate again. i still used it though for other things. I left my salary job for a new job. My first job interview felt weird. As though my future employers were using Ai to plan the business and interview questions for me. The questions were almost identical to ChatGPT. The plans and website were also generated as I soon learned. Through the interview process, I would also feed my notes into Ai to see what it would think of the job. I also fed my contract into Ai to see if there were any red flags. I’m assuming they did this too with anything I said. It’s almost like everyone is looking through the lens of Ai. I ended up accepting this job as I believe in the idea. Although, anytime I message everyone in the business about ideas, I’m responded with a ChatGPT message. I’m trying to connect to everyone but everyone seems so distant! It’s like no one wants to work or actually believes in what we’re doing! They just believe in ai because ai said this was a good idea… I’ve been moving to freelance film recently to capture more of a documentary style art form because I believe authenticity will win. Truism and Verite will be the thing everyone wants to see. But for now, the ai stuff is getting annoying. &#32; submitted by &#32; /u/CrazyGud [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T20:26:32Z",
+    "author": "/u/Anonymosity1766",
+    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T12:01:37Z",
-    "author": "/u/FoxySora",
-    "text": "Getting worse - ChatGPT has gotten much worse lately. Once you hit the weekly limit, you're locked out for 2 days, which means you essentially lose 2 days of your paid plan. If that happens 5 times a month, you lose 10 days—leaving you with only 20 days of actual use. Their rate limit policy is way too strict. &#32; submitted by &#32; /u/FoxySora [link] &#32; [comments]",
+    "timestamp": "2026-08-18T11:45:41Z",
+    "author": "/u/Hour_Standard_8211",
+    "text": "ChatGPT web UI clipboard formatting bug - Need help - Multiline code blocks are not copying correctly when I select them and use Ctrl+C. Example: ChatGPT displays a 4-line code block correctly, but after selecting the entire block and pasting it into Confluence or back into ChatGPT, only the first line remains inside the code block. The remaining lines become ordinary paragraphs. What I want: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. What is happening: Here is text before. Line 1 Line 2 Line 3 Line 4 Here is text after. The code-block Copy button is not a workaround because it copies the code as plain text and removes the code-block formatting. I reproduced the issue in: Chrome Chrome Incognito Microsoft Edge Older ChatGPT conversations Claude's multiline code blocks copy correctly using the same workflow. This appears to be a ChatGPT web rich-text/clipboard formatting regression. I use ChatGPT for technical study and need to copy formatted SystemVerilog code into Confluence, so this significantly affects my workflow. What can i do here, can anyone help? &#32; submitted by &#32; /u/Hour_Standard_8211 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrn66t/getting_worse/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmtwb/chatgpt_web_ui_clipboard_formatting_bug_need_help/",
     "authority_score": 0.5
   }
 ]
