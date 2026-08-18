@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T22:11:54Z",
-    "author": "/u/ContactIcy3963",
-    "text": "Thoughts on using AI to mod video games? - I am looking for feedback/justification to utilize AI tools to assist in the coding of video game mods. It’s pretty stigmatized but a lot of the low level code on open source / decompilable games AI can handle without breaking a sweat. So far I’ve limited my scope to updating deprecated mods that were either abandoned or no longer regularly worked on by the modders so old mods for Minecraft, Balatro, 2d Pokemon, stellaris etc. AI has been able to update the mod to be workable to the most recent versions, and it’s been a blast getting it to work this way. Course, I sometimes get flamed for the use of ANY AI here but I feel that this is right up its alley. I went from staring at long forgotten mods praying for an update to updating, and even enhancing, them myself. Y’all get similar sentiments, and how best to address them? I’d like to eventually manage content creation but art assets are still pretty far away from cresting the uncanny valley. Any suggestions on how to improve image generation? Thanks in advance for your feedback. &#32; submitted by &#32; /u/ContactIcy3963 [link] &#32; [comments]",
+    "timestamp": "2026-08-18T03:47:23Z",
+    "author": "/u/amcauseitsearly",
+    "text": "SOL ULTRA recovered 155GB of storace space on my MBP - I am not the most technical person in the world but I've had this lingering issue with my m4 MBP where a significant amount of storage was being taken up by system data. I asked chat to diagnose the issue and help clear it out. From Chat about how hidden these files were &quot;They were extremely hidden: inside your normally hidden Library folder, then CloudStorage, then an old detached iCloud Drive folder, then another hidden .Trash folder. They didn’t appear in Finder’s regular Trash, so macOS simply labeled them “System Data.&quot; Daisy Disk could never do this for me. And it happened within minutes! https://preview.redd.it/gic9xmvz12kh1.png?width=964&amp;format=png&amp;auto=webp&amp;s=bbe99590b4471e1e945562d62fa6117af9d822b7 &#32; submitted by &#32; /u/amcauseitsearly [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6kht/thoughts_on_using_ai_to_mod_video_games/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vre5qo/sol_ultra_recovered_155gb_of_storace_space_on_my/",
     "authority_score": 0.5
   }
 ]
