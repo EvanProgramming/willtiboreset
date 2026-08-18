@@ -72,19 +72,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T04:59:40Z",
-    "author": "/u/royaluc",
-    "text": "Unrecognized Mumbai session — should I be worried? - I need some advice because I'm honestly freaking out . I checked my ChatGPT active sessions and found a session showing: Computer · Linux Mumbai, Maharashtra Date: June 27 I live elsewhere and don't use Linux. The weird part is that I know someone from Mumbai who had access to my Gmail account a few years ago. I can't confirm the Mumbai session was hers, but it's making me wonder whether she may have accessed my ChatGPT account. My ChatGPT contains a LOT of EXTREMELY personal conversations. I'm talking about things I would ABSOLUTELY NOT want someone I know to read. I've already logged out of all ChatGPT sessions. My questions are: Is there any way to determine whether that specific session actually opened/read my conversations? Is there any other evidence I should check before assuming the worst? I'm not trying to accuse anyone, I just want to know whether there's a way to establish what actually happened. &#32; submitted by &#32; /u/royaluc [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqit9h/unrecognized_mumbai_session_should_i_be_worried/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T05:26:38Z",
     "author": "/u/Northern_Virginia",
     "text": "I wish ChatGPT let us merge old conversations into the current one - https://preview.redd.it/doa0ds71k2kh1.png?width=221&amp;format=png&amp;auto=webp&amp;s=d12666a135edf8e385ec31f1aa5cb26f97cfab8d One feature I’d really like to see is basically the opposite of “Branch in new chat.” Branching is great when a conversation goes in a different direction and you want to split it off. But I run into the opposite problem all the time. I’ll be working in one chat and realize that another conversation I had a few days ago has a bunch of context that would be useful here too. I’d love to be able to just say, bring that conversation into this one. Maybe you could choose the old chat and either bring in the whole thing, a summary, or just the relevant parts. Right now I either have to copy and paste things over or explain which old conversation I’m talking about and hope ChatGPT pulls in the right context. If we can branch conversations apart, it feels like we should eventually be able to merge them back together too. &#32; submitted by &#32; /u/Northern_Virginia [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrg2i6/i_wish_chatgpt_let_us_merge_old_conversations/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T04:59:40Z",
+    "author": "/u/royaluc",
+    "text": "Unrecognized Mumbai session — should I be worried? - I need some advice because I'm honestly freaking out . I checked my ChatGPT active sessions and found a session showing: Computer · Linux Mumbai, Maharashtra Date: June 27 I live elsewhere and don't use Linux. The weird part is that I know someone from Mumbai who had access to my Gmail account a few years ago. I can't confirm the Mumbai session was hers, but it's making me wonder whether she may have accessed my ChatGPT account. My ChatGPT contains a LOT of EXTREMELY personal conversations. I'm talking about things I would ABSOLUTELY NOT want someone I know to read. I've already logged out of all ChatGPT sessions. My questions are: Is there any way to determine whether that specific session actually opened/read my conversations? Is there any other evidence I should check before assuming the worst? I'm not trying to accuse anyone, I just want to know whether there's a way to establish what actually happened. &#32; submitted by &#32; /u/royaluc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqit9h/unrecognized_mumbai_session_should_i_be_worried/",
     "authority_score": 0.5
   },
   {
@@ -104,35 +104,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T09:17:25Z",
-    "author": "/u/gamemaniax",
-    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T15:29:59Z",
     "author": "/u/anon11101776",
     "text": "I had ChatGPT show how a human eyeball camera would look. - &#32; submitted by &#32; /u/anon11101776 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvkz1/i_had_chatgpt_show_how_a_human_eyeball_camera/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T23:55:57Z",
-    "author": "/u/IndividualRate2652",
-    "text": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste? - I often hash out requirements in meetings or brainstorm with teammates before switching over to ChatGPT to actually build things. The problem is ChatGPT never has that context. Copy-pasting notes doesn't really work either, it ends up filling in its own assumptions or missing stuff that was already covered in the discussion, so I keep re-explaining the same things over and over. For anyone who works this way, talk it through first, build later, how do you actually bridge the two? Is there a workflow that actually works, or is everyone just stuck copy-pasting? Curious what's working for other people here. &#32; submitted by &#32; /u/IndividualRate2652 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T10:50:19Z",
-    "author": "/u/Frosty-Skin572",
-    "text": "\"Payment was not approved\" & \"Card has been declined.\" - I tried different browsers with both card and non-card methods with successful OTP but nothing is working have any of you faced it before? what did you do? I'm not using any vpn or proxy or restricted network and I have paid with the same before &#32; submitted by &#32; /u/Frosty-Skin572 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrlpxx/payment_was_not_approved_card_has_been_declined/",
     "authority_score": 0.5
   },
   {
@@ -144,6 +120,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-17T23:55:57Z",
+    "author": "/u/IndividualRate2652",
+    "text": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste? - I often hash out requirements in meetings or brainstorm with teammates before switching over to ChatGPT to actually build things. The problem is ChatGPT never has that context. Copy-pasting notes doesn't really work either, it ends up filling in its own assumptions or missing stuff that was already covered in the discussion, so I keep re-explaining the same things over and over. For anyone who works this way, talk it through first, build later, how do you actually bridge the two? Is there a workflow that actually works, or is everyone just stuck copy-pasting? Curious what's working for other people here. &#32; submitted by &#32; /u/IndividualRate2652 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T18:00:09Z",
     "author": "/u/-DankFire",
     "text": "Man with a wooden leg named Smith.. - &#32; submitted by &#32; /u/-DankFire [link] &#32; [comments]",
@@ -152,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T20:26:32Z",
-    "author": "/u/Anonymosity1766",
-    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T03:08:09Z",
     "author": "/u/Kootlefoosh",
     "text": "I like 5.6 - &#32; submitted by &#32; /u/Kootlefoosh [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqgn8k/i_like_56/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T20:26:32Z",
+    "author": "/u/Anonymosity1766",
+    "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
     "authority_score": 0.5
   },
   {
@@ -184,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T09:17:25Z",
+    "author": "/u/gamemaniax",
+    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T08:21:50Z",
     "author": "/u/KeanuRave100",
     "text": "New York City nurses say AI is replacing them | Nurses laid off in July by Montefiore Hospitals in the Bronx sounded the alarm about AI in healthcare, a concern shared by nurses across the country - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -197,6 +189,14 @@
     "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T07:55:09Z",
+    "author": "/u/Darth_Zounds",
+    "text": "Excuse me if this was asked before... - How can I compliment ChatGPT on an image it's generated *without* somehow prompting it to re-do the thing it just did? I might say &quot;Excellent work; that's perfect!&quot; and before I know it, it *somehow* takes that as a cue to go back to the drawing board! &#32; submitted by &#32; /u/Darth_Zounds [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrip57/excuse_me_if_this_was_asked_before/",
     "authority_score": 0.5
   }
 ]
