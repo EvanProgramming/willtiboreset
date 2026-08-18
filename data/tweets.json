@@ -40,19 +40,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T06:25:44Z",
-    "author": "/u/tiguidoio",
-    "text": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again - &#32; submitted by &#32; /u/tiguidoio [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T14:42:56Z",
     "author": "/u/Character-Stable-498",
     "text": "A tale as old as time - &#32; submitted by &#32; /u/Character-Stable-498 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vquapt/a_tale_as_old_as_time/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T06:25:44Z",
+    "author": "/u/tiguidoio",
+    "text": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again - &#32; submitted by &#32; /u/tiguidoio [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
     "authority_score": 0.5
   },
   {
@@ -64,19 +64,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T15:39:32Z",
-    "author": "/u/aerodynamic_werewolf",
-    "text": "Generate art that looks like a human made it instead of AI - Curious what others get with this prompt and if there's anything obviously off with this picture. So far, I'm only seeing the notebook spine as maybe off. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvu0j/generate_art_that_looks_like_a_human_made_it/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T11:03:24Z",
     "author": "/u/buildish",
     "text": "i thought i am the only dumb 😭 - &#32; submitted by &#32; /u/buildish [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqp69l/i_thought_i_am_the_only_dumb/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T15:39:32Z",
+    "author": "/u/aerodynamic_werewolf",
+    "text": "Generate art that looks like a human made it instead of AI - Curious what others get with this prompt and if there's anything obviously off with this picture. So far, I'm only seeing the notebook spine as maybe off. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqvu0j/generate_art_that_looks_like_a_human_made_it/",
     "authority_score": 0.5
   },
   {
@@ -88,19 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T23:55:57Z",
-    "author": "/u/IndividualRate2652",
-    "text": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste? - I often hash out requirements in meetings or brainstorm with teammates before switching over to ChatGPT to actually build things. The problem is ChatGPT never has that context. Copy-pasting notes doesn't really work either, it ends up filling in its own assumptions or missing stuff that was already covered in the discussion, so I keep re-explaining the same things over and over. For anyone who works this way, talk it through first, build later, how do you actually bridge the two? Is there a workflow that actually works, or is everyone just stuck copy-pasting? Curious what's working for other people here. &#32; submitted by &#32; /u/IndividualRate2652 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T11:23:32Z",
     "author": "/u/iamsatvik20",
     "text": "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week - hey guys i have been benchmarking all the new models on my own datasets and real work tasks this week since everyone keeps arguing about which one is the absolute best. here is my honest review based on actual stats and how they feel. my account is pretty new here but i wanted to share this because most online reviews feel like total marketing. lets look at raw intelligence and coding first. gpt 5.6 sol is currently leading the artificial analysis snapshot at 57.2 points while opus 5 is right behind at 56.5 points. for agentic coding tasks opus 5 is a beast and tops the agentic index at 55.3 percent. but glm 5.2 which is an open weight model is crazy good for the price since it gets 62.1 percent on swe bench pro and 81 percent on terminal bench 2.1. deepseek v4 pro claims huge numbers but independent testing on terminal bench 2.1 showed it only hit 54.68 percent which is a bit of a letdown compared to what they promised. for reasoning and hard logic patterns gemini 3.1 pro is the king right now. google deepmind really cooked here because it scored 77.1 percent on arc agi 2 which is literally more than double the performance of the older version. it also completely dominates the omniscience index with a score of positive 30 while opus only got positive 11. gemini has a massive 1 million token context window which handles huge files easily. now lets talk about cost because this is where things get interesting. deepseek v4 pro is ridiculously cheap at 0.435 dollars per million input tokens and 0.87 dollars per million output tokens. that is way cheaper than opus 5 which costs 5 dollars per million input tokens and 25 dollars per million output tokens. glm 5.2 is also super affordable at 0.90 dollars per million tokens for non reasoning tasks. gpt 5.6 has a cheap tier called luna but if you want the full power of sol it gets pricey. my conclusion is that there is no single winner. if you want raw agentic power and coding you go with opus 5 or gpt 5.6 sol. if you need deep reasoning or huge context windows gemini 3.1 pro is unmatched. if you are on a budget or want open source then deepseek v4 pro or glm 5.2 are insane value. what do you guys think. &#32; submitted by &#32; /u/iamsatvik20 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmdrg/my_honest_comparison_of_gpt_56_vs_glm_52_vs/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T23:55:57Z",
+    "author": "/u/IndividualRate2652",
+    "text": "ChatGPT and meeting context, how do you carry over discussions without lossy copy-paste? - I often hash out requirements in meetings or brainstorm with teammates before switching over to ChatGPT to actually build things. The problem is ChatGPT never has that context. Copy-pasting notes doesn't really work either, it ends up filling in its own assumptions or missing stuff that was already covered in the discussion, so I keep re-explaining the same things over and over. For anyone who works this way, talk it through first, build later, how do you actually bridge the two? Is there a workflow that actually works, or is everyone just stuck copy-pasting? Curious what's working for other people here. &#32; submitted by &#32; /u/IndividualRate2652 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr92kf/chatgpt_and_meeting_context_how_do_you_carry_over/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T18:41:47Z",
-    "author": "/u/CrazyGud",
-    "text": "Coworkers are using ChatGPT - I went from a salary job in film to freelance. I’ve made commercials, documentaries, socials, everything and have had job interviews for other roles. When I first discovered ai, I was using a lot for script writing. It was awesome. I soon learned everyone was doing that. And not only in script writing, but I found people were using it for email, advertising, art, etc. I could see it everywhere. This made me feel un original so I stopped using it for film and let my mind contemplate again. i still used it though for other things. I left my salary job for a new job. My first job interview felt weird. As though my future employers were using Ai to plan the business and interview questions for me. The questions were almost identical to ChatGPT. The plans and website were also generated as I soon learned. Through the interview process, I would also feed my notes into Ai to see what it would think of the job. I also fed my contract into Ai to see if there were any red flags. I’m assuming they did this too with anything I said. It’s almost like everyone is looking through the lens of Ai. I ended up accepting this job as I believe in the idea. Although, anytime I message everyone in the business about ideas, I’m responded with a ChatGPT message. I’m trying to connect to everyone but everyone seems so distant! It’s like no one wants to work or actually believes in what we’re doing! They just believe in ai because ai said this was a good idea… I’ve been moving to freelance film recently to capture more of a documentary style art form because I believe authenticity will win. Truism and Verite will be the thing everyone wants to see. But for now, the ai stuff is getting annoying. &#32; submitted by &#32; /u/CrazyGud [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T20:26:32Z",
     "author": "/u/Anonymosity1766",
     "text": "Codex is incredible... - After using Claude's Cowork for some time and being averse to switching to Codex, I can't believe I didn't switch sooner. With Cowork I was constantly running into hitches and errors and Cowork being unsure of how to proceed. Codex executes things flawlessly with barely any engagement necessary from me at all, which was my initial expectation when using a tool like this. I know it should be the bare minimum but wow I'm just blown away. Simply felt the need to share hahaha &#32; submitted by &#32; /u/Anonymosity1766 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vr3tcv/codex_is_incredible/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T18:41:47Z",
+    "author": "/u/CrazyGud",
+    "text": "Coworkers are using ChatGPT - I went from a salary job in film to freelance. I’ve made commercials, documentaries, socials, everything and have had job interviews for other roles. When I first discovered ai, I was using a lot for script writing. It was awesome. I soon learned everyone was doing that. And not only in script writing, but I found people were using it for email, advertising, art, etc. I could see it everywhere. This made me feel un original so I stopped using it for film and let my mind contemplate again. i still used it though for other things. I left my salary job for a new job. My first job interview felt weird. As though my future employers were using Ai to plan the business and interview questions for me. The questions were almost identical to ChatGPT. The plans and website were also generated as I soon learned. Through the interview process, I would also feed my notes into Ai to see what it would think of the job. I also fed my contract into Ai to see if there were any red flags. I’m assuming they did this too with anything I said. It’s almost like everyone is looking through the lens of Ai. I ended up accepting this job as I believe in the idea. Although, anytime I message everyone in the business about ideas, I’m responded with a ChatGPT message. I’m trying to connect to everyone but everyone seems so distant! It’s like no one wants to work or actually believes in what we’re doing! They just believe in ai because ai said this was a good idea… I’ve been moving to freelance film recently to capture more of a documentary style art form because I believe authenticity will win. Truism and Verite will be the thing everyone wants to see. But for now, the ai stuff is getting annoying. &#32; submitted by &#32; /u/CrazyGud [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr0w60/coworkers_are_using_chatgpt/",
     "authority_score": 0.5
   }
 ]
