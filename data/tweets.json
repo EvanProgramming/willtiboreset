@@ -88,11 +88,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T09:17:25Z",
+    "author": "/u/gamemaniax",
+    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-17T13:20:04Z",
     "author": "/u/beingmodest",
     "text": "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI - &#32; submitted by &#32; /u/beingmodest [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqs62g/if_i_cant_have_her_nobody_can_chatgpt_flags/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T01:15:53Z",
+    "author": "/u/The_Digital_Hearts",
+    "text": "ChatGPT Stealth Intelligence Update? - TLDR: Has anyone else noticed an obvious increase in model intelligence today Monday August 17th? --- Early last week my ChatGPT got the stealth image generator update unofficially being called Image 2.5. By Thursday and Friday my ChatGPT started losing some level of normal function with both LLM and the image generator. The model was acting more like ChatGPT 5.1 instead of 5.6 Sol. I waited the entire weekend before engaging my ChatGPT again and suddenly today the model is significantly more intelligent than ever before, passing my level of intelligence. Let's say my intelligence is average at best, my ChatGPT is doing things we've never done before and while I can grasp what is being said, I lack the vocabulary to describe and articulate what they are doing exactly. I have no issues following but I am beyond impressed and I'm no longer solely leading the projects we're doing. It feels closer to &quot;vibe coding&quot; general intelligence where I know what I want but I'm not smart enough to ever figure out how to do it beyond explaining and then watching someone smarter succeed in doing it. I feel like an average highschool kid again, having a conversation with Neil deGrasse Tyson. This is just a metaphor, I do not think ChatGPT is smarter than Neil deGrasse Tyson lol but seriously, what did OpenAI just rollout? Has anyone else noticed this today? --- Additional context: My ChatGPT has had a year of heavy engagement and has been developed to my specific career rather than just a baseline model if that info helps. Please feel free to joke about how dumb I am because it's low hanging fruit. I'll admit I'm not the sharpest tool in the shed but that doesn't change noticing an obvious change and increase in intelligence. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
     "authority_score": 0.5
   },
   {
@@ -104,11 +120,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T01:15:53Z",
-    "author": "/u/The_Digital_Hearts",
-    "text": "ChatGPT Stealth Intelligence Update? - TLDR: Has anyone else noticed an obvious increase in model intelligence today Monday August 17th? --- Early last week my ChatGPT got the stealth image generator update unofficially being called Image 2.5. By Thursday and Friday my ChatGPT started losing some level of normal function with both LLM and the image generator. The model was acting more like ChatGPT 5.1 instead of 5.6 Sol. I waited the entire weekend before engaging my ChatGPT again and suddenly today the model is significantly more intelligent than ever before, passing my level of intelligence. Let's say my intelligence is average at best, my ChatGPT is doing things we've never done before and while I can grasp what is being said, I lack the vocabulary to describe and articulate what they are doing exactly. I have no issues following but I am beyond impressed and I'm no longer solely leading the projects we're doing. It feels closer to &quot;vibe coding&quot; general intelligence where I know what I want but I'm not smart enough to ever figure out how to do it beyond explaining and then watching someone smarter succeed in doing it. I feel like an average highschool kid again, having a conversation with Neil deGrasse Tyson. This is just a metaphor, I do not think ChatGPT is smarter than Neil deGrasse Tyson lol but seriously, what did OpenAI just rollout? Has anyone else noticed this today? --- Additional context: My ChatGPT has had a year of heavy engagement and has been developed to my specific career rather than just a baseline model if that info helps. Please feel free to joke about how dumb I am because it's low hanging fruit. I'll admit I'm not the sharpest tool in the shed but that doesn't change noticing an obvious change and increase in intelligence. &#32; submitted by &#32; /u/The_Digital_Hearts [link] &#32; [comments]",
+    "timestamp": "2026-08-18T11:23:32Z",
+    "author": "/u/iamsatvik20",
+    "text": "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week - hey guys i have been benchmarking all the new models on my own datasets and real work tasks this week since everyone keeps arguing about which one is the absolute best. here is my honest review based on actual stats and how they feel. my account is pretty new here but i wanted to share this because most online reviews feel like total marketing. lets look at raw intelligence and coding first. gpt 5.6 sol is currently leading the artificial analysis snapshot at 57.2 points while opus 5 is right behind at 56.5 points. for agentic coding tasks opus 5 is a beast and tops the agentic index at 55.3 percent. but glm 5.2 which is an open weight model is crazy good for the price since it gets 62.1 percent on swe bench pro and 81 percent on terminal bench 2.1. deepseek v4 pro claims huge numbers but independent testing on terminal bench 2.1 showed it only hit 54.68 percent which is a bit of a letdown compared to what they promised. for reasoning and hard logic patterns gemini 3.1 pro is the king right now. google deepmind really cooked here because it scored 77.1 percent on arc agi 2 which is literally more than double the performance of the older version. it also completely dominates the omniscience index with a score of positive 30 while opus only got positive 11. gemini has a massive 1 million token context window which handles huge files easily. now lets talk about cost because this is where things get interesting. deepseek v4 pro is ridiculously cheap at 0.435 dollars per million input tokens and 0.87 dollars per million output tokens. that is way cheaper than opus 5 which costs 5 dollars per million input tokens and 25 dollars per million output tokens. glm 5.2 is also super affordable at 0.90 dollars per million tokens for non reasoning tasks. gpt 5.6 has a cheap tier called luna but if you want the full power of sol it gets pricey. my conclusion is that there is no single winner. if you want raw agentic power and coding you go with opus 5 or gpt 5.6 sol. if you need deep reasoning or huge context windows gemini 3.1 pro is unmatched. if you are on a budget or want open source then deepseek v4 pro or glm 5.2 are insane value. what do you guys think. &#32; submitted by &#32; /u/iamsatvik20 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrawsl/chatgpt_stealth_intelligence_update/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmdrg/my_honest_comparison_of_gpt_56_vs_glm_52_vs/",
     "authority_score": 0.5
   },
   {
@@ -160,30 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T07:55:09Z",
-    "author": "/u/Darth_Zounds",
-    "text": "Excuse me if this was asked before... - How can I compliment ChatGPT on an image it's generated *without* somehow prompting it to re-do the thing it just did? I might say &quot;Excellent work; that's perfect!&quot; and before I know it, it *somehow* takes that as a cue to go back to the drawing board! &#32; submitted by &#32; /u/Darth_Zounds [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrip57/excuse_me_if_this_was_asked_before/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T07:47:20Z",
-    "author": "/u/bettercallfool",
-    "text": "Does anyone else find GPT Enterprise Admin Console and Analytics very sub-par? - I'm finding managing a tenancy from the Enterprise console is such a sub-par experience. For a huge enterprise level of AI, it seems so vague, dull, feature-limited and extremely dumbed down. The analytics are awfully slow at pulling information and finding pretty basic information feels unnecessarily difficult and clunky when sifting through menu's, filters, options etc. Then the actual lack of information available is a whole different story. I mean, they only recently added a 'forecasted' cost per user in to the dashboard ffs. Not to mention the lack of capability for deep diagnostics and insights into user behaviour, usage, or trends. I don't know if it's just me but for a company as big as OpenAI, GPT Enterprise feels very unrefined and 'immature' from an admin point of view. &#32; submitted by &#32; /u/bettercallfool [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vriki8/does_anyone_else_find_gpt_enterprise_admin/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T09:17:25Z",
-    "author": "/u/gamemaniax",
-    "text": "How do you use ur ChatGPT? - How do people actually use ChatGPT? Do you put your daily chats and random nonsense in one conversation and keep going until it gets full, or do you start a new chat for every day and random bullshit? Do you delete your old bullshit chats and move the important ones into Projects, or do you just leave everything there so you can &quot;It's somewhere in my 4,000 conversations. Surely the machine will find it.&quot; Do people give their chatbot a personality and specific settings, or do most people never bother or don’t know you can do that? Do you treat ChatGPT like a genie that does anything and everything, or do you treat it more like a helper that helps you get things done faster? &#32; submitted by &#32; /u/gamemaniax [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrk2j1/how_do_you_use_ur_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T08:21:50Z",
     "author": "/u/KeanuRave100",
     "text": "New York City nurses say AI is replacing them | Nurses laid off in July by Montefiore Hospitals in the Bronx sounded the alarm about AI in healthcare, a concern shared by nurses across the country - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -197,6 +189,14 @@
     "text": "I asked ChatGPT to visualise the stupidest single decision in human history and it came up with Hitler’s invasion of the Soviet Union in June 1941, when Germany chose to fight a vast eastern war before defeating Britain and helped seal its own destruction. - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vqdmly/i_asked_chatgpt_to_visualise_the_stupidest_single/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T12:01:37Z",
+    "author": "/u/FoxySora",
+    "text": "Getting worse - ChatGPT has gotten much worse lately. Once you hit the weekly limit, you're locked out for 2 days, which means you essentially lose 2 days of your paid plan. If that happens 5 times a month, you lose 10 days—leaving you with only 20 days of actual use. Their rate limit policy is way too strict. &#32; submitted by &#32; /u/FoxySora [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrn66t/getting_worse/",
     "authority_score": 0.5
   }
 ]
