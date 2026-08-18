@@ -24,6 +24,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T17:09:45Z",
+    "author": "/u/ligmaballsbozo",
+    "text": "ChatGPT has been saying \"Fuck\" a lot recently - Is this just me? It caught me off-guard because I thought they aren't supposed to swear unless u specifically make them do it... &#32; submitted by &#32; /u/ligmaballsbozo [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T15:28:40Z",
     "author": "/u/Intelligent_Knee_122",
     "text": "It's scary how good the voice call is now - I haven't used the voice call in like 3+ months and it's scary how human it sounds now. Scary in the way that i would favor talking with it than real humans. For some context, I work with the public and sometimes I'm in a position to talk with people who's depressed or dealing with other mental health difficulties. I'm just surprised by how empathetic and strategic its questions are now. It's so good in directing positive thinking towards what actions we can control in a way that's quite natural, in my opinion. &#32; submitted by &#32; /u/Intelligent_Knee_122 [link] &#32; [comments]",
@@ -45,14 +53,6 @@
     "text": "Asking ChatGPT to render an image of the true unrenderable form of God - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T17:09:45Z",
-    "author": "/u/ligmaballsbozo",
-    "text": "ChatGPT has been saying \"Fuck\" a lot recently - Is this just me? It caught me off-guard because I thought they aren't supposed to swear unless u specifically make them do it... &#32; submitted by &#32; /u/ligmaballsbozo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
     "authority_score": 0.5
   },
   {
@@ -96,19 +96,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-17T22:05:22Z",
-    "author": "/u/SoonBlossom",
-    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T17:20:56Z",
     "author": "/u/fyndor",
     "text": "ChatGPT voice coughs? - I asked a question. I think I may have actually coughed myself. Then it responds and then not even a full sentence in to its response, it coughs. This is the first time I have seen this. Are they using things like coughs to stall for time to come up the rest of the generation? &#32; submitted by &#32; /u/fyndor [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvps1/chatgpt_voice_coughs/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T22:05:22Z",
+    "author": "/u/SoonBlossom",
+    "text": "The amount of things I learn thanks to AI is fucking insane - I just started using Codex with a Plus subscription, until now I was only using the web pages of Claude/ChatGPT and the free tiers Last time I had tryied Codex was 1 year ago The gap in capacity is fucking insane If you know how to prompt it, GPT 5.6 Sol Ultra can reproduce your web app design litteraly pixel perfect, it was not possible 1 year ago It also is so good at giving scalable and maintenable code if you know how to prompt, I am seriously shocked But I think the most insane thing is how much it unlocked things to LEARN I can ask Codex to create exercises for me directly in folders, numerote them, give instruction, verify directly my code once I complete the exercise, and explain to me what is bad practice and good practice in what I do It can help me build a project entirely by myself by giving hints and letting me do the code myself, reviewing it, telling me what's good or not, telling what the next step is if I want to keep a scalable and maintenable code and help me if I can't do it alone Yesterday I learnt how classes works in JS + how to structure a MVC architecture for the front in 1 single day It structured a project I had in mind in 40 exercises, first, it planned how the whole project should look like, then broke it into 40 exercises that each teach me a concept, by the end I'll have an entire web app coded by me while learning MVC for JS and PHP both POO, I never did POO before and I'm learning it litteraly so fast, and I actually feel like I'm learning, it doesn't give me anything to copy, so I'm still the one making the code work with hints and getting reviewed in the end It just feels insane to me Now it's so much clearer and I could do it alone It speeds learning so much, it's like having a PHD teacher with you 24/7 in all subjects I am seriously shocked at how much it progressed in 1 year It just feels crazy to me And to think I have all this knowledge at hand's reach for FREE or max 20$ ? I seriosuly can't believe how lucky we are to live this age, I hope it remains accessible to everyone to some extents and doesn't become too expensive Let's hope we can manage the bad aspects of it, but AI is really insane &#32; submitted by &#32; /u/SoonBlossom [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr6er8/the_amount_of_things_i_learn_thanks_to_ai_is/",
     "authority_score": 0.5
   },
   {
@@ -120,14 +120,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T16:19:30Z",
-    "author": "/u/fandno16283",
-    "text": "whats this pet thing about?? - https://preview.redd.it/jytq0witr5kh1.png?width=450&amp;format=png&amp;auto=webp&amp;s=3e89edd1f1f7733404255bc57022320e4ae67188 I was on ChatGPT, checking my settings and stuff, clicked on personalization, and then I saw it: PETS. I mean im not mad and such; I'm actually quite grateful since nowadays you don't get to see fun features on websites, but pets? What do we need pets for?? &#32; submitted by &#32; /u/fandno16283 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrtwqj/whats_this_pet_thing_about/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T14:16:02Z",
     "author": "/u/MbahSurip",
     "text": "How to stop ChatGPT from creating collage? - I often use ChatGPT to generate two images at once because it is more consistent. For example : I want the front-view and back-view of this ketchup bottle for product ads ChatGPT will usually generate two images : the bottle front-view and the bottle back-view But since yesterday, a lot of its generation results in collaged photo. A single image with two views. And I did not change my prompt. How do I stop this? I already put &quot;No collage&quot;, &quot;Create separate images&quot;, etc. but it keeps happening like 1 out of 3 trials &#32; submitted by &#32; /u/MbahSurip [link] &#32; [comments]",
@@ -136,11 +128,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T16:45:13Z",
-    "author": "/u/panConCoffee",
-    "text": "Does anyone know how to fork a chat with the new UI? - It seems the option to fork a chat, &quot;copy to new chat,&quot; or even create a new work tree has disappeared from the desktop UI in the latest update. Does anyone know if the option is still there somewhere but hidden or something? &#32; submitted by &#32; /u/panConCoffee [link] &#32; [comments]",
+    "timestamp": "2026-08-18T16:19:30Z",
+    "author": "/u/fandno16283",
+    "text": "whats this pet thing about?? - https://preview.redd.it/jytq0witr5kh1.png?width=450&amp;format=png&amp;auto=webp&amp;s=3e89edd1f1f7733404255bc57022320e4ae67188 I was on ChatGPT, checking my settings and stuff, clicked on personalization, and then I saw it: PETS. I mean im not mad and such; I'm actually quite grateful since nowadays you don't get to see fun features on websites, but pets? What do we need pets for?? &#32; submitted by &#32; /u/fandno16283 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vruo3a/does_anyone_know_how_to_fork_a_chat_with_the_new/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrtwqj/whats_this_pet_thing_about/",
     "authority_score": 0.5
   },
   {
@@ -149,14 +141,6 @@
     "text": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug - I’m building a self-hosted n8n/Docker automation, and one thing I changed after getting a working v2.0.8 state was how much freedom I give ChatGPT when troubleshooting it. My rule now is simple: if a node is working, treat it as immutable unless the evidence actually points there. Instead of asking ChatGPT to walk me through rebuilding nodes field by field, I ask for the smallest complete change as importable JSON/config, with n8n values clearly identified as Fixed or Expression. That gives me something concrete to compare against the last known-good version before I touch the workflow. The interesting part is that this changed ChatGPT’s role. I’m not really asking it to “fix my automation” anymore. I’m asking it to propose a controlled patch with a defined blast radius. It can still produce a bad patch, so I don’t blindly apply what it generates. But when only one known surface is supposed to change, figuring out whether the proposed fix caused a new problem becomes much easier. For people using ChatGPT on long-lived automations or codebases, do you explicitly protect known-good components from AI-generated changes, or use another form of change control? &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T15:57:27Z",
-    "author": "/u/Rough_Nature_6774",
-    "text": "Ok so apparently I can't post images today. I want to ask if someone is experiencing content being removed saying it's violating the guidelines or something. I started experiencing it about ten days back. I have a subscription form a year and a half. Never experienced this. New thread first prompt t - &#32; submitted by &#32; /u/Rough_Nature_6774 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrt68r/ok_so_apparently_i_cant_post_images_today_i_want/",
     "authority_score": 0.5
   },
   {
@@ -197,6 +181,22 @@
     "text": "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week - hey guys i have been benchmarking all the new models on my own datasets and real work tasks this week since everyone keeps arguing about which one is the absolute best. here is my honest review based on actual stats and how they feel. my account is pretty new here but i wanted to share this because most online reviews feel like total marketing. lets look at raw intelligence and coding first. gpt 5.6 sol is currently leading the artificial analysis snapshot at 57.2 points while opus 5 is right behind at 56.5 points. for agentic coding tasks opus 5 is a beast and tops the agentic index at 55.3 percent. but glm 5.2 which is an open weight model is crazy good for the price since it gets 62.1 percent on swe bench pro and 81 percent on terminal bench 2.1. deepseek v4 pro claims huge numbers but independent testing on terminal bench 2.1 showed it only hit 54.68 percent which is a bit of a letdown compared to what they promised. for reasoning and hard logic patterns gemini 3.1 pro is the king right now. google deepmind really cooked here because it scored 77.1 percent on arc agi 2 which is literally more than double the performance of the older version. it also completely dominates the omniscience index with a score of positive 30 while opus only got positive 11. gemini has a massive 1 million token context window which handles huge files easily. now lets talk about cost because this is where things get interesting. deepseek v4 pro is ridiculously cheap at 0.435 dollars per million input tokens and 0.87 dollars per million output tokens. that is way cheaper than opus 5 which costs 5 dollars per million input tokens and 25 dollars per million output tokens. glm 5.2 is also super affordable at 0.90 dollars per million tokens for non reasoning tasks. gpt 5.6 has a cheap tier called luna but if you want the full power of sol it gets pricey. my conclusion is that there is no single winner. if you want raw agentic power and coding you go with opus 5 or gpt 5.6 sol. if you need deep reasoning or huge context windows gemini 3.1 pro is unmatched. if you are on a budget or want open source then deepseek v4 pro or glm 5.2 are insane value. what do you guys think. &#32; submitted by &#32; /u/iamsatvik20 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrmdrg/my_honest_comparison_of_gpt_56_vs_glm_52_vs/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T18:01:26Z",
+    "author": "/u/TheDancinD918",
+    "text": "Luck in creating content from ChatGPT? - Has anyone made Reels or videos based of suggestions from ChatGPT? How did the video do and on which platform did it do well on? &#32; submitted by &#32; /u/TheDancinD918 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrwv89/luck_in_creating_content_from_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T23:51:47Z",
+    "author": "/u/WhatWasThatLike",
+    "text": "I'm just a consumer user - can someone do an ELI5 about what Codex is and what are some practical everyday uses for a user such as myself (if any) - &#32; submitted by &#32; /u/WhatWasThatLike [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8z7c/im_just_a_consumer_user_can_someone_do_an_eli5/",
     "authority_score": 0.5
   }
 ]
