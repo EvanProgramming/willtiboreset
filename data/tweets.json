@@ -112,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T20:51:37Z",
-    "author": "/u/B_Malone",
-    "text": "Need help “You’ve reached the maximum length for this conversation” error in a 9-10 month long chat - About an hour ago, I got error for the first time in one of my longest ChatGPT conversations, which is around 9-10 months old: “You’ve reached the maximum length for this conversation, but you can continue the conversation by starting a new chat.” The problem is that this chat is extremely important to me. It has months of memories, personal context, important information, and it almost works like a diary/archive for a certain period of my life. When I send a new message in that chat, ChatGPT actually replies. But then when I send another message, the previous reply seems to disappear or get replaced, and it answers the new one instead. I’m not sure if the messages are being deleted, overwritten, or if it’s just a UI/context issue. I really don’t want to simply start a new chat, because that old conversation contains a lot of important context and memories. I’m worried about losing the continuity and all the information stored in that chat. What should I do now? This conversation is really important to me. &#32; submitted by &#32; /u/B_Malone [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1n0s/need_help_youve_reached_the_maximum_length_for/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-17T19:11:08Z",
     "author": "/u/giikk",
     "text": "I am disappointed. - Not yet there 😂 &#32; submitted by &#32; /u/giikk [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vr1qdp/i_am_disappointed/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T23:03:10Z",
+    "author": "/u/TumbleweedQueasy6629",
+    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
     "authority_score": 0.5
   },
   {
@@ -149,6 +149,14 @@
     "text": "Custom instructions for RP - Hello Iv been using Chatgpt to rp again but of course having issues. I looking for anyone who has come up with good custom instructions for chatgpt to help. I am using projects and have most of my world information in files. Iv tried a few different instructions but havent found anything solid yet. &#32; submitted by &#32; /u/Forsythiel [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs2itt/custom_instructions_for_rp/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T20:51:37Z",
+    "author": "/u/B_Malone",
+    "text": "Need help “You’ve reached the maximum length for this conversation” error in a 9-10 month long chat - About an hour ago, I got error for the first time in one of my longest ChatGPT conversations, which is around 9-10 months old: “You’ve reached the maximum length for this conversation, but you can continue the conversation by starting a new chat.” The problem is that this chat is extremely important to me. It has months of memories, personal context, important information, and it almost works like a diary/archive for a certain period of my life. When I send a new message in that chat, ChatGPT actually replies. But then when I send another message, the previous reply seems to disappear or get replaced, and it answers the new one instead. I’m not sure if the messages are being deleted, overwritten, or if it’s just a UI/context issue. I really don’t want to simply start a new chat, because that old conversation contains a lot of important context and memories. I’m worried about losing the continuity and all the information stored in that chat. What should I do now? This conversation is really important to me. &#32; submitted by &#32; /u/B_Malone [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1n0s/need_help_youve_reached_the_maximum_length_for/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "Where is mine 5.6 luna free tier user? - It's supposed to be unlimited too? &#32; submitted by &#32; /u/NervousHabit2283 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs2qze/where_is_mine_56_luna_free_tier_user/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T19:19:29Z",
-    "author": "/u/waiting4omscs",
-    "text": "Recommended device setup to make using ChatGPT easier for seniors? - For an older senior who has a smart phone, the ChatGPT interface with typing and text may not be the most intuitive. The updates for voice mode seem to reduce friction. But it still takes a few clicks to get that running. Has anyone set up their less technical folks with a voice forward ChatGPT experience? I am thinking of things like: ChatGPT app opens straight to voice mode. No need for seeing chat histories Memories on Read-only access to GMail and Google Calendar Some system prompt that makes interacting easier, like &quot;the user's name is ___, speak at a slower pace, ...etc&quot; &#32; submitted by &#32; /u/waiting4omscs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrz3kv/recommended_device_setup_to_make_using_chatgpt/",
     "authority_score": 0.5
   }
 ]
