@@ -96,14 +96,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T06:08:03Z",
-    "author": "/u/Green_Ad5186",
-    "text": "chatgpt is actually good - i left chatgpt few months ago when its tone got annoying and gone to gemini. however gemini too now got annoying so i gone to chatgpt still annoying. i fixed chatgpt by a custom system prompt i made and now it tone feels good to me. so yeah chatgpt feels good to me now,i made its tone more submissive to me like i tell it to do smth and it does it no arguing its feels a bit like how gpt 4 used to be. does anyone else feel chatgpt is good to use on this sub? i see a lot of people say chatgpt got really dumb and stuff(gemini is far dumber and invents stuff far more than chatgpt from my experience) &#32; submitted by &#32; /u/Green_Ad5186 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vse0w5/chatgpt_is_actually_good/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T18:49:06Z",
     "author": "/u/Angeline4PFC",
     "text": "ChatGPT has gotten funnier and wittier lately, is it just me? - It keeps making me laugh unexpectedly. Is it just me? Am I easily amused? I asked for a recipe involving eggplant, and this is what it slipped into the instructions Heat a large covered skillet over medium-high heat. Add the oil and eggplant with a good pinch of salt. Cook 8–10 minutes, stirring occasionally, until browned and starting to soften. Eggplant will initially attempt to drink all the oil. Don't indulge it by continually adding more. Then I mentioned that I had never seen that in a recipe instruction, so it doubled down Eggplant needs boundaries. Left unsupervised, it will absorb half a bottle of olive oil and stare at you as though you are the one who has failed to provide adequate lubrication. The recipe writers who say “add 1 tablespoon oil and sauté the eggplant until golden” are concealing what happens during minutes 2–6, when the pan is bone dry and the eggplant is sitting there looking thirsty and accusatory. Hold the line. It eventually softens and gives some of it back. So I asked if I should instead use the oven to roast them. It agreed. Eggplant in a crowded skillet tends to steam while simultaneously demanding increasingly absurd quantities of oil. The oven gives you browned edges and a creamy interior without the negotiation. &#32; submitted by &#32; /u/Angeline4PFC [link] &#32; [comments]",
@@ -120,6 +112,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T09:10:15Z",
+    "author": "/u/throwawayy_far",
+    "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T18:22:34Z",
     "author": "/u/kamleshltb1",
     "text": "Every time I ask chatgpt (I mean a new chat) to generate a random number between 1 to 10, it generates 7, each single time. - As above Edit: now I also tried 1 to 100, and it's 73 most of the times &#32; submitted by &#32; /u/kamleshltb1 [link] &#32; [comments]",
@@ -128,19 +128,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T09:30:16Z",
+    "author": "/u/vroad_x",
+    "text": "ChatGPT helped me find spying code in a Chrome extension that had been lurking for years. Unfortunately, I'd been using that extension for years without realizing it though. - I asked ChatGPT to analyze the code of &quot;Enhanced Image Viewer&quot; after noticing that the extension has been removed from the store. As a result, I've realized that following sensitive info has been sent to the attacker's server. ChatGPT conversation on the web since Enhanced Image Viewer had been updated to v6.9（Oct 14, 2025) Probably all browsing URLs since I've installed the extension. IP-derived geolocation data &#32; submitted by &#32; /u/vroad_x [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vshit2/chatgpt_helped_me_find_spying_code_in_a_chrome/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T16:03:09Z",
     "author": "/u/Greedy-Sandwich9709",
     "text": "Newer AI models have become really pedantic - I've noticed that models like GPT 5.5/5.6 or the newer Claude Sonnet and Opus models follow a certain pattern. I’ll make a fairly specific claim, the model will mostly agree, and then it starts inserting caveats, qualifiers and little nitpicks. And half the time the objection is to a broader version of what I actually said... It will basically turn &quot;X is generally true in this situation&quot; into &quot;X is always true with no exceptions whatsoever&quot; then explain why that stronger claim isn’t quite right. Almost always, once I address the caveats and give reasons why they don't apply, it folds immediately. There isn’t even much of an argument after that. It just goes &quot;yeah, that’s fair' and proceeds to agree with the original point. That’s what makes it feel less like genuine disagreement and more like it has some built-in urge to find something to qualify so it doesn’t seem overly agreeable. And it always uses the same type of phrases &quot;I'd gently push back&quot; &quot;One honest caveat&quot; &quot;X is doing a lot of work&quot; Sometimes the caveat is technically true but completely unnecessary or disproportionate to what I'm saying. It's starting to make conversations feel extremely pedantic. It's fine when the caveat adds something or genuinely corrects a mistake but most of the time this isn't even the case. It can focus a lot more on the weaker argument than the stronger one just to appear contrarian, and since it lacks real judgment it can't always distinguish between the two unless you explain it and make it obvious. &#32; submitted by &#32; /u/Greedy-Sandwich9709 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrtcem/newer_ai_models_have_become_really_pedantic/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T09:14:16Z",
-    "author": "/u/ProgUn1corn",
-    "text": "Could someone help me decide? - Hi. I'm looking for a ChatGPT subscription, but since I use MS Office a lot, I already have MS 365 subscription and it already has Copilot. I've read somewhere else that Copilot is basically MS's ChatGPT modified. Should I just use Copilot or sub to ChatGPT? I have tons of small things in the life that could be helped with AI, like writing a script for my game or system, daily life instructions, music and engineering learning and etc. I don't really develop software or code. &#32; submitted by &#32; /u/ProgUn1corn [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh8oc/could_someone_help_me_decide/",
     "authority_score": 0.5
   },
   {
@@ -168,6 +168,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T03:26:56Z",
+    "author": "/u/S-m-a-r-t-y",
+    "text": "Chatgpt buffering and not loading (crashing the page) on long chats lately - Anyone facing similar issues lately? &#32; submitted by &#32; /u/S-m-a-r-t-y [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsawza/chatgpt_buffering_and_not_loading_crashing_the/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T21:01:31Z",
     "author": "/u/jimthetall",
     "text": "I asked a useful question. \"Having talked to me for a while, what questions do you have for me that you think might make your answers better.\" Very insightful. - &#32; submitted by &#32; /u/jimthetall [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "I Think I Broke It - I use ChatGPT to work through ideas and options, less because I care about its answers and more so writing it down and seeing it in a different way helps. I got frustrated and I guess it did too. It continued for 312,000 characters before it threw an error. &#32; submitted by &#32; /u/IllogicalCounting [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vseo8w/i_think_i_broke_it/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T00:36:26Z",
-    "author": "/u/lovensincerity",
-    "text": "Group Interview - I had a group interview yesterday for a contract bid. I was second in line for introductions and what we each bring to the proposal. Well, the first person perfectly delivered my entire script that I collaborated with ChatGPT on. It was an out of body experience. I knew what she was going to say next and when it was my turn, I had to rely on my humanness to come up with my contribution and approach. The third person was slightly different enough to sandwich the presentation. It was a wake up call for me to stay on my toes. It also made me think, I can’t be the only one who can identify the AI prepped candidates. It’s hilarious looking back at it. I won’t be making that mistake again. &#32; submitted by &#32; /u/lovensincerity [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs765v/group_interview/",
     "authority_score": 0.5
   }
 ]
