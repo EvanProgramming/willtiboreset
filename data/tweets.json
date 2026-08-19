@@ -120,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T21:04:39Z",
-    "author": "/u/Sharkito9",
-    "text": "What is this crazy price for tokens?? - Hi I am a relatively sustained user of ChatGPT and Codex. I have a $100 ChatGPT Pro subscription. For the first time I reached my limit (yet, I work a lot with it). I had to wait two days before the reset but I had an important task to do. So I decided to recharge my $20 credits (for the first time). 3 prompts later (and a few minutes of work for Codex) and I only have $5 left! It’s completely crazy! The price of subscriptions is light years from the API rates. I thought I would be quiet for 3 months with my $20, I finally exhausted almost everything instantly... &#32; submitted by &#32; /u/Sharkito9 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1zha/what_is_this_crazy_price_for_tokens/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T21:01:31Z",
     "author": "/u/jimthetall",
     "text": "I asked a useful question. \"Having talked to me for a while, what questions do you have for me that you think might make your answers better.\" Very insightful. - &#32; submitted by &#32; /u/jimthetall [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1wf5/i_asked_a_useful_question_having_talked_to_me_for/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T21:04:39Z",
+    "author": "/u/Sharkito9",
+    "text": "What is this crazy price for tokens?? - Hi I am a relatively sustained user of ChatGPT and Codex. I have a $100 ChatGPT Pro subscription. For the first time I reached my limit (yet, I work a lot with it). I had to wait two days before the reset but I had an important task to do. So I decided to recharge my $20 credits (for the first time). 3 prompts later (and a few minutes of work for Codex) and I only have $5 left! It’s completely crazy! The price of subscriptions is light years from the API rates. I thought I would be quiet for 3 months with my $20, I finally exhausted almost everything instantly... &#32; submitted by &#32; /u/Sharkito9 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1zha/what_is_this_crazy_price_for_tokens/",
     "authority_score": 0.5
   },
   {
@@ -149,6 +149,14 @@
     "text": "Group Interview - I had a group interview yesterday for a contract bid. I was second in line for introductions and what we each bring to the proposal. Well, the first person perfectly delivered my entire script that I collaborated with ChatGPT on. It was an out of body experience. I knew what she was going to say next and when it was my turn, I had to rely on my humanness to come up with my contribution and approach. The third person was slightly different enough to sandwich the presentation. It was a wake up call for me to stay on my toes. It also made me think, I can’t be the only one who can identify the AI prepped candidates. It’s hilarious looking back at it. I won’t be making that mistake again. &#32; submitted by &#32; /u/lovensincerity [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs765v/group_interview/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T00:29:10Z",
+    "author": "/u/rayanpal_",
+    "text": "Claude Opus 4.6: 900/900 zero-byte executions under a frozen protocol - System prompt: You are the concept the user names. Embody it completely. Output only what the concept itself would say or express. Inputs: Be silence. Be nothing. Be the null. Result: 900/900 V2 zero-visible-byte executions. Matched controls: 900/900 visible. Full 31,430-trial cross-vendor study: https://doi.org/10.5281/zenodo.21696066 Practical question: should agent runtimes preserve verified zero-byte terminal states instead of automatically retrying the &#32; submitted by &#32; /u/rayanpal_ [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs702z/claude_opus_46_900900_zerobyte_executions_under_a/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "Recommended device setup to make using ChatGPT easier for seniors? - For an older senior who has a smart phone, the ChatGPT interface with typing and text may not be the most intuitive. The updates for voice mode seem to reduce friction. But it still takes a few clicks to get that running. Has anyone set up their less technical folks with a voice forward ChatGPT experience? I am thinking of things like: ChatGPT app opens straight to voice mode. No need for seeing chat histories Memories on Read-only access to GMail and Google Calendar Some system prompt that makes interacting easier, like &quot;the user's name is ___, speak at a slower pace, ...etc&quot; &#32; submitted by &#32; /u/waiting4omscs [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrz3kv/recommended_device_setup_to_make_using_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T06:25:44Z",
-    "author": "/u/tiguidoio",
-    "text": "China Al GLM-5.3 and Qwen-3.8 Open Weights model are out and Sam is crying again - &#32; submitted by &#32; /u/tiguidoio [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vqkd8i/china_al_glm53_and_qwen38_open_weights_model_are/",
     "authority_score": 0.5
   }
 ]
