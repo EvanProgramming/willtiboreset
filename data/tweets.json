@@ -32,19 +32,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T02:37:59Z",
-    "author": "/u/SinVerguenza04",
-    "text": "Thanks, Chat! - &#32; submitted by &#32; /u/SinVerguenza04 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs9usp/thanks_chat/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T17:27:19Z",
     "author": "/u/DreamingOfLight",
     "text": "ChatGPT drew himself for me 🤗🥰 - He is being so cute! &#32; submitted by &#32; /u/DreamingOfLight [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T02:37:59Z",
+    "author": "/u/SinVerguenza04",
+    "text": "Thanks, Chat! - &#32; submitted by &#32; /u/SinVerguenza04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs9usp/thanks_chat/",
     "authority_score": 0.5
   },
   {
@@ -88,19 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T04:15:02Z",
-    "author": "/u/manikfox",
-    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T18:08:46Z",
     "author": "/u/Prior_Tax8546",
     "text": "Generate a picture if we had Street View on the moon - &#32; submitted by &#32; /u/Prior_Tax8546 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsu8t3/generate_a_picture_if_we_had_street_view_on_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T04:15:02Z",
+    "author": "/u/manikfox",
+    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
     "authority_score": 0.5
   },
   {
@@ -144,6 +144,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T17:57:43Z",
+    "author": "/u/Kvazimods",
+    "text": "Noah's quest in Renaissance painting style. This looks incredible but look at the chonky tiger. - &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vstx2l/noahs_quest_in_renaissance_painting_style_this/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T23:03:10Z",
     "author": "/u/TumbleweedQueasy6629",
     "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
@@ -165,14 +173,6 @@
     "text": "It would be cool if we got to try out legacy models - It doesn't have to be part of the main site or any of the apps, but it would be cool if there was a separate standalone site where we can try out legacy models like ChatGPT 2 or 3 or something like that just to see how much it has progressed over time. &#32; submitted by &#32; /u/SEND_ME_YOUR_ASSPICS [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsn2i7/it_would_be_cool_if_we_got_to_try_out_legacy/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T17:57:43Z",
-    "author": "/u/Kvazimods",
-    "text": "Noah's quest in Renaissance painting style. This looks incredible but look at the chonky tiger. - &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vstx2l/noahs_quest_in_renaissance_painting_style_this/",
     "authority_score": 0.5
   },
   {
