@@ -56,14 +56,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T12:42:54Z",
-    "author": "/u/Cybernews_com",
-    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T12:55:59Z",
     "author": "/u/DeepSea_Concept",
     "text": "What is a weirdly specific task you use ChatGPT for that actually saves you hours? - Not the typical stuff like writing basic emails, coding boilerplates, or summarising long PDFs. I’m curious about the unconventional, niche prompts or routines you’ve built that made you go &quot;I can't believe this actually works so well.&quot; What’s your favorite underrated use case? &#32; submitted by &#32; /u/DeepSea_Concept [link] &#32; [comments]",
@@ -77,6 +69,22 @@
     "text": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done - I am an artist that makes nothing but weird ass shit &#32; submitted by &#32; /u/Quiet-Discussion5910 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T12:42:54Z",
+    "author": "/u/Cybernews_com",
+    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T15:28:07Z",
+    "author": "/u/niacolhealth",
+    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
     "authority_score": 0.5
   },
   {
@@ -120,14 +128,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T15:28:07Z",
-    "author": "/u/niacolhealth",
-    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T15:24:15Z",
     "author": "/u/Zorgi23",
     "text": "Writing style - I'm curious... where does ChatGPT get this habit of writing with so many one sentence paragraphs? I know it bases its response on millions of pieces of writing, but I can't think of anyone who writes this way. One or two paragraphs like that out of every 20 or 30 - but 50% of the paragraphs or even more? Do younger people write like that? Maybe I'm (78M) just out of touch. And I'm interested in serious responses, not the typical &quot;AI is trash. Learn to write yourself&quot; stuff. &#32; submitted by &#32; /u/Zorgi23 [link] &#32; [comments]",
@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T23:48:44Z",
-    "author": "/u/okaysureyep",
-    "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T09:10:15Z",
     "author": "/u/throwawayy_far",
     "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T23:48:44Z",
+    "author": "/u/okaysureyep",
+    "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T10:26:41Z",
-    "author": "/u/BeginningNo3135",
-    "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
+    "timestamp": "2026-08-19T15:55:54Z",
+    "author": "/u/Repulsive-Cellist-16",
+    "text": "He is being cute for me - &#32; submitted by &#32; /u/Repulsive-Cellist-16 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsijgc/what_plugins_do_you_use/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsqfcn/he_is_being_cute_for_me/",
     "authority_score": 0.5
   }
 ]
