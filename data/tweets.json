@@ -64,19 +64,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T12:55:59Z",
-    "author": "/u/DeepSea_Concept",
-    "text": "What is a weirdly specific task you use ChatGPT for that actually saves you hours? - Not the typical stuff like writing basic emails, coding boilerplates, or summarising long PDFs. I’m curious about the unconventional, niche prompts or routines you’ve built that made you go &quot;I can't believe this actually works so well.&quot; What’s your favorite underrated use case? &#32; submitted by &#32; /u/DeepSea_Concept [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T17:38:51Z",
     "author": "/u/EXIIL1M_Sedai",
     "text": "Generate a picture of average reddit troll - &#32; submitted by &#32; /u/EXIIL1M_Sedai [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vstdpb/generate_a_picture_of_average_reddit_troll/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T12:55:59Z",
+    "author": "/u/DeepSea_Concept",
+    "text": "What is a weirdly specific task you use ChatGPT for that actually saves you hours? - Not the typical stuff like writing basic emails, coding boilerplates, or summarising long PDFs. I’m curious about the unconventional, niche prompts or routines you’ve built that made you go &quot;I can't believe this actually works so well.&quot; What’s your favorite underrated use case? &#32; submitted by &#32; /u/DeepSea_Concept [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -96,14 +96,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T16:27:40Z",
-    "author": "/u/KeanuRave100",
-    "text": "Them: what do you do? ... Me: - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrcq8/them_what_do_you_do_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T18:08:46Z",
     "author": "/u/Prior_Tax8546",
     "text": "Generate a picture if we had Street View on the moon - &#32; submitted by &#32; /u/Prior_Tax8546 [link] &#32; [comments]",
@@ -112,11 +104,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T12:42:54Z",
-    "author": "/u/Cybernews_com",
-    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
+    "timestamp": "2026-08-19T16:27:40Z",
+    "author": "/u/KeanuRave100",
+    "text": "Them: what do you do? ... Me: - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrcq8/them_what_do_you_do_me/",
     "authority_score": 0.5
   },
   {
@@ -125,6 +117,14 @@
     "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T12:42:54Z",
+    "author": "/u/Cybernews_com",
+    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
     "authority_score": 0.5
   },
   {
@@ -144,19 +144,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T23:03:10Z",
-    "author": "/u/TumbleweedQueasy6629",
-    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T11:15:37Z",
     "author": "/u/severe_009",
     "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T23:03:10Z",
+    "author": "/u/TumbleweedQueasy6629",
+    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
     "authority_score": 0.5
   },
   {
