@@ -128,6 +128,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-17T23:24:03Z",
+    "author": "/u/Immobilesteelrims",
+    "text": "Asking ChatGPT to render an image of the true unrenderable form of God - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T03:26:56Z",
     "author": "/u/S-m-a-r-t-y",
     "text": "Chatgpt buffering and not loading (crashing the page) on long chats lately - Anyone facing similar issues lately? &#32; submitted by &#32; /u/S-m-a-r-t-y [link] &#32; [comments]",
@@ -136,27 +144,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T04:58:12Z",
-    "author": "/u/love1008",
-    "text": "Confession ( GPT + Flux 3 ) - &#32; submitted by &#32; /u/love1008 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vscpnr/confession_gpt_flux_3/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T00:36:26Z",
     "author": "/u/lovensincerity",
     "text": "Group Interview - I had a group interview yesterday for a contract bid. I was second in line for introductions and what we each bring to the proposal. Well, the first person perfectly delivered my entire script that I collaborated with ChatGPT on. It was an out of body experience. I knew what she was going to say next and when it was my turn, I had to rely on my humanness to come up with my contribution and approach. The third person was slightly different enough to sandwich the presentation. It was a wake up call for me to stay on my toes. It also made me think, I can’t be the only one who can identify the AI prepped candidates. It’s hilarious looking back at it. I won’t be making that mistake again. &#32; submitted by &#32; /u/lovensincerity [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs765v/group_interview/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-17T23:24:03Z",
-    "author": "/u/Immobilesteelrims",
-    "text": "Asking ChatGPT to render an image of the true unrenderable form of God - &#32; submitted by &#32; /u/Immobilesteelrims [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr8cc0/asking_chatgpt_to_render_an_image_of_the_true/",
     "authority_score": 0.5
   },
   {
@@ -176,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T05:11:11Z",
-    "author": "/u/Silent-Assumption292",
-    "text": "I turned chatgpt into a 3d historical map generator - System Prompt Execution: A custom prompt forces models like ChatGPT, Claude, or Gemini to act as data compilers rather than text generators. Entity Resolution: The LLM resolves historical milestones to their respective Wikidata QIDs to obtain precise geospatial coordinates. URL State Compression: The entire sequence of events (factions, timelines, descriptions, locations) is serialized directly into a compressed URL payload. Client-Side Rendering: When opened, the WebGL frontend parses the URL hash in memory and reconstructs the animated 3D timeline without hitting a database or server backend. Try it out: https://mundu.app/create.html &#32; submitted by &#32; /u/Silent-Assumption292 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vscytk/i_turned_chatgpt_into_a_3d_historical_map/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-18T21:04:39Z",
     "author": "/u/Sharkito9",
     "text": "What is this crazy price for tokens?? - Hi I am a relatively sustained user of ChatGPT and Codex. I have a $100 ChatGPT Pro subscription. For the first time I reached my limit (yet, I work a lot with it). I had to wait two days before the reset but I had an important task to do. So I decided to recharge my $20 credits (for the first time). 3 prompts later (and a few minutes of work for Codex) and I only have $5 left! It’s completely crazy! The price of subscriptions is light years from the API rates. I thought I would be quiet for 3 months with my $20, I finally exhausted almost everything instantly... &#32; submitted by &#32; /u/Sharkito9 [link] &#32; [comments]",
@@ -192,11 +176,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T03:44:47Z",
-    "author": "/u/2299sacramento",
-    "text": "Solved an open mathematics problem with ChatGPT? Post it to Theoremdb.org - &#32; submitted by &#32; /u/2299sacramento [link] &#32; [comments]",
+    "timestamp": "2026-08-19T03:10:23Z",
+    "author": "/u/dragosroua",
+    "text": "How AI Watermarking Works? Can It Be Removed? - Short answer: yes, it can be removed. Long answer: you’d have to heavily edit your text, though. Alternatively, use open weights models on your own hardware. &#32; submitted by &#32; /u/dragosroua [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsba1x/solved_an_open_mathematics_problem_with_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsak82/how_ai_watermarking_works_can_it_be_removed/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-17T19:11:08Z",
+    "author": "/u/giikk",
+    "text": "I am disappointed. - Not yet there 😂 &#32; submitted by &#32; /u/giikk [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vr1qdp/i_am_disappointed/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T05:38:49Z",
+    "author": "/u/STEPHANFL",
+    "text": "Windows desktop app: dictation tooltips flicker and cover the send/checkmark button - I’m having a UI problem with the ChatGPT Windows desktop app when using dictation. When I move the mouse over one of the dictation controls — for example the microphone, the X to cancel dictation, or the checkmark to finish dictation — a black tooltip appears showing the keyboard shortcut, such as “Diktat beenden – Ctrl+Shift+D.” The problem is that the tooltip starts flickering on and off very quickly while the mouse remains over the button. It also appears directly over or next to the controls, so it gets in the way and makes it difficult to click the button I’m trying to use. This is especially annoying with the checkmark/send button because I am trying to finish the dictation and send the text, but the flickering tooltip interferes with the mouse interaction. I’ve attached a screenshot showing the tooltip. The screenshot obviously cannot show the flickering itself, but the tooltip repeatedly appears and disappears as long as the mouse is in that area. Has anyone else seen this in the current ChatGPT Windows desktop app? It seems like a tooltip/UI bug rather than a problem with dictation itself. Screenshot &#32; submitted by &#32; /u/STEPHANFL [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsdhqi/windows_desktop_app_dictation_tooltips_flicker/",
     "authority_score": 0.5
   }
 ]
