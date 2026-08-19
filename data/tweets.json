@@ -50,7 +50,7 @@
   {
     "timestamp": "2026-08-19T04:15:02Z",
     "author": "/u/manikfox",
-    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
+    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
     "authority_score": 0.5
@@ -104,19 +104,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T23:48:44Z",
-    "author": "/u/okaysureyep",
-    "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T10:48:22Z",
     "author": "/u/No-Lifeguard-8173",
     "text": "ALF in the garden of Eden - &#32; submitted by &#32; /u/No-Lifeguard-8173 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsixtc/alf_in_the_garden_of_eden/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T23:48:44Z",
+    "author": "/u/okaysureyep",
+    "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
     "authority_score": 0.5
   },
   {
@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T10:26:41Z",
-    "author": "/u/BeginningNo3135",
-    "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsijgc/what_plugins_do_you_use/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T12:55:59Z",
     "author": "/u/DeepSea_Concept",
     "text": "What is a weirdly specific task you use ChatGPT for that actually saves you hours? - Not the typical stuff like writing basic emails, coding boilerplates, or summarising long PDFs. I’m curious about the unconventional, niche prompts or routines you’ve built that made you go &quot;I can't believe this actually works so well.&quot; What’s your favorite underrated use case? &#32; submitted by &#32; /u/DeepSea_Concept [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vslnpn/what_is_a_weirdly_specific_task_you_use_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T10:26:41Z",
+    "author": "/u/BeginningNo3135",
+    "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsijgc/what_plugins_do_you_use/",
     "authority_score": 0.5
   },
   {
