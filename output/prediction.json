@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-19T00:42:06.380386+00:00",
+  "updated_at": "2026-08-19T00:45:07.408857+00:00",
   "prediction": {
     "within_5h": 0.2,
-    "within_24h": 0.4445,
-    "within_48h": 0.5939
+    "within_24h": 0.4442,
+    "within_48h": 0.5936
   },
   "confidence": "low",
   "next_reset": {
@@ -13,7 +13,7 @@
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 143.68510547611112,
+    "hours_since_last_reset": 143.73539118805556,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
       "hours_until": 24.3,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.9616,
-    "time_pressure": 0.2969,
-    "hazard_rate": 0.024198,
-    "evidence_score": 0.0829,
+    "time_ratio": 1.9623,
+    "time_pressure": 0.2973,
+    "hazard_rate": 0.024176,
+    "evidence_score": 0.0827,
     "tibo_signal": 0.2868,
     "community_signal": 0.8,
     "release_signal": 0.5858,
@@ -71,7 +71,7 @@
     },
     {
       "factor": "High community limit complaints",
-      "impact": "+11%",
+      "impact": "+12%",
       "score": 0.8
     },
     {
