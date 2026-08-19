@@ -136,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T15:28:07Z",
-    "author": "/u/niacolhealth",
-    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T15:24:15Z",
     "author": "/u/Zorgi23",
     "text": "Writing style - I'm curious... where does ChatGPT get this habit of writing with so many one sentence paragraphs? I know it bases its response on millions of pieces of writing, but I can't think of anyone who writes this way. One or two paragraphs like that out of every 20 or 30 - but 50% of the paragraphs or even more? Do younger people write like that? Maybe I'm (78M) just out of touch. And I'm interested in serious responses, not the typical &quot;AI is trash. Learn to write yourself&quot; stuff. &#32; submitted by &#32; /u/Zorgi23 [link] &#32; [comments]",
@@ -160,11 +152,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T15:28:07Z",
+    "author": "/u/niacolhealth",
+    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T13:52:34Z",
     "author": "/u/SEND_ME_YOUR_ASSPICS",
     "text": "It would be cool if we got to try out legacy models - It doesn't have to be part of the main site or any of the apps, but it would be cool if there was a separate standalone site where we can try out legacy models like ChatGPT 2 or 3 or something like that just to see how much it has progressed over time. &#32; submitted by &#32; /u/SEND_ME_YOUR_ASSPICS [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsn2i7/it_would_be_cool_if_we_got_to_try_out_legacy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T17:57:43Z",
+    "author": "/u/Kvazimods",
+    "text": "Noah's quest in Renaissance painting style. This looks incredible but look at the chonky tiger. - &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vstx2l/noahs_quest_in_renaissance_painting_style_this/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "What is happening... - I am a long time Engineer (20+ years) and yesterday I developed tickets for my company that were generated by an AI, using an AI and reviewed by an AI. The project itself was conceived with AI - has no documentation that can be understood as anything less than AI slop and random tech jargon. The developer who built it has said that instead of documentation I should use claude to figure out what it is. The company is apparenty also filing a patent on it. I submitted 3 PRs today 20,000 lines of code each I still have no idea what we are working on. No doubt they will use AI to review my PR. I feel like things are just so crazy at this point. Claude and ChatGPT are not this good, but people are trusting it like it's omniscient. It was an eerie realization today that all of us are vibe coding and that we have no option because it is the only way we can interact with the code anymore. I thought this would happen eventually years ago but i honestly didn’t think it would be so soon. It was a moment in time... this will be the new norm. &#32; submitted by &#32; /u/Interesting-Town-433 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4fw8/what_is_happening/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T17:57:43Z",
-    "author": "/u/Kvazimods",
-    "text": "Noah's quest in Renaissance painting style. This looks incredible but look at the chonky tiger. - &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vstx2l/noahs_quest_in_renaissance_painting_style_this/",
     "authority_score": 0.5
   }
 ]
