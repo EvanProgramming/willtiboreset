@@ -24,6 +24,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T06:45:38Z",
+    "author": "/u/Zestyclose-Salad-290",
+    "text": "We're doomed - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vseoyt/were_doomed/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T12:42:54Z",
     "author": "/u/Cybernews_com",
     "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
@@ -37,14 +45,6 @@
     "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T06:45:38Z",
-    "author": "/u/Zestyclose-Salad-290",
-    "text": "We're doomed - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vseoyt/were_doomed/",
     "authority_score": 0.5
   },
   {
@@ -96,11 +96,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T18:56:44Z",
-    "author": "/u/TemporaryBeautiful37",
-    "text": "Just another appreciation post. - I already liked ChatGPT, but 5.6 really got me hooked. ❤️ &#32; submitted by &#32; /u/TemporaryBeautiful37 [link] &#32; [comments]",
+    "timestamp": "2026-08-19T06:40:45Z",
+    "author": "/u/sammartinX",
+    "text": "ChatGPT on Linux 👀 - After all the waiting now ChatGPT is finally showing up on Linux too. No more pretending the browser tab is an app. 😂 &#32; submitted by &#32; /u/sammartinX [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vryg43/just_another_appreciation_post/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vselwp/chatgpt_on_linux/",
     "authority_score": 0.5
   },
   {
@@ -112,11 +112,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T06:40:45Z",
-    "author": "/u/sammartinX",
-    "text": "ChatGPT on Linux 👀 - After all the waiting now ChatGPT is finally showing up on Linux too. No more pretending the browser tab is an app. 😂 &#32; submitted by &#32; /u/sammartinX [link] &#32; [comments]",
+    "timestamp": "2026-08-18T18:56:44Z",
+    "author": "/u/TemporaryBeautiful37",
+    "text": "Just another appreciation post. - I already liked ChatGPT, but 5.6 really got me hooked. ❤️ &#32; submitted by &#32; /u/TemporaryBeautiful37 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vselwp/chatgpt_on_linux/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vryg43/just_another_appreciation_post/",
     "authority_score": 0.5
   },
   {
