@@ -32,6 +32,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T23:03:10Z",
+    "author": "/u/TumbleweedQueasy6629",
+    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T17:09:45Z",
     "author": "/u/ligmaballsbozo",
     "text": "ChatGPT has been saying \"Fuck\" a lot recently - Is this just me? It caught me off-guard because I thought they aren't supposed to swear unless u specifically make them do it... &#32; submitted by &#32; /u/ligmaballsbozo [link] &#32; [comments]",
@@ -45,14 +53,6 @@
     "text": "ChatGPT has gotten funnier and wittier lately, is it just me? - It keeps making me laugh unexpectedly. Is it just me? Am I easily amused? I asked for a recipe involving eggplant, and this is what it slipped into the instructions Heat a large covered skillet over medium-high heat. Add the oil and eggplant with a good pinch of salt. Cook 8–10 minutes, stirring occasionally, until browned and starting to soften. Eggplant will initially attempt to drink all the oil. Don't indulge it by continually adding more. Then I mentioned that I had never seen that in a recipe instruction, so it doubled down Eggplant needs boundaries. Left unsupervised, it will absorb half a bottle of olive oil and stare at you as though you are the one who has failed to provide adequate lubrication. The recipe writers who say “add 1 tablespoon oil and sauté the eggplant until golden” are concealing what happens during minutes 2–6, when the pan is bone dry and the eggplant is sitting there looking thirsty and accusatory. Hold the line. It eventually softens and gives some of it back. So I asked if I should instead use the oven to roast them. It agreed. Eggplant in a crowded skillet tends to steam while simultaneously demanding increasingly absurd quantities of oil. The oven gives you browned edges and a creamy interior without the negotiation. &#32; submitted by &#32; /u/Angeline4PFC [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T23:03:10Z",
-    "author": "/u/TumbleweedQueasy6629",
-    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
     "authority_score": 0.5
   },
   {
@@ -112,6 +112,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-18T23:48:44Z",
+    "author": "/u/okaysureyep",
+    "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T21:01:31Z",
     "author": "/u/jimthetall",
     "text": "I asked a useful question. \"Having talked to me for a while, what questions do you have for me that you think might make your answers better.\" Very insightful. - &#32; submitted by &#32; /u/jimthetall [link] &#32; [comments]",
@@ -165,14 +173,6 @@
     "text": "ChatGPT voice coughs? - I asked a question. I think I may have actually coughed myself. Then it responds and then not even a full sentence in to its response, it coughs. This is the first time I have seen this. Are they using things like coughs to stall for time to come up the rest of the generation? &#32; submitted by &#32; /u/fyndor [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvps1/chatgpt_voice_coughs/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T23:06:18Z",
-    "author": "/u/D2Warren",
-    "text": "I fried my CPU w/ ChromeDevTools MCP :( - Heed my warning. Instruct your assistant to always verify your tab count prior to initiating Chrome DevTools MCP. We're talking no more than 10 tabs okay! System = 9700K 64GB RAM NVMe SSD I learned this early on while using C.MCP and because my experience with it is upwards of 3 hours, I would of course go on to forget about the precaution. I had ~80 tabs open in 5 windows when C.MCP was initialized. It should go without saying that this is when my system began behaving undesirably. What struck me odd right off the bat is that after killing Chrome via Task Manager, my system didn't return to normal function/performance. I couldn't interact with File Explorer or any of the basic Windows elements. Naturally. I rebooted my computer and now my system freezes during the VGA boot phase. I wonder if anyone else has had a similar experience? Either way I hope you all take the lesson that I've learned and implement safeguards against it i7-9700K 64GB RAM 1TB NVMe SSD. &#32; submitted by &#32; /u/D2Warren [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs51v0/i_fried_my_cpu_w_chromedevtools_mcp/",
     "authority_score": 0.5
   },
   {
