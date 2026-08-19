@@ -80,19 +80,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T09:10:15Z",
-    "author": "/u/throwawayy_far",
-    "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T06:40:45Z",
     "author": "/u/sammartinX",
     "text": "ChatGPT on Linux 👀 - After all the waiting now ChatGPT is finally showing up on Linux too. No more pretending the browser tab is an app. 😂 &#32; submitted by &#32; /u/sammartinX [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vselwp/chatgpt_on_linux/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T09:10:15Z",
+    "author": "/u/throwawayy_far",
+    "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
     "authority_score": 0.5
   },
   {
@@ -112,6 +112,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T09:30:16Z",
+    "author": "/u/vroad_x",
+    "text": "ChatGPT helped me find spying code in a Chrome extension that had been lurking for years. Unfortunately, I'd been using that extension for years without realizing it though. - I asked ChatGPT to analyze the code of &quot;Enhanced Image Viewer&quot; after noticing that the extension has been removed from the store. As a result, I've realized that following sensitive info has been sent to the attacker's server. ChatGPT conversation on the web since Enhanced Image Viewer had been updated to v6.9（Oct 14, 2025) Probably all browsing URLs since I've installed the extension. IP-derived geolocation data &#32; submitted by &#32; /u/vroad_x [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vshit2/chatgpt_helped_me_find_spying_code_in_a_chrome/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T10:26:41Z",
     "author": "/u/BeginningNo3135",
     "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
@@ -128,11 +136,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T09:30:16Z",
-    "author": "/u/vroad_x",
-    "text": "ChatGPT helped me find spying code in a Chrome extension that had been lurking for years. Unfortunately, I'd been using that extension for years without realizing it though. - I asked ChatGPT to analyze the code of &quot;Enhanced Image Viewer&quot; after noticing that the extension has been removed from the store. As a result, I've realized that following sensitive info has been sent to the attacker's server. ChatGPT conversation on the web since Enhanced Image Viewer had been updated to v6.9（Oct 14, 2025) Probably all browsing URLs since I've installed the extension. IP-derived geolocation data &#32; submitted by &#32; /u/vroad_x [link] &#32; [comments]",
+    "timestamp": "2026-08-19T11:15:37Z",
+    "author": "/u/severe_009",
+    "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vshit2/chatgpt_helped_me_find_spying_code_in_a_chrome/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
     "authority_score": 0.5
   },
   {
@@ -149,6 +157,14 @@
     "text": "Just another appreciation post. - I already liked ChatGPT, but 5.6 really got me hooked. ❤️ &#32; submitted by &#32; /u/TemporaryBeautiful37 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vryg43/just_another_appreciation_post/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T11:33:34Z",
+    "author": "/u/KeanuRave100",
+    "text": "POV: you're born as an AI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjtsu/pov_youre_born_as_an_ai/",
     "authority_score": 0.5
   },
   {
@@ -181,22 +197,6 @@
     "text": "Newer AI models have become really pedantic - I've noticed that models like GPT 5.5/5.6 or the newer Claude Sonnet and Opus models follow a certain pattern. I’ll make a fairly specific claim, the model will mostly agree, and then it starts inserting caveats, qualifiers and little nitpicks. And half the time the objection is to a broader version of what I actually said... It will basically turn &quot;X is generally true in this situation&quot; into &quot;X is always true with no exceptions whatsoever&quot; then explain why that stronger claim isn’t quite right. Almost always, once I address the caveats and give reasons why they don't apply, it folds immediately. There isn’t even much of an argument after that. It just goes &quot;yeah, that’s fair' and proceeds to agree with the original point. That’s what makes it feel less like genuine disagreement and more like it has some built-in urge to find something to qualify so it doesn’t seem overly agreeable. And it always uses the same type of phrases &quot;I'd gently push back&quot; &quot;One honest caveat&quot; &quot;X is doing a lot of work&quot; Sometimes the caveat is technically true but completely unnecessary or disproportionate to what I'm saying. It's starting to make conversations feel extremely pedantic. It's fine when the caveat adds something or genuinely corrects a mistake but most of the time this isn't even the case. It can focus a lot more on the weaker argument than the stronger one just to appear contrarian, and since it lacks real judgment it can't always distinguish between the two unless you explain it and make it obvious. &#32; submitted by &#32; /u/Greedy-Sandwich9709 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vrtcem/newer_ai_models_have_become_really_pedantic/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T15:28:40Z",
-    "author": "/u/Intelligent_Knee_122",
-    "text": "It's scary how good the voice call is now - I haven't used the voice call in like 3+ months and it's scary how human it sounds now. Scary in the way that i would favor talking with it than real humans. For some context, I work with the public and sometimes I'm in a position to talk with people who's depressed or dealing with other mental health difficulties. I'm just surprised by how empathetic and strategic its questions are now. It's so good in directing positive thinking towards what actions we can control in a way that's quite natural, in my opinion. &#32; submitted by &#32; /u/Intelligent_Knee_122 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrsetn/its_scary_how_good_the_voice_call_is_now/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T06:49:59Z",
-    "author": "/u/theelegantthreat",
-    "text": "Picture beautiful, hidden messages in water - &#32; submitted by &#32; /u/theelegantthreat [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vserln/picture_beautiful_hidden_messages_in_water/",
     "authority_score": 0.5
   }
 ]

@@ -1,15 +1,15 @@
 {
-  "total_predictions": 726,
-  "resolved_predictions": 587,
-  "overall_brier_score": 0.2288262387223169,
-  "overall_accuracy": 0.7013060760931289,
+  "total_predictions": 727,
+  "resolved_predictions": 589,
+  "overall_brier_score": 0.22997340486134693,
+  "overall_accuracy": 0.6989247311827957,
   "horizons": [
     {
       "horizon_hours": 5,
-      "total": 587,
-      "brier_score": 0.17014790269165248,
-      "accuracy": 0.7495741056218058,
-      "calibration_error": 0.20967086882453154,
+      "total": 589,
+      "brier_score": 0.1704190473344652,
+      "accuracy": 0.7470288624787776,
+      "calibration_error": 0.21065670628183364,
       "bins": [
         {
           "bin_start": 0.0,
@@ -51,7 +51,7 @@
           "bin_end": 0.6,
           "predicted_mean": 0.5,
           "actual_frequency": 0.0,
-          "count": 57
+          "count": 59
         },
         {
           "bin_start": 0.6,
@@ -85,10 +85,10 @@
     },
     {
       "horizon_hours": 24,
-      "total": 587,
-      "brier_score": 0.22715526045996592,
-      "accuracy": 0.7461669505962522,
-      "calibration_error": 0.2505701873935264,
+      "total": 589,
+      "brier_score": 0.22855711016977928,
+      "accuracy": 0.7436332767402377,
+      "calibration_error": 0.2524358234295416,
       "bins": [
         {
           "bin_start": 0.0,
@@ -151,7 +151,7 @@
           "bin_end": 0.9,
           "predicted_mean": 0.8,
           "actual_frequency": 0.0,
-          "count": 57
+          "count": 59
         },
         {
           "bin_start": 0.9,
@@ -164,10 +164,10 @@
     },
     {
       "horizon_hours": 48,
-      "total": 587,
-      "brier_score": 0.2891755530153322,
-      "accuracy": 0.6081771720613288,
-      "calibration_error": 0.33186575809199326,
+      "total": 589,
+      "brier_score": 0.29094405707979626,
+      "accuracy": 0.6061120543293718,
+      "calibration_error": 0.3337949066213922,
       "bins": [
         {
           "bin_start": 0.0,
@@ -237,10 +237,10 @@
           "bin_end": 1.0,
           "predicted_mean": 0.9,
           "actual_frequency": 0.0,
-          "count": 57
+          "count": 59
         }
       ]
     }
   ],
-  "updated_at": "2026-08-19T11:19:02.980102Z"
+  "updated_at": "2026-08-19T11:42:39.776633Z"
 }
