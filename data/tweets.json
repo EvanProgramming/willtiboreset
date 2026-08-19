@@ -176,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T15:28:07Z",
-    "author": "/u/niacolhealth",
-    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
+    "timestamp": "2026-08-19T22:07:22Z",
+    "author": "/u/DijonAndDragons",
+    "text": "Hardwired... to Self-Destruct - Made with GPT-Image-2 model. &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt0r3i/hardwired_to_selfdestruct/",
     "authority_score": 0.5
   },
   {
