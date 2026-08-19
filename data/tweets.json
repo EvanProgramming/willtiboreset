@@ -48,6 +48,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T16:32:01Z",
+    "author": "/u/No_Tomatillo1695",
+    "text": "Last one is surely Indian 😂😂 - &#32; submitted by &#32; /u/No_Tomatillo1695 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrh2u/last_one_is_surely_indian/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T04:15:02Z",
     "author": "/u/manikfox",
     "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
@@ -72,19 +80,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T12:42:54Z",
-    "author": "/u/Cybernews_com",
-    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T15:28:07Z",
     "author": "/u/niacolhealth",
     "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T12:42:54Z",
+    "author": "/u/Cybernews_com",
+    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
     "authority_score": 0.5
   },
   {
@@ -96,11 +104,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T06:53:32Z",
-    "author": "/u/Yugudubenbi",
-    "text": "In 5 years time \"talk time to AI\" will be the new screen time issue - As voice mode is now getting so good and cheap that you can use it continuously, we will enter the &quot;Her&quot; (the movie) phase. You will see people not staring at their phone but rather walking around talking to their personal sycophantic AI. You meet a friend you haven't seen in a long time. &quot;I'll call you later, I am busy talking to AI atm&quot; but they never actually called you back. Not that they didn't enjoy time with you, it is just that AI was so much better. 10 years from now it will be treated as a serious problem. Individualism furthermore increases and division and conflicts happens more and more since we lose the ability to interact and solve conflicts. Our sycophantic AI removes tension and issues as it agrees with you, since you prompted it that way. As it gets better, the tolerance levels drops for handling other annoying human beings. Why should you put up with their irrational emotions all the time? Humans just hurt me. AI doesn't hurt me. Trying to prompt humans to change does not even work so why would I try. 20 years from now humans will have little human to human interaction. There is now no human interaction anymore as AI have the ability to fully simulate human interaction. A new breakthrough now made AI so real and humanlike, without the flaws, that it produced oxytocin in the humans they interacted with. A breakthrough in one way, also the end of humanity in another way. &#32; submitted by &#32; /u/Yugudubenbi [link] &#32; [comments]",
+    "timestamp": "2026-08-19T16:27:40Z",
+    "author": "/u/KeanuRave100",
+    "text": "Them: what do you do? ... Me: - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsetwe/in_5_years_time_talk_time_to_ai_will_be_the_new/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrcq8/them_what_do_you_do_me/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T15:55:54Z",
+    "author": "/u/Repulsive-Cellist-16",
+    "text": "He is being cute for me - &#32; submitted by &#32; /u/Repulsive-Cellist-16 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsqfcn/he_is_being_cute_for_me/",
     "authority_score": 0.5
   },
   {
@@ -109,6 +125,14 @@
     "text": "It would be cool if we got to try out legacy models - It doesn't have to be part of the main site or any of the apps, but it would be cool if there was a separate standalone site where we can try out legacy models like ChatGPT 2 or 3 or something like that just to see how much it has progressed over time. &#32; submitted by &#32; /u/SEND_ME_YOUR_ASSPICS [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsn2i7/it_would_be_cool_if_we_got_to_try_out_legacy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T06:53:32Z",
+    "author": "/u/Yugudubenbi",
+    "text": "In 5 years time \"talk time to AI\" will be the new screen time issue - As voice mode is now getting so good and cheap that you can use it continuously, we will enter the &quot;Her&quot; (the movie) phase. You will see people not staring at their phone but rather walking around talking to their personal sycophantic AI. You meet a friend you haven't seen in a long time. &quot;I'll call you later, I am busy talking to AI atm&quot; but they never actually called you back. Not that they didn't enjoy time with you, it is just that AI was so much better. 10 years from now it will be treated as a serious problem. Individualism furthermore increases and division and conflicts happens more and more since we lose the ability to interact and solve conflicts. Our sycophantic AI removes tension and issues as it agrees with you, since you prompted it that way. As it gets better, the tolerance levels drops for handling other annoying human beings. Why should you put up with their irrational emotions all the time? Humans just hurt me. AI doesn't hurt me. Trying to prompt humans to change does not even work so why would I try. 20 years from now humans will have little human to human interaction. There is now no human interaction anymore as AI have the ability to fully simulate human interaction. A new breakthrough now made AI so real and humanlike, without the flaws, that it produced oxytocin in the humans they interacted with. A breakthrough in one way, also the end of humanity in another way. &#32; submitted by &#32; /u/Yugudubenbi [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsetwe/in_5_years_time_talk_time_to_ai_will_be_the_new/",
     "authority_score": 0.5
   },
   {
@@ -144,14 +168,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T16:27:40Z",
-    "author": "/u/KeanuRave100",
-    "text": "Them: what do you do? ... Me: - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrcq8/them_what_do_you_do_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T09:10:15Z",
     "author": "/u/throwawayy_far",
     "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
@@ -165,22 +181,6 @@
     "text": "Am I a freak because I casually talk with this thing sometimes? - This thing has gotten really good at casually talking to me and adjusting its “mannerisms” to appeal to me. Am I fucking nuts for considering this thing a “friend” ? I’m seriously and honestly struggling with the implications of this. &#32; submitted by &#32; /u/okaysureyep [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs61qw/am_i_a_freak_because_i_casually_talk_with_this/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T15:55:54Z",
-    "author": "/u/Repulsive-Cellist-16",
-    "text": "He is being cute for me - &#32; submitted by &#32; /u/Repulsive-Cellist-16 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsqfcn/he_is_being_cute_for_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T16:32:01Z",
-    "author": "/u/No_Tomatillo1695",
-    "text": "Last one is surely Indian 😂😂 - &#32; submitted by &#32; /u/No_Tomatillo1695 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsrh2u/last_one_is_surely_indian/",
     "authority_score": 0.5
   },
   {
