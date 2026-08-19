@@ -129,6 +129,23 @@ class TestSignalAnalyzer:
         # next = last reset + 14d = now + 6d = 144h
         assert features.hours_until_next_reset == pytest_approx(144.0)
 
+    def test_weekly_cycle_factor_disabled(self):
+        """Weekly cycle factor is disabled and must not boost Mondays."""
+        now_monday = datetime(2025, 7, 7, 12, 0, tzinfo=timezone.utc)  # Monday
+        now_tuesday = datetime(2025, 7, 8, 12, 0, tzinfo=timezone.utc)  # Tuesday
+        events = [
+            ResetEvent(
+                reset_time=now_monday - timedelta(days=8),
+                source=SignalSource.TWITTER,
+            ),
+        ]
+        analyzer = SignalAnalyzer()
+        monday_features = analyzer.analyze([], events, now=now_monday)
+        tuesday_features = analyzer.analyze([], events, now=now_tuesday)
+
+        assert monday_features.weekly_cycle_factor == 0.0
+        assert tuesday_features.weekly_cycle_factor == 0.0
+
 
 def pytest_approx(expected, rel=1e-1):
     """Simple approximate comparison (avoids importing pytest at module top level)"""

@@ -11,7 +11,6 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-from zoneinfo import ZoneInfo
 
 from model.data_models import ResetEvent, Tweet
 from analyzer.llm_signal import (
@@ -19,10 +18,6 @@ from analyzer.llm_signal import (
     LLMAnalyzer,
     MockLLMAnalyzer,
 )
-
-# US Eastern timezone for day-of-week computation (Tibo operates on US time)
-US_EASTERN = ZoneInfo("America/New_York")
-
 
 # 每周重置规则：默认重置间隔为 7 天。
 # 若一周内 Tibo 未提前重置，则下一次重置日期 = 上一次实际重置时间 + 7 天；
@@ -61,7 +56,7 @@ class AnalysisFeatures:
     hours_until_next_reset: Optional[float] = None
     reset_schedule_status: str = "no_history"  # "on_schedule" / "overdue" / "no_history"
 
-    # 周期因子：基于历史重置在星期几的分布 + Tibo 明确声明周一重置
+    # 周期因子（已禁用）：不再使用“US 周一更可能重置”的假设
     weekly_cycle_factor: float = 0.0
 
     # Metadata
@@ -218,7 +213,7 @@ class SignalAnalyzer:
                     else "on_schedule"
                 )
 
-        # 周期因子：基于历史重置星期分布 + Tibo 声明周一重置
+        # 周期因子：已禁用（不再使用周一因子）
         weekly_cycle_factor = _compute_weekly_cycle_factor(
             reset_events, now, schedule_status,
         )
@@ -262,57 +257,16 @@ def _compute_weekly_cycle_factor(
     schedule_status: str,
 ) -> float:
     """
-    Compute weekly cycle factor (0-1) based on day-of-week pattern.
+    Compute weekly cycle factor.
 
-    Tibo has explicitly stated he resets on US Mondays. Historical reset
-    data is blended with this known pattern. When the weekly window is
-    overdue AND it's Monday (US time), the factor is at its maximum.
+    This factor is intentionally disabled: we no longer use day-of-week
+    (including US Monday) as a predictor signal.
 
     Returns:
-        0.0 - 1.0, where 1.0 means current day is a very likely reset day.
+        Always 0.0.
     """
-    now_et = now.astimezone(US_EASTERN) if now.tzinfo else now.replace(
-        tzinfo=timezone.utc
-    ).astimezone(US_EASTERN)
-    current_day = now_et.weekday()  # 0=Monday, 6=Sunday
-
-    # Known pattern: Tibo explicitly stated Monday resets.
-    # Monday=1.0, Sunday/Tuesday=0.5 (adjacent, might be early/late), other=0.15
-    known_pattern = [0.15] * 7
-    known_pattern[0] = 1.0   # Monday
-    known_pattern[6] = 0.5   # Sunday
-    known_pattern[1] = 0.5   # Tuesday
-
-    # Blend with historical day-of-week distribution if available
-    if reset_events:
-        day_counts = [0.0] * 7
-        for event in reset_events:
-            event_time = _to_aware(event.reset_time)
-            event_et = event_time.astimezone(US_EASTERN)
-            day_counts[event_et.weekday()] += 1
-        total = sum(day_counts)
-        if total > 0:
-            hist_dist = [c / total for c in day_counts]
-            # Blend: 80% known pattern + 20% historical distribution
-            # Known pattern (Tibo's explicit statement) gets higher weight
-            # because historical data includes exceptional/event-driven resets
-            # that don't reflect the regular weekly schedule.
-            blended = [
-                0.8 * known_pattern[i] + 0.2 * hist_dist[i]
-                for i in range(7)
-            ]
-        else:
-            blended = known_pattern
-    else:
-        blended = known_pattern
-
-    factor = blended[current_day]
-
-    # Boost when overdue: overdue + Monday = very likely today
-    if schedule_status == "overdue":
-        factor = min(1.0, factor * 1.3)
-
-    return round(factor, 4)
+    _ = (reset_events, now, schedule_status)
+    return 0.0
 
 
 def _std(values: list[float]) -> float:
