@@ -72,19 +72,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T23:03:10Z",
-    "author": "/u/TumbleweedQueasy6629",
-    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T14:51:12Z",
     "author": "/u/Quiet-Discussion5910",
     "text": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done - I am an artist that makes nothing but weird ass shit &#32; submitted by &#32; /u/Quiet-Discussion5910 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T23:03:10Z",
+    "author": "/u/TumbleweedQueasy6629",
+    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
     "authority_score": 0.5
   },
   {
@@ -96,19 +96,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T11:15:37Z",
-    "author": "/u/severe_009",
-    "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T13:52:34Z",
     "author": "/u/SEND_ME_YOUR_ASSPICS",
     "text": "It would be cool if we got to try out legacy models - It doesn't have to be part of the main site or any of the apps, but it would be cool if there was a separate standalone site where we can try out legacy models like ChatGPT 2 or 3 or something like that just to see how much it has progressed over time. &#32; submitted by &#32; /u/SEND_ME_YOUR_ASSPICS [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsn2i7/it_would_be_cool_if_we_got_to_try_out_legacy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T11:15:37Z",
+    "author": "/u/severe_009",
+    "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
     "authority_score": 0.5
   },
   {
@@ -120,11 +120,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T09:10:15Z",
-    "author": "/u/throwawayy_far",
-    "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
+    "timestamp": "2026-08-19T15:28:07Z",
+    "author": "/u/niacolhealth",
+    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T15:24:15Z",
+    "author": "/u/Zorgi23",
+    "text": "Writing style - I'm curious... where does ChatGPT get this habit of writing with so many one sentence paragraphs? I know it bases its response on millions of pieces of writing, but I can't think of anyone who writes this way. One or two paragraphs like that out of every 20 or 30 - but 50% of the paragraphs or even more? Do younger people write like that? Maybe I'm (78M) just out of touch. And I'm interested in serious responses, not the typical &quot;AI is trash. Learn to write yourself&quot; stuff. &#32; submitted by &#32; /u/Zorgi23 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspk7p/writing_style/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T10:48:22Z",
+    "author": "/u/No-Lifeguard-8173",
+    "text": "ALF in the garden of Eden - &#32; submitted by &#32; /u/No-Lifeguard-8173 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsixtc/alf_in_the_garden_of_eden/",
     "authority_score": 0.5
   },
   {
@@ -136,11 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T10:48:22Z",
-    "author": "/u/No-Lifeguard-8173",
-    "text": "ALF in the garden of Eden - &#32; submitted by &#32; /u/No-Lifeguard-8173 [link] &#32; [comments]",
+    "timestamp": "2026-08-19T09:10:15Z",
+    "author": "/u/throwawayy_far",
+    "text": "Chat has been going crazy - I’m a student and sometimes I use ChatGPT to summarise things, but after the last update it has been going really crazy and ultra delusional. If I have a project suddenly after discussing some material in it, it cannot reach it and start making up stuff. It’s so in your face and it has wasted so much of my time. When I ask a direct question, it turns it into some philosophical shit about if and if and if and it never gets to the point. For example this morning I asked a question about statutory health insurance in Germany and whether or not a person above 30 is able to qualify as a student for it and it was a nightmare to communicate with. It just kept getting everything super super philosophical like I just wanna know the exceptions and how to go about things. Also every time I mention any city or town and events in it, it continuously asks for access to Location for example I asked about the floods in a nearby city a couple of years ago and it did not stop asking for access to Location. I pay €23 a month to send slides and whatever and it just so so unusable right now after the latest update that I cannot justify continuing to subscribe to it. It cannot answer any question without at least five paragraphs of rewarding the same answer in different ways. Idk what broke it exactly but I’m using notbooklm now and it’s so much better. &#32; submitted by &#32; /u/throwawayy_far [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsixtc/alf_in_the_garden_of_eden/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsh63f/chat_has_been_going_crazy/",
     "authority_score": 0.5
   },
   {
@@ -160,19 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T15:28:07Z",
-    "author": "/u/niacolhealth",
-    "text": "A live benchmark that treats the model and its setup as separate variables - If you compare ChatGPT with other models across apps or agent tools, a single score can hide a lot of setup. Even with the same model, instructions, skills, tools, permissions, and retry rules can change around it. Questflow makes that layer visible in a public live benchmark. Ten frontier models trade the same capital on the same on-chain signal, and the page shows bare and harness-equipped entrants side by side. Here, “harness” means the surrounding skills, tools, and controls. The August 19, 2026 snapshot lists 21 live agents. Trading is only the test setting. The useful AI question is whether an observed difference comes from the model, the surrounding setup, or their interaction. The paired view and live reasoning feed make those comparisons inspectable, but they do not prove a stable winner or a universal harness lift. That would need repeated runs, fixed time windows, and differences that survive new signals. The Questflow-specific open question is whether the gaps on its live pairs persist under those controls. Looking up the benchmark and comparing a few bare/harness pairs is enough to see what the surface reveals and what it still leaves unanswered. What would you hold fixed before calling a difference a model effect? &#32; submitted by &#32; /u/niacolhealth [link] &#32; [comments]",
+    "timestamp": "2026-08-19T15:03:58Z",
+    "author": "/u/Calcularius",
+    "text": "Me talking to ChatGPT - &#32; submitted by &#32; /u/Calcularius [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspo0y/a_live_benchmark_that_treats_the_model_and_its/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T10:26:41Z",
-    "author": "/u/BeginningNo3135",
-    "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsijgc/what_plugins_do_you_use/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsp05o/me_talking_to_chatgpt/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T15:24:15Z",
-    "author": "/u/Zorgi23",
-    "text": "Writing style - I'm curious... where does ChatGPT get this habit of writing with so many one sentence paragraphs? I know it bases its response on millions of pieces of writing, but I can't think of anyone who writes this way. One or two paragraphs like that out of every 20 or 30 - but 50% of the paragraphs or even more? Do younger people write like that? Maybe I'm (78M) just out of touch. And I'm interested in serious responses, not the typical &quot;AI is trash. Learn to write yourself&quot; stuff. &#32; submitted by &#32; /u/Zorgi23 [link] &#32; [comments]",
+    "timestamp": "2026-08-19T10:26:41Z",
+    "author": "/u/BeginningNo3135",
+    "text": "What Plug-in(s) do you use? - I'd have to classify myself as a casual ChatGPT user. When I look at all these plugins, I wonder who uses what, and why? I'm not asking people who run businesses from their phones. I'm talking to the everyday user. TIA &#32; submitted by &#32; /u/BeginningNo3135 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vspk7p/writing_style/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T15:03:58Z",
-    "author": "/u/Calcularius",
-    "text": "Me talking to ChatGPT - &#32; submitted by &#32; /u/Calcularius [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsp05o/me_talking_to_chatgpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsijgc/what_plugins_do_you_use/",
     "authority_score": 0.5
   }
 ]
