@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-19T12:42:37.795607+00:00",
+  "updated_at": "2026-08-19T13:02:36.025468+00:00",
   "prediction": {
-    "within_5h": 0.1305,
-    "within_24h": 0.3837,
-    "within_48h": 0.5232
+    "within_5h": 0.0905,
+    "within_24h": 0.2922,
+    "within_48h": 0.4212
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 12.3,
+    "hours_until": 12.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 155.69383195,
+    "hours_since_last_reset": 156.0266735961111,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 12.3,
+      "hours_until": 12.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,26 +26,26 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.1255,
-    "time_pressure": 0.3926,
-    "hazard_rate": 0.019966,
-    "evidence_score": 0.0813,
-    "tibo_signal": 0.1531,
+    "time_ratio": 2.1301,
+    "time_pressure": 0.3955,
+    "hazard_rate": 0.014297,
+    "evidence_score": 0.0398,
+    "tibo_signal": 0.0834,
     "community_signal": 0.6,
-    "release_signal": 0.5148,
+    "release_signal": 0.52,
     "llm_scores": {
-      "reset_intent": 0.036000000000000004,
+      "reset_intent": 0.016,
       "limit_complaint": 0.024,
-      "official_change": 0.1032,
-      "reset_confirmation": 0.018000000000000002,
-      "confidence": 0.396,
+      "official_change": 0.0832,
+      "reset_confirmation": 0.008,
+      "confidence": 0.37799999999999995,
       "reason": [
         "Community pressure signal detected (score: 0.50)",
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
         "No relevant signals detected; possibly unrelated content",
-        "Release/update signal detected (score: 0.58)",
-        "Community pressure signal detected (score: 0.40)"
+        "No relevant signals detected; possibly unrelated content",
+        "Release/update signal detected (score: 0.58)"
       ]
     },
     "prior_applied": false,
@@ -55,14 +55,14 @@
   },
   "main_factors": [
     {
-      "factor": "155.7 hours since last reset",
+      "factor": "156.0 hours since last reset",
       "impact": "+0%",
-      "score": 0.39
+      "score": 0.4
     },
     {
       "factor": "Some reset discussion detected",
-      "impact": "+3%",
-      "score": 0.15
+      "impact": "+1%",
+      "score": 0.08
     },
     {
       "factor": "High community limit complaints",
@@ -72,12 +72,12 @@
     {
       "factor": "Official release/change signal",
       "impact": "+10%",
-      "score": 0.51
+      "score": 0.52
     }
   ],
   "reasons": [
-    "155.7 hours since last reset, close to historical median interval 47 hours",
-    "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
-    "Main factor: 155.7 hours since last reset (+0%)"
+    "156.0 hours since last reset, close to historical median interval 47 hours",
+    "Weak reset evidence detected (evidence_score=0.04), insufficient to confirm",
+    "Main factor: 156.0 hours since last reset (+0%)"
   ]
 }
