@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-19T06:02:35.149980+00:00",
+  "updated_at": "2026-08-19T06:28:56.538083+00:00",
   "prediction": {
-    "within_5h": 0.1692,
-    "within_24h": 0.4605,
-    "within_48h": 0.6031
+    "within_5h": 0.1682,
+    "within_24h": 0.4587,
+    "within_48h": 0.6015
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 19.0,
+    "hours_until": 18.5,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 149.02643037666667,
+    "hours_since_last_reset": 149.46570486888888,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 19.0,
+      "hours_until": 18.5,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,11 +26,11 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.0345,
-    "time_pressure": 0.3379,
-    "hazard_rate": 0.025385,
-    "evidence_score": 0.1149,
-    "tibo_signal": 0.3267,
+    "time_ratio": 2.0405,
+    "time_pressure": 0.3414,
+    "hazard_rate": 0.02525,
+    "evidence_score": 0.1135,
+    "tibo_signal": 0.3273,
     "community_signal": 0.8,
     "release_signal": 0.61,
     "llm_scores": {
@@ -45,7 +45,7 @@
         "No relevant signals detected; possibly unrelated content",
         "Moderate reset signal detected (score: 0.40)",
         "Release/update signal detected (score: 0.50)",
-        "Community pressure signal detected (score: 0.40)"
+        "Release/update signal detected (score: 0.58)"
       ]
     },
     "prior_applied": false,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "149.0 hours since last reset",
+      "factor": "149.5 hours since last reset",
       "impact": "+0%",
       "score": 0.34
     },
@@ -76,8 +76,8 @@
     }
   ],
   "reasons": [
-    "149.0 hours since last reset, close to historical median interval 47 hours",
+    "149.5 hours since last reset, close to historical median interval 47 hours",
     "Weak reset evidence detected (evidence_score=0.11), insufficient to confirm",
-    "Main factor: 149.0 hours since last reset (+0%)"
+    "Main factor: 149.5 hours since last reset (+0%)"
   ]
 }
