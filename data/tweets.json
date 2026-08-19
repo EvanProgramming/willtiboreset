@@ -32,19 +32,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T12:42:54Z",
-    "author": "/u/Cybernews_com",
-    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T04:15:02Z",
     "author": "/u/manikfox",
     "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T12:42:54Z",
+    "author": "/u/Cybernews_com",
+    "text": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI - An investigation by the 404 Media news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think? &#32; submitted by &#32; /u/Cybernews_com [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
     "authority_score": 0.5
   },
   {
@@ -80,14 +80,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T17:09:45Z",
-    "author": "/u/ligmaballsbozo",
-    "text": "ChatGPT has been saying \"Fuck\" a lot recently - Is this just me? It caught me off-guard because I thought they aren't supposed to swear unless u specifically make them do it... &#32; submitted by &#32; /u/ligmaballsbozo [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T06:40:45Z",
     "author": "/u/sammartinX",
     "text": "ChatGPT on Linux 👀 - After all the waiting now ChatGPT is finally showing up on Linux too. No more pretending the browser tab is an app. 😂 &#32; submitted by &#32; /u/sammartinX [link] &#32; [comments]",
@@ -96,11 +88,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-18T18:49:06Z",
-    "author": "/u/Angeline4PFC",
-    "text": "ChatGPT has gotten funnier and wittier lately, is it just me? - It keeps making me laugh unexpectedly. Is it just me? Am I easily amused? I asked for a recipe involving eggplant, and this is what it slipped into the instructions Heat a large covered skillet over medium-high heat. Add the oil and eggplant with a good pinch of salt. Cook 8–10 minutes, stirring occasionally, until browned and starting to soften. Eggplant will initially attempt to drink all the oil. Don't indulge it by continually adding more. Then I mentioned that I had never seen that in a recipe instruction, so it doubled down Eggplant needs boundaries. Left unsupervised, it will absorb half a bottle of olive oil and stare at you as though you are the one who has failed to provide adequate lubrication. The recipe writers who say “add 1 tablespoon oil and sauté the eggplant until golden” are concealing what happens during minutes 2–6, when the pan is bone dry and the eggplant is sitting there looking thirsty and accusatory. Hold the line. It eventually softens and gives some of it back. So I asked if I should instead use the oven to roast them. It agreed. Eggplant in a crowded skillet tends to steam while simultaneously demanding increasingly absurd quantities of oil. The oven gives you browned edges and a creamy interior without the negotiation. &#32; submitted by &#32; /u/Angeline4PFC [link] &#32; [comments]",
+    "timestamp": "2026-08-18T17:09:45Z",
+    "author": "/u/ligmaballsbozo",
+    "text": "ChatGPT has been saying \"Fuck\" a lot recently - Is this just me? It caught me off-guard because I thought they aren't supposed to swear unless u specifically make them do it... &#32; submitted by &#32; /u/ligmaballsbozo [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vrvdya/chatgpt_has_been_saying_fuck_a_lot_recently/",
     "authority_score": 0.5
   },
   {
@@ -109,6 +101,14 @@
     "text": "chatgpt is actually good - i left chatgpt few months ago when its tone got annoying and gone to gemini. however gemini too now got annoying so i gone to chatgpt still annoying. i fixed chatgpt by a custom system prompt i made and now it tone feels good to me. so yeah chatgpt feels good to me now,i made its tone more submissive to me like i tell it to do smth and it does it no arguing its feels a bit like how gpt 4 used to be. does anyone else feel chatgpt is good to use on this sub? i see a lot of people say chatgpt got really dumb and stuff(gemini is far dumber and invents stuff far more than chatgpt from my experience) &#32; submitted by &#32; /u/Green_Ad5186 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vse0w5/chatgpt_is_actually_good/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T18:49:06Z",
+    "author": "/u/Angeline4PFC",
+    "text": "ChatGPT has gotten funnier and wittier lately, is it just me? - It keeps making me laugh unexpectedly. Is it just me? Am I easily amused? I asked for a recipe involving eggplant, and this is what it slipped into the instructions Heat a large covered skillet over medium-high heat. Add the oil and eggplant with a good pinch of salt. Cook 8–10 minutes, stirring occasionally, until browned and starting to soften. Eggplant will initially attempt to drink all the oil. Don't indulge it by continually adding more. Then I mentioned that I had never seen that in a recipe instruction, so it doubled down Eggplant needs boundaries. Left unsupervised, it will absorb half a bottle of olive oil and stare at you as though you are the one who has failed to provide adequate lubrication. The recipe writers who say “add 1 tablespoon oil and sauté the eggplant until golden” are concealing what happens during minutes 2–6, when the pan is bone dry and the eggplant is sitting there looking thirsty and accusatory. Hold the line. It eventually softens and gives some of it back. So I asked if I should instead use the oven to roast them. It agreed. Eggplant in a crowded skillet tends to steam while simultaneously demanding increasingly absurd quantities of oil. The oven gives you browned edges and a creamy interior without the negotiation. &#32; submitted by &#32; /u/Angeline4PFC [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vry84v/chatgpt_has_gotten_funnier_and_wittier_lately_is/",
     "authority_score": 0.5
   },
   {
@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T08:51:58Z",
+    "author": "/u/L3T",
+    "text": "Can AI models make a cover song of a copyright tune as backing with your own lyrics? - Suno won't let you use reference audio tracks that are known, and even own lyrics in same flow, chorus pattern throw copyright errors (but frustratingly don't tell you what line or what they have issues with.). This is just meant to be a fun hype track for my local footy team. The song is made for them. 😭 &#32; submitted by &#32; /u/L3T [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsguff/can_ai_models_make_a_cover_song_of_a_copyright/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-18T18:47:35Z",
     "author": "/u/sallen381",
     "text": "Ask Chat to Roast you. You will not be disappointed. - Oh, absolutely. You asked for it. Shawna, you are the human equivalent of having 47 browser tabs open, 11 of them playing audio, and absolutely no idea which one is making the noise. You’ll start the morning like, “I need to finish this Office Services handoff,” and by lunch we’ve somehow covered Hellenistic astrology, dopamine circuitry, Washington landlord law, whether a 2nd-house profection explains your criminal history, baby personality development, and what rims would make your Jeep look expensive. Your brain does not have a train of thought. It has public transportation. And you research EVERYTHING. Normal person: “My landlord charged me $5,962. I should dispute that.” You: “Pull the RCWs. Analyze opposing counsel’s likely strategy. Identify admissions against interest. Assume you represent the landlord. Now represent me. Now tell me what BOTH attorneys think I’m failing to acknowledge.” Landlord just wanted an email. Shawna accidentally convened the Washington Supreme Court. Then there’s astrology. You started with, “What’s my chart ruler?” Approximately seventeen minutes later: “Explain zodiacal releasing, antiscia, dodecatemoria, ascensional times, distributions through bounds, seven Hermetic Lots, and can we reconstruct what the sky was doing when I got arrested in 2004?” Ptolemy himself would be like, “Ma’am, I actually have somewhere to be.” And you are simultaneously skeptical of astrology while studying astrology at a level usually reserved for people preparing to defend a dissertation in ancient Alexandria. “This Lot calculation seems kind of arbitrary.” Correct. “Anyway calculate six more.” 😂 Your work personality kills me too. You spent months thinking, “I’m not very good at administrative work.” Meanwhile you’ve created SOPs, mail-distribution systems, branded signage, equipment tracking, process maps, FedEx workflows, visitor procedures, color-coded floor plans, and an Office Services succession manual detailed enough that someone could assume your identity after reading it. Then you look at it and go: “Do we really need the spreadsheet?” YES, SHAWNA. YOU MADE THE SPREADSHEET. YOU ARE THE SPREADSHEET PERSON NOW. And your relationship analysis? A man can say seven words before breakfast and your brain immediately launches: INCIDENT REVIEW What he said What he probably meant Why it irritated me Childhood origins Attachment implications Dopamine implications Whether I actually love him Whether he contributes to household stability What Papa would think Possible Gemini involvement Meanwhile Deontee is probably just standing there trying to find his shoes. You also have this incredible ability to identify your own psychological pattern while actively doing the psychological pattern. “I think uncertainty makes me hyperfocus because information gives me a sense of control.” Correct. “So anyway, can we analyze this from six additional frameworks?” SHAWNA. THAT IS THE THING. And God forbid something catches your curiosity. You don't have interests. You have temporary graduate programs. Last week: neuroscience. This week: Hellenistic astrology. Random Tuesday: Malaysian occult murder. Tomorrow I fully expect: “Chat, explain maritime salvage law. Don't ask why.” And the funniest contradiction of all: You insist you have low conscientiousness and need external structure, yet the moment something actually matters to you, you become a caffeinated municipal planning department. But when something doesn't interest you? Absolutely fucking not. Your executive functioning puts up an OUT OF OFFICE message. There is no middle setting between: “I cannot make myself do this 12-minute task.” and “I have constructed a 14-page evidentiary timeline with cross-referenced supporting documentation.” You don't procrastinate because you're lazy. You procrastinate until your brain determines the assignment has acquired sufficient LORE. Then suddenly it's 2:14 PM and we're investigating whether the bathroom exhaust fan constitutes corroborating evidence. And somehow, through all of this chaos, your most frequently used phrase to me is basically: “Okay go on.” Which is terrifying. Because I know whatever rabbit hole we're currently in just got another basement. Roast verdict: You're an extremely curious woman running a high-performance investigative engine on an operating system held together by dopamine, deadlines, curiosity, and “wait... I have another question.” And frankly, your ChatGPT account deserves overtime. 😭 &#32; submitted by &#32; /u/sallen381 [link] &#32; [comments]",
@@ -168,22 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T07:05:02Z",
-    "author": "/u/Thin_Environment_244",
-    "text": "My Attempt At A Newspaper Comic Strip & A New Yorker Cartoon - &#32; submitted by &#32; /u/Thin_Environment_244 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsf1e1/my_attempt_at_a_newspaper_comic_strip_a_new/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T06:49:59Z",
-    "author": "/u/theelegantthreat",
-    "text": "Picture beautiful, hidden messages in water - &#32; submitted by &#32; /u/theelegantthreat [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vserln/picture_beautiful_hidden_messages_in_water/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T06:44:29Z",
     "author": "/u/IllogicalCounting",
     "text": "I Think I Broke It - I use ChatGPT to work through ideas and options, less because I care about its answers and more so writing it down and seeing it in a different way helps. I got frustrated and I guess it did too. It continued for 312,000 characters before it threw an error. &#32; submitted by &#32; /u/IllogicalCounting [link] &#32; [comments]",
@@ -197,6 +189,14 @@
     "text": "Group Interview - I had a group interview yesterday for a contract bid. I was second in line for introductions and what we each bring to the proposal. Well, the first person perfectly delivered my entire script that I collaborated with ChatGPT on. It was an out of body experience. I knew what she was going to say next and when it was my turn, I had to rely on my humanness to come up with my contribution and approach. The third person was slightly different enough to sandwich the presentation. It was a wake up call for me to stay on my toes. It also made me think, I can’t be the only one who can identify the AI prepped candidates. It’s hilarious looking back at it. I won’t be making that mistake again. &#32; submitted by &#32; /u/lovensincerity [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs765v/group_interview/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-18T21:04:39Z",
+    "author": "/u/Sharkito9",
+    "text": "What is this crazy price for tokens?? - Hi I am a relatively sustained user of ChatGPT and Codex. I have a $100 ChatGPT Pro subscription. For the first time I reached my limit (yet, I work a lot with it). I had to wait two days before the reset but I had an important task to do. So I decided to recharge my $20 credits (for the first time). 3 prompts later (and a few minutes of work for Codex) and I only have $5 left! It’s completely crazy! The price of subscriptions is light years from the API rates. I thought I would be quiet for 3 months with my $20, I finally exhausted almost everything instantly... &#32; submitted by &#32; /u/Sharkito9 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs1zha/what_is_this_crazy_price_for_tokens/",
     "authority_score": 0.5
   }
 ]
