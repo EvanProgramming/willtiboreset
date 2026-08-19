@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-19T01:42:35.316580+00:00",
+  "updated_at": "2026-08-19T02:02:38.304765+00:00",
   "prediction": {
     "within_5h": 0.2,
-    "within_24h": 0.4384,
-    "within_48h": 0.588
+    "within_24h": 0.4364,
+    "within_48h": 0.5861
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-20T01:01:00+00:00",
-    "hours_until": 23.3,
+    "hours_until": 23.0,
     "status": "on_schedule"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 144.69314332722223,
+    "hours_since_last_reset": 145.0273067311111,
     "next_reset": {
       "expected_time": "2026-08-20T01:01:00+00:00",
-      "hours_until": 23.3,
+      "hours_until": 23.0,
       "status": "on_schedule"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 1.9753,
-    "time_pressure": 0.3045,
-    "hazard_rate": 0.023754,
-    "evidence_score": 0.0795,
+    "time_ratio": 1.9799,
+    "time_pressure": 0.307,
+    "hazard_rate": 0.023609,
+    "evidence_score": 0.0784,
     "tibo_signal": 0.2868,
     "community_signal": 0.8,
     "release_signal": 0.5858,
@@ -55,9 +55,9 @@
   },
   "main_factors": [
     {
-      "factor": "144.7 hours since last reset",
+      "factor": "145.0 hours since last reset",
       "impact": "+0%",
-      "score": 0.3
+      "score": 0.31
     },
     {
       "factor": "Weekly cycle: moderate reset-day proximity",
@@ -81,9 +81,9 @@
     }
   ],
   "reasons": [
-    "144.7 hours since last reset, close to historical median interval 47 hours",
+    "145.0 hours since last reset, close to historical median interval 47 hours",
     "Weak reset evidence detected (evidence_score=0.08), insufficient to confirm",
     "Moderate reset-day proximity (factor=0.42), partial schedule floor applied",
-    "Main factor: 144.7 hours since last reset (+0%)"
+    "Main factor: 145.0 hours since last reset (+0%)"
   ]
 }
