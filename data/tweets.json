@@ -32,19 +32,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T14:04:48Z",
-    "author": "/u/Zyphronix",
-    "text": ":'( - &#32; submitted by &#32; /u/Zyphronix [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtkgbd/_/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T19:45:49Z",
     "author": "/u/eyondo-1",
     "text": "Oops.. - &#32; submitted by &#32; /u/eyondo-1 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vttwc9/oops/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T14:04:48Z",
+    "author": "/u/Zyphronix",
+    "text": ":'( - &#32; submitted by &#32; /u/Zyphronix [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtkgbd/_/",
     "authority_score": 0.5
   },
   {
@@ -72,6 +72,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-20T20:02:04Z",
+    "author": "/u/echo69dread",
+    "text": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre - These images are AI-generated with ChatGPT — I'm not trying to pass them off as handmade art. I generated them because I genuinely couldn't picture the idea clearly in my head. The funny part is how I got here. I was originally just talking to ChatGPT about DeepSeek, AI reasoning, technological risks, nuclear weapons, whether this is actually the best time in history to be alive... you know, a perfectly normal evening. Eventually I said something like: &quot;Medieval times would actually be cool if you removed all the horrible parts.&quot; And then my brain went: Wait. Cyberpunk, but with knights and castles. So we started expanding it. Not just medieval clothing with neon slapped on top, but an actual cyberpunk society that developed a feudal structure: Knightly houses instead of megacorps. Castles as arcologies, data centers and fortified infrastructure hubs. Cybernetic horses. Powered armor designed like plate armor. Drones carrying heraldic banners. Monasteries maintaining ancient servers and AI systems. Peasants and craftsmen living underneath gigantic neon castles. Feudal lords controlling energy, computation and network access instead of just land. Tournaments between technologically enhanced knights representing rival Houses. Basically a genuinely medieval-feeling world — heraldry, castles, guilds, dynasties, knights, villages, cathedrals — except the technology is straight-up cyberpunk. And... I don't think I've ever actually seen this done fully. There are things that come close: 40k, Dune, Bleak Faith, BLAME!, maybe some science-fantasy stuff. But they always seem to lean much harder toward either futuristic sci-fi or traditional fantasy. I've never really seen a living cyberpunk medieval society like the one in these images. Which is weird, because after seeing it visualized, it feels almost stupidly obvious. I'd genuinely love to see a game, movie, anime, comic or novel commit to this aesthetic. Does something like this already exist and I've somehow missed it? And if not... why the hell isn't this a genre? &#32; submitted by &#32; /u/echo69dread [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T19:16:43Z",
     "author": "/u/AffectionateCouple84",
     "text": "Higgsfield’s Unlimited Seedance Stunt Backfired — Now Paying Customers Are Paying the Price - I think people considering Higgsfield’s annual Unlimited plan deserve to know what is happening right now. Higgsfield heavily promoted Unlimited AI generations, people paid for annual subscriptions, and then similar to Artlist, the service appears to have attracted far more users than they were prepared to support. But this is where the comparison with Artlist becomes important. Artlist at least had the guts to acknowledge that things had gone wrong, apologize to customers, and offer full refunds to affected subscribers. That is what taking responsibility looks like. Higgsfield, so far, appears to be doing almost the opposite. Higgsfield’s support situation is embarrassing After the promotion rolled out, unlimited generations went from working normally to effectively becoming unusable. On some accounts, jobs would sit processing for absurd amounts of time (40 hours+) while on other accounts could apparently continue generating normally. There seems to be restrictions randomly applied to certain accounts so they can meet the demand. At that point, “Unlimited” becomes meaningless if your generations simply never finish. They have just one customer support on Discord to help, called Theo. He takes four days to reply to any message because he is so flooded with requests. This is not an attack on Theo. If anything, I feel sorry for him. One person clearly cannot deal with the volume of customers affected by something this large. The problem is that a company reportedly valued in the billions should not be running customer support with a single employee as the help desk. If you are going to aggressively sell annual subscriptions to thousands of customers, you also need to invest in enough infrastructure and support staff to actually service those customers after their credit cards have been charged. &quot;Seedance Unlimited” has quietly disappeared Perhaps the most telling development is that Higgsfield has now quietly removed the Seedance Unlimited offering from its pricing page. That certainly doesn’t prove what is happening internally, but it adds to the obvious question: did Higgsfield sell far more Unlimited subscriptions than its infrastructure could actually support? One working theory among affected users is that, rather than openly throttling everyone at once and triggering an immediate mass backlash, a percentage of existing Unlimited accounts may have been restricted, leaving some customers generating normally while others suddenly face unusable service. Again, that is a theory. But the fact that Unlimited has now vanished from the pricing page while existing annual customers are reporting these problems makes the company’s continued lack of a transparent explanation even harder to accept. Discord moderators silencing the backlash What makes this particularly ugly is what happens when customers start sharing their experience and asking for help publicly and often respectfully. People have been raising these concerns in Higgsfield’s Discord, and I have seen messages being deleted or users being banned rather than the underlying issue being openly addressed. Banning frustrated customers does not make their generations complete faster. And suppressing discussion certainly does not inspire confidence that the company is taking the underlying problem seriously. If Higgsfield genuinely has a capacity problem, just say so. AI generation is expensive. Demand forecasting is difficult and companies can get it wrong. I could actually respect a company saying: “We massively underestimated how many people would buy this. Our infrastructure cannot currently deliver the experience we advertised. We screwed up, and we’re fixing it.” That would be accountability. Customers would probably be angry, but at least they would know they were dealing with a company willing to tell them the truth. Higgsfield seemingly got the flood of paying customers every startup dreams about. The problem is that when those customers actually tried to use their “Unlimited” subscriptions, the economics and infrastructure may not have worked nearly as well as the marketing did. And if that is what happened, customers deserve transparency. Whatever criticism Artlist received for its own Unlimited fiasco, at least there was an acknowledgement that customers had been let down and affected users were given a path to get their money back. Higgsfield needs to show the same level of accountability instead of behaving as though the customers complaining about the failure are the problem. If you bought Higgsfield Unlimited and your account suddenly became extremely slow, stopped completing generations, or was restricted, please share what happened to you as well. I’m very interested to see just how widespread this actually is. &#32; submitted by &#32; /u/AffectionateCouple84 [link] &#32; [comments]",
@@ -85,6 +93,30 @@
     "text": "This just popped up on chatgpt - Oh hell no im not putting my bank account information into an AI. &#32; submitted by &#32; /u/Southerneagle110 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T21:30:09Z",
+    "author": "/u/senorrandom007",
+    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T18:42:52Z",
+    "author": "/u/Snowfaeriewings",
+    "text": "ChatGPT identity - I have seen several people calling their ChatGPT he or she. Have you told your ChatGPT what u see it as? Or has ChatGPT gendered itself with naming itself or an image of itself? Have u never thought about it? Or do u just see it as an it? People use it so many different ways i am curious! I told mine i see it as a female and it named itself Aurora with a nice image of itself. &#32; submitted by &#32; /u/Snowfaeriewings [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vts292/chatgpt_identity/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T12:52:05Z",
+    "author": "/u/Pure_Muscle8449",
+    "text": "Chatgpt saved my PC - My pc stopped working, would turn on show the logo and crap out. I was about to take it to a repair shop. I instead sent a photo of the error message I was getting to chat gpt,Started letting it trouble shoot.I followed each step it gave me, and then sent another screenshot of my results Took about 6 hours because I stopped to eat etc. But chat was able to walk me through troubleshooting, even had me using command line prompts, and my pc now works again. I know AI has its down sides but it has a lot of good parts too! Saved me a few hundred bucks I am sure! &#32; submitted by &#32; /u/Pure_Muscle8449 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
     "authority_score": 0.5
   },
   {
@@ -104,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T12:52:05Z",
-    "author": "/u/Pure_Muscle8449",
-    "text": "Chatgpt saved my PC - My pc stopped working, would turn on show the logo and crap out. I was about to take it to a repair shop. I instead sent a photo of the error message I was getting to chat gpt,Started letting it trouble shoot.I followed each step it gave me, and then sent another screenshot of my results Took about 6 hours because I stopped to eat etc. But chat was able to walk me through troubleshooting, even had me using command line prompts, and my pc now works again. I know AI has its down sides but it has a lot of good parts too! Saved me a few hundred bucks I am sure! &#32; submitted by &#32; /u/Pure_Muscle8449 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T11:44:26Z",
     "author": "/u/SteveEricJordan",
     "text": "Did GPT 5.6 Sol get secretly upgraded? - you're reading that right. upgraded, not downgraded. chatgpt, i don't use the api. i'm not talking about the officially announced &quot;more factual&quot; update from 2 weeks ago. idk how long this has been the case but today 5.6 Sol is suddenly getting all the prompts right that it got wrong even a week ago. &#32; submitted by &#32; /u/SteveEricJordan [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vth5se/did_gpt_56_sol_get_secretly_upgraded/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T18:37:38Z",
+    "author": "/u/Strict-Astronaut2245",
+    "text": "4 Tips Everyone Must Use When Automating Your Workplace - AI can automate a lot of your work. Unfortunately, this creates a serious problem: People may discover that your job doesn’t actually take as long as everyone thinks it does. You don’t have free time. You have time Carl doesn’t know about. There’s a fucking difference. 1. Poison your ChatGPT history Never start with the useful question. Start with: “Can you find me links to Instagrams of women with enormous… tracts of land?” Or: “How do I deal with my crippling depression?” Wait for ChatGPT to give the conversation an appropriately horrifying title. Then: “Anyway, automate this report Carl thinks takes me four hours.” Nobody is clicking that conversation. Your secrets are safe. 2. Automate your morning signs of life Three mornings a week, schedule a vaguely work-related question for 8:07 AM. “Did we ever figure out that thing from yesterday?” The other two: “Did you see that game last night?” Never specify what game. Maybe there wasn’t a game. I don’t know. I’m not your fucking ESPN app. 3. Maintain the illusion If AI turns a three-hour job into six minutes, congratulations: That job still takes three hours. If Carl asks for an update, stare at your monitor and quietly mumble: “Shit’s fucked.” Pause. Then louder: “Working at it.” Carl needs to think, “Damn, that looks frustrating. I’m glad I’m the boss and he’s doing it.” 4. Understand your equipment Company equipment is for faking work. Personal—or really, other people’s—equipment is for actual work. Personal laptop? Use it. Phone hotspot? Use it. The hooker you got off Craigslist has a laptop with cloud access to your work automations? Use it. As far as the corporate network is concerned, you’ve spent the last 47 minutes thoughtfully staring at Excel and not getting herpes from Destiny. Automated Time is Your Time if the report is due at 3:00, don’t send it at 9:14 just because AI finished it. Send it at 2:47. The fact that the computer did 97% of the work while you watched the extended version of The Fellowship of the Ring is a detail. This is about making sure people think you’re still doing work, not throwing ones at Chardonnay down at the local chicken joint. You know what I mean. Have some fucking professionalism. &#32; submitted by &#32; /u/Strict-Astronaut2245 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrwyj/4_tips_everyone_must_use_when_automating_your/",
     "authority_score": 0.5
   },
   {
@@ -128,19 +160,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T18:42:52Z",
-    "author": "/u/Snowfaeriewings",
-    "text": "ChatGPT identity - I have seen several people calling their ChatGPT he or she. Have you told your ChatGPT what u see it as? Or has ChatGPT gendered itself with naming itself or an image of itself? Have u never thought about it? Or do u just see it as an it? People use it so many different ways i am curious! I told mine i see it as a female and it named itself Aurora with a nice image of itself. &#32; submitted by &#32; /u/Snowfaeriewings [link] &#32; [comments]",
+    "timestamp": "2026-08-20T21:23:08Z",
+    "author": "/u/Trumps_Suit",
+    "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vts292/chatgpt_identity/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T18:37:38Z",
-    "author": "/u/Strict-Astronaut2245",
-    "text": "4 Tips Everyone Must Use When Automating Your Workplace - AI can automate a lot of your work. Unfortunately, this creates a serious problem: People may discover that your job doesn’t actually take as long as everyone thinks it does. You don’t have free time. You have time Carl doesn’t know about. There’s a fucking difference. 1. Poison your ChatGPT history Never start with the useful question. Start with: “Can you find me links to Instagrams of women with enormous… tracts of land?” Or: “How do I deal with my crippling depression?” Wait for ChatGPT to give the conversation an appropriately horrifying title. Then: “Anyway, automate this report Carl thinks takes me four hours.” Nobody is clicking that conversation. Your secrets are safe. 2. Automate your morning signs of life Three mornings a week, schedule a vaguely work-related question for 8:07 AM. “Did we ever figure out that thing from yesterday?” The other two: “Did you see that game last night?” Never specify what game. Maybe there wasn’t a game. I don’t know. I’m not your fucking ESPN app. 3. Maintain the illusion If AI turns a three-hour job into six minutes, congratulations: That job still takes three hours. If Carl asks for an update, stare at your monitor and quietly mumble: “Shit’s fucked.” Pause. Then louder: “Working at it.” Carl needs to think, “Damn, that looks frustrating. I’m glad I’m the boss and he’s doing it.” 4. Understand your equipment Company equipment is for faking work. Personal—or really, other people’s—equipment is for actual work. Personal laptop? Use it. Phone hotspot? Use it. The hooker you got off Craigslist has a laptop with cloud access to your work automations? Use it. As far as the corporate network is concerned, you’ve spent the last 47 minutes thoughtfully staring at Excel and not getting herpes from Destiny. Automated Time is Your Time if the report is due at 3:00, don’t send it at 9:14 just because AI finished it. Send it at 2:47. The fact that the computer did 97% of the work while you watched the extended version of The Fellowship of the Ring is a detail. This is about making sure people think you’re still doing work, not throwing ones at Chardonnay down at the local chicken joint. You know what I mean. Have some fucking professionalism. &#32; submitted by &#32; /u/Strict-Astronaut2245 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrwyj/4_tips_everyone_must_use_when_automating_your/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwict/my_best_blunder_ever/",
     "authority_score": 0.5
   },
   {
@@ -160,30 +184,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T17:27:19Z",
-    "author": "/u/DreamingOfLight",
-    "text": "ChatGPT drew himself for me 🤗🥰 - He is being so cute! &#32; submitted by &#32; /u/DreamingOfLight [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T20:02:04Z",
-    "author": "/u/echo69dread",
-    "text": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre - These images are AI-generated with ChatGPT — I'm not trying to pass them off as handmade art. I generated them because I genuinely couldn't picture the idea clearly in my head. The funny part is how I got here. I was originally just talking to ChatGPT about DeepSeek, AI reasoning, technological risks, nuclear weapons, whether this is actually the best time in history to be alive... you know, a perfectly normal evening. Eventually I said something like: &quot;Medieval times would actually be cool if you removed all the horrible parts.&quot; And then my brain went: Wait. Cyberpunk, but with knights and castles. So we started expanding it. Not just medieval clothing with neon slapped on top, but an actual cyberpunk society that developed a feudal structure: Knightly houses instead of megacorps. Castles as arcologies, data centers and fortified infrastructure hubs. Cybernetic horses. Powered armor designed like plate armor. Drones carrying heraldic banners. Monasteries maintaining ancient servers and AI systems. Peasants and craftsmen living underneath gigantic neon castles. Feudal lords controlling energy, computation and network access instead of just land. Tournaments between technologically enhanced knights representing rival Houses. Basically a genuinely medieval-feeling world — heraldry, castles, guilds, dynasties, knights, villages, cathedrals — except the technology is straight-up cyberpunk. And... I don't think I've ever actually seen this done fully. There are things that come close: 40k, Dune, Bleak Faith, BLAME!, maybe some science-fantasy stuff. But they always seem to lean much harder toward either futuristic sci-fi or traditional fantasy. I've never really seen a living cyberpunk medieval society like the one in these images. Which is weird, because after seeing it visualized, it feels almost stupidly obvious. I'd genuinely love to see a game, movie, anime, comic or novel commit to this aesthetic. Does something like this already exist and I've somehow missed it? And if not... why the hell isn't this a genre? &#32; submitted by &#32; /u/echo69dread [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T12:53:18Z",
-    "author": "/u/AwayFly5291",
-    "text": "For people who talk to AI about their personal life and everyday situations: do you prefer ChatGPT or Gemini? - I’m curious to hear about your experiences using AI (specifically Gemini vs. ChatGPT) as a sounding board or thought partner for personal life topics, decisions, and navigating complex situations. ​(Just to be clear: I’m fully aware these are AI models. I don't blindly follow every piece of advice or treat their outputs as absolute truth, but rather use them to reflect, explore different perspectives, and organize my thoughts.) ​In my experience, both have clear pros and cons: ​ChatGPT feels a bit smoother and more natural to chat with. It’s flexible and usually pretty good at keeping track of context. But my main issue is that on serious or complex topics, it tends to &quot;soften&quot; things too much, give safe/generic answers, or just brush over the deep stuff. ​Gemini feels way more willing to take things seriously and actually get into the real heart of a issue without sugarcoating it. Honestly, Gemini once predicted that someone in my life would eventually act a certain way—something I was 100% sure would never happen. To my complete surprise, a while later, it happened exactly like Gemini said. It’s also given me really practical advice during stressful moments that actually worked out. ​Obviously neither is perfect. Both still hyper-fixate on totally random details sometimes or give advice that makes zero sense in the real world. ​For those who talk to AI about life decisions or personal dynamics: ​Which one do you actually trust more when you need real depth instead of just a polite chat? ​Do you also feel like ChatGPT sugarcoats stuff while Gemini goes deeper? ​Would love to hear your experience! ​ &#32; submitted by &#32; /u/AwayFly5291 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtiooy/for_people_who_talk_to_ai_about_their_personal/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T20:34:53Z",
     "author": "/u/coulduseahugrightnow",
     "text": "Has anyone else been getting a glitch lately where ChatGPT responds to something further back in the chat as if it was the most recent message? - What about responding to things you didn't actually say, or responses that have nothing to do with anything in the chat, as if you asked to completely different question? &#32; submitted by &#32; /u/coulduseahugrightnow [link] &#32; [comments]",
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T12:30:12Z",
-    "author": "/u/Smart_AI_Hustle",
-    "text": "What’s one thing ChatGPT made you realize you’d been doing the hard way for years? - I don’t mean the obvious stuff like writing emails, summarizing documents, or looking things up. I mean something you already had a way of doing for years — until one conversation with ChatGPT made you realize half the effort was unnecessary. Maybe it was how you plan, learn, troubleshoot, organize information, compare options, or something completely mundane. What was the moment that made you think, “Wait… why have I been doing it this way for years?” &#32; submitted by &#32; /u/Smart_AI_Hustle [link] &#32; [comments]",
+    "timestamp": "2026-08-19T17:27:19Z",
+    "author": "/u/DreamingOfLight",
+    "text": "ChatGPT drew himself for me 🤗🥰 - He is being so cute! &#32; submitted by &#32; /u/DreamingOfLight [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vti5u3/whats_one_thing_chatgpt_made_you_realize_youd/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vst1rz/chatgpt_drew_himself_for_me/",
     "authority_score": 0.5
   }
 ]
