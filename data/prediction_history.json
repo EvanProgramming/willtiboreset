@@ -30721,8 +30721,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-20T08:02:38.157737Z"
   },
   {
     "prediction_time": "2026-08-18T08:02:36.848604Z",
@@ -30773,8 +30773,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-20T08:02:38.157737Z"
   },
   {
     "prediction_time": "2026-08-18T08:26:22.564371Z",
@@ -38068,6 +38068,58 @@
       "time_pressure": 0.559,
       "hazard_rate": 0.009322,
       "evidence_score": 0.0052,
+      "tibo_signal": 0.058,
+      "community_signal": 0.0,
+      "release_signal": 0.58,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.0,
+        "official_change": 0.023200000000000002,
+        "reset_confirmation": 0.0,
+        "confidence": 0.31799999999999995,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-20T08:02:38.116632Z",
+    "prediction": {
+      "within_5h": 0.0568,
+      "within_24h": 0.2012,
+      "within_48h": 0.3093
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 175.02725006416665,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 161.0,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.3895,
+      "time_pressure": 0.562,
+      "hazard_rate": 0.009317,
+      "evidence_score": 0.0051,
       "tibo_signal": 0.058,
       "community_signal": 0.0,
       "release_signal": 0.58,
