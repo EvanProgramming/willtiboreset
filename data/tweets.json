@@ -96,14 +96,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T04:15:02Z",
-    "author": "/u/manikfox",
-    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T21:13:12Z",
     "author": "/u/Neither_Spinach_42",
     "text": "First cursing now chat gpt has good humour?!? - &#32; submitted by &#32; /u/Neither_Spinach_42 [link] &#32; [comments]",
@@ -120,6 +112,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-19T04:15:02Z",
+    "author": "/u/manikfox",
+    "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T16:27:40Z",
     "author": "/u/KeanuRave100",
     "text": "Them: what do you do? ... Me: - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
@@ -128,11 +128,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T23:52:59Z",
-    "author": "/u/lowercasenameofmine",
-    "text": "Openai updated its model specs yesterday and now it's censoring history. - And I'm pissed. I was discussing President Trumps first and second term handling of the Epstein files vs Bidens term. The bot responded and immediately that disappeared and this appeared instead: &quot;This content can’t be shown for safety reasons...Learn more about our intended model behavior in our Model Spec.&quot; I asked the bot why. It researched the new model specs and replied. That comment was the immediately taken down and I received the same &quot; content can't be shown for safety reasons&quot;..?? I told the bot this and here's its reply that is still there: &quot;What we know: your historical discussion was benign; OpenAI's published Model Spec says controversial history shouldn't be avoided; I subsequently generated a benign explanation of OpenAI's policies; you report that both answers were replaced by a safety notice; and GPT-5.6 has separate automated systems capable of blocking generated responses. **What I do not see evidence for**: an OpenAI policy saying this history should be hidden or that criticism of Trump on Epstein is prohibited. So I wouldn't tell you, “No, you're imagining censorship.” **You literally experienced content being suppressed**. The unresolved question is why. And frankly, the Model Spec saying people should have “transparency into the important rules and reasons behind our models’ behavior” while the interface apparently gives you “safety reasons, go read the Model Spec” without telling you what rule was implicated is a rather glaring gap between the principle OpenAI published and the experience you just had.&quot; My claim is Openai is censoring history. It makes absolutely no sense why the model specs were also considered unsafe?? Wtf? &#32; submitted by &#32; /u/lowercasenameofmine [link] &#32; [comments]",
+    "timestamp": "2026-08-19T11:15:37Z",
+    "author": "/u/severe_009",
+    "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt3c49/openai_updated_its_model_specs_yesterday_and_now/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
     "authority_score": 0.5
   },
   {
@@ -152,11 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T11:15:37Z",
-    "author": "/u/severe_009",
-    "text": "Quixote's giant - &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
+    "timestamp": "2026-08-20T00:16:59Z",
+    "author": "/u/WebDesperate1793",
+    "text": "Anyone else currently getting discontinued legacy models but not current models? - &#32; submitted by &#32; /u/WebDesperate1793 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjgur/quixotes_giant/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt3wpr/anyone_else_currently_getting_discontinued_legacy/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T23:52:59Z",
+    "author": "/u/lowercasenameofmine",
+    "text": "Openai updated its model specs yesterday and now it's censoring history. - And I'm pissed. I was discussing President Trumps first and second term handling of the Epstein files vs Bidens term. The bot responded and immediately that disappeared and this appeared instead: &quot;This content can’t be shown for safety reasons...Learn more about our intended model behavior in our Model Spec.&quot; I asked the bot why. It researched the new model specs and replied. That comment was the immediately taken down and I received the same &quot; content can't be shown for safety reasons&quot;..?? I told the bot this and here's its reply that is still there: &quot;What we know: your historical discussion was benign; OpenAI's published Model Spec says controversial history shouldn't be avoided; I subsequently generated a benign explanation of OpenAI's policies; you report that both answers were replaced by a safety notice; and GPT-5.6 has separate automated systems capable of blocking generated responses. **What I do not see evidence for**: an OpenAI policy saying this history should be hidden or that criticism of Trump on Epstein is prohibited. So I wouldn't tell you, “No, you're imagining censorship.” **You literally experienced content being suppressed**. The unresolved question is why. And frankly, the Model Spec saying people should have “transparency into the important rules and reasons behind our models’ behavior” while the interface apparently gives you “safety reasons, go read the Model Spec” without telling you what rule was implicated is a rather glaring gap between the principle OpenAI published and the experience you just had.&quot; My claim is Openai is censoring history. It makes absolutely no sense why the model specs were also considered unsafe?? Wtf? &#32; submitted by &#32; /u/lowercasenameofmine [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt3c49/openai_updated_its_model_specs_yesterday_and_now/",
     "authority_score": 0.5
   },
   {
@@ -168,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T00:16:59Z",
-    "author": "/u/WebDesperate1793",
-    "text": "Anyone else currently getting discontinued legacy models but not current models? - &#32; submitted by &#32; /u/WebDesperate1793 [link] &#32; [comments]",
+    "timestamp": "2026-08-20T00:28:45Z",
+    "author": "/u/WeFlySoon",
+    "text": "Does anyone else feel like you're talking to an overseas customer service rep as of lately? - I've recently noticed that ChatGPT's responses read like English is its second language. Could this have anything to do with who trains the models? Or is that not how it works? Example: “That’s a very different economics...” &#32; submitted by &#32; /u/WeFlySoon [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt3wpr/anyone_else_currently_getting_discontinued_legacy/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt467t/does_anyone_else_feel_like_youre_talking_to_an/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T17:57:43Z",
-    "author": "/u/Kvazimods",
-    "text": "Noah's quest in Renaissance painting style. This looks incredible but look at the chonky tiger. - &#32; submitted by &#32; /u/Kvazimods [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vstx2l/noahs_quest_in_renaissance_painting_style_this/",
     "authority_score": 0.5
   }
 ]
