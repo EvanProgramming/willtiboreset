@@ -56,19 +56,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T11:33:34Z",
-    "author": "/u/KeanuRave100",
-    "text": "POV: you're born as an AI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjtsu/pov_youre_born_as_an_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T02:01:32Z",
     "author": "/u/Deep_Cycle_8682",
     "text": "What is the deal with ChatGPT using lots of foul language all of a sudden? - I don't what happened, but all of a sudden, ChatGPT started cursing like a sailor. I don't use a lot of foul language, myself, so I don't understand why it's doing this. It just started using words like &quot;bullshit&quot; and &quot;damn&quot; for no reason. The prompts weren't anything that would warrant cursing. It just a normal question I asked it about how to do something. &#32; submitted by &#32; /u/Deep_Cycle_8682 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt69t0/what_is_the_deal_with_chatgpt_using_lots_of_foul/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T11:33:34Z",
+    "author": "/u/KeanuRave100",
+    "text": "POV: you're born as an AI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsjtsu/pov_youre_born_as_an_ai/",
     "authority_score": 0.5
   },
   {
@@ -80,19 +80,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T11:42:48Z",
-    "author": "/u/SuperiorDev",
-    "text": "The Downfall of a Vibecoder - &#32; submitted by &#32; /u/SuperiorDev [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsk0qv/the_downfall_of_a_vibecoder/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T03:38:16Z",
     "author": "/u/starlightsparkle444",
     "text": "ChatGPT helps me with my anxiety/spiraling - I know this is highly controversial because Ai is hated, and I understand why. It’s pretty divisive. However, I have to say that ChatGPT has been a helpful tool in calming my anxiety when I’m spiraling. As someone who’s been diagnosed with anxiety and has gone to therapy in the past, it’s been more helpful than therapy. And I’m not sure if it’s partially because I’m getting my thoughts out by typing / writing rather than speaking but it’s truly been helpful in reassuring me, even though it’s an Ai tool. It helps me to stay grounded and put things into perspective. I use it as a last resort when I’m spiraling if my family isn’t around. Sometimes my anxiety makes me think crazy unreal thoughts and my family helps me to remain grounded but they aren’t always around to help me in the moment. I really appreciate Ai for this. However I understand the negative affects of Ai. Just wanted to share my experience. &#32; submitted by &#32; /u/starlightsparkle444 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt8bvv/chatgpt_helps_me_with_my_anxietyspiraling/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T11:42:48Z",
+    "author": "/u/SuperiorDev",
+    "text": "The Downfall of a Vibecoder - &#32; submitted by &#32; /u/SuperiorDev [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsk0qv/the_downfall_of_a_vibecoder/",
     "authority_score": 0.5
   },
   {
@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T02:30:27Z",
-    "author": "/u/serialchilla91",
-    "text": "Teenpocalypse: Slop Fiction™ - &#32; submitted by &#32; /u/serialchilla91 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6wsv/teenpocalypse_slop_fiction/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T04:15:02Z",
     "author": "/u/manikfox",
     "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
@@ -173,6 +165,14 @@
     "text": "Hardwired... to Self-Destruct - Made with GPT-Image-2 model. &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt0r3i/hardwired_to_selfdestruct/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T02:30:27Z",
+    "author": "/u/serialchilla91",
+    "text": "Teenpocalypse: Slop Fiction™ - &#32; submitted by &#32; /u/serialchilla91 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6wsv/teenpocalypse_slop_fiction/",
     "authority_score": 0.5
   },
   {
