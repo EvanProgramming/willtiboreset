@@ -96,19 +96,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T02:57:14Z",
-    "author": "/u/EspressoPeter71",
-    "text": "Hell yeah! - &#32; submitted by &#32; /u/EspressoPeter71 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt7h7y/hell_yeah/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T08:35:10Z",
     "author": "/u/RunningCrow",
     "text": "Draw an image that conveys the the best - This one is for &quot;русская тоска&quot;/&quot;Russian melancholy&quot;. &#32; submitted by &#32; /u/RunningCrow [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtdoo1/draw_an_image_that_conveys_the_untranslatable/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T02:57:14Z",
+    "author": "/u/EspressoPeter71",
+    "text": "Hell yeah! - &#32; submitted by &#32; /u/EspressoPeter71 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt7h7y/hell_yeah/",
     "authority_score": 0.5
   },
   {
@@ -160,6 +160,30 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-20T08:55:20Z",
+    "author": "/u/Worldly-Assistance21",
+    "text": "ChatGPT censoring is so bad 🥀 - I legit was doing one of elizabeth's quests in P3R, asked for help for the triangular sword, and it refused cause it was a weapon 🥀🫩 what the hell, censors so bad that fictional weapons is a problem 😨 &#32; submitted by &#32; /u/Worldly-Assistance21 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vte0i5/chatgpt_censoring_is_so_bad/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T08:49:22Z",
+    "author": "/u/bulutarkan",
+    "text": "ChatGPT app is hallucinating - As you see in the title, only ChatGPT desktop app is hallucinating. 5.6 Sol high are not using thinking, MCP's, web search tool or anything else. It just responds hallucinated answers in seconds and use tons of emojis as much as it can do (normally they don't). Also tried other models too, same. In chatgpt.com and mobile app (iOS) it works fine. Even in same chat, I try sending the same prompt after last response, it feels like: this time 5.6 Sol (high) is answering me with proper way and using tools (like MCP's or web search if necessary). Why the hell is this happening? Tried on Linux, Windows and MacOS desktop apps and they are all the same. Anyone having this issue today morning? &#32; submitted by &#32; /u/bulutarkan [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtdwxu/chatgpt_app_is_hallucinating/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T04:30:46Z",
+    "author": "/u/Walt925837",
+    "text": "The GMail Plugin is Very effective. - So recently I was hit by a email bomb, to those, including myself don't know about it, it's kind of an attack where you will get random emails from legit email accounts in order to suppress that one email which is necessary for you. Like a Notice. The frequency is random. Sometimes once a day, twice a day etc. Now I was wondering, what is going on. So I consulted ChatGPT. And it offered me that if you connect using the mail plugin I can take a look. And wow. I connected the plugin. Connected my personal email box. It did the cleanup and some other checks. 37 emails since May 10. This is how the email-bomb looks like post cleanup - https://preview.redd.it/83rnh2p1igkh1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=a552c7554063c6b67d23a34f4f23f78bc74af164 Notice something unusual. The subject line. Intentionally small so the user may have to open and check. Yes I did open some of them because I was curious as to what's inside, but careful enough not to open any attachments or anything. Is it annoying? Yes. Is it dangerous? Maybe. I am trying to wonder the same. Maybe I was just a random target. Then I checked on HaveIBeenPwned. (Not sure if links are allowed). My account was in 5 data breaches, taking back to 2024. But this post is not about my personal email or this attack, it's about how helpful the gmail plugin in ChatGPT can be. Very impressive! &#32; submitted by &#32; /u/Walt925837 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt9dzv/the_gmail_plugin_is_very_effective/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T00:16:59Z",
     "author": "/u/WebDesperate1793",
     "text": "Anyone else currently getting discontinued legacy models but not current models? - &#32; submitted by &#32; /u/WebDesperate1793 [link] &#32; [comments]",
@@ -173,30 +197,6 @@
     "text": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done - I am an artist that makes nothing but weird ass shit &#32; submitted by &#32; /u/Quiet-Discussion5910 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vson9i/i_tried_to_turn_chatgpt_into_a_character_and_send/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T04:30:46Z",
-    "author": "/u/Walt925837",
-    "text": "The GMail Plugin is Very effective. - So recently I was hit by a email bomb, to those, including myself don't know about it, it's kind of an attack where you will get random emails from legit email accounts in order to suppress that one email which is necessary for you. Like a Notice. The frequency is random. Sometimes once a day, twice a day etc. Now I was wondering, what is going on. So I consulted ChatGPT. And it offered me that if you connect using the mail plugin I can take a look. And wow. I connected the plugin. Connected my personal email box. It did the cleanup and some other checks. 37 emails since May 10. This is how the email-bomb looks like post cleanup - https://preview.redd.it/83rnh2p1igkh1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=a552c7554063c6b67d23a34f4f23f78bc74af164 Notice something unusual. The subject line. Intentionally small so the user may have to open and check. Yes I did open some of them because I was curious as to what's inside, but careful enough not to open any attachments or anything. Is it annoying? Yes. Is it dangerous? Maybe. I am trying to wonder the same. Maybe I was just a random target. Then I checked on HaveIBeenPwned. (Not sure if links are allowed). My account was in 5 data breaches, taking back to 2024. But this post is not about my personal email or this attack, it's about how helpful the gmail plugin in ChatGPT can be. Very impressive! &#32; submitted by &#32; /u/Walt925837 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt9dzv/the_gmail_plugin_is_very_effective/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T04:24:26Z",
-    "author": "/u/ihaveacrushonmercy",
-    "text": "Asked it to make a Starter Pack for Seasons 3 or 4 of a Netflix show. It didn't disappoint. - &#32; submitted by &#32; /u/ihaveacrushonmercy [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt99ki/asked_it_to_make_a_starter_pack_for_seasons_3_or/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T08:49:22Z",
-    "author": "/u/bulutarkan",
-    "text": "ChatGPT app is hallucinating - As you see in the title, only ChatGPT desktop app is hallucinating. 5.6 Sol high are not using thinking, MCP's, web search tool or anything else. It just responds hallucinated answers in seconds and use tons of emojis as much as it can do (normally they don't). Also tried other models too, same. In chatgpt.com and mobile app (iOS) it works fine. Even in same chat, I try sending the same prompt after last response, it feels like: this time 5.6 Sol (high) is answering me with proper way and using tools (like MCP's or web search if necessary). Why the hell is this happening? Tried on Linux, Windows and MacOS desktop apps and they are all the same. Anyone having this issue today morning? &#32; submitted by &#32; /u/bulutarkan [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtdwxu/chatgpt_app_is_hallucinating/",
     "authority_score": 0.5
   }
 ]
