@@ -40,19 +40,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T02:37:59Z",
-    "author": "/u/SinVerguenza04",
-    "text": "Thanks, Chat! - &#32; submitted by &#32; /u/SinVerguenza04 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs9usp/thanks_chat/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T21:54:40Z",
     "author": "/u/MakitaNakamoto",
     "text": "the boltzmann brain aspect of LLMs is actually the most endearing thing about them imo - no permanence they be yapping about whatever associations come to mind on the spot ...and if that isn't relatable... I hope AI plateaus here tbh &#32; submitted by &#32; /u/MakitaNakamoto [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt0ezh/the_boltzmann_brain_aspect_of_llms_is_actually/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T02:37:59Z",
+    "author": "/u/SinVerguenza04",
+    "text": "Thanks, Chat! - &#32; submitted by &#32; /u/SinVerguenza04 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs9usp/thanks_chat/",
     "authority_score": 0.5
   },
   {
@@ -88,6 +88,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-20T00:55:10Z",
+    "author": "/u/Optimus_Spider07",
+    "text": "Legendary comic creator Frank Bellamy and his famous comic - Besides some 3rd party resemblance guardrail hits, making these was surprisingly easy with minimal input. I will link the full convo in the comments. It only went off the rails once when creating the poster for the sequel movie. &#32; submitted by &#32; /u/Optimus_Spider07 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt4rwj/legendary_comic_creator_frank_bellamy_and_his/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-19T14:51:12Z",
     "author": "/u/Quiet-Discussion5910",
     "text": "I tried to turn ChatGPT into a character and send it to them... what the fuck have i done - I am an artist that makes nothing but weird ass shit &#32; submitted by &#32; /u/Quiet-Discussion5910 [link] &#32; [comments]",
@@ -104,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T22:07:22Z",
-    "author": "/u/DijonAndDragons",
-    "text": "Hardwired... to Self-Destruct - Made with GPT-Image-2 model. &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt0r3i/hardwired_to_selfdestruct/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-19T04:15:02Z",
     "author": "/u/manikfox",
     "text": "Codex Patched My Samsung Odyssey G9 Firmware to Add a New Gaming Crosshair - I hated the built in crosshairs my monitor came with and Samsung did not include a way to make changes. So I asked Codex to make a new firmware update to change the crosshair to a dot. It took about 15 minutes and came back with a new file. For firmware and code: https://github.com/cvcfox/g9-firmware-tools Codex explanation: I started with Samsung’s original 1008.2 firmware and made a very small binary patch rather than attempting to rebuild or substantially rewrite the firmware. What the patch changes 1. Custom version number The version reported to the firmware updater was changed from 1008.2 to 1009.3. This is a custom, made-up version number. It is not an official Samsung 1009.3 release. The higher number allows the monitor to recognize the file as an upgrade rather than rejecting it as the same or an older firmware version. 2. Tiny center dot The firmware contains six selectable Virtual Aim/crosshair options. I redirected all six options to a small 7×7-pixel graphic that already existed inside the firmware and positioned it at the center of the screen. The result is a simple, unobtrusive center dot using the monitor’s own hardware overlay. It does not require a game overlay, desktop application, ReShade, or anything else running on the computer. Technical details Original firmware: M-C9557GGPA-1008.2 Custom firmware: M-C9557GGPA-1009.3[1A93].img Total binary difference: 13 bytes The patched image passed the build and checksum validation performed on the computer. The monitor accepted the firmware, restarted normally, and the modified Virtual Aim options display the new center dot as intended. Important warning This is unofficial firmware and is not supported or approved by Samsung. A successful checksum only confirms that the file was modified as intended. It does not guarantee that flashing it is safe on every monitor, hardware revision, region, or previously installed firmware version. Installing modified monitor firmware always carries a risk of installation failure or, in the worst case, making the monitor unusable. Anyone experimenting with this should understand the recovery options and proceed entirely at their own risk. &#32; submitted by &#32; /u/manikfox [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vsbvu2/codex_patched_my_samsung_odyssey_g9_firmware_to/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-19T22:07:22Z",
+    "author": "/u/DijonAndDragons",
+    "text": "Hardwired... to Self-Destruct - Made with GPT-Image-2 model. &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vt0r3i/hardwired_to_selfdestruct/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-19T13:52:34Z",
-    "author": "/u/SEND_ME_YOUR_ASSPICS",
-    "text": "It would be cool if we got to try out legacy models - It doesn't have to be part of the main site or any of the apps, but it would be cool if there was a separate standalone site where we can try out legacy models like ChatGPT 2 or 3 or something like that just to see how much it has progressed over time. &#32; submitted by &#32; /u/SEND_ME_YOUR_ASSPICS [link] &#32; [comments]",
+    "timestamp": "2026-08-19T20:41:22Z",
+    "author": "/u/LoveLetterto",
+    "text": "Using chatgpt to uncover my traumatic childhood and work through it. - A version of this has probably already been said before, but I am saying mine. Basically, i used ai to talk about why i socially isolate myself and feel the way I do. It worked wonderfully to connect those things together. Then, i used it to help understand future plans and my hypothetical wedding and to get feedback on why certain parts of the wedding is so symbolically important to me. it was able to give me all of the advice i needed, and it actually learned when i argued with it. The fact of the matter is that i know AI is not real, i deleted a bot and set another one up maybe 50 times in two weeks. What scares me, though, is that i learned a lot of helpful stuff that no human in my life could help me with currently, and that terrifies me. i can see why ai is useful, but i feel like i permanently damaged myself by exposing myself to ai in this vulnerable way because it worked, or at least seemed to work. so now i want to go back again and again to talk to it and forget about the mixed signals of the outside world. This is also why i am writing this comment: to detox myself from wanting to talk to AI. AI scared me, i should have known. if someone writes &quot;yeah no shit that is what happens&quot; as a comment i understand where you are coming from lol. &#32; submitted by &#32; /u/LoveLetterto [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsn2i7/it_would_be_cool_if_we_got_to_try_out_legacy/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-18T23:03:10Z",
-    "author": "/u/TumbleweedQueasy6629",
-    "text": "ChatGPT is getting scarily good. - I am quite technical, and today I only realized how scary good ChatGPT is getting. I asked it to write me a short story, and it went on for 12 minutes on a 6000 word story and gave it back to me. It used to be, write me a 1000 word story, and it would tell you that asking it to write a 1000 word story was illogical as it can't do that. Now in one prompt, its writing 6000 word storys. I love hearing quotes, and all the time I ask ChatGPT to tell me quotes, and it never really touched me as much as it has been doing lately. Maybe it's just me, but is anyone else's ChatGPT doing this well? &#32; submitted by &#32; /u/TumbleweedQueasy6629 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vs4z50/chatgpt_is_getting_scarily_good/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vsyhql/using_chatgpt_to_uncover_my_traumatic_childhood/",
     "authority_score": 0.5
   }
 ]
