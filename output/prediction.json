@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-20T13:02:35.386392+00:00",
+  "updated_at": "2026-08-20T13:40:59.690840+00:00",
   "prediction": {
-    "within_5h": 0.0894,
-    "within_24h": 0.2917,
-    "within_48h": 0.4231
+    "within_5h": 0.0886,
+    "within_24h": 0.2897,
+    "within_48h": 0.4208
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 156.0,
+    "hours_until": 155.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 180.0264960486111,
+    "hours_since_last_reset": 180.66658062083334,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 156.0,
+      "hours_until": 155.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.4577,
-    "time_pressure": 0.605,
-    "hazard_rate": 0.014268,
-    "evidence_score": 0.0336,
+    "time_ratio": 2.4664,
+    "time_pressure": 0.6104,
+    "hazard_rate": 0.014152,
+    "evidence_score": 0.0327,
     "tibo_signal": 0.1797,
     "community_signal": 0.0,
     "release_signal": 0.6225,
@@ -55,9 +55,9 @@
   },
   "main_factors": [
     {
-      "factor": "180.0 hours since last reset",
+      "factor": "180.7 hours since last reset",
       "impact": "+5%",
-      "score": 0.6
+      "score": 0.61
     },
     {
       "factor": "Some reset discussion detected",
@@ -72,8 +72,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "180.0 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "180.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 180.0 hours since last reset (+5%)"
+    "Main factor: 180.7 hours since last reset (+5%)"
   ]
 }
