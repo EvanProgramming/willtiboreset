@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-20T06:30:27.370400+00:00",
+  "updated_at": "2026-08-20T06:42:40.572196+00:00",
   "prediction": {
-    "within_5h": 0.057,
-    "within_24h": 0.2016,
+    "within_5h": 0.0569,
+    "within_24h": 0.2015,
     "within_48h": 0.3096
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 162.5,
+    "hours_until": 162.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 173.49093605555555,
+    "hours_since_last_reset": 173.69460320833332,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 162.5,
+      "hours_until": 162.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,9 +26,9 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.3685,
-    "time_pressure": 0.5485,
-    "hazard_rate": 0.009337,
+    "time_ratio": 2.3713,
+    "time_pressure": 0.5503,
+    "hazard_rate": 0.009332,
     "evidence_score": 0.0054,
     "tibo_signal": 0.058,
     "community_signal": 0.0,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "173.5 hours since last reset",
+      "factor": "173.7 hours since last reset",
       "impact": "+5%",
       "score": 0.55
     },
@@ -72,8 +72,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "173.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "173.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 173.5 hours since last reset (+5%)"
+    "Main factor: 173.7 hours since last reset (+5%)"
   ]
 }
