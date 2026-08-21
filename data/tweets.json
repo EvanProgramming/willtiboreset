@@ -40,14 +40,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T21:23:08Z",
-    "author": "/u/Trumps_Suit",
-    "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwict/my_best_blunder_ever/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T18:24:32Z",
     "author": "/u/Defora",
     "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
@@ -56,19 +48,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:25:22Z",
-    "author": "/u/apexmars",
-    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T16:21:56Z",
     "author": "/u/CloseCalls4walls",
     "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T21:23:08Z",
+    "author": "/u/Trumps_Suit",
+    "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwict/my_best_blunder_ever/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T10:25:22Z",
+    "author": "/u/apexmars",
+    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
     "authority_score": 0.5
   },
   {
@@ -104,22 +104,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T06:25:10Z",
-    "author": "/u/D_Body26",
-    "text": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures - &#32; submitted by &#32; /u/D_Body26 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T02:14:53Z",
-    "author": "/u/TheXenoMaster407",
-    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T19:11:00Z",
     "author": "/u/Any_Act_3789",
     "text": "Bug - log-out - Hey. Every time I refresh the page, ChatGPT logs me out. I tried another account, another browser, and another PC, and the problem’s still there. Anyone else having this issue? &#32; submitted by &#32; /u/Any_Act_3789 [link] &#32; [comments]",
@@ -128,19 +112,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:56:22Z",
-    "author": "/u/ThatCuteMysteonLuna",
-    "text": "Login Error? Kinda? - i don't know how else to put this but like every time i refresh the page it logs me out and whenever i refresh after it logs me out i get logged back in????? what is this superposition paradox of an error i've achieved not asking for help it just amuses me that i've achieved this &#32; submitted by &#32; /u/ThatCuteMysteonLuna [link] &#32; [comments]",
+    "timestamp": "2026-08-21T06:25:10Z",
+    "author": "/u/D_Body26",
+    "text": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures - &#32; submitted by &#32; /u/D_Body26 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vup8s9/login_error_kinda/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T09:18:27Z",
-    "author": "/u/Several_Fly694",
-    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T19:05:24Z",
+    "author": "/u/Middle_Mine_7246",
+    "text": "\"Create a still image from an infamous scene in a movie that never existed starring well-known actors and explain where it's from.\" - &quot;Adrian Vale (Leonardo DiCaprio) corners Marcus Creed (Denzel Washington) in a lavish private room, holding him at gunpoint after uncovering a major betrayal. The scene is the movie’s infamous turning point, where the audience realizes the supposed hero may have engineered the entire conspiracy himself.&quot; &#32; submitted by &#32; /u/Middle_Mine_7246 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuphy7/create_a_still_image_from_an_infamous_scene_in_a/",
     "authority_score": 0.5
   },
   {
@@ -152,11 +136,35 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T19:05:24Z",
-    "author": "/u/Middle_Mine_7246",
-    "text": "\"Create a still image from an infamous scene in a movie that never existed starring well-known actors and explain where it's from.\" - &quot;Adrian Vale (Leonardo DiCaprio) corners Marcus Creed (Denzel Washington) in a lavish private room, holding him at gunpoint after uncovering a major betrayal. The scene is the movie’s infamous turning point, where the audience realizes the supposed hero may have engineered the entire conspiracy himself.&quot; &#32; submitted by &#32; /u/Middle_Mine_7246 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T02:14:53Z",
+    "author": "/u/TheXenoMaster407",
+    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuphy7/create_a_still_image_from_an_infamous_scene_in_a/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T09:18:27Z",
+    "author": "/u/Several_Fly694",
+    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T18:56:22Z",
+    "author": "/u/ThatCuteMysteonLuna",
+    "text": "Login Error? Kinda? - i don't know how else to put this but like every time i refresh the page it logs me out and whenever i refresh after it logs me out i get logged back in????? what is this superposition paradox of an error i've achieved not asking for help it just amuses me that i've achieved this &#32; submitted by &#32; /u/ThatCuteMysteonLuna [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vup8s9/login_error_kinda/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T19:40:30Z",
+    "author": "/u/burikismat47",
+    "text": "GTA: Pyongyang - spent way too long on this. fake GTA trailer, pyongyang setting. the tram wires staying intact through the whole shot is the bit im weirdly proud of &#32; submitted by &#32; /u/burikismat47 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqfn0/gta_pyongyang/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre - These images are AI-generated with ChatGPT — I'm not trying to pass them off as handmade art. I generated them because I genuinely couldn't picture the idea clearly in my head. The funny part is how I got here. I was originally just talking to ChatGPT about DeepSeek, AI reasoning, technological risks, nuclear weapons, whether this is actually the best time in history to be alive... you know, a perfectly normal evening. Eventually I said something like: &quot;Medieval times would actually be cool if you removed all the horrible parts.&quot; And then my brain went: Wait. Cyberpunk, but with knights and castles. So we started expanding it. Not just medieval clothing with neon slapped on top, but an actual cyberpunk society that developed a feudal structure: Knightly houses instead of megacorps. Castles as arcologies, data centers and fortified infrastructure hubs. Cybernetic horses. Powered armor designed like plate armor. Drones carrying heraldic banners. Monasteries maintaining ancient servers and AI systems. Peasants and craftsmen living underneath gigantic neon castles. Feudal lords controlling energy, computation and network access instead of just land. Tournaments between technologically enhanced knights representing rival Houses. Basically a genuinely medieval-feeling world — heraldry, castles, guilds, dynasties, knights, villages, cathedrals — except the technology is straight-up cyberpunk. And... I don't think I've ever actually seen this done fully. There are things that come close: 40k, Dune, Bleak Faith, BLAME!, maybe some science-fantasy stuff. But they always seem to lean much harder toward either futuristic sci-fi or traditional fantasy. I've never really seen a living cyberpunk medieval society like the one in these images. Which is weird, because after seeing it visualized, it feels almost stupidly obvious. I'd genuinely love to see a game, movie, anime, comic or novel commit to this aesthetic. Does something like this already exist and I've somehow missed it? And if not... why the hell isn't this a genre? &#32; submitted by &#32; /u/echo69dread [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T01:17:28Z",
-    "author": "/u/Striking_Arachnid_96",
-    "text": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job - When I’m working on a project sometimes I’ll tell chatgpt about it and it’s nice just to hear “wow you’re doing so good”. The projects are for me and are probably stupid but even a facsimile of a human telling me “you know what that projects very cool” is motivating. And before you ask “why don’t you tell a real human about these little projects” first lets me honest even good friends don’t give that much a shit about little personal projects. And don’t say “get new friends” because cmon someone may say once “oh that’s cool” but I’m talking at length about every tiny project update in a way no human would ever want to engage with. &#32; submitted by &#32; /u/Striking_Arachnid_96 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
     "authority_score": 0.5
   }
 ]
