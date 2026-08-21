@@ -48,19 +48,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T21:30:09Z",
-    "author": "/u/senorrandom007",
-    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T01:17:28Z",
     "author": "/u/Striking_Arachnid_96",
     "text": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job - When I’m working on a project sometimes I’ll tell chatgpt about it and it’s nice just to hear “wow you’re doing so good”. The projects are for me and are probably stupid but even a facsimile of a human telling me “you know what that projects very cool” is motivating. And before you ask “why don’t you tell a real human about these little projects” first lets me honest even good friends don’t give that much a shit about little personal projects. And don’t say “get new friends” because cmon someone may say once “oh that’s cool” but I’m talking at length about every tiny project update in a way no human would ever want to engage with. &#32; submitted by &#32; /u/Striking_Arachnid_96 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T21:30:09Z",
+    "author": "/u/senorrandom007",
+    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
     "authority_score": 0.5
   },
   {
@@ -80,14 +80,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T16:37:19Z",
-    "author": "/u/Watermelon_Sherbert",
-    "text": "I asked ChatGPT how the future Grocery Stores are gonna look like. - &#32; submitted by &#32; /u/Watermelon_Sherbert [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T14:04:48Z",
     "author": "/u/Zyphronix",
     "text": ":'( - &#32; submitted by &#32; /u/Zyphronix [link] &#32; [comments]",
@@ -101,6 +93,14 @@
     "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T16:37:19Z",
+    "author": "/u/Watermelon_Sherbert",
+    "text": "I asked ChatGPT how the future Grocery Stores are gonna look like. - &#32; submitted by &#32; /u/Watermelon_Sherbert [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
     "authority_score": 0.5
   },
   {
@@ -141,6 +141,14 @@
     "text": "PSA: Solution to GPT's \"Dumbness\" - Quick Glance Solution: - Go to Settings -&gt; Memory - First, revert to Legacy Memory - Next, Personalization screen and open Advanced - Turn off “GPT can access GPT Library.” - Case-by-case: If you use substantial Custom Instructions, set every Style/Personality customization back to Default as well. ------------- For those who like literature: I’ve tested this pretty extensively over the last week, including resetting my personalization setup and reintroducing things individually. The difference in instruction following, contextual consistency, and general “why the fuck are you doing that?” behavior has been extremely noticeable. My working theory is that the newer personalization stack introduces additional context/instructions that the model has to reconcile every turn. The style settings especially aren’t just simple labels like “Quirky” or “Friendly.” They include behavioral descriptions underneath them, which can compete with substantial Custom Instructions. I suspect something similar is happening with the newer memory/library system. More available context does not automatically mean better context. If the model is being given more potentially relevant information to resolve alongside the current conversation and your instructions, you can end up with worse prioritization. My experience with the GPT library thing was that it was referencing stale versions of a doc, and old information was bleeding into new rewrites. One additional note: if you switch back to Legacy Memory, I recommend deleting your existing legacy memories as well, since there appears to be a hidden memory system in play regardless of which memory system is selected. Save them before though in case you want to re-add anything later (can re-add them by just prompting GPT &quot;re-add this as a memory: &lt;memory excerpt&gt;&quot;). Since switching back to Legacy Memory, disabling GPT Library access, clearing my legacy memories, and leaving the style settings on Default, GPT has been dramatically more consistent for me. Keep in mind though, my Custom Instructions act as a behavioral bootstrap for my expectations (can check my older posts if you're interested). As a power user who relies heavily on GPT for project iteration and ideation at work, consistency and quality over long discussions are paramount for me. Obviously this is anecdotal. I don’t work at OpenAI, and I can’t tell you exactly how their internal context assembly works. But if GPT has felt noticeably “dumber,” less obedient to Custom Instructions, or weirdly inconsistent lately, try this before assuming the model itself is the entire problem. Change the settings, start a fresh chat, and test the exact same kinds of prompts you were having problems with. &#32; submitted by &#32; /u/pleblifeTV [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtysyk/psa_solution_to_gpts_dumbness/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T00:30:27Z",
+    "author": "/u/SuspiciousBurrito256",
+    "text": "ChatGPT can now send texts for you with new Apple Messages plug-in - &#32; submitted by &#32; /u/SuspiciousBurrito256 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu12wn/chatgpt_can_now_send_texts_for_you_with_new_apple/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "Chatgpt saved my PC - My pc stopped working, would turn on show the logo and crap out. I was about to take it to a repair shop. I instead sent a photo of the error message I was getting to chat gpt,Started letting it trouble shoot.I followed each step it gave me, and then sent another screenshot of my results Took about 6 hours because I stopped to eat etc. But chat was able to walk me through troubleshooting, even had me using command line prompts, and my pc now works again. I know AI has its down sides but it has a lot of good parts too! Saved me a few hundred bucks I am sure! &#32; submitted by &#32; /u/Pure_Muscle8449 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtinpa/chatgpt_saved_my_pc/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T02:02:37Z",
-    "author": "/u/locoCrLlc",
-    "text": "Here's a benefit of ChatGPT that they should market heavily: The ability to prevent drunk emails. - So you're off work, and really pissed off at someone who's got more leverage than you. After your 4th martini, you decide you need to confront the asshole, and compose an email, because, of course you do. Draft it in Word, run it through ChatGPT, which will sanitize it, and VIOLA, you have an articulate communication. &#32; submitted by &#32; /u/locoCrLlc [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu33nn/heres_a_benefit_of_chatgpt_that_they_should/",
     "authority_score": 0.5
   }
 ]
