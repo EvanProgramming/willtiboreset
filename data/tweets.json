@@ -64,19 +64,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T12:19:05Z",
-    "author": "/u/Zestyclose-Salad-290",
-    "text": "We're proud of finishing degree without using AI. - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T15:42:29Z",
     "author": "/u/CrestlessYeoman",
     "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T12:19:05Z",
+    "author": "/u/Zestyclose-Salad-290",
+    "text": "We're proud of finishing degree without using AI. - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/",
     "authority_score": 0.5
   },
   {
@@ -96,6 +96,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T16:21:56Z",
+    "author": "/u/CloseCalls4walls",
+    "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T02:14:53Z",
     "author": "/u/TheXenoMaster407",
     "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
@@ -104,11 +112,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T16:21:56Z",
-    "author": "/u/CloseCalls4walls",
-    "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
+    "timestamp": "2026-08-21T09:18:27Z",
+    "author": "/u/Several_Fly694",
+    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
     "authority_score": 0.5
   },
   {
@@ -125,14 +133,6 @@
     "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T09:18:27Z",
-    "author": "/u/Several_Fly694",
-    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
     "authority_score": 0.5
   },
   {
@@ -160,19 +160,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T15:58:24Z",
+    "author": "/u/Next-Let5265",
+    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T22:49:09Z",
     "author": "/u/PlentyOfMoxie",
     "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T13:40:29Z",
-    "author": "/u/panzzersoldat",
-    "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugp7d/why_is_chatgpt_using_55mini_on_the_high/",
     "authority_score": 0.5
   },
   {
@@ -184,11 +184,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:58:24Z",
-    "author": "/u/Next-Let5265",
-    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:40:29Z",
+    "author": "/u/panzzersoldat",
+    "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugp7d/why_is_chatgpt_using_55mini_on_the_high/",
     "authority_score": 0.5
   },
   {
