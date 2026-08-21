@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-21T06:31:02.344700+00:00",
+  "updated_at": "2026-08-21T06:42:37.024117+00:00",
   "prediction": {
-    "within_5h": 0.1309,
-    "within_24h": 0.3886,
-    "within_48h": 0.5327
+    "within_5h": 0.1306,
+    "within_24h": 0.3881,
+    "within_48h": 0.5322
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 138.5,
+    "hours_until": 138.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 197.50065117333332,
+    "hours_since_last_reset": 197.69361764777778,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 138.5,
+      "hours_until": 138.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,11 +26,11 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6963,
-    "time_pressure": 0.74,
-    "hazard_rate": 0.020291,
-    "evidence_score": 0.0691,
-    "tibo_signal": 0.2471,
+    "time_ratio": 2.6989,
+    "time_pressure": 0.7413,
+    "hazard_rate": 0.020258,
+    "evidence_score": 0.0688,
+    "tibo_signal": 0.2476,
     "community_signal": 0.5899,
     "release_signal": 0.5,
     "llm_scores": {
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "197.5 hours since last reset",
+      "factor": "197.7 hours since last reset",
       "impact": "+5%",
       "score": 0.74
     },
@@ -77,8 +77,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "197.5 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "197.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 197.5 hours since last reset (+5%)"
+    "Main factor: 197.7 hours since last reset (+5%)"
   ]
 }
