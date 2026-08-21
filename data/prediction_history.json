@@ -33737,8 +33737,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-21T03:42:34.716683Z"
   },
   {
     "prediction_time": "2026-08-19T03:43:33.751308Z",
@@ -41032,6 +41032,58 @@
       "time_pressure": 0.7156,
       "hazard_rate": 0.021209,
       "evidence_score": 0.0766,
+      "tibo_signal": 0.2411,
+      "community_signal": 0.5938,
+      "release_signal": 0.5,
+      "llm_scores": {
+        "reset_intent": 0.06720000000000001,
+        "limit_complaint": 0.0712,
+        "official_change": 0.08,
+        "reset_confirmation": 0.033600000000000005,
+        "confidence": 0.424,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-21T03:42:34.668045Z",
+    "prediction": {
+      "within_5h": 0.1357,
+      "within_24h": 0.3983,
+      "within_48h": 0.5426
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 194.6929583486111,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 141.3,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.6579,
+      "time_pressure": 0.7204,
+      "hazard_rate": 0.020944,
+      "evidence_score": 0.0745,
       "tibo_signal": 0.2411,
       "community_signal": 0.5938,
       "release_signal": 0.5,
