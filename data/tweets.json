@@ -48,6 +48,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T02:14:53Z",
+    "author": "/u/TheXenoMaster407",
+    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T06:25:10Z",
     "author": "/u/D_Body26",
     "text": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures - &#32; submitted by &#32; /u/D_Body26 [link] &#32; [comments]",
@@ -56,11 +64,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T02:14:53Z",
-    "author": "/u/TheXenoMaster407",
-    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:11:11Z",
+    "author": "/u/severe_009",
+    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   },
   {
@@ -120,14 +128,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T13:11:11Z",
-    "author": "/u/severe_009",
-    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T18:17:10Z",
     "author": "/u/Magnum3k",
     "text": "ChatGPT update adds Apple Messages integration on Mac - &#32; submitted by &#32; /u/Magnum3k [link] &#32; [comments]",
@@ -152,6 +152,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T08:39:17Z",
+    "author": "/u/Lost-Ad7048",
+    "text": "Has anyone else have chat-history/navigation panel has disappeared from their interface - I've noticed in the hour or so that the chat-history/navigation panel has disappeared from my interface for long chats... Has anyone else had this bug &#32; submitted by &#32; /u/Lost-Ad7048 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuakbd/has_anyone_else_have_chathistorynavigation_panel/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T13:26:50Z",
+    "author": "/u/eesnimi",
+    "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugd62/has_chatgpt_changed_noticeably_in_the_last_12/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T16:37:19Z",
     "author": "/u/Watermelon_Sherbert",
     "text": "I asked ChatGPT how the future Grocery Stores are gonna look like. - &#32; submitted by &#32; /u/Watermelon_Sherbert [link] &#32; [comments]",
@@ -168,14 +184,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T08:39:17Z",
-    "author": "/u/Lost-Ad7048",
-    "text": "Has anyone else have chat-history/navigation panel has disappeared from their interface - I've noticed in the hour or so that the chat-history/navigation panel has disappeared from my interface for long chats... Has anyone else had this bug &#32; submitted by &#32; /u/Lost-Ad7048 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuakbd/has_anyone_else_have_chathistorynavigation_panel/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T07:58:57Z",
     "author": "/u/Minimum_Street2187",
     "text": "message arrows are gone - they are gone both in web and app I cant access other responses is this permanent or a bug? &#32; submitted by &#32; /u/Minimum_Street2187 [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "I'm a fish and I see a worm stationary in the water, what do I do? - &#32; submitted by &#32; /u/Jumpy-Program9957 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu4ku1/im_a_fish_and_i_see_a_worm_stationary_in_the/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T12:10:12Z",
-    "author": "/u/mytinyplots",
-    "text": "I stopped letting my main ChatGPT do real work. It dispatches temp workers instead. - I realized the main ChatGPT conversation is the most valuable window I have, so I stopped letting it disappear into long execution loops. When I say “temp worker,” I mean something very literal: a separate disposable ChatGPT conversation in another browser tab. The main chat opens a fresh tab, gives it a small self-contained task plus only the context it needs, then comes back to me. An hour or two later it can read that worker’s answer, accept it, or send a follow-up. There’s no magical shared memory between them. Context only crosses over when the main chat explicitly passes it in or harvests the result back out. The reason I like this isn’t just context. It’s scheduling. Once the main conversation starts a long tool workflow, I’ve turned my dispatcher into a worker. If I think of the next task five minutes later, I’m basically waiting for the current execution to give me the conversation back before I can dispatch the next thing. That’s the part I really hate. With temp workers, I can send A, B and C out and the main chat can immediately go back to answering the human. Even if I leave for a while, I can come back later, wake up the manager chat, and have it collect the workers’ results then. Codex is different. I can call it too, but serious Codex work is interactive: it may stop halfway through for a command, file, or permission approval. If I launch several Codex tasks directly, I’ve also created several things that may need babysitting. So if a job really needs Codex, I increasingly want another disposable chat to be the supervisor. That temp chat calls Codex, deals with routine approvals under my rules, checks progress, follows up if needed, and eventually brings a compressed result back upstairs. Human ↔ main ChatGPT main ChatGPT → temp workers main ChatGPT → temp supervisor → Codex The main conversation stays the control plane. It can answer me, change priorities, dispatch another job, or inspect something that came back. The noisy execution history stays downstream. The temp workers aren’t smarter than Codex. That’s not the point. They’re cheap to isolate, easy to abandon, and from my side much easier to leave alone. I’m building this routing/workflow into Codexless: https://github.com/liyana31811/Codexless The rule I’ve ended up with is basically: don’t let the foreman go down the mine 😄 &#32; submitted by &#32; /u/mytinyplots [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuelhm/i_stopped_letting_my_main_chatgpt_do_real_work_it/",
     "authority_score": 0.5
   }
 ]
