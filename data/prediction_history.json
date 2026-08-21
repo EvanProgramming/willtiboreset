@@ -42357,5 +42357,57 @@
     },
     "actual_result": null,
     "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-21T11:42:33.402443Z",
+    "prediction": {
+      "within_5h": 0.0912,
+      "within_24h": 0.298,
+      "within_48h": 0.4328
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 202.69260650305557,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 133.3,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7671,
+      "time_pressure": 0.7738,
+      "hazard_rate": 0.014634,
+      "evidence_score": 0.0315,
+      "tibo_signal": 0.0546,
+      "community_signal": 0.0,
+      "release_signal": 0.546,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.0,
+        "official_change": 0.064,
+        "reset_confirmation": 0.0,
+        "confidence": 0.348,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
   }
 ]
