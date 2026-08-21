@@ -120,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T09:18:27Z",
-    "author": "/u/Several_Fly694",
-    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T21:30:09Z",
     "author": "/u/senorrandom007",
     "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T09:18:27Z",
+    "author": "/u/Several_Fly694",
+    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
     "authority_score": 0.5
   },
   {
@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T13:26:50Z",
-    "author": "/u/eesnimi",
-    "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugd62/has_chatgpt_changed_noticeably_in_the_last_12/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:40:29Z",
     "author": "/u/panzzersoldat",
     "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
@@ -160,11 +152,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T18:17:10Z",
-    "author": "/u/Magnum3k",
-    "text": "ChatGPT update adds Apple Messages integration on Mac - &#32; submitted by &#32; /u/Magnum3k [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:26:50Z",
+    "author": "/u/eesnimi",
+    "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugd62/has_chatgpt_changed_noticeably_in_the_last_12/",
     "authority_score": 0.5
   },
   {
@@ -176,6 +168,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-20T18:17:10Z",
+    "author": "/u/Magnum3k",
+    "text": "ChatGPT update adds Apple Messages integration on Mac - &#32; submitted by &#32; /u/Magnum3k [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T15:58:24Z",
+    "author": "/u/Next-Let5265",
+    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T05:27:50Z",
     "author": "/u/Ok_Boat_3855",
     "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
@@ -184,19 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:51:08Z",
-    "author": "/u/Middle-Wealth-6755",
-    "text": "Memory gotten worse recently - I’ve noticed in the last month ChatGPT seems to have developed dementia. It forgets key things you’ve told it, and has to be reminded multiple times. Then it doesn’t follow directions. What’s going on? I have Plus, 5.6 Sol model. &#32; submitted by &#32; /u/Middle-Wealth-6755 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T16:08:56Z",
+    "author": "/u/DijonAndDragons",
+    "text": "Don Glitteroni (The Fairy Godfather) - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuk5hl/memory_gotten_worse_recently/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T14:07:28Z",
-    "author": "/u/Weekly_Grapefruit583",
-    "text": "Why does saving individual ChatGPT conversations still feel harder than it should? - I use ChatGPT for a lot of things, and over time I've ended up with conversations that I genuinely want to keep — project discussions, research, solutions, ideas, etc. The problem is that once you have a lot of conversations, finding and actually reusing the useful ones later isn't always easy. I wanted something where I could: Save important conversations locally Search through them later Organize them by projects/tags Select only the messages I actually want to keep Remove sensitive information before sharing Export or reuse the selected context So I built AI Chat Exporter: Local Vault. The basic idea is: ChatGPT → Local Vault → Search / Organize → Redact → Export / Reuse The local-first part was important to me. The vault stays in the Chrome browser profile, without requiring a separate account or a developer-hosted cloud archive. It also supports ChatGPT, Claude, Gemini, Perplexity and Copilot, so the idea is to have one place for conversations across different AI tools. I'm curious how other people handle this. Do you actually save important ChatGPT conversations somewhere, or do you mostly rely on your ChatGPT history and hope you can find them again later? And if you do save them, what's the biggest pain point for you — search, organization, exporting, backups, or something else? I built this because I had the problem myself, so I'm genuinely interested in how other people deal with it. &#32; submitted by &#32; /u/Weekly_Grapefruit583 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuhdp2/why_does_saving_individual_chatgpt_conversations/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukmu3/don_glitteroni_the_fairy_godfather/",
     "authority_score": 0.5
   }
 ]
