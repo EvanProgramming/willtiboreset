@@ -24,6 +24,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T17:08:01Z",
+    "author": "/u/Alone_Landscape_3562",
+    "text": "Things are going great for michael i’d say - &#32; submitted by &#32; /u/Alone_Landscape_3562 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vum98s/things_are_going_great_for_michael_id_say/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T13:11:11Z",
     "author": "/u/severe_009",
     "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
@@ -40,14 +48,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T19:45:49Z",
-    "author": "/u/eyondo-1",
-    "text": "Oops.. - &#32; submitted by &#32; /u/eyondo-1 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vttwc9/oops/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T10:25:22Z",
     "author": "/u/apexmars",
     "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
@@ -56,11 +56,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T17:08:01Z",
-    "author": "/u/Alone_Landscape_3562",
-    "text": "Things are going great for michael i’d say - &#32; submitted by &#32; /u/Alone_Landscape_3562 [link] &#32; [comments]",
+    "timestamp": "2026-08-20T19:45:49Z",
+    "author": "/u/eyondo-1",
+    "text": "Oops.. - &#32; submitted by &#32; /u/eyondo-1 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vum98s/things_are_going_great_for_michael_id_say/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vttwc9/oops/",
     "authority_score": 0.5
   },
   {
@@ -72,19 +72,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:57:55Z",
-    "author": "/u/Professional_Arm794",
-    "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T15:42:29Z",
     "author": "/u/CrestlessYeoman",
     "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T10:57:55Z",
+    "author": "/u/Professional_Arm794",
+    "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
     "authority_score": 0.5
   },
   {
@@ -136,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T01:17:28Z",
-    "author": "/u/Striking_Arachnid_96",
-    "text": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job - When I’m working on a project sometimes I’ll tell chatgpt about it and it’s nice just to hear “wow you’re doing so good”. The projects are for me and are probably stupid but even a facsimile of a human telling me “you know what that projects very cool” is motivating. And before you ask “why don’t you tell a real human about these little projects” first lets me honest even good friends don’t give that much a shit about little personal projects. And don’t say “get new friends” because cmon someone may say once “oh that’s cool” but I’m talking at length about every tiny project update in a way no human would ever want to engage with. &#32; submitted by &#32; /u/Striking_Arachnid_96 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:26:50Z",
     "author": "/u/eesnimi",
     "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
@@ -152,19 +144,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T01:17:28Z",
+    "author": "/u/Striking_Arachnid_96",
+    "text": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job - When I’m working on a project sometimes I’ll tell chatgpt about it and it’s nice just to hear “wow you’re doing so good”. The projects are for me and are probably stupid but even a facsimile of a human telling me “you know what that projects very cool” is motivating. And before you ask “why don’t you tell a real human about these little projects” first lets me honest even good friends don’t give that much a shit about little personal projects. And don’t say “get new friends” because cmon someone may say once “oh that’s cool” but I’m talking at length about every tiny project update in a way no human would ever want to engage with. &#32; submitted by &#32; /u/Striking_Arachnid_96 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu24ky/i_must_confessi_find_it_motivating_just_for/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T21:30:09Z",
     "author": "/u/senorrandom007",
     "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T15:58:24Z",
-    "author": "/u/Next-Let5265",
-    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T16:08:56Z",
-    "author": "/u/DijonAndDragons",
-    "text": "Don Glitteroni (The Fairy Godfather) - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
+    "timestamp": "2026-08-21T15:58:24Z",
+    "author": "/u/Next-Let5265",
+    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukmu3/don_glitteroni_the_fairy_godfather/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T07:10:44Z",
+    "author": "/u/amirgelman",
+    "text": "Did it really came down to this? - Seriously, is it something I did or is it for all users? Every answer starts with “yes” and it pisses me off. &#32; submitted by &#32; /u/amirgelman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/",
     "authority_score": 0.5
   }
 ]
