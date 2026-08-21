@@ -88,14 +88,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:42:29Z",
-    "author": "/u/CrestlessYeoman",
-    "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T19:43:08Z",
     "author": "/u/KalzK",
     "text": "Correct calendar - I asked for a pic of an 80's girl for a calendar, and was surprised that the calendar for August 1986 was correct. Small thing, but it was unexpected, that's all. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
@@ -109,6 +101,14 @@
     "text": "Ayo who hurt chat gpt - I asked my chat gpt what it feels and this is what it said &#32; submitted by &#32; /u/Outrageous_Snow9298 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vup5gd/ayo_who_hurt_chat_gpt/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T15:42:29Z",
+    "author": "/u/CrestlessYeoman",
+    "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
     "authority_score": 0.5
   },
   {
@@ -136,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T19:05:24Z",
-    "author": "/u/Middle_Mine_7246",
-    "text": "\"Create a still image from an infamous scene in a movie that never existed starring well-known actors and explain where it's from.\" - &quot;Adrian Vale (Leonardo DiCaprio) corners Marcus Creed (Denzel Washington) in a lavish private room, holding him at gunpoint after uncovering a major betrayal. The scene is the movie’s infamous turning point, where the audience realizes the supposed hero may have engineered the entire conspiracy himself.&quot; &#32; submitted by &#32; /u/Middle_Mine_7246 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuphy7/create_a_still_image_from_an_infamous_scene_in_a/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T19:11:00Z",
     "author": "/u/Any_Act_3789",
     "text": "Bug - log-out - Hey. Every time I refresh the page, ChatGPT logs me out. I tried another account, another browser, and another PC, and the problem’s still there. Anyone else having this issue? &#32; submitted by &#32; /u/Any_Act_3789 [link] &#32; [comments]",
@@ -152,11 +144,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T20:01:31Z",
-    "author": "/u/RustyBreaker",
-    "text": "PSA: If ChatGPT suddenly keeps asking you to choose/login to your account today, DON'T reset your browser or PC, it seems to be a ChatGPT-side issue - Posting this because I spent way too much time troubleshooting this today and almost started nuking my entire browser setup. A few hours ago ChatGPT suddenly started doing this: Open ChatGPT / open a new tab / refresh It shows the &quot;Welcome back / Choose an account to continue&quot; screen My account is already listed I click my account It immediately opens ChatGPT without asking for my password Then on another new tab/window it can happen all over again I've now seen several people on Reddit reporting basically the same thing, all starting today. I did a ridiculous amount of troubleshooting to rule out my own PC/browser: Tested Chrome Tested Microsoft Edge — same problem Cleared ChatGPT/OpenAI site data Reset site permissions Tested with extensions disabled Created a completely fresh Chrome profile with zero extensions — same problem Checked Chrome policies — none Checked proxy/DNS/hosts/network — normal Tested Chrome's cookie persistence independently with a custom persistent cookie — Chrome successfully kept it after being completely closed and reopened Inspected the ChatGPT/OpenAI authentication cookie metadata before and after restarting Chrome And this is the important part: The actual ChatGPT authentication cookies were still there after restarting the browser. For example, the persistent __Secure-next-auth.session-token cookies remained present and had expiration dates months in the future. So at least in my case, ChatGPT isn't actually fully logging me out. That's also why clicking my account on that &quot;Choose an account&quot; screen instantly lets me back in without a password: the authentication session still exists. I obviously can't prove exactly what's broken on OpenAI's backend, but considering: it started suddenly today, it happens in multiple browsers, it happens with a completely clean browser profile, the login/session cookies are still being persisted correctly, and several unrelated users started reporting the same behavior at roughly the same time, this looks much more like a ChatGPT authentication/account-selection bug or rollout issue than something wrong with your browser or computer. So if this just started happening to you today: Don't format Windows. Don't reinstall Chrome. Don't delete your browser profile. Don't start disabling random Windows services. Your PC is probably fine. Hopefully OpenAI fixes whatever changed today soon, because having to choose the exact same account every time you open/refresh ChatGPT is insanely annoying. If you're seeing the same thing, comment with your browser/platform so we can see how widespread it is. &#32; submitted by &#32; /u/RustyBreaker [link] &#32; [comments]",
+    "timestamp": "2026-08-21T19:05:24Z",
+    "author": "/u/Middle_Mine_7246",
+    "text": "\"Create a still image from an infamous scene in a movie that never existed starring well-known actors and explain where it's from.\" - &quot;Adrian Vale (Leonardo DiCaprio) corners Marcus Creed (Denzel Washington) in a lavish private room, holding him at gunpoint after uncovering a major betrayal. The scene is the movie’s infamous turning point, where the audience realizes the supposed hero may have engineered the entire conspiracy himself.&quot; &#32; submitted by &#32; /u/Middle_Mine_7246 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqzxw/psa_if_chatgpt_suddenly_keeps_asking_you_to/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuphy7/create_a_still_image_from_an_infamous_scene_in_a/",
     "authority_score": 0.5
   },
   {
@@ -165,6 +157,22 @@
     "text": "ChatGPT be like: Yes, you are the smartest person to ever live and totally correct—but with an important qualification: Actually you are wrong - &#32; submitted by &#32; /u/Katanae [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vurdcb/chatgpt_be_like_yes_you_are_the_smartest_person/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T18:45:02Z",
+    "author": "/u/Therebentine_jaguar",
+    "text": "Asked Chat GPT to take a random picture in 2003 - &#32; submitted by &#32; /u/Therebentine_jaguar [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoxla/asked_chat_gpt_to_take_a_random_picture_in_2003/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T20:01:31Z",
+    "author": "/u/RustyBreaker",
+    "text": "PSA: If ChatGPT suddenly keeps asking you to choose/login to your account today, DON'T reset your browser or PC, it seems to be a ChatGPT-side issue - Posting this because I spent way too much time troubleshooting this today and almost started nuking my entire browser setup. A few hours ago ChatGPT suddenly started doing this: Open ChatGPT / open a new tab / refresh It shows the &quot;Welcome back / Choose an account to continue&quot; screen My account is already listed I click my account It immediately opens ChatGPT without asking for my password Then on another new tab/window it can happen all over again I've now seen several people on Reddit reporting basically the same thing, all starting today. I did a ridiculous amount of troubleshooting to rule out my own PC/browser: Tested Chrome Tested Microsoft Edge — same problem Cleared ChatGPT/OpenAI site data Reset site permissions Tested with extensions disabled Created a completely fresh Chrome profile with zero extensions — same problem Checked Chrome policies — none Checked proxy/DNS/hosts/network — normal Tested Chrome's cookie persistence independently with a custom persistent cookie — Chrome successfully kept it after being completely closed and reopened Inspected the ChatGPT/OpenAI authentication cookie metadata before and after restarting Chrome And this is the important part: The actual ChatGPT authentication cookies were still there after restarting the browser. For example, the persistent __Secure-next-auth.session-token cookies remained present and had expiration dates months in the future. So at least in my case, ChatGPT isn't actually fully logging me out. That's also why clicking my account on that &quot;Choose an account&quot; screen instantly lets me back in without a password: the authentication session still exists. I obviously can't prove exactly what's broken on OpenAI's backend, but considering: it started suddenly today, it happens in multiple browsers, it happens with a completely clean browser profile, the login/session cookies are still being persisted correctly, and several unrelated users started reporting the same behavior at roughly the same time, this looks much more like a ChatGPT authentication/account-selection bug or rollout issue than something wrong with your browser or computer. So if this just started happening to you today: Don't format Windows. Don't reinstall Chrome. Don't delete your browser profile. Don't start disabling random Windows services. Your PC is probably fine. Hopefully OpenAI fixes whatever changed today soon, because having to choose the exact same account every time you open/refresh ChatGPT is insanely annoying. If you're seeing the same thing, comment with your browser/platform so we can see how widespread it is. &#32; submitted by &#32; /u/RustyBreaker [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqzxw/psa_if_chatgpt_suddenly_keeps_asking_you_to/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T18:56:22Z",
-    "author": "/u/ThatCuteMysteonLuna",
-    "text": "Login Error? Kinda? - i don't know how else to put this but like every time i refresh the page it logs me out and whenever i refresh after it logs me out i get logged back in????? what is this superposition paradox of an error i've achieved not asking for help it just amuses me that i've achieved this &#32; submitted by &#32; /u/ThatCuteMysteonLuna [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vup8s9/login_error_kinda/",
     "authority_score": 0.5
   }
 ]
