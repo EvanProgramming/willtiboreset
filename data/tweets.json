@@ -48,19 +48,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T02:14:53Z",
-    "author": "/u/TheXenoMaster407",
-    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T06:25:10Z",
     "author": "/u/D_Body26",
     "text": "I asked ChatGPT to visualize why people may have mistaken real animals and objects for mythical creatures - &#32; submitted by &#32; /u/D_Body26 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8atl/i_asked_chatgpt_to_visualize_why_people_may_have/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T02:14:53Z",
+    "author": "/u/TheXenoMaster407",
+    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
     "authority_score": 0.5
   },
   {
@@ -104,6 +104,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-20T22:49:09Z",
+    "author": "/u/PlentyOfMoxie",
+    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T09:18:27Z",
     "author": "/u/Several_Fly694",
     "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
@@ -112,11 +120,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T22:49:09Z",
-    "author": "/u/PlentyOfMoxie",
-    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:11:11Z",
+    "author": "/u/severe_009",
+    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   },
   {
@@ -133,14 +141,6 @@
     "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu79cm/my_writing_job_is_90_prompting_10_forwarding/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T13:11:11Z",
-    "author": "/u/severe_009",
-    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   },
   {
@@ -176,19 +176,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T03:12:03Z",
-    "author": "/u/Jumpy-Program9957",
-    "text": "I'm a fish and I see a worm stationary in the water, what do I do? - &#32; submitted by &#32; /u/Jumpy-Program9957 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu4ku1/im_a_fish_and_i_see_a_worm_stationary_in_the/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T07:58:57Z",
     "author": "/u/Minimum_Street2187",
     "text": "message arrows are gone - they are gone both in web and app I cant access other responses is this permanent or a bug? &#32; submitted by &#32; /u/Minimum_Street2187 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9w8s/message_arrows_are_gone/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T03:12:03Z",
+    "author": "/u/Jumpy-Program9957",
+    "text": "I'm a fish and I see a worm stationary in the water, what do I do? - &#32; submitted by &#32; /u/Jumpy-Program9957 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu4ku1/im_a_fish_and_i_see_a_worm_stationary_in_the/",
     "authority_score": 0.5
   },
   {
