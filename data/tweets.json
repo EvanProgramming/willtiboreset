@@ -64,6 +64,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T16:21:56Z",
+    "author": "/u/CloseCalls4walls",
+    "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T15:42:29Z",
     "author": "/u/CrestlessYeoman",
     "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
@@ -80,19 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T16:21:56Z",
-    "author": "/u/CloseCalls4walls",
-    "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T10:57:55Z",
     "author": "/u/Professional_Arm794",
     "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T18:24:32Z",
+    "author": "/u/Defora",
+    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
     "authority_score": 0.5
   },
   {
@@ -120,14 +128,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T06:16:42Z",
-    "author": "/u/Pretty-Question-1239",
-    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:26:50Z",
     "author": "/u/eesnimi",
     "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T06:16:42Z",
+    "author": "/u/Pretty-Question-1239",
+    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T20:02:04Z",
     "author": "/u/echo69dread",
     "text": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre - These images are AI-generated with ChatGPT — I'm not trying to pass them off as handmade art. I generated them because I genuinely couldn't picture the idea clearly in my head. The funny part is how I got here. I was originally just talking to ChatGPT about DeepSeek, AI reasoning, technological risks, nuclear weapons, whether this is actually the best time in history to be alive... you know, a perfectly normal evening. Eventually I said something like: &quot;Medieval times would actually be cool if you removed all the horrible parts.&quot; And then my brain went: Wait. Cyberpunk, but with knights and castles. So we started expanding it. Not just medieval clothing with neon slapped on top, but an actual cyberpunk society that developed a feudal structure: Knightly houses instead of megacorps. Castles as arcologies, data centers and fortified infrastructure hubs. Cybernetic horses. Powered armor designed like plate armor. Drones carrying heraldic banners. Monasteries maintaining ancient servers and AI systems. Peasants and craftsmen living underneath gigantic neon castles. Feudal lords controlling energy, computation and network access instead of just land. Tournaments between technologically enhanced knights representing rival Houses. Basically a genuinely medieval-feeling world — heraldry, castles, guilds, dynasties, knights, villages, cathedrals — except the technology is straight-up cyberpunk. And... I don't think I've ever actually seen this done fully. There are things that come close: 40k, Dune, Bleak Faith, BLAME!, maybe some science-fantasy stuff. But they always seem to lean much harder toward either futuristic sci-fi or traditional fantasy. I've never really seen a living cyberpunk medieval society like the one in these images. Which is weird, because after seeing it visualized, it feels almost stupidly obvious. I'd genuinely love to see a game, movie, anime, comic or novel commit to this aesthetic. Does something like this already exist and I've somehow missed it? And if not... why the hell isn't this a genre? &#32; submitted by &#32; /u/echo69dread [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtuccw/i_accidentally_stumbled_into_cyberfeudalism_while/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T18:24:32Z",
-    "author": "/u/Defora",
-    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
     "authority_score": 0.5
   },
   {
@@ -168,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T22:49:09Z",
-    "author": "/u/PlentyOfMoxie",
-    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
+    "timestamp": "2026-08-21T18:37:48Z",
+    "author": "/u/butterflymon",
+    "text": "Chat not showing recent conversation and reloading the page asks me to log in again - Some chats are not showing recent conversations and reloading the page asks me to log in again and the whole process repeats. It started today. &#32; submitted by &#32; /u/butterflymon [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoq0z/chat_not_showing_recent_conversation_and/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:23:05Z",
-    "author": "/u/___positive___",
-    "text": "Did anyone else start running into \"unusual activity\" warnings yesterday or today? Any login issues? - I got a message yesterday and today about the system detecting unusual activity from this account. The last time I got these messages was over a year ago, I can't even remember. I'm using the website UI, just pasting in a few chunks of html code to ask about the wording of tame/vanilla business stuff, copy writing and such. I don't use a VPN, residential US IP, same as always. Everything manual. Like what the heck? Or do they just want me to slow down my work? Don't send so many messages? I'm just copy/pasting after I fix each section. Then I had to re login with an emailed passcode. I use codex as well, but I haven't used it for a day. WSL is shutdown, there shouldn't be any processes running. Wondering if anyone else had the issue recently. &#32; submitted by &#32; /u/___positive___ [link] &#32; [comments]",
+    "timestamp": "2026-08-20T22:49:09Z",
+    "author": "/u/PlentyOfMoxie",
+    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuob9d/did_anyone_else_start_running_into_unusual/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T16:54:21Z",
-    "author": "/u/RubyTavi",
-    "text": "What cracks me up about ChatGPT image generation - It cracks me up that I submit a prompt to ChatGPT telling it what I want, and it submits the prompt to the image generator, then it checks the image and tells me what's wrong with it and IT submits a different prompt, then tells me how that prompt failed to fix the problem and it's trying again... ...Even ChatGPT can't figure out what prompt to give the image generator to get what it wants. &#32; submitted by &#32; /u/RubyTavi [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:40:29Z",
+    "author": "/u/panzzersoldat",
+    "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vulvbj/what_cracks_me_up_about_chatgpt_image_generation/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vugp7d/why_is_chatgpt_using_55mini_on_the_high/",
     "authority_score": 0.5
   }
 ]
