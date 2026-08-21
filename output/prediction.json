@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-21T05:25:55.648375+00:00",
+  "updated_at": "2026-08-21T05:42:37.830905+00:00",
   "prediction": {
-    "within_5h": 0.1324,
-    "within_24h": 0.3917,
-    "within_48h": 0.5359
+    "within_5h": 0.132,
+    "within_24h": 0.3909,
+    "within_48h": 0.5351
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 139.6,
+    "hours_until": 139.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 196.415457695,
+    "hours_since_last_reset": 196.6938417738889,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 139.6,
+      "hours_until": 139.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,19 +26,19 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6814,
-    "time_pressure": 0.7325,
-    "hazard_rate": 0.020499,
-    "evidence_score": 0.0708,
-    "tibo_signal": 0.2442,
-    "community_signal": 0.5938,
+    "time_ratio": 2.6852,
+    "time_pressure": 0.7344,
+    "hazard_rate": 0.020445,
+    "evidence_score": 0.0704,
+    "tibo_signal": 0.2449,
+    "community_signal": 0.5899,
     "release_signal": 0.5,
     "llm_scores": {
       "reset_intent": 0.06720000000000001,
-      "limit_complaint": 0.0712,
+      "limit_complaint": 0.047200000000000006,
       "official_change": 0.08,
       "reset_confirmation": 0.033600000000000005,
-      "confidence": 0.424,
+      "confidence": 0.406,
       "reason": [
         "Community pressure signal detected (score: 0.50)",
         "No relevant signals detected; possibly unrelated content",
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "196.4 hours since last reset",
+      "factor": "196.7 hours since last reset",
       "impact": "+5%",
       "score": 0.73
     },
@@ -77,8 +77,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "196.4 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "196.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 196.4 hours since last reset (+5%)"
+    "Main factor: 196.7 hours since last reset (+5%)"
   ]
 }

@@ -136,19 +136,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T02:02:37Z",
-    "author": "/u/locoCrLlc",
-    "text": "Here's a benefit of ChatGPT that they should market heavily: The ability to prevent drunk emails. - So you're off work, and really pissed off at someone who's got more leverage than you. After your 4th martini, you decide you need to confront the asshole, and compose an email, because, of course you do. Draft it in Word, run it through ChatGPT, which will sanitize it, and VIOLA, you have an articulate communication. &#32; submitted by &#32; /u/locoCrLlc [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu33nn/heres_a_benefit_of_chatgpt_that_they_should/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T03:12:03Z",
     "author": "/u/Jumpy-Program9957",
     "text": "I'm a fish and I see a worm stationary in the water, what do I do? - &#32; submitted by &#32; /u/Jumpy-Program9957 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu4ku1/im_a_fish_and_i_see_a_worm_stationary_in_the/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T02:02:37Z",
+    "author": "/u/locoCrLlc",
+    "text": "Here's a benefit of ChatGPT that they should market heavily: The ability to prevent drunk emails. - So you're off work, and really pissed off at someone who's got more leverage than you. After your 4th martini, you decide you need to confront the asshole, and compose an email, because, of course you do. Draft it in Word, run it through ChatGPT, which will sanitize it, and VIOLA, you have an articulate communication. &#32; submitted by &#32; /u/locoCrLlc [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu33nn/heres_a_benefit_of_chatgpt_that_they_should/",
     "authority_score": 0.5
   },
   {
@@ -168,6 +168,22 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T05:09:36Z",
+    "author": "/u/Successful-Desk9588",
+    "text": "I didn’t know chat gpt could be this funny - &#32; submitted by &#32; /u/Successful-Desk9588 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu6x5o/i_didnt_know_chat_gpt_could_be_this_funny/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T05:04:32Z",
+    "author": "/u/NotaDevAI",
+    "text": "Three months of building a Steam demo with ChatGPT and Codex. This is the result! - Hi everyone! I'm a solo developer based in Australia. For roughly three months, I used ChatGPT and Codex extensively while building the demo of my first game, Grimoire of Hecate : Tower of Starlight, a turn based roguelite made with Godot. Steam demo link below!(if you're interested!) https://store.steampowered.com/app/5078840/Grimoire_of_Hecate__Tower_of_Starlight/ ChatGPT helped me detailing the design that I have in my mind. Codex worked directly with the project files and wrote or revised a large portion of the code and tests. I used GPT 5.6 Sol in most case. My workflow was to describe the feature and direction I wanted, review the result, run and play it myself, and continue revising anything that did not work or did not match what I intended. The most difficult part came as the project became larger. The AI can lose track of earlier decisions or change the wrong part of the game so easily. To manage that, I documented the current state after each task as md file. When a problem appeared, instead of asking it to resolve the issue immediately, I reproduced the exact situation, identified the cause, and changed only the affected part. Without it, it would create another issue from the solution it applied. I also used generative AI(GPT image 2.0) during the graphics workflow and for localization. I personally reviewed and edited everything included in the game. The biggest lesson for me was that using more AI was not automatically better. The important part was deciding what to delegate, preserving project context, and knowing what still required direct human review. AI is really really good at referring/making what's existing, adding new color in your project is all on yourself. Unless you want something very similar to what already exists, you need to work on designing your own thing. If you are also using AI tools for a larger project, I would be interested to hear how you preserve context and prevent changes from breaking earlier work. I need to learn haha &#32; submitted by &#32; /u/NotaDevAI [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu6tjv/three_months_of_building_a_steam_demo_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T22:12:14Z",
     "author": "/u/Pristine_Ad3669",
     "text": "People are 4x more random than ChatGPT when picking 1-100 - ChatGPT is surprisingly bad at picking a random number. This article combined data from this Reddit post and this one here to compare ChatGPT (n=10,000 responses) vs people (n= 6,981 responses) randomly choosing between 1 - 100. The results were wild: - People were 4x closer to true randomness than ChatGPT. Despite all our obvious biases and silliness (top pick was 69), people aggregated into a surprisingly close approximation of randomness (12% difference from a true random number generator). - There was a 53% difference between AI and people + a 48% difference between AI and true random. - With 10,000 ChatGPT attempts, it picked 1, 5, 20, 50, 70, or 100 exactly zero times. - 29% of ChatGPT's picks ended in 7. It was 6x more likely to pick 47 than true random chance would suggest. - People’s overpicks are all pretty recognizable: 69 was 2.9x more likely to be chosen than random (made me laugh), while lucky number 7 was 2x more likely. Top underpicks contained the number 3, including 34, 38, 73, 63, and 83. &#32; submitted by &#32; /u/Pristine_Ad3669 [link] &#32; [comments]",
@@ -181,22 +197,6 @@
     "text": "This just popped up on chatgpt - Oh hell no im not putting my bank account information into an AI. &#32; submitted by &#32; /u/Southerneagle110 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vt6n5h/this_just_popped_up_on_chatgpt/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T00:47:02Z",
-    "author": "/u/Emojinapp",
-    "text": "Follow-up: here’s the demo of the Echo(lifelike avatar) I posted about two days ago - For anyone seeing this cold: EchoVault interviews you about your life across short sessions, then builds an avatar of you that the people you name can talk to after you die, in text, voice, or real-time video. Text is free and unlimited, no card. Two things worth watching for in the clip. It answers what gives life meaning by assembling fragments from three separate sessions that were never about that question. Then, thirty seconds later, I ask my grandfather’s name and it says it doesn’t know. That second one is the part I care about. I never told it, so it didn’t guess. In my last post I mentioned the retrieval side being the hard part, that everything it says has to trace back to something I really said. This is what that looks like when it works. A system that will invent one plausible detail will invent all of them, and my family would have no way to tell which was which. https://apps.apple.com/us/app/echovault-digital-legacy/id6762042028 &#32; submitted by &#32; /u/Emojinapp [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu1g9j/followup_heres_the_demo_of_the_echolifelike/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T15:19:48Z",
-    "author": "/u/KeanuRave100",
-    "text": "A Deluge of A.I. Computing Power Is About to Come Online, Fueling Major Leaps | The number of A.I. chips that provide the computing power to advance the fast-evolving technology is doubling every nine months. - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtmf9m/a_deluge_of_ai_computing_power_is_about_to_come/",
     "authority_score": 0.5
   }
 ]
