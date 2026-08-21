@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-21T11:42:33.383995+00:00",
+  "updated_at": "2026-08-21T12:02:39.270753+00:00",
   "prediction": {
-    "within_5h": 0.0912,
-    "within_24h": 0.298,
-    "within_48h": 0.4328
+    "within_5h": 0.0908,
+    "within_24h": 0.2969,
+    "within_48h": 0.4315
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 133.3,
+    "hours_until": 133.0,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 202.69260650305557,
+    "hours_since_last_reset": 203.02757506194445,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 133.3,
+      "hours_until": 133.0,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.7671,
-    "time_pressure": 0.7738,
-    "hazard_rate": 0.014634,
-    "evidence_score": 0.0315,
+    "time_ratio": 2.7717,
+    "time_pressure": 0.7759,
+    "hazard_rate": 0.01457,
+    "evidence_score": 0.031,
     "tibo_signal": 0.0546,
     "community_signal": 0.0,
     "release_signal": 0.546,
@@ -55,9 +55,9 @@
   },
   "main_factors": [
     {
-      "factor": "202.7 hours since last reset",
+      "factor": "203.0 hours since last reset",
       "impact": "+5%",
-      "score": 0.77
+      "score": 0.78
     },
     {
       "factor": "Some reset discussion detected",
@@ -72,8 +72,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "202.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "203.0 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.03), insufficient to confirm",
-    "Main factor: 202.7 hours since last reset (+5%)"
+    "Main factor: 203.0 hours since last reset (+5%)"
   ]
 }
