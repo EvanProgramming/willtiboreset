@@ -35179,8 +35179,8 @@
       "weekly_cycle_factor": 0.0,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-21T12:42:38.782474Z"
   },
   {
     "prediction_time": "2026-08-19T13:02:36.040233Z",
@@ -42497,6 +42497,58 @@
         "official_change": 0.064,
         "reset_confirmation": 0.016,
         "confidence": 0.37,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-21T12:42:38.727667Z",
+    "prediction": {
+      "within_5h": 0.0899,
+      "within_24h": 0.2948,
+      "within_48h": 0.429
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 203.69408579472224,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 132.3,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7808,
+      "time_pressure": 0.7799,
+      "hazard_rate": 0.014448,
+      "evidence_score": 0.0302,
+      "tibo_signal": 0.0546,
+      "community_signal": 0.0,
+      "release_signal": 0.546,
+      "llm_scores": {
+        "reset_intent": 0.0,
+        "limit_complaint": 0.0,
+        "official_change": 0.064,
+        "reset_confirmation": 0.0,
+        "confidence": 0.348,
         "reason": [
           "Community pressure signal detected (score: 0.50)",
           "No relevant signals detected; possibly unrelated content",
