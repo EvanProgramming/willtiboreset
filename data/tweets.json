@@ -24,19 +24,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T21:23:08Z",
-    "author": "/u/Trumps_Suit",
-    "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwict/my_best_blunder_ever/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:11:11Z",
     "author": "/u/severe_009",
     "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T21:23:08Z",
+    "author": "/u/Trumps_Suit",
+    "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwict/my_best_blunder_ever/",
     "authority_score": 0.5
   },
   {
@@ -120,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T09:18:27Z",
-    "author": "/u/Several_Fly694",
-    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T22:49:09Z",
     "author": "/u/PlentyOfMoxie",
     "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T09:18:27Z",
+    "author": "/u/Several_Fly694",
+    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
     "authority_score": 0.5
   },
   {
@@ -144,14 +144,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T07:10:44Z",
-    "author": "/u/amirgelman",
-    "text": "Did it really came down to this? - Seriously, is it something I did or is it for all users? Every answer starts with “yes” and it pisses me off. &#32; submitted by &#32; /u/amirgelman [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:40:29Z",
     "author": "/u/panzzersoldat",
     "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
@@ -160,19 +152,27 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T05:27:50Z",
-    "author": "/u/Ok_Boat_3855",
-    "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu79cm/my_writing_job_is_90_prompting_10_forwarding/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T13:26:50Z",
     "author": "/u/eesnimi",
     "text": "Has ChatGPT changed noticeably in the last ~12 hours for anyone else? - Something seems to have changed today, and the regression is pretty severe on my end. Over the last few weeks, ChatGPT had become a genuinely good thinking partner: it would follow the exact claim I was making, research things when needed, find actual weaknesses or supporting evidence, and help develop the argument. Today I'm repeatedly seeing the old behavior return: Strawmanning: turning a qualified claim into a different claim, then “correcting” the claim it just invented. Arguing for the sake of arguing: inserting counterarguments even when they don't address what was actually said. Automatic status-quo framing: institutional/corporate explanations get charitable interpretations while skeptical claims get immediately softened or “balanced.” Semantic drift: once it has rewritten your position incorrectly, that rewritten version contaminates the context and can later come back as if you had actually said it. Much less research/tool use: instead of going “interesting claim, let's check,” it increasingly seems to decide immediately that it already understands the issue. Subtle rewriting when editing: even simple corrections can introduce small framing changes that weaken or alter the original point. I tested this in a fresh conversation with reasoning set to High and got the same strawman behavior almost immediately, so this doesn't seem to be just a long-context issue. The frustrating part is that when you point the mistake out, the model understands it perfectly and can explain exactly what it did wrong. So the reasoning ability still seems to be there - the conversational behavior around it has changed. This feels very different from the ChatGPT I was using literally yesterday. Has anyone else noticed a change in the last day or so? &#32; submitted by &#32; /u/eesnimi [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vugd62/has_chatgpt_changed_noticeably_in_the_last_12/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T07:10:44Z",
+    "author": "/u/amirgelman",
+    "text": "Did it really came down to this? - Seriously, is it something I did or is it for all users? Every answer starts with “yes” and it pisses me off. &#32; submitted by &#32; /u/amirgelman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T05:27:50Z",
+    "author": "/u/Ok_Boat_3855",
+    "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu79cm/my_writing_job_is_90_prompting_10_forwarding/",
     "authority_score": 0.5
   },
   {
