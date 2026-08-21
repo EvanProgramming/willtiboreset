@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-21T05:42:37.830905+00:00",
+  "updated_at": "2026-08-21T06:02:36.602204+00:00",
   "prediction": {
-    "within_5h": 0.132,
-    "within_24h": 0.3909,
-    "within_48h": 0.5351
+    "within_5h": 0.1315,
+    "within_24h": 0.3899,
+    "within_48h": 0.5341
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 139.3,
+    "hours_until": 139.0,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 196.6938417738889,
+    "hours_since_last_reset": 197.0268337888889,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 139.3,
+      "hours_until": 139.0,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,11 +26,11 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6852,
-    "time_pressure": 0.7344,
-    "hazard_rate": 0.020445,
-    "evidence_score": 0.0704,
-    "tibo_signal": 0.2449,
+    "time_ratio": 2.6898,
+    "time_pressure": 0.7367,
+    "hazard_rate": 0.020378,
+    "evidence_score": 0.0698,
+    "tibo_signal": 0.2458,
     "community_signal": 0.5899,
     "release_signal": 0.5,
     "llm_scores": {
@@ -55,14 +55,14 @@
   },
   "main_factors": [
     {
-      "factor": "196.7 hours since last reset",
+      "factor": "197.0 hours since last reset",
       "impact": "+5%",
-      "score": 0.73
+      "score": 0.74
     },
     {
       "factor": "Some reset discussion detected",
       "impact": "+4%",
-      "score": 0.24
+      "score": 0.25
     },
     {
       "factor": "High community limit complaints",
@@ -77,8 +77,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "196.7 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
+    "197.0 hours since last reset, exceeds historical median interval 47 hours, but probability is still dominated by signal evidence",
     "Weak reset evidence detected (evidence_score=0.07), insufficient to confirm",
-    "Main factor: 196.7 hours since last reset (+5%)"
+    "Main factor: 197.0 hours since last reset (+5%)"
   ]
 }
