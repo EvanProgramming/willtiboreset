@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21T03:42:34.650636+00:00",
+  "updated_at": "2026-08-21T03:45:40.289010+00:00",
   "prediction": {
-    "within_5h": 0.1357,
-    "within_24h": 0.3983,
-    "within_48h": 0.5426
+    "within_5h": 0.1355,
+    "within_24h": 0.398,
+    "within_48h": 0.5423
   },
   "confidence": "low",
   "next_reset": {
@@ -13,7 +13,7 @@
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 194.6929583486111,
+    "hours_since_last_reset": 194.7445245877778,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
       "hours_until": 141.3,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 2.6579,
-    "time_pressure": 0.7204,
-    "hazard_rate": 0.020944,
-    "evidence_score": 0.0745,
+    "time_ratio": 2.6586,
+    "time_pressure": 0.7207,
+    "hazard_rate": 0.020924,
+    "evidence_score": 0.0743,
     "tibo_signal": 0.2411,
     "community_signal": 0.5938,
     "release_signal": 0.5,
