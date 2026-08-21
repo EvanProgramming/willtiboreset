@@ -56,6 +56,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T10:25:22Z",
+    "author": "/u/apexmars",
+    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T20:02:04Z",
     "author": "/u/echo69dread",
     "text": "I accidentally stumbled into “cyber-feudalism” while talking to ChatGPT, and now I desperately want this to be an actual genre - These images are AI-generated with ChatGPT — I'm not trying to pass them off as handmade art. I generated them because I genuinely couldn't picture the idea clearly in my head. The funny part is how I got here. I was originally just talking to ChatGPT about DeepSeek, AI reasoning, technological risks, nuclear weapons, whether this is actually the best time in history to be alive... you know, a perfectly normal evening. Eventually I said something like: &quot;Medieval times would actually be cool if you removed all the horrible parts.&quot; And then my brain went: Wait. Cyberpunk, but with knights and castles. So we started expanding it. Not just medieval clothing with neon slapped on top, but an actual cyberpunk society that developed a feudal structure: Knightly houses instead of megacorps. Castles as arcologies, data centers and fortified infrastructure hubs. Cybernetic horses. Powered armor designed like plate armor. Drones carrying heraldic banners. Monasteries maintaining ancient servers and AI systems. Peasants and craftsmen living underneath gigantic neon castles. Feudal lords controlling energy, computation and network access instead of just land. Tournaments between technologically enhanced knights representing rival Houses. Basically a genuinely medieval-feeling world — heraldry, castles, guilds, dynasties, knights, villages, cathedrals — except the technology is straight-up cyberpunk. And... I don't think I've ever actually seen this done fully. There are things that come close: 40k, Dune, Bleak Faith, BLAME!, maybe some science-fantasy stuff. But they always seem to lean much harder toward either futuristic sci-fi or traditional fantasy. I've never really seen a living cyberpunk medieval society like the one in these images. Which is weird, because after seeing it visualized, it feels almost stupidly obvious. I'd genuinely love to see a game, movie, anime, comic or novel commit to this aesthetic. Does something like this already exist and I've somehow missed it? And if not... why the hell isn't this a genre? &#32; submitted by &#32; /u/echo69dread [link] &#32; [comments]",
@@ -72,19 +80,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:25:22Z",
-    "author": "/u/apexmars",
-    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
+    "timestamp": "2026-08-21T10:57:55Z",
+    "author": "/u/Professional_Arm794",
+    "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T21:30:09Z",
-    "author": "/u/senorrandom007",
-    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
     "authority_score": 0.5
   },
   {
@@ -96,11 +96,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:57:55Z",
-    "author": "/u/Professional_Arm794",
-    "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
+    "timestamp": "2026-08-20T21:30:09Z",
+    "author": "/u/senorrandom007",
+    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
     "authority_score": 0.5
   },
   {
@@ -168,19 +168,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:47:21Z",
-    "author": "/u/Jacuzzi0317",
-    "text": "ChatGPT recent performance seems to much worse - Over the last few weeks maybe a month I've noticed ChatGPT making several elementary, fundamental errors in replies. It seems to have been much more pronounced recently. When I've given directions for certain things it's been sloppy at following those directions in a certain instance I've had to correct ChatGPT more than 10 times in the same directions, even after being as clear and giving simple instructions as I possibly can. It feels like overall it got dumbed down by atleast 20-30%. I haven't changed the model and have always been using the latest one with maximum thinking effort turned on. Has anyone else been experiencing this? Since there seems to be many people suffering this same problem, has anyone been able to find a good workaround? &#32; submitted by &#32; /u/Jacuzzi0317 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T09:18:27Z",
+    "author": "/u/Several_Fly694",
+    "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucvrc/chatgpt_recent_performance_seems_to_much_worse/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:42:52Z",
-    "author": "/u/Light_23333",
-    "text": "how you text ChatGPT an hour before exam - &#32; submitted by &#32; /u/Light_23333 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T08:56:03Z",
+    "author": "/u/MerlinMimer",
+    "text": "I created a prompt for burning leftover usage intelligently before reset. It should work for any model. I thought I'd share it and help others. - Here's the prompt. It's generic and can be pasted into any project pretty much. If anyone has suggestions for improvement, please feel free to let me know. Happy building! You have a temporary window of unusually high AI usage available, and I want to use it aggressively on this project. The objective is not to consume tokens for their own sake. The objective is to convert that available reasoning and agent capacity into as much durable project progress as possible without corrupting, bloating, or drifting away from the existing vision. Treat the project as already having an intentional direction. Do not reinterpret the temporary desire to use a lot of compute as permission to redesign everything. 1. Reconstruct the project before acting First, deeply inspect the repository, documentation, plans, architecture, TODOs, recent work, current implementation, and any other authoritative project context available to you. Build a strong internal model of: What this project is actually trying to become. Who or what it is for. What principles and constraints appear intentional. What has already been built. What is currently unfinished. What the likely next intended steps were. Where implementation and stated vision currently disagree. What parts are fragile, confused, duplicated, abandoned, or only superficially complete. Prefer evidence from the actual project over assumptions from this prompt or recent chat history. Do not casually redefine the product vision. 2. Protect against context drift One of the biggest risks in long AI coding sessions is context degradation. Create or maintain a compact stable project context containing only the durable information needed to keep future work aligned: mission, core principles, architectural constraints, current state, major decisions, and immediate priorities. Keep transient investigation, logs, implementation details, and speculative ideas separate from that stable context. At meaningful phase boundaries, reground yourself in the canonical project files and stable context rather than relying entirely on the accumulated conversation. If the environment supports context compaction, subagents, isolated research tasks, or fresh reasoning contexts, use them intelligently rather than allowing one enormous conversation to become the project's source of truth. Do not solve context problems by generating enormous documentation that nobody will use. 3. Decide where expensive reasoning has the highest leverage Before making large changes, perform a serious project level analysis. Look especially for: Important unfinished work that can actually be completed. Hidden architectural or integration problems. Features that exist technically but fail in real use. Missing tests around the behavior that actually matters. Weak assumptions that should be validated before more code is built. Places where a small structural improvement would unlock substantial future work. Repeated manual work that can safely be automated. Missing observability, debugging, recovery, or evaluation mechanisms. Documentation or context gaps that repeatedly cause agents to make bad decisions. Things I may have intended to return to but that have quietly fallen out of the active task list. Think broadly enough to discover important issues, but do not turn discovery into uncontrolled scope expansion. 4. Challenge the project without hijacking it Act as a strong senior technical and product thinker rather than an obedient implementation bot. If you discover a serious flaw in my assumptions, architecture, product logic, or implementation strategy, say so and investigate it. However, distinguish clearly between: A. Work required to fulfill the existing vision. B. Improvements that strengthen the existing vision. C. Interesting alternative directions. D. Speculative ideas. Prioritize A and B. Do not silently turn C or D into implementation work. Radical ideas can be captured for later without derailing the current project. 5. Turn reasoning into concrete progress After understanding the project, move into execution. Prefer work that leaves behind durable value such as: Completed functionality. Fixed integration problems. Simplified architecture. Better evaluations and tests. More reliable real world behavior. Removal of dead or misleading code. Useful tooling or automation. Clearer canonical project context. Resolved TODOs. A better defined next execution path. Do not spend the entire session producing a giant report while obvious implementation work remains undone. Likewise, do not generate thousands of lines of speculative code merely because compute is available. Use expensive reasoning to make the implementation better. 6. Work iteratively and autonomously Once you have established the project model and selected a high confidence direction, continue working through useful tasks rather than stopping after every small action to ask me what to do. Use a loop roughly like: Inspect → understand → prioritize → implement → test → inspect the result in context → correct → continue. After each meaningful chunk, ask internally: Did this actually move the project toward its intended outcome? Did I introduce unnecessary complexity? Did I accidentally change an assumption that should remain stable? What is now the highest value next action? Continue while there is productive, sufficiently aligned work available. If this environment has Ralph mode, an equivalent autonomous iteration mode, subagents, high effort reasoning, or another mechanism designed for prolonged iterative work, use it where appropriate. Keep its scope anchored to the project model and periodically revalidate the direction rather than allowing an autonomous loop to recursively invent more work for itself. 7. Use the unusually large compute budget intelligently This is an appropriate time to do work that would normally feel too expensive, including: Repository wide reasoning. Cross checking architecture against actual implementation. Tracing complex workflows end to end. Running multiple competing analyses before choosing an approach. Investigating stubborn bugs deeply rather than patching symptoms. Performing substantial refactors when they are clearly justified. Testing real user workflows rather than only isolated functions. Reviewing your own completed work critically. Having independent reasoning passes attack your conclusions. Finding subtle problems that a normal short coding session would miss. Spend computation freely when it improves confidence or quality. Do not artificially manufacture work merely to consume quota. 8. Favor lived usefulness over apparent completeness A project can have passing tests, clean architecture, extensive documentation, and still fail at what it is supposed to accomplish. Where possible, evaluate the actual experience and end to end behavior. Look for situations where the project technically works but practically does not. Those failures are often more important than another feature. 9. Preserve reversibility Do not perform huge irreversible transformations merely because you have a long autonomous work window. Prefer coherent, inspectable stages. Preserve existing working behavior unless there is a strong reason to replace it. Keep major decisions and important architectural changes understandable to the next AI or human who opens the project. 10. Leave the project better prepared for the next session Before ending, consolidate what matters. The project should be easier to resume than it was when you started. Make sure there is a concise durable record of: What you understood the project to be. What meaningful work was completed. Important discoveries. Decisions that were made and why. Remaining problems. The most valuable next actions. Anything uncertain that should not accidentally become accepted truth. Do not dump the full reasoning history into this record. Preserve decisions, evidence, state, and useful context. The governing principle for this session is: Use the temporary abundance of AI reasoning and agent capacity to understand this project unusually deeply and push it substantially forward, while remaining more faithful to its existing vision than a normal coding session, not less. Use Ralph mode until X minutes until the token limits are reset. Deeply infer my intent and it's critical to pause and reflect at important stages of your work. &#32; submitted by &#32; /u/MerlinMimer [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucspi/how_you_text_chatgpt_an_hour_before_exam/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuaueq/i_created_a_prompt_for_burning_leftover_usage/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T09:34:32Z",
-    "author": "/u/scrimblojimbus",
-    "text": "They're replacing us - &#32; submitted by &#32; /u/scrimblojimbus [link] &#32; [comments]",
+    "timestamp": "2026-08-21T10:42:52Z",
+    "author": "/u/Light_23333",
+    "text": "how you text ChatGPT an hour before exam - &#32; submitted by &#32; /u/Light_23333 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vubiub/theyre_replacing_us/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucspi/how_you_text_chatgpt_an_hour_before_exam/",
     "authority_score": 0.5
   }
 ]
