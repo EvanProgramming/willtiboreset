@@ -96,6 +96,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T06:16:42Z",
+    "author": "/u/Pretty-Question-1239",
+    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T16:37:19Z",
     "author": "/u/Watermelon_Sherbert",
     "text": "I asked ChatGPT how the future Grocery Stores are gonna look like. - &#32; submitted by &#32; /u/Watermelon_Sherbert [link] &#32; [comments]",
@@ -109,14 +117,6 @@
     "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu79cm/my_writing_job_is_90_prompting_10_forwarding/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T06:16:42Z",
-    "author": "/u/Pretty-Question-1239",
-    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T05:04:32Z",
+    "author": "/u/NotaDevAI",
+    "text": "Three months of building a Steam demo with ChatGPT and Codex. This is the result! - Hi everyone! I'm a solo developer based in Australia. For roughly three months, I used ChatGPT and Codex extensively while building the demo of my first game, Grimoire of Hecate : Tower of Starlight, a turn based roguelite made with Godot. Steam demo link below!(if you're interested!) https://store.steampowered.com/app/5078840/Grimoire_of_Hecate__Tower_of_Starlight/ ChatGPT helped me detailing the design that I have in my mind. Codex worked directly with the project files and wrote or revised a large portion of the code and tests. I used GPT 5.6 Sol in most case. My workflow was to describe the feature and direction I wanted, review the result, run and play it myself, and continue revising anything that did not work or did not match what I intended. The most difficult part came as the project became larger. The AI can lose track of earlier decisions or change the wrong part of the game so easily. To manage that, I documented the current state after each task as md file. When a problem appeared, instead of asking it to resolve the issue immediately, I reproduced the exact situation, identified the cause, and changed only the affected part. Without it, it would create another issue from the solution it applied. I also used generative AI(GPT image 2.0) during the graphics workflow and for localization. I personally reviewed and edited everything included in the game. The biggest lesson for me was that using more AI was not automatically better. The important part was deciding what to delegate, preserving project context, and knowing what still required direct human review. AI is really really good at referring/making what's existing, adding new color in your project is all on yourself. Unless you want something very similar to what already exists, you need to work on designing your own thing. If you are also using AI tools for a larger project, I would be interested to hear how you preserve context and prevent changes from breaking earlier work. I need to learn haha &#32; submitted by &#32; /u/NotaDevAI [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu6tjv/three_months_of_building_a_steam_demo_with/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T02:02:37Z",
     "author": "/u/locoCrLlc",
     "text": "Here's a benefit of ChatGPT that they should market heavily: The ability to prevent drunk emails. - So you're off work, and really pissed off at someone who's got more leverage than you. After your 4th martini, you decide you need to confront the asshole, and compose an email, because, of course you do. Draft it in Word, run it through ChatGPT, which will sanitize it, and VIOLA, you have an articulate communication. &#32; submitted by &#32; /u/locoCrLlc [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu33nn/heres_a_benefit_of_chatgpt_that_they_should/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T05:31:09Z",
-    "author": "/u/linguini_egy",
-    "text": "Am i taking to a cat 😺 - &#32; submitted by &#32; /u/linguini_egy [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu7bi2/am_i_taking_to_a_cat/",
     "authority_score": 0.5
   }
 ]
