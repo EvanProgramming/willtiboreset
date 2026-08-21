@@ -48,19 +48,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T12:19:05Z",
-    "author": "/u/Zestyclose-Salad-290",
-    "text": "We're proud of finishing degree without using AI. - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T10:25:22Z",
     "author": "/u/apexmars",
     "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T12:19:05Z",
+    "author": "/u/Zestyclose-Salad-290",
+    "text": "We're proud of finishing degree without using AI. - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/",
     "authority_score": 0.5
   },
   {
@@ -120,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T22:49:09Z",
-    "author": "/u/PlentyOfMoxie",
-    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T09:18:27Z",
     "author": "/u/Several_Fly694",
     "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T22:49:09Z",
+    "author": "/u/PlentyOfMoxie",
+    "text": "Accidental photo. My GPT is a cat. - &#32; submitted by &#32; /u/PlentyOfMoxie [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtyoo1/accidental_photo_my_gpt_is_a_cat/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +184,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T15:22:47Z",
+    "author": "/u/AviBledsoe",
+    "text": "Did Chatgpt Remove the right sidebar? - &#32; submitted by &#32; /u/AviBledsoe [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujdqu/did_chatgpt_remove_the_right_sidebar/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T08:39:17Z",
     "author": "/u/Lost-Ad7048",
     "text": "Has anyone else have chat-history/navigation panel has disappeared from their interface - I've noticed in the hour or so that the chat-history/navigation panel has disappeared from my interface for long chats... Has anyone else had this bug &#32; submitted by &#32; /u/Lost-Ad7048 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vuakbd/has_anyone_else_have_chathistorynavigation_panel/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T16:37:19Z",
-    "author": "/u/Watermelon_Sherbert",
-    "text": "I asked ChatGPT how the future Grocery Stores are gonna look like. - &#32; submitted by &#32; /u/Watermelon_Sherbert [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtok7p/i_asked_chatgpt_how_the_future_grocery_stores_are/",
     "authority_score": 0.5
   }
 ]
