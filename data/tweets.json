@@ -80,14 +80,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T02:14:53Z",
-    "author": "/u/TheXenoMaster407",
-    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T15:42:29Z",
     "author": "/u/CrestlessYeoman",
     "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
@@ -96,11 +88,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T06:16:42Z",
-    "author": "/u/Pretty-Question-1239",
-    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T02:14:53Z",
+    "author": "/u/TheXenoMaster407",
+    "text": "\"just use Reddit bro, it's not like Reddit uses AI themselves\" - &#32; submitted by &#32; /u/TheXenoMaster407 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu3d1n/just_use_reddit_bro_its_not_like_reddit_uses_ai/",
     "authority_score": 0.5
   },
   {
@@ -112,6 +104,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T06:16:42Z",
+    "author": "/u/Pretty-Question-1239",
+    "text": "ChatGPT's voice mode is insanely good. I am addicted to it. - I’ve been using ChatGPT’s voice mode a lot lately, and the way it can hold a natural conversation still blows my mind. The pauses, interruptions, tone changes, follow-up questions — sometimes I genuinely forget I’m talking to an AI. I’ve started using it for random discussions, brainstorming, learning stuff, and just thinking out loud. Curious how everyone else is using it: what’s the one thing voice mode is genuinely better at for you than regular text ChatGPT? &#32; submitted by &#32; /u/Pretty-Question-1239 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu8586/chatgpts_voice_mode_is_insanely_good_i_am/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T01:17:28Z",
     "author": "/u/Striking_Arachnid_96",
     "text": "I must confess…I find it motivating just for chatgpt to tell me I’m doing a good job - When I’m working on a project sometimes I’ll tell chatgpt about it and it’s nice just to hear “wow you’re doing so good”. The projects are for me and are probably stupid but even a facsimile of a human telling me “you know what that projects very cool” is motivating. And before you ask “why don’t you tell a real human about these little projects” first lets me honest even good friends don’t give that much a shit about little personal projects. And don’t say “get new friends” because cmon someone may say once “oh that’s cool” but I’m talking at length about every tiny project update in a way no human would ever want to engage with. &#32; submitted by &#32; /u/Striking_Arachnid_96 [link] &#32; [comments]",
@@ -120,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-20T21:30:09Z",
-    "author": "/u/senorrandom007",
-    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T09:18:27Z",
     "author": "/u/Several_Fly694",
     "text": "GPT-5.6's malicious compliance is driving me insane 😤 - The absolute biggest pet peeve I have with GPT-5.6 right now is how it handles simple feedback. Yesterday, I asked it to add a basic grilled cheese recipe to a small recipe repo I was working on. Simple enough, right? Instead, it somehow overengineered the whole thing and added prosciutto. So I look at the recipe and say: &quot;Do we really need the meat here? It's grilled cheese. Keep it simple.&quot; And of course it hits me with the classic: &quot;You're absolutely right. Apologies for the oversight.&quot; Cool. It removes the prosciutto. I say: &quot;Great, open a PR.&quot; Tell me why I open GitHub and the PR title is literally: &quot;Feature: Grilled Cheese (MEAT-FREE EDITION)&quot; And then I scroll down and there's basically an essay explaining why cured meats were removed, how this &quot;better aligns with the original intent of a traditional grilled cheese,&quot; and why this change improves simplicity and maintainability. Bro. I asked you to remove the prosciutto. Just revert the damn line. Why are we documenting this like we just reversed a major architectural decision? 😭 That's probably my biggest issue with GPT-5.6 right now. Sometimes I give it tiny feedback and instead of quietly fixing the thing, it turns the correction itself into a whole event. Like no, I don't need an apology, a retrospective, and a new design philosophy. Just fix it and keep going. &#32; submitted by &#32; /u/Several_Fly694 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vub8st/gpt56s_malicious_compliance_is_driving_me_insane/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-20T21:30:09Z",
+    "author": "/u/senorrandom007",
+    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
     "authority_score": 0.5
   },
   {
@@ -149,6 +149,22 @@
     "text": "Why is ChatGPT using 5.5-mini on the \"high\" intelligence setting? - Before this, it would be using 5.6 sol. I was wondering why my responses have become so shit, it responds like an instant model, work quick thinking and just lackluster responses. Does anyone know when this will be fixed? &#32; submitted by &#32; /u/panzzersoldat [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vugp7d/why_is_chatgpt_using_55mini_on_the_high/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T15:58:24Z",
+    "author": "/u/Next-Let5265",
+    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T16:08:56Z",
+    "author": "/u/DijonAndDragons",
+    "text": "Don Glitteroni (The Fairy Godfather) - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukmu3/don_glitteroni_the_fairy_godfather/",
     "authority_score": 0.5
   },
   {
@@ -176,27 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:58:24Z",
-    "author": "/u/Next-Let5265",
-    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T05:27:50Z",
     "author": "/u/Ok_Boat_3855",
     "text": "my 'writing' job is 90% prompting, 10% forwarding notes back and forth - writing blogs/article has now been added to my role. problem is im not a writer, never was. english is also my second language so my comprehension isnt even that strong to begin with. heres the actual workflow: boss gives me a topic. i ask chatgpt to draft it. i send the draft over. he replies with a wall of feedback. i copy paste his notes straight back into the chat and tell it to fix it. repeat like 4-5 times until its good enough to post. kinda wild that my title says &quot;marketing&quot; but the actual writing is basically all ai, and my entire contribution is just relaying notes back and forth like some kind of human middleware. not complaining though. task gets done, boss happy, and honestly i got way better at knowing what feedback to actually give it instead of just accepting the first draft. still feels weird calling it &quot;my writing&quot; when i didnt really write any of it lol. &#32; submitted by &#32; /u/Ok_Boat_3855 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vu79cm/my_writing_job_is_90_prompting_10_forwarding/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T16:08:56Z",
-    "author": "/u/DijonAndDragons",
-    "text": "Don Glitteroni (The Fairy Godfather) - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukmu3/don_glitteroni_the_fairy_godfather/",
     "authority_score": 0.5
   }
 ]
