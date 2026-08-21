@@ -33269,8 +33269,8 @@
       "weekly_cycle_factor": 0.4154,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-21T00:02:32.885176Z"
   },
   {
     "prediction_time": "2026-08-19T00:42:06.394226Z",
@@ -40580,6 +40580,58 @@
           "No relevant signals detected; possibly unrelated content",
           "No relevant signals detected; possibly unrelated content",
           "Community pressure signal detected (score: 0.50)"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-21T00:02:32.834839Z",
+    "prediction": {
+      "within_5h": 0.1438,
+      "within_24h": 0.4143,
+      "within_48h": 0.5586
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 191.02578246,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 145.0,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.6079,
+      "time_pressure": 0.6934,
+      "hazard_rate": 0.022043,
+      "evidence_score": 0.0836,
+      "tibo_signal": 0.2668,
+      "community_signal": 0.5899,
+      "release_signal": 0.5482,
+      "llm_scores": {
+        "reset_intent": 0.06720000000000001,
+        "limit_complaint": 0.047200000000000006,
+        "official_change": 0.08960000000000001,
+        "reset_confirmation": 0.033600000000000005,
+        "confidence": 0.41,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content"
         ]
       },
       "prior_applied": false,
