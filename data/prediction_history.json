@@ -34607,8 +34607,8 @@
       "weekly_cycle_factor": 0.1354,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-21T09:28:23.019937Z"
   },
   {
     "prediction_time": "2026-08-19T09:25:26.719082Z",
@@ -34659,8 +34659,8 @@
       "weekly_cycle_factor": 0.1354,
       "explicit_future_reset": false
     },
-    "actual_result": null,
-    "resolved_at": null
+    "actual_result": false,
+    "resolved_at": "2026-08-21T09:28:23.019937Z"
   },
   {
     "prediction_time": "2026-08-19T09:42:35.482538Z",
@@ -41977,6 +41977,58 @@
         "official_change": 0.10400000000000001,
         "reset_confirmation": 0.016,
         "confidence": 0.40199999999999997,
+        "reason": [
+          "Community pressure signal detected (score: 0.50)",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content",
+          "No relevant signals detected; possibly unrelated content"
+        ]
+      },
+      "prior_applied": false,
+      "interval_count": 12,
+      "weekly_cycle_factor": 0.0,
+      "explicit_future_reset": false
+    },
+    "actual_result": null,
+    "resolved_at": null
+  },
+  {
+    "prediction_time": "2026-08-21T09:28:22.978801Z",
+    "prediction": {
+      "within_5h": 0.1093,
+      "within_24h": 0.3414,
+      "within_48h": 0.4821
+    },
+    "signals": {
+      "tweet_count": 25,
+      "hours_since_last_reset": 200.4563790338889,
+      "next_reset": {
+        "expected_time": "2026-08-27T01:01:00+00:00",
+        "hours_until": 135.5,
+        "status": "overdue"
+      },
+      "average_reset_interval": 73.25,
+      "median_reset_interval": 47.08,
+      "interval_uncertainty": 28.21,
+      "std_reset_interval": 97.71626712851851,
+      "min_reset_interval": 0.0,
+      "max_reset_interval": 285.48333333333335,
+      "interval_confidence": 0.6,
+      "time_ratio": 2.7366,
+      "time_pressure": 0.7596,
+      "hazard_rate": 0.017251,
+      "evidence_score": 0.0481,
+      "tibo_signal": 0.1331,
+      "community_signal": 0.6,
+      "release_signal": 0.528,
+      "llm_scores": {
+        "reset_intent": 0.032,
+        "limit_complaint": 0.024,
+        "official_change": 0.10400000000000001,
+        "reset_confirmation": 0.016,
+        "confidence": 0.384,
         "reason": [
           "Community pressure signal detected (score: 0.50)",
           "No relevant signals detected; possibly unrelated content",
