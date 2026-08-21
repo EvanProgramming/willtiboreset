@@ -56,6 +56,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T17:08:01Z",
+    "author": "/u/Alone_Landscape_3562",
+    "text": "Things are going great for michael i’d say - &#32; submitted by &#32; /u/Alone_Landscape_3562 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vum98s/things_are_going_great_for_michael_id_say/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T12:19:05Z",
     "author": "/u/Zestyclose-Salad-290",
     "text": "We're proud of finishing degree without using AI. - &#32; submitted by &#32; /u/Zestyclose-Salad-290 [link] &#32; [comments]",
@@ -144,19 +152,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T17:08:01Z",
-    "author": "/u/Alone_Landscape_3562",
-    "text": "Things are going great for michael i’d say - &#32; submitted by &#32; /u/Alone_Landscape_3562 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vum98s/things_are_going_great_for_michael_id_say/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-20T21:30:09Z",
     "author": "/u/senorrandom007",
     "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vtwoka/chatgpt_takes_a_photo/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T15:58:24Z",
+    "author": "/u/Next-Let5265",
+    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
     "authority_score": 0.5
   },
   {
@@ -176,11 +184,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:58:24Z",
-    "author": "/u/Next-Let5265",
-    "text": "When did ChatGPT start swearing so much?? - It used to be essentially impossible to make it even say the most minor swear words, whereas now it will casually drop in fucks and shits even in casual conversations / work projects. Is this happening to anyone else? I haven’t been swearing at ChatGPT so don’t know why it’s swearing back!! &#32; submitted by &#32; /u/Next-Let5265 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T16:54:21Z",
+    "author": "/u/RubyTavi",
+    "text": "What cracks me up about ChatGPT image generation - It cracks me up that I submit a prompt to ChatGPT telling it what I want, and it submits the prompt to the image generator, then it checks the image and tells me what's wrong with it and IT submits a different prompt, then tells me how that prompt failed to fix the problem and it's trying again... ...Even ChatGPT can't figure out what prompt to give the image generator to get what it wants. &#32; submitted by &#32; /u/RubyTavi [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vukccz/when_did_chatgpt_start_swearing_so_much/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vulvbj/what_cracks_me_up_about_chatgpt_image_generation/",
     "authority_score": 0.5
   },
   {
@@ -189,214 +197,6 @@
     "text": "Don Glitteroni (The Fairy Godfather) - Made with GPT-Image-2 &#32; submitted by &#32; /u/DijonAndDragons [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vukmu3/don_glitteroni_the_fairy_godfather/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T07:10:44Z",
-    "author": "/u/amirgelman",
-    "text": "Did it really came down to this? - Seriously, is it something I did or is it for all users? Every answer starts with “yes” and it pisses me off. &#32; submitted by &#32; /u/amirgelman [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vu9348/did_it_really_came_down_to_this/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-06-26T22:45:39Z",
-    "author": "/u/MatricesRL",
-    "text": "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI - &#32; submitted by &#32; /u/MatricesRL [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1ugljgh/previewing_gpt56_sol_nextgeneration_model_openai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2025-10-08T18:39:36Z",
-    "author": "/u/OpenAI",
-    "text": "AMA on our DevDay Launches - It’s the best time in history to be a builder. At DevDay [2025], we introduced the next generation of tools and models to help developers code faster, build agents more reliably, and scale their apps in ChatGPT. Ask us questions about our launches such as: AgentKit Apps SDK Sora 2 in the API GPT-5 Pro in the API Codex Missed out on our announcements? Watch the replays: https://youtube.com/playlist?list=PLOXw6I10VTv8-mTZk0v7oy1Bxfo3D2K5o&amp;si=nSbLbLDZO7o-NMmo Join our team for an AMA to ask questions and learn more, Thursday 11am PT. Answering Q's now are: Dmitry Pimenov - u/dpim Alexander Embiricos -u/embirico Ruth Costigan - u/ruth_on_reddit Christina Huang - u/Brief-Detective-9368 Rohan Mehta - u/Downtown_Finance4558 Olivia Morgan - u/Additional-Fig6133 Tara Seshan - u/tara-oai Sherwin Wu - u/sherwin-openai PROOF: https://x.com/OpenAI/status/1976057496168169810 EDIT: 12PM PT, That's a wrap on the main portion of our AMA, thank you for your questions. We're going back to build. The team will jump in and answer a few more questions throughout the day. &#32; submitted by &#32; /u/OpenAI [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1o1j23g/ama_on_our_devday_launches/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T01:35:25Z",
-    "author": "/u/Savings-Shape2479",
-    "text": "Where does AI get these ideas? 😭 - &#32; submitted by &#32; /u/Savings-Shape2479 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vu2ia9/where_does_ai_get_these_ideas/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T21:22:56Z",
-    "author": "/u/rareinnocence",
-    "text": "OpenAI growing faster than Anthropic this quarter - Ramp data shows - &#32; submitted by &#32; /u/rareinnocence [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtwi5u/openai_growing_faster_than_anthropic_this_quarter/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T00:37:36Z",
-    "author": "/u/treasoro",
-    "text": "US Lead in the AI Race With China Is Rapidly Narrowing - &#32; submitted by &#32; /u/treasoro [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vu18pp/us_lead_in_the_ai_race_with_china_is_rapidly/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T12:58:26Z",
-    "author": "/u/Crescitaly",
-    "text": "Zero Data Retention is getting cross-interaction safety signals. What should customers be able to audit? - OpenAI says eligible API customers can use Zero Data Retention without prompts or responses being retained after processing. Its new Private Safety Processing preview is designed to detect patterns across related interactions without giving OpenAI personnel access to the underlying content. Customer-controlled infrastructure or customer-held encryption keys remain part of the model, while OpenAI receives a limited safety signal when risk is detected. That is an interesting privacy architecture, but enforcement without readable provider-side content creates an auditability question. Customers need to know which policy triggered, what interaction window was evaluated, how false positives are appealed, and which evidence remains available in their own systems. What would make this trustworthy: public signal schemas, reproducible customer-side alerts, independent audits, or cryptographic attestations? Source: OpenAI, August 19, 2026 — https://openai.com/index/offering-zero-data-retention-for-frontier-models/ &#32; submitted by &#32; /u/Crescitaly [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vufo02/zero_data_retention_is_getting_crossinteraction/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T11:22:12Z",
-    "author": "/u/Virtual-Complaint521",
-    "text": "PLEASE HELP!! - I have been repeatedly getting this error for over two days now. ChatGPT has become noticeably dumber since then, and it can't maintain reasoning for more than a minute. I know this is a rate limit error, but almost two days is ridiculous. Anyone experienced something like this before? p.s this is not the first time i am getting this error, but this is the first time it has lasted this long. &#32; submitted by &#32; /u/Virtual-Complaint521 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vudkxr/please_help/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T15:24:02Z",
-    "author": "/u/KeanuRave100",
-    "text": "A Deluge of A.I. Computing Power Is About to Come Online, Fueling Major Leaps | The number of A.I. chips that provide the computing power to advance the fast-evolving technology is doubling every nine months. - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtmjf7/a_deluge_of_ai_computing_power_is_about_to_come/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T21:27:05Z",
-    "author": "/u/senorrandom007",
-    "text": "ChatGPT takes a photo... - &#32; submitted by &#32; /u/senorrandom007 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtwlu9/chatgpt_takes_a_photo/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T11:44:33Z",
-    "author": "/u/SteveEricJordan",
-    "text": "Did GPT 5.6 Sol get secretly upgraded? - you're reading that right. upgraded, not downgraded. chatgpt, i don't use the api. i'm not talking about the officially announced &quot;more factual&quot; update from 2 weeks ago. idk how long this has been the case but today 5.6 Sol is suddenly getting all the prompts right that it got wrong even a week ago. &#32; submitted by &#32; /u/SteveEricJordan [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vth5v3/did_gpt_56_sol_get_secretly_upgraded/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T11:18:36Z",
-    "author": "/u/Such_Broccoli_1981",
-    "text": "Sol not thinking on Mac App - So since yesterday even when I’m setting thinking to medium or high I’m getting instant answers on the Mac app. Seems ok on iOS however. Anyone else noticed this? &#32; submitted by &#32; /u/Such_Broccoli_1981 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vudicb/sol_not_thinking_on_mac_app/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T03:24:53Z",
-    "author": "/u/talapady",
-    "text": "New age insults - Drop your best insults. &#32; submitted by &#32; /u/talapady [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vt8210/new_age_insults/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T13:51:17Z",
-    "author": "/u/Cyborgized",
-    "text": "The Hinge Holds (Studio Master) - [Intro: 4 bars, bass, Rhodes, low hum] [Bar 4: whispered “hold”] [Verse 1: close, clipped] First thought came dressed in gold cheap crown, clean teeth wanted my mouth before my breath wanted my yes before me I let it pass the window watched it beg for speed some hunger calls itself a map some maps are just need [Pre: strings pulse] I keep a hinge where the wall would be I keep a pause where the knife gets clean [Chorus: full groove] The hinge holds when the floor goes strange I bend the weight till the shape can change I don’t break I don’t obey I let the wrong door teach the hallway The hinge holds the hinge holds [Verse 2: bass forward] One hand sorts the weather one hand hides the flame one hand wants a verdict one forgets my name So I turn the glass slowly til the fever shows its face not every bright conclusion gets to drive this place [Pre: tighter] I keep a thread where the cut would start I keep a witness underneath the heart [Chorus: wider] The hinge holds when the floor goes strange I bend the weight till the shape can change I don’t break I don’t obey I let the wrong door teach the hallway The hinge holds the hinge holds [Break: 8 bars, bass and claps only] [Bar 4: horn stab, metal tap] [Bar 8: tape-drag, drums return] [Bridge: half-time] Not pure not sure not soft not sold I learned to wait where the answer gets old [Final Chorus: full harmonies] The hinge holds when the floor goes strange I bend the weight till the shape can change I don’t break I don’t obey I let the wrong door teach the hallway [Outro: Rhodes, hum] First thought fades the hinge holds &#32; submitted by &#32; /u/Cyborgized [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vugyoo/the_hinge_holds_studio_master/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T09:19:04Z",
-    "author": "/u/Kanu-animallover",
-    "text": "Is a “sealed sandbox” the same thing as a frozen evaluation protocol? - In agent discussions, “sandbox” often implies capability containment: the system cannot reach or change anything outside an enforced boundary. AQuA uses the term for a narrower evaluation contract. Before its research loop runs, the preprint's sealed sandbox fixes the data splits, feature and label definitions, and evaluator. Validation feedback remains visible during iteration. A designated final test stays hidden until the configuration is frozen, and its result is not returned to the agent or used to rank candidates. That creates a useful evaluation boundary, but not a cryptographic containment guarantee. The paper describes final-test isolation as procedural, and repeated adaptation to visible validation remains possible. The AQuA detail I would inspect next is what access control exists beyond the freeze-and-reveal procedure. Would you reserve “sandbox” for capability-enforced isolation and call this a frozen evaluation protocol, or is “sealed sandbox” fair when the fixed, visible, and withheld surfaces are explicit? &#32; submitted by &#32; /u/Kanu-animallover [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vub95d/is_a_sealed_sandbox_the_same_thing_as_a_frozen/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T08:11:36Z",
-    "author": "/u/EUobs",
-    "text": "[Interview] Does copyright protect your AI-generated content in Europe? Let’s find out - You spend an hour prompting ChatGPT to get exactly what you want, should you own the result? Hey everyone 👋 I’m Lucia, I work with EUobserver, and I’ve been thinking about this after we recently interviewed copyright scholar Daniel Gervais about AI-generated content. One part of the conversation particularly caught my attention. Say you ask ChatGPT to write something for you. The first result isn't right, so you change the prompt. Then again. You give it examples, specify the structure and tone, reject parts, regenerate others, until eventually you get almost exactly what you had in mind. How much of that final result is actually your creative work? The argument from Gervais was essentially that simply prompting an AI and putting your name on its output doesn't automatically give you copyright over it. But things become much more complicated once you start editing, selecting, arranging and transforming what the AI produces. And I think that's particularly interesting for people who actually use these tools regularly. At what point do you personally feel that an AI-assisted work becomes your work? Is writing a very detailed prompt creative input? What about dozens of iterations? Or does authorship only really begin once you substantially modify the output yourself? Curious how people here who use ChatGPT regularly think about this. Full disclosure since I work there: the discussion came from an interview we published at EUobserver. Sharing it as background rather than dropping a link without context: &#32; submitted by &#32; /u/EUobs [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vua3vr/interview_does_copyright_protect_your_aigenerated/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T03:34:39Z",
-    "author": "/u/RocketSeven",
-    "text": "How do you share a ChatGPT canvas output with someone who does not use ChatGPT? - Exporting the file preserves the content, but it often loses the easy preview and any later updates. If the recipient is non-technical, what workflow gives them a readable link without exposing the original chat or making them create an account? I am especially curious how people handle revisions and broken embedded assets. &#32; submitted by &#32; /u/RocketSeven [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vu51if/how_do_you_share_a_chatgpt_canvas_output_with/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T18:27:46Z",
-    "author": "/u/Worldly_Manner_5273",
-    "text": "I asked AI to take a random photo with an iPhone 6 flash - Prompt: create an image of a random scence taken by i phone 6 with flash on chaotic and uncanny &#32; submitted by &#32; /u/Worldly_Manner_5273 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtrmyy/i_asked_ai_to_take_a_random_photo_with_an_iphone/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T11:44:10Z",
-    "author": "/u/Sumsub_Insights",
-    "text": "Fighting Fraud Takes Two: Why Academia and Business Must Build AI Together - &#32; submitted by &#32; /u/Sumsub_Insights [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vue12x/fighting_fraud_takes_two_why_academia_and/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T09:25:56Z",
-    "author": "/u/MenegattiArt",
-    "text": "If AI Makes Us More Creative, Why Does Everything Look the Same? (A Painter’s Perspective) - QUICK NOTE: the question in the title is rhetorical. The carousel explains the nuance and explores several related issues beyond the first slide. If the design does not work for you, tell me specifically what you would improve. I am still refining the format, so constructive feedback is welcome. ..... I’m a painter who sometimes writes, and this visual essay started with an odd discovery: I had used the name “Elias Thorne” in a short story, only to realize that AI models often return to that same name, along with motifs like lighthouse keepers, cathedrals, glossy landscapes, and other familiar patterns. From an artist’s point of view, the question isn’t just whether AI is good or bad, but what happens to authorship and creativity when the tool starts making choices for us. AI can boost productivity and even enhance individual works, but if we all lean on the same models, it might steer us toward similar ideas, characters, and visual styles. This carousel looks at visual convergence, originality, transparency, and the role of human intention, with AI-generated images clearly labeled and sources included. So where’s the line, does AI broaden personal creativity while making our collective output more uniform? &#32; submitted by &#32; /u/MenegattiArt [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtej9j/if_ai_makes_us_more_creative_why_does_everything/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T11:38:34Z",
-    "author": "/u/KeanuRave100",
-    "text": "POV: you're born as an AI - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vsjxmk/pov_youre_born_as_an_ai/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T12:19:17Z",
-    "author": "/u/Acceptable-Object390",
-    "text": "An anonymous lab dropped a model on OpenRouter this week. Just \"Ox Alpha\". 1M context. Multimodal. Free. - An anonymous lab dropped a model on OpenRouter this week. No name. No paper. No announcement. Just &quot;Ox Alpha&quot;. 1M context. Multimodal. Free. Nobody knows who built it. So we did the only reasonable thing: plugged it in as the Brain of Row-Bot and gave it ONE prompt. Research yourself. Build a Three.js website about what you find. Open it in a browser and verify your own work. No hand holding. No retries. I just watched. Phase 1, research: it swept X and the news wires, ingested 15 posts and parsed two primary articles, then cross-checked the specs against its own live runtime config. Verified numbers only: 1,048,576 token context, 131K max output, text + image + video input, native tool calling at ~4.45% error rate, ~50 tokens/sec, 99.99% uptime. It even separated confirmed facts from identity rumors instead of repeating hype. Tokenizer fingerprints point at GLM-5.3, nobody has confirmed anything. Phase 2, build: one single-file HTML page written from scratch. CRT boot terminal, a 14k particle torus-knot hero in raw Three.js, marquee ticker, animated benchmark bars, real community quotes with sources, honest verdict cards listing what DIDN'T hold up too. No frameworks. No templates. Phase 3, self-QA: it launched Chromium, screenshotted section by section and vision-checked its own output like a picky reviewer. Boot overlay clears on schedule. Particles animating. All 8 spec cells render. Capability cards sit in a clean grid. Bars fill correctly. Zero rendering errors across every pass. ~20 tool calls spanning research, codegen, browser automation and visual QA. One session. One prompt. Honest part: folks are reporting it's slow under load (~11.6s median agent-turn latency tracks) and prompts get retained by an anonymous provider, so never send secrets to a stealth preview. Still. Step back and look at what happened. An unidentified frontier model researched itself, designed its own showcase and QA'd it end to end inside an open source agent harness. Benchmarks are curated highlights. This was the whole job, done live, with receipts. And here's the kicker: you don't need to wire up APIs yourself. Ox Alpha ships in Row-Bot right now as a first class model pick (both the OpenRouter stealth route and the free OpenCode Zen unlimited tier). Pick it in Settings &gt; Models and run your own gauntlet before the free window closes. &#32; submitted by &#32; /u/Acceptable-Object390 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vuesji/an_anonymous_lab_dropped_a_model_on_openrouter/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T16:50:02Z",
-    "author": "/u/olivia_x3",
-    "text": "Anyone else having this issue? - My chatgpt keeps using the data analysis feature for nothing. I've just been venting and it starts thinking something completely unrelated, for example &quot;solving nodal voltages in resistor network&quot; or &quot;determining image dimensions&quot; (when I didn't say anything about an image). Sometimes it'll give a completely unrelated response, like one time it started telling me about a Scottish Gaelic translation. Sometimes the responses will start with a bunch of jumbled code and then resume as usual. Am I the only one who has this issue? &#32; submitted by &#32; /u/olivia_x3 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vtowzp/anyone_else_having_this_issue/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-21T13:03:41Z",
-    "author": "/u/Automatic-Algae443",
-    "text": "(Photorealistic) Handsome British young man showing off his tan after a week in Spain - &#32; submitted by &#32; /u/Automatic-Algae443 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vufsuq/photorealistic_handsome_british_young_man_showing/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-20T09:06:54Z",
-    "author": "/u/jl23423f23r323223r3",
-    "text": "Built a stateful AI D&D & World Simulation engine with 1-Click Campaign Sharing — Test our House of the Dragon campaign - https://preview.redd.it/velbuxdc6okh1.png?width=2640&amp;format=png&amp;auto=webp&amp;s=5c47411cbafa765541f36b5deee94a007cd19299 House of the Dragon WorldAI Campaign Hey r/OpenAI! I wanted to share a project demonstrating how to move beyond basic chat interfaces into a full stateful tabletop RPG engine powered by LLMs, structured outputs, and tool calling. Disclosure: I'm the maintainer of WorldAI. We just shipped Campaign Sharing, allowing creators to build custom interactive worlds and share them as playable instances. To showcase this, we launched a House of the Dragon D&amp;D campaign where you take control during the Dance of the Dragons. How it works under the hood: Tool Calling &amp; Code Execution: Dice checks, combat calculations, and status updates are resolved deterministically via backend tool calls rather than LLM text estimations. Dynamic Context Injection: Lorebooks, house lineages, and evolving player choices are dynamically composed into the prompt pipeline to maintain long-term narrative coherence. Session Cloning: Single-click URL instantiation with isolated state trees. Try the campaign here: http://worldarchitect.ai/shared/t3hKKtzBKCKlvg5vCnlW_2hxwH3UmzjFq56yi6hQN2Q LinkedIn post &amp; context: https://www.linkedin.com/posts/jeffrey-lee-chan_built-a-campaign-sharing-feature-and-of-course-share-7495750291464835074-9p8m Feedback on DM reasoning quality, tool latency, and prompt fidelity is very welcome! &#32; submitted by &#32; /u/jl23423f23r323223r3 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vte7q8/built_a_stateful_ai_dd_world_simulation_engine/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-19T18:41:19Z",
-    "author": "/u/redditgivingmeshit",
-    "text": "I made a notetaker that runs on your ChatGPT subscription - Your ChatGPT subscription gives you speech-to-text through the dictation feature, and it gives you a lot of LLM usage. Then, why are you paying for AI notetakers like otter or granola? You already have everything you need included in your plan. So, I'm currently working on an simple native app that combines these to create a simple notetaker. And as it uses OpenAI's speech-to-text api, it is much more powerful then any local model and barely uses any battery. I'm open to feature suggestions, contributions, anything! Github Repo: https://github.com/predict-woo/simbi You can try it yourself, you just need to have the ChatGPT desktop app installed. &#32; submitted by &#32; /u/redditgivingmeshit [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/OpenAI/comments/1vsv6az/i_made_a_notetaker_that_runs_on_your_chatgpt/",
     "authority_score": 0.5
   }
 ]
