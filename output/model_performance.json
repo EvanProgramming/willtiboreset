@@ -1,5 +1,5 @@
 {
-  "total_predictions": 920,
+  "total_predictions": 921,
   "resolved_predictions": 778,
   "overall_brier_score": 0.22646084693230506,
   "overall_accuracy": 0.6988003427592117,
@@ -242,5 +242,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-22T05:02:38.513479Z"
+  "updated_at": "2026-08-22T05:20:32.211074Z"
 }
