@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-22T10:02:35.424782+00:00",
+  "updated_at": "2026-08-22T10:15:31.919479+00:00",
   "prediction": {
-    "within_5h": 0.0557,
+    "within_5h": 0.0558,
     "within_24h": 0.2007,
     "within_48h": 0.3122
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 111.0,
+    "hours_until": 110.8,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 225.02650673666668,
+    "hours_since_last_reset": 225.24219969499998,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 111.0,
+      "hours_until": 110.8,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,8 +26,8 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 3.072,
-    "time_pressure": 0.883,
+    "time_ratio": 3.075,
+    "time_pressure": 0.8838,
     "hazard_rate": 0.009291,
     "evidence_score": 0.0,
     "tibo_signal": 0.18,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "225.0 hours since last reset",
+      "factor": "225.2 hours since last reset",
       "impact": "+10%",
       "score": 0.88
     },
@@ -67,8 +67,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "225.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "225.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "No significant reset signal detected; probability constrained by time prior",
-    "Main factor: 225.0 hours since last reset (+10%)"
+    "Main factor: 225.2 hours since last reset (+10%)"
   ]
 }
