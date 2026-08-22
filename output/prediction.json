@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-22T07:25:38.445356+00:00",
+  "updated_at": "2026-08-22T07:42:34.486030+00:00",
   "prediction": {
     "within_5h": 0.0556,
-    "within_24h": 0.2001,
-    "within_48h": 0.3113
+    "within_24h": 0.2002,
+    "within_48h": 0.3114
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 113.6,
+    "hours_until": 113.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 222.41067913333333,
+    "hours_since_last_reset": 222.69291265194443,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 113.6,
+      "hours_until": 113.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,9 +26,9 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 3.0363,
-    "time_pressure": 0.8731,
-    "hazard_rate": 0.00926,
+    "time_ratio": 3.0402,
+    "time_pressure": 0.8742,
+    "hazard_rate": 0.009265,
     "evidence_score": 0.0,
     "tibo_signal": 0.18,
     "community_signal": 0.0,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "222.4 hours since last reset",
+      "factor": "222.7 hours since last reset",
       "impact": "+10%",
       "score": 0.87
     },
@@ -67,8 +67,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "222.4 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "222.7 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "No significant reset signal detected; probability constrained by time prior",
-    "Main factor: 222.4 hours since last reset (+10%)"
+    "Main factor: 222.7 hours since last reset (+10%)"
   ]
 }
