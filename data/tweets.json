@@ -40,19 +40,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T14:12:15Z",
-    "author": "/u/Lonelydude014",
-    "text": "I used Codex to make Seedance 2.5 arrive at the Disaster Girl frame - ChatGPT is usually treated as a prompt box. Ask for a cinematic shot, add a few camera words, copy the result into a video model, and hope the ending survives. My problem was that the ending usually did not survive.Most of my image-to-video failures happen in the last second. The motion can look coherent for 19 seconds, then Seedance suddenly snaps into the reference image, as if it remembered the endpoint too late. Faces morph, perspective jumps, or a white flash hides the transition. So I changed the role of ChatGPT.Instead of asking it to write a more impressive prompt, I used ChatGPT/Codex as a shot planner. The final Disaster Girl frame came first. The whole camera route had to be designed backward from that destination. The useful shift was: stop asking “what should happen in this video?” start asking “what has to be true when the video ends?” 1.Give ChatGPT the terminal state I started by listing everything that could not change in the final frame: the girl’s position, gaze and expression, the foreground/background order, the final camera height, and the exact viewing axis.Those became constraints rather than visual suggestions. 2.Separate camera actions from visual adjectives Words like “dynamic,” “smooth,” and “cinematic” sound useful, but they do not define a route.I asked Codex to turn the final-frame requirements into a shot plan with explicit camera movement, foreground events, exposure changes and stopping behavior.The goal was not a longer prompt. The goal was to remove ambiguity. 3.Backsolve a physical route The resulting route looked like this: low interior start → follow a red cue across the floor → accelerate toward a blown-out exit → cross into the yard → pass the drill crew, hose lines and fire truck as foreground occlusions → move alongside the girl → arc onto the final viewing axis Each object had a reason to exist.The red cue establishes direction. The bright exit motivates the exposure transition. The truck and hose lines create translation and parallax. The final arc brings the camera onto the reference perspective. 4.Use ChatGPT to find the failure point When the first version drifted, I did not ask for “a better prompt.”I asked which constraint was underspecified. That usually exposed a specific problem: the camera was rotating instead of translating, the foreground objects had no timing, or the final frame was described as an image instead of a state the camera had to reach. That made iteration much more mechanical. 5.Write the stop as an action The ending became its own motion phase: fast flight → controlled glide → small positional correction → shared camera/subject deceleration → complete stop The camera and facial movement settle together on the final frame.The stop is not an edit. It is the last action in the shot. For reproducibility: the opening frame was generated in Seedream 5.0 Pro for $0.045. The 20-second Seedance 2.5 run cost $2.68 at 1080p-ESR / 60 fps through the Atlas Cloud API inside OpenMontage. I also referenced this repo while turning the reverse-engineered route into a model-ready shot plan: The interesting part for me was not that ChatGPT wrote a good prompt. It was that it helped turn a vague visual idea into a set of constraints, causes and transitions that another model could execute. Has anyone else used ChatGPT as a shot planner instead of a prompt rewriter? I’m curious whether the same terminal-state approach would work for UI animation, robotics simulations, architecture, or any task where the final state matters more than the first frame. &#32; submitted by &#32; /u/Lonelydude014 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuhi3h/i_used_codex_to_make_seedance_25_arrive_at_the/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T02:46:15Z",
     "author": "/u/JayGatsby52",
     "text": "Prompt: Construct the most woke sentence possible. - &#32; submitted by &#32; /u/JayGatsby52 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv0evv/prompt_construct_the_most_woke_sentence_possible/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T14:12:15Z",
+    "author": "/u/Lonelydude014",
+    "text": "I used Codex to make Seedance 2.5 arrive at the Disaster Girl frame - ChatGPT is usually treated as a prompt box. Ask for a cinematic shot, add a few camera words, copy the result into a video model, and hope the ending survives. My problem was that the ending usually did not survive.Most of my image-to-video failures happen in the last second. The motion can look coherent for 19 seconds, then Seedance suddenly snaps into the reference image, as if it remembered the endpoint too late. Faces morph, perspective jumps, or a white flash hides the transition. So I changed the role of ChatGPT.Instead of asking it to write a more impressive prompt, I used ChatGPT/Codex as a shot planner. The final Disaster Girl frame came first. The whole camera route had to be designed backward from that destination. The useful shift was: stop asking “what should happen in this video?” start asking “what has to be true when the video ends?” 1.Give ChatGPT the terminal state I started by listing everything that could not change in the final frame: the girl’s position, gaze and expression, the foreground/background order, the final camera height, and the exact viewing axis.Those became constraints rather than visual suggestions. 2.Separate camera actions from visual adjectives Words like “dynamic,” “smooth,” and “cinematic” sound useful, but they do not define a route.I asked Codex to turn the final-frame requirements into a shot plan with explicit camera movement, foreground events, exposure changes and stopping behavior.The goal was not a longer prompt. The goal was to remove ambiguity. 3.Backsolve a physical route The resulting route looked like this: low interior start → follow a red cue across the floor → accelerate toward a blown-out exit → cross into the yard → pass the drill crew, hose lines and fire truck as foreground occlusions → move alongside the girl → arc onto the final viewing axis Each object had a reason to exist.The red cue establishes direction. The bright exit motivates the exposure transition. The truck and hose lines create translation and parallax. The final arc brings the camera onto the reference perspective. 4.Use ChatGPT to find the failure point When the first version drifted, I did not ask for “a better prompt.”I asked which constraint was underspecified. That usually exposed a specific problem: the camera was rotating instead of translating, the foreground objects had no timing, or the final frame was described as an image instead of a state the camera had to reach. That made iteration much more mechanical. 5.Write the stop as an action The ending became its own motion phase: fast flight → controlled glide → small positional correction → shared camera/subject deceleration → complete stop The camera and facial movement settle together on the final frame.The stop is not an edit. It is the last action in the shot. For reproducibility: the opening frame was generated in Seedream 5.0 Pro for $0.045. The 20-second Seedance 2.5 run cost $2.68 at 1080p-ESR / 60 fps through the Atlas Cloud API inside OpenMontage. I also referenced this repo while turning the reverse-engineered route into a model-ready shot plan: The interesting part for me was not that ChatGPT wrote a good prompt. It was that it helped turn a vague visual idea into a set of constraints, causes and transitions that another model could execute. Has anyone else used ChatGPT as a shot planner instead of a prompt rewriter? I’m curious whether the same terminal-state approach would work for UI animation, robotics simulations, architecture, or any task where the final state matters more than the first frame. &#32; submitted by &#32; /u/Lonelydude014 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuhi3h/i_used_codex_to_make_seedance_25_arrive_at_the/",
     "authority_score": 0.5
   },
   {
@@ -88,19 +88,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T13:11:11Z",
-    "author": "/u/severe_009",
-    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T05:33:47Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "Most stunning place in the universe - Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3pfq/most_stunning_place_in_the_universe/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T13:11:11Z",
+    "author": "/u/severe_009",
+    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   },
   {
@@ -128,19 +128,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T19:43:08Z",
-    "author": "/u/KalzK",
-    "text": "Correct calendar - I asked for a pic of an 80's girl for a calendar, and was surprised that the calendar for August 1986 was correct. Small thing, but it was unexpected, that's all. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqi5z/correct_calendar/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T04:31:15Z",
     "author": "/u/Alarming-Ferret7114",
     "text": "My ChatGPT is no longer showing the edit arrows - I wonder why? This was a huge advantage over other programs, and now it's just terrible... To top it all off, the arrows aren't showing up in old chats either. My god, this is a huge problem for me. &#32; submitted by &#32; /u/Alarming-Ferret7114 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv2hys/my_chatgpt_is_no_longer_showing_the_edit_arrows/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T19:43:08Z",
+    "author": "/u/KalzK",
+    "text": "Correct calendar - I asked for a pic of an 80's girl for a calendar, and was surprised that the calendar for August 1986 was correct. Small thing, but it was unexpected, that's all. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuqi5z/correct_calendar/",
     "authority_score": 0.5
   },
   {
@@ -176,6 +176,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T06:08:11Z",
+    "author": "/u/duckling-developer",
+    "text": "Has anyone else gotten this pop-up? - &#32; submitted by &#32; /u/duckling-developer [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4c6k/has_anyone_else_gotten_this_popup/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T15:42:29Z",
     "author": "/u/CrestlessYeoman",
     "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
@@ -189,14 +197,6 @@
     "text": "he a cat - https://chatgpt.com/share/6a88ee97-244c-83eb-b6a2-a45ba7743a28 &#32; submitted by &#32; /u/DefiantKind [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vuxo8y/he_a_cat/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T06:09:37Z",
-    "author": "/u/tilted0ne",
-    "text": "ChatGPT yaps too much - Does anyone else get annoyed by how wordy GPT is? It often feels like you ask something and get a novel in return. I’ve been using Claude more lately, and its ability to cut straight to the key points without picking apart every sentence makes a huge difference for workflow. Claude is really good at knowing what to abstract and they seem very intentional in making things highly accessible. I think llms in general seem to hardline to that but it's just GPT who does the opposite. Simply put, I think the value density tends to be far greater with Claude outputs. GPT might provide more value but it cancels out if it takes disproportionately longer to convey. I really don't see people talking about this and I wonder if this is a common feeling. &#32; submitted by &#32; /u/tilted0ne [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
     "authority_score": 0.5
   }
 ]
