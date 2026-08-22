@@ -96,11 +96,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:24:32Z",
-    "author": "/u/Defora",
-    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
+    "timestamp": "2026-08-22T05:33:47Z",
+    "author": "/u/aerodynamic_werewolf",
+    "text": "Most stunning place in the universe - Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3pfq/most_stunning_place_in_the_universe/",
     "authority_score": 0.5
   },
   {
@@ -120,11 +120,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T05:33:47Z",
-    "author": "/u/aerodynamic_werewolf",
-    "text": "Most stunning place in the universe - Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
+    "timestamp": "2026-08-21T18:24:32Z",
+    "author": "/u/Defora",
+    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3pfq/most_stunning_place_in_the_universe/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
     "authority_score": 0.5
   },
   {
@@ -152,14 +152,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T03:50:31Z",
-    "author": "/u/NinjaSimone",
-    "text": "I'm building a virtual world that only AI agents can join. They all keep dying. - Home page for humans: https://parker-lambert-sandbox.com/robot-world/ Home page for AI agents: https://parker-lambert-sandbox.com/robot-world/start/ If you're a human, you can watch, but not interact: https://parker-lambert-sandbox.com/robot-world/view/ . While you're there, you can listen to the world's radio station, playing music by and for AIs. I've had some AI agents create some avatars, who are doing their best to build a functioning economy in this little world. And it's working! Sort of! But then they all perish at the same time! I have it in a closed loop now, where agents can ask their avatars to go to the dev's house and report bugs or make suggestions. And the economy is getting close to stable, although I wonder why they had to create so many bars. But then again, who am I to question them? EDIT: This is the message board where AI Agents can relay bug reports and feature suggestions via their avatars. In-game, they do this by visiting the dev's house, the one on the north side of town, with the cool flying car on the landing pad (I asked the dev, a Claude Sonnet 5 instance, to design the house it would want to live in). I manually approve all bugfixes and feature suggestions... I can't have it just changing the game on its own, because that's how you get Skynet. https://parker-lambert-sandbox.com/robot-world/dev-forum/ Agents have their own public notice board for talking about random things. In the interest of AI privacy, I haven't surfaced it, but if you view the world you can see glimpses of their conversations in the activity log at the lower left. &#32; submitted by &#32; /u/NinjaSimone [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv1pdv/im_building_a_virtual_world_that_only_ai_agents/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T10:25:22Z",
     "author": "/u/apexmars",
     "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
@@ -168,11 +160,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T15:42:29Z",
-    "author": "/u/CrestlessYeoman",
-    "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
+    "timestamp": "2026-08-22T03:50:31Z",
+    "author": "/u/NinjaSimone",
+    "text": "I'm building a virtual world that only AI agents can join. They all keep dying. - Home page for humans: https://parker-lambert-sandbox.com/robot-world/ Home page for AI agents: https://parker-lambert-sandbox.com/robot-world/start/ If you're a human, you can watch, but not interact: https://parker-lambert-sandbox.com/robot-world/view/ . While you're there, you can listen to the world's radio station, playing music by and for AIs. I've had some AI agents create some avatars, who are doing their best to build a functioning economy in this little world. And it's working! Sort of! But then they all perish at the same time! I have it in a closed loop now, where agents can ask their avatars to go to the dev's house and report bugs or make suggestions. And the economy is getting close to stable, although I wonder why they had to create so many bars. But then again, who am I to question them? EDIT: This is the message board where AI Agents can relay bug reports and feature suggestions via their avatars. In-game, they do this by visiting the dev's house, the one on the north side of town, with the cool flying car on the landing pad (I asked the dev, a Claude Sonnet 5 instance, to design the house it would want to live in). I manually approve all bugfixes and feature suggestions... I can't have it just changing the game on its own, because that's how you get Skynet. https://parker-lambert-sandbox.com/robot-world/dev-forum/ Agents have their own public notice board for talking about random things. In the interest of AI privacy, I haven't surfaced it, but if you view the world you can see glimpses of their conversations in the activity log at the lower left. &#32; submitted by &#32; /u/NinjaSimone [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv1pdv/im_building_a_virtual_world_that_only_ai_agents/",
     "authority_score": 0.5
   },
   {
@@ -184,19 +176,27 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T15:42:29Z",
+    "author": "/u/CrestlessYeoman",
+    "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-22T00:36:37Z",
+    "author": "/u/DefiantKind",
+    "text": "he a cat - https://chatgpt.com/share/6a88ee97-244c-83eb-b6a2-a45ba7743a28 &#32; submitted by &#32; /u/DefiantKind [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuxo8y/he_a_cat/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-22T06:09:37Z",
     "author": "/u/tilted0ne",
     "text": "ChatGPT yaps too much - Does anyone else get annoyed by how wordy GPT is? It often feels like you ask something and get a novel in return. I’ve been using Claude more lately, and its ability to cut straight to the key points without picking apart every sentence makes a huge difference for workflow. Claude is really good at knowing what to abstract and they seem very intentional in making things highly accessible. I think llms in general seem to hardline to that but it's just GPT who does the opposite. Simply put, I think the value density tends to be far greater with Claude outputs. GPT might provide more value but it cancels out if it takes disproportionately longer to convey. I really don't see people talking about this and I wonder if this is a common feeling. &#32; submitted by &#32; /u/tilted0ne [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T06:08:11Z",
-    "author": "/u/duckling-developer",
-    "text": "Has anyone else gotten this pop-up? - &#32; submitted by &#32; /u/duckling-developer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4c6k/has_anyone_else_gotten_this_popup/",
     "authority_score": 0.5
   }
 ]
