@@ -88,6 +88,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T07:03:12Z",
+    "author": "/u/UnionApprehensive201",
+    "text": "GPT has pulled ahead of Claude? - I have subscriptions to both, and more and more feel like GPT 5.6 Sol is considerably better than anything Claude offers. What do you think? &#32; submitted by &#32; /u/UnionApprehensive201 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-22T05:33:47Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "Most stunning place in the universe - Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
@@ -128,14 +136,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T07:03:12Z",
-    "author": "/u/UnionApprehensive201",
-    "text": "GPT has pulled ahead of Claude? - I have subscriptions to both, and more and more feel like GPT 5.6 Sol is considerably better than anything Claude offers. What do you think? &#32; submitted by &#32; /u/UnionApprehensive201 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv5bqf/gpt_has_pulled_ahead_of_claude/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T04:31:15Z",
     "author": "/u/Alarming-Ferret7114",
     "text": "My ChatGPT is no longer showing the edit arrows - I wonder why? This was a huge advantage over other programs, and now it's just terrible... To top it all off, the arrows aren't showing up in old chats either. My god, this is a huge problem for me. &#32; submitted by &#32; /u/Alarming-Ferret7114 [link] &#32; [comments]",
@@ -160,14 +160,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T06:08:11Z",
-    "author": "/u/duckling-developer",
-    "text": "Has anyone else gotten this pop-up? - &#32; submitted by &#32; /u/duckling-developer [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4c6k/has_anyone_else_gotten_this_popup/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T03:50:31Z",
     "author": "/u/NinjaSimone",
     "text": "I'm building a virtual world that only AI agents can join. They all keep dying. - Home page for humans: https://parker-lambert-sandbox.com/robot-world/ Home page for AI agents: https://parker-lambert-sandbox.com/robot-world/start/ If you're a human, you can watch, but not interact: https://parker-lambert-sandbox.com/robot-world/view/ . While you're there, you can listen to the world's radio station, playing music by and for AIs. I've had some AI agents create some avatars, who are doing their best to build a functioning economy in this little world. And it's working! Sort of! But then they all perish at the same time! I have it in a closed loop now, where agents can ask their avatars to go to the dev's house and report bugs or make suggestions. And the economy is getting close to stable, although I wonder why they had to create so many bars. But then again, who am I to question them? EDIT: This is the message board where AI Agents can relay bug reports and feature suggestions via their avatars. In-game, they do this by visiting the dev's house, the one on the north side of town, with the cool flying car on the landing pad (I asked the dev, a Claude Sonnet 5 instance, to design the house it would want to live in). I manually approve all bugfixes and feature suggestions... I can't have it just changing the game on its own, because that's how you get Skynet. https://parker-lambert-sandbox.com/robot-world/dev-forum/ Agents have their own public notice board for talking about random things. In the interest of AI privacy, I haven't surfaced it, but if you view the world you can see glimpses of their conversations in the activity log at the lower left. &#32; submitted by &#32; /u/NinjaSimone [link] &#32; [comments]",
@@ -176,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T10:25:22Z",
-    "author": "/u/apexmars",
-    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
+    "timestamp": "2026-08-22T06:08:11Z",
+    "author": "/u/duckling-developer",
+    "text": "Has anyone else gotten this pop-up? - &#32; submitted by &#32; /u/duckling-developer [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4c6k/has_anyone_else_gotten_this_popup/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +184,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T06:09:37Z",
-    "author": "/u/tilted0ne",
-    "text": "ChatGPT yaps too much - Does anyone else get annoyed by how wordy GPT is? It often feels like you ask something and get a novel in return. I’ve been using Claude more lately, and its ability to cut straight to the key points without picking apart every sentence makes a huge difference for workflow. Claude is really good at knowing what to abstract and they seem very intentional in making things highly accessible. I think llms in general seem to hardline to that but it's just GPT who does the opposite. Simply put, I think the value density tends to be far greater with Claude outputs. GPT might provide more value but it cancels out if it takes disproportionately longer to convey. I really don't see people talking about this and I wonder if this is a common feeling. &#32; submitted by &#32; /u/tilted0ne [link] &#32; [comments]",
+    "timestamp": "2026-08-21T10:25:22Z",
+    "author": "/u/apexmars",
+    "text": "What’s an unexpectedly productive use case of ChatGPT you discovered recently? - &#32; submitted by &#32; /u/apexmars [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vucgwm/whats_an_unexpectedly_productive_use_case_of/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T15:42:29Z",
+    "author": "/u/CrestlessYeoman",
+    "text": "Do you agree with ChatGPT’s assessment of my appearance? - &#32; submitted by &#32; /u/CrestlessYeoman [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vujx5a/do_you_agree_with_chatgpts_assessment_of_my/",
     "authority_score": 0.5
   }
 ]
