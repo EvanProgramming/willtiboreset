@@ -24,14 +24,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T11:40:28Z",
-    "author": "/u/KeanuRave100",
-    "text": "[Everyone disliked that.] - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vva6gr/everyone_disliked_that/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T19:40:30Z",
     "author": "/u/burikismat47",
     "text": "GTA: Pyongyang - spent way too long on this. fake GTA trailer, pyongyang setting, made with craze ai (i build it so obviously biased). the tram wires staying intact through the whole shot is the bit im weirdly proud of &#32; submitted by &#32; /u/burikismat47 [link] &#32; [comments]",
@@ -88,14 +80,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:45:02Z",
-    "author": "/u/Therebentine_jaguar",
-    "text": "Asked Chat GPT to take a random picture in 2003 - &#32; submitted by &#32; /u/Therebentine_jaguar [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoxla/asked_chat_gpt_to_take_a_random_picture_in_2003/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T12:24:55Z",
     "author": "/u/Ixb11170",
     "text": "5.6 high is answering like \"instant\". It seems unable to actually perform tasks. - I've been working on a project for a few days and now all of a sudden chagpt is unusable.. It will list the next steps of implementation but never actually start working on them. anyone else? UPDATE I have found this post which is related to the issue. It seems chatgpt silently switches to 5.5 mini model: https://community.openai.com/t/possible-chatgpt-behavior-regression-after-august-19-outage-gpt-5-6-sol-projects-long-context-workflows/1391531/20 Workarounds: - Desktop app seems to work better with proper reasoning and function. I'm however having issue with file uploads there so i'm switching between browser chat and desktop app. - Log out from chagpt on your browser. Clear your cache. Close browser, reopen and re-login. You can ask chatgpt &quot;which model am i talking to&quot; t confirm if you are back on 5.6 High. Worked for me, at least for now. &#32; submitted by &#32; /u/Ixb11170 [link] &#32; [comments]",
@@ -104,19 +88,19 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-21T18:45:02Z",
+    "author": "/u/Therebentine_jaguar",
+    "text": "Asked Chat GPT to take a random picture in 2003 - &#32; submitted by &#32; /u/Therebentine_jaguar [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoxla/asked_chat_gpt_to_take_a_random_picture_in_2003/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-22T05:33:47Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "Most stunning place in the universe - &quot;Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place.&quot; Feel free to replace &quot;stunning&quot; with something else. Or maybe you want there to be lifeforms. Who knows. Let the community know if you find anything worth sharing. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3pfq/most_stunning_place_in_the_universe/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T14:06:36Z",
-    "author": "/u/drgoldenpants",
-    "text": "Chinese humanoids are on a whole different league - &#32; submitted by &#32; /u/drgoldenpants [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvdddk/chinese_humanoids_are_on_a_whole_different_league/",
     "authority_score": 0.5
   },
   {
@@ -133,6 +117,14 @@
     "text": "Why are people commenting on my 1995 Livejournal posts: 'AI slop'? - What's the oldest social media post you ever found an 'AI slop' comment on 😂 It took thirty one years to make this post. &#32; submitted by &#32; /u/decofan [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv7ng6/why_are_people_commenting_on_my_1995_livejournal/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-22T14:42:55Z",
+    "author": "/u/Dangerous-Tart6395",
+    "text": "5.6 is good. - It's good. Very creative writing and it can swear. I like AIs with personality. I hipe they make 5.6 better and etc. And keep it's personality. &#32; submitted by &#32; /u/Dangerous-Tart6395 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vve8iy/56_is_good/",
     "authority_score": 0.5
   },
   {
@@ -168,14 +160,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:24:32Z",
-    "author": "/u/Defora",
-    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T04:31:15Z",
     "author": "/u/Alarming-Ferret7114",
     "text": "My ChatGPT is no longer showing the edit arrows - I wonder why? This was a huge advantage over other programs, and now it's just terrible... To top it all off, the arrows aren't showing up in old chats either. My god, this is a huge problem for me. &#32; submitted by &#32; /u/Alarming-Ferret7114 [link] &#32; [comments]",
@@ -184,19 +168,35 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T14:45:09Z",
+    "author": "/u/TreptowerPark",
+    "text": "PSA: If you click the (x) then Chat will stay as default... - There is no option to revert this afaik... Sneaky Sam using 90ies online tactics lol &#32; submitted by &#32; /u/TreptowerPark [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vveaig/psa_if_you_click_the_x_then_chat_will_stay_as/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T18:24:32Z",
+    "author": "/u/Defora",
+    "text": "Hopefully this is ok: Prompt for a wallpaper generation for your phone - I just got the new phone and ofc wanted a new wallpaper for it but didn't find anything nice and original on Google / reddit subs. Messed around with the AI and (hopefully) got a nice prompt to share. Included images are from chatGPT and Gemini. Anyways, reusable prompt below: A serene stylized landscape illustration designed as a premium vertical smartphone wallpaper. Use layered geometric and softly painted shapes, simplified silhouettes, elegant polygonal forms, atmospheric perspective, and strong foreground/midground/background separation. Create depth through overlapping landscape layers rather than realistic detail. Soft cinematic lighting, subtle gradients, dreamy haze, restrained cohesive colors, painterly-but-clean surfaces, crisp silhouettes, minimal fine texture, and a sophisticated modern nature-poster aesthetic. The scene should feel immersive, peaceful, slightly magical, and cinematic rather than photorealistic. Rich environmental detail should come from shapes, composition, lighting, and layering rather than tiny objects. Tall 9:16 composition with a visually interesting lower third and generous atmospheric space toward the upper portion. No text, no borders, no UI elements, no photorealism, no 3D-rendered appearance. \\---prompt ends------ To get a specific location (for example beach) don't change above part much. Change the environment and lighting. Avoid simply saying “stylized beach.” That can push the model toward generic vacation artwork. Include instead this type of explanation: A secluded tropical coastline at sunset, with enormous layered cliffs, distant islands fading into haze, a winding shoreline, dark silhouetted palms and coastal vegetation in the foreground, calm reflective water, warm sun near the horizon, long bands of peach and coral light across the ocean... That gives you the same compositional DNA while making it different. &#32; submitted by &#32; /u/Defora [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuocq0/hopefully_this_is_ok_prompt_for_a_wallpaper/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-22T14:27:06Z",
+    "author": "/u/Glittering-Bed-882",
+    "text": "Regenerated content missing in a sudden - https://preview.redd.it/n4syrqlxrxkh1.png?width=1918&amp;format=png&amp;auto=webp&amp;s=a1f3fc74d60d523bb236c8d99d05f370bde57af8 I'm using the pencil button to edit my content but after that, I can't view the previous message (It works few days ago) &#32; submitted by &#32; /u/Glittering-Bed-882 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvdv03/regenerated_content_missing_in_a_sudden/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T16:21:56Z",
     "author": "/u/CloseCalls4walls",
     "text": "Of those that have had multiple therapists, etc., how many of you would say ChatGPT has been as helpful or more helpful than the therapists you've had? - I've had over ten. ChatGPT has been more helpful than all ten combined and it's not even a therapist. And yes I know how to use my brain. It has simply helped me make breakthrough after breakthrough after breakthrough. &#32; submitted by &#32; /u/CloseCalls4walls [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vukzdw/of_those_that_have_had_multiple_therapists_etc/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T13:07:40Z",
-    "author": "/u/Pure_Tomorrow597",
-    "text": "Pictures with the wow effect - Chat GPT produces amazing images, I think – I'm always very impressed with the results – it's actually incredible what's possible to create – but still, the results could sometimes be better. What do you do to get the best results? Do you use special instructions and sources in your projects? I tried it once – the results were a bit better – but I think there's still room for improvement. How do you get the best results? Show us your results! Thanks! &#32; submitted by &#32; /u/Pure_Tomorrow597 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvc03w/pictures_with_the_wow_effect/",
     "authority_score": 0.5
   }
 ]
