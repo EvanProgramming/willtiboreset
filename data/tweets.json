@@ -152,6 +152,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T03:50:31Z",
+    "author": "/u/NinjaSimone",
+    "text": "I'm building a virtual world that only AI agents can join. They all keep dying. - Home page for humans: https://parker-lambert-sandbox.com/robot-world/ Home page for AI agents: https://parker-lambert-sandbox.com/robot-world/start/ If you're a human, you can watch, but not interact: https://parker-lambert-sandbox.com/robot-world/view/ . While you're there, you can listen to the world's radio station, playing music by and for AIs. I've had some AI agents create some avatars, who are doing their best to build a functioning economy in this little world. And it's working! Sort of! But then they all perish at the same time! I have it in a closed loop now, where agents can ask their avatars to go to the dev's house and report bugs or make suggestions. And the economy is getting close to stable, although I wonder why they had to create so many bars. But then again, who am I to question them? &#32; submitted by &#32; /u/NinjaSimone [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv1pdv/im_building_a_virtual_world_that_only_ai_agents/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-20T21:23:08Z",
     "author": "/u/Trumps_Suit",
     "text": "My best blunder ever - &#32; submitted by &#32; /u/Trumps_Suit [link] &#32; [comments]",
@@ -160,11 +168,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T03:50:31Z",
-    "author": "/u/NinjaSimone",
-    "text": "I'm building a virtual world that only AI agents can join. They all keep dying. - Home page for humans: https://parker-lambert-sandbox.com/robot-world/ Home page for AI agents: https://parker-lambert-sandbox.com/robot-world/start/ If you're a human, you can watch, but not interact: https://parker-lambert-sandbox.com/robot-world/view/ . While you're there, you can listen to the world's radio station, playing music by and for AIs. I've had some AI agents create some avatars, who are doing their best to build a functioning economy in this little world. And it's working! Sort of! But then they all perish at the same time! I have it in a closed loop now, where agents can ask their avatars to go to the dev's house and report bugs or make suggestions. And the economy is getting close to stable, although I wonder why they had to create so many bars. But then again, who am I to question them? &#32; submitted by &#32; /u/NinjaSimone [link] &#32; [comments]",
+    "timestamp": "2026-08-22T05:12:30Z",
+    "author": "/u/JasperKingsly",
+    "text": "Recommended books - After a while of using Chat, I asked it to recommend me five books based on our interactions. &#32; submitted by &#32; /u/JasperKingsly [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv1pdv/im_building_a_virtual_world_that_only_ai_agents/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3auu/recommended_books/",
     "authority_score": 0.5
   },
   {
@@ -189,14 +197,6 @@
     "text": "Catvana - &#32; submitted by &#32; /u/Professional_Arm794 [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vud31v/catvana/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T02:19:07Z",
-    "author": "/u/LittleFortunex",
-    "text": "Collateral Damage - &#32; submitted by &#32; /u/LittleFortunex [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vuzv7n/collateral_damage/",
     "authority_score": 0.5
   }
 ]
