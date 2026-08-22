@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-22T15:02:34.694818+00:00",
+  "updated_at": "2026-08-22T15:13:33.726623+00:00",
   "prediction": {
-    "within_5h": 0.0728,
-    "within_24h": 0.2504,
-    "within_48h": 0.3767
+    "within_5h": 0.0726,
+    "within_24h": 0.2501,
+    "within_48h": 0.3763
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 106.0,
+    "hours_until": 105.8,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 230.02630391472223,
+    "hours_since_last_reset": 230.20936831944445,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 106.0,
+      "hours_until": 105.8,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,10 +26,10 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 3.1403,
-    "time_pressure": 0.9001,
-    "hazard_rate": 0.011937,
-    "evidence_score": 0.0134,
+    "time_ratio": 3.1428,
+    "time_pressure": 0.9007,
+    "hazard_rate": 0.011921,
+    "evidence_score": 0.0133,
     "tibo_signal": 0.05,
     "community_signal": 0.0,
     "release_signal": 0.5,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "230.0 hours since last reset",
+      "factor": "230.2 hours since last reset",
       "impact": "+10%",
       "score": 0.9
     },
@@ -72,8 +72,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "230.0 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "230.2 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "Weak reset evidence detected (evidence_score=0.01), insufficient to confirm",
-    "Main factor: 230.0 hours since last reset (+10%)"
+    "Main factor: 230.2 hours since last reset (+10%)"
   ]
 }
