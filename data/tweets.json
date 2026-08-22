@@ -88,6 +88,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T11:40:28Z",
+    "author": "/u/KeanuRave100",
+    "text": "[Everyone disliked that.] - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vva6gr/everyone_disliked_that/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-22T05:33:47Z",
     "author": "/u/aerodynamic_werewolf",
     "text": "Most stunning place in the universe - Imagine you have entered the most stunning place in the universe. It's quiet, peaceful. No lifeforms to be seen. Show me a picture of that place. &#32; submitted by &#32; /u/aerodynamic_werewolf [link] &#32; [comments]",
@@ -112,19 +120,19 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T13:11:11Z",
-    "author": "/u/severe_009",
-    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-22T09:21:20Z",
     "author": "/u/decofan",
     "text": "Why are people commenting on my 1995 Livejournal posts: 'AI slop'? - What's the oldest social media post you ever found an 'AI slop' comment on 😂 It took thirty one years to make this post. &#32; submitted by &#32; /u/decofan [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv7ng6/why_are_people_commenting_on_my_1995_livejournal/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-21T13:11:11Z",
+    "author": "/u/severe_009",
+    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   },
   {
@@ -168,22 +176,6 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T11:40:28Z",
-    "author": "/u/KeanuRave100",
-    "text": "[Everyone disliked that.] - &#32; submitted by &#32; /u/KeanuRave100 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vva6gr/everyone_disliked_that/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T12:05:02Z",
-    "author": "/u/MrsMorbus",
-    "text": "NO IDEA WHAT HAPPENED HERE, BUT THAT GOT ME LAUGHING - &#32; submitted by &#32; /u/MrsMorbus [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvaob5/no_idea_what_happened_here_but_that_got_me/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T19:43:08Z",
     "author": "/u/KalzK",
     "text": "Correct calendar - I asked for a pic of an 80's girl for a calendar, and was surprised that the calendar for August 1986 was correct. Small thing, but it was unexpected, that's all. &#32; submitted by &#32; /u/KalzK [link] &#32; [comments]",
@@ -197,6 +189,14 @@
     "text": "ChatGPT yaps too much - Does anyone else get annoyed by how wordy GPT is? It often feels like you ask something and get a novel in return. I’ve been using Claude more lately, and its ability to cut straight to the key points without picking apart every sentence makes a huge difference for workflow. Claude is really good at knowing what to abstract and they seem very intentional in making things highly accessible. I think llms in general seem to hardline to that but it's just GPT who does the opposite. Simply put, I think the value density tends to be far greater with Claude outputs. GPT might provide more value but it cancels out if it takes disproportionately longer to convey. I really don't see people talking about this and I wonder if this is a common feeling. &#32; submitted by &#32; /u/tilted0ne [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vv4d3s/chatgpt_yaps_too_much/",
+    "authority_score": 0.5
+  },
+  {
+    "timestamp": "2026-08-22T05:12:30Z",
+    "author": "/u/JasperKingsly",
+    "text": "Recommended books - After a while of using Chat, I asked it to recommend me five books based on our interactions. &#32; submitted by &#32; /u/JasperKingsly [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vv3auu/recommended_books/",
     "authority_score": 0.5
   }
 ]
