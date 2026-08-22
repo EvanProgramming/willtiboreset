@@ -48,6 +48,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T14:56:11Z",
+    "author": "/u/TraditionalDepth6924",
+    "text": "Can AI act like the latter? - &#32; submitted by &#32; /u/TraditionalDepth6924 [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvek69/can_ai_act_like_the_latter/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-21T17:08:01Z",
     "author": "/u/Alone_Landscape_3562",
     "text": "Things are going great for michael i’d say - &#32; submitted by &#32; /u/Alone_Landscape_3562 [link] &#32; [comments]",
@@ -80,6 +88,14 @@
     "authority_score": 0.5
   },
   {
+    "timestamp": "2026-08-22T14:52:28Z",
+    "author": "/u/OneMoreSuperUser",
+    "text": "I built an app with Codex that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text. - I’m excited to share a project I’ve been building over the past few months, created entirely using Codex! It’s a mobile app that turns any text into high-quality audio. Whether it’s a webpage, a Substack or Medium article, a PDF, or just copied text, it converts it into clear, natural-sounding speech. You can listen to it like a podcast or audiobook, even with the app running in the background. The app is privacy-friendly and doesn’t request any permissions by default. It only asks for access if you choose to share files from your device for audio conversion. You can also take or upload a photo of any text, and the app will extract and read it aloud. - React Native (expo) - NodeJS, react (web) - Framer Landing The app is called Frateca. You can find it on Google Play and the App Store. I also working on web vesion, it's already live. Free iPhone app Free Android app on Google Play Free web version, works in any browser (on desktop or laptop). Thanks for your support, I’d love to hear what you think! &#32; submitted by &#32; /u/OneMoreSuperUser [link] &#32; [comments]",
+    "source": "community_rss",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvegxu/i_built_an_app_with_codex_that_converts_any_text/",
+    "authority_score": 0.5
+  },
+  {
     "timestamp": "2026-08-22T12:24:55Z",
     "author": "/u/Ixb11170",
     "text": "5.6 high is answering like \"instant\". It seems unable to actually perform tasks. - I've been working on a project for a few days and now all of a sudden chagpt is unusable.. It will list the next steps of implementation but never actually start working on them. anyone else? UPDATE I have found this post which is related to the issue. It seems chatgpt silently switches to 5.5 mini model: https://community.openai.com/t/possible-chatgpt-behavior-regression-after-august-19-outage-gpt-5-6-sol-projects-long-context-workflows/1391531/20 Workarounds: - Desktop app seems to work better with proper reasoning and function. I'm however having issue with file uploads there so i'm switching between browser chat and desktop app. - Log out from chagpt on your browser. Clear your cache. Close browser, reopen and re-login. You can ask chatgpt &quot;which model am i talking to&quot; t confirm if you are back on 5.6 High. Worked for me, at least for now. &#32; submitted by &#32; /u/Ixb11170 [link] &#32; [comments]",
@@ -88,27 +104,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-22T14:56:11Z",
-    "author": "/u/TraditionalDepth6924",
-    "text": "Can AI act like the latter? - &#32; submitted by &#32; /u/TraditionalDepth6924 [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvek69/can_ai_act_like_the_latter/",
-    "authority_score": 0.5
-  },
-  {
     "timestamp": "2026-08-21T18:45:02Z",
     "author": "/u/Therebentine_jaguar",
     "text": "Asked Chat GPT to take a random picture in 2003 - &#32; submitted by &#32; /u/Therebentine_jaguar [link] &#32; [comments]",
     "source": "community_rss",
     "url": "https://www.reddit.com/r/ChatGPT/comments/1vuoxla/asked_chat_gpt_to_take_a_random_picture_in_2003/",
-    "authority_score": 0.5
-  },
-  {
-    "timestamp": "2026-08-22T14:52:28Z",
-    "author": "/u/OneMoreSuperUser",
-    "text": "I built an app with Codex that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text. - I’m excited to share a project I’ve been building over the past few months, created entirely using Codex! It’s a mobile app that turns any text into high-quality audio. Whether it’s a webpage, a Substack or Medium article, a PDF, or just copied text, it converts it into clear, natural-sounding speech. You can listen to it like a podcast or audiobook, even with the app running in the background. The app is privacy-friendly and doesn’t request any permissions by default. It only asks for access if you choose to share files from your device for audio conversion. You can also take or upload a photo of any text, and the app will extract and read it aloud. - React Native (expo) - NodeJS, react (web) - Framer Landing The app is called Frateca. You can find it on Google Play and the App Store. I also working on web vesion, it's already live. Free iPhone app Free Android app on Google Play Free web version, works in any browser (on desktop or laptop). Thanks for your support, I’d love to hear what you think! &#32; submitted by &#32; /u/OneMoreSuperUser [link] &#32; [comments]",
-    "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vvegxu/i_built_an_app_with_codex_that_converts_any_text/",
     "authority_score": 0.5
   },
   {
@@ -176,11 +176,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T13:11:11Z",
-    "author": "/u/severe_009",
-    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
+    "timestamp": "2026-08-22T14:34:40Z",
+    "author": "/u/warlordthe99th",
+    "text": "Coming over to ChatGPT after a year of activelyusing Claude and paying for it for over 8 months - Basically I discovered Claude on ERP chatbot platform year and a month ago, and since like august began using it on mobile. First time I bought the subscription was September 7th that lasted til October 4th, and then bought again at December 8th where I paid for 3 months up to March 11th. Then bought again on May 9th, which ended in June and the very next day nerfed Mythos, named feeble 5 was released which after taken away 2 days later I unsubscribed, and then resubscribed again in 1st of August. Basically as someone who doesn't need it in my job, I've been going on and off which might've been foreshadowing this departure, but I simply cannot get any value of it anymore It's not good for anything creative, not even analysing youtube transcripts, as mundane as it is, for coding and my usecase specifically I need tampermonkey scripts, and the 5 hour limits are really oppressive since I only have 4 hours on the evenings and weekend, I awlays end up with 30% unused, while when I need it the most I always have to wait for energy refill. Speaking of which when asked claude about which is better or if chatpgt has more advantageous 20$ plan for what I do, it straight up lied saying that Claude is better until literally framed my demands so specific that it couldn't deflect anymore. Obviously I know chatbots are biased , half by design(Grok) , half because people creating them unconsciously give away their worldview. Which is really funny that with 5 series models Anthropic made the model very biased no matter if the text is criticising llms in general or claude specifially, while also adding the system prompt that reminds its made by anthropic and thus might have slightly tilted representation. Also this kind of not having anything to do with the models themselves, as almost everyone picks on underlying capability, not politics, but it doesn't help Dario being such a fat greasy rodent about everything, speaking up about how claude might be conscious and then next moment announcing fast ultracode for enterprise and how anthropic will be first trillion dollar b2b saas, like the cognitive dissonance couldn't get any more blatant. Obviously I know that Sam Altman is even more edged personality and not honest at all, but like it's so obvious he wants to be the new Zuckerberg of llms, get in as much people as possible to voluntarily upload their data, and rake in as much profit as possible, atleast there aren't people pathetic enough to champion him as some kind of moral vanguard. The straw that broke the clankers back was trying to ask claude how to solve unresolved abstract problems, which it could only trace few distant people trying to write about half a century ago, and even then it was many isolated concepts, on all the claude models which failed miserably, and then i tried on default free mobile model and it gave back more meaningful answer than all of them combined, instantly I know economically it might not matter, nor pretend it does, as no provider really cares about what the non-API conrporate conglomorate people ever do, and that's not the point. I simply think that the Anthropic is playing the 0th stage of grief which is betrayal too soon, as it's one of the smallest players that matter, because chinese LLMs are funded by CCP and google has secured the contract with apple as well as forcing the gemini under google search, grok is integrated by twitter and will be funded by musk for the next 20 years for all i care, chatgpt is the only one normal people know, while claude emerged as enthusiast option, trying to be the professor type, which it was then but isn't anywhere near now, who knows what will happen even after text watermarks get embedded in, which theyre trying to sell as being just cowritten by claude signature on claude code, but really is chatgpt piss filter over text, and im thinking it will affect coding too as fundamentally models aren't able to seperate one thing from another, like linking wordX with wordY is their core arhitecture obvs I know the general rule is that llms are very dispensable, and people using them are very unloyal, except enterprises which buy year long contracts, and there are atleast a hundred memes of the cycles how x provider drops the new best model who scores the highest on trust me bro benchmarks summary is present claude thinks for too long, eats too much tokens , and outputs something that is 3% better on average, so what's the point anymore &#32; submitted by &#32; /u/warlordthe99th [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vve1in/coming_over_to_chatgpt_after_a_year_of/",
     "authority_score": 0.5
   },
   {
@@ -192,11 +192,11 @@
     "authority_score": 0.5
   },
   {
-    "timestamp": "2026-08-21T18:53:04Z",
-    "author": "/u/Outrageous_Snow9298",
-    "text": "Ayo who hurt chat gpt - I asked my chat gpt what it feels and this is what it said &#32; submitted by &#32; /u/Outrageous_Snow9298 [link] &#32; [comments]",
+    "timestamp": "2026-08-21T13:11:11Z",
+    "author": "/u/severe_009",
+    "text": "LLMs are so advanced right now that it's jarring that a lot of people think ChatGPT is just a mere chatbot. - I still meet/talk to people that are so outdated in terms of LLM that when they talk about ChatGPT, it feels like they're talking about what ChatGPT was 2-3 years ago. They don't know all the capabilities it has right now. They don't even know that you can attach your email account and it can interact with it. &#32; submitted by &#32; /u/severe_009 [link] &#32; [comments]",
     "source": "community_rss",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1vup5gd/ayo_who_hurt_chat_gpt/",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1vufz98/llms_are_so_advanced_right_now_that_its_jarring/",
     "authority_score": 0.5
   }
 ]
