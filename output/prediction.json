@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-22T08:19:47.381613+00:00",
+  "updated_at": "2026-08-22T08:42:35.164493+00:00",
   "prediction": {
-    "within_5h": 0.0556,
-    "within_24h": 0.2003,
-    "within_48h": 0.3116
+    "within_5h": 0.0557,
+    "within_24h": 0.2004,
+    "within_48h": 0.3118
   },
   "confidence": "low",
   "next_reset": {
     "expected_time": "2026-08-27T01:01:00+00:00",
-    "hours_until": 112.7,
+    "hours_until": 112.3,
     "status": "overdue"
   },
   "signals": {
     "tweet_count": 25,
-    "hours_since_last_reset": 223.31316140638887,
+    "hours_since_last_reset": 223.69310109444444,
     "next_reset": {
       "expected_time": "2026-08-27T01:01:00+00:00",
-      "hours_until": 112.7,
+      "hours_until": 112.3,
       "status": "overdue"
     },
     "average_reset_interval": 73.25,
@@ -26,9 +26,9 @@
     "min_reset_interval": 0.0,
     "max_reset_interval": 285.48333333333335,
     "interval_confidence": 0.6,
-    "time_ratio": 3.0486,
-    "time_pressure": 0.8766,
-    "hazard_rate": 0.00927,
+    "time_ratio": 3.0538,
+    "time_pressure": 0.8781,
+    "hazard_rate": 0.009275,
     "evidence_score": 0.0,
     "tibo_signal": 0.18,
     "community_signal": 0.0,
@@ -55,7 +55,7 @@
   },
   "main_factors": [
     {
-      "factor": "223.3 hours since last reset",
+      "factor": "223.7 hours since last reset",
       "impact": "+10%",
       "score": 0.88
     },
@@ -67,8 +67,8 @@
   ],
   "reasons": [
     "Expected weekly reset window (last reset + 7 days) has already passed; no new reset confirmed yet, probability driven mainly by time pressure",
-    "223.3 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
+    "223.7 hours since last reset, well beyond historical median interval 47 hours, time factor slightly raises baseline probability",
     "No significant reset signal detected; probability constrained by time prior",
-    "Main factor: 223.3 hours since last reset (+10%)"
+    "Main factor: 223.7 hours since last reset (+10%)"
   ]
 }
