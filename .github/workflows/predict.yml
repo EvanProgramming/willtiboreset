@@ -7,7 +7,7 @@ on:
     - cron: '0 * * * *'
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -26,10 +26,43 @@ jobs:
           echo "Triggered by: ${{ github.event_name }}"
           echo "Run at: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
-      - name: Checkout with full history
+      - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
+
+      # Runtime JSON is published with the Pages artifact so the prediction
+      # history survives without adding generated commits to the source repo.
+      - name: Restore last deployed runtime state
+        run: |
+          set -euo pipefail
+          site_url="https://$(tr -d '\r\n' < CNAME)"
+
+          for file in model_state.json prediction_history.json reset_history.json uncertain_events.json tweets.json; do
+            destination="data/$file"
+            temporary_file="$(mktemp)"
+            if curl --fail --silent --show-error --location --retry 3 --max-time 30 \
+              "$site_url/data/$file" -o "$temporary_file" \
+              && python3 -m json.tool "$temporary_file" >/dev/null 2>&1; then
+              mv "$temporary_file" "$destination"
+              echo "Restored $destination from deployed state"
+            else
+              rm -f "$temporary_file"
+              echo "Using repository seed for $destination"
+            fi
+          done
+
+          for file in prediction.json model_performance.json; do
+            destination="output/$file"
+            temporary_file="$(mktemp)"
+            if curl --fail --silent --show-error --location --retry 3 --max-time 30 \
+              "$site_url/data/$file" -o "$temporary_file" \
+              && python3 -m json.tool "$temporary_file" >/dev/null 2>&1; then
+              mv "$temporary_file" "$destination"
+              echo "Restored $destination from deployed state"
+            else
+              rm -f "$temporary_file"
+              echo "Using repository seed for $destination"
+            fi
+          done
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -64,22 +97,6 @@ jobs:
 
       - name: Build dashboard
         run: npm run build
-
-      # Rebase before committing to survive race conditions when another
-      # commit (e.g. from a concurrent workflow run) lands on main first.
-      - name: Checkout main branch and rebase
-        run: |
-          git checkout main
-          git pull --rebase --autostash origin main
-
-      - name: Commit prediction and model state
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: auto-prediction and model-state update"
-          file_pattern: "output/prediction.json output/model_performance.json data/model_state.json data/prediction_history.json history.txt data/reset_history.json data/uncertain_events.json data/tweets.json"
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "github-actions[bot]@users.noreply.github.com"
-          skip_fetch: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5

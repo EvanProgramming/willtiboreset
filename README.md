@@ -13,7 +13,7 @@ ChatGPT/Codex usage quotas are reset on a regular or irregular schedule, making 
 1. **Collecting public signals**: Gathering information related to quota resets from public sources such as RSS feeds and community discussions.
 2. **LLM signal extraction**: Using an LLM (Gemini API or keyword matching) to convert natural-language text into structured signal scores.
 3. **Survival model prediction**: Computing reset probabilities for each time window based on a Discrete-Time Survival Model.
-4. **Automated execution**: Running automatically every 10 minutes via GitHub Actions to keep predictions up to date.
+4. **Automated execution**: Running automatically every hour via GitHub Actions to keep predictions up to date.
 
 No large neural network is used; the model is interpretable and suitable for scenarios with limited historical data.
 
@@ -178,9 +178,9 @@ python -m pytest tests/ -v
 
 The project is configured with `.github/workflows/predict.yml`:
 
-- **Scheduled runs**: `python predict.py` executes automatically every 10 minutes.
+- **Scheduled runs**: `python predict.py` executes automatically every hour.
 - **Manual trigger**: Trigger manually from the GitHub repository Actions page.
-- **Auto-commit**: The prediction result `output/prediction.json` is automatically committed to the repository.
+- **Runtime state**: The workflow restores the last deployed JSON state, runs the normal prediction and build steps, and republishes the updated state through the Pages artifact. Generated runtime data is not committed to the source repository.
 
 To enable Gemini API analysis, add `GEMINI_API_KEY` in the repository Settings → Secrets.
 

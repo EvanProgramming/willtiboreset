@@ -32,7 +32,7 @@ python -m pytest tests/test_survival_model.py -v
 python -m pytest tests/test_llm_signal.py -v
 ```
 
-GitHub Actions workflow at `.github/workflows/predict.yml` runs `python predict.py` every 10 minutes via cron and auto-commits `output/prediction.json`. Also supports `workflow_dispatch` for manual triggers.
+GitHub Actions workflow at `.github/workflows/predict.yml` runs `python predict.py` hourly via cron and deploys the generated dashboard without committing runtime data. It restores the last deployed JSON state before each run and also supports `workflow_dispatch` for manual triggers.
 
 ## Architecture
 
@@ -82,7 +82,7 @@ collectors → analyzer (statistical) → LLMAnalyzer → build_features → Res
 - `data/reset_history.json` — historical ResetEvent objects
 - `output/signal_analysis.json` — LLM signal analysis results (gitignored)
 - `output/prediction_latest.json` — latest prediction output from `main.py --predict` (gitignored)
-- `output/prediction.json` — final prediction output from `predict.py`, **tracked by git** (auto-committed by GitHub Actions). Format: `{updated_at, prediction: {within_5h, within_24h, within_48h}, confidence, signals, reasons}`
+- `output/prediction.json` — bootstrap prediction output from `predict.py`, tracked as a fallback seed; GitHub Actions deploys runtime updates without committing them. Format: `{updated_at, prediction: {within_5h, within_24h, within_48h}, confidence, signals, reasons}`
 
 ### Environment variables
 

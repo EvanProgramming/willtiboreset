@@ -10,7 +10,10 @@ const targetDir = join(root, "public", "data");
 const files = [
   { src: join(root, "output", "prediction.json"), dest: join(targetDir, "prediction.json") },
   { src: join(root, "output", "model_performance.json"), dest: join(targetDir, "model_performance.json") },
+  { src: join(root, "data", "model_state.json"), dest: join(targetDir, "model_state.json") },
   { src: join(root, "data", "prediction_history.json"), dest: join(targetDir, "prediction_history.json") },
+  { src: join(root, "data", "reset_history.json"), dest: join(targetDir, "reset_history.json") },
+  { src: join(root, "data", "uncertain_events.json"), dest: join(targetDir, "uncertain_events.json") },
   { src: join(root, "data", "tweets.json"), dest: join(targetDir, "tweets.json") },
 ];
 

@@ -49,6 +49,7 @@ output/*.csv
 output/*.txt
 !output/.gitkeep
 !output/__init__.py
-# prediction.json and model_performance.json are auto-committed by GitHub Actions and must be tracked
+# Keep bootstrap outputs tracked as a fallback when deployed runtime state is unavailable.
+# GitHub Actions does not commit runtime updates.
 !output/prediction.json
 !output/model_performance.json
